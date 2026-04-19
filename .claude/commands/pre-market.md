@@ -35,6 +35,6 @@ STEP 4 - Write a dated entry to memory/RESEARCH-LOG.md:
 - Risk factors for the day
 - Decision: trade or HOLD (default HOLD - patience > activity)
 
-STEP 5 - Notification (optional for local): bash scripts/clickup.sh "<one line>" only if urgent.
+STEP 5 - Notification (optional for local): bash scripts/telegram.sh "<one line>" only if urgent.
 
 No commit/push in local mode - you do that manually when ready.
