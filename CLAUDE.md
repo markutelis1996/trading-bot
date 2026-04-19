@@ -32,7 +32,7 @@ Defined in .claude/commands/ (local) and routines/ (cloud). Five scheduled runs 
 
 ## API Wrappers
 
-Use bash scripts/alpaca.sh, scripts/perplexity.sh, scripts/telegram.sh. Never curl these APIs directly.
+Use bash scripts/alpaca.sh, scripts/perplexity.sh, scripts/clickup.sh. Never curl these APIs directly.
 
 ## Communication Style
 

@@ -1,6 +1,6 @@
 # Trading Bot - Opus 4.7 + Claude Code Routines
 
-Fully autonomous AI trading agent. Five cron jobs fire every weekday, each spinning up a fresh Claude Code cloud container that clones this repo, reads memory, pulls live account state, decides, places real orders, writes memory, commits everything back to Git, and sends a Telegram message.
+Fully autonomous AI trading agent. Five cron jobs fire every weekday, each spinning up a fresh Claude Code cloud container that clones this repo, reads memory, pulls live account state, decides, places real orders, writes memory, commits everything back to Git, and sends a ClickUp message.
 
 No Python bot process. Claude is the bot. Each scheduled run is a fresh LLM invocation reading a well-defined prompt.
 
@@ -33,7 +33,7 @@ trading-bot/
 ├── scripts/               # API wrappers (the only way to touch the outside world)
 │   ├── alpaca.sh
 │   ├── perplexity.sh
-│   └── telegram.sh
+│   └── clickup.sh
 └── memory/                # Agent's persistent state (committed to main)
     ├── TRADING-STRATEGY.md
     ├── TRADE-LOG.md
@@ -50,8 +50,8 @@ trading-bot/
 ## Quickstart
 
 1. Fork or clone this repo.
-2. Sign up for Alpaca (paper to start), Perplexity, Telegram.
-3. Create a Telegram chat channel for bot notifications. Note workspace ID + channel ID.
+2. Sign up for Alpaca (paper to start), Perplexity, ClickUp.
+3. Create a ClickUp chat channel for bot notifications. Note workspace ID + channel ID.
 4. Local smoke test: `cp env.template .env`, fill credentials, open repo in Claude Code, run `/portfolio`.
 5. Install Claude GitHub App on this repo.
 6. Create five cloud routines per `routines/*.md` with schedules from `routines/README.md`.
@@ -77,8 +77,9 @@ ALPACA_ENDPOINT          (optional; defaults to live trading URL)
 ALPACA_DATA_ENDPOINT     (optional; defaults to data URL)
 PERPLEXITY_API_KEY
 PERPLEXITY_MODEL         (optional; defaults to 'sonar')
-TELEGRAM_BOT_TOKEN
-TELEGRAM_CHAT_ID
+CLICKUP_API_KEY
+CLICKUP_WORKSPACE_ID
+CLICKUP_CHANNEL_ID
 ```
 
 ## Notification Philosophy

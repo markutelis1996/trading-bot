@@ -26,7 +26,7 @@ Paste each `*.md` prompt verbatim into its Claude Code cloud routine. Do not par
 ## Pre-requisites (one-time, before any routine)
 
 - Install the Claude GitHub App on this repo (least-privilege: only this repo).
-- Ensure Alpaca, Perplexity, Telegram credentials are valid.
+- Ensure Alpaca, Perplexity, ClickUp credentials are valid.
 - Ensure memory files have Day 0 baseline seeded (see memory/TRADE-LOG.md).
 
 ## Failure Mode #1
