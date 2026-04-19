@@ -1,43 +1,95 @@
-# Bull — 24/7 AI Trading Agent
+# Trading Bot - Opus 4.7 + Claude Code Routines
 
-Autonomous trading agent built on Claude Code routines + Alpaca API. Runs 5 scheduled routines Monday-Friday, researches the market, places trades, manages stops, and sends daily/weekly summaries.
+Fully autonomous AI trading agent. Five cron jobs fire every weekday, each spinning up a fresh Claude Code cloud container that clones this repo, reads memory, pulls live account state, decides, places real orders, writes memory, commits everything back to Git, and sends a ClickUp message.
 
-## Status
-- **Mode:** Paper trading (Alpaca paper account)
-- **Starting balance:** $100,000 paper
-- **Goal:** Beat S&P 500 long-term
+No Python bot process. Claude is the bot. Each scheduled run is a fresh LLM invocation reading a well-defined prompt.
 
-## Routines
-| Routine | Schedule | Purpose |
-|---------|----------|---------|
-| pre-market | 6:00 ET Mon-Fri | Research overnight catalysts, draft trade ideas |
-| market-open | 9:30 ET Mon-Fri | Execute planned trades, set trailing stops |
-| midday | 12:00 ET Mon-Fri | Cut -7% losers, tighten winners |
-| market-close | 15:55 ET Mon-Fri | End-of-day summary + trade log |
-| weekly-review | 16:00 ET Fri | Performance review, strategy critique |
+Built from Nate Herk's "Opus 4.7 Trading Bot - Setup Guide" 1:1.
 
-## Folder Structure
+## Repository Layout
+
 ```
-/memory/         - persistent context (read first, update last)
-/routines/       - prompts for each cron-triggered run
-/scripts/        - helper scripts (optional)
-CLAUDE.md        - core rules and guardrails
-README.md        - this file
+trading-bot/
+├── CLAUDE.md              # Agent rulebook (auto-loaded every session)
+├── README.md              # This file
+├── env.template           # Template for local .env file
+├── .gitignore             # Must exclude .env
+├── .claude/
+│   └── commands/          # Ad-hoc slash commands for local use
+│       ├── portfolio.md
+│       ├── trade.md
+│       ├── pre-market.md
+│       ├── market-open.md
+│       ├── midday.md
+│       ├── daily-summary.md
+│       └── weekly-review.md
+├── routines/              # Cloud routine prompts (the prod path)
+│   ├── README.md
+│   ├── pre-market.md
+│   ├── market-open.md
+│   ├── midday.md
+│   ├── daily-summary.md
+│   └── weekly-review.md
+├── scripts/               # API wrappers (the only way to touch the outside world)
+│   ├── alpaca.sh
+│   ├── perplexity.sh
+│   └── clickup.sh
+└── memory/                # Agent's persistent state (committed to main)
+    ├── TRADING-STRATEGY.md
+    ├── TRADE-LOG.md
+    ├── RESEARCH-LOG.md
+    ├── WEEKLY-REVIEW.md
+    └── PROJECT-CONTEXT.md
 ```
 
-## Setup
-1. Clone this repo
-2. Create Claude Cloud Environment `trading` with env vars:
-   - `ALPACA_KEY`, `ALPACA_SECRET`, `ALPACA_BASE_URL`
-   - `PERPLEXITY_API_KEY`
-   - `CLICKUP_TOKEN`, `CLICKUP_LIST_ID`
-3. Create 5 remote routines in Claude Desktop, paste prompts from `/routines/`
-4. Enable "Allow unrestricted branch pushes" in each routine's permissions
-5. Run each routine manually once to verify
+## Two Execution Modes
 
-## Moving to Live
-Only after 2+ weeks of clean paper trading:
-1. Update `ALPACA_BASE_URL` to `https://api.alpaca.markets`
-2. Swap to live Alpaca keys
-3. Update CLAUDE.md rule #1
-4. Start with small capital ($500-1000) before scaling
+- **Local:** `/pre-market` etc. inside Claude Code. Credentials from `.env`. For testing.
+- **Cloud (production):** Routines fire on cron. Credentials from routine env vars. No `.env` file.
+
+## Quickstart
+
+1. Fork or clone this repo.
+2. Sign up for Alpaca (paper to start), Perplexity, ClickUp.
+3. Create a ClickUp chat channel for bot notifications. Note workspace ID + channel ID.
+4. Local smoke test: `cp env.template .env`, fill credentials, open repo in Claude Code, run `/portfolio`.
+5. Install Claude GitHub App on this repo.
+6. Create five cloud routines per `routines/*.md` with schedules from `routines/README.md`.
+7. In each routine env, add credentials from Section 7 of the guide (below) and toggle ON "Allow unrestricted branch pushes".
+8. Hit Run Now on each routine and watch logs.
+
+## Five Cron Schedules (America/Chicago)
+
+| Routine         | Cron         | Notes                              |
+|-----------------|--------------|------------------------------------|
+| pre-market      | 0 6 * * 1-5  | 6:00 AM weekdays                   |
+| market-open     | 30 8 * * 1-5 | 8:30 AM (NYSE open in CT)          |
+| midday          | 0 12 * * 1-5 | Noon weekdays                      |
+| daily-summary   | 0 15 * * 1-5 | 3:00 PM (NYSE close in CT)         |
+| weekly-review   | 0 16 * * 5   | 4:00 PM Fridays only               |
+
+## Required Environment Variables (set on routine, NOT in .env for cloud)
+
+```
+ALPACA_API_KEY
+ALPACA_SECRET_KEY
+ALPACA_ENDPOINT          (optional; defaults to live trading URL)
+ALPACA_DATA_ENDPOINT     (optional; defaults to data URL)
+PERPLEXITY_API_KEY
+PERPLEXITY_MODEL         (optional; defaults to 'sonar')
+CLICKUP_API_KEY
+CLICKUP_WORKSPACE_ID
+CLICKUP_CHANNEL_ID
+```
+
+## Notification Philosophy
+
+- Pre-market: silent unless urgent.
+- Market-open: only if a trade was placed.
+- Midday: only if action was taken.
+- Daily-summary: always, one message, under 15 lines.
+- Weekly-review: always, one message, headline numbers.
+
+## Hard Rules (see memory/TRADING-STRATEGY.md)
+
+Stocks only. Max 5-6 positions, max 20% each. Max 3 new trades/week. 10% trailing stops GTC. Cut -7% manually. Tighten 7% at +15%, 5% at +20%. Never within 3% of current. Never move a stop down.

@@ -1,21 +1,30 @@
 # Research Log
 
-Daily research notes from Perplexity + agent analysis. Keep entries concise — this is working memory, not a news archive.
+Daily pre-market research entries will be appended here. Format each entry:
 
----
+## YYYY-MM-DD - Pre-market Research
 
-## Template
-```
-### [YYYY-MM-DD] Pre-market research
-**Macro:** <1 line on broader market context>
-**Catalysts today:** <earnings, Fed, econ data, M&A>
-**Watchlist additions:** TICKER — <reason>
-**Watchlist removals:** TICKER — <reason>
-**Notes:** <any other observations>
-```
+### Account
+- Equity: $X
+- Cash: $X
+- Buying power: $X
+- Daytrade count: N
 
----
+### Market Context
+- WTI / Brent:
+- S&P 500 futures:
+- VIX:
+- Today's catalysts:
+- Earnings before open:
+- Economic calendar:
+- Sector momentum:
 
-## Research Entries
+### Trade Ideas
+1. TICKER - catalyst, entry $X, stop $X, target $X, R:R X:1
+2. ...
 
-*Empty — populated by pre-market routine.*
+### Risk Factors
+- ...
+
+### Decision
+TRADE or HOLD (default HOLD if no edge)

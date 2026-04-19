@@ -1,5 +1,6 @@
 .env
 .env.local
+.env.*
 *.pyc
 __pycache__/
 .DS_Store
@@ -7,3 +8,4 @@ __pycache__/
 venv/
 *.log
 .tmp/
+DAILY-SUMMARY.md

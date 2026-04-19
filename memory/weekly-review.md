@@ -1,25 +1,39 @@
 # Weekly Review
 
-Friday close. Self-graded performance review. What worked, what didn't, what changes next week.
+Friday reviews appended here. Template for each entry:
 
----
+## Week ending YYYY-MM-DD
 
-## Template
-```
-### Week of [YYYY-MM-DD]
-**Portfolio:** $XX,XXX (start) → $XX,XXX (end) | Δ% | vs S&P Δ%
-**Trades executed:** N buys, N sells
-**Winners:** TICKER +X%, TICKER +X%
-**Losers:** TICKER -X%, TICKER -X%
-**Grade:** A / B / C / D / F
-**What worked:** <1-3 bullets>
-**What didn't:** <1-3 bullets>
-**Strategy updates:** <none OR specific change to strategy.md>
-**Next week focus:** <1 sentence>
-```
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $X |
+| Ending portfolio | $X |
+| Week return | ±$X (±X%) |
+| S&P 500 week | ±X% |
+| Bot vs S&P | ±X% |
+| Trades | N (W:X / L:Y / open:Z) |
+| Win rate | X% |
+| Best trade | SYM +X% |
+| Worst trade | SYM -X% |
+| Profit factor | X.XX |
 
----
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
 
-## Reviews
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
 
-*Empty — populated Friday 16:00 ET.*
+### What Worked
+- ...
+
+### What Didn't Work
+- ...
+
+### Key Lessons
+- ...
+
+### Adjustments for Next Week
+- ...
+
+### Overall Grade: X
