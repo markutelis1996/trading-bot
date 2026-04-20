@@ -103,3 +103,18 @@ None
 
 ### Open Positions
 None
+
+---
+
+## 2026-04-20 - EOD Snapshot
+
+**Portfolio:** ~$10,000.00 | **Cash:** ~$10,000.00 (100%) | **Day P&L:** $0.00 | **Phase P&L:** $0.00
+
+| # | Ticker | Shares | Entry | Last | P&L$ | P&L% | Stop |
+|---|--------|--------|-------|------|------|------|------|
+| — | —      | —      | —     | —    | —    | —    | —    |
+
+- Trades today: 0 | Trades this week: 0
+- API blocked (403 host_not_allowed) — no live execution all sessions today
+- GE & NOC queued; entry pending API access restoration
+- BTC: RSI ~63, Hormuz risk-off — no crypto entry
