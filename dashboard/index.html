@@ -135,28 +135,44 @@
         let spyPct = 0;
         if (spy.length >= 2) spyPct = (spy[spy.length - 1].c - spy[0].c) / spy[0].c;
 
+        // Bot hasn't traded yet: portfolio equity has been completely flat
+        const hasTradingActivity = eq.length > 0 && eq.some((v, i) => i > 0 && Math.abs(v - eq[0]) > 0.01);
         const alpha = totalPLPct - spyPct;
 
         const stats = [
           { label: 'Portfolio', value: fmtUSD(equity), sub: `Cash ${fmtUSD(parseFloat(acc.cash || 0))}` },
-          {
-            label: `${currentPeriod} P&L`,
-            value: fmtUSD(dayPL),
-            sub: fmtPct(dayPLPct),
-            cls: dayPL >= 0 ? 'stat-up' : 'stat-down',
-          },
+          hasTradingActivity
+            ? {
+                label: `${currentPeriod} P&L`,
+                value: fmtUSD(dayPL),
+                sub: fmtPct(dayPLPct),
+                cls: dayPL >= 0 ? 'stat-up' : 'stat-down',
+              }
+            : {
+                label: `${currentPeriod} P&L`,
+                value: '—',
+                sub: 'No trades yet',
+                cls: 'text-slate-400',
+              },
           {
             label: `S&P 500 ${currentPeriod}`,
             value: fmtPct(spyPct),
             sub: 'SPY benchmark',
             cls: spyPct >= 0 ? 'stat-up' : 'stat-down',
           },
-          {
-            label: 'Alpha vs SPY',
-            value: fmtPct(alpha),
-            sub: alpha >= 0 ? 'Beating market' : 'Trailing market',
-            cls: alpha >= 0 ? 'stat-up' : 'stat-down',
-          },
+          hasTradingActivity
+            ? {
+                label: 'Alpha vs SPY',
+                value: fmtPct(alpha),
+                sub: alpha >= 0 ? 'Beating market' : 'Trailing market',
+                cls: alpha >= 0 ? 'stat-up' : 'stat-down',
+              }
+            : {
+                label: 'Alpha vs SPY',
+                value: '—',
+                sub: 'Tracking starts on first trade',
+                cls: 'text-slate-400',
+              },
         ];
 
         document.getElementById('stats').innerHTML = stats
