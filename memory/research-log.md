@@ -305,3 +305,57 @@ CRYPTO: HOLD — not oversold; risk-off macro
 ### Decision
 STOCKS: HOLD (API blocked). GE + NOC are highest-priority pre-earnings setups for Apr 21.
 CRYPTO: HOLD all. ETH on watchlist (RSI 39 → need <30 for entry; Death Cross intact).
+
+---
+
+## 2026-04-20 - Pre-market Research (Session 4 — Fresh Run)
+
+### Account
+- Equity: ~$10,000 (Alpaca API: 403 — host_not_allowed; persistent across all sessions)
+- Cash: ~$10,000
+- Buying power: ~$10,000
+- Daytrade count: 0
+- Open positions: 0
+- API status: Vercel proxy returning 403 `x-deny-reason: host_not_allowed` — Anthropic sandbox IPs not whitelisted
+
+### Market Context
+- WTI: ~$88.80 (+5.7%); Brent: ~$95-96/bbl — US-Iran tensions, Hormuz threat ongoing
+- S&P 500 futures: ~7,136 (cash -0.3%); S&P broke above 7,000 on Apr 15, now consolidating
+- VIX: ~19.12 (30-day range: 16.87–31.65; avg 23.30) — elevated but not panic
+- Earnings before open today: CLF (Cleveland-Cliffs), STLD (Steel Dynamics) — Materials sector
+- Earnings tomorrow (Apr 21, before open): GE Aerospace, NOC Northrop Grumman ← HIGH PRIORITY
+- Economic calendar: No major CPI/PPI/jobs today; **FOMC April 28–29 ← do not add positions within 3 days prior**
+- Sector momentum YTD: Energy (+34%) > Materials (+22%) > Industrials > Consumer Staples | Lagging: Tech, Comms, Discretionary, Financials
+
+### Capitol Trades (Whitelist Check)
+- Pelosi/McCaul/Crenshaw/Tuberville/Khanna/Gottheimer/Green/Mast: No qualifying stock buys ($25k+) found for April 2026
+- No whitelist signal
+
+### STOCKS Section — Trade Ideas (deferred to market-open Apr 21)
+> NOTE: LIVE QUOTES UNAVAILABLE — Alpaca API blocked. Prices from prior session research (midday Apr 20). Must re-verify live at market-open before any execution.
+
+1. **GE** (TOP PRIORITY) — Q1 earnings Apr 21 7:30am EDT; consensus $1.60 EPS (+9.4% YoY), Rev $10.72B (+18%); $190B backlog; 16/21 analysts Strong Buy; avg PT $358; stock slid ~5% today (pre-earnings jitter = potential buy-the-dip on beat); entry ~$295 (confirm live), stop ~$274 (-7%), target ~$340, R:R ~2.1:1 ★★
+2. **NOC** (STRONG) — Q1 earnings Apr 21 9:30am ET; consensus $6.03 EPS, Rev $9.75B (+3.1%); Hormuz escalation = defense spend tailwind; $475M contract mod Apr; entry ~$667 (confirm live), stop ~$620, target ~$770, R:R 2.2:1 ★★
+3. **NVDA** (SECONDARY) — China H200 market reopening + Vera Rubin H2 2026 launch; $78B Q1 rev guidance; EPS +71% FY27; sector lagging YTD but AI structural demand intact; entry ~$201 (confirm live), stop ~$187, target ~$230, R:R 2:1 ★
+4. **STLD** (WATCH) — Reports today; Materials sector leading YTD (+22%); if beats + confirms demand → sector follow-through; evaluate at market-open
+5. **CLF** (WATCH) — Reports today; same Materials thesis; lower conviction than STLD
+
+### CRYPTO Section
+- **BTC/USD**: Below $74K (Hormuz peace talks stalled + Strait closure); 15 bearish vs 13 bullish technical signals; whale accumulation 270k BTC/30d BUT whale-to-exchange ratio rising (distribution signal); RSI NOT oversold; support at $67K
+  - **Decision: HOLD** — RSI not at entry (<30); bearish bias; Hormuz risk-off
+- **ETH/USD**: RSI ~52.96 (neutral); **MAJOR RED FLAG: KelpDAO LayerZero bridge hack April 20 — ~$292M stolen, $13B TVL collapse, Aave stablecoins frozen** — worst DeFi exploit 2026; bearish price pressure; Death Cross still active
+  - **Decision: STRONG HOLD** — DeFi exploit = active negative catalyst; RSI neutral (not oversold); no entry
+- **SOL/USD**: No catalyst. No setup.
+- Crypto execution: N/A (API blocked; no entry criteria met regardless)
+
+### Risk Factors
+- FOMC April 28–29: tighten/reduce exposure entering that week
+- Hormuz: no ceasefire; direct US-Iran exchange could spike oil/VIX sharply
+- GE/NOC gap-down risk if earnings miss — stops mandatory
+- ETH: KelpDAO exploit active — DeFi contagion risk (Aave frozen); broader L2/bridge confidence hit
+- BTC whale distribution pace accelerating — institutional ETF buying may not offset
+- Alpaca API blocked (persistent) — all execution requires Vercel proxy IP allowlist fix
+
+### Decision
+STOCKS: HOLD (API blocked). Queue for Apr 21 market-open: GE ★★ + NOC ★★ on earnings beat; NVDA ★ secondary.
+CRYPTO: HOLD all. ETH avoid actively today (KelpDAO exploit). BTC wait for RSI <30 or price ~$67K support retest.
