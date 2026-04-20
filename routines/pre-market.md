@@ -81,12 +81,13 @@ Each pre-market, query Capitol Trades for THIS specific list:
 Also broad scan to catch new top performers:
 - bash scripts/perplexity.sh "Top performing US Congress stock traders YTD 2026 returns vs S&P 500"
 
-Filter the results:
+Filter the results (LEARNING MODE - lower thresholds for more sample data):
 - Disclosure date must be within last 45 days
-- Trade size must be sizeable: minimum $50,000 per buy (small trades = noise)
+- Trade size minimum $25,000 per buy (was $50k in conservative mode)
 - IGNORE all politicians NOT on whitelist unless their YTD return >20% above S&P
 - 2+ whitelisted politicians buying same ticker = STRONG signal (primary catalyst eligible)
-- 1 whitelisted politician + sizeable buy = secondary confirmation only
+- 1 whitelisted politician + sector momentum = primary catalyst eligible (was secondary in conservative mode)
+- 1 whitelisted politician alone = secondary confirmation
 
 If Perplexity exits 3, fall back to native WebSearch and note the fallback in the log entry.
 
