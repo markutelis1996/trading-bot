@@ -23,3 +23,21 @@ No positions yet. Bot launches tomorrow.
 
 ### Open Positions
 None
+
+---
+
+## 2026-04-21 - Pre-market Session
+
+**Portfolio:** ~$10,000.00 | **Cash:** ~$10,000.00 | **Positions:** 0
+
+### Execution Status
+- Alpaca API: BLOCKED (403 - host not in allowlist; persistent from prior session)
+- Orders placed: 0
+- Action required: Allowlist execution host IP in Alpaca paper account settings
+
+### Crypto Decision
+- BTC/USD: HOLD — RSI recovered to 63 (original oversold trigger expired); mid-tier whale selling = mixed signal; wait for RSI <40 or ~$68-70k pullback
+- No crypto orders placed
+
+### Open Positions
+None

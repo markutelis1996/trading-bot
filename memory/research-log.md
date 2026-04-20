@@ -83,3 +83,63 @@ TRADE or HOLD (default HOLD if no edge)
 ### Decision
 CRYPTO: TRADE (BTC/USD $1,000 — executed below if API accessible)
 STOCKS: DEFERRED to market-open routine (5 ideas queued above)
+
+---
+
+## 2026-04-21 - Pre-market Research
+
+### Account
+- Equity: ~$10,000 (Alpaca API still blocked: host not in allowlist)
+- Cash: ~$10,000
+- Buying power: ~$10,000
+- Daytrade count: 0
+- Open positions: 0
+
+### Market Context
+- WTI: ~$79 (crashed -11% Friday; Iran confirmed Strait of Hormuz fully open — supply relief)
+- S&P 500: Closed +1.20% Friday; SPY at new all-time highs; Dow at 7-week high; S&P 65pts from Feb ATH
+- VIX: ~17.47 (down from ~20; declining — fear easing; signal bullish)
+- Today's catalysts: Iran/US war de-escalating (risk-on); oil supply flood easing inflation fears; 10-yr yield -7bps to 4.24%
+- Earnings before open: None major (earnings week starts Tue)
+- Earnings this week: Tue: GE Aerospace, 3M, Halliburton, UAL | Wed: TSLA, IBM, Boeing, PM | Thu: INTC, AXP, Blackstone, AMZN
+- Economic calendar: FOMC April 28-29 (major risk); ceasefire expiry watch passed (still holding)
+- Sector momentum: Tech (43% EPS growth 2026) > Financials > Discretionary > Industrials; Energy fading (oil -11%)
+
+### Capitol Trades (Whitelist Check)
+- Gottheimer: OPTIONS only — disqualified per rules
+- No qualifying whitelist STOCK buys ($25k+) identified this cycle
+
+### STOCKS Section - Trade Ideas (deferred to market-open)
+1. TSLA - Wed earnings catalyst; AI5 chip timeline + robotaxi update; tech momentum; entry ~$250, stop ~$232, target ~$292, R:R 2.3:1
+2. AMZN - Thu earnings; AWS +25% growth acceleration; AI infrastructure tailwind; tech 43% EPS growth; entry ~$195, stop ~$181, target ~$223, R:R 2:1
+3. GE - Tue earnings; aerospace sector momentum; AI datacenter power demand tailwind; entry ~$205, stop ~$190, target ~$235, R:R 2:1
+4. JPM - Financials momentum leader; deregulation + yield curve steepening; entry ~$265, stop ~$246, target ~$305, R:R 2:1
+5. NVDA - AI infrastructure backbone; tech 43% sector EPS growth; entry ~$120, stop ~$111, target ~$138, R:R 2:1
+- DROPPED: XOM (energy weakening on oil -11% crash)
+
+### CRYPTO Section
+- BTC/USD: ~$73,700; RSI ~63 (recovered from extreme oversold 27 → building bullish momentum; no longer extreme setup)
+- ETH/USD: ~$2,361; holding above $2,300; on-chain activity elevated; performing relatively stronger than SOL
+- SOL/USD: ~$85-87 (+2.97% 7d); modest uptrend
+- Whale activity: MIXED — mega-whales (>1,000 BTC) accumulated 270k BTC/30d (13-yr record); BUT mid-tier (1k-10k BTC) turning to most aggressive sellers on record (CryptoQuant)
+- ETF flows: Net positive but uneven — $471M Apr 6 → outflows Apr 7-8 → $358M Apr 9 → $411M Apr 14 → $186M Apr 15
+- BTC 7d performance: POSITIVE ✓ (skip rule not triggered)
+
+### Crypto Trade Idea
+- **BTC/USD** — original extreme oversold catalyst (RSI 27) has resolved to 63; entry window partially closed
+- Thesis remains directionally bullish: ETF inflows net positive, mega-whale accumulation ongoing, macro risk-on (Iran de-escalation), VIX falling
+- BUT: mid-tier whale selling = caution; RSI 63 = not a screaming oversold entry
+- Size if executing: $1,000 (10% equity); 15% trailing stop
+- Rules check: 0/3 crypto positions ✓ | BTC not -10% in 7d ✓
+- **Decision: HOLD — RSI no longer extreme oversold, whale signal mixed; wait for pullback to ~$68-70k or RSI <40 for cleaner re-entry**
+- API still blocked — execution impossible regardless
+
+### Risk Factors
+- FOMC April 28-29 — rate decision could hit risk assets / crypto
+- Mid-tier whale distribution at record pace (BTC headwind)
+- Earnings misses (TSLA/AMZN) could whipsaw tech positions
+- Energy sector weakening could drag industrials
+
+### Decision
+CRYPTO: HOLD — original oversold catalyst expired (RSI 63); whale signal mixed; wait for RSI <40 pullback
+STOCKS: DEFERRED to market-open routine (5 ideas queued above; TSLA/AMZN earnings plays highest priority)
