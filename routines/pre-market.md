@@ -42,8 +42,11 @@ STEP 2 - Pull live account state:
   bash scripts/alpaca.sh positions
   bash scripts/alpaca.sh orders
 
-STEP 3 - Research market context via Perplexity.
-Run bash scripts/perplexity.sh "<query>" for each:
+STEP 3 - Research market context.
+Try `bash scripts/tavily.sh "<query>"` first (best for AI agent consumption).
+Fallback: `bash scripts/perplexity.sh "<query>"` if tavily exits 3.
+Final fallback: native WebSearch if both exit 3.
+Run for each:
 - "WTI and Brent oil price right now"
 - "S&P 500 futures premarket today"
 - "VIX level today"
@@ -68,18 +71,18 @@ of beating S&P 500 over multi-year window):
 - Mark Green (R-TN)
 - Brian Mast (R-FL)
 
-Each pre-market, query Capitol Trades for THIS specific list:
-- bash scripts/perplexity.sh "Nancy Pelosi recent stock purchases capitoltrades.com last 30 days"
-- bash scripts/perplexity.sh "Michael McCaul recent stock purchases capitoltrades.com last 30 days"
-- bash scripts/perplexity.sh "Dan Crenshaw recent stock purchases capitoltrades.com last 30 days"
-- bash scripts/perplexity.sh "Tommy Tuberville recent stock purchases capitoltrades.com last 30 days"
-- bash scripts/perplexity.sh "Ro Khanna recent stock purchases capitoltrades.com last 30 days"
-- bash scripts/perplexity.sh "Josh Gottheimer recent stock purchases capitoltrades.com last 30 days"
-- bash scripts/perplexity.sh "Mark Green recent stock purchases capitoltrades.com last 30 days"
-- bash scripts/perplexity.sh "Brian Mast recent stock purchases capitoltrades.com last 30 days"
+Each pre-market, query Capitol Trades for THIS specific list (use `bash scripts/tavily.sh` first, fallback to perplexity, then WebSearch):
+- "Nancy Pelosi recent stock purchases capitoltrades.com last 30 days"
+- "Michael McCaul recent stock purchases capitoltrades.com last 30 days"
+- "Dan Crenshaw recent stock purchases capitoltrades.com last 30 days"
+- "Tommy Tuberville recent stock purchases capitoltrades.com last 30 days"
+- "Ro Khanna recent stock purchases capitoltrades.com last 30 days"
+- "Josh Gottheimer recent stock purchases capitoltrades.com last 30 days"
+- "Mark Green recent stock purchases capitoltrades.com last 30 days"
+- "Brian Mast recent stock purchases capitoltrades.com last 30 days"
 
 Also broad scan to catch new top performers:
-- bash scripts/perplexity.sh "Top performing US Congress stock traders YTD 2026 returns vs S&P 500"
+- "Top performing US Congress stock traders YTD 2026 returns vs S&P 500"
 
 Filter the results (LEARNING MODE - lower thresholds for more sample data):
 - Disclosure date must be within last 45 days
@@ -89,7 +92,7 @@ Filter the results (LEARNING MODE - lower thresholds for more sample data):
 - 1 whitelisted politician + sector momentum = primary catalyst eligible (was secondary in conservative mode)
 - 1 whitelisted politician alone = secondary confirmation
 
-If Perplexity exits 3, fall back to native WebSearch and note the fallback in the log entry.
+If both Tavily and Perplexity exit 3, fall back to native WebSearch and note the fallback in the log entry.
 
 STEP 4 - Write a dated entry to memory/RESEARCH-LOG.md:
 - Account snapshot (equity, cash, buying power, daytrade count)
