@@ -53,12 +53,30 @@ Run bash scripts/perplexity.sh "<query>" for each:
 - "S&P 500 sector momentum YTD"
 - News on any currently-held ticker
 
+STEP 3b - Politician trades signal (Capitol Trades).
+Use this as ONE catalyst input, NEVER as the sole reason to trade. Disclosure
+lag is 30-45 days, so this is a slow signal best for swing trades.
+Run bash scripts/perplexity.sh "<query>" for each:
+- "Most recent US Congress stock purchases reported on capitoltrades.com last 30 days"
+- "US senators stock buys disclosed last 2 weeks site:capitoltrades.com"
+- "Top performing politician traders 2026 with recent buys"
+
+Filter the results: only consider tickers where (a) multiple politicians bought
+the same name in the same window, OR (b) a politician with a documented track
+record of beating the market made a sizeable buy. Note disclosure date vs
+trade date - if disclosure is >45 days old, skip.
+
 If Perplexity exits 3, fall back to native WebSearch and note the fallback in the log entry.
 
 STEP 4 - Write a dated entry to memory/RESEARCH-LOG.md:
 - Account snapshot (equity, cash, buying power, daytrade count)
 - Market context (oil, indices, VIX, today's releases)
-- 2-3 actionable trade ideas WITH catalyst + entry/stop/target
+- Politician signals: list any tickers with notable Congress buys in the
+  window, plus disclosure dates. Mark each as "primary catalyst", "secondary
+  confirmation", or "watchlist only".
+- 2-3 actionable trade ideas WITH catalyst + entry/stop/target. A politician
+  buy ALONE is NOT enough catalyst - require an additional reason (sector
+  momentum, earnings, news flow). Document both in the idea.
 - Risk factors for the day
 - Decision: trade or HOLD (default HOLD - patience > activity)
 
