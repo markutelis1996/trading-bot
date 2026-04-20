@@ -28,3 +28,58 @@ Daily pre-market research entries will be appended here. Format each entry:
 
 ### Decision
 TRADE or HOLD (default HOLD if no edge)
+
+---
+
+## 2026-04-20 - Pre-market Research
+
+### Account
+- Equity: ~$10,000 (baseline - Alpaca API blocked: host not in allowlist)
+- Cash: ~$10,000
+- Buying power: ~$10,000
+- Daytrade count: 0
+- Open positions: 0
+
+### Market Context
+- WTI: ~$88.29 (+5.7 recovery after Iran declared Strait of Hormuz "completely open"; oil dropped ~10% last week)
+- S&P 500 futures: ~7,161 (near ATH; 3rd consecutive higher week; S&P + Nasdaq 100 at new all-time highs)
+- VIX: ~20 (moderate, declining from geopolitical spike)
+- Today's catalysts: Iran/US ceasefire holding → risk-on; Iran Strait open → oil supply relief
+- Earnings before open: None major
+- Economic calendar: FOMC April 28-29 (major risk); ceasefire expiry April 22 (watch)
+- Sector momentum: Financials > Industrials > Consumer Defensive > Energy > Tech (rotation from AI to "real economy"); semiconductors 26% EPS growth outlook
+
+### Capitol Trades (Whitelist Check)
+- Gottheimer: OPTIONS trades on underlying ~$320-325 stock (options disqualified; no stock disclosure found this week)
+- No qualifying whitelist STOCK buys identified this cycle
+
+### STOCKS Section - Trade Ideas (deferred to market-open)
+1. CAT - Industrials momentum, AI datacenter buildout tailwind, strong EPS; entry ~$350, stop ~$325, target ~$400, R:R 2:1
+2. XOM - Energy momentum, oil $88 elevated, Iran geopolitics stabilizing; entry ~$120, stop ~$111, target ~$138, R:R 2:1
+3. JPM - Financials momentum, deregulation + yield curve steepening catalyst; entry ~$265, stop ~$246, target ~$305, R:R 2:1
+4. WMT - Consumer defensive leader, cost-conscious consumer tailwind; entry ~$95, stop ~$88, target ~$110, R:R 2.1:1
+5. NVDA - Semiconductors, 26% EPS growth sector, AI infrastructure; entry ~$120, stop ~$111, target ~$138, R:R 2:1
+
+### CRYPTO Section
+- BTC/USD: ~$74,572 (-1.29% today); RSI ~27-29 (extreme oversold — 3rd lowest in BTC history); 7d trend: recovery from $60k Feb crash → climbed to $76k Apr 14 → slight pullback
+- ETH/USD: ~$2,377; outperforming BTC; on-chain activity +41% MoM; signal bullish
+- SOL/USD: ~$90-97 range
+- Whale activity: Addresses >1,000 BTC bought 270,000 BTC (~$23B) in 30 days — largest single-month whale buy in 13 years
+- ETF flows: Q1 2026 BTC ETF inflows $18.7B; $471M single-day Apr 6 (highest since Feb); exchange reserves 6-year low (supply squeeze)
+- BTC 7d performance: POSITIVE (up from ~$68-70k range) → skip rule NOT triggered
+
+### Crypto Trade Idea
+- **BTC/USD LONG** — oversold RSI (27), whale accumulation record, ETF inflows surging, exchange supply at 6yr low, Iran ceasefire = risk-on macro. Catalyst: multi-signal confluence.
+- Size: $1,000 (10% of $10k equity)
+- Trailing stop: 15%
+- Rules check: 0/3 crypto positions ✓ | $0/$1,000 crypto cost cap ✓ | BTC not -10% in 7d ✓
+
+### Risk Factors
+- Ceasefire expiry April 22 — geopolitical shock risk
+- FOMC April 28-29 — rate decision could hit risk assets
+- Whale sellers (1k-10k BTC cohort) offsetting buyers
+- Alpaca API blocked from this host — orders cannot execute until IP allowlisted
+
+### Decision
+CRYPTO: TRADE (BTC/USD $1,000 — executed below if API accessible)
+STOCKS: DEFERRED to market-open routine (5 ideas queued above)
