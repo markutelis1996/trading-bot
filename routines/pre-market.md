@@ -108,15 +108,23 @@ Filter for trade ideas:
 - Need confirmed catalyst (whale activity, MA crossover, RSI extreme, fundamental news)
 - Skip if BTC dominant trend is strongly bearish (BTC -10%+ in 7d)
 
+STEP 3d - MANDATORY price verification BEFORE writing any trade idea.
+For EVERY ticker you intend to mention as a trade idea, you MUST FIRST run:
+  bash scripts/alpaca.sh quote SYM
+Get the current ask/bid price. Use ONLY this LIVE price for entry, stop, and target.
+Calculate stop = current_price * 0.90 (10% below). Calculate target = current_price * 1.20 (20% above) for 2:1 R:R.
+NEVER use prices from Tavily/WebSearch articles - those are stale.
+If quote call fails for a ticker, SKIP that ticker - do not invent prices.
+
 STEP 4 - Write a dated entry to memory/RESEARCH-LOG.md:
 - Account snapshot (equity, cash, buying power, daytrade count)
 - Market context (oil, indices, VIX, today's releases)
 - Politician signals: list any tickers with notable Congress buys in the
   window, plus disclosure dates. Mark each as "primary catalyst", "secondary
   confirmation", or "watchlist only".
-- 2-3 actionable trade ideas WITH catalyst + entry/stop/target. A politician
-  buy ALONE is NOT enough catalyst - require an additional reason (sector
-  momentum, earnings, news flow). Document both in the idea.
+- 2-3 actionable trade ideas WITH catalyst + entry/stop/target USING LIVE
+  alpaca.sh quote prices ONLY. Include the live price you fetched as proof.
+  A politician buy ALONE is NOT enough catalyst - require an additional reason.
 - Risk factors for the day
 - Decision: trade or HOLD (default HOLD - patience > activity)
 

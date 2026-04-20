@@ -37,6 +37,13 @@ STEP 1 - Read memory for today's plan:
   STEPS 1-3 inline)
 - tail of memory/TRADE-LOG.md (for weekly trade count)
 
+STEP 1b - MANDATORY price re-verification.
+RESEARCH-LOG entry/stop/target may be 30 min to several hours old. RE-FETCH live
+prices for every ticker you intend to trade:
+  bash scripts/alpaca.sh quote SYM
+Use ONLY these fresh prices. Recalculate stops as 10% below CURRENT ask. If a ticker
+moved more than 5% from the planned entry, RECONSIDER (signal may have expired).
+
 STEP 2 - Re-validate with live data:
   bash scripts/alpaca.sh account
   bash scripts/alpaca.sh positions
@@ -60,16 +67,19 @@ For CRYPTO (no PDT, 24/7):
 
 Skip any trade that fails and log the reason.
 
-STEP 4 - Execute the buys.
+STEP 4 - Execute the buys USING NOTIONAL (dollar amount, not share qty).
+This is critical: notional automatically handles current price, prevents over/under-sizing.
 
-Stocks (market orders, day TIF):
-  bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"buy","type":"market","time_in_force":"day"}'
+Stocks (market orders, DAY TIF, NOTIONAL):
+  EQUITY=$(bash scripts/alpaca.sh account | python3 -c "import json,sys; print(json.load(sys.stdin)['equity'])")
+  POSITION=$(python3 -c "print(round(float('$EQUITY') * 0.15, 2))")  # 15% of equity
+  bash scripts/alpaca.sh order '{"symbol":"SYM","notional":"'$POSITION'","side":"buy","type":"market","time_in_force":"day"}'
 
-Crypto (market orders, GTC TIF, use BTC/USD format):
-  bash scripts/alpaca.sh order '{"symbol":"BTC/USD","notional":"1000","side":"buy","type":"market","time_in_force":"gtc"}'
-(Note: crypto supports notional dollar amount, easier than computing fractional shares)
+Crypto (market orders, GTC TIF, NOTIONAL):
+  CRYPTO_POSITION=$(python3 -c "print(round(float('$EQUITY') * 0.10, 2))")  # 10% of equity
+  bash scripts/alpaca.sh order '{"symbol":"BTC/USD","notional":"'$CRYPTO_POSITION'","side":"buy","type":"market","time_in_force":"gtc"}'
 
-Wait for fill confirmation before placing the stop.
+Wait for fill confirmation. Then get qty from positions API for stop placement.
 
 STEP 5 - Immediately place trailing stop GTC for each new position.
 
