@@ -251,3 +251,57 @@ Note: All research log prices were severely stale (months-old levels). Fresh pri
 ### Decision
 STOCKS: HOLD (API blocked — cannot execute). If API fixed: GE + NOC pre-earnings strongest setups (earnings tomorrow)
 CRYPTO: HOLD — not oversold; risk-off macro
+
+---
+
+## 2026-04-20 - Midday Session
+
+### Account
+- Equity: ~$10,000 (Alpaca API: 403 — host_not_allowed; persistent)
+- Cash: ~$10,000
+- Open positions: 0
+
+### Market Context (midday)
+- S&P 500: 7,100.57 (-0.36%); down 4% YTD; recovering from Q1 volatility (geopolitics + inflation)
+- BTC: $75,324 (opened $73,820; rallied intraday); US-Iran tensions (Hormuz) but institutional demand propping values
+- ETH: $2,317 (-1.1% today; opened $2,263, recovered); activity +41% WoW (2.5M → 3.6M daily txns — strongest 2026)
+- Geopolitical: US seized Iranian cargo ship; Hormuz risk-off tone; no ceasefire confirmed
+
+### Earnings Tomorrow (Apr 21, before open) — HIGH PRIORITY if API fixed
+| Ticker | EPS Consensus | Rev Consensus | Catalyst | Setup |
+|--------|--------------|---------------|----------|-------|
+| GE     | $1.59–1.63 (+9% YoY) | $10.64B (+18%) | Robust engine demand; 16/21 Strong Buy; avg PT $358 | entry ~$310, stop ~$288, target ~$350, R:R 2.1:1 ★ |
+| NOC    | $6.03/sh | $9.75B (+3.1% YoY) | $475M GPI contract mod (Apr); YFQ-48A Talon Blue engine test Apr 17; Hormuz defense spend | entry ~$667, stop ~$620, target ~$770, R:R 2.2:1 ★ |
+
+### CRYPTO Step 6 — New Trade Evaluation
+**BTC/USD ($75,324):**
+- Fresh catalyst: Morgan Stanley received SEC approval for bitcoin ETF (14bps; opens access to 16,000 advisors managing $6.2T AUM) — institutional on-ramp, notable positive
+- ETF outflows: -$325M net on Apr 13 (headwind); whale activity: mixed (mega-whales accumulating 230k BTC/3mo; but mid-tier distributing)
+- RSI: ~63 — NOT oversold (rule requires <30 for entry)
+- Decision: HOLD — RSI criteria not met; institutional catalyst partially offset by outflows + Hormuz risk-off
+
+**ETH/USD ($2,317):**
+- Fresh catalyst: activity +41% WoW (3.6M daily txns — strongest 2026); ETF inflows $187M/week (record 2026, cumulative $11.68B); $3B Blockspace Partnership (ETHGas + ether.fi, launched Apr 15); peace-talk optimism lifted OI +$2.2B
+- RSI: ~39 — approaching oversold but NOT <30 (entry threshold per rules)
+- Death Cross still active; bearish trend intact; MACD negative
+- Decision: HOLD — RSI 39 not yet at entry threshold (<30); Death Cross = bearish trend; API blocked regardless. ETH on WATCHLIST: if RSI drops to ~30 or price breaks below ~$2,100, re-evaluate entry
+
+**SOL/USD:** No new catalyst. No setup.
+
+### Crypto Trade: NO ACTION (criteria not met + API blocked)
+
+### Stock Queue (unchanged from pre-market — deferred to Apr 21 market-open)
+1. GE — TOP PRIORITY (earnings before open Apr 21)
+2. NOC — STRONG SETUP (earnings before open Apr 21; defense + Hormuz catalyst)
+3. NVDA — secondary (AI tailwind; entry ~$201, stop ~$187, target ~$230)
+
+### Risk Factors
+- FOMC Apr 28-29 — do not add new positions within 3 days prior without tight stops
+- Hormuz: no ceasefire; oil/VIX could spike on direct US-Iran exchange
+- GE/NOC gap-down risk on miss — stops mandatory
+- Mid-tier BTC whale distribution record pace
+- API blocked: requires Alpaca paper account IP allowlist fix (persistent)
+
+### Decision
+STOCKS: HOLD (API blocked). GE + NOC are highest-priority pre-earnings setups for Apr 21.
+CRYPTO: HOLD all. ETH on watchlist (RSI 39 → need <30 for entry; Death Cross intact).
