@@ -47,7 +47,7 @@ export default async function handler(req, res) {
     if (start) {
       const tf = timeframe === '1H' ? '1Hour' : '1Day';
       const spyRes = await fetch(
-        `${ALPACA_DATA}/stocks/SPY/bars?timeframe=${tf}&start=${start}&end=${end}&limit=10000&adjustment=all`,
+        `${ALPACA_DATA}/stocks/SPY/bars?timeframe=${tf}&start=${start}&end=${end}&limit=10000&adjustment=all&feed=iex`,
         { headers },
       );
       if (spyRes.ok) {
