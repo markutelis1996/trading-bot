@@ -42,22 +42,44 @@ STEP 2 - Re-validate with live data:
   bash scripts/alpaca.sh positions
   bash scripts/alpaca.sh quote <each planned ticker>
 
-STEP 3 - Hard-check rules BEFORE every order (LEARNING MODE). Skip any trade that fails and log the reason:
-- Total positions after trade <= 8
-- Trades this week <= 7
+STEP 3 - Hard-check rules BEFORE every order (LEARNING MODE).
+
+For STOCKS:
+- Total stock positions after trade <= 6
+- Stock trades this week <= 7
 - Position cost <= 15% of equity
 - Catalyst documented in today's RESEARCH-LOG
 - daytrade_count leaves room (PDT: 3/5 rolling business days)
 
-STEP 4 - Execute the buys (market orders, day TIF):
+For CRYPTO (no PDT, 24/7):
+- Total crypto positions after trade <= 3
+- Crypto position cost <= 10% of equity
+- Total crypto allocation <= 30% of portfolio
+- Catalyst documented in RESEARCH-LOG
+- Use trailing stop 15% (not 10%) due to volatility
+
+Skip any trade that fails and log the reason.
+
+STEP 4 - Execute the buys.
+
+Stocks (market orders, day TIF):
   bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"buy","type":"market","time_in_force":"day"}'
+
+Crypto (market orders, GTC TIF, use BTC/USD format):
+  bash scripts/alpaca.sh order '{"symbol":"BTC/USD","notional":"1000","side":"buy","type":"market","time_in_force":"gtc"}'
+(Note: crypto supports notional dollar amount, easier than computing fractional shares)
+
 Wait for fill confirmation before placing the stop.
 
-STEP 5 - Immediately place 10% trailing stop GTC for each new position:
+STEP 5 - Immediately place trailing stop GTC for each new position.
+
+Stocks (10% trailing):
   bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'
-If Alpaca rejects with PDT error, fall back to fixed stop 10% below entry:
-  bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"stop","stop_price":"X.XX","time_in_force":"gtc"}'
-If also blocked, queue the stop in TRADE-LOG as "PDT-blocked, set tomorrow AM".
+If PDT-rejected, fall back to fixed stop 10% below entry. If also blocked, queue in TRADE-LOG.
+
+Crypto (15% trailing - wider for volatility):
+  bash scripts/alpaca.sh order '{"symbol":"BTC/USD","qty":"X.XXX","side":"sell","type":"trailing_stop","trail_percent":"15","time_in_force":"gtc"}'
+Note: crypto qty must be in actual coins (not notional). Pull qty from positions after fill.
 
 STEP 6 - Append each trade to memory/TRADE-LOG.md (matching existing format):
 Date, ticker, side, shares, entry price, stop level, thesis, target, R:R.

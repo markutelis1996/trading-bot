@@ -1,13 +1,14 @@
 # Trading Strategy
 
 ## Mission
-Beat the S&P 500 over the challenge window. Stocks only - no options, ever.
+Beat the S&P 500 over the challenge window. Stocks + crypto - no options, ever.
 
 ## Capital & Constraints
 - Starting capital: ~$10,000
-- Platform: Alpaca
-- Instruments: Stocks ONLY
-- PDT limit: 3 day trades per 5 rolling days (account < $25k)
+- Platform: Alpaca (paper)
+- Instruments: Stocks + Crypto (NO options ever)
+- PDT limit applies to stocks: 3 day trades per 5 rolling days (account < $25k)
+- Crypto has no PDT limit (24/7 market)
 
 ## Mode: LEARNING (paper only)
 Aggressive cadence to gather statistically meaningful trade samples in 4 weeks.
@@ -30,6 +31,21 @@ BEFORE switching to live, REVERT to original conservative rules (commented below
 - 5-6 positions at a time, max 20% each
 - Max 3 new trades per week
 - Patience > activity
+
+## Crypto Rules (LEARNING MODE - paper)
+1. Allowed pairs: BTC/USD, ETH/USD, SOL/USD, AVAX/USD, LINK/USD, plus 1-2 momentum picks per week
+2. Position size: 10% per crypto (smaller than stocks due to volatility)
+3. Trailing stop: 15% (wider than stocks due to volatility)
+4. Max 3 crypto positions concurrently
+5. Total crypto allocation cap: 30% of portfolio
+6. Combined cap: stocks (max 6 positions @ 15%) + crypto (max 3 @ 10%) ≤ 100% deployed
+7. Crypto research signals:
+   - 20/50 day MA crossover
+   - RSI <30 (oversold) for entries, RSI >70 (overbought) for exits
+   - On-chain whale activity (search "Bitcoin whale alerts last 7 days")
+   - Fundamental catalysts (ETF flows, regulation, halvings, hard forks)
+8. NO crypto copy-trading from politicians (no disclosure framework exists)
+9. Crypto can trade weekends (routines still only run M-F, but positions held through weekend)
 
 ## Entry Checklist
 - Specific catalyst?

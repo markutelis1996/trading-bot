@@ -94,6 +94,20 @@ Filter the results (LEARNING MODE - lower thresholds for more sample data):
 
 If both Tavily and Perplexity exit 3, fall back to native WebSearch and note the fallback in the log entry.
 
+STEP 3c - Crypto research (LEARNING MODE - 24/7 market, no PDT).
+Run RESEARCH CASCADE for each:
+- "Bitcoin price today and 7 day trend"
+- "Ethereum price today and 7 day trend"
+- "Top crypto gainers last 7 days CoinMarketCap"
+- "Bitcoin whale alerts and on-chain activity last 7 days"
+- "Crypto market catalysts today (ETF flows, regulation, halvings)"
+- "BTC/ETH RSI and 20/50 day moving average crossover"
+
+Filter for trade ideas:
+- Allowed pairs only: BTC/USD, ETH/USD, SOL/USD, AVAX/USD, LINK/USD + 1-2 momentum picks if exceptional
+- Need confirmed catalyst (whale activity, MA crossover, RSI extreme, fundamental news)
+- Skip if BTC dominant trend is strongly bearish (BTC -10%+ in 7d)
+
 STEP 4 - Write a dated entry to memory/RESEARCH-LOG.md:
 - Account snapshot (equity, cash, buying power, daytrade count)
 - Market context (oil, indices, VIX, today's releases)
