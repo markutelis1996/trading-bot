@@ -56,15 +56,37 @@ Run bash scripts/perplexity.sh "<query>" for each:
 STEP 3b - Politician trades signal (Capitol Trades).
 Use this as ONE catalyst input, NEVER as the sole reason to trade. Disclosure
 lag is 30-45 days, so this is a slow signal best for swing trades.
-Run bash scripts/perplexity.sh "<query>" for each:
-- "Most recent US Congress stock purchases reported on capitoltrades.com last 30 days"
-- "US senators stock buys disclosed last 2 weeks site:capitoltrades.com"
-- "Top performing politician traders 2026 with recent buys"
 
-Filter the results: only consider tickers where (a) multiple politicians bought
-the same name in the same window, OR (b) a politician with a documented track
-record of beating the market made a sizeable buy. Note disclosure date vs
-trade date - if disclosure is >45 days old, skip.
+WHITELIST - only follow these top-performer politicians (proven track record
+of beating S&P 500 over multi-year window):
+- Nancy Pelosi (D-CA)
+- Michael McCaul (R-TX)
+- Dan Crenshaw (R-TX)
+- Tommy Tuberville (R-AL)
+- Ro Khanna (D-CA)
+- Josh Gottheimer (D-NJ)
+- Mark Green (R-TN)
+- Brian Mast (R-FL)
+
+Each pre-market, query Capitol Trades for THIS specific list:
+- bash scripts/perplexity.sh "Nancy Pelosi recent stock purchases capitoltrades.com last 30 days"
+- bash scripts/perplexity.sh "Michael McCaul recent stock purchases capitoltrades.com last 30 days"
+- bash scripts/perplexity.sh "Dan Crenshaw recent stock purchases capitoltrades.com last 30 days"
+- bash scripts/perplexity.sh "Tommy Tuberville recent stock purchases capitoltrades.com last 30 days"
+- bash scripts/perplexity.sh "Ro Khanna recent stock purchases capitoltrades.com last 30 days"
+- bash scripts/perplexity.sh "Josh Gottheimer recent stock purchases capitoltrades.com last 30 days"
+- bash scripts/perplexity.sh "Mark Green recent stock purchases capitoltrades.com last 30 days"
+- bash scripts/perplexity.sh "Brian Mast recent stock purchases capitoltrades.com last 30 days"
+
+Also broad scan to catch new top performers:
+- bash scripts/perplexity.sh "Top performing US Congress stock traders YTD 2026 returns vs S&P 500"
+
+Filter the results:
+- Disclosure date must be within last 45 days
+- Trade size must be sizeable: minimum $50,000 per buy (small trades = noise)
+- IGNORE all politicians NOT on whitelist unless their YTD return >20% above S&P
+- 2+ whitelisted politicians buying same ticker = STRONG signal (primary catalyst eligible)
+- 1 whitelisted politician + sizeable buy = secondary confirmation only
 
 If Perplexity exits 3, fall back to native WebSearch and note the fallback in the log entry.
 

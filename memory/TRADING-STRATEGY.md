@@ -32,8 +32,11 @@ Beat the S&P 500 over the challenge window. Stocks only - no options, ever.
 1. Earnings before market open (today/this week)
 2. FDA approvals, M&A, major contracts
 3. Sector momentum + macro tailwind
-4. Politician buys (Capitol Trades) - SECONDARY confirmation only,
-   never sole catalyst. 30-45 day disclosure lag, so use for swing setups
-   not day trades. Require: 2+ politicians buying same name OR known
-   strong-track-record politician with sizeable buy.
+4. Politician buys (Capitol Trades) - WHITELIST ONLY: Pelosi, McCaul,
+   Crenshaw, Tuberville, Khanna, Gottheimer, Green, Mast. Min $50k trade
+   size. 30-45 day disclosure lag, so use for swing setups not day trades.
+   Two whitelist politicians on same ticker = primary catalyst eligible.
+   One whitelist politician = secondary confirmation only. Update list
+   quarterly based on YTD returns vs S&P (drop politicians underperforming
+   for 2+ quarters; add new top performers when discovered).
 5. Insider buying / unusual options flow (when MCP added)
