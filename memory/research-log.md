@@ -144,3 +144,62 @@ STOCKS: DEFERRED to market-open routine — 5 ideas queued; top priority: RTX/NO
 ### Decision
 CRYPTO: HOLD — original oversold catalyst expired (RSI 63); whale signal mixed; wait for RSI <40 pullback
 STOCKS: DEFERRED to market-open routine (5 ideas queued above; TSLA/AMZN earnings plays highest priority)
+
+---
+
+## 2026-04-21 - Pre-market Research (UPDATED — Session 2)
+
+### Account
+- Equity: ~$10,000 (Alpaca API blocked: 403 — host not in allowlist; persistent)
+- Cash: ~$10,000
+- Buying power: ~$10,000
+- Daytrade count: 0
+- Open positions: 0
+
+### Market Context
+- WTI: ~$89-90 (rebounded +7% from $84 low; Hormuz open confirmed; supply volatility easing)
+- S&P 500: SPY near all-time highs; Nasdaq at NEW RECORD HIGH (TSMC raised 2026 revenue forecast >30%; CEO: AI demand "extremely robust")
+- VIX: ~17.48 (declining; Strong Sell signal on VIX futures = market bullish; fear easing)
+- Today's catalysts: TSMC record-high guidance → semis/AI surge; GE Aerospace reports before open TODAY (Apr 21); Nasdaq new ATH
+- Earnings before open TODAY: GE Aerospace (Apr 21), 3M, Halliburton, UAL
+- Earnings this week: Wed Apr 22: TSLA, IBM, Boeing, PM | Thu Apr 23: INTC, AXP, Blackstone | Wed Apr 29: AMZN (NOT this week — prior entry incorrect)
+- Economic calendar: FOMC April 28-29 (major risk — do not hold through if leveraged)
+- Sector momentum: Tech/Semis (Nasdaq ATH, TSMC surge) > Aerospace (GE) > Energy (oil stabilizing $89-90) > Financials (lagging, 2nd-worst sector YTD)
+
+### Capitol Trades (Whitelist Check)
+- Khanna: 4,107 trades/$53M volume YTD; history in NVDA, MU, Seagate — NO confirmed $25k+ stock buys in April 2026 per available disclosures
+- McCaul: 1,008 trades/$57M volume YTD; no semiconductor/AI stock disclosures in latest filing
+- Gottheimer: OPTIONS only — disqualified
+- Green: No qualifying buys identified
+- No whitelist politician qualifying stock buys ($25k+ stocks only) confirmed for current cycle
+
+### STOCKS Section - Trade Ideas (deferred to market-open)
+1. GE - Reports TODAY before open; consensus EPS $1.59-1.63 (+9% YoY), revenue $10.64B (+18%); 16/21 analysts Strong Buy; avg PT $358 (+24% upside ~$289); shares slid 5% pre-earnings → entry on beat confirmation; entry ~$285, stop ~$265 (-7%), target ~$345, R:R 3:1 ★ HIGHEST PRIORITY TODAY
+2. NVDA - AI backbone; Nasdaq new ATH; TSMC "extremely robust" AI demand = direct tailwind; entry ~$120, stop ~$111, target ~$138, R:R 2:1
+3. TSLA - Reports Apr 22; delivery miss (358k vs 372k expected) already known; Terafab AI + robotaxi commentary = wildcard; HIGH RISK; entry ~$250, stop ~$232, target ~$295, R:R 2.3:1
+4. TSM - TSMC just raised 2026 forecast >30% + AI demand "extremely robust"; direct beneficiary of AI capex surge; entry ~$195, stop ~$181, target ~$225, R:R 2.1:1
+5. MU - Khanna buying history; AI memory chip demand accelerating; semis momentum from TSMC data; entry ~$100, stop ~$93, target ~$115, R:R 2.1:1
+- DROPPED: AMZN (reports Apr 29, not this week); JPM (Financials 2nd-worst sector YTD)
+
+### CRYPTO Section
+- BTC/USD: ~$73,714 (+1% 24h); RSI ~63 — "flow war" stalemate; mega-whales accumulating record 270k BTC/30d; mid-tier (1k-10k BTC) selling 188k BTC net (most aggressive distribution on record); ETF flows 50k BTC/30d (highest since Oct 2025); net: low-volatility regime until macro catalyst breaks stalemate
+- ETH/USD: ~$2,361; RSI ~39 (approaching oversold but Death Cross + negative MACD active; bearish trend)
+- SOL/USD: ~$85-87; at key support; no reversal signal
+- Crypto-specific risks: FOMC Apr 28-29; whale distribution overwhelming ETF buys for now
+
+### Crypto Decision
+- BTC: HOLD — RSI 63, not oversold; flow war = no directional catalyst; wait for RSI <40 or ~$68-70k pullback
+- ETH: HOLD — RSI approaching oversold but bearish trend intact; no entry
+- SOL: HOLD — no setup
+- Execution: API still blocked regardless
+
+### Risk Factors
+- FOMC April 28-29 — do not initiate new positions in the 3 days prior without tight stops
+- GE earnings miss = gap-down risk (GTC stop critical)
+- TSLA earnings volatile — delivery miss already known; reaction depends on AI/margin guidance
+- Mid-tier BTC whale distribution at record pace
+- Alpaca API blocked — all execution requires IP allowlist fix in Alpaca paper account settings
+
+### Decision
+CRYPTO: HOLD — RSI 63, flow war stalemate, not oversold, API blocked
+STOCKS: DEFERRED to market-open routine — GE (TODAY) highest priority; NVDA + TSM secondary; TSLA pre-earnings setup watch for Apr 22

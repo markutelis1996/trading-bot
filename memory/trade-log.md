@@ -40,3 +40,29 @@ None
 
 ### Open Positions
 None
+
+---
+
+## 2026-04-21 - Pre-market Session (UPDATED — Session 2)
+
+**Portfolio:** ~$10,000.00 | **Cash:** ~$10,000.00 | **Positions:** 0
+
+### Execution Status
+- Alpaca API: BLOCKED (403 - host not in allowlist; persistent all sessions)
+- Orders placed: 0
+- Action required: Allowlist execution host IP in Alpaca paper account settings
+
+### Crypto Decision
+- BTC/USD: HOLD — RSI 63; "flow war" stalemate (mega-whale buy vs mid-tier sell); ETF 50k BTC/30d; no directional catalyst; wait for RSI <40 or ~$68-70k
+- ETH/USD: HOLD — RSI ~39, Death Cross active, bearish trend
+- SOL/USD: HOLD — no setup
+- No crypto orders placed (API blocked + entry criteria not met)
+
+### Stock Queue for Market-Open
+- GE: TOP PRIORITY — earnings today before open; 16/21 Strong Buy; avg PT $358 (+24%); entry ~$285 on beat, stop ~$265
+- NVDA: NVDA AI tailwind from TSMC record guidance; entry ~$120, stop ~$111
+- TSM: TSMC raised 2026 forecast >30%; entry ~$195, stop ~$181
+- TSLA: Watch earnings Apr 22; delivery miss known; entry ~$250, stop ~$232 if AI commentary bullish
+
+### Open Positions
+None
