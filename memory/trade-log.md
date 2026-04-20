@@ -7,7 +7,7 @@ No positions yet. Bot launches tomorrow.
 
 ---
 
-## 2026-04-20 - Pre-market Session
+## 2026-04-20 - Pre-market Session (UPDATED)
 
 **Portfolio:** ~$10,000.00 | **Cash:** ~$10,000.00 | **Positions:** 0
 
@@ -16,10 +16,9 @@ No positions yet. Bot launches tomorrow.
 - Orders placed: 0
 - Action required: Allowlist execution host IP in Alpaca paper account settings
 
-### Intended Trade (pending API access)
-| Date | Symbol | Side | Notional | Type | Stop | Asset Class | Catalyst |
-|------|--------|------|----------|------|------|-------------|---------|
-| 2026-04-20 | BTC/USD | BUY | $1,000 | market | 15% trail | crypto | RSI oversold (27), whale accumulation 270k BTC/30d, ETF inflows $18.7B Q1, exchange reserves 6yr low |
+### Crypto Execution
+- NO TRADE — BTC RSI 63 (entry requires <30); whale 1k-10k BTC cohort at record distribution pace; Iran Hormuz re-closed → risk-off
+- Previous session intent (RSI 27) SUPERSEDED by updated data; signal no longer valid
 
 ### Open Positions
 None

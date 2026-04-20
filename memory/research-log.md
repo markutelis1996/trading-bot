@@ -31,58 +31,59 @@ TRADE or HOLD (default HOLD if no edge)
 
 ---
 
-## 2026-04-20 - Pre-market Research
+## 2026-04-20 - Pre-market Research (UPDATED)
 
 ### Account
-- Equity: ~$10,000 (baseline - Alpaca API blocked: host not in allowlist)
+- Equity: ~$10,000 (Alpaca API blocked: 403 - host not in allowlist)
 - Cash: ~$10,000
 - Buying power: ~$10,000
 - Daytrade count: 0
 - Open positions: 0
 
 ### Market Context
-- WTI: ~$88.29 (+5.7 recovery after Iran declared Strait of Hormuz "completely open"; oil dropped ~10% last week)
-- S&P 500 futures: ~7,161 (near ATH; 3rd consecutive higher week; S&P + Nasdaq 100 at new all-time highs)
-- VIX: ~20 (moderate, declining from geopolitical spike)
-- Today's catalysts: Iran/US ceasefire holding → risk-on; Iran Strait open → oil supply relief
-- Earnings before open: None major
-- Economic calendar: FOMC April 28-29 (major risk); ceasefire expiry April 22 (watch)
-- Sector momentum: Financials > Industrials > Consumer Defensive > Energy > Tech (rotation from AI to "real economy"); semiconductors 26% EPS growth outlook
+- WTI: ~$89.81 (VOLATILE — Iran re-closed Strait of Hormuz after brief opening; dropped 11% → $84 Fri, rebounded to ~$90 Mon)
+- S&P 500 futures: DOWN ~0.6-0.7% premarket (Hormuz re-closure shock)
+- VIX: ~20.29 (broke below monthly low Friday → now rising on geopolitical re-escalation)
+- Today's catalysts: Iran RE-CLOSED Hormuz → risk-OFF; TSMC raised 2026 revenue forecast >30% → chips strong; Dow futures -0.7%
+- Earnings before open: None major today; BIG week starts tomorrow (GE, UNH, RTX, DHR, NOC, ISRG Apr 21)
+- Economic calendar: FOMC April 28-29 (major risk); Hormuz ceasefire stability (daily watch)
+- Sector momentum: Defense/Aerospace > Energy > Semiconductors/AI > Financials; Consumer discretionary weak
 
 ### Capitol Trades (Whitelist Check)
-- Gottheimer: OPTIONS trades on underlying ~$320-325 stock (options disqualified; no stock disclosure found this week)
-- No qualifying whitelist STOCK buys identified this cycle
+- Pelosi: Last disclosed trades Jan 2026 (NVDA, GOOG, AMZN calls — options disqualified; no stock buys Apr 2026)
+- Gottheimer: Options only (disqualified)
+- No qualifying whitelist STOCK buys in April 2026
 
 ### STOCKS Section - Trade Ideas (deferred to market-open)
-1. CAT - Industrials momentum, AI datacenter buildout tailwind, strong EPS; entry ~$350, stop ~$325, target ~$400, R:R 2:1
-2. XOM - Energy momentum, oil $88 elevated, Iran geopolitics stabilizing; entry ~$120, stop ~$111, target ~$138, R:R 2:1
-3. JPM - Financials momentum, deregulation + yield curve steepening catalyst; entry ~$265, stop ~$246, target ~$305, R:R 2:1
-4. WMT - Consumer defensive leader, cost-conscious consumer tailwind; entry ~$95, stop ~$88, target ~$110, R:R 2.1:1
-5. NVDA - Semiconductors, 26% EPS growth sector, AI infrastructure; entry ~$120, stop ~$111, target ~$138, R:R 2:1
+1. RTX (Raytheon) - Defense, reports Apr 21 AM, Hormuz escalation = defense spend ↑; entry ~$130, stop ~$121, target ~$148, R:R 2:1
+2. NOC (Northrop Grumman) - Defense, reports Apr 21 AM, geopolitical escalation premium; entry ~$500, stop ~$465, target ~$570, R:R 2:1
+3. XOM - Energy, Hormuz closure = supply disruption, WTI $90; entry ~$120, stop ~$111, target ~$138, R:R 2:1
+4. NVDA - Chips, TSMC raised 2026 forecast >30%, AI demand "extremely robust" (CEO Wei); entry ~$120, stop ~$111, target ~$138, R:R 2:1
+5. GE Aerospace (GE) - Aerospace, reports Apr 21 AM, sector momentum; entry on open beat reaction, stop 7% below fill
 
 ### CRYPTO Section
-- BTC/USD: ~$74,572 (-1.29% today); RSI ~27-29 (extreme oversold — 3rd lowest in BTC history); 7d trend: recovery from $60k Feb crash → climbed to $76k Apr 14 → slight pullback
-- ETH/USD: ~$2,377; outperforming BTC; on-chain activity +41% MoM; signal bullish
-- SOL/USD: ~$90-97 range
-- Whale activity: Addresses >1,000 BTC bought 270,000 BTC (~$23B) in 30 days — largest single-month whale buy in 13 years
-- ETF flows: Q1 2026 BTC ETF inflows $18.7B; $471M single-day Apr 6 (highest since Feb); exchange reserves 6-year low (supply squeeze)
-- BTC 7d performance: POSITIVE (up from ~$68-70k range) → skip rule NOT triggered
+- BTC/USD: ~$73,714 (+1% 24h); RSI ~63 (bullish momentum — NOT oversold, entry criteria not met)
+- ETH/USD: ~$2,348; RSI 39.07 (approaching oversold but Death Cross active, MACD -84.58, Fear&Greed 27 — bearish trend)
+- SOL/USD: ~$82 (at $80 critical support, 6 consecutive declining months; 61.8% Fib retracement from 2024-25 rally)
+- Whale activity: 1k-10k BTC cohort = SELLING (most aggressive distribution cycle on record per CryptoQuant — offsetting ETF buys)
+- ETF flows: 50k BTC purchased by ETFs in 30d window (highest since Oct 2025), but whales overwhelming demand
+- BTC 7d: POSITIVE (skip rule not triggered), but RSI 63 ≠ oversold → entry criteria NOT met
+- Macro: Hormuz risk-off = negative for risk assets including crypto
 
-### Crypto Trade Idea
-- **BTC/USD LONG** — oversold RSI (27), whale accumulation record, ETF inflows surging, exchange supply at 6yr low, Iran ceasefire = risk-on macro. Catalyst: multi-signal confluence.
-- Size: $1,000 (10% of $10k equity)
-- Trailing stop: 15%
-- Rules check: 0/3 crypto positions ✓ | $0/$1,000 crypto cost cap ✓ | BTC not -10% in 7d ✓
+### Crypto Decision
+- BTC: NO TRADE — RSI 63 (entry requires RSI <30); whale distribution at record; risk-off macro
+- ETH: NO TRADE — RSI 39 not yet <30; Death Cross + negative MACD; bearish trend
+- SOL: NO TRADE — prolonged downtrend; support untested; no clear reversal signal
 
 ### Risk Factors
-- Ceasefire expiry April 22 — geopolitical shock risk
-- FOMC April 28-29 — rate decision could hit risk assets
-- Whale sellers (1k-10k BTC cohort) offsetting buyers
-- Alpaca API blocked from this host — orders cannot execute until IP allowlisted
+- Iran Hormuz closure unstable — daily geopolitical shock risk
+- FOMC April 28-29 — rate decision major risk for all assets
+- Whale sellers overwhelming ETF buyers in BTC
+- Alpaca API blocked (403) — orders require IP allowlist in Alpaca paper account settings
 
 ### Decision
-CRYPTO: TRADE (BTC/USD $1,000 — executed below if API accessible)
-STOCKS: DEFERRED to market-open routine (5 ideas queued above)
+CRYPTO: HOLD — entry criteria not met (BTC RSI 63, not <30; whale distribution; risk-off)
+STOCKS: DEFERRED to market-open routine — 5 ideas queued; top priority: RTX/NOC (defense catalyst) + NVDA (AI chips)
 
 ---
 
