@@ -203,3 +203,51 @@ STOCKS: DEFERRED to market-open routine (5 ideas queued above; TSLA/AMZN earning
 ### Decision
 CRYPTO: HOLD — RSI 63, flow war stalemate, not oversold, API blocked
 STOCKS: DEFERRED to market-open routine — GE (TODAY) highest priority; NVDA + TSM secondary; TSLA pre-earnings setup watch for Apr 22
+
+---
+
+## 2026-04-20 - Market-Open Research (Session 3 — price re-verification)
+
+### Account
+- Equity: BLOCKED — Alpaca 403 (host_not_allowed); persistent across all sessions
+- Cash: ~$10,000 (estimated)
+- Daytrade count: 0
+- Open positions: 0
+
+### Market Context (fresh — 9:40 AM EDT)
+- WTI: $88.54 (+5.6%); Brent $94.18 (+4.3%) — Iran attacked tankers Sat; US Navy seized Iranian ship Sun
+- S&P 500: -0.22% to 7,110.47; Nasdaq -0.37% to 24,376.91
+- VIX: ~17.48 (low, but geopolitical risk rising intraday)
+- BTC: $75,324 at 9 AM EDT (above $73,714 from prior log; RSI still ~63 — not oversold)
+- Hormuz: ESCALATING — ships attacked, US blockade active, Tehran vowing retaliation → risk-off tone
+
+### STEP 1b — Price Re-verification (ALL tickers >5% from log entries → recalibrate)
+| Ticker | Log Price | Fresh Price | Delta | Status |
+|--------|-----------|-------------|-------|--------|
+| NVDA   | ~$120     | ~$201       | +68%  | RECALIBRATE |
+| TSM    | ~$195     | ~$374       | +92%  | RECALIBRATE |
+| RTX    | ~$130     | ~$197       | +52%  | RECALIBRATE |
+| NOC    | ~$500     | ~$667       | +33%  | RECALIBRATE |
+| GE     | ~$285     | ~$310       | +9%   | RECALIBRATE |
+
+Note: All research log prices were severely stale (months-old levels). Fresh prices replace prior entries.
+
+### Recalibrated Trade Ideas (fresh prices, valid setups only)
+1. **GE** — Earnings TOMORROW (Apr 21) before open; EPS consensus $1.59-1.63 (+9% YoY); rev ~$10.64B (+18%); avg PT $350.65; pre-earnings setup; entry ~$310, stop ~$288 (-7%), target ~$350, R:R 2.1:1 ★ TOP PICK
+2. **NOC** — Earnings TOMORROW (Apr 21) before open; Hormuz escalation = defense spend ↑; entry ~$667, stop ~$620 (-7%), target ~$770, R:R 2.2:1 ★ STRONG SETUP
+3. **RTX** — Defense catalyst (Hormuz active); entry ~$197, stop ~$183 (-7%), target ~$216 (avg PT), R:R 1.4:1 — marginal R:R; skip in favor of earnings plays
+4. **NVDA** — AI tailwind valid; entry ~$201, stop ~$187 (-7%), target ~$230, R:R 2.1:1 — no near-term catalyst; secondary
+
+### Crypto Decision
+- BTC: $75,324 — HOLD; RSI ~63 (not oversold); Hormuz risk-off headwind; whale distribution ongoing
+- No crypto entry criteria met
+
+### Risk Factors
+- Hormuz escalation: active combat zone; oil/VIX could spike further on direct US-Iran exchange
+- GE/NOC pre-earnings: gap-down risk on miss; stops mandatory
+- FOMC April 28-29: reduce exposure approaching that week
+- API blocked: all execution requires Alpaca IP allowlist fix
+
+### Decision
+STOCKS: HOLD (API blocked — cannot execute). If API fixed: GE + NOC pre-earnings strongest setups (earnings tomorrow)
+CRYPTO: HOLD — not oversold; risk-off macro

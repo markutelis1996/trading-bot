@@ -66,3 +66,40 @@ None
 
 ### Open Positions
 None
+
+---
+
+## 2026-04-20 - Market-Open Session
+
+**Portfolio:** ~$10,000.00 | **Cash:** ~$10,000.00 | **Positions:** 0
+
+### Execution Status
+- Alpaca API: BLOCKED (403 — `x-deny-reason: host_not_allowed`; confirmed via verbose curl at 9:40 AM EDT)
+- Orders placed: 0
+- Action required: Log into Alpaca → Paper account settings → IP Allowlist → add this environment's IP
+
+### Market Context (9:40 AM EDT)
+- WTI: $88.54 (+5.6%); Iran attacked tankers Sat, US Navy seized Iranian ship Sun — ESCALATING
+- S&P 500: -0.22%; Nasdaq: -0.37%; VIX ~17.48
+- Defense (RTX, LMT, NOC) outperforming; Airlines down; BTC $75,324 (not oversold)
+
+### Price Re-verification — ALL prior log prices severely stale (recalibrated)
+| Ticker | Log Price | Fresh Price | Delta |
+|--------|-----------|-------------|-------|
+| NVDA   | ~$120     | ~$201       | +68%  |
+| TSM    | ~$195     | ~$374       | +92%  |
+| RTX    | ~$130     | ~$197       | +52%  |
+| NOC    | ~$500     | ~$667       | +33%  |
+| GE     | ~$285     | ~$310       | +9%   |
+
+### Decision
+- NO TRADES — API blocked; cannot execute
+- Queued for tomorrow (Apr 21, earnings before open):
+  - GE: entry ~$310, stop ~$288, target ~$350, R:R 2.1:1 ★
+  - NOC: entry ~$667, stop ~$620, target ~$770, R:R 2.2:1 ★
+
+### Crypto
+- BTC: HOLD — RSI ~63; Hormuz risk-off; whale distribution ongoing
+
+### Open Positions
+None
