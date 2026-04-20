@@ -7,8 +7,19 @@ const ALPACA_DATA = 'https://data.alpaca.markets';
 
 export default async function handler(req, res) {
   const authHeader = req.headers['x-bot-auth'] || '';
-  if (!process.env.BOT_AUTH_TOKEN || authHeader !== process.env.BOT_AUTH_TOKEN) {
-    return res.status(401).json({ error: 'unauthorized' });
+  const envToken = (process.env.BOT_AUTH_TOKEN || '').trim();
+  if (!envToken) {
+    return res.status(500).json({ error: 'server_missing_token', env_has_token: !!process.env.BOT_AUTH_TOKEN });
+  }
+  if (authHeader.trim() !== envToken) {
+    return res.status(401).json({
+      error: 'unauthorized',
+      hint: 'token mismatch',
+      received_len: authHeader.length,
+      expected_len: envToken.length,
+      received_prefix: authHeader.slice(0, 6),
+      expected_prefix: envToken.slice(0, 6),
+    });
   }
 
   if (!process.env.ALPACA_API_KEY || !process.env.ALPACA_SECRET_KEY) {
