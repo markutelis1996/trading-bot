@@ -359,3 +359,55 @@ CRYPTO: HOLD all. ETH on watchlist (RSI 39 → need <30 for entry; Death Cross i
 ### Decision
 STOCKS: HOLD (API blocked). Queue for Apr 21 market-open: GE ★★ + NOC ★★ on earnings beat; NVDA ★ secondary.
 CRYPTO: HOLD all. ETH avoid actively today (KelpDAO exploit). BTC wait for RSI <30 or price ~$67K support retest.
+
+---
+
+## 2026-04-21 - Pre-market Research (Session 1)
+
+### Account
+- Equity: ~$10,000 (Alpaca API: 403 — host_not_allowed; persistent all environments)
+- Cash: ~$10,000 | Buying power: ~$10,000 | Daytrade count: 0 | Positions: 0
+- API status: Vercel proxy returns 403 "Host not in allowlist" — Anthropic sandbox IPs blocked
+
+### Market Context
+- WTI: ~$88.29/bbl (down ~10% from peak; Iran/Hormuz ceasefire signed Apr 7-8; Strait declared open Apr 17; "mixed messaging" on extension as of today)
+- S&P 500: +1.20% pre-market; Nasdaq +1.52%; on track for 3rd straight higher week; S&P hitting record highs
+- VIX: ~19.98 (elevated; ceasefire uncertainty keeps hedges active)
+- Sector rotation: Tech, Financials, Discretionary NOW leading (were laggards); Defense outperformed on war risk — rotation OUT underway
+- Earnings before open today: GE (BEAT ✓), NOC (MISS ✗), RTX (unknown), UNH, DHR, 3M
+- Earnings after close today: UAL
+- Economic calendar: FOMC April 28-29 — last day to add new positions = April 24 EOD (3-day rule)
+
+### Capitol Trades (Whitelist Check)
+- Pelosi, McCaul, Crenshaw, Tuberville, Khanna, Gottheimer, Green, Mast: No qualifying $25k+ buys found in April 2026 disclosures
+- No whitelist signal
+
+### STOCKS Section — Trade Ideas (deferred to market-open; API blocked)
+> LIVE QUOTES UNAVAILABLE — Alpaca API blocked. Prices from WebSearch context (not for trade math). MUST re-verify live at market-open.
+
+1. **GE** ★★ (TOP PRIORITY) — Q1 2026 BEAT confirmed ("profit forecast tops estimates as airlines keep engines in the shop"); 8 consecutive beats; 2026 guidance raised ($7.10-$7.40 EPS, FCF $8-8.4B); ceasefire = airlines flying more = shop visits up = double catalyst; 16/21 Strong Buy; avg PT $358. Entry: ~$310 (confirm live), Stop: ~$288 (-7%), Target: ~$350, R:R ~2.1:1 ★★
+2. **NVDA** ★ (SECONDARY) — Back above $200, 30-week EMA breakout, tech sector flows rotating in; no near-term catalyst until May 20 earnings; entry ~$201 (confirm live), stop ~$187, target ~$230, R:R 2.0:1. Only enter if GE fills and budget allows.
+3. **UAL** (WATCH — tomorrow) — Reports after close today; fuel cost concern (EPS estimates cut 18% in 60 days); ceasefire + lower oil = tailwind for tomorrow IF guidance improves; do NOT enter today pre-results.
+4. **RTX** (WATCH) — Reports today; expected $1.51 EPS; BUT defense rotation risk from ceasefire = headwind; await actual results + price action. Lower priority.
+5. **NOC** — REMOVED from queue. MISS: $6.06 vs $6.21 estimate (-2.42%); EPS declined YoY ($6.32→$6.06). Defense rotation risk compounded. Skip.
+6. **TSLA** — REMOVED. Earnings April 22 = binary gap risk both ways. No entry pre-earnings.
+7. **TSM** — REMOVED. Stale setup; no fresh catalyst today. Revisit later.
+
+### CRYPTO Section
+- **BTC/USD**: Price ~$73,714 (WebSearch context; stale — do not use for math). RSI: ~55.69 (NEUTRAL). Fear & Greed: 29 (Fear, ticking up). Whale accumulation: 270k BTC/30d (7-year exchange reserve low). ETF flows: $505.7M BlackRock IBIT in Apr 14-15 alone; cumulative $53B. Ceasefire = risk-on = modest tailwind. BUT RSI is neutral, not oversold. Entry criteria NOT met (need RSI <30 or price ~$67k).
+  - **Decision: HOLD** — RSI 55.69 = no entry signal; ceasefire already priced in from Apr 8-17 rally; wait for pullback to $67k or RSI reset
+- **ETH/USD**: Price ~$2,286 (stale). KelpDAO exploit ($292M, Apr 20) — DeFi contagion risk. Death Cross still active. RSI ~neutral.
+  - **Decision: STRONG HOLD** — active exploit catalyst; avoid
+- **SOL/USD**: No catalyst. No setup.
+- Crypto execution: BLOCKED (API) + entry criteria not met = no trades
+
+### Risk Factors
+- FOMC April 28-29: Hard cutoff for new positions = April 24 EOD
+- Ceasefire fragility: 10-day ceasefire; "mixed messaging" on extension as of Apr 21 — oil could spike back
+- NOC miss signals defense sector margin pressure (validates ceasefire rotation thesis)
+- ETH KelpDAO exploit: DeFi contagion still unresolved
+- Alpaca API blocked (persistent 5+ sessions) — zero execution capability until IP allowlist fixed
+
+### Decision
+STOCKS: HOLD (API blocked). Market-open queue: **GE ★★ first**, NVDA ★ secondary. NOC/TSLA/TSM removed. UAL watch post-close.
+CRYPTO: HOLD all — BTC RSI neutral (55.69), ETH exploit active. No entry criteria met.

@@ -118,3 +118,35 @@ None
 - API blocked (403 host_not_allowed) — no live execution all sessions today
 - GE & NOC queued; entry pending API access restoration
 - BTC: RSI ~63, Hormuz risk-off — no crypto entry
+
+---
+
+## 2026-04-21 - Pre-market Session (Session 3 — Fresh Run)
+
+**Portfolio:** ~$10,000.00 | **Cash:** ~$10,000.00 | **Positions:** 0
+
+### Execution Status
+- Alpaca API: BLOCKED (403 — Vercel proxy "Host not in allowlist"; persistent 5+ sessions)
+- Orders placed: 0
+- Next action: Fix IP allowlist in Vercel proxy OR Alpaca paper settings before any trade can execute
+
+### Market Context (Pre-open)
+- WTI: ~$88/bbl | S&P: +1.20% | Nasdaq: +1.52% | VIX: ~19.98
+- Ceasefire: Iran/Hormuz open (Apr 17); extension uncertain as of today
+- Sector rotation: Tech/Financials/Discretionary leading; Defense rotating out
+- GE Q1 2026: **BEAT** — profit forecast raised; airlines keeping engines in shop ✓
+- NOC Q1 2026: **MISS** — $6.06 vs $6.21 est; EPS YoY decline → REMOVED from queue
+
+### Crypto Decision
+- BTC: HOLD — RSI ~55.69 (neutral); entry criteria not met (need <30 or ~$67k)
+- ETH: HOLD — KelpDAO exploit active; Death Cross intact
+- No crypto orders placed
+
+### Stock Queue for Market-Open
+- **GE ★★** — BEAT confirmed; entry ~$310 (verify live), stop ~$288 (-7%), target ~$350, R:R 2.1:1
+- **NVDA ★** — tech momentum play; entry ~$201 (verify live), stop ~$187, target ~$230, R:R 2.0:1
+- UAL: watch after-close results today; potential setup Apr 22 on guidance
+
+### Open Positions
+None
+
