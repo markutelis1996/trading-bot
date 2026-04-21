@@ -216,3 +216,21 @@ None
 ### Open Positions
 None
 
+
+---
+
+## 2026-04-21 - Midday Scan
+
+**Portfolio:** ~$99,999 | **Open Positions:** 2 | **Cash:** ~$70,000
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Stop | Status |
+|--------|--------|-------|---------|------|------|--------|
+| GE | 50.25 | $298.50 | $285.50 | -4.36% | $268.41 (10% trail) | HOLD |
+| NVDA | 74.51 | $201.25 | $200.16 | -0.54% | $182.24 (10% trail) | HOLD |
+
+### Actions
+- No cuts (GE -4.36%, NVDA -0.54% — both above -7% rule)
+- No stop tightening (neither at +15%/+20%)
+- Thesis check: GE "sell the news" on guidance held (not raised); core thesis intact; NVDA no change
+- All trailing stops confirmed active via Alpaca API

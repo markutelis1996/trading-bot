@@ -491,3 +491,28 @@ CRYPTO: HOLD all — BTC RSI neutral (55.69), ETH exploit active. No entry crite
 ### Decision
 STOCKS: HOLD (API blocked). Market-open queue unchanged: **GE ★★ first**, **NVDA ★ secondary**. RTX/UAL on watch. Hard FOMC cutoff = April 24 EOD.
 CRYPTO: HOLD — BTC RSI neutral; ETH exploit active. No entry criteria met.
+
+---
+
+## 2026-04-21 - Midday Scan
+
+### Portfolio State (midday)
+- **GE**: 50.25 shares | entry $298.50 | current $285.50 | **-4.36%** | stop $268.41 (10% trail, active)
+- **NVDA**: 74.51 shares | entry $201.25 | current $200.16 | **-0.54%** | stop $182.24 (10% trail, active)
+
+### GE Thesis Check — "Sell the News" Reaction
+- **Beat confirmed**: EPS $1.86 vs $1.60 estimate; Revenue $11.6B vs $10.71B expected
+- **Guidance HELD** (not raised): FY2026 EPS $7.10-$7.40 vs analyst consensus $7.49 — CEO Culp: "holding guidance given macro uncertainty"
+- **Margin headwind**: Operating margins -200bps (strategic investments + inflation)
+- **Geopolitical drag**: Middle East conflict (Op. Epic Fury) shaping H2 outlook; late-Q1 timing limited Q1 impact
+- **Verdict: NOT a thesis break** — fundamentals intact (beat, $190B backlog, airline shop visits); market disappointed by no guidance raise; classic sell-the-news; hold with 10% trail active
+- **Monitor**: If price approaches $268 stop or -7% from entry (~$277.70), reassess
+
+### NVDA — No Action
+- Down -0.54% intraday; no material negative news
+- AI growth story confirmed intact; Quantum Computing announcement (Ising family) Apr 14 added secondary catalyst
+- Hold; thesis intact
+
+### Actions Taken
+- None — no cuts, no stop adjustments
+- All stops confirmed active via Alpaca API
