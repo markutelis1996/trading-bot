@@ -411,3 +411,83 @@ CRYPTO: HOLD all. ETH avoid actively today (KelpDAO exploit). BTC wait for RSI <
 ### Decision
 STOCKS: HOLD (API blocked). Market-open queue: **GE ★★ first**, NVDA ★ secondary. NOC/TSLA/TSM removed. UAL watch post-close.
 CRYPTO: HOLD all — BTC RSI neutral (55.69), ETH exploit active. No entry criteria met.
+
+---
+
+## 2026-04-21 - Pre-market Research (Session 2)
+
+### Account
+- Equity: ~$10,000 (Alpaca API: 403 — host_not_allowed; Vercel proxy persistent block, 6th session)
+- Cash: ~$10,000 | Buying power: ~$10,000 | Daytrade count: 0 | Positions: 0
+- Live quotes: UNAVAILABLE (API blocked) — all prices from WebSearch (stale; do NOT use for trade math)
+
+### Market Context
+- S&P 500: ~7,126 (+1.20%); Nasdaq: +1.52% — 3rd straight up week; record-high territory
+- VIX: 17.48 (DOWN from 19.98 yesterday — bullish signal; volatility compressing)
+- WTI: ~$87.33/bbl (+5.74% stale context); Iran/Hormuz ceasefire holding but "mixed messaging" on 10-day extension; oil stays elevated
+- Sector rotation: Tech / Financials / Discretionary leading; Defense rotating OUT post-ceasefire
+- Earnings before open today: **GE** (BEAT confirmed prior session), **RTX** (reporting today; $1.51 EPS expected), UNH, DHR, 3M
+- Earnings after close today: **UAL** (do NOT enter pre-results)
+- Economic calendar: FOMC April 28-29 — hard cutoff for new positions = April 24 EOD (3-day rule)
+
+### Capitol Trades (Whitelist Check)
+- Pelosi, McCaul, Crenshaw, Tuberville, Khanna, Gottheimer, Green, Mast: No qualifying $25k+ buys found in April 2026 disclosures (confirmed via Quiver/CapitolTrades search)
+- No whitelist signal this session
+
+### STOCKS Section — Trade Ideas
+> LIVE QUOTES UNAVAILABLE — API blocked. Prices from WebSearch context only. MUST re-verify live at market-open before any execution.
+
+1. **GE** ★★ (TOP PRIORITY)
+   - Q1 2026 BEAT (prior session confirmed; 8 consecutive beats; surprise range 9.79%–17.32%)
+   - Consensus: $1.59–$1.63 EPS (+9% YoY), Rev $10.64B (+18% YoY)
+   - FY2026 guidance: $7.10–$7.40 EPS, FCF $8.0–$8.4B; $190B backlog
+   - Ceasefire → airlines flying more → shop visits up → double catalyst with earnings
+   - Analyst: 16/21 Strong Buy; avg PT $358
+   - Entry: ~$310 (confirm live), Stop: ~$288 (-7%), Target: ~$350, R:R 2.1:1 ★★
+
+2. **NVDA** ★ (SECONDARY — enter only if budget after GE)
+   - Price ~$202 (+13% YTD); next earnings May 20 (no near-term catalyst today)
+   - AI/chip sector momentum broadening (AMD, Broadcom, Marvell all lifting)
+   - Rubin GPU H2 2026 catalyst; analyst avg PT $266 (31% upside); Strong Buy consensus
+   - Entry: ~$202 (confirm live), Stop: ~$188 (-7%), Target: ~$231, R:R 2.0:1 ★
+
+3. **RTX** (WATCH — reports today before open)
+   - Expected: $1.51 EPS (+2.7% YoY), Rev $21.38B; 4 consecutive beats
+   - HEADWIND: defense rotation OUT on ceasefire; lower priority than GE
+   - Evaluate actual result + price action at open before entering
+
+4. **UAL** (WATCH — results after close tonight)
+   - EPS estimate $1.08 (revised DOWN 18% in 60 days); capacity cuts -5%; fuel headwind
+   - Ceasefire + lower oil = potential tailwind for FY2026 guidance
+   - Do NOT enter today pre-results; potential setup Apr 22 morning on guidance beat
+   - Watch for: capacity guidance, yield trends, fuel cost hedging commentary
+
+5. **NOC** — REMOVED (Q1 MISS; $6.06 vs $6.21 estimate; EPS declined YoY)
+6. **TSLA** — REMOVED (earnings Apr 22; binary binary gap risk)
+
+### CRYPTO Section
+- **BTC/USD**: Price ~$74,854 (WebSearch — stale; do not use for math)
+  - Fear & Greed: 29 (Fear); Whale accumulation: 270k BTC/30d (largest since 2013; 7-yr exchange reserve low)
+  - Hourly exchange inflows spiked 11k BTC Apr 15 (distribution signal alongside accumulation)
+  - RSI: ~neutral (not <30); ceasefire = risk-on but already priced in Apr 8-17 rally
+  - **Decision: HOLD** — RSI not at entry threshold; $67k support retest criteria not met; wait
+
+- **ETH/USD**: Price ~$2,189; KelpDAO exploit ($292M, Apr 18; Lazarus/North Korea)
+  - Aave: $6B withdrawn in 24h post-exploit; bad debt $177-196M; pools at 100% utilization
+  - Arbitrum froze 30,766 ETH in emergency response; DeFi confidence shattered
+  - **Decision: STRONG AVOID** — active exploit cascade; Lazarus Group now linked to two 2026 DeFi attacks totaling $575M
+
+- **SOL/USD, AVAX/USD, LINK/USD**: No catalysts. No setups.
+- Crypto execution: API blocked + no entry criteria met = no trades
+
+### Risk Factors
+- FOMC April 28-29: Zero new positions after April 24 EOD
+- Iran ceasefire fragility: 10-day window; "mixed messaging" → oil spike risk
+- RTX defense rotation headwind: ceasefire erodes near-term defense premium
+- ETH KelpDAO / Lazarus Group DeFi contagion: ongoing; avoid all DeFi-adjacent crypto
+- BTC whale exchange inflows rising alongside accumulation: distribution pressure possible
+- Alpaca API blocked (persistent 6+ sessions): zero execution until IP allowlist fixed
+
+### Decision
+STOCKS: HOLD (API blocked). Market-open queue unchanged: **GE ★★ first**, **NVDA ★ secondary**. RTX/UAL on watch. Hard FOMC cutoff = April 24 EOD.
+CRYPTO: HOLD — BTC RSI neutral; ETH exploit active. No entry criteria met.

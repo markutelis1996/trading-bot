@@ -150,3 +150,39 @@ None
 ### Open Positions
 None
 
+---
+
+## 2026-04-21 - Pre-market Session (Session 4)
+
+**Portfolio:** ~$10,000.00 | **Cash:** ~$10,000.00 | **Positions:** 0
+
+### Execution Status
+- Alpaca API: BLOCKED (403 — Vercel proxy "Host not in allowlist"; 6th consecutive session)
+- Orders placed: 0
+- Live quotes: UNAVAILABLE — all prices unverified
+
+### Market Context
+- S&P 500: ~7,126 (+1.20%) | Nasdaq: +1.52% | VIX: 17.48 (↓ from 19.98 — volatility compressing, bullish)
+- WTI: ~$87/bbl elevated; ceasefire holding but fragile (10-day window, "mixed messaging")
+- Sector: Tech/Financials/Discretionary leading; Defense rotating out
+
+### Earnings Summary (Apr 21)
+- **GE** ★★: BEAT confirmed (9th consecutive); guidance raised ($7.10–$7.40 EPS FY2026); airlines shop-visit tailwind; 16/21 Strong Buy; avg PT $358
+- **RTX**: Reported today; $1.51 EPS expected; defense rotation headwind; await price action
+- **NOC**: MISS — removed from queue
+- **UAL**: Reports AFTER CLOSE tonight — do NOT enter; watch for Apr 22 setup
+
+### Crypto Decision
+- BTC: HOLD — RSI neutral (~55); Fear/Greed 29; whale accumulation 270k BTC/30d (bullish LT) but distribution inflows rising (near-term caution); entry requires RSI <30 or price ~$67k
+- ETH: STRONG AVOID — KelpDAO exploit ($292M; Lazarus Group); Aave $6B withdrawn; bad debt $177-196M; DeFi contagion unresolved
+- No crypto orders placed
+
+### Stock Queue for Market-Open (requires API fix first)
+- **GE ★★** — TOP PICK; BEAT + raised guidance; verify live quote; entry ~$310, stop ~$288 (-7%), target ~$350, R:R 2.1:1
+- **NVDA ★** — secondary; AI momentum; verify live; entry ~$202, stop ~$188 (-7%), target ~$231, R:R 2.0:1
+- **UAL** — watch Apr 22 morning post-results
+- **RTX** — watch price action post-open; defense rotation headwind
+
+### Open Positions
+None
+
