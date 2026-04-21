@@ -152,6 +152,36 @@ None
 
 ---
 
+## 2026-04-21 - Market-Open Session
+
+**Portfolio:** ~$99,999 | **Cash:** ~$70,000 | **Positions:** 2
+
+### Execution Status
+- Alpaca API: **LIVE** — first successful execution session
+- Orders placed: 2
+
+### Trades Executed
+
+| # | Date | Ticker | Side | Shares | Entry | Stop | Target | R:R | Thesis |
+|---|------|--------|------|--------|-------|------|--------|-----|--------|
+| 1 | 2026-04-21 | GE | BUY | 50.25 | $298.50 | $268.02 (10% trail) | $345 | 2.1:1 | Q1 2026 BEAT (8th consecutive); FY2026 guidance raised ($7.10-$7.40 EPS); airlines keeping engines in shop; 16/21 Strong Buy; avg PT $358 |
+| 2 | 2026-04-21 | NVDA | BUY | 74.51 | $201.25 | $180.95 (10% trail) | $231 | 2.0:1 | AI backbone; Nasdaq ATH; TSMC raised 2026 forecast >30%; AI demand "extremely robust"; avg PT $266 |
+
+### Stops Placed (GTC trailing)
+- GE: 50 shares, 10% trail, initial stop $268.02 (hwm $297.80) — order ID f196f61c
+- NVDA: 74 shares, 10% trail, initial stop $180.95 (hwm $201.05) — order ID 97a50e3f
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | GE | 50.25 | $298.50 | $268.02 (10% trail) | $345 | 2.1:1 |
+| 2 | NVDA | 74.51 | $201.25 | $180.95 (10% trail) | $231 | 2.0:1 |
+
+- Trades this week: 2
+- Crypto: HOLD — BTC RSI neutral; ETH exploit active
+
+---
+
 ## 2026-04-21 - Pre-market Session (Session 4)
 
 **Portfolio:** ~$10,000.00 | **Cash:** ~$10,000.00 | **Positions:** 0
