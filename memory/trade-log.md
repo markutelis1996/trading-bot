@@ -234,3 +234,33 @@ None
 - No stop tightening (neither at +15%/+20%)
 - Thesis check: GE "sell the news" on guidance held (not raised); core thesis intact; NVDA no change
 - All trailing stops confirmed active via Alpaca API
+
+---
+
+## 2026-04-22 - Market-Open Session
+
+**Portfolio:** $98,718.69 equity | **Cash:** $83,847.64 | **Positions:** 1
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 1 (SELL GE — manual cut)
+
+### Trades Executed
+
+| # | Date | Ticker | Side | Shares | Entry | Exit | P&L$ | P&L% | Reason |
+|---|------|--------|------|--------|-------|------|------|------|--------|
+| 1 | 2026-04-22 | GE | SELL | 50.25 | $298.50 | $275.50 | -$1,157 | -7.70% | Manual cut: -7% rule triggered (price broke $277.61 threshold) |
+
+### No New Buys
+- **GEV** ★★: SKIP — ask $1,181 vs planned $1,080-1,100 entry zone; >5% above plan; do not chase (beat already priced in gap)
+- **VRT**: SKIP — bid/ask $289/$323 (11% spread); illiquid at open
+- **TSLA**: SKIP — earnings AMC tonight; binary gap risk; watch Apr 23
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | Stop | Target | R:R |
+|---|--------|--------|-------|---------|------|--------|-----|
+| 1 | NVDA | 74.51 | $201.25 | $199.58 | $182.24 (10% trail) | $231 | 2.0:1 |
+
+- Trades this week (new entries): 2 (GE Apr 21, NVDA Apr 21)
+- FOMC cutoff: Apr 24 EOD — last day to add new positions
+- GE thesis note: "sell the news" on guidance-held was valid; -7% cut rule properly triggered
