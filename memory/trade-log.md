@@ -264,3 +264,21 @@ None
 - Trades this week (new entries): 2 (GE Apr 21, NVDA Apr 21)
 - FOMC cutoff: Apr 24 EOD — last day to add new positions
 - GE thesis note: "sell the news" on guidance-held was valid; -7% cut rule properly triggered
+
+---
+
+## 2026-04-22 - Midday Scan
+
+**Portfolio:** $98,916.89 equity | **Cash:** $83,847.64 | **Positions:** 1
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Stop | Status |
+|--------|--------|-------|---------|------|------|--------|
+| NVDA | 74.51 | $201.25 | $202.26 | +0.50% | $182.24 (10% trail, HWM $202.49) | HOLD |
+
+### Actions
+- No cuts (NVDA +0.50% — above -7% threshold)
+- No stop tightening (not at +15%/+20%)
+- Thesis intact: AI momentum story unchanged; up inline with market (+1.19% intraday); no adverse news
+- TSLA AMC tonight — watch Apr 23 morning per pre-market plan
+- Perplexity unavailable (key not set); Tavily check: no sharp intraday movers requiring thesis review
