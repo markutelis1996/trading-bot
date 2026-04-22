@@ -516,3 +516,96 @@ CRYPTO: HOLD — BTC RSI neutral; ETH exploit active. No entry criteria met.
 ### Actions Taken
 - None — no cuts, no stop adjustments
 - All stops confirmed active via Alpaca API
+
+---
+
+## 2026-04-22 - Pre-market Research
+
+**Portfolio:** $99,543.19 equity | **Cash:** $70,003.44 | **Positions:** 2
+
+### Account Snapshot
+- GE: 50.25 shares | entry $298.50 | current ~$289-302 (recovering) | stop $268.41 (10% trail) | HWM $298.23 | P&L ~-3%
+- NVDA: 74.51 shares | entry $201.25 | current ~$199-201 | stop $182.24 (10% trail) | HWM $202.49 | P&L ~flat
+- Trailing stops: both confirmed active (GTC)
+- Daytrade count: 0 | Buying power: $169,546
+
+### Market Context
+- S&P 500 futures: **+0.56%**, 7,139.50 (continuing recovery)
+- WTI: ~$88.48/bbl (-1.33%) | Brent: ~$97.55/bbl (-0.94%) — easing on ceasefire hopes
+- VIX: **19.18** (slightly elevated, FOMC caution; down from ~31 peak in March)
+- Sector leadership today: Consumer Discretionary +1.97%, Industrials +1.82%, Info Tech +1.59%
+- YTD sector leaders: Energy (+26-38%), Industrials (+9-12%), Consumer Staples (+7-10%), Materials (+9.7%)
+- Geopolitical: US-Iran ceasefire extended (Trump) → risk-on mood; oil drifting lower
+
+### Economic Calendar
+- **Today Apr 22**: EIA Crude Oil Inventory 10:30am ET (minor)
+- **Apr 23**: Jobless claims 207K prev
+- **Apr 28-29**: FOMC meeting — rates expected to hold at 3.50-3.75% (3rd consecutive hold)
+- **HARD CUTOFF: No new positions after Apr 24 EOD** (FOMC blackout)
+- May 12: CPI release
+
+### Earnings Summary (Apr 22)
+**BMO (Before Market Open):**
+- **GEV ★★ (GE Vernova)**: Reports today BMO; consensus EPS $1.79-$2.02, Rev $9.19-9.29B (+15.6% YoY); avg surprise +107%; shares +9% premarket on BEAT (per Investing.com: "surged more than 9%...blast past expectations"). Premarket Alpaca ask $1,191.45 bid $942.87 (wide spread — verify at open)
+- **VRT (Vertiv)**: Reports today BMO; consensus EPS $1.00-$1.01, Rev $2.63B; Q4 orders +252% YoY; premarket Alpaca ask $333.90 bid $300.87 (wide spread). Conf call 11am ET
+- **PM (Philip Morris)**: BMO; EPS $1.83 est (+8% YoY); smoke-free growing 41.5% of rev; steady but not a momentum play
+- **BA (Boeing)**: BMO; -$0.68 EPS expected; avoid
+
+**AMC (After Market Close):**
+- **TSLA**: EPS $0.36-$0.39 est, Rev $22.71B; deliveries miss (358k vs 372k est); binary risk → DO NOT ENTER before results; watch Apr 23 morning
+- **IBM**: AMC, EPS $1.81 est
+- **TXN**: AMC, EPS $1.37 est
+
+**Held positions:**
+- **GE**: Q1 beat confirmed ($1.86 vs $1.60 est, +15.5%); sell-the-news reaction; recovering today (+2-3%); thesis intact — $190B backlog, airline shop visits, FY2026 guidance trending to high end. Alpaca live ask $302.09 (premarket). Stop $268.41 active.
+- **NVDA**: No new catalyst today; next earnings May 20; AI story intact; trading flat ~$199-201. Stop $182.24 active.
+
+### Politician Signals
+- **Pelosi**: Last disclosed Jan 26, 2026 (traded Jan 16, 2026 — 97 days ago, OUTSIDE 45-day window)
+  - Bought NVDA $375k, GOOGL $750k, AMZN $750k, AB $3M (Jan 16, 2026)
+  - NOT actionable — outside disclosure window
+- **Other whitelist** (Tuberville, Khanna, Gottheimer, Crenshaw, McCaul, Mast, Green): No 2026 trades found in public databases within 45-day window
+- **Signal**: NONE actionable. No politician catalyst for any ticker today.
+
+### Crypto Section
+- **BTC**: ~$75,532-$76,426 (+2.4% 24h); RSI ~60 (neutral-bullish, NOT <30); 7-day trend +2.8%; ETF inflows picking up; $74k support holding; SMA-7 $75,330 acting as floor
+- **ETH**: KelpDAO exploit ($292M, Lazarus Group) — DeFi contagion ongoing; STRONG AVOID
+- **Decision: HOLD** — BTC RSI not at entry threshold; ETH exploit active. No entry criteria met.
+
+### Trade Ideas (Live Alpaca Quotes Used)
+
+**1. GEV ★★ (GE Vernova) — STRONG CANDIDATE**
+- Catalyst: Q1 2026 massive earnings beat (BMO today) + grid/AI electricity demand ($64B backlog) + Energy sector #1 YTD
+- Premarket Alpaca quote: ask $1,191.45 / bid $942.87 (very wide — do NOT use for math; premarket illiquid)
+- **Entry strategy**: Wait 15-30 min post-open for price to stabilize; use market-open execution workflow for live quote
+- Estimated entry zone: ~$1,080-1,100 (based on +9% from $992 close; to be verified at open)
+- Position size: $14,900 (15% of portfolio) = ~13-14 shares at ~$1,080
+- Stop: entry × 0.90 = ~$972-990 (10% trail)
+- Target: entry × 1.20 = ~$1,296-1,320 (20% above), R:R 2:1
+- **Note**: Must verify live quote at market open before any order; do not chase >5% gap
+
+**2. VRT (Vertiv) — WATCH**
+- Catalyst: Q4 2025 orders +252% YoY; hyperscaler AI capex confirmed; BMO today — results not yet confirmed at research time
+- Premarket Alpaca quote: ask $333.90 / bid $300.87 (wide — verify at open)
+- Entry: verify BMO results first; if beat confirmed, enter post-open at live quote
+- Stop: live_price × 0.90 | Target: live_price × 1.20 | R:R 2:1
+- **Secondary priority**: Enter only if GEV position filled and budget allows
+
+**3. TSLA — WATCH (Apr 23 only)**
+- AMC tonight; EPS $0.37-$0.39 est; delivery miss already known (358k vs 372k)
+- DO NOT ENTER today. Watch Apr 23 morning post-results. Only enter on a beat + guidance raise.
+
+### Risk Factors
+- **FOMC blackout**: Apr 24 EOD is last entry day → today and tomorrow only
+- **Iran ceasefire fragility**: 10-day window; oil spike risk if peace talks collapse again
+- **VIX**: 19.18 — slightly elevated, not extreme; acceptable for entries
+- **GE "sell the news"**: Still -3% from entry; stop at $268.41; thesis intact but position underwater
+- **TSLA binary risk**: Tonight's report could gap either direction — stay out pre-results
+- **FOMC Kevin Warsh nomination**: Senate hearing underway; market uncertainty about Fed chair transition
+
+### Decision
+- **STOCKS**: TRADE — GEV ★★ is the top setup today (earnings beat + energy momentum). Execute at market open via live quote. VRT is secondary watch (confirm results first).
+- **EXISTING POSITIONS**: HOLD — GE recovering (thesis intact); NVDA flat (hold).
+- **CRYPTO**: HOLD — no entry criteria met.
+- **Priority**: GEV first, VRT second, add neither unless live price confirms setup at open.
+
