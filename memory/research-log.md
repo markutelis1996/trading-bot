@@ -609,3 +609,94 @@ CRYPTO: HOLD — BTC RSI neutral; ETH exploit active. No entry criteria met.
 - **CRYPTO**: HOLD — no entry criteria met.
 - **Priority**: GEV first, VRT second, add neither unless live price confirms setup at open.
 
+
+---
+
+## 2026-04-23 - Pre-market Research
+
+**Portfolio:** $98,795.44 equity | **Cash:** $83,847.64 (84.7%) | **Deployed:** ~15.1% | **Day trade count:** 0
+
+### Account Snapshot
+| Field | Value |
+|-------|-------|
+| Equity | $98,795.44 |
+| Cash | $83,847.64 |
+| Positions | 1 (NVDA) |
+| Open orders | 1 (NVDA trailing stop GTC) |
+| Daytrade count | 0/3 |
+| New trades this week | 2 of 7 (GE Apr 21, NVDA Apr 21) — 5 slots remain |
+| FOMC cutoff | Apr 24 EOD (last entry day) |
+
+### Open Positions
+| Ticker | Shares | Entry | Premarket Quote | Unrealized P&L | Stop |
+|--------|--------|-------|-----------------|----------------|------|
+| NVDA | 74.51 | $201.25 | bid $195 / ask $202.63 (wide, AH) | -$48 (-0.32%) | $182.25 (10% trail, HWM $202.50) |
+
+### Market Context
+- **S&P 500 futures:** 7,133.25, **-0.41%** — slight pullback after record close Apr 22
+- **WTI:** ~$94.64/bbl (+1.81%) | **Brent:** ~$103.45/bbl (+1.87%) — elevated; Strait of Hormuz blockade still active, Persian Gulf producers cut ~6% output; geopolitical risk premium persists
+- **VIX:** 18.92 (Apr 22 close, -2.97%); declining trend from ~31 March peak → acceptable risk environment
+- **Sector leaders YTD:** Energy (+22-26%) #1 | Industrials (+16%) #2 | Consumer Staples (+13%) | Tech recovering (XLK -6% YTD but April strong)
+- **Macro:** Iran ceasefire extended (Apr 22) → risk-on tone despite Hormuz blockade; S&P / Nasdaq hit record close Apr 22; Kevin Warsh Fed chair nomination pending
+
+### Economic Calendar Today (Apr 23)
+- **8:30am ET:** Initial Jobless Claims (consensus 212K, prev 207K) — market-moving
+- **9:45am ET:** PMI Composite Flash — secondary
+- **No CPI/PPI/GDP today** (GDP Advance Apr 30; CPI May 12; FOMC Apr 28-29)
+
+### Earnings Today (Apr 23)
+**BMO (Before Market Open — binary risk, caution on entries):**
+- **HON** (Honeywell): consensus EPS $2.31-$2.33, Rev $9.3B; 4 consecutive beats (avg +7.6% surprise); Alpaca quote illiquid (bid $212, no ask) → SKIP
+- **LMT** (Lockheed Martin): consensus EPS $6.63-$6.79, Rev $18.1B; last Q miss -2.36%; defense rotation headwind; Alpaca bid $532/ask $581 (AH) → SKIP (binary risk)
+- **UNP** (Union Pacific): consensus EPS $2.86 → industrial sector watch
+- **AXP** (AmEx): consensus EPS $3.99
+
+**Previously reported (Apr 22):**
+- **TSLA** AMC: Beat EPS $0.41 vs $0.37 (+11%), missed revenue $22.39B vs $22.64B. Stock +0.28% (muted). NOT a momentum entry.
+- **GEV** BMO Apr 22: Massive beat → stock +13.75% to $1,127.56. Missed entry (premarket spread was too wide). Too extended now.
+
+### Politician Signals
+- **Pelosi:** Last traded Jan 16, 2026 (disclosed Jan 26). **97 days ago — OUTSIDE 45-day window.** Bought NVDA $375K, GOOGL $750K, AMZN $750K, AB $3M (Jan 16). Not actionable.
+- **Tuberville, Khanna, Gottheimer, Crenshaw, McCaul, Mast, Green:** No April 2026 trades found in 45-day window. Khanna last active in Dec 2025 (semiconductor exits). McCaul no recent semis/AI buys disclosed.
+- **Signal: NONE actionable.** No politician catalyst for any ticker today.
+
+### Crypto
+- **BTC:** ~$76,434 (Apr 21-22). 7-day trend: mild uptrend from $73k Feb lows. 1-year: -13.26%. RSI neutral (not <30 threshold). Entry requires RSI <30 or ~$67k — NOT MET.
+- **ETH:** KelpDAO/$292M exploit (Lazarus Group) ongoing — **STRONG AVOID**
+- **Decision: HOLD** — no entry criteria met for any crypto
+
+### Trade Ideas (Live Alpaca Quotes Used)
+
+**1. MU (Micron Technology) — WATCHLIST ★**
+- **Catalyst:** AI memory supercycle — HBM4 volume shipments to NVIDIA Vera Rubin GPU platform confirmed; first 5-year strategic supply agreement signed; DRAM/NAND data center TAM >50% of industry for first time in 2026; memory shortage persists through 2027; +8.48% yesterday, 52-week high set Apr 22
+- **Premarket Alpaca quote:** bid $458.74, ask $515.03 (afterhours, $56 wide — illiquid; prior close $487.48)
+- **Entry strategy:** Verify live quote at market open; enter only if price holds $480+ with confirming volume; do NOT chase if >5% above $487 close
+- **At $487 entry:** stop $438.30 (10% trail), target $584.40 (20%), R:R 2:1
+- **Position size:** 15% of portfolio = ~$14,820 → ~30 shares at ~$487
+- **Risk:** 52-week high territory; stock up 50% YTD; previously crashed -30% post-earnings in March; next earnings June 23 → clean swing window
+- **Sector:** Semiconductors/Tech — AI momentum aligned
+- **Rating: WATCHLIST** — strong thesis, but premarket slight market weakness (-0.41%) warrants confirming price at open
+
+**2. NVDA — HOLD**
+- No new catalyst today; AI chip rally ongoing; premarket bid $195/ask $202.63 (AH spread); thesis intact
+- Stop $182.25 (10% trail, HWM $202.50). Next earnings May 20.
+
+**Not actionable today:**
+- GEV: +13.75% yesterday — too extended; entry would be >5% above plan
+- TSLA: muted post-earnings (+0.28%) — no momentum catalyst
+- LMT/HON: BMO earnings today — binary risk, skip
+- Crypto: no entry criteria met
+
+### Risk Factors
+- **FOMC cutoff:** Apr 24 EOD = last entry day. Today is day 1 of the 2-day window.
+- **Market pullback premarket:** S&P futures -0.41%; profit-taking after record close could pressure MU entry
+- **Hormuz blockade:** Oil at $94+ WTI; escalation risk if blockade extends → energy cost headwind for tech margins
+- **VIX:** 18.92 — acceptable; declining trend is positive
+- **Pelosi "lag" risk:** All politician signals outside window — no insider info advantage available
+- **TSLA binary resolved:** Neutral result; no new binary risk for the week except FOMC
+
+### Decision
+- **STOCKS:** WATCHLIST MU ★ — set alert $480+; verify live quote at 9:30am; enter if price holds and volume confirms. This would be 3rd trade of the week (5 remain in learning mode). Last valid entry window before FOMC.
+- **NVDA:** HOLD — thesis intact, no change
+- **CRYPTO:** HOLD — no entry criteria
+- **Priority action:** Market-open workflow to execute MU if criteria confirmed
