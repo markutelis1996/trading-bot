@@ -322,3 +322,21 @@ None
 
 - Trades this week: 3 (GE Apr 21, NVDA Apr 21, MU Apr 23)
 - FOMC cutoff: Apr 24 EOD — last day to add new positions
+
+---
+
+## 2026-04-23 - Midday Scan
+
+**Portfolio:** ~$99,058 equity | **Cash:** ~$68,768 | **Positions:** 2 | **Deployed:** ~30.4%
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|------|-----|--------|
+| MU | 30.78 | $481.76 | $490.16 | +1.74% | +$258.59 | $444.26 (10% trail) | $493.62 | HOLD |
+| NVDA | 74.51 | $201.25 | $201.52 | +0.13% | -$73.02 | $183.45 (10% trail) | $203.83 | HOLD |
+
+### Actions
+- No cuts (MU +1.74%, NVDA +0.13% — both above -7% rule)
+- No stop tightening (neither at +15%/+20% threshold)
+- Thesis intact: MU AI memory supercycle / HBM4-NVIDIA supply agreement unchanged; NVDA AI chip demand unchanged
+- Both trailing stops confirmed active (MU order dadaa437, NVDA order 97a50e3f)
