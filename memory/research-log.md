@@ -821,3 +821,31 @@ CRYPTO: HOLD — BTC RSI neutral; ETH exploit active. No entry criteria met.
   - Do NOT chase if opening >5% above yesterday's close
 - **CRYPTO:** HOLD — no entry criteria
 - **Framework for today:** Priority = protect capital into FOMC. New entry only if macro data prints benign AND TXN confirms without excessive gap. When in doubt, wait.
+
+---
+
+## 2026-04-24 - Midday Research Addendum
+
+### Portfolio State
+- Equity: $100,039.16 | Cash: $54,124.68 | Deployed: ~45.9%
+- All 3 positions: NVDA (+4.23%), MU (+3.56%), TXN (+0.27%) — all HOLD
+
+### NVDA +5.07% Intraday — Catalyst Research
+- Trump-China meeting: NVDA reportedly on the agenda → potential H200 China market access signal
+- AI infrastructure momentum continues: TSMC Q1 beat, Vera Rubin H2 2026 on track
+- Technical: approaching prior HWM $210.95; breakout above would reset trailing stop HWM higher
+- **Verdict: Clear cause. Thesis intact and strengthened.**
+
+### MU +3.56% Intraday — Catalyst Research
+- Morgan Stanley named MU top pick (confirmed by Tavily research)
+- SK Hynix Q1 +400% profit (confirmed prior pre-market research) — validates HBM cycle thesis
+- AI memory supercycle thesis: **intact**
+
+### TXN -1.9% from AH close / +0.27% from our entry
+- Post-earnings AH spike to ~$282 then normalized at open — typical profit-taking
+- Our entry $276.10 captured the post-gap stabilization correctly
+- No adverse news; analog semi cycle thesis intact
+
+### No New Trades
+- FOMC cutoff passed (Apr 24 EOD is last entry day per plan)
+- All positions held with trailing stops into FOMC Apr 28-29

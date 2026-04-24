@@ -382,3 +382,30 @@ None
 
 - Trades this week: 4 (GE Apr 21, NVDA Apr 21, MU Apr 23, TXN Apr 24)
 - FOMC Apr 28-29: all positions now held through Fed meeting — stops protect downside
+
+---
+
+## 2026-04-24 - Midday Scan
+
+**Portfolio:** $100,039.16 equity | **Cash:** $54,124.68 | **Positions:** 3 | **Deployed:** ~45.9%
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|------|-----|--------|
+| NVDA | 74.51 | $201.25 | $209.77 | +4.23% | +5.07% | $189.86 (10% trail) | $210.95 | HOLD |
+| MU | 30.78 | $481.76 | $498.89 | +3.56% | +3.56% | $456.28 (10% trail) | $506.98 | HOLD |
+| TXN | 53.94 | $276.10 | $276.86 | +0.27% | -1.90% vs prior close | $249.75 (10% trail) | $277.50 | HOLD |
+
+### Actions
+- No cuts (all above -7% rule)
+- No stop tightening (none at +15%/+20% threshold)
+- All trailing stops confirmed active (NVDA 97a50e3f, MU dadaa437, TXN db503de0)
+
+### Thesis Check
+- **NVDA**: +5.07% intraday — catalyst: Trump visiting China with NVDA on agenda (potential H200 China market reopening); AI infrastructure spending confirmed by TSMC Q1 beat; Vera Rubin H2 2026 on track — INTACT, strengthened
+- **MU**: +3.56% — Morgan Stanley named MU top pick; HBM4/NVIDIA supply agreement intact; AI memory supercycle thesis unchanged — INTACT
+- **TXN**: -1.90% from yesterday's AH close but +0.27% from our open entry; post-earnings profit-taking normal; analog semi cycle thesis confirmed by Q1 beat — INTACT
+
+### Notes
+- FOMC Apr 28-29: no new entries from now; all positions held with trailing stops
+- Weekly trade cap (7) not reached (4 used); resets Monday but FOMC window applies
