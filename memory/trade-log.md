@@ -340,3 +340,15 @@ None
 - No stop tightening (neither at +15%/+20% threshold)
 - Thesis intact: MU AI memory supercycle / HBM4-NVIDIA supply agreement unchanged; NVDA AI chip demand unchanged
 - Both trailing stops confirmed active (MU order dadaa437, NVDA order 97a50e3f)
+
+---
+
+## 2026-04-24 - EOD Snapshot (Day 4, Friday)
+**Portfolio:** $98,772.11 | **Cash:** $69,016.69 (69.9%) | **Day P&L:** -$164.14 (-0.17%) | **Phase P&L:** -$1,227.89 (-1.23%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| MU | 30.78 | $481.76 | $482.14 | +$0.42 (+0.09%) | +$11.70 (+0.08%) | $444.26 (10% trail, HWM $493.62) |
+| NVDA | 74.51 | $201.25 | $200.16 | +$0.52 (+0.26%) | -$81.53 (-0.54%) | $183.45 (10% trail, HWM $203.83) |
+
+**Notes:** No trades today; weekly 3-trade cap was reached with MU on Apr 23, and today (FOMC cutoff) was the last day to add new positions per the plan. MU essentially flat (+0.09% intraday), NVDA recovered slightly (+0.26% intraday) but remains marginally below entry at -0.54% unrealized. Portfolio is 30.1% deployed vs 75-85% target — still heavily in cash. Both trailing stops active and intact (MU $444.26, NVDA $183.45). Weekly cap resets Monday; next week opens a fresh 3-trade slot. Watch for FOMC reaction and new setups over the weekend.
