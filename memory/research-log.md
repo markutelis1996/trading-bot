@@ -700,3 +700,124 @@ CRYPTO: HOLD — BTC RSI neutral; ETH exploit active. No entry criteria met.
 - **NVDA:** HOLD — thesis intact, no change
 - **CRYPTO:** HOLD — no entry criteria
 - **Priority action:** Market-open workflow to execute MU if criteria confirmed
+
+---
+
+## 2026-04-24 - Pre-market Research
+
+### Account Snapshot
+| Field | Value |
+|-------|-------|
+| Equity | $98,773.60 |
+| Cash | $69,016.69 (69.8% cash) |
+| Deployed | $29,756.91 (30.2%) — well below 75-85% target |
+| Daytrade count | 0/3 |
+| Trades this week | 3 of 7 (GE Apr 21, NVDA Apr 21, MU Apr 23) — 4 slots remain |
+| FOMC cutoff | TODAY Apr 24 EOD — last day to add new positions before FOMC Apr 28-29 |
+
+### Open Positions
+| Ticker | Shares | Entry | Current (close) | Unrealized P&L | Stop | HWM |
+|--------|--------|-------|-----------------|----------------|------|-----|
+| NVDA | 74.51 | $201.25 | $200.16 | -$81.53 (-0.54%) | $183.45 (10% trail) | $203.83 |
+| MU | 30.78 | $481.76 | $482.14 | +$11.70 (+0.08%) | $444.26 (10% trail) | $493.62 |
+
+**AH Live Quotes (Apr 23 close, stale):** NVDA bid $195 / ask $220.82 | MU bid $458.47 / ask $497.63
+
+### Market Context
+- **WTI:** $96.40/bbl (+0.57%) | **Brent:** $106.24/bbl (+0.22%) — elevated; Hormuz blockade ongoing
+- **S&P 500 futures:** +0.09% at 7,150.00 | **NASDAQ 100:** +0.59% at 27,092.25 | **Dow:** -0.15%
+- **VIX:** 19.31 (Apr 23 close, +2.06% from prior) — slight uptick, but still acceptable range
+- **Sectors:** Tech semis strong (TXN +19.43%, MCHP +9.89% on earnings); Industrials strong (URI +22.92%, UNP +8.77%); Software weak (NOW -17.75%); Materials weak (FCX -12.62%)
+
+### Economic Calendar — MONSTER DAY (Apr 24)
+**8:30am ET (ALL AT ONCE — major market-moving):**
+- Q1 GDP Advance (prev 0.5% QoQ, est ~3.7% YoY)
+- Core PCE Deflator YoY (prev 3.0%)
+- PCE Deflator MoM (prev +0.4%)
+- Employment Cost Index Q1 (prev 0.7%)
+- Personal Income/Spending (prev -0.1%/+0.5%)
+- Initial Jobless Claims (est 214K)
+
+**9:45am:** Chicago PMI (est 52.8)
+
+⚠️ **This is the largest single-day data dump of the month. GDP + PCE + ECI together set the Fed narrative for FOMC Apr 28-29. Any upside PCE surprise = hawkish = tech selloff. Weak GDP = stagflation fear = broad selloff.**
+
+### Earnings Today (Apr 24, BMO)
+- **PG** (Procter & Gamble) — est EPS $1.56 — defensive, not our sector
+- **HCA** Healthcare — est EPS $7.15
+- **SLB** — est EPS $0.52 — oilfield services
+- **NSC** (Norfolk Southern) — est EPS $2.49 — industrial
+- **CHTR** (Charter Communications) — est EPS $9.98
+- None are our holdings; no binary risk to existing positions
+
+### Post-Apr 23 Earnings Movers (pre-market today)
+| Ticker | Move | Thesis |
+|--------|------|--------|
+| URI (United Rentals) | +22.92% | Equipment rental beat; industrial economy strong |
+| TXN (Texas Instruments) | +19.43% | Analog/embedded semis massive beat; AI data center + industrial demand |
+| UNP (Union Pacific) | +8.77% | Industrial economy beat |
+| MCHP (Microchip Tech) | +9.89% | Analog semis beat inline with TXN |
+| NOW (ServiceNow) | -17.75% | Software/cloud miss; SaaS weak |
+| FCX (Freeport-McMoRan) | -12.62% | Grasberg copper delay; materials weak |
+
+### Politician Signals
+- **McCaul (R-TX):** Disclosed Apr 10, 2026 — bought NSIT (Insight Enterprises, $15-50K, traded Mar 3), EQT Corp ($15-50K, traded Mar 31), AJG (Arthur J. Gallagher, $15-50K, traded Mar 4). Disclosure lag 14-36 days. All within 45-day window. All ≥$25K threshold ✓. But NSIT/EQT/AJG are niche (IT services, nat gas, insurance) — no AI momentum alignment.
+- **Pelosi:** Last traded Jan 16, 2026 (disclosed Jan 26) — 98 days ago → **OUTSIDE 45-day window**. Prior buys: NVDA $375K, GOOGL $750K, AMZN $750K (support our existing thesis but not actionable today).
+- **Khanna, Tuberville, Gottheimer, Crenshaw, Mast, Green:** No buys found in 45-day window.
+- **Signal: NONE actionable.** McCaul signal — secondary confirmation at best for IT/energy, not our target tickers.
+
+### Crypto Research
+- **BTC:** $78,260 (Apr 24). 7-day trend: up from $66,940 Apr 3 → $78,260 (+16.9%). RSI 14-day: 64.35 (neutral). Above 20-day MA $72,670 and 50-day MA $70,619. **NOT at RSI <30 entry threshold.** No entry signal.
+- **ETH:** ~$2,376 (Apr 22). RSI neutral. No clear setup.
+- **SOL:** $86.04 (Apr 23). 7-day: +0.82% — mild, not exceptional.
+- **Decision: HOLD** — no crypto entry criteria met. BTC uptrend is positive but not at extreme oversold level requiring entry.
+
+### Trade Ideas
+
+**1. TXN (Texas Instruments) — WATCHLIST ★★**
+- **Catalyst:** Q1 2026 massive beat — analog/embedded chips for AI data centers, industrial, auto. +19.43% afterhours. Confirms analog semi cycle (MCHP also +9.89%). AI data center spending still accelerating. Strong industrial economy (URI, UNP also beat). Sector: Semis/Tech — aligned with our NVDA/MU AI thesis.
+- **AH quote (stale, Apr 23 close):** bid $263.53 / ask $291.23 — too wide to use for sizing
+- **Entry strategy:** Wait for live Alpaca quote at 9:30am open. Enter ONLY if:
+  - GDP (8:30am) is not a negative shock (not <1% QoQ)
+  - Core PCE does not surprise to the upside (hot inflation = FOMC risk)
+  - TXN settles within 3% of yesterday's close price ($282.23) — do not chase gap
+  - Volume confirms at open
+- **At ~$285 entry:** stop $256.50 (10% trail), target $342 (20% above), R:R 2:1
+- **Position size:** 15% of portfolio = ~$14,816 → ~52 shares at ~$285
+- **Risk:** Already gapped up 19% in AH; may open extended; GDP/PCE data could reverse morning tone; FOMC Apr 28-29 risk event (last entry day today)
+- **McCaul secondary signal:** None directly for TXN, but IT/industrial sector alignment
+
+**2. NVDA — HOLD**
+- **News:** NVIDIA + Oklo + Los Alamos nuclear-powered AI factory partnership announced. AI thesis strengthened. Earnings May 20.
+- **Live quote (AH, stale):** bid $195 / ask $220.82 — unreliable AH spread
+- **Position:** Hold. Stop $183.45 (10% trail, HWM $203.83). Thesis intact.
+- **Watch:** If NVDA opens <$193 (below -7% threshold from entry $201.25) → evaluate manual cut
+
+**3. MU — HOLD**
+- **News:** SK Hynix Q1 2026 profit +400% (confirms HBM/memory sector boom). ASML raised guidance (confirms AI tooling spend). MU up 68% YTD, all-time high $491.98.
+- **Live quote (AH, stale):** bid $458.47 / ask $497.63
+- **Position:** Hold. Stop $444.26 (10% trail, HWM $493.62). Thesis intact.
+
+**Not actionable today:**
+- Software/SaaS: NOW -17.75% shows sector weakness; avoid
+- Materials/Copper: FCX -12.62%; materials sector weak
+- Crypto: No entry criteria met
+
+### Risk Factors
+1. **MONSTER MACRO DAY 8:30am:** GDP + PCE + ECI + Claims simultaneously. Any hot PCE → tech selloff, any weak GDP → stagflation fear
+2. **FOMC Apr 28-29:** TODAY is last entry day. Any new position rides through Fed meeting with significant gap risk
+3. **VIX +2.06% yesterday:** Slight volatility uptick; stay alert
+4. **NOW -17.75%:** Software/cloud weakness could bleed into broader tech if macro disappoints
+5. **Oil elevated ($96 WTI):** Hormuz blockade risk premium; if blockade escalates → energy costs hurt tech margins
+6. **Next week (massive):** MSFT, GOOGL, META, AMZN all report Apr 29 AMC (same day as FOMC) — event risk clusters
+
+### Decision
+- **NVDA:** HOLD — thesis intact, Oklo partnership positive, no stop breach
+- **MU:** HOLD — thesis intact, HBM cycle confirmed by SK Hynix, no stop breach
+- **TXN:** WATCHLIST ★★ — strong catalyst, but:
+  - Must wait for 8:30am GDP/PCE data before deciding
+  - If data benign → evaluate at market-open workflow with live quote
+  - If data negative → skip TXN; sit tight with current 2 positions
+  - Do NOT chase if opening >5% above yesterday's close
+- **CRYPTO:** HOLD — no entry criteria
+- **Framework for today:** Priority = protect capital into FOMC. New entry only if macro data prints benign AND TXN confirms without excessive gap. When in doubt, wait.
