@@ -849,3 +849,104 @@ CRYPTO: HOLD — BTC RSI neutral; ETH exploit active. No entry criteria met.
 ### No New Trades
 - FOMC cutoff passed (Apr 24 EOD is last entry day per plan)
 - All positions held with trailing stops into FOMC Apr 28-29
+
+---
+
+## 2026-04-27 - Pre-market Research
+
+### Account
+- Equity: $100,416.72 | Cash: $54,124.68 | Buying power: $154,541.40
+- Deployed: ~46% (3 positions)
+- Daytrade count: 0
+- Phase P&L: +$416.72 (+0.42%)
+
+### Open Positions
+| Ticker | Shares | Entry | Last Close | Unrealized P&L | Stop | HWM |
+|--------|--------|-------|------------|----------------|------|-----|
+| NVDA | 74.51 | $201.25 | $210.10 | +$659.11 (+4.40%) | $189.86 (10% trail) | $210.95 |
+| MU | 30.78 | $481.76 | $507.90 | +$804.72 (+5.43%) | $456.28 (10% trail) | $506.98 |
+| TXN | 53.94 | $276.10 | $278.13 | +$109.46 (+0.74%) | $250.56 (10% trail) | $278.40 |
+
+### Market Context
+- WTI: ~$96.17 (+1.81%), Brent: ~$107.40 (+1.44%) — Iran peace talks STALLED: Trump cancelled Pakistan trip; Iranians refusing to meet; oil surging again
+- S&P 500 futures (premarket): Dow -0.16% (-80pts), S&P ~flat, Nasdaq 100 +0.22% — mixed; April MTD: S&P +9%, Nasdaq +15%, Dow +6%
+- VIX: 18.71 (Apr 24 close, -3.11% from prior day) — declining trend = bullish baseline; watch for oil-driven spike
+- Today's catalysts: VZ BMO (no market-mover); Iran talks stalled = oil headwind; Polymarket 60-65% probability S&P down today; INTC +23.3% Fri (sector tailwind for semis)
+- Earnings today (Apr 27): VZ BMO (minor)
+- Earnings this week: Tue: KO, GLW, HOOD, KMB; Wed AMC: GOOGL, MSFT, AMZN, META + FOMC 2pm ET + Powell 2:30pm; Thu AMC: AAPL + GDP/PCE/ECI data 8:30am; Fri: NFP + ISM Manufacturing
+- Economic calendar: Mon Apr 27: nothing; Tue: Consumer Confidence (est 89.1), Case-Shiller; Wed Apr 29: Durable Goods + FOMC decision (hold 3.50-3.75% expected) + Powell presser; Thu Apr 30: Q1 GDP advance (est +2.4%), Core PCE (est 3.0%), Employment Cost Index; Fri May 1: NFP + ISM Manufacturing PMI
+- Sector momentum YTD: Energy (+40%) > Consumer Staples (+10%) > Industrials (+9-12%) > Tech (recovering sharply in April — INTC +80%, AMD +14%, NVDA +4% Fri); Financials weak
+
+### Held Position Thesis Check
+
+**NVDA (+4.40%):** INTACT — strengthened
+- INTC Q1 2026 massive beat (+23.3% Fri) confirms data center/semiconductor sector momentum
+- Alphabet investing $40B in Anthropic = AI capex cycle confirmed intact
+- NVDA market cap back above $5T (Fri)
+- INTC/NVDA partnership on Terafab (Musk, SpaceX, xAI, Tesla) = new demand channel
+- Vera Rubin H2 2026 on track per multiple sources
+- Next earnings May 20 — no near-term catalyst risk
+- Stop: $189.86 (HWM $210.95); not at +15% threshold ($231.44) yet → no tightening
+
+**MU (+5.43%):** INTACT
+- Morgan Stanley top pick maintained
+- HBM4/NVIDIA supply agreement for Vera Rubin GPU platform confirmed
+- AI memory supercycle thesis; SK Hynix Q1 +400% profit validates HBM cycle
+- Stop: $456.28 (HWM $506.98); not at +15% threshold ($554.02) yet → no tightening
+
+**TXN (+0.74%):** INTACT
+- Analog semi cycle confirmed by Q1 2026 beat; Q2 guidance beat consensus
+- INTC data center +22% YoY validates industrial/datacenter analog demand thesis
+- Stop: $250.56 (HWM $278.40); not at +15% threshold ($317.52) yet → no tightening
+
+### Capitol Trades (Whitelist Check)
+- **Pelosi:** Last trade date Jan 16, 2026 (filed Jan 26, 2026) = 101 days ago → OUTSIDE 45-day window; all trades were options (calls on NVDA, GOOGL, AMZN, AAPL) — not stock buys; not actionable per rules
+- **Khanna, McCaul, Crenshaw, Tuberville, Gottheimer, Green, Mast:** No qualifying stock buys ($25k+) identified in April 2026 disclosures
+- **Other Congress:** Maria Salazar (non-whitelist) bought WHR/ULTA/GS/HON in mid-March = 35+ days ago and non-whitelist; irrelevant
+- **Signal: NONE actionable. No politician catalyst.**
+
+### Trade Ideas — WATCHLIST ONLY (no new entries today)
+
+**Rationale for no entries today:**
+- FOMC decision Wed Apr 29 + 5 Mag 7 reports Wed-Thu = MASSIVE binary event cluster
+- Iran peace talks stalled = oil surge = macro headwind
+- Polymarket: 60% probability S&P down today
+- Under-deployed (46%) but binary risk this week justifies cash buffer
+- New week = 7 trade slots reset; deploy post-FOMC/post-earnings into confirmed setups
+
+**Post-earnings watchlist (for execution Wed night / Thu morning):**
+
+1. **AMZN** — reports Wed Apr 29 AMC; AWS growth acceleration; AI infrastructure; last Alpaca close $246.54 (Apr 24 bid); if beat + guidance raise → entry Thu morning near $246-252, stop $222-227 (10% trail), target $296-302 (20%), R:R 2:1 ★★
+2. **META** — reports Wed Apr 29 AMC; AI monetization + ad revenue +13% YoY est; consensus EPS $5.21-$6.67; last close ~$659; if beat → entry Thu near $659+, stop $593, target $791, R:R 2:1 ★★
+3. **AAPL** — reports Thu Apr 30 AMC; Services revenue + AI ecosystem; last Alpaca close ~$259; if beat → entry Fri morning, stop $233, target $311, R:R 2:1 ★
+4. **MSFT** — reports Wed Apr 29 AMC; Azure AI +17% est; last Alpaca close ~$396; if beat → entry Thu near $396+, stop $356, target $475, R:R 2:1 ★
+
+**NOTE:** ALL prices above are Apr 24 EOD closes (Alpaca extended-hours bid prices). MUST re-verify live quotes at market-open before any execution.
+
+### Crypto Section
+
+**BTC/USD:** $78,645 (Apr 27 daily; +1.32% from yesterday; +6.5% in 7 days vs Apr 20 $73,856)
+- 7-day trend: POSITIVE (skip rule not triggered)
+- RSI: ~50s (neutral, NOT <30; entry criteria not met)
+- Oil surge (Iran talks stalled) = risk-off headwind for BTC
+- **Decision: HOLD** — RSI not oversold; oil macro headwind; no entry
+
+**ETH/USD:** $2,370 (Apr 27)
+- RSI: ~34 (approaching oversold but NOT <30; bearish divergence signals present)
+- Death Cross still active; moving averages bearish trend intact
+- 7-day: Apr 20 $2,315 → Apr 27 $2,371 (+2.4%) = not sufficient catalyst
+- **Decision: HOLD** — RSI <30 threshold not met; Death Cross intact
+
+**SOL/USD, AVAX/USD, LINK/USD:** No catalysts. No setups.
+
+### Risk Factors
+1. **FOMC + Mag 7 cluster (Wed/Thu):** Biggest event risk week of 2026. GOOGL/MSFT/AMZN/META Wed AMC + FOMC same day + AAPL Thu AMC + GDP/PCE Thu = maximum volatility potential
+2. **Iran peace talks collapsed:** Trump cancelled Pakistan trip → oil back at $96/$107; if Hormuz blockade escalates → VIX spike, tech selloff
+3. **Polymarket 60% probability S&P down today:** Mild bearish lean for Monday
+4. **PCE Thu (est 3.0%):** Hot print → Fed hawkish tilt → tech multiple compression
+5. **BTC -17% vs year-ago:** Crypto structurally weaker despite recent bounce
+6. **Under-deployed (46%):** Risk of missing upside if Mag 7 results surprise big
+
+### Decision
+**STOCKS: HOLD** — no new entries today. NVDA/MU/TXN theses all intact and strengthened. Watchlist for post-earnings setups Wed/Thu. Execute market-open workflow Wed-Thu if Mag 7 beats.
+**CRYPTO: HOLD** — BTC RSI neutral; ETH bearish trend. No entry criteria met.
