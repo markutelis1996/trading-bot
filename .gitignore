@@ -9,3 +9,6 @@ venv/
 *.log
 .tmp/
 DAILY-SUMMARY.md
+.vercel
+.letta/
+.github/
