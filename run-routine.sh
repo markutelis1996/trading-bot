@@ -21,8 +21,42 @@ mkdir -p "$ROOT/.tmp"
 
 log() { echo "[$(date)] $*" | tee -a "$LOGFILE"; }
 
-# Wait for network — Mac just woke up may not have DNS yet.
-# Probe both Anthropic and Alpaca with a short timeout, retry up to 12 * 5s = 60s.
+# --- Stale-instance protection -------------------------------------------------
+# Kill any orphaned run-routine.sh / claude processes from this routine that
+# survived a previous run (e.g. Mac slept mid-execution and the API call
+# never resumed cleanly). PID file is used as a soft lock.
+LOCKFILE="$ROOT/.tmp/$ROUTINE.lock"
+
+cleanup_lock() {
+  rm -f "$LOCKFILE"
+}
+
+# If a previous run left a lock, check whether that PID is still alive.
+if [[ -f "$LOCKFILE" ]]; then
+  OLD_PID="$(cat "$LOCKFILE" 2>/dev/null || echo "")"
+  if [[ -n "$OLD_PID" ]] && kill -0 "$OLD_PID" 2>/dev/null; then
+    AGE_SEC=$(( $(date +%s) - $(stat -f %m "$LOCKFILE" 2>/dev/null || echo 0) ))
+    # If older than 20 minutes, assume hung — kill the whole process group.
+    if [[ $AGE_SEC -gt 1200 ]]; then
+      log "Killing stale $ROUTINE pid=$OLD_PID (age=${AGE_SEC}s)"
+      pkill -9 -P "$OLD_PID" 2>/dev/null || true
+      kill -9 "$OLD_PID" 2>/dev/null || true
+      cleanup_lock
+    else
+      log "Previous $ROUTINE still running (pid=$OLD_PID, age=${AGE_SEC}s) — skipping this fire"
+      exit 0
+    fi
+  else
+    cleanup_lock
+  fi
+fi
+
+echo $$ > "$LOCKFILE"
+trap cleanup_lock EXIT INT TERM
+
+# --- Network readiness probe ---------------------------------------------------
+# Mac just woke up may not have DNS yet. Probe Anthropic + Alpaca,
+# retry up to 12 * 5s = 60s.
 wait_for_network() {
   for i in $(seq 1 12); do
     if curl -sS -o /dev/null -m 5 https://api.anthropic.com/ 2>/dev/null \
@@ -37,13 +71,40 @@ wait_for_network() {
   return 1
 }
 
-log "Running $ROUTINE routine..."
+# --- Timeout-wrapped claude call (no GNU coreutils dependency) -----------------
+# Run claude in background, kill it after $1 seconds if not done.
+run_claude_with_timeout() {
+  local timeout_sec="$1"
+  local out_file="$2"
+
+  echo "$PROMPT" | claude --print --dangerously-skip-permissions \
+    --model claude-sonnet-4-6 \
+    --add-dir "$ROOT" >"$out_file" 2>&1 &
+  local claude_pid=$!
+
+  local elapsed=0
+  while kill -0 "$claude_pid" 2>/dev/null; do
+    if [[ $elapsed -ge $timeout_sec ]]; then
+      log "claude exceeded ${timeout_sec}s timeout — killing pid=$claude_pid"
+      kill -9 "$claude_pid" 2>/dev/null || true
+      pkill -9 -P "$claude_pid" 2>/dev/null || true
+      wait "$claude_pid" 2>/dev/null || true
+      return 124
+    fi
+    sleep 5
+    elapsed=$(( elapsed + 5 ))
+  done
+  wait "$claude_pid"
+  return $?
+}
+
+# --- Main ---------------------------------------------------------------------
+log "Running $ROUTINE routine (pid=$$)..."
 wait_for_network || true
 
-# Pull latest repo state (best-effort)
+# Pull latest repo state (best-effort, do not fail run on git issues)
 git pull origin main --rebase >/dev/null 2>&1 || log "git pull failed (non-fatal)"
 
-# Prompt file per routine
 PROMPT_FILE="$ROOT/routines/$ROUTINE.md"
 if [[ ! -f "$PROMPT_FILE" ]]; then
   log "No prompt file: $PROMPT_FILE"
@@ -56,29 +117,33 @@ if [[ -z "$PROMPT" ]]; then
   PROMPT="$(cat "$PROMPT_FILE")"
 fi
 
-# Run claude with up to 3 retries on network/transient errors.
-run_claude() {
-  echo "$PROMPT" | claude --print --dangerously-skip-permissions \
-    --model claude-sonnet-4-6 \
-    --add-dir "$ROOT" 2>&1
-}
+# Hard ceiling: 15 minutes per claude attempt.
+CLAUDE_TIMEOUT=900
+TMPOUT="$ROOT/.tmp/claude-$ROUTINE-$$.out"
 
 CLAUDE_OK=0
 for attempt in 1 2 3; do
-  log "claude attempt $attempt/3..."
-  OUTPUT="$(run_claude)"
+  log "claude attempt $attempt/3 (timeout=${CLAUDE_TIMEOUT}s)..."
+  run_claude_with_timeout "$CLAUDE_TIMEOUT" "$TMPOUT"
   RC=$?
-  echo "$OUTPUT" | tee -a "$LOGFILE"
-  if [[ $RC -eq 0 ]] && ! echo "$OUTPUT" | grep -qE "API Error|ENOTFOUND|Unable to connect"; then
+  cat "$TMPOUT" | tee -a "$LOGFILE"
+  if [[ $RC -eq 0 ]] && ! grep -qE "API Error|ENOTFOUND|Unable to connect" "$TMPOUT"; then
     CLAUDE_OK=1
     break
   fi
-  log "claude failed (rc=$RC), backing off ${attempt}0s before retry..."
+  if [[ $RC -eq 124 ]]; then
+    log "claude attempt $attempt timed out"
+  else
+    log "claude attempt $attempt failed (rc=$RC)"
+  fi
   sleep $((attempt * 10))
 done
 
+rm -f "$TMPOUT"
+
 if [[ $CLAUDE_OK -eq 0 ]]; then
   log "ERROR: $ROUTINE failed after 3 attempts"
+  python3 "$ROOT/scripts/notify_failure.py" "$ROUTINE" "$LOGFILE" >>"$LOGFILE" 2>&1 || true
 fi
 
 log "$ROUTINE routine claude session ended."
@@ -93,6 +158,5 @@ fi
 
 log "$ROUTINE completed. Log: $LOGFILE"
 
-# Exit non-zero if claude itself never succeeded — surfaces in launchctl list.
 [[ $CLAUDE_OK -eq 1 ]] || exit 2
 exit 0
