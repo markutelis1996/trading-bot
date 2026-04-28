@@ -950,3 +950,127 @@ CRYPTO: HOLD — BTC RSI neutral; ETH exploit active. No entry criteria met.
 ### Decision
 **STOCKS: HOLD** — no new entries today. NVDA/MU/TXN theses all intact and strengthened. Watchlist for post-earnings setups Wed/Thu. Execute market-open workflow Wed-Thu if Mag 7 beats.
 **CRYPTO: HOLD** — BTC RSI neutral; ETH bearish trend. No entry criteria met.
+
+---
+
+## 2026-04-28 - Pre-market Research
+
+### Account
+| Field | Value |
+|-------|-------|
+| Equity | $100,130.90 |
+| Cash | $54,124.68 |
+| Long market value | $46,006.22 |
+| Buying power | $154,255.58 |
+| Deployed | ~46% (3 positions) |
+| Daytrade count | 0/3 |
+| Trades this week | 0 of 7 (new week reset) |
+| Phase P&L | +$130.90 (+0.13%) |
+
+### Open Positions
+| Ticker | Shares | Entry | Current | Unrealized P&L | Stop | HWM | Status |
+|--------|--------|-------|---------|----------------|------|-----|--------|
+| NVDA | 74.51 | $201.25 | $213.10 | +$882.65 (+5.89%) | $195.06 (10% trail) | $216.73 | HOLD |
+| MU | 30.78 | $481.76 | $511.00 | +$900.15 (+6.07%) | $478.22 (10% trail) | $531.36 | HOLD |
+| TXN | 53.94 | $276.10 | $267.00 | -$490.86 (-3.30%) | $250.56 (10% trail) | $278.40 | HOLD |
+
+All three trailing stops confirmed active (NVDA 97a50e3f, MU dadaa437, TXN db503de0).
+
+### Market Context
+- **WTI:** ~$99.74-99.85, +3.50% — Brent: ~$111.42-111.56, +2.95% — MAJOR surge; Hormuz stalemate; "UK warns Iran war price shock could last 8 months"; first LNG tanker broke Hormuz blockade (symbolic)
+- **S&P 500 futures:** 7,187-7,195, -0.15% to -0.26% (slight weakness into FOMC)
+- **Nasdaq 100 futures:** 27,264.75, -0.64% (tech leading down)
+- **Dow futures:** +0.23% (defensive rotation)
+- **VIX:** 18.40 (+2.11% from 18.02 close Apr 27) — ticking up on oil surge + FOMC caution
+- **Earnings today BMO:** KO (est $0.81), NVS, GLW, EPD, AMT, HLT, ECL — **Boeing (BA): MASSIVE BEAT** — EPS -$0.20 vs -$0.39 estimate, Rev $22.22B vs $21.78B (+14% YoY); first genuine turnaround; Morgan Stanley PT raised to $250; Street consensus $254.60
+- **Earnings today AMC:** V (est $3.10), TMUS, HOOD, BKNG, MDLZ
+- **TOMORROW (Apr 29) — MONSTER DAY:** FOMC decision 2pm ET (hold expected 3.50-3.75%), Powell press conference 2:30pm (possibly last as Fed chair), Kevin Warsh Senate Banking Committee vote 10am; AMC: GOOGL, MSFT, AMZN, META
+- **Thu Apr 30:** Q1 GDP advance (est +2.4%), Core PCE YoY (est 3.0-3.2%), ECI, AAPL AMC
+- **Fri May 1:** NFP, ISM Manufacturing
+- **Economic calendar today:** 10am Consumer Confidence (est 89.1, prev 91.8 — expected to decline); Richmond Fed Manufacturing
+
+### Sector Momentum YTD
+| Sector | YTD | Trend |
+|--------|-----|-------|
+| Energy (XLE) | +38% | #1, extended; oil surge today adds more |
+| Materials | +9.7% | #2 |
+| Utilities | +8.3% | #3 |
+| Info Tech (XLK) | -6% YTD; recovering +15% in April | recovering; semi cycle confirmed |
+| Industrials | +9-12% | solid |
+| Financials | weak | lagging |
+| Health Care | weak | lagging |
+
+### Position Thesis Check
+
+**NVDA (+5.89%, -1.62% today):** INTACT — strengthened
+- Set new 52-week high $216.83 on Apr 27 (Mon)
+- Market cap back above $5T; still world's most valuable company
+- Google announced 2 new AI chips (competing narrative, minor headwind)
+- Nokia partnership for AI-driven network capabilities confirms AI infra buildout
+- Next earnings May 20; no near-term catalyst risk
+- Stop $195.06 (HWM $216.73); not at +15% threshold ($231.44) → no tightening
+
+**MU (+6.07%, -2.59% today):** INTACT — momentum strong
+- Arete Research raised PT from $562 to $852 (Buy) vs current $511 — massive implied upside
+- Micron lobbying for MATCH Act (tighter export controls on Chinese chipmaking) = competitive moat signal
+- ASG growth-focused fund added MU as NEW position (fresh institutional demand Apr 27)
+- Rally from ~$341 Apr 2 → $531 HWM; today pullback normal after +5.41% Monday
+- Stop $478.22 (HWM $531.36); not at +15% threshold ($554.02) → no tightening
+
+**TXN (-3.30%, -0.93% today):** INTACT
+- Q1 2026 beat: $4.83B rev (+19% YoY), EPS $1.68 (+31% YoY); Q2 guidance $5.0-5.4B (+12-21%)
+- Data center demand +90%; industrial demand strong; analog semi cycle confirmed by MCHP +9.89%
+- Planned acquisition of Silicon Labs (wireless connectivity expansion)
+- Post-earnings profit-taking normal; stock -3.30% from entry but stop at $250.56
+- Manual cut threshold: $276.10 × 0.93 = $256.77; current $267 > $256.77 → NO CUT
+- Dividend $1.42/share ex-date May 5
+
+### Capitol Trades (Whitelist Check)
+- **Pelosi:** Last trade filed Jan 26, 2026 (traded Jan 16, 2026) = **102 days ago — OUTSIDE 45-day window.** All recent trades are LEAPS/calls (options-based repositioning), NOT qualifying stock buys.
+- **McCaul, Crenshaw, Tuberville, Khanna, Gottheimer, Green, Mast:** No qualifying $25k+ stock buys in 45-day window identified.
+- Non-whitelist: Maria Elvira Salazar (non-whitelist) various small purchases $1k-$50k in March — irrelevant.
+- **SIGNAL: NONE actionable.**
+
+### Crypto Section
+**BTC/USD:**
+- Price: $77,361 (Apr 28), down from $78,645 yesterday (-1.63%)
+- 7-day trend: Apr 20 $73,856 → Apr 28 $77,361 = +4.7% (POSITIVE — skip rule NOT triggered)
+- RSI 14-day: ~59 (neutral, NOT <30 entry threshold)
+- BTC above 5-day MA ($77,530), 20-day MA ($73,601), 50-day MA ($70,958)
+- Oil surge / Hormuz = risk-off headwind
+- **Decision: HOLD** — RSI neutral; not oversold; oil macro headwind
+
+**ETH/USD:**
+- Price: $2,281-$2,300 (-1.77% today). 7-day RSI: 44 (slight bearish). 1-hour RSI: 56 (neutral).
+- 7-day price change: -1.30%; 14-day: -3.35% — weak momentum
+- Not at <30 RSI entry threshold; bearish moving average structure intact
+- **Decision: HOLD** — no entry criteria met
+
+**SOL/USD, AVAX/USD, LINK/USD:** No catalysts. No setups.
+
+### Trade Ideas
+**NO NEW ENTRIES TODAY — FOMC starts today; decision tomorrow (Apr 29)**
+
+Rationale: FOMC day 1 → decision tomorrow 2pm ET. Mag7 earnings (GOOGL/MSFT/AMZN/META) all report tomorrow AMC. This is peak binary event clustering. No new positions until post-FOMC/post-earnings setup confirmed Thu morning.
+
+**Post-FOMC Watchlist (entry window: Thu Apr 30 morning):**
+> NOTE: ALL prices below are last-known close approximations. MUST verify live Alpaca quotes at market-open before any execution.
+
+1. **AMZN** ★★ — reports Wed Apr 29 AMC; AWS growth acceleration (est +25-27%); AI infrastructure; Pelosi holds; last close ~$246; if beat + guidance raise → entry Thu near $246-252, stop $222-227 (10% trail), target $295-302 (20%), R:R 2:1
+2. **META** ★★ — reports Wed Apr 29 AMC; AI monetization + ad revenue +13% YoY est; consensus EPS $5.21-6.67; last close ~$659; if beat → entry Thu near $659+, stop $593, target $791, R:R 2:1
+3. **MSFT** ★ — reports Wed Apr 29 AMC; Azure AI growth +17% est (Q3 FY26); last close ~$396; if beat → entry Thu near $396+, stop $356, target $475, R:R 2:1
+4. **GOOGL** ★ — reports Wed Apr 29 AMC; Google signed DoD AI deal; AI advertising momentum; last close ~$195; if beat → entry Thu near $195+, stop $175, target $234, R:R 2:1
+5. **BA (Boeing)** WATCHLIST — Q1 2026 beat (EPS -$0.20 vs -$0.39 est; Rev +14% YoY; first genuine turnaround); Morgan Stanley PT $250; Street $254; last close $219; if opens constructively → evaluate Thu/Fri, stop 7% below entry; sector thesis: commercial aviation recovery
+
+### Risk Factors
+1. **FOMC + Mag7 cluster (tomorrow):** Largest event risk day of 2026. FOMC decision 2pm + GOOGL/MSFT/AMZN/META AMC same day. VIX elevated; any hawkish surprise = tech selloff risk
+2. **Oil surging (WTI $100, Brent $111 today):** Hormuz stalemate; "UK warns 8-month price shock"; energy cost headwind for tech margins; if $120+ Brent → forced inflation repricing by Fed
+3. **VIX +2.11% today:** Rising volatility on oil + FOMC caution
+4. **Consumer Confidence est 89.1 (10am today):** Consumer sentiment was 47.6 (74-year low in final reading); if CC also disappoints → stagflation narrative strengthens
+5. **TXN -3.30% from entry:** Approaching -7% cut zone ($256.77); watch closely. Oil headwind may compress industrial/semi margins.
+6. **Google AI chip competition (announced today):** 2 new AI chips targeting NVDA data center market — medium-term headwind for NVDA; thesis intact near-term but bears watching
+7. **Mag 7 miss risk:** If any of GOOGL/MSFT/AMZN/META miss tomorrow → broad tech selloff could hit NVDA/MU/TXN stops
+
+### Decision
+**STOCKS: HOLD** — all 3 positions (NVDA/MU/TXN) theses intact; trailing stops active and positioned correctly. No new entries today (FOMC starts, decision tomorrow; Mag7 earnings tomorrow). Post-FOMC/post-earnings setup window opens Thursday morning. Priority watchlist: AMZN ★★, META ★★ on beats.
+**CRYPTO: HOLD** — BTC RSI neutral (59); ETH weak RSI (44); oil macro headwind. No entry criteria met.
