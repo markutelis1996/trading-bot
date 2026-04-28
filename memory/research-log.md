@@ -1074,3 +1074,12 @@ Rationale: FOMC day 1 → decision tomorrow 2pm ET. Mag7 earnings (GOOGL/MSFT/AM
 ### Decision
 **STOCKS: HOLD** — all 3 positions (NVDA/MU/TXN) theses intact; trailing stops active and positioned correctly. No new entries today (FOMC starts, decision tomorrow; Mag7 earnings tomorrow). Post-FOMC/post-earnings setup window opens Thursday morning. Priority watchlist: AMZN ★★, META ★★ on beats.
 **CRYPTO: HOLD** — BTC RSI neutral (59); ETH weak RSI (44); oil macro headwind. No entry criteria met.
+
+### Afternoon Addendum (Midday Scan - 2026-04-28)
+
+**Intraday driver identified:**
+- OpenAI drops Microsoft exclusivity deal (Bloomberg Apr 27) → "OpenAI partner" stocks dragging down NVDA, MU, MSFT intraday
+- All three positions: thesis intact; drops are sentiment/rotation, not fundamental
+- MU ⚠️: $497 current, stop $478.22 — 3.8% cushion; FOMC+Mag7 tonight could pressure further; trailing stop is the exit plan
+- DA Davidson initiated MU at Buy / $1,000 PT today (bullish offset)
+- No position cuts or stop tightening taken; no new entries (FOMC window)

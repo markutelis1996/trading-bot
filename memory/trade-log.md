@@ -409,3 +409,30 @@ None
 ### Notes
 - FOMC Apr 28-29: no new entries from now; all positions held with trailing stops
 - Weekly trade cap (7) not reached (4 used); resets Monday but FOMC window applies
+
+---
+
+## 2026-04-28 - Midday Scan
+
+**Portfolio:** $99,560.73 equity | **Cash:** $54,124.68 | **Positions:** 3 | **Deployed:** ~45.7%
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|------|-----|--------|
+| NVDA | 74.51 | $201.25 | $210.68 | +4.68% | -2.74% | $195.06 (10% trail) | $216.73 | HOLD |
+| MU | 30.78 | $481.76 | $497.00 | +3.16% | -5.25% | $478.22 (10% trail) | $531.36 | HOLD ⚠️ |
+| TXN | 53.94 | $276.10 | $267.28 | -3.20% | -0.82% | $250.56 (10% trail) | $278.40 | HOLD |
+
+### Actions
+- No cuts (all above -7% rule: NVDA +4.68%, MU +3.16%, TXN -3.20%)
+- No stop tightening (none at +15%/+20% threshold)
+- All trailing stops confirmed active (NVDA 97a50e3f, MU dadaa437, TXN db503de0)
+
+### Thesis Check
+- **NVDA**: -2.74% intraday — FOMC day 1 caution + OpenAI drops Microsoft exclusivity → sector sympathy drag. Core AI demand thesis unchanged. INTACT
+- **MU**: -5.25% intraday — OpenAI drops Microsoft exclusivity deal caused "partners falling" narrative. DA Davidson initiated Buy/$1,000 PT today; TD Cowen raised PT today. HBM4/NVDA Vera Rubin supply agreement unchanged. Thesis INTACT. **⚠️ Stop at $478.22 is 3.8% below current $497 — monitor; FOMC + Mag7 tonight = elevated volatility risk**
+- **TXN**: -0.82% intraday. Manual cut threshold $256.77; current $267.28 = safe. Analog semi cycle thesis intact. INTACT
+
+### Intraday Driver (Step 6 research)
+- **OpenAI drops Microsoft exclusivity deal** (Bloomberg, Apr 27): OpenAI can now work with other cloud providers. Perceived as headwind for MSFT Azure concentration; dragging all "OpenAI partner" stocks including NVDA, MU. Does NOT reduce overall AI memory/chip demand — HBM4 demand is cloud-agnostic. Thesis impact: MINIMAL / SENTIMENT only.
+- Broader context: FOMC day 1 (decision tomorrow 2pm ET), Mag7 earnings tonight (GOOGL/MSFT/AMZN/META). Market in wait-and-see mode; elevated intraday volatility expected.
