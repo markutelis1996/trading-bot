@@ -490,3 +490,32 @@ NO TRADES — FOMC decision 2pm ET + MSFT/GOOGL/META/AMZN all AMC = peak binary 
 | 3 | TXN | 53.94 | $276.10 | $271.43 | -1.69% | $250.56 (10% trail) | $331.32 | 2.0:1 |
 
 - Trades this week: 0 of 7 (week reset Mon Apr 28)
+
+---
+
+## 2026-04-29 - Midday Scan
+
+**Portfolio:** ~$45,813 long MV | **Cash:** $54,124.68 | **Positions:** 3 | **Deployed:** ~45.6%
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|------|-----|--------|
+| MU | 30.78 | $481.76 | $511.98 | +6.27% | +1.53% | $478.22 (10% trail) | $531.36 | HOLD |
+| NVDA | 74.51 | $201.25 | $208.94 | +3.82% | -1.99% | $195.06 (10% trail) | $216.73 | HOLD |
+| TXN | 53.94 | $276.10 | $268.53 | -2.74% | +1.33% | $250.56 (10% trail) | $278.40 | HOLD |
+
+### Actions
+- No cuts (all above -7% rule: MU +6.27%, NVDA +3.82%, TXN -2.74%)
+- No stop tightening (none at +15% threshold: MU trigger $553.93, NVDA $231.44)
+- All trailing stops confirmed active (MU dadaa437, NVDA 97a50e3f, TXN db503de0)
+
+### Thesis Check
+- **MU**: +6.27% from entry; pulled back from $535 open to $511.98 — FOMC day volatility; HBM4/NVDA Vera Rubin supply agreement intact. INTACT
+- **NVDA**: -1.99% intraday — FOMC wait-and-see; AI demand thesis unchanged; Mag7 AMC tonight (MSFT/GOOGL/META/AMZN) = major potential catalyst for semis. INTACT
+- **TXN**: -2.74% from entry; +1.33% intraday recovering; manual cut threshold $256.77 safely above current $268.53; analog semi cycle thesis intact. INTACT
+
+### Notes
+- FOMC hold expected at 2pm ET; Powell press conf 2:30pm (final as chair)
+- Mag7 earnings AMC tonight — post-FOMC/post-earnings entry window opens Thu Apr 30 morning
+- Watchlist: AMZN ★★, GOOGL ★★ on beat-and-raise → potential entries Thu morning
+
