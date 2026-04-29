@@ -449,3 +449,44 @@ None
 | TXN | 53.94 | $276.10 | $265.85 | +$0.85 (+0.32%) | -$552.88 (-3.71%) | $250.56 (10% trail, HWM $278.40) |
 
 **Notes:** No trades today; new week trade cap reset (0/3 used). FOMC decision day — all three positions showed positive intraday moves (MU +2.74%, NVDA +0.26%, TXN +0.32%) yet account equity dipped -$611 vs Alpaca's last_equity ($100,949.19 from Apr 28 close), likely reflecting FOMC volatility intraday or after-hours mark. Phase P&L crosses into positive territory for the first time (+$338.12, +0.34%). MU and NVDA both firmly in unrealized gain territory; TXN the only loser at -3.71% — well above -7% cut rule. No EOD snapshot was written yesterday (Apr 28), so Day P&L uses Alpaca native last_equity. Portfolio still 46% deployed vs 75-85% target — significant dry powder. Fresh 3-trade cap available from Mon Apr 28 onwards; FOMC dust needs to settle before new entries.
+
+---
+
+## 2026-04-29 - Market-Open Session
+
+**Portfolio:** $100,638.42 equity | **Cash:** $54,124.68 | **Positions:** 3 | **Deployed:** ~46.2%
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 0 (NO TRADES — FOMC day; Mag7 AMC tonight)
+
+### Live Price Re-verification (STEP 1b)
+| Ticker | Pre-mkt Close | Live Ask | Delta | Stop | HWM | Status |
+|--------|--------------|----------|-------|------|-----|--------|
+| MU | $518.10 | $535.00 | +3.3% | $478.22 (10% trail) | $531.36 | HOLD |
+| NVDA | $213.72 | $211.18 | -1.2% | $195.06 (10% trail) | $216.73 | HOLD |
+| TXN | $265.85 | $272.66 | +2.6% | $250.56 (10% trail) | $278.40 | HOLD |
+
+### Rule Checks
+- MU +8.63% from entry — +15% tightening trigger ($554.02): NOT reached
+- NVDA +4.78% — +15% trigger ($231.44): NOT reached
+- TXN -1.69% — manual cut threshold (-7% = $256.77): safe at $271.43
+- Daytrade count: 0/3 — clean
+- All 3 trailing stops confirmed active (NVDA 97a50e3f, MU dadaa437, TXN db503de0)
+
+### Decision
+NO TRADES — FOMC decision 2pm ET + MSFT/GOOGL/META/AMZN all AMC = peak binary event. Hold all positions with trailing stops. Post-FOMC/post-earnings entry window opens Thu Apr 30 morning.
+
+### Post-FOMC Watchlist (Thu Apr 30 morning — ONLY if beats confirmed tonight)
+1. AMZN ★★ — AWS +25-27% est; if beat + raised guidance → entry near last close, 10% trail, target +20%, R:R 2:1
+2. GOOGL ★★ — DoD AI deal + search + cloud; if beat → entry near last close, 10% trail, target +20%
+3. META ★ — ad revenue +13% YoY; if beat → secondary entry; high capex risk ($115-135B)
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Target | R:R |
+|---|--------|--------|-------|---------|------|------|--------|-----|
+| 1 | NVDA | 74.51 | $201.25 | $210.88 | +4.78% | $195.06 (10% trail) | $231 | 2.0:1 |
+| 2 | MU | 30.78 | $481.76 | $523.32 | +8.63% | $478.22 (10% trail) | $578.11 | 2.0:1 |
+| 3 | TXN | 53.94 | $276.10 | $271.43 | -1.69% | $250.56 (10% trail) | $331.32 | 2.0:1 |
+
+- Trades this week: 0 of 7 (week reset Mon Apr 28)
