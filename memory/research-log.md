@@ -1083,3 +1083,74 @@ Rationale: FOMC day 1 → decision tomorrow 2pm ET. Mag7 earnings (GOOGL/MSFT/AM
 - MU ⚠️: $497 current, stop $478.22 — 3.8% cushion; FOMC+Mag7 tonight could pressure further; trailing stop is the exit plan
 - DA Davidson initiated MU at Buy / $1,000 PT today (bullish offset)
 - No position cuts or stop tightening taken; no new entries (FOMC window)
+
+---
+
+## 2026-04-29 - Pre-market Research
+
+### Account
+- Equity: $100,338.12
+- Cash: $54,124.68
+- Buying power: $154,462.80 (2x margin)
+- Daytrade count: 0
+- Open positions: 3 (NVDA, MU, TXN)
+- Deployed: ~46% ($46,213 long market value)
+
+### Position Status (live Alpaca prices, pre-market)
+| Ticker | Shares | Entry | Current | Unreal P&L | Stop | HWM | Status |
+|--------|--------|-------|---------|------------|------|-----|--------|
+| MU | 30.78 | $481.76 | $518.10 | +$1,118 (+7.54%) | $478.22 (10% trail) | $531.36 | HOLD |
+| NVDA | 74.51 | $201.25 | $213.72 | +$929 (+6.19%) | $195.06 (10% trail) | $216.73 | HOLD |
+| TXN | 53.94 | $276.10 | $265.85 | -$553 (-3.71%) | $250.56 (10% trail) | $278.40 | HOLD ⚠️ |
+
+- MU: +15% tightening trigger = $554.02 (HWM $531.36 — not reached yet)
+- TXN: Manual cut threshold = $256.77 (-7%); current $265.85 = safe but close; monitor
+
+### Market Context
+- WTI: ~$99/bbl; Brent: ~$104-108/bbl — Iran/Hormuz stalemate continues; US/Iran peace talks unresolved; WTI +2.1% Mon to $96.37; elevated on supply uncertainty
+- S&P 500 futures: +0.22% at 7,186.50 premarket (DOW +0.19%, NASDAQ +0.51%)
+- VIX: 17.83 (Apr 28 close, -1.05%) — low volatility; declining = bullish signal
+- Today's catalysts:
+  - **FOMC decision 2:00pm ET** — hold at 3.50-3.75% overwhelmingly expected; focus on language: "solid" → "moderate" shift = dovish; Powell press conf 2:30pm ET (final as chair; term ends May 15)
+  - **Mag7 AMC (massive):** MSFT, GOOGL, META, AMZN all report after close. $600B+ combined 2026 capex. AI capex confirmation = strong NVDA/MU tailwind
+  - **Kevin Warsh nomination vote** (Senate Banking, 10am ET) — expected approval as next Fed chair (dovish lean)
+  - **Durable goods orders** (8:30am ET): prior -1.4%; est +0.2%
+- Earnings before open: Silgan (SLGN), Fannie Mae — no market movers
+- Economic calendar:
+  - Today: Durable goods (8:30am), FOMC (2pm), Powell (2:30pm)
+  - **Tomorrow (Apr 30, MAJOR):** Q1 GDP est +2.2% (prev +0.5%); Core PCE est +0.25% MoM; ECI Q1; PCE YoY est 3.5%
+- Sector momentum: Energy leads YTD (+26% through Mar); IT/Semis recovering strongly in April; Consumer Staples/Industrials also positive YTD
+
+### Capitol Trades (Whitelist Check)
+- **Pelosi:** Last filed Jan 26, 2026 (trades Dec 2025–Jan 2026). NVDA call options exercised ($250K-$500K, Jan 16) — options disqualified per rules. No qualifying stock buys in 45-day window.
+- **McCaul / Crenshaw / Tuberville / Khanna / Gottheimer / Green / Mast:** No qualifying $25K+ stock buys identified in last 45 days
+- **Signal: NO SIGNAL** — no whitelist politician activity meets threshold
+
+### Crypto Section
+- **BTC/USD:** $76,345 (7d data: Apr 22 $76,350 → Apr 23-27 $78,195-$78,645 → Apr 29 $76,345; 7d trend POSITIVE, no -10% skip trigger). BTC consolidating $76-79K range after rally from $67K lows
+- **ETH/USD:** ~$2,315 (Apr 27); no data on RSI today; Death Cross likely intact
+- **No entry criteria met:** BTC RSI not confirmed <30; FOMC risk event today; consolidation ≠ oversold entry signal
+- **Crypto Decision: HOLD** — no entry. FOMC binary event; wait for post-decision clarity
+
+### Trade Ideas
+**NO NEW ENTRIES TODAY** — FOMC + Mag7 AMC creates peak binary event clustering. All positions held with trailing stops.
+
+#### Post-FOMC / Post-Mag7 Watchlist (entry window: Thu Apr 30 morning IF beats confirmed)
+> NOTE: ALL prices below are last-known close approximations. MUST verify live Alpaca quote at market-open before any execution.
+
+1. **AMZN** ★★ — Reports AMC today; AWS est +25-27% growth; Amazon 31% MTD; AI infrastructure #1 capex ($200B 2026); last close ~$255-261; if beat + raised guidance → entry Thu near last close, stop 10% trail, target +20%, R:R 2:1; confirm live quote
+2. **GOOGL** ★★ — Reports AMC today; Google DoD AI deal; search + cloud combo; +28% MTD; last close ~$349; if beat + AI search stable → entry Thu near last close, stop 10% trail, target +20%
+3. **META** ★ — Reports AMC today; ad revenue +13% YoY est; +18% MTD; last close ~$672; if beat → entry Thu; high capex ($115-135B) = risk of market frowning; secondary to AMZN/GOOGL
+4. **BTC/USD** — If FOMC language unexpectedly dovish → risk-on crypto catalyst; check RSI post-decision. Entry only if RSI <35 + confirmed catalyst
+
+### Risk Factors
+1. **FOMC language risk:** Hold expected but hawkish language (oil inflation, stagflation) could hit tech/semis; if "solid" → "moderate" shift: modest positive; if rate hike hinted: major selloff
+2. **Mag7 miss risk:** Any AMC miss from MSFT/GOOGL/META/AMZN → broad tech selloff; NVDA/MU/TXN all vulnerable (stops are the defense)
+3. **GDP/PCE tomorrow (Apr 30):** Q1 GDP est +2.2% (prev +0.5%) — massive beat expected; Core PCE YoY est 3.15% (prev 3.0%) — if hot → stagflation concern amplified
+4. **Oil $99-108:** Hormuz stalemate unresolved; each $5 oil spike = ~0.1pp CPI headwind; Fed cannot cut if oil stays $100+
+5. **TXN at -3.71%:** Approaching -7% manual cut threshold ($256.77); if broader tech selloff hits → monitor intraday; stop at $250.56
+6. **Powell exit / Warsh transition:** Market uncertainty on Fed leadership; Warsh known as more hawkish historically
+
+### Decision
+**STOCKS: HOLD** — 3 positions (NVDA/MU/TXN) all within rules. No new entries today. FOMC + Mag7 AMC = binary event cluster; trailing stops are the protection. Post-FOMC/post-Mag7 window opens Thu morning — AMZN and GOOGL on beat-and-raise are top watchlist entries.
+**CRYPTO: HOLD** — FOMC risk; BTC consolidating but not oversold. No entry criteria met.
