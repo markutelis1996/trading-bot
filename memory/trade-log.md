@@ -436,3 +436,16 @@ None
 ### Intraday Driver (Step 6 research)
 - **OpenAI drops Microsoft exclusivity deal** (Bloomberg, Apr 27): OpenAI can now work with other cloud providers. Perceived as headwind for MSFT Azure concentration; dragging all "OpenAI partner" stocks including NVDA, MU. Does NOT reduce overall AI memory/chip demand — HBM4 demand is cloud-agnostic. Thesis impact: MINIMAL / SENTIMENT only.
 - Broader context: FOMC day 1 (decision tomorrow 2pm ET), Mag7 earnings tonight (GOOGL/MSFT/AMZN/META). Market in wait-and-see mode; elevated intraday volatility expected.
+
+---
+
+### Apr 29 - EOD Snapshot (Day 7, Wednesday)
+**Portfolio:** $100,338.12 | **Cash:** $54,124.68 (53.9%) | **Day P&L:** -$611.07 (-0.61%) | **Phase P&L:** +$338.12 (+0.34%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| MU | 30.78 | $481.76 | $518.10 | +$13.81 (+2.74%) | +$1,118.72 (+7.54%) | $478.22 (10% trail, HWM $531.36) |
+| NVDA | 74.51 | $201.25 | $213.72 | +$0.55 (+0.26%) | +$928.85 (+6.19%) | $195.06 (10% trail, HWM $216.73) |
+| TXN | 53.94 | $276.10 | $265.85 | +$0.85 (+0.32%) | -$552.88 (-3.71%) | $250.56 (10% trail, HWM $278.40) |
+
+**Notes:** No trades today; new week trade cap reset (0/3 used). FOMC decision day — all three positions showed positive intraday moves (MU +2.74%, NVDA +0.26%, TXN +0.32%) yet account equity dipped -$611 vs Alpaca's last_equity ($100,949.19 from Apr 28 close), likely reflecting FOMC volatility intraday or after-hours mark. Phase P&L crosses into positive territory for the first time (+$338.12, +0.34%). MU and NVDA both firmly in unrealized gain territory; TXN the only loser at -3.71% — well above -7% cut rule. No EOD snapshot was written yesterday (Apr 28), so Day P&L uses Alpaca native last_equity. Portfolio still 46% deployed vs 75-85% target — significant dry powder. Fresh 3-trade cap available from Mon Apr 28 onwards; FOMC dust needs to settle before new entries.
