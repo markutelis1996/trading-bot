@@ -8,7 +8,7 @@ __pycache__/
 venv/
 *.log
 .tmp/
-DAILY-SUMMARY.md
+/DAILY-SUMMARY.md
 .vercel
 .letta/
 .github/
