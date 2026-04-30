@@ -590,3 +590,16 @@ NO TRADES — FOMC decision 2pm ET + MSFT/GOOGL/META/AMZN all AMC = peak binary 
 - Trades this week: 0 of 7
 - No notification sent (no action taken)
 
+---
+
+### Apr 30 - EOD Snapshot (Day 8, Thursday)
+**Portfolio:** $100,122.53 | **Cash:** $54,124.68 (54.1%) | **Day P&L:** -$36.59 (-0.04%) | **Phase P&L:** +$122.53 (+0.12%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| MU | 30.78 | $481.76 | $517.50 | -$0.96 (-0.19%) | +$1,100.25 (+7.42%) | $481.95 (10% trail, HWM $535.50) |
+| NVDA | 74.51 | $201.25 | $200.05 | -$9.20 (-4.40%) | -$89.73 (-0.60%) | $195.06 (10% trail, HWM $216.73) |
+| TXN | 53.94 | $276.10 | $281.08 | +$11.86 (+4.41%) | +$268.58 (+1.80%) | $253.73 (10% trail, HWM $281.92) |
+
+**Notes:** No trades today (0 this week). Stagflation print (GDP +2.0% miss, Core PCE +4.3% scorching) suppressed all new entries per morning macro rule. NVDA -4.40% intraday on hawkish repricing of high-multiple tech; unrealized -0.60% — above -7% cut rule; stop $195.06 intact. TXN +4.41% intraday — analog semis rotated in; new HWM $281.92, stop tightened to $253.73 (from $250.56). MU -0.19% intraday but +7.42% unrealized; HBM4/hyperscaler capex thesis INTACT (MSFT explicitly cited soaring memory prices). Phase P&L +$122.53 (+0.12%) — nominally in the black. AAPL reports AMC tonight — watch May 1 morning for setup.
+
