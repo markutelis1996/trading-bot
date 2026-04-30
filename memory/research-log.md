@@ -1154,3 +1154,162 @@ Rationale: FOMC day 1 → decision tomorrow 2pm ET. Mag7 earnings (GOOGL/MSFT/AM
 ### Decision
 **STOCKS: HOLD** — 3 positions (NVDA/MU/TXN) all within rules. No new entries today. FOMC + Mag7 AMC = binary event cluster; trailing stops are the protection. Post-FOMC/post-Mag7 window opens Thu morning — AMZN and GOOGL on beat-and-raise are top watchlist entries.
 **CRYPTO: HOLD** — FOMC risk; BTC consolidating but not oversold. No entry criteria met.
+
+---
+
+## 2026-04-30 - Pre-market Research
+
+### Account
+- Equity: $100,000.66
+- Cash: $54,124.68
+- Buying power: $154,125.34
+- Daytrade count: 0
+- Deployed: ~45.9% ($45,875.98 long market value)
+- Trades this week: 0 of 7 (week reset Mon Apr 28)
+- Phase P&L: +$0.66 (+0.001%)
+
+### Open Positions
+| Ticker | Shares | Entry | Current | Unreal P&L | Stop | HWM | Status |
+|--------|--------|-------|---------|------------|------|-----|--------|
+| MU | 30.78 | $481.76 | $516.75 | +$1,077 (+7.26%) | $478.22 (10% trail) | $531.36 | HOLD |
+| NVDA | 74.51 | $201.25 | $208.33 | +$527 (+3.52%) | $195.06 (10% trail) | $216.73 | HOLD |
+| TXN | 53.94 | $276.10 | $267.81 | -$447 (-3.00%) | $250.56 (10% trail) | $278.40 | HOLD ⚠️ |
+
+All 3 trailing stops confirmed active (MU dadaa437, NVDA 97a50e3f, TXN db503de0). TXN manual cut threshold = $256.77 (-7%); current $267.81 = safe but watch.
+
+### Market Context
+- **WTI:** ~$109-110/bbl (+6.95% yesterday); **Brent:** ~$126/bbl (+6.84%) — sharp surge; Iran stalemate continues; Trump rejected latest Iranian peace proposal; crude posted 3-week high; oil near highest level of 2026
+- **S&P 500 futures:** ~7,198 (+0.43%); **Nasdaq 100 futures:** +0.92% (~27,576); **Dow futures:** -0.22% (~48,749) — tech futures rallying on Mag7 beats; Dow weaker on oil drag
+- **VIX:** 18.81 (Apr 29 close, +5.50% on FOMC day) — elevated but S&P at/near ATHs; 4 record highs in April
+- **FOMC (Apr 29):** Held rates 3.50-3.75% as expected; Powell final presser uneventful → benign outcome, no hawkish surprises; post-FOMC window open for entries
+
+### Mag7 Earnings (ALL BEAT — Apr 29 AMC)
+| Company | Rev (actual) | Rev (est) | EPS (actual) | EPS (est) | AH Move | Key Signal |
+|---------|-------------|-----------|-------------|-----------|---------|------------|
+| AMZN | $181.5B (+17% YoY) | $177B | — | $1.62 | +5% | AWS +28% (fastest 15 qtrs); Q2 guide $194-199B; Prime Day pulled to June |
+| GOOGL | $109.9B | $107B | $5.11 | $2.64 | +4% (+$23) | EPS 93% above est (tax gain inflated); Cloud +40% CC; Waymo 500k rides/wk |
+| MSFT | $82.9B (+18% YoY) | $81.3B | $4.27 | $4.04 | flat/+1% | Azure +40%; **CapEx raised to $190B citing "soaring memory prices"** → VERY BULLISH MU |
+| META | $56.3B (+33% YoY) | $55.4B | $10.44 | $6.67 | +5-10% | EPS 57% above est; ad revenue +33%; raised CapEx further |
+
+AI capex commentary: All 4 companies confirmed accelerating AI infrastructure spend. Combined ~$400B+ 2026 capex. MSFT explicitly cited "soaring memory prices" = direct catalyst for MU thesis.
+
+### Earnings Today (Apr 30)
+**BMO:** LLY ($6.79 est), MA ($4.41 est), CAT ($4.64 est), ITW ($2.56 est), ICE ($2.26 est), CI ($7.61 est), AEM ($3.17 est)
+**AMC:** AAPL ($1.94 est — $3.97T market cap; market-moving event; Pelosi holds long-dated calls though outside 45d window), SNDK ($14.66 est), AMGN ($4.77 est)
+
+⚠️ AAPL reports AMC tonight — do NOT enter AAPL pre-results; watch May 1 morning.
+
+### Economic Calendar Today (8:30 AM ET — MAJOR CLUSTER)
+- **Q1 GDP Advance Estimate** (est +2.55% QoQ vs +0.5% prev) — market-moving; strong print expected but any miss = risk-off
+- **Core PCE Deflator Q1 YoY** (est 3.15% vs 3.0% prev) — inflation check; if hot → Fed more cautious
+- **Personal Spending M-o-M** (MAR est +0.9% vs +0.5% prev) — consumer strength check
+- **Personal Income M-o-M** (MAR est +0.35% vs -0.1% prev)
+- **Initial Jobless Claims** (APR 25 est 217.5K vs 214K prev)
+- **Employment Cost Index Q1** (8:30 AM)
+- **Chicago PMI** (9:45 AM, est 51.5)
+⚠️ **WARNING: This data cluster at 8:30 AM hits before markets open. GDP miss or hot PCE could reverse tech futures rally. DO NOT enter any position before reviewing 8:30 AM prints.**
+
+### Sector Momentum YTD
+| Sector | YTD Return | Trend |
+|--------|-----------|-------|
+| Energy (XLE) | +38-40% | #1; oil $110 accelerating |
+| Industrials | +9-16% | solid |
+| Consumer Staples | +7-11% | defensive resilience |
+| Semis/IT | +40% MTD (April); -6% YTD but recovering sharply | AI capex driven; NVDA $5T |
+| Comm. Services | mixed | Mag7 beats positive |
+| Financials | -7.5% (6mo) | lagging |
+| Consumer Discretionary | -8.5% (6mo) | lagging |
+
+### Capitol Trades (Whitelist Check)
+- **Pelosi:** Last filed Jan 26, 2026 (traded Jan 16 = **104 days ago — OUTSIDE 45-day window**). All recent activity is LEAPS/calls (NVDA, GOOGL, AMZN, AAPL options exercised). No qualifying stock buys within 45 days.
+- **McCaul, Crenshaw, Tuberville, Khanna, Gottheimer, Green, Mast:** No qualifying $25K+ stock buys within 45-day window confirmed.
+- **Signal: NONE actionable.** No politician catalyst for any ticker.
+
+### Position Thesis Check
+
+**MU (+7.26%): INTACT — STRENGTHENED**
+- MSFT Q3 raised CapEx to $190B citing "soaring memory prices" = direct thesis catalyst
+- AWS +28% (AMZN) + Azure +40% (MSFT) + GOOGL Cloud +40% = all hyperscalers accelerating → HBM4 demand surge confirmed
+- Memory shortage persists through 2027; supply constrained (CEO: customers receiving only 50-67% of requirements)
+- Stop $478.22 (HWM $531.36); approaching +15% trigger ($554.02) — monitor
+- Rule check: +7.26% → tighten to 7% trail if/when MU hits $554.02
+
+**NVDA (+3.52%): INTACT — STRENGTHENED**
+- All 4 Mag7 beats confirm accelerating AI capex → NVDA is the primary GPU supplier for all of them
+- MSFT Azure +40%, AWS +28%, GOOGL Cloud +40% = NVDA revenue pipeline expanding
+- FY Q4 2026 revenue $68.1B (+73% YoY); market cap $5T
+- Next earnings May 20 — no near-term catalyst risk
+- Stop $195.06 (HWM $216.73); not at +15% threshold ($231.44) → no tightening yet
+
+**TXN (-3.00%): INTACT — no new news**
+- Q1 2026 beat stands: Rev $4.83B (+19% YoY), EPS $1.68 vs $1.36 est; Q2 guide $5.0-5.4B (above consensus)
+- Mag7 AI capex surge = bullish for TXN analog chips (data center power mgmt, industrial automation)
+- $1.42 quarterly dividend; ex-date May 5
+- Manual cut threshold $256.77; current $267.81 = 4.1% cushion; WATCH closely today
+- Stop $250.56 (HWM $278.40)
+
+### Trade Ideas — LIVE PRICE VERIFICATION
+
+**AH quotes (condition "R", illiquid — reference only, NOT for trade math):**
+- AMZN: ask $276.12 / bid $250.28 (mid ~$263; prior close $261.02; AH implied +5%)
+- GOOGL: ask $390 / bid $362.11 (mid ~$376; prior close ~$343; AH implied +9-10%)
+- AAPL: ask $281.01 / bid $254.12 (AH, reports tonight — DO NOT enter)
+
+⚠️ CRITICAL: AH bid/ask spreads are extremely wide and unreliable. MUST verify live Alpaca quote at 9:30 AM market open before any entry. Do NOT chase opening gap >5% above prior close.
+
+**1. AMZN ★★ — PRIMARY WATCHLIST**
+- **Catalyst:** AWS +28% (fastest 15 quarters), Q1 beat, Q2 guide $194-199B (+16-19% YoY); ad revenue +24%; Prime Day pulled to June; +5% AH
+- **Thesis:** AWS is NVDA's largest cloud customer; capex surge = accelerating demand; free cash flow record
+- **AH reference:** ~$274 implied; prior close $261.02
+- **Entry strategy:** Wait for live Alpaca quote at 9:30 AM open; enter ONLY if:
+  1. GDP not a shock miss (<1.5% QoQ) and Core PCE not hot (≤3.5%)
+  2. Live ask price within 5% of prior close ($274 max) — do not chase if opening above $274
+  3. Tight bid-ask spread (regular hours)
+- **At $270 entry (est): stop $243 (10% trail), target $324 (20%), R:R 2:1**
+- **Position size:** 15% of $100K = ~$15,000 → ~55 shares at ~$270
+- **Rule check:** 0/7 trades this week ✓; positions after entry = 4 of 6-8 ✓; deployed = ~61% ✓
+
+**2. GOOGL ★★ — SECONDARY WATCHLIST**
+- **Catalyst:** Q1 Rev $109.9B (beat), EPS $5.11 (est $2.64 — largely from $36.9B unrealized equity gains; operating story still strong); Cloud +40% CC; Waymo 500k autonomous rides/wk; +4% AH
+- **Note:** EPS beat is somewhat inflated by tax/equity gains; operating performance underlying is strong but not as extreme as headline
+- **AH reference:** ~$376 implied; prior close $343.81
+- **Entry strategy:** Wait for live quote at open; only after reviewing GDP/PCE; gap of ~+9% is large — enter ONLY if price pulls back and stabilizes post-open; do not chase
+- **At $360 entry (est): stop $324 (10% trail), target $432 (20%), R:R 2:1**
+- **Position size:** 15% of $100K = ~$15,000 → ~42 shares at ~$360
+- **Priority: Secondary to AMZN** — AMZN AWS beat was cleaner; GOOGL EPS inflated by gains
+
+**3. META — WATCHLIST (tertiary)**
+- Beat confirmed (EPS $10.44 vs $6.67), revenue +33%. BUT: raised CapEx again, employee base cuts planned May → potential "sell the news" risk.
+- Prior close ~$671.34; AH not verified — do not enter if opens extended.
+- Lower priority than AMZN/GOOGL.
+
+**Not actionable today:**
+- AAPL: reports AMC tonight — binary risk; NO ENTRY
+- MSFT: beat confirmed but CapEx concerns; prior $424.46; AH essentially flat
+- BTC/crypto: no entry criteria met
+
+### Crypto Section
+- **BTC/USD:** $75,765-76,340 (Apr 29 close). Failed $80K resistance on Apr 27 ($79,488 high). 7-day: up ~3-4% from $73.9K (POSITIVE; -10% skip rule not triggered). Polymarket consensus: $74-76K range (56% probability); $76-78K (38%).
+- **RSI:** Not at <30 entry threshold — HOLD criterion not met.
+- **Decision: HOLD** — failed $80K = near-term bearish signal; consolidation range; not oversold.
+- **ETH/USD:** ~$2,315-2,370; Death Cross likely intact; RSI not <30; HOLD.
+- **SOL/USD, AVAX, LINK:** No catalysts; HOLD.
+
+### Risk Factors
+1. **GDP + PCE data at 8:30 AM:** Biggest macro print of the week. GDP Q1 est +2.55% (prev +0.5%) — if miss: risk-off; Core PCE est 3.15% — if hot: Fed hawkish tilt → tech selloff could reverse Mag7 gap
+2. **Oil surging ($110 WTI, $126 Brent):** Iran rejected US peace proposal; Hormuz stalemate deepening; oil headwind for consumer spending, tech margins, and Fed rate path
+3. **AAPL AMC tonight:** Binary event; gap risk; 3.97T market cap means AAPL move = index move
+4. **VIX 18.81 (+5.50%):** Elevated; oil and GDP uncertainty
+5. **TXN -3%:** Approaching -7% cut zone; intraday oil-driven selloff could pressure TXN analog semi margins narrative
+6. **GOOGL EPS quality:** $36.9B equity gains inflated EPS — market may re-rate lower during regular session
+7. **Post-Mag7 rotation:** Some "sell the news" on AMZN/GOOGL is normal; do not enter chasing the AH gap
+
+### Decision
+**STOCKS: WATCHLIST** — No entry before 8:30 AM GDP/PCE data.
+- If 8:30 AM data benign (GDP ≥1.5%, Core PCE ≤3.4%): evaluate AMZN and GOOGL at market open with live quotes
+- If data shocks (GDP miss or hot PCE): skip new entries today; hold all 3 positions
+- NVDA, MU, TXN: all HOLD; theses intact/strengthened by Mag7 beats
+- Hard rule: DO NOT chase any opening gap >5% above prior close without live Alpaca quote
+
+**CRYPTO: HOLD** — BTC failed $80K, consolidating; RSI not oversold; no entry criteria met.
+
