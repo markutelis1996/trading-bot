@@ -1313,3 +1313,119 @@ AI capex commentary: All 4 companies confirmed accelerating AI infrastructure sp
 
 **CRYPTO: HOLD** — BTC failed $80K, consolidating; RSI not oversold; no entry criteria met.
 
+
+---
+
+## 2026-05-01 - Pre-market Research
+
+### Account
+- Equity: $99,867.30
+- Cash: $54,124.68
+- Buying power: $153,991.98
+- Daytrade count: 0
+- Open positions: 3 (NVDA, MU, TXN)
+- Deployed: ~45.7% vs 75-85% target (underdeployed — room to add 2-3 positions)
+
+### Position Status (Alpaca positions API — live)
+| Ticker | Shares | Entry | Current | P&L% | Stop | HWM | Status |
+|--------|--------|-------|---------|------|------|-----|--------|
+| MU | 30.78 | $481.76 | $509.50 | +5.77% | $481.95 (10% trail) | $535.50 | HOLD |
+| NVDA | 74.51 | $201.25 | $200.69 | -0.28% | $195.06 (10% trail) | $216.73 | HOLD |
+| TXN | 53.94 | $276.10 | $280.03 | +1.42% | $253.73 (10% trail) | $281.92 | HOLD |
+
+### Market Context
+- WTI: ~$105.50 (+0.41% today, +80% YoY) — US-Iran war ongoing; Hormuz still contested
+- Brent: ~$111.31 (+0.83%) — Trump briefed on new military options for Iran
+- S&P 500 futures: +0.18% (~7,257) | Nasdaq +0.11% (~27,626) | ES/NQ mildly positive
+- VIX: ~18.33 (declining; premarket calm despite Hormuz risk; CNN F&G avg ~39 YTD = Fear regime)
+- Today's catalysts: AAPL Q2 BEAT (AMC Apr 30); XOM/CVX/Colgate Q1 BMO today; ISM Mfg 9am
+- Earnings before open today: XOM (Q1, est $1.01 EPS), CVX, Colgate (CL), Moderna (MRNA), Magna (MGA)
+- Earnings watch for rest of week: NFP May 8 (next major macro)
+- Economic calendar: ISM Manufacturing PMI at 9:00am EST (consensus 53.2, prior 52.7 — expansion territory); Construction Spending; no CPI/PPI until May 12-13
+- FOMC: HELD Apr 29; next decision June 17 — no meeting risk near-term
+
+### Sector Momentum YTD (Fidelity/NovInvestor data)
+- Energy: +38.3% YTD (best performer — oil +80% YoY)
+- Materials: +9.7% | Industrials: +9.52% | Consumer Staples: +8.34% | Real Estate: +8.79%
+- Communication Services: +5.81% | Utilities: +6.99%
+- MU: +73.65% YTD (top S&P 500 performer!) | NVDA: recovering post-war selloff
+- Information Technology: recovering from war-driven selloff (Mag7 beats driving sector rotation back)
+
+### AAPL Q2 2026 Earnings (AMC Apr 30 — KEY CATALYST TODAY)
+- **EPS: $2.01 BEAT** vs $1.94 consensus est (+3.6%)
+- **Revenue: $111.2B BEAT** vs $109.7B est (+1.4%), +17% YoY — record March quarter
+- **Q3 FY2026 guidance: 14-17% YoY revenue growth** vs analyst estimate of ~9.5% → MASSIVE beat
+- iPhone: +22% YoY = record March quarter; iPhone 17 "most popular lineup ever"
+- Services: another all-time record; gross margin 49.3% (up from 48.2%)
+- Greater China: +28% YoY to $20.5B (strong despite war-time disruptions)
+- $100B buyback authorized + $0.27/share dividend (+4% raise)
+- Supply constraints: iPhone and Mac supply limited; memory costs "expected to have increasing impact on margins beyond June quarter" → CONFIRMS/STRENGTHENS MU thesis
+- Tim Cook departure: stepping down as CEO → John Ternus incoming (uncertainty factor)
+- Pre-market bid: $271 (AH quote from Apr 30 20:00 ET; +1.3% vs $267.50 close)
+
+### Capitol Trades (Whitelist Check — Last 45 Days)
+- **Gottheimer**: MSFT buy $50K-$100K on Mar 25, published Apr 9 (37 days ago — within 45-day window ✓); size ≥$25K ✓. BUT single whitelist politician = secondary confirmation only. No sector momentum for MSFT (tech sector recovering but MSFT dropped on OpenAI exclusivity loss). Signal: **WATCHLIST ONLY**
+- Pelosi: Last filed Jan 2026 (GOOGL/AMZN/NVDA LEAPs exercised Jan 16). >45 days ago. NO qualifying new buys in window.
+- Tuberville: Last filed Jan 2026 (sector ETF buys + AAPL/GOOGL sells Dec 2025). >45 days ago. NO qualifying.
+- McCaul, Crenshaw, Khanna, Mast, Green: No qualifying $25K+ stock buys found within 45-day window.
+- **Overall: No whitelist primary catalyst this session.** Gottheimer MSFT = secondary only; insufficient without sector momentum.
+
+### STOCKS Section — Trade Ideas
+
+#### STEP 3d — Price Verification (MANDATORY before writing trade ideas)
+| Ticker | AH/Pre-mkt Quote | Source | Stop (10% below) | Target (+20%) | R:R |
+|--------|-----------------|--------|-------------------|---------------|-----|
+| AAPL | $271 bid (AH Apr 30 20:00) | Alpaca | $243.90 | $325.20 | 2.0:1 |
+| XOM | $147.70 bid / $160.65 ask (AH, wide spread) | Alpaca | verify at open | verify | verify |
+
+**Note: AH quotes used above. MUST verify live at market open before executing. If AAPL gaps >5% above Apr 30 close ($267.50 → skip if >$280.88) → skip. If XOM confirmed beat → verify live price then compute stop/target.**
+
+1. **AAPL ★★ (TOP PRIORITY — deferred to market-open execution)**
+   - Catalyst: Q2 2026 BEAT (EPS $2.01 vs $1.94; Rev $111.2B vs $109.7B); Q3 guidance 14-17% vs 9.5% est
+   - Additional catalyst: $100B buyback + dividend raise; iPhone 17 supercycle; Services ATH
+   - Sector: Tech momentum recovering (Mag7 beat week); AAPL buying confirms AI device demand
+   - Risk: Tim Cook departure uncertainty; supply constraints; memory cost margin pressure beyond June
+   - Entry: ~$271 AH bid (verify live at open; skip if >$280.88 = >5% gap)
+   - Stop: 10% trail below fill
+   - Target: +20% from fill (~$325 if fills near $271)
+   - R:R: 2.0:1
+   - Position size: ~$15,000 (~15% equity per strategy rules)
+   - **PENDING LIVE PRICE VERIFICATION AT MARKET-OPEN**
+
+2. **XOM ★ (WATCH — earnings BMO today, entry conditional on beat + live price)**
+   - Catalyst: Q1 2026 earnings BMO today; WTI $105, Brent $111; Energy sector YTD +38%
+   - EPS estimate: $1.01; oil +80% YoY = strong revenue tailwind; likely beat
+   - Risk: GDP miss + stagflation print (Apr 30) = demand destruction concern; oil fell -1.69% Apr 30 intraday before recovery; US-Iran military options briefing = oil spike risk cuts both ways
+   - AH bid $147.70 / ask $160.65 (wide spread, unreliable — must use live price at open)
+   - Entry: only after confirmed beat + price action <5% gap; verify live quote
+   - Stop: 10% trail; Target: +20%; R:R 2.0:1
+   - **CONDITIONAL — evaluate at market-open after earnings result confirmed**
+
+### CRYPTO Section
+
+- **BTC/USD: ~$77,086-$77,166** (+1.96% today, -1.16% 7d, +12.99% 30d)
+  - RSI (14-day): ~60 (Barchart: 61.57 9-day, 60.03 14-day) — NEUTRAL/slightly elevated; NOT <30 (entry rule)
+  - Moving averages: above 20d MA ($74,958) ✓; above 50d MA ($71,518) ✓; below 100d MA ($77,495) (near)
+  - 7d: -1.16% (not -10% → skip rule NOT triggered; BTC 7-day trend negative but mild)
+  - Macro: Hormuz still contested; US-Iran military options briefing = risk-off for crypto
+  - Polymarket: 74% odds BTC in $76k-$78k range today = consolidation expected
+  - **Decision: HOLD** — RSI 60, not oversold, no catalyst for entry; wait for RSI <30 or price ~$67k
+
+- **ETH/USD**: KelpDAO exploit still in resolution window; Death Cross status unknown but bearish trend persisted. **HOLD/AVOID**
+- **SOL/USD, AVAX/USD, LINK/USD**: No catalysts. No setup.
+
+### Risk Factors
+- Iran war escalation: Trump briefed on new military options → oil spike risk / VIX spike risk
+- ISM PMI 9am today: if miss → risk-off and tech sells off; if strong beat → confirms manufacturing recovery
+- AAPL supply constraints + memory cost warning: Q4 FY2026 margin headwind (watch for MU thesis acceleration)
+- Tim Cook departure: leadership transition risk for AAPL position
+- Portfolio underdeployment: 45.7% deployed vs 75-85% target = leaving performance on table; bias to add positions today if setups confirm
+- NFP May 8: next key macro risk; payrolls data could reprice stagflation narrative
+
+### Decision
+- **AAPL: POTENTIAL TRADE at market-open** — verify live price; if <$280.88, initiate ~$15k position (10% trailing stop)
+- **XOM: WATCH at open** — wait for confirmed Q1 beat + live price before entry
+- **Current positions: HOLD ALL** — no -7% triggers; all stops active; MU thesis strengthened by AAPL memory cost comments
+- **Crypto: HOLD** — BTC RSI 60, consolidating, no entry signal
+- **Trades this week: 0 of 7** — plenty of slots available
+
