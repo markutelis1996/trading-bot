@@ -603,3 +603,45 @@ NO TRADES — FOMC decision 2pm ET + MSFT/GOOGL/META/AMZN all AMC = peak binary 
 
 **Notes:** No trades today (0 this week). Stagflation print (GDP +2.0% miss, Core PCE +4.3% scorching) suppressed all new entries per morning macro rule. NVDA -4.40% intraday on hawkish repricing of high-multiple tech; unrealized -0.60% — above -7% cut rule; stop $195.06 intact. TXN +4.41% intraday — analog semis rotated in; new HWM $281.92, stop tightened to $253.73 (from $250.56). MU -0.19% intraday but +7.42% unrealized; HBM4/hyperscaler capex thesis INTACT (MSFT explicitly cited soaring memory prices). Phase P&L +$122.53 (+0.12%) — nominally in the black. AAPL reports AMC tonight — watch May 1 morning for setup.
 
+---
+
+## 2026-05-01 - Market-Open Session
+
+**Portfolio:** $99,888.45 equity | **Cash:** $54,124.68 | **Positions:** 3 | **Deployed:** ~45.8%
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 0 (NO TRADES)
+
+### Live Price Re-verification (STEP 1b — 9:31 AM EDT)
+| Ticker | Research | Live Ask | Delta | Stop | HWM | Status |
+|--------|----------|----------|-------|------|-----|--------|
+| MU | $509.50 | $513.54 | +0.8% | $481.95 (10% trail) | $535.50 | HOLD |
+| NVDA | $200.69 | $201.93 | +0.6% | $195.057 (10% trail) | $216.73 | HOLD |
+| TXN | $280.03 | $277.215 | -1.0% | $253.728 (10% trail) | $281.92 | HOLD |
+| AAPL | $271 (AH bid) | $284 ask | +6.17% vs $267.50 close | — | — | **SKIP** |
+| XOM | $147.70 (AH bid) | $144.58 bid / $160.71 ask | bid below AH | — | — | **SKIP** |
+
+### New Entry Evaluation
+
+**AAPL — SKIP (5% gap rule)**
+- Q2 2026 BEAT (EPS $2.01 vs $1.94; Rev $111.2B; Q3 guide 14-17% vs 9.5% est) confirmed
+- Live ask $284 vs prior close $267.50 = **+6.17% gap → exceeds 5% threshold ($280.88) → rule triggered → NO ENTRY**
+
+**XOM — SKIP (spread + momentum)**
+- Q1 2026 beat: EPS $1.05 vs est $1.02 (modest +3% beat)
+- Live bid $144.58 is BELOW AH bid $147.70 — selling into beat; historical pattern: XOM declines on earnings day
+- $16 bid/ask spread ($144/$161) — too wide for reliable sizing
+- Decision: SKIP — no momentum confirmation, adverse price action at open
+
+### Position Checks
+| Ticker | Shares | Entry | Current | P&L% | -7% Threshold | Stop | Status |
+|--------|--------|-------|---------|------|---------------|------|--------|
+| MU | 30.78 | $481.76 | $513.54 | +6.60% | $447.84 | $481.95 (10% trail, HWM $535.50) | HOLD |
+| NVDA | 74.51 | $201.25 | $201.93 | +0.34% | $187.16 | $195.057 (10% trail, HWM $216.73) | HOLD |
+| TXN | 53.94 | $276.10 | $277.215 | +0.40% | $256.77 | $253.728 (10% trail, HWM $281.92) | HOLD |
+
+- No +15%/+20% tightening triggers reached (MU +15% trigger = $554.02; HWM $535.50)
+- All trailing stops confirmed active (MU dadaa437, NVDA 97a50e3f, TXN db503de0)
+- Trades this week: 0 of 7
+
