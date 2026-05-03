@@ -658,3 +658,34 @@ NO TRADES — FOMC decision 2pm ET + MSFT/GOOGL/META/AMZN all AMC = peak binary 
 | TXN | 53.94 | $276.10 | $281.02 | -$0.06 (-0.02%) | +$265.34 (+1.78%) | $253.73 (10% trail, HWM $281.92) |
 
 **Notes:** No trades today; 0 trades this week (Apr 28–May 2); week cap fully available. MU was the standout — +4.77% Friday, new HWM $545.91, trailing stop tightened to $491.32 (+12.55% unrealized from entry). NVDA slipped -0.80% on the day, remains -1.39% unrealized — stop $195.06 is only $3.39 below current price; monitor closely. TXN essentially flat, +1.78% unrealized, HWM $281.92. Portfolio 46.3% deployed vs 75-85% target — significant cash available. Phase P&L +$760.77 (+0.76%). New week (May 4) opens with 3/3 trade slots fresh; watch for quality setups to deploy dry powder.
+
+---
+
+## 2026-05-03 - Midday Scan (Weekend — markets closed)
+
+**Portfolio:** $100,760.77 equity | **Cash:** $54,124.68 (53.7%) | **Deployed:** ~46.3% | **Phase P&L:** +$760.77 (+0.76%)
+
+### Position Status (prices as of Fri May 2 close)
+| Ticker | Shares | Entry | Current | P&L% (entry) | Stop | HWM | Status |
+|--------|--------|-------|---------|---------------|------|-----|--------|
+| MU | 30.78 | $481.76 | $542.21 | +12.55% | $491.32 (10% trail) | $545.91 | HOLD |
+| NVDA | 74.51 | $201.25 | $198.45 | -1.39% | $195.06 (10% trail) | $216.73 | HOLD |
+| TXN | 53.94 | $276.10 | $281.02 | +1.78% | $253.73 (10% trail) | $281.92 | HOLD |
+
+### Actions
+- No cuts (all above -7%: MU +12.55%, NVDA -1.39%, TXN +1.78%)
+- No stop tightening: MU +15% trigger = $553.97; HWM $545.91; current $542.21 — not reached (2.2% away)
+- All trailing stops confirmed active (MU dadaa437, NVDA 97a50e3f, TXN db503de0)
+- Market closed (weekend); no intraday moves or thesis breaks to assess
+
+### Thesis Check
+- **MU**: HBM4/NVDA Vera Rubin supply intact; AAPL explicitly cited rising memory costs Q2 call; MSFT raised CapEx to $190B citing "soaring memory prices"; all Mag7 confirmed AI capex acceleration → INTACT/STRENGTHENED
+- **NVDA**: AI GPU backbone; $400B+ combined Mag7 capex — all hyperscalers on NVDA; next earnings May 20 → INTACT
+- **TXN**: Analog semi cycle; Q1 data center demand +90% YoY; Q2 guide beat consensus → INTACT
+
+### Watch for Monday May 4
+- **MU tightening alert**: If opens ≥$554, immediately cancel dadaa437 and place 7% trail (per +15% rule)
+- **NVDA caution**: Stop $195.06 is 1.7% below current $198.45 — thin cushion; cannot move stop down per rules; stop-out is acceptable outcome if NVDA gaps down Monday
+- **Deployment gap**: 46.3% vs 75-85% target; 7 fresh trade slots this week — pre-market research May 4 will identify setups
+- No notification sent (no action taken)
+
