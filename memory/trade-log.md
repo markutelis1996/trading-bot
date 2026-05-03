@@ -645,3 +645,16 @@ NO TRADES — FOMC decision 2pm ET + MSFT/GOOGL/META/AMZN all AMC = peak binary 
 - All trailing stops confirmed active (MU dadaa437, NVDA 97a50e3f, TXN db503de0)
 - Trades this week: 0 of 7
 
+
+---
+
+### May 1 - EOD Snapshot (Day 9, Friday)
+**Portfolio:** $100,760.77 | **Cash:** $54,124.68 (53.7%) | **Day P&L:** +$638.24 (+0.64%) | **Phase P&L:** +$760.77 (+0.76%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| MU | 30.78 | $481.76 | $542.21 | +$24.71 (+4.77%) | +$1,860.95 (+12.55%) | $491.32 (10% trail, HWM $545.91) |
+| NVDA | 74.51 | $201.25 | $198.45 | -$1.60 (-0.80%) | -$208.95 (-1.39%) | $195.06 (10% trail, HWM $216.73) |
+| TXN | 53.94 | $276.10 | $281.02 | -$0.06 (-0.02%) | +$265.34 (+1.78%) | $253.73 (10% trail, HWM $281.92) |
+
+**Notes:** No trades today; 0 trades this week (Apr 28–May 2); week cap fully available. MU was the standout — +4.77% Friday, new HWM $545.91, trailing stop tightened to $491.32 (+12.55% unrealized from entry). NVDA slipped -0.80% on the day, remains -1.39% unrealized — stop $195.06 is only $3.39 below current price; monitor closely. TXN essentially flat, +1.78% unrealized, HWM $281.92. Portfolio 46.3% deployed vs 75-85% target — significant cash available. Phase P&L +$760.77 (+0.76%). New week (May 4) opens with 3/3 trade slots fresh; watch for quality setups to deploy dry powder.
