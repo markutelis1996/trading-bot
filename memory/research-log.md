@@ -1429,3 +1429,129 @@ AI capex commentary: All 4 companies confirmed accelerating AI infrastructure sp
 - **Crypto: HOLD** — BTC RSI 60, consolidating, no entry signal
 - **Trades this week: 0 of 7** — plenty of slots available
 
+
+---
+
+## 2026-05-04 - Pre-market Research
+
+### Account
+- Equity: $101,536.31 (+$775.54 overnight)
+- Cash: $54,124.68
+- Buying power: $155,660.99 (2x margin)
+- Long market value: $47,411.63
+- Deployed: ~46.7%
+- Daytrade count: 0/3
+- Phase P&L: +$1,536.31 (+1.54%)
+
+### Open Positions (live Alpaca premarket)
+| Ticker | Shares | Entry | Current | Unreal P&L | Stop | HWM | Status |
+|--------|--------|-------|---------|------------|------|-----|--------|
+| MU | 30.78 | $481.76 | $562.95 | +$2,499 (+16.85%) | $502.12 (7% trail, NEW) | $539.91 | ✅ HOLD — stop tightened |
+| NVDA | 74.51 | $201.25 | $199.58 | -$125 (-0.83%) | $195.057 (10% trail) | $216.73 | HOLD ⚠️ thin 2.27% cushion |
+| TXN | 53.94 | $276.10 | $282.00 | +$318 (+2.14%) | $253.73 (10% trail) | $281.92 | HOLD |
+
+### Stop Tightening Executed (MU +15% rule)
+- MU hit +16.85% from entry ($481.76 → $562.95) — exceeded +15% tightening threshold ($554.02)
+- Cancelled old 10% trailing stop (dadaa437, stop $491.32)
+- Placed new 7% trailing stop (d825c1e6, stop $502.12, HWM $539.91)
+- Rule applied: tighten to 7% trail at +15% gain ✓
+
+### Market Context
+- WTI: ~$101.92 (-3%), Brent: ~$108.39 (0%) — easing on Iran diplomacy signals; Araghchi says ready to resume talks if US changes approach; Trump maintaining naval blockade; Khamenei won't concede
+- S&P 500 E-mini (ESM26): 7,267.50 (+0.13%), Nasdaq 100 (NQM26): 27,932.25 (+0.35%); Dow Mini: 49,602 (-0.09%)
+- VIX: 16.99 (May 1 close) — low; bullish environment
+- Week theme: **Jobs week** — NFP Friday is primary risk event; CPI next Tuesday
+- April April was historic: S&P +9%, Nasdaq +15% (best month in years); Mag7 all beat
+
+### Economic Calendar — Week of May 4-8
+- Mon May 4: Factory orders (10am) — minor
+- Tue May 5: Trade balance, JOLTS, ISM Services
+- Wed May 6: ADP employment (April)
+- Thu May 7: Initial jobless claims
+- **Fri May 8: April NFP (8:30am) — MAJOR RISK** — labor market reading in stagflation context
+- **Tue May 12: CPI for April** — will set Fed narrative for rest of H1
+
+### Earnings Today (May 4)
+**BMO:** Loews (L), Tyson Foods (TSN), CNA Financial — not relevant to our thesis
+
+**AMC (key):**
+- **PLTR**: est $0.28 EPS (+115% YoY), $1.54B rev (+74% YoY); 10 consecutive beats; Polymarket 96% beat probability; stock ~$136 (stale), down 20% YTD; DoD Maven Smart System $2.3B budget; US commercial rev guide >$3.1B FY2026 (+115%); **watch for Tuesday setup**
+- **ON Semiconductor (ON)**: est $0.62 EPS; power/analog semi — same thesis as TXN; YTD +83.86%; watch for confirmation of analog cycle
+- **LSCC (Lattice Semiconductor)**: est $0.37 — smaller semi; lower priority
+- **VRTX, FANG, WMB**: not our sectors
+
+### Sector Momentum YTD
+| Sector | YTD | Trend |
+|--------|-----|-------|
+| Energy (XLE) | +38-40% | #1; oil $102 war premium |
+| Materials | +9.7% | #2 |
+| Industrials | +9.6% | #3 |
+| Utilities | +8.3% | recovering |
+| Consumer Staples | +8.3% | defensive |
+| IT/Semis | recovering; -6% YTD before April surge | Mag7 beat week confirmed |
+| Financials | weak | lagging |
+
+### Capitol Trades (Whitelist Check)
+- **Pelosi**: Last filed Jan 26, 2026 (trades Dec 30 - Jan 16) = 108 days ago → **OUTSIDE 45-day window**. All trades are LEAPS/options (NVDA, GOOGL, AMZN, AAPL calls) — disqualified per rules.
+- **Tuberville**: Selling Mag7 stocks, rotating to sector ETFs in early 2026 — net seller; not a buy signal
+- **Gottheimer**: Sold ServiceNow/Uber Jan 2026 — not a buy signal
+- **McCaul, Crenshaw, Khanna, Green, Mast**: No qualifying $25K+ stock buys within 45-day window confirmed
+- **Signal: NONE actionable**
+
+### NVDA Thesis Check
+- News: "Anthropic Moves Beyond NVDA as Rising AI Costs Force Strategy Shift" — minor negative sentiment, not fundamental
+- RSI 52 (neutral); AI backbone thesis intact; earnings May 20
+- Stop $195.06 is only 2.27% below $199.58 — thin cushion; acceptable per rules (cannot move stop down)
+- If NVDA opens flat/down Monday → stop could trigger; this is acceptable outcome
+- **HOLD — do not cut manually; let stop work**
+
+### MU Thesis Check
+- MU +53% in April (confirmed by Motley Fool); +16.85% from our entry
+- Melius initiated Buy (Apr 25); TD Cowen raised PT to $660 from $550 (Apr 28); DA Davidson Buy/$1,000 PT
+- Memory shortage persists through 2027; supply constraint confirmed (customers receiving 50-67% of requirements)
+- Thesis intact and strengthening
+- **HOLD with tightened 7% trail ✓**
+
+### TXN Thesis Check
+- Analog semi cycle confirmed; Q1 beat; Q2 guidance above consensus
+- TXN ex-dividend date May 5 ($1.42/share quarterly dividend) — small positive catalyst
+- **HOLD**
+
+### Trade Ideas
+
+**New entry candidates (NO entry today — PLTR binary event AMC):**
+
+**1. PLTR ★★ — WATCHLIST for Tuesday morning (conditional)**
+- Catalyst: Reports AMC today; est $0.28 EPS, $1.54B rev; 96% Polymarket beat probability; 10 consecutive beats; AI enterprise + DoD ($2.3B Maven budget); US commercial rev guide +115% FY2026
+- Entry strategy: ONLY if beat confirmed tonight AND beat/raise (guidance raised); wait for market open Tuesday; verify live Alpaca quote; skip if >5% gap above Friday close ($136.13 stale bid)
+- Preliminary: entry ~$136-145 (live quote), stop 10% trail, target +20%, R:R 2:1
+- Position size: ~$15K (15% equity)
+- Rule check: 0/7 trades this week ✓; positions after entry = 4 ✓; deployed = ~61% ✓
+- Risk: PLTR -20% YTD = underperformer; options imply ±10% move; NFP Friday = macro uncertainty
+
+**2. ON Semiconductor (ON) — SECONDARY watch for Tuesday (conditional)**
+- Catalyst: Reports AMC tonight; est $0.62 EPS; power/analog semi = TXN/analog cycle confirmation; YTD +83.86%
+- Entry strategy: Only if ON beats + confirms industrial/auto demand; check Tuesday morning
+- Secondary to PLTR — enter only if PLTR setup doesn't materialize
+
+### Crypto Section
+- **BTC/USD**: $78,569 (-0.13% 24h, -0.39% 7d); RSI 14-day: 67.45 (NOT <30 entry threshold); above 20d MA ($75,519) and 50d MA ($71,847); Polymarket 51% odds at $80-82K
+  - 7d: -0.39% (not -10% — skip rule NOT triggered)
+  - Consolidating; no directional catalyst; no entry signal
+  - **Decision: HOLD** — RSI 67, not oversold; no catalyst
+- **ETH, SOL, AVAX, LINK**: No catalyst. No setup.
+
+### Risk Factors
+- **Fri May 8 NFP (April)**: Jobs data in stagflation context — if weak (<100K), could reprice risk; if strong (>200K), could push Fed hawkish. Either outcome = volatility
+- **NVDA thin stop**: $195.06 is only 2.27% below premarket $199.58; gap-down risk Monday morning; stop-out acceptable per rules
+- **Oil volatility**: Iran diplomacy signaling but no ceasefire; any escalation = WTI $110+ = VIX spike
+- **Warsh as Fed Chair (May 15)**: Market still digesting transition; unknown hawkish tilt
+- **PLTR AMC tonight**: Binary event ±10% implied; don't enter today (execute tomorrow if beat)
+- **Portfolio underdeployment**: 46.7% vs 75-85% target; deploying post-PLTR/ON confirmation Tuesday
+
+### Decision
+- **HOLD all 3 positions** — MU/TXN above -7% rule; NVDA near stop (acceptable); all theses intact
+- **NO new entries today** — PLTR binary event AMC; wait for confirmation
+- **WATCH PLTR AMC** — if beat + raise → potential Tuesday entry (~$136-145 live quote, 10% trail)
+- **Crypto: HOLD** — BTC RSI 67; not oversold; no entry criteria met
+- **Trades this week: 0 of 7** — fresh slots available
