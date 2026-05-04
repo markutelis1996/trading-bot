@@ -689,3 +689,47 @@ NO TRADES — FOMC decision 2pm ET + MSFT/GOOGL/META/AMZN all AMC = peak binary 
 - **Deployment gap**: 46.3% vs 75-85% target; 7 fresh trade slots this week — pre-market research May 4 will identify setups
 - No notification sent (no action taken)
 
+---
+
+## 2026-05-04 - Market-Open Session
+
+**Portfolio:** $102,050.48 equity | **Cash:** $54,124.68 | **Positions:** 3 | **Deployed:** ~47.0%
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 0 (NO NEW TRADES — PLTR binary event AMC tonight)
+
+### Stop Tightening: MU 7% → 5% (rule: tighten at +20%)
+- MU at $587-589 = **+22.4%** from entry ($481.76); +20% threshold = $578.11 ✓ TRIGGERED
+- Cancelled: 7% trailing stop d825c1e6 (stop $546.79, HWM $587.95)
+- Placed: 5% trailing stop **26ed3ce7** (stop $558.89, HWM $588.31)
+
+### Live Price Re-verification (STEP 1b — market open ~9:54 AM EDT)
+| Ticker | Research | Live Ask | Delta | Stop | HWM | Status |
+|--------|----------|----------|-------|------|-----|--------|
+| MU | $562.95 | $589.79 | +4.8% | $558.89 (5% trail, NEW) | $588.31 | HOLD — stop tightened to 5% ✓ |
+| NVDA | $199.58 | $198.70 | -0.4% | $195.057 (10% trail) | $216.73 | HOLD ⚠️ 1.8% cushion |
+| TXN | $282.00 | $279.10 | -1.0% | $255.41 (10% trail) | $283.79 | HOLD |
+
+### Rule Checks
+- MU +22.4% — +20% tightening rule triggered → 5% trail placed ✓
+- NVDA -1.28% — manual cut threshold $187.16 not breached; stop $195.06 intact
+- TXN +1.09% — stop $255.41 (HWM $283.79) intact
+- Daytrade count: 0/3 ✓
+- Trades this week: 0/7
+
+### No New Buys — Rationale
+- PLTR reports AMC tonight (est $0.28 EPS / $1.54B rev; 96% beat probability)
+- Strategy: wait for confirmed beat + raise → evaluate Tuesday morning
+- No 5%-gap entry candidates identified for today
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Target | R:R |
+|---|--------|--------|-------|---------|------|------|--------|-----|
+| 1 | NVDA | 74.51 | $201.25 | $198.70 | -1.28% | $195.057 (10% trail) | $231 | 2.0:1 |
+| 2 | MU | 30.78 | $481.76 | $587-589 | +22.4% | $558.89 (5% trail, 26ed3ce7) | $578.11 ✓ | 2.0:1 |
+| 3 | TXN | 53.94 | $276.10 | $279.10 | +1.09% | $255.41 (10% trail) | $331.32 | 2.0:1 |
+
+- Trades this week: 0 of 7
+- Watch: PLTR AMC — if beat + raise → potential Tuesday entry (~$136-145, 10% trail, 15% equity)
+
