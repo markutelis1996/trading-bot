@@ -733,3 +733,18 @@ NO TRADES — FOMC decision 2pm ET + MSFT/GOOGL/META/AMZN all AMC = peak binary 
 - Trades this week: 0 of 7
 - Watch: PLTR AMC — if beat + raise → potential Tuesday entry (~$136-145, 10% trail, 15% equity)
 
+---
+
+### May 04 - EOD Snapshot (Day 10, Monday)
+**Portfolio:** $101,852.64 | **Cash:** $68,557.26 (67.3%) | **Day P&L:** +$1,091.87 (+1.08%) | **Phase P&L:** +$1,852.64 (+1.85%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| MU | 30.78 | $481.76 | $583.56 | +$41.35 (+7.63%) | +$3,133.90 (+21.13%) | $563.16 (5% trail, HWM $592.80) |
+| NVDA | 0.51 | $201.25 | $198.25 | -$0.20 (-0.10%) | -$1.54 (-1.49%) | N/A (fractional, no stop) |
+| TXN | 53.94 | $276.10 | $282.35 | +$1.33 (+0.47%) | +$337.08 (+2.26%) | $255.41 (10% trail, HWM $283.79) |
+
+**Notes:** NVDA 74-share trailing stop (97a50e3f) triggered intraday at ~$194.90 — stopped out at approx -3.2% from entry $201.25; only 0.51 fractional shares remain (no stop needed). MU surged +7.63% to $583.56; 5% trail now at $563.16 (HWM $592.80), +21.13% unrealized. TXN +0.47%, +2.26% unrealized. Portfolio now 32.7% deployed vs 75-85% target — significant dry powder post-NVDA stop-out. PLTR reported AMC (beat expected); evaluate for Tuesday entry. New trades today: 0 (0/7 weekly cap; NVDA stop-out is an exit, not a new entry).
+
+---
+
