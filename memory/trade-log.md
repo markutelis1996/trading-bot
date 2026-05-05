@@ -784,3 +784,48 @@ NO TRADES — FOMC decision 2pm ET + MSFT/GOOGL/META/AMZN all AMC = peak binary 
 - None. No cuts, no stop changes, no new entries.
 - Deployment at 32.7% (target 75-85%) — significant dry powder. PLTR remains priority for next market-open if setup holds.
 
+---
+
+## 2026-05-05 - Market-Open Session
+
+**Portfolio:** $103,381.86 equity | **Cash:** $68,557.26 | **Positions:** 3 | **Deployed:** ~33.7%
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 0 (NO TRADES — PLTR below $140 support; AMD binary risk AMC)
+
+### Live Price Re-verification (STEP 1b)
+| Ticker | Research | Live Ask | Delta | Stop | HWM | Status |
+|--------|----------|----------|-------|------|-----|--------|
+| MU | $583.12 | $640.00 | +9.8% | $619.15 (5% trail, 26ed3ce7) | $651.74 | HOLD — stop auto-trailing ✓ |
+| TXN | $282.35 | $280.59 | -0.6% | $255.41 (10% trail, db503de0) | $283.79 | HOLD |
+| NVDA | $198.43 | $197.24 | -0.6% | N/A (fractional) | — | HOLD |
+| PLTR | $146.03 (close) | $138.15 | -5.4% | — | — | SKIP |
+
+### PLTR Decision — SKIP
+- Pre-market plan: enter if ≤$153.33 (≤5% gap up); catalyst = Q1 beat+raise ✓
+- **Actual: $138.15 — sell-the-news; broke below $140 support level**
+- Research note (midday May 5): "if PLTR stabilizes and holds $140+ support, setup re-emerges tomorrow"
+- Now at $138.15 = BELOW $140 → entry criteria violated
+- AMD reports AMC tonight = additional semis/AI binary risk
+- Decision: SKIP — wait for $140 reclaim + stabilization
+
+### Position Status (live)
+| Ticker | Shares | Entry | Current | P&L% | -7% Threshold | Stop | HWM | Status |
+|--------|--------|-------|---------|------|---------------|------|-----|--------|
+| MU | 30.78 | $481.76 | $636.69 | +32.16% | $447.84 | $619.15 (5% trail) | $651.74 | HOLD |
+| TXN | 53.94 | $276.10 | $280.41 | +1.56% | $256.77 | $255.41 (10% trail) | $283.79 | HOLD |
+| NVDA | 0.51 | $201.25 | $197.24 | -1.99% | $187.16 | N/A (fractional) | — | HOLD |
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Target | R:R |
+|---|--------|--------|-------|---------|------|------|--------|-----|
+| 1 | MU | 30.78 | $481.76 | $636.69 | +32.16% | $619.15 (5% trail, 26ed3ce7) | $578.11 ✓ hit | — |
+| 2 | TXN | 53.94 | $276.10 | $280.41 | +1.56% | $255.41 (10% trail, db503de0) | $331.32 | 2.0:1 |
+| 3 | NVDA | 0.51 | $201.25 | $197.24 | -1.99% | N/A | — | — |
+
+- Trades this week: 0 of 7
+- Watch: AMD AMC — if beat + guidance raise → evaluate Wednesday morning
+- Watch: PLTR — needs to reclaim $140 support before re-entry
+- MU note: +32% unrealized; 5% stop at $619.15 protecting significant gains (HWM $651.74)
+
