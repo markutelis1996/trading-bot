@@ -829,3 +829,41 @@ NO TRADES — FOMC decision 2pm ET + MSFT/GOOGL/META/AMZN all AMC = peak binary 
 - Watch: PLTR — needs to reclaim $140 support before re-entry
 - MU note: +32% unrealized; 5% stop at $619.15 protecting significant gains (HWM $651.74)
 
+---
+
+## 2026-05-05 - Midday Scan (Afternoon — post market-open)
+
+**Portfolio:** ~$103,530 equity | **Cash:** $68,557.26 | **Positions:** 3 | **Deployed:** ~33.7% | **Phase P&L:** +$3,530 (+3.53%)
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | -7% Threshold | Stop | HWM | Status |
+|--------|--------|-------|---------|------|---------------|------|-----|--------|
+| MU | 30.78 | $481.76 | $639.44 | +32.73% | $447.84 | $619.15 (5% trail, 26ed3ce7) | $651.74 | HOLD |
+| TXN | 53.94 | $276.10 | $281.56 | +1.98% | $256.77 | $255.41 (10% trail, db503de0) | $283.79 | HOLD |
+| NVDA | 0.51 | $201.25 | $197.56 | -1.84% | $187.16 | N/A (fractional) | — | HOLD |
+
+### Day P&L (vs yesterday close)
+- MU: +$62.99/sh × 30.78 = +$1,939 | TXN: +$0.67/sh × 53.94 = +$36 | NVDA: -$0.47 (negligible)
+- Day P&L: ~+$1,975 (+1.94%)
+
+### STEP 3 — Cuts
+- None. All positions above -7% rule.
+
+### STEP 4 — Stop Tightening
+- **MU**: +32.73% — already at 5% trail (maximum). HWM $651.74, stop $619.15. MU current $639.44 < HWM; no new high today, no update needed. Trailing stop auto-adjusting correctly.
+- **TXN**: +1.98% — below +15% threshold. No action.
+- **NVDA**: Fractional only; no stop.
+
+### STEP 5 — Thesis Check
+- **MU**: Memory shortage + HBM4/hyperscaler capex thesis INTACT. MU +10.93% today (gapped up from $576.45 close). All Mag7 AI capex acceleration confirmed. HOLD.
+- **TXN**: Analog semi cycle intact. +0.24% intraday; quiet session. HOLD.
+- **NVDA**: Fractional remnant (~$101 value). No action.
+
+### STEP 6 — Intraday Research
+- No sharp unexplained moves. MU's +10.93% today is continuation of AI memory thesis (AMD AMC tonight = semiconductor sentiment positive). Not a thesis break.
+- **AMD AMC tonight**: Reports Q1 2026; binary event for semis. Strategy: no new entries today. If AMD beats + guidance raise → evaluate Wednesday morning for entry.
+
+### Actions Taken
+- None. No cuts, no stop changes, no new entries.
+- AMD binary risk AMC tonight — stay flat; evaluate Wed morning.
+
