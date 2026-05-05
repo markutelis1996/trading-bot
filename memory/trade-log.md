@@ -748,3 +748,39 @@ NO TRADES — FOMC decision 2pm ET + MSFT/GOOGL/META/AMZN all AMC = peak binary 
 
 ---
 
+
+## 2026-05-05 - Midday Scan
+
+**Portfolio:** $101,835.49 equity | **Cash:** $68,557.26 (67.3%) | **Deployed:** ~32.7% | **Day P&L:** ~-$17 (-0.02% vs May 4 close) | **Phase P&L:** +$1,835.49 (+1.84%)
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | -7% Threshold | Stop | HWM | Status |
+|--------|--------|-------|---------|------|---------------|------|-----|--------|
+| MU | 30.78 | $481.76 | $583.12 | +21.04% | $447.84 | $563.16 (5% trail, 26ed3ce7) | $592.80 | HOLD |
+| NVDA | 0.51 | $201.25 | $198.42 | -1.41% | $187.16 | N/A (fractional) | — | HOLD |
+| TXN | 53.94 | $276.10 | $282.35 | +2.26% | $256.77 | $255.41 (10% trail, db503de0) | $283.79 | HOLD |
+
+### STEP 3 — Cuts
+- None. All positions above -7% rule.
+
+### STEP 4 — Stop Tightening
+- **MU**: +21.04% — already at 5% trail (maximum). No further tightening possible. Current $583.12 < HWM $592.80; stop tracking correctly at $563.16.
+- **TXN**: +2.26% — below +15% tightening threshold. No action.
+- **NVDA**: Fractional only (no stop).
+
+### STEP 5 — Thesis Check
+- **MU**: Memory shortage thesis intact. HBM4/hyperscaler capex elevated. HOLD.
+- **TXN**: Analog semi cycle intact. +0.52% intraday. HOLD.
+- **NVDA**: Fractional remnant (~$101 value). Thesis intact but negligible position.
+
+### STEP 6 — Research: PLTR
+- **Beat confirmed**: EPS $0.33 vs $0.28 est (+17.86%); Rev $1.633B vs $1.54B est (+85% YoY)
+- **Guidance raised**: FY2026 revenue raised to $7.650-7.662B (+71% YoY growth); US commercial rev guidance raised significantly
+- **Current price**: ~$143.95 (down -1.5% from May 4 close of $146.12; market-open entry window passed)
+- **Decision**: Market-open window for PLTR entry was May 5 open. Midday entry suboptimal. Flag for tomorrow pre-market.
+- **Note**: Market-open workflow for May 5 does not appear to have run (no TRADE-LOG entry). PLTR would have been a viable setup at open — this is a missed entry. No action midday.
+
+### Actions Taken
+- None. No cuts, no stop changes, no new entries.
+- Deployment at 32.7% (target 75-85%) — significant dry powder. PLTR remains priority for next market-open if setup holds.
+

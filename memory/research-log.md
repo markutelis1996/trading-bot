@@ -1555,3 +1555,112 @@ AI capex commentary: All 4 companies confirmed accelerating AI infrastructure sp
 - **WATCH PLTR AMC** — if beat + raise → potential Tuesday entry (~$136-145 live quote, 10% trail)
 - **Crypto: HOLD** — BTC RSI 67; not oversold; no entry criteria met
 - **Trades this week: 0 of 7** — fresh slots available
+
+## 2026-05-05 - Midday Addendum
+
+### PLTR Post-Earnings Update (May 5 midday)
+- **Q1 2026 results** (AMC May 4): EPS $0.33 vs $0.28 est (+17.86% beat); Rev $1.633B vs $1.54B est (+85% YoY)
+- **Guidance raised**: FY2026 revenue $7.650-7.662B (71% growth); US commercial rev guidance raised
+- **10th consecutive beat** — confirms AI enterprise + DoD revenue flywheel
+- **Stock reaction**: AH +0.58% ($146.96); May 5 midday ~$143.95 (giving back gap — sell-the-news pattern)
+- **Entry assessment**: Planned market-open entry for Tue May 5 was not executed. Midday price $143.95 is BELOW May 4 close $146.12 — not a gap-up situation. If PLTR stabilizes and holds $140+ support, setup may re-emerge tomorrow.
+- **Watch Thursday**: If PLTR bases above $140 through Wed May 5-6 → valid setup. Preliminary entry $140-145, stop 10% trail (~$127-130), target +20% ($168-174), R:R 2:1
+- **Risk**: NFP Friday May 8 — macro uncertainty; PLTR sensitive to risk-off
+
+### Portfolio Status
+- Deployed 32.7% vs 75-85% target — needs 2-3 new positions
+- Available trade slots: 0/7 used this week
+- Priority: PLTR (pending setup) + 1-2 sector plays (energy/materials still leading YTD)
+
+
+---
+
+## 2026-05-05 - Pre-market Research
+
+### Account
+- Equity: $101,839.19
+- Cash: $68,557.26 (67.3%)
+- Buying power: $170,396.45
+- Daytrade count: 0
+- Deployed: ~32.7% vs 75-85% target (significant dry powder)
+- Open positions: 3 (MU, NVDA-fractional, TXN)
+
+### Position Status
+| Ticker | Shares | Entry | Close (May 4) | P&L% | Stop | HWM |
+|--------|--------|-------|---------------|------|------|-----|
+| MU | 30.78 | $481.76 | $583.12 | +21.04% | $563.16 (5% trail, 26ed3ce7) | $592.80 |
+| NVDA | 0.51 | $201.25 | $198.43 | -1.40% | N/A (fractional) | - |
+| TXN | 53.94 | $276.10 | $282.35 | +2.26% | $255.41 (10% trail, db503de0) | $283.79 |
+
+### Market Context
+- WTI: ~$104.36 (-1.94%) | Brent: ~$113.18 (-1.10%) — elevated; Hormuz situation ongoing, not resolved
+- S&P 500 Futures: 7,240.50 +0.14% (slightly green); S&P +5.3% YTD
+- VIX: 18.29 (closed May 4 +7.65% from 16.99 prior day) — caution flag; rising toward 19-20 range
+- Today's earnings: AMD (AMC, est $1.18-1.29 EPS; reports tonight — BINARY), ANET (AMC), SHOP (BMO)
+- Economic calendar today: Trade Balance 8:30am; JOLTS March (est 6.8M) 10am; ISM Services April (est 54.3%) 10am; Fed speeches (Bowman 10am, Barr 12:30pm)
+- Key week ahead: NFP Friday May 8; CPI May 12; PPI May 13 — elevated macro risk
+- Sector momentum YTD: Energy +32.85% > Industrials +15.06% > Utilities +12.04% > Basic Materials +11.17% > Technology +7.89% > Consumer Defensive +8.87% > Comm Services +6.83% > Real Estate +8.10% > Consumer Cyclical +1.56% > Healthcare -1.25% > Financials -4.24%
+
+### PLTR Q1 2026 Results (AMC May 4)
+- EPS: **$0.33** (beat $0.28-0.29 est by +14-17%) ✓
+- Revenue: **$1.63B** (+85% YoY; beat $1.54B est by $90M) ✓
+- US Government: **$687M** (beat $610M est by 12.6%) ✓✓ — massive outperformance
+- US Commercial: $595M (slight miss vs $603M est — minor negative)
+- Q2 guide: **$1.797-1.801B** (beat consensus; implies continued acceleration) ✓
+- FY guidance: RAISED ✓
+- Stock close May 4: $146.03 (+1.36%) — muted but positive AH reaction
+
+### Capitol Trades (Whitelist Check)
+- **Pelosi**: Last disclosure Jan 26, 2026 (trades Dec 2025 - Jan 2026 via options/exercises). OUTSIDE 45-day window. No qualifying stock buys in current window.
+- **McCaul / Crenshaw / Tuberville / Khanna / Gottheimer / Mast**: No qualifying $25k+ stock buys found within last 45 days
+- **Mark Green**: Resigned from Congress July 20, 2025 — N/A
+- **No whitelist signal this cycle**
+
+### Trade Ideas
+
+**1. PLTR — PRIMARY (evaluate at open)**
+- Catalyst: Beat + raise across all major metrics; US Gov $687M (12.6% beat vs est) = gov AI/defense spending confirmed; revenue +85% YoY (accelerating from 70% Q4); FY guidance raised; AI analytics + defense dual tailwind
+- Sector: AI software/government analytics — not directly exposed to AMD AMC risk
+- Additional context: Defense tech in strong momentum with Hormuz war premium; PLTR gov contracts benefiting from sustained defense spend
+- Valuation risk: Forward P/E ~319 (very high); requires sustained 60%+ growth to justify; muted AH reaction (+1.36%) suggests partially priced in
+- **MANDATORY LIVE PRICE**: Alpaca AH quote unusable ($140/$156 bid/ask is wide AH spread). PRE-MARKET indication from research: ~$147-149 (+1-2% from $146.03 close). Must verify via `bash scripts/alpaca.sh quote PLTR` at open.
+- **If opens ≤ $153.33 (≤5% above $146.03 close)**:
+  - Entry: live ask price at open
+  - Stop: 10% trailing from entry
+  - Target: +20% from entry
+  - At $149: stop $134.10, target $178.80, R:R 2:1 ✓
+  - Size: 15% equity (~$15,300) = ~102 shares
+- **If gaps >5% above $146.03**: SKIP per rule
+
+**2. MU — HOLD (no new position)**
+- Thesis intact: FY Q2 2026 196% revenue surge; HBM4 sold out through 2026; MSFT raised CapEx citing "soaring memory prices"; all Mag7 confirmed AI capex acceleration
+- Position already +21.04% from entry; 5% stop in place; monitoring for tightening triggers
+- No new entry — already holding; stop protects gains
+
+**3. AMD — SKIP (AMC tonight)**
+- Reports Q1 AMC today; est $1.18-1.29 EPS; history of beating (Q4: +23.39% beat)
+- Stock was -5.27% on May 4 — pre-earnings jitters / sector rotation
+- Binary outcome; do not enter before results; evaluate Wednesday morning if beats
+
+### Crypto Section
+- **BTC/USD**: ~$78,500-80,905 (7-day +4.39%; not -10% — skip rule NOT triggered); RSI ~60s (not <30 entry threshold); consolidating post-April rally; no directional catalyst
+  - **Decision: HOLD** — RSI not oversold; no entry criteria met
+- **ETH/USD**: ~$2,261-2,309; RSI neutral; MACD neutral; below key MAs; no setup
+  - **Decision: HOLD** — no entry criteria
+- **SOL/AVAX/LINK**: No setup.
+
+### Risk Factors
+- **AMD AMC tonight**: If AMD misses/guides weak → semis sector selloff → MU/TXN pressure. MU has 5% stop to protect +21% gain.
+- **VIX rising**: 18.29 (+7.65% May 4) — elevated caution; new positions need tight risk management
+- **JOLTS/ISM at 10am**: Stagflation context (Q1 GDP +2.0% miss; Core PCE +4.3%); weak JOLTS could reprice risk
+- **NFP Friday May 8**: Major macro event; positions held through weekend carry this risk
+- **CPI/PPI May 12-13**: Inflation data will move markets significantly
+- **PLTR valuation**: P/E 319 at high valuation; any guidance miss next quarter = sharp reversal risk
+- **Oil elevated**: WTI $104, Brent $113; Hormuz still unresolved; any escalation = VIX spike
+
+### Decision
+- **PLTR**: EVALUATE at open — if live ask ≤$153.33, enter with 10% trail. Strong beat+raise + AI gov = primary catalyst. Size 15%.
+- **AMD**: SKIP — binary event AMC tonight
+- **MU/TXN**: HOLD — theses intact, stops protecting gains
+- **Crypto: HOLD** — no entry criteria met
+- **Trades this week: 0 of 7** — capacity available
