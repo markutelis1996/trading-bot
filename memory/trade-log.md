@@ -867,3 +867,57 @@ NO TRADES — FOMC decision 2pm ET + MSFT/GOOGL/META/AMZN all AMC = peak binary 
 - None. No cuts, no stop changes, no new entries.
 - AMD binary risk AMC tonight — stay flat; evaluate Wed morning.
 
+---
+
+## 2026-05-06 - Market-Open Session
+
+**Portfolio:** $103,957.02 equity | **Cash:** $68,557.24 | **Positions:** 5 (after buys) | **Deployed:** ~64%
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 2 (BUY INTC, BUY AMZN)
+
+### Inline Pre-Market Research (no May 6 entry found — ran inline per workflow)
+
+**AMD Q1 2026 Results (AMC May 5):**
+- Rev $10.25B vs est $9.85B BEAT; EPS $1.37 vs $1.27 est BEAT; Data Center $5.8B +57% YoY; Q2 guide $11.2B vs est $10.5B
+- **AMD ask $413 vs prior close $347.46 = +19% gap → SKIP (far exceeds 5% rule)**
+
+**PLTR:** ask $132.11, prior close $147.05 = -10.2% selloff → broken through $140 support → **STRONG AVOID**
+
+**INTC:** Q1 2026 massive beat (EPS $0.29 vs $0.01 est; Rev $13.58B vs $12.42B); stock +12.92% on May 5; today ask $109.74 (+1.5% from $108.15 close) → within gap rule ✓
+
+**AMZN:** AWS +28% Q1 beat still active; ask $273.35, prior close $270.25 = +1.15% gap ✓; within original planned entry zone ($270 est)
+
+**Macro:** ISM Services 53.6% (expansion ✓); JOLTS slightly lower (benign); no hot PCE/GDP today; Fed next June 17 → macro benign for new entries ✓
+
+### Trades Executed
+
+| # | Date | Ticker | Side | Shares | Entry | Stop | Target | R:R | Thesis |
+|---|------|--------|------|--------|-------|------|--------|-----|--------|
+| 1 | 2026-05-06 | INTC | BUY | 139.585 | $111.709 | $100.341 (10% trail, HWM $111.49) | $134.05 | 2.0:1 | Q1 2026 massive beat (EPS $0.29 vs $0.01 est = 2900% above estimate; Rev $13.58B vs $12.42B est +9.3%); confirmed AI/data center turnaround; +80% YTD momentum intact; Day 2 post-earnings continuation; semis sector in momentum |
+| 2 | 2026-05-06 | AMZN | BUY | 56.985 | $273.64 | $246.5415 (10% trail, HWM $273.935) | $328.37 | 2.0:1 | AWS +28% Q1 2026 beat; Q2 guidance raised; AI infrastructure + cloud spending confirmed by all Mag7 hyperscalers; entry within planned zone ($270 target from Apr 29 pre-market); +1.15% gap from prior close |
+
+### Stops Placed (GTC trailing)
+- INTC: 139 shares, 10% trail, stop $100.341 (HWM $111.49) — order ID b0867c96
+- AMZN: 56 shares, 10% trail, stop $246.5415 (HWM $273.935) — order ID a7a75899
+- Note: 0.585 INTC + 0.985 AMZN fractional shares uncovered (Alpaca trailing stop requires integer qty)
+
+### Skipped
+- AMD: ask $413 vs $347.46 close = +19% gap → SKIP
+- PLTR: $132.11 vs $147.05 close = -10.2% selloff, broken $140 support → STRONG AVOID
+- XOM: $15 bid/ask spread → illiquid → SKIP
+- QCOM: wide spread, ask >5% above prior close → SKIP
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | MU | 30.78 | $481.76 | $619.15→auto (5% trail, 26ed3ce7) | $578.11 ✓ hit | — |
+| 2 | TXN | 53.94 | $276.10 | $255.41→auto (10% trail, db503de0) | $331.32 | 2.0:1 |
+| 3 | NVDA | 0.51 | $201.25 | N/A (fractional) | — | — |
+| 4 | INTC | 139.585 | $111.709 | $100.341 (10% trail, b0867c96) | $134.05 | 2.0:1 |
+| 5 | AMZN | 56.985 | $273.64 | $246.5415 (10% trail, a7a75899) | $328.37 | 2.0:1 |
+
+- Trades this week: 2 of 7
+- Watch: QCOM AMC May 7? AVGO — monitor for cleaner entry tomorrow if spread tightens
+
