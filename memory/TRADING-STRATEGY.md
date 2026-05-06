@@ -18,14 +18,22 @@ BEFORE switching to live, REVERT to original conservative rules (commented below
 1. NO OPTIONS - ever
 2. 75-85% deployed
 3. 6-8 positions at a time, max 15% each
-4. 10% trailing stop on every position as a real GTC order
+4. 10% trailing stop on every position as a real GTC order — covering INTEGER qty only (Alpaca limitation; see rule 14)
 5. Cut losers at -7% manually
-6. Tighten trail: 7% at +15%, 5% at +20%
+6. Tighten trail: 7% at +15%, 5% at +20% — UNLESS 14-day ATR > 4% of price, then STAY at 7% (high-vol stocks like memory/AI semis whipsaw on 5%)
 7. Never within 3% of current price; never move a stop down
 8. Max 7 new trades per week (was 3 in conservative mode)
 9. Follow sector momentum
 10. Exit a sector after 2 consecutive failed trades
 11. Bias to trade when valid setup exists (was patience > activity)
+12. **Sector concentration cap: max 60%** of portfolio in any single sector. New entry that pushes sector > 60% → SKIP. (Prevents single-sector selloff from wiping the book.)
+13. **Partial profit-taking** on big winners:
+    - At +25% from entry: sell 1/3 of position (lock partial gain)
+    - At +40% from entry: sell another 1/3
+    - Final 1/3 = runner with 5%/7% trail per rule 6
+    - Trigger only on STOCKS, not crypto (crypto vol too high — rules 1-5 of crypto block apply instead)
+14. **Integer-qty discipline**: When sizing position by notional, round share count DOWN to integer. Reason: Alpaca trailing-stop orders require integer qty, so any fractional remainder sits unprotected. Plan for whole-share lots only.
+15. **Broker reconciliation every session**: Before trading or analysis, run `bash scripts/alpaca.sh positions` and compare to last `trade-log.md` "Open Positions" snapshot. If qty differs → log RECONCILED entry showing realized P&L before proceeding.
 
 ## Original Conservative Rules (use when going live)
 - 5-6 positions at a time, max 20% each
