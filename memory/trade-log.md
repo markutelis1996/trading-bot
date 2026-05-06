@@ -921,3 +921,112 @@ NO TRADES — FOMC decision 2pm ET + MSFT/GOOGL/META/AMZN all AMC = peak binary 
 - Trades this week: 2 of 7
 - Watch: QCOM AMC May 7? AVGO — monitor for cleaner entry tomorrow if spread tightens
 
+
+---
+
+## 2026-05-06 - Reconciliation + Fractional Cleanup (manual sweep)
+
+**Trigger:** User flagged MU pelno drop in Alpaca app; investigation revealed silent broker-side stop fills + fractional-share gap.
+
+### Discrepancies Found (local log vs Alpaca)
+| Ticker | Log said | Alpaca actual | Cause |
+|--------|----------|---------------|-------|
+| MU | 30.78 sh | 0.785 sh | 5% trailing stop fired @ $629.86 May 5/6 (NOT $619.15 as logged) |
+| NVDA | 0.51 sh | 0.512 sh | match (Apr 28 stop-out residual) |
+| TXN | 53.94 sh | 53.937 sh | match |
+| INTC | 139.585 sh | 139.585 sh | match (today's buy) |
+| AMZN | 56.985 sh | 56.986 sh | match (today's buy) |
+
+### MU Trailing Stop Fill (RECONCILED)
+- Order: 30 sh sell, filled @ $629.859 (between May 5–6)
+- Realized: 30 × ($629.859 - $481.76) = **+$4,442.97**
+- HWM was $651.74 → 5% trail → $619.15 was the recorded stop, but actual fill at $629.86 (better than expected)
+- Note: MU recovered same day to $663.72 — stop fired during pullback, full upside missed (~$1,015 left on table)
+
+### Fractional Cleanup Orders Executed (manual, this session)
+| # | Ticker | Side | Qty | Avg Fill | Cost | Realized | Order ID |
+|---|--------|------|-----|----------|------|----------|----------|
+| 1 | MU | SELL | 0.785 | $661.688 | $378.18 | +$141.24 | fc06415a |
+| 2 | TXN | SELL | 0.937 | $289.744 | $258.69 | +$12.82 | b3f4478d |
+| 3 | NVDA | SELL | 0.512 | $205.534 | $103.00 | +$2.16 | 594e0bf5 |
+
+**Total fractional sweep realized: +$156.22**
+
+### Pending (tomorrow May 7 — avoid day trade rule)
+- INTC fractional 0.585 sh — SELL at open
+- AMZN fractional 0.986 sh — SELL at open
+- (Both bought May 6 → selling today would be day trade)
+
+### Updated Open Positions (post-cleanup)
+| # | Ticker | Shares | Entry | Current | Stop | Status |
+|---|--------|--------|-------|---------|------|--------|
+| 1 | TXN | 53 | $276.10 | $289.32 | $255.41 (10% trail, db503de0) | HOLD ✓ |
+| 2 | INTC | 139.585 | $111.71 | $111.06 | $100.34 (10% trail, b0867c96) | HOLD — 0.585 fractional uncovered |
+| 3 | AMZN | 56.985 | $273.64 | $273.81 | $246.54 (10% trail, a7a75899) | HOLD — 0.985 fractional uncovered |
+
+### MU Position — CLOSED
+- Total realized P&L: **+$4,584.21** (30 sh stop-out $4,442.97 + 0.785 sh fractional $141.24)
+- Entry → Exit: $481.76 → ~$629.86 weighted avg
+- Hold period: 13 trading days (Apr 23 → May 5/6)
+- Return: **+30.7%**
+
+### NVDA Position — CLOSED
+- Total realized P&L: 74 sh stop-out @ ~$194.90 (-$469) + 0.512 sh fractional (+$2) = **-$467**
+- Sector loss #1 (semi-conductor sector counter started at 1)
+
+### Account State After Cleanup
+- Equity: $103,601.22
+- Cash: $57,162.50
+- Positions: 3 (TXN, INTC, AMZN)
+- Deployment: ~45% (target 75-85%)
+- Daytrade count: 2/3 rolling
+- Phase P&L: **+$3,601.22 (+3.60%)**
+
+### Process Failures Identified (root cause for fix plan)
+1. **Daily-summary May 5 nepasileido** — 401 auth × 3 retries → no EOD update → user nematė MU stop'o
+2. **Trade-log not synced with broker fills** — stop-outs neatsiranda log'e iki kitos sėkmingos session'os
+3. **Fractional shares uncovered by trailing stops** — Alpaca požiūriu: kiekvienas fractional buy palieka 0.X sh be apsaugos
+4. **5% trail on +35% memory stock = whipsaw risk** — MU intraday vol >3% = stop neišvengiamas
+
+Pataisymai dokumentuoti `/Users/dziugas/.claude/plans/pries-tai-analizavai-eurolygos-drifting-adleman.md`.
+
+---
+
+## 2026-05-06 - Midday Scan
+
+**Portfolio:** $103,695.79 equity | **Cash:** $57,162.50 (55.1%) | **Deployed:** ~44.9% | **Day P&L:** +$173.22 (+0.17%) | **Phase P&L:** +$3,695.79 (+3.70%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| TXN | 53 | 53.000 | ✓ |
+| INTC | 139.585 | 139.585 | ✓ |
+| AMZN | 56.985 | 56.986 | ✓ |
+
+Clean. Fractional INTC (0.585) + AMZN (0.985) uncovered by stops — sell pending May 7 (day-trade avoidance per plan).
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | -7% Threshold | Stop | HWM | Status |
+|--------|--------|-------|---------|------|---------------|------|-----|--------|
+| TXN | 53 | $276.10 | $290.10 | +5.07% | $256.77 | $261.41 (10% trail, db503de0) | $290.45 | HOLD |
+| AMZN | 56.985 | $273.64 | $275.40 | +0.64% | $254.49 | $248.45 (10% trail, a7a75899) | $276.05 | HOLD |
+| INTC | 139.585 | $111.71 | $110.80 | -0.81% | $103.89 | $102.15 (10% trail, b0867c96) | $113.50 | HOLD |
+
+### Step 3 — Cuts
+None. All positions above -7% rule.
+
+### Step 4 — Stop Tightening
+- TXN +5.07%: below +15% threshold ($317.51). No action.
+- AMZN +0.64%: below threshold. No action.
+- INTC -0.81%: below threshold. No action.
+
+### Step 5 — Thesis Check
+- **TXN**: Analog semi cycle intact. +5.07% unrealized; stop auto-trailing to HWM $290.45. INTACT.
+- **AMZN**: AWS +28% Q1 beat; cloud/AI infra thesis intact. Holding near entry. INTACT.
+- **INTC**: Q1 2026 massive beat (EPS $0.29 vs $0.01 est); Day 2 post-earnings — mild pullback normal. -0.81% from entry, well above -7% cut rule. INTACT.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries. Daytrade count: 2/3.
+
+---
+
