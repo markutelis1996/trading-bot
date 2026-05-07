@@ -1030,3 +1030,16 @@ None. No cuts, no stop changes, no new entries. Daytrade count: 2/3.
 
 ---
 
+### May 06 - EOD Snapshot (Day 12, Wednesday)
+**Portfolio:** $103,726.76 | **Cash:** $57,162.50 (55.1%) | **Day P&L:** +$204.19 (+0.20%) | **Phase P&L:** +$3,726.76 (+3.73%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AMZN | 56.985 | $273.64 | $274.80 | +$1.25 (+0.46%) | +$66.10 (+0.42%) | $250.02 (10% trail, HWM $277.80) |
+| INTC | 139.585 | $111.71 | $111.47 | +$3.32 (+3.07%) | -$33.39 (-0.21%) | $102.15 (10% trail, HWM $113.50) |
+| TXN | 53 | $276.10 | $289.70 | +$8.70 (+3.10%) | +$720.77 (+4.93%) | $263.38 (10% trail, HWM $292.64) |
+
+**Notes:** Two new positions opened today — INTC (Q1 2026 massive beat: EPS $0.29 vs $0.01 est; AI data center turnaround thesis) and AMZN (AWS +28% Q1 beat; cloud/AI infra). MU/NVDA/TXN fractionals cleaned up earlier this session (+$156.22 realized). TXN +3.10% and INTC +3.07% both strong intraday; AMZN +0.46% quiet. AMD beat (+19% gap) and PLTR selloff (-10%) skipped per gap rules. Phase P&L +$3,726.76 (+3.73%) — solid. Portfolio 44.9% deployed vs 75-85% target; 5 trade slots remain this week. Fractional sells pending tomorrow: INTC 0.585 sh + AMZN 0.985 sh (held to avoid day trade). Daytrade count: 2/3.
+
+---
+
