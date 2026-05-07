@@ -1663,4 +1663,90 @@ AI capex commentary: All 4 companies confirmed accelerating AI infrastructure sp
 - **AMD**: SKIP — binary event AMC tonight
 - **MU/TXN**: HOLD — theses intact, stops protecting gains
 - **Crypto: HOLD** — no entry criteria met
+
+---
+
+## 2026-05-07 - Pre-market Research
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN | 56.985 | 56.9856 | ✓ |
+| INTC | 139.585 | 139.5853 | ✓ |
+| TXN | 53 | 53.000 | ✓ |
+
+Clean. Fractional sells executed: INTC 0.585 (order 88e1703d) + AMZN 0.985 (order bcb0d631) — DAY orders, fill at 9:30am open. No day-trade violation (bought May 6, sold May 7).
+
+TXN notable: $277.00 premarket vs $289.70 May 6 close = -4.3%. Likely ANET contagion (-12.57% May 6 on in-line Q2 guidance) + post-52wk-high profit taking. Stop $263.38, not triggered.
+
+### Account
+- Equity: $103,175.14
+- Cash: $57,162.50
+- Buying Power: $160,337.64
+- Daytrade count: 0
+- Deployed: $46,012.64 (44.6%) — below 75-85% target
+
+### Market Context
+- WTI: ~$95.65 (-6.94% from May 6 ~$102); Brent: ~$101.63 (-7.98%)
+  - Driver: US-Iran close to one-page peace memorandum; Trump paused "Project Freedom" naval escort mission
+- S&P 500 futures: 7,394.25, +0.06% (flat); May 6 closed +1.46% at 7,365
+- VIX: 17.39 (benign, low volatility)
+- Earnings BMO May 7: Shell, McDonald's, Howmet Aerospace, Uber Technologies (EPS $0.72 beat, Bookings +25%, Q2 guide above est)
+- Earnings AMC May 7: Gilead, QCOM (binary risk — not a trade candidate)
+- AMD +18.61% May 6 (beat+raise), ARM +13.63% May 6; ANET -12.57% (beat but in-line Q2 guidance = sell the news)
+- DIS BMO May 6: +7.54% (Q2 profit down but FY26/27 EPS growth guide + $8B buyback)
+- Economic calendar today: Initial jobless claims 8:30am (est 206k vs 189k), Q1 productivity 8:30am, Kashkari 1pm, Hammack 2:05pm
+- **TOMORROW May 8 — MAJOR RISK**: April NFP (est 55k vs 178k prior), unemployment rate 4.3%, consumer sentiment prelim
+- Sector momentum YTD: Energy +27.5% | Industrials +17.77% | Basic Materials +15.46% | Utilities +11.44% | Technology +10.50% | Consumer Defensive +9.10%
+
+### Politician Signals (Capitol Trades — Whitelist)
+- **Pelosi**: Last disclosed Jan 26, 2026 (trades Jan 16): AMZN buy $500K-$1M @ $150, GOOGL buy $500K-$1M @ $150, NVDA buy $250K-$500K @ $80, VST buy $100K-$250K @ $50, TEM buy $50K-$100K @ $20. ALL outside 45-day window (>100 days ago). AMZN already owned ✓.
+- **McCaul/Khanna/Gottheimer/Crenshaw/Tuberville/Green/Mast**: No recent disclosures found in April-May 2026 window. Khanna most active (4268 trades, $58M volume) but no specific buys found.
+- **Congress signal summary**: NO actionable whitelist trades within 45-day window. Zero signals.
+
+### Crypto (LEARNING MODE)
+- BTC: ~$81k, RSI 55 (neutral — NOT oversold), all MAs bullish (above MA5-MA200)
+- ETH/SOL: no specific data updated today
+- Polymarket consensus: BTC $80k-$82k range today (63% probability)
+- **Decision**: NO TRADE — entry criteria (RSI <30) NOT met
+
+### Trade Ideas (Live Prices via Alpaca)
+
+**Current positions — live broker prices:**
+| Ticker | Entry | Live Price (broker) | P&L% | Stop | Status |
+|--------|-------|---------------------|------|------|--------|
+| TXN | $276.10 | $277.00 | +0.33% | $263.38 (10% trail, db503de0) | HOLD |
+| INTC | $111.71 | $112.21 | +0.44% | $102.15 (10% trail, b0867c96) | HOLD |
+| AMZN | $273.64 | $274.96 | +0.48% | $250.02 (10% trail, a7a75899) | HOLD |
+
+**1. UBER — Watchlist (evaluate at open)**
+- Catalyst: Q1 2026 beat (EPS $0.72, Revenue $13.2B, Gross Bookings +25%, Q2 guidance above est)
+- Live bid (Alpaca after-hours): $74.82 | Estimated May 5 prior close: ~$72.94
+- Gap: +2.57% from May 5 close = within ≤5% rule ✓
+- Entry: Market open ask (accept only if ≤$76.65 = 5% gap limit from May 5 close)
+- Stop: 10% trail from entry (~$67.19 if enter $74.65)
+- Target: entry × 1.20 (~$89.58)
+- R:R: 2.0:1
+- **Condition**: Only enter if live ask at 9:30am ≤$76.65 AND no bad macro open
+
+**2. AVGO (Broadcom) — Secondary watchlist**
+- Catalyst: AI chip/networking sector momentum; +21.7% YTD; Pelosi bought AVGO Jun 2025 @ $80 (split-adjusted)
+- Live bid (Alpaca after-hours): $422.80
+- No fresh catalyst today (next earnings ~Jun 2026) — weaker setup without specific trigger
+- **Condition**: Only enter if strong AI catalyst emerges at open; skip today given NFP risk
+
+### Risk Factors
+- **NFP May 8 (tomorrow)**: April jobs est 55k vs 178k prior = potential major miss; recession fear risk
+- **TXN -4.3% premarket**: ANET contagion + sector rotation; stop at $263.38 still intact
+- **Oil crash -7%**: US-Iran peace deal fragile; reversal = oil spike = risk-off
+- **Underdeployed**: 44.6% vs 75-85% target; NFP uncertainty justifies holding cash today
+- **ANET -12.57%**: Beat-and-raise not rewarded = market demanding more; elevated execution bar for AI stocks
+
+### Decision
+**HOLD — no new entries today.**
+- Rationale: NFP tomorrow is major binary risk; ANET -12.57% warns market punishes "in-line" guidance; TXN premarket weakness reduces conviction on semi additions
+- Fractional sells (INTC 0.585, AMZN 0.985) execute at 9:30am open
+- UBER watchlist: evaluate ONLY if gap ≤5% at open ($76.65 max entry) AND jobless claims benign (≤220k)
+- Deployment 44.6% accepted for today given macro risk; will assess post-NFP Friday for new entries
+- Daytrade count: 0 available
 - **Trades this week: 0 of 7** — capacity available
