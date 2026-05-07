@@ -1037,6 +1037,48 @@ Fractional sells confirmed executed at 9:30am open: INTC 0.585 (88e1703d) + AMZN
 
 ---
 
+## 2026-05-07 - Midday Scan
+
+**Portfolio:** ~$103,493 equity | **Cash:** ~$57,833 | **Deployed:** ~44.1% | **Phase P&L:** ~+$3,493 (+3.49%)**
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| TXN | 53 | 53 | ✓ |
+| INTC | 139 | 139 | ✓ |
+| AMZN | 56 | 56 | ✓ |
+
+Clean. Fractional sells (INTC 0.585 + AMZN 0.985) confirmed executed at open per plan.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|------|----------|------|-----|--------|
+| TXN | 53 | $276.10 | $282.69 | +2.39% | -2.33% | $263.376 (10% trail, db503de0) | $292.64 | HOLD |
+| INTC | 139 | $111.71 | $110.76 | -0.85% | -1.99% | $103.005 (10% trail, b0867c96) | $114.45 | HOLD |
+| AMZN | 56 | $273.64 | $272.89 | -0.27% | -0.76% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+
+### Step 3 — Cuts
+None. All positions above -7% rule (TXN +2.39%, INTC -0.85%, AMZN -0.27%).
+
+### Step 4 — Stop Tightening
+- TXN +15% trigger = $317.52 — not reached. No action.
+- INTC: below threshold. No action.
+- AMZN: below threshold. No action.
+
+### Step 5 — Thesis Check
+- **TXN**: -2.33% intraday; continued ANET contagion + sector rotation (flagged pre-market). Analog semi cycle thesis unchanged. Stop $263.376 intact. INTACT.
+- **INTC**: -1.99% intraday; normal Day 2 post-earnings cooling. Q1 2026 massive beat thesis unchanged. Stop $103.005 (HWM $114.45 — updated from morning high). INTACT.
+- **AMZN**: -0.76% intraday; quiet. AWS +28% cloud/AI infra thesis unchanged. Stop $250.02 intact. INTACT.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Notes
+- NFP tomorrow (May 8) — major binary risk; maintain cash cushion
+- All 3 trailing stops confirmed active and intact per broker orders
+
+---
+
 ## 2026-05-06 - Midday Scan
 
 **Portfolio:** $103,695.79 equity | **Cash:** $57,162.50 (55.1%) | **Deployed:** ~44.9% | **Day P&L:** +$173.22 (+0.17%) | **Phase P&L:** +$3,695.79 (+3.70%)
