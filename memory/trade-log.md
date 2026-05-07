@@ -1079,6 +1079,19 @@ None. No cuts, no stop changes, no new entries.
 
 ---
 
+### May 07 - EOD Snapshot (Day 13, Thursday)
+**Portfolio:** $103,036.99 | **Cash:** $57,498.58 (55.8%) | **Day P&L:** -$910.84 (-0.88%) | **Phase P&L:** +$3,036.99 (+3.04%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| TXN | 53 | $276.10 | $285.24 | -$4.20 (-1.45%) | +$484.39 (+3.31%) | $263.376 (10% trail, HWM $292.64) |
+| INTC | 139 | $111.71 | $109.75 | -$3.26 (-2.88%) | -$272.35 (-1.75%) | $103.005 (10% trail, HWM $114.45) |
+| AMZN | 56 | $273.64 | $271.01 | -$3.98 (-1.45%) | -$147.28 (-0.96%) | $250.02 (10% trail, HWM $277.80) |
+
+**Notes:** No trades today (2/7 used this week — INTC + AMZN bought May 6). All three positions pulled back as semis sector gave up intraday gains: TXN -1.45% (ANET contagion + rotation continuing), INTC -2.88% (Day 2 post-earnings cooling from $114 HWM), AMZN -1.45% (quiet, thesis intact). Day P&L -$910.84 (-0.88%) driven by unrealized mark-to-market losses — no stops triggered, no -7% cut thresholds breached. TXN remains the only clear winner (+3.31% unrealized); INTC (-1.75%) and AMZN (-0.96%) both within normal range. NFP report tomorrow (May 8, est 55k vs 178k prior) = major binary risk; maintain cash. Portfolio 44.2% deployed vs 75-85% target — significant dry powder available. All trailing stops active and intact per broker orders.
+
+---
+
 ## 2026-05-06 - Midday Scan
 
 **Portfolio:** $103,695.79 equity | **Cash:** $57,162.50 (55.1%) | **Deployed:** ~44.9% | **Day P&L:** +$173.22 (+0.17%) | **Phase P&L:** +$3,695.79 (+3.70%)
