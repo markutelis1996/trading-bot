@@ -992,6 +992,51 @@ Pataisymai dokumentuoti `/Users/dziugas/.claude/plans/pries-tai-analizavai-eurol
 
 ---
 
+## 2026-05-07 - Market-Open Session
+
+**Portfolio:** $103,336.17 equity | **Cash:** $57,498.58 | **Positions:** 3 | **Deployed:** ~44.3% | **Daytrade count:** 0
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| TXN | 53 | 53.000 | ✓ |
+| INTC | 139.585 | 139.000 | ✓ (0.585 fractional sold at open per plan) |
+| AMZN | 56.985 | 56.000 | ✓ (0.985 fractional sold at open per plan) |
+
+Fractional sells confirmed executed at 9:30am open: INTC 0.585 (88e1703d) + AMZN 0.985 (bcb0d631). Clean.
+
+### Live Prices (9:31am)
+| Ticker | Entry | Ask | P&L% | Stop (GTC) | HWM | Status |
+|--------|-------|-----|------|------------|-----|--------|
+| TXN | $276.10 | $303.00 | +9.7% | $263.376 (10% trail, db503de0) | $292.64→auto | HOLD |
+| INTC | $111.71 | $111.96 | +0.22% | $102.15 (10% trail, b0867c96) | $113.50 | HOLD |
+| AMZN | $273.64 | $274.18 | +0.19% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+
+### Stop Tightening Check
+- TXN +9.7% — below +15% threshold ($317.52). No action.
+- INTC +0.22% — below threshold. No action.
+- AMZN +0.19% — below threshold. No action.
+
+### Watchlist Evaluation
+- **UBER**: ask $80.14 vs ~$72.94 May 5 close = +9.87% gap → EXCEEDS $76.65 limit (5% rule) → SKIP
+- **AVGO**: No fresh catalyst; skipped per pre-market plan (NFP risk)
+
+### Execution Status
+- Orders placed: 0
+- Rationale: Pre-market HOLD decision upheld. NFP April tomorrow (est 55k vs 178k prior) = major binary risk. UBER gap too wide.
+
+### Open Positions (updated)
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | TXN | 53 | $276.10 | $263.376 (10% trail, db503de0) | $331.32 | 2.0:1 |
+| 2 | INTC | 139 | $111.71 | $102.15 (10% trail, b0867c96) | $134.05 | 2.0:1 |
+| 3 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $328.37 | 2.0:1 |
+
+- Trades this week: 2 of 7 (INTC + AMZN, both May 6)
+- Watch: Post-NFP Friday assessment for new entries
+
+---
+
 ## 2026-05-06 - Midday Scan
 
 **Portfolio:** $103,695.79 equity | **Cash:** $57,162.50 (55.1%) | **Deployed:** ~44.9% | **Day P&L:** +$173.22 (+0.17%) | **Phase P&L:** +$3,695.79 (+3.70%)
