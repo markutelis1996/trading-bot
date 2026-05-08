@@ -1750,3 +1750,95 @@ TXN notable: $277.00 premarket vs $289.70 May 6 close = -4.3%. Likely ANET conta
 - Deployment 44.6% accepted for today given macro risk; will assess post-NFP Friday for new entries
 - Daytrade count: 0 available
 - **Trades this week: 0 of 7** — capacity available
+
+---
+
+## 2026-05-08 - Pre-market Research
+
+### Account
+- Equity: $102,517.42
+- Cash: $57,498.58
+- Buying power: $160,016
+- Daytrade count: 0
+- Phase P&L: +$2,517.42 (+2.52%)
+
+### Reconciliation (Step 0)
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| TXN | 53 | 53 | ✓ |
+| INTC | 139 | 139 | ✓ |
+| AMZN | 56 | 56 | ✓ |
+Clean. All GTC trailing stops active (TXN db503de0, INTC b0867c96, AMZN a7a75899).
+
+### Market Context
+- WTI: ~$95-97/bbl (overnight -3.5% on Iran peace hopes, then rebounded +1%+ Friday on fresh US-Iran Hormuz clashes)
+- Brent: ~$101.17/bbl (-2.13% overnight); earlier peaked near $110+ last week
+- S&P 500 futures: 7,376 (+0.18% overnight pre-Iran-clash news); Asian stocks fell sharply on clashes (Seoul -1%+; Tokyo, HK, Sydney all down)
+- VIX: 17.08 (May 7 close, -1.78% from prior day; declining trend but geopolitical spike risk today)
+- Today's catalysts:
+  - **US-Iran Hormuz clash (MAJOR)**: US forces struck Iranian military targets Thu night; Iran counter-attacked. Trump: "We'll knock them out a lot harder." Deal still "technically on" but fragile. Oil +1%+ Friday. Risk-OFF.
+  - **NFP April**: 70k jobs (est. 65-80k) — in-line; unemployment 4.3% unchanged. No disaster but confirms soft labor. ADP May 6 showed solid private payrolls (+large increase in 15 months). Dovish for Fed.
+  - **DDOG +31%** Thursday on blowout Q1 ($1.01B rev vs $957M est; FY raised $4.30B vs $4.09B). Software strong.
+  - S&P/Nasdaq hit intraday all-time highs Thursday before retreating (closed S&P -0.38%, Dow -0.63%, Nasdaq -0.12%)
+- Earnings before open: No major US tech/semi reports today. Small caps only (FIS, ENB, SONY, PPL BMO).
+- Economic calendar: NFP released 8:30am ET (see above). Next major: CPI May 13, EIA inventory May 13, Fed June 17.
+- Sector momentum (Fidelity, as of May 5):
+  - Industrials +11.15% YTD, Materials +11.92%, IT +9.67%, Comm Services +9.70%
+  - Semis (SMH ETF): +27.73% YTD; MU +568% 1yr, INTC +197% YTD, TXN +62% YTD
+  - Energy: elevated but volatile on Iran war; watch for peace deal impact
+
+### Position Status (live Alpaca prices, pre-market)
+| Ticker | Shares | Entry | Current | P&L% | -7% Thresh | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|------------|-----|--------|
+| TXN | 53 | $276.10 | $277.00 | +0.33% | $256.77 | $263.376 (10% trail, db503de0) | $292.64 | HOLD |
+| INTC | 139 | $111.71 | $108.80 | -2.60% | $103.89 | $103.005 (10% trail, b0867c96) | $114.45 | HOLD ⚠️ |
+| AMZN | 56 | $273.64 | $271.69 | -0.71% | $254.49 | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+
+**Stop tightening check:**
+- TXN +0.33% — below +15% trigger ($317.52). No action.
+- INTC -2.60% — below threshold. ⚠️ Stop $103.005 is 5.3% below current $108.80; analyst avg PT $79-80 far below current price; elevated cut risk if thesis breaks. Monitor closely.
+- AMZN -0.71% — below threshold. No action.
+
+### Capitol Trades (Whitelist - last 45 days)
+| Politician | Ticker | Date | Type | Size | Signal |
+|---|---|---|---|---|---|
+| Pelosi | PLTR | Apr 15 | BUY | $1M-$5M | Watchlist only (PLTR broken $140; STRONG AVOID) |
+| Gottheimer | XOM | Apr 14 | BUY | $500K-$1M | Watchlist only (wide spread; energy vol) |
+| Khanna | INTC | Apr 18 | SELL (exchange) | $250K-$500K | NEGATIVE signal on held INTC |
+| Khanna | GOOGL | Apr 14 | SELL | $50K-$100K | Negative; below min size |
+| Crenshaw | NVDA | Apr 12 | SELL | $15K-$50K | Negative; below min size |
+| Tuberville | TSLA | Apr 17 | SELL | $1M-$5M | Negative; not in our universe |
+
+No qualifying whitelist BUYS meeting $25k+ threshold for actionable signals today.
+**INTC note**: Khanna sold INTC Apr 18 (before Q1 earnings beat Apr 22). Pre-earnings distribution; doesn't override post-earnings fundamentals but noted.
+
+### Crypto Research (Step 3c)
+- BTC: ~$79,550 (-1.61% 24h); 1 month ago $69,055 (+19.2% 1-month rally). Not oversold — no RSI <30 signal. Iran risk-off pressuring all risk assets. NO TRADE.
+- ETH: ~$2,900-3,000 range (recovering from lows); Death Cross resolved; no clear entry signal. NO TRADE.
+- Crypto catalyst absent today: no MA crossover, no RSI extreme, no major whale alert. BTC 7d: positive (skip rule NOT triggered) but entry requires RSI <30 — not met.
+
+### Trade Ideas
+No actionable entries today. Risk-OFF day (Iran Hormuz re-clash). All positions held with trailing stops.
+
+**Watchlist for next week (require market-open price verification):**
+1. **DDOG** — blowout Q1 +31% Thursday. Software sector momentum strong. BUT: gap already priced in (Thursday's close ~$178); need it to consolidate near $175-180 before setup. Requires catalyst confirmation + ≤5% entry from prior close. Watch Monday.
+2. **XOM/CVX** — Iran Hormuz escalation = oil elevated; Gottheimer bought XOM $500K-1M. BUT: XOM has chronic wide bid-ask spread (illiquid market entries); skip until spread <$3. Energy re-escalation risk cuts both ways.
+3. **AVGO** — Broadcom reports May 28; AI networking + HBM demand thesis intact. No catalyst today. Flag for research ahead of earnings.
+
+*(All live prices for these ideas must be verified via `alpaca.sh quote` at market open before any entry.)*
+
+### Risk Factors
+- **Iran Hormuz re-escalation (HIGH)**: Fresh US-Iran military exchange Thursday night; ceasefire fragile; oil volatile; risk-OFF Friday
+- **INTC overextension**: Up 197% YTD; analyst avg PT $79-80 vs current ~$108; 31 of 44 analysts "Hold"; Khanna sold Apr 18; stop at $103.005 only 5% below current — could stop out on any sharp pullback
+- **NFP softness**: 70k jobs confirms slowing labor market; if unemployment rises next month, stagflation narrative returns
+- **TXN dividend ex-date passed** (record date May 5; dividends payable May 19 to holders of record — we hold 53 shares, receivable $1.42 × 53 = $75.26)
+- **Deployment**: 44% deployed vs 75-85% target — still holding significant dry powder; appropriate given risk-off Friday
+
+### Decision
+**HOLD — no new entries today.**
+- Iran clash = risk-OFF; don't add risk on geopolitical uncertainty day
+- NFP in-line but soft; confirms Fed on hold; no hawkish shock but no tailwind either
+- All three positions above -7% cut threshold; thesis intact for AMZN (AWS), TXN (analog semis), INTC (AI turnaround)
+- INTC ⚠️: Monitor stop $103.005; if breaks below $107 (approaching threshold), re-evaluate thesis vs fundamental stretch (avg PT $80)
+- Daytrade count: 0 available
+- **Trades this week: 0 of 7** — slots available, but no clean setup today
