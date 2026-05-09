@@ -1195,3 +1195,58 @@ None. Market closed. No cuts, no stop changes.
 
 ---
 
+
+---
+
+## 2026-05-09 - Market-Open Session (Saturday — Markets Closed)
+
+**Portfolio:** $105,385.93 equity | **Cash:** $57,498.57 | **Positions:** 3 | **Deployed:** ~45.4% | **Daytrade count:** 0
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| TXN | 53 | 53 | ✓ |
+| INTC | 139 | 139 | ✓ |
+| AMZN | 56 | 56 | ✓ |
+
+Clean. All GTC trailing stops active and confirmed.
+
+### Position Status (broker prices — May 8 close)
+| Ticker | Shares | Entry | Close | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|-------|------|------------|-----|--------|
+| TXN | 53 | $276.10 | $287.80 | +4.24% | $263.376 (10% trail, db503de0) | $292.64 | HOLD |
+| INTC | 139 | $111.71 | $124.92 | +11.83% | $117.513 (10% trail, b0867c96) | $130.57 | HOLD ⚠️ TIGHTEN PENDING |
+| AMZN | 56 | $273.64 | $272.68 | -0.35% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+
+### INTC — Stop Tightening Required
+- HWM $130.57 = +16.9% above entry ($111.71) → triggers 7% trail rule (threshold: +15%)
+- ATR check: INTC moved $108.80→$130.57 intraday May 8 (+19.9%) → 14-day ATR confirmed >4% of price → at +20%, STAY at 7% (not 5%)
+- Cannot tighten today (Saturday): 7% from $124.92 close = stop $116.18 < current $117.513 → violates "never move stop down"
+- **MONDAY ACTION**: If INTC opens above $126.36, cancel b0867c96 → replace with 7% trail GTC
+- Partial profit at +25% = $139.64/share → not triggered yet
+
+### What Happened May 8 (major catalyst day)
+- US-China agreed to 90-day tariff pause — massive risk-ON across all tech/growth
+- INTC: Apple foundry partnership talks confirmed; AMD revised server CPU market to $120B+ by 2030 (+35%/yr); Morningstar raised FV $60→$90
+- INTC intraday: $108.80 → $130.57 → closed $124.92 (+14.8%)
+- Broad semis rally: AMD +92% in 1 month, NVDA recovering; market expects strong Monday open
+
+### Watchlist for Monday May 11
+1. **DDOG** — closed ~$187-190 (Friday). Q1 $1.006B rev (+32%), FY raised. Software momentum. Need Monday open price; if within 5% of prior close → evaluate entry. Target: $225. R:R ~2:1 from ~$190.
+2. **TXN** — if approaches +15% ($317.52), tighten stop. Watch for partial profit setup.
+3. **NVDA** — closed ~$214 area. AI inference demand. Entry if <5% gap from Thursday close; stop 10% below entry.
+
+### Execution Status
+- Orders placed: 0 (Saturday — stock market closed)
+- Crypto: BTC not oversold (RSI not <30) → no trade
+- Deployment: 45.4% vs 75-85% target → 3-4 new positions available Monday
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | TXN | 53 | $276.10 | $263.376 (10% trail, db503de0) | $331.32 | 2.0:1 |
+| 2 | INTC | 139 | $111.71 | $117.513 (10% trail, b0867c96) | $139.64 (+25% partial) | 2.0:1 |
+| 3 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $328.37 | 2.0:1 |
+
+- Trades this week (new week May 11-15): 0 of 7
+- Phase P&L: +$5,385.93 (+5.39%)
