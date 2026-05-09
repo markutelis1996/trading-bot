@@ -1143,3 +1143,16 @@ None. No cuts, no stop changes, no new entries. Daytrade count: 2/3.
 
 ---
 
+### May 09 - EOD Snapshot (Day 14, Friday)
+**Portfolio:** $105,385.93 | **Cash:** $57,498.57 (54.6%) | **Day P&L:** +$2,346.94 (+2.28%) | **Phase P&L:** +$5,385.93 (+5.39%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| TXN | 53 | $276.10 | $287.80 | +$2.56 (+0.90%) | +$620.07 (+4.24%) | $263.376 (10% trail, HWM $292.64) |
+| INTC | 139 | $111.71 | $124.92 | +$15.17 (+13.82%) | +$1,836.30 (+11.83%) | $117.513 (10% trail, HWM $130.57) — TIGHTEN TO 7% MON |
+| AMZN | 56 | $273.64 | $272.68 | +$1.67 (+0.62%) | -$53.76 (-0.35%) | $250.02 (10% trail, HWM $277.80) |
+
+**Notes:** Big green day — portfolio +$2,346.94 (+2.28%) driven almost entirely by INTC surging +13.82% ($109.75→$124.92, intraday HWM $130.57). No trades today; week closes at 2/3 slots used (INTC + AMZN both May 6). INTC HWM $130.57 exceeded the +15% tightening trigger ($128.47 = entry $111.71 × 1.15) — trailing stop must be tightened from 10% to 7% at Monday open (new stop ~$121.43 vs current $117.51; verify 14-day ATR rule first). TXN +0.90% quiet, still below +15% trigger ($317.51); AMZN +0.62% quiet. Portfolio 45.4% deployed vs 75-85% target — significant dry powder available. Phase P&L +$5,385.93 (+5.39%). Reconciliation clean: TXN 53 ✓, INTC 139 ✓, AMZN 56 ✓.
+
+---
+
