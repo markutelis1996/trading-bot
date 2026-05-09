@@ -1842,3 +1842,33 @@ No actionable entries today. Risk-OFF day (Iran Hormuz re-clash). All positions 
 - INTC ⚠️: Monitor stop $103.005; if breaks below $107 (approaching threshold), re-evaluate thesis vs fundamental stretch (avg PT $80)
 - Daytrade count: 0 available
 - **Trades this week: 0 of 7** — slots available, but no clean setup today
+
+---
+
+## 2026-05-09 - Afternoon Addendum (Midday Scan)
+
+### INTC — Apple Foundry Deal (May 8 catalyst, +13.82% day)
+- **Catalyst**: Bloomberg report — Apple in early discussions with Intel (alongside Samsung) to manufacture main device processors in the US at Intel fabs. Preliminary agreement stage.
+- **Magnitude**: INTC +13.82% on May 8; intraday HWM $130.57; closed $124.92. Stop auto-trailed to $117.513 (HWM $130.57).
+- **Thesis impact**: Foundry business validation on top of existing AI data center thesis (Q1 data center revenue +22% to $5.05B). INTC is now a dual-catalyst story: (1) AI/server CPU recovery, (2) US foundry beneficiary of Apple supply chain diversification.
+- **Risk update**: Prior concern about overextension (avg analyst PT $79-80) now partially offset by new foundry revenue stream. Still high-vol stock. Stop tightening from 10%→7% required Monday (when price > $126.35).
+- **Unrealized gain**: +$1,836 (+11.83% from entry $111.71 × 139 sh).
+
+### TXN — BofA Upgrade
+- **Catalyst**: BofA upgraded TXN to Buy with $320 price target.
+- **Supporting data**: Q1 EPS $1.68 (est $1.37, beat +23%); Q2 guide $5.2B revenue (est $4.87B, +17% YoY). Industrial + data center segments accelerating.
+- **Insider selling note**: CEO Haviv Ilan sold 20k shares (~$5.6M) May 4; CAO ~10k shares May 1. Routine executive diversification; does not break thesis.
+- **Thesis**: Analog semi cycle recovery intact. BofA $320 PT = +11.2% upside from $287.80. HOLD.
+
+### Market Context (Weekend, week ending May 9)
+- Semis sector (SMH) continues leadership; INTC +197% YTD, TXN +62% YTD
+- Iran Hormuz: ceasefire fragile; energy elevated; risk-off bias persists but markets resilient
+- NFP soft (70k) = Fed on hold; dovish backdrop supports growth equities
+- S&P 500 / Nasdaq hit intraday all-time highs Thursday (May 7) before retreating
+
+### Monday Watch List
+1. **INTC stop tighten**: Cancel b0867c96, place 7% trail on 139 sh if open > $126.35
+2. **New entries**: 44% deployed vs 75-85% target — 2 new positions permitted within rules
+   - **DDOG**: Watchlist ($175-180 consolidation zone after +31% Thursday May 7 blowout)
+   - **AVGO**: Broadcom reports May 28; AI networking thesis; no entry yet — research ahead of earnings
+3. **Sector check**: Industrials/Materials leading YTD; verify no concentration breach with any new adds

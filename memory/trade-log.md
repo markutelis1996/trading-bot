@@ -1156,3 +1156,42 @@ None. No cuts, no stop changes, no new entries. Daytrade count: 2/3.
 
 ---
 
+## 2026-05-09 - Midday Scan (Saturday — market closed)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Log Stop/HWM | Broker Stop/HWM | Delta |
+|--------|---------|------------|--------------|-----------------|-------|
+| TXN | 53 | 53 | $263.376 / $292.64 | $263.376 / $292.64 | ✓ |
+| INTC | 139 | 139 | $117.513 / $130.57 | $117.513 / $130.57 | ✓ |
+| AMZN | 56 | 56 | $250.02 / $277.80 | $250.02 / $277.80 | ✓ |
+
+Clean. Note: INTC stop auto-trailed from $103.005→$117.513 during May 8 Apple foundry surge. Reflected in EOD snapshot above.
+
+### Step 3 — Cuts
+None. All above -7%: TXN +4.24%, INTC +11.83%, AMZN -0.35%.
+
+### Step 4 — Stop Tightening
+- INTC: HWM $130.57 = +16.9% from entry → +15% rule triggered. Cannot tighten today: 7% trail from $124.92 = $116.18 < current stop $117.513 (would move stop down — prohibited). **Action Monday: cancel b0867c96, place 7% trail on 139 INTC when price > $126.35.**
+- TXN: +4.24% — below +15% trigger ($317.52). No action.
+- AMZN: -0.35% — below threshold. No action.
+
+### Step 5 — Thesis Check
+- **INTC**: Apple-Intel foundry deal (Apple in discussions to manufacture main device processors at Intel US fabs) + AI data center revenue +22% Q1. Thesis massively enhanced. Stop $117.513 intact. **STRONG HOLD.**
+- **TXN**: BofA upgraded to Buy ($320 PT). Q1 EPS $1.68 vs $1.37 est; Q2 guide $5.2B vs $4.87B est (+17% YoY). Analog semi cycle intact. Insider selling (CEO 20k, CAO ~10k, early May) noted — routine. **HOLD.**
+- **AMZN**: No new news. AWS +28% thesis intact. **HOLD.**
+
+### Step 6 — Research Addendum
+INTC catalyst confirmed: Apple foundry deal + AI/data center strength. See RESEARCH-LOG 2026-05-09.
+
+### Actions Taken
+None. Market closed. No cuts, no stop changes.
+
+### Open Positions
+| Ticker | Shares | Entry | Last Close | P&L% | Stop | HWM | Monday Action |
+|--------|--------|-------|------------|------|------|-----|---------------|
+| TXN | 53 | $276.10 | $287.80 | +4.24% | $263.376 (10%, db503de0) | $292.64 | None |
+| INTC | 139 | $111.71 | $124.92 | +11.83% | $117.513 (10%, b0867c96) | $130.57 | Tighten to 7% if open > $126.35 |
+| AMZN | 56 | $273.64 | $272.68 | -0.35% | $250.02 (10%, a7a75899) | $277.80 | None |
+
+---
+
