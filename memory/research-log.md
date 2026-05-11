@@ -1872,3 +1872,109 @@ No actionable entries today. Risk-OFF day (Iran Hormuz re-clash). All positions 
    - **DDOG**: Watchlist ($175-180 consolidation zone after +31% Thursday May 7 blowout)
    - **AVGO**: Broadcom reports May 28; AI networking thesis; no entry yet — research ahead of earnings
 3. **Sector check**: Industrials/Materials leading YTD; verify no concentration breach with any new adds
+
+---
+
+## 2026-05-11 - Pre-market Research
+
+### Account
+- Equity: $105,544.67
+- Cash: $57,498.57
+- Buying power: $163,043.24 (2x margin; effective cash $57,498.57)
+- Daytrade count: 0
+- Open positions: 3 (INTC 139, TXN 53, AMZN 56)
+- Deployed: ~45.4% (target 75-85% — significant dry powder)
+
+### Step 0 — Reconciliation (MANDATORY)
+| Ticker | Log Qty | Broker Qty | Log Stop/HWM | Broker Stop/HWM | Match? |
+|--------|---------|------------|--------------|-----------------|--------|
+| INTC | 139 | 139 | $117.513 / $130.57 | $117.513 / $130.57 | ✓ |
+| TXN | 53 | 53 | $263.376 / $292.64 | $263.376 / $292.64 | ✓ |
+| AMZN | 56 | 56 | $250.02 / $277.80 | $250.02 / $277.80 | ✓ |
+
+Clean. No overnight stop-outs or gaps. All GTC trailing stops active.
+
+### Market Context
+- WTI: ~$99.76-100 (+4.5% today); Brent: ~$105.4 (+4-5%) — Hormuz re-escalation (Iran seized tanker Friday; US targeted Iranian military sites)
+- S&P 500 futures: 7,411.75 (-0.10%) — market absorbing oil spike; essentially flat
+- VIX: 17.19 (May 8 close) — low fear; tech leadership intact
+- Sector momentum: Tech/Semis dominant (6-week winning streak); SMH +20%+ YTD; INTC +238%, MU +161%, AMD +112%, TXN +66% YTD
+- **MAJOR risk this week: CPI Tuesday May 12** (est +0.6% MoM / +3.8% YoY, Core +0.3%/2.7%) — hot print = tech selloff risk
+- PPI Wednesday May 13; Retail Sales Thursday May 14
+- Earnings BMO today: Constellation Energy (CEG, est $2.54), Fox Corp (FOXA) — no major tech; Cisco (CSCO) AMC Thursday (AI networking, relevant to semi/datacenter thesis)
+- Economic today: Existing home sales 10am (low impact)
+- No FOMC this week; next June 17
+
+### Live Position Prices (Alpaca bid/ask May 8 close)
+| Ticker | Entry | Last Close | P&L% | Stop | HWM | Status |
+|--------|-------|------------|------|------|-----|--------|
+| INTC | $111.71 | $124.92 | +11.83% | $117.513 (10%, b0867c96) | $130.57 | HOLD ⚠️ TIGHTEN PENDING |
+| TXN | $276.10 | $287.80 | +4.24% | $263.376 (10%, db503de0) | $292.64 | HOLD |
+| AMZN | $273.64 | $272.68 | -0.35% | $250.02 (10%, a7a75899) | $277.80 | HOLD |
+
+**INTC Monday action**: If opens > $126.36, cancel b0867c96 → place 7% trail GTC on 139 sh. ATR confirmed >4% → tighten to 7% only (not 5%).
+
+### Thesis Check
+- **INTC**: Apple foundry preliminary agreement confirmed (WSJ May 8); foundry + AI data center dual catalyst. Analysts divided (consensus PT ~$82 but street catching up post-deal). HWM $130.57 = +16.9% from entry. **STRONG HOLD.**
+- **TXN**: BofA Buy/$320 PT; Q2 guide raised; analog semi cycle intact. No adverse news. **HOLD.**
+- **AMZN**: AWS +28% Q1 beat; Raymond James lifted PT to $280; cloud/AI thesis intact. Quiet week. **HOLD.**
+
+### Capitol Trades (Whitelist Check — last 45 days)
+| Politician | Recent Activity | Qualifying? |
+|-----------|----------------|-------------|
+| Pelosi (D-CA) | Sold XOM ETF May 5 ($100k-$250k) | NO — sell, not buy |
+| Tuberville (R-AL) | Sold META option, JPM ETF (May 1); bought PFE stock late Apr (LATE, $50k-100k) | NO — sells or low-conviction pharma |
+| Khanna (D-CA) | Sold TSLA (May 7), sold JPM bond (May 1) | NO — all sells |
+| Crenshaw (R-TX) | Sold GS option (Apr 28, $50k-100k) | NO — sell |
+| McCaul, Gottheimer, Green, Mast | No relevant disclosures found | NO |
+
+**Result: ZERO qualifying whitelist stock BUY signals this cycle.** No politician trade signal for new entries today.
+
+### Crypto Research
+- BTC: ~$80,862, 14-day RSI ~64.88 — NOT oversold (entry requires <30); 7-day trend positive; above 50-day EMA $73k; Stoch RSI approaching overbought zone
+- ETH: ~$2,327-2,366; RSI not <30; Death Cross history; no entry
+- No crypto entry criteria met on any allowed pair
+
+### Step 3d — Price Verification for Trade Ideas
+**DDOG** (Datadog):
+- Last close May 8: ~$187-190 (Saturday plan confirmed)
+- Alpaca pre-market (after-hours, unreliable): bid $187.59, ask $208.05 — spread too wide to use
+- Actual entry price must be verified at market open
+- If Monday open ≤ $198 (≤5% from $189 close) → evaluate; if > $198 → SKIP per gap rule
+
+**NVDA**:
+- Last close May 8: $215.20
+- Alpaca pre-market: bid $206.65, ask $228.03 — spread too wide to use
+- If Monday open ≤ $226 (≤5% from $215.20) → evaluate; if > $226 → SKIP
+
+### Trade Ideas
+1. **DDOG — evaluate at market open** (catalyst: Q1 2026 massive beat — $1.01B rev +32% YoY, EPS $0.60 vs $0.51 est; FY guidance raised to $4.3B+; first $1B quarterly revenue milestone; AI + cloud monitoring; broad-based acceleration)
+   - Entry: verify live Alpaca ask at open — only if ≤5% gap from ~$189 close
+   - Stop: 10% below entry; Target: +20% for 2:1 R:R
+   - Live ask: USE ONLY Alpaca quote at open — not this log
+   - Position size: ~$15k (10% of equity, 1 slot, ~79 shares if around $189)
+   - Risk: CPI tomorrow = binary; size conservatively; wide spread after-hours unreliable
+
+2. **NVDA — secondary watchlist at market open**
+   - Entry: only if ≤5% gap from $215.20 close; strong AI inference thesis; no new earnings until May 20
+   - Live ask: verify at open — skip if gap >5%
+   - Position size: ~$15k
+
+**Note: Both ideas have CPI risk tomorrow. If entering either, keep position size at ~10% equity (~$10-15k) vs normal 15%.**
+
+### Risk Factors
+- **CPI Tuesday May 12** — est 3.8% YoY; hot print (>4.0%) → tech selloff + stops at risk
+- Oil +4.5% (Hormuz re-escalation) — inflation concern; partially offsets tech momentum
+- INTC overextension risk: stock at $124.92, street consensus ~$82; Apple order NOT confirmed
+- AMZN near-flat (−0.35% unrealized) — weakest position; if breaks $250 stop, reassess
+- US-Iran war premium — daily shock risk; oil vol could spike on further escalation
+- S&P at 21x forward earnings — elevated valuation; any macro surprise = sharp rotation
+
+### Decision
+**HOLD all existing positions.** Execute INTC stop tightening at market open if price > $126.36 (cancel b0867c96, place 7% trail GTC on 139 INTC).
+
+**Evaluate DDOG at market open** — if gap ≤5% from $189 close, entry is valid; size ~10% equity with CPI risk in mind. Skip if gap >5%.
+
+**NVDA secondary** — same process; skip if gap >5% from $215.20.
+
+Patience: CPI tomorrow is the week's critical event. Protect capital first.
