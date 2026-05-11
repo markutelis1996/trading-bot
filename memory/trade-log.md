@@ -1250,3 +1250,45 @@ Clean. All GTC trailing stops active and confirmed.
 
 - Trades this week (new week May 11-15): 0 of 7
 - Phase P&L: +$5,385.93 (+5.39%)
+
+---
+
+## 2026-05-11 - Market-Open Session
+
+**Portfolio:** $106,393.22 equity | **Cash:** $57,498.57 | **Positions:** 4 (after buy) | **Deployed:** ~55.5%
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 1 BUY (NVDA) + 1 stop tighten (INTC 10%→7%)
+
+### INTC Stop Tightening (+15.7% rule triggered)
+- INTC at $129.25 open — +15.7% from entry $111.71 (threshold: +15% = $128.47 ✓)
+- ATR confirmed >4% of price → tighten to 7% only (not 5% per rule)
+- Cancelled: order b0867c96 (10% trail, stop $119.46, HWM $132.73)
+- Placed: order **67cdf482** (7% trail, stop $119.64, HWM $128.64)
+- Note: New HWM set to current price at order creation; will trail up faster than old 10% stop from here
+
+### Trades Executed
+
+| # | Date | Ticker | Side | Shares | Entry | Stop | Target | R:R | Thesis |
+|---|------|--------|------|--------|-------|------|--------|-----|--------|
+| 1 | 2026-05-11 | NVDA | BUY | 48.316 | $220.20 | $198.324 (10% trail, HWM $220.36) | $264.24 | 2.0:1 | AI inference demand recovery; 2nd attempt post May 4 stop-out; all hyperscalers (MSFT Azure +40%, AWS +28%, GOOGL Cloud +40%) confirmed AI capex acceleration; no earnings until May 20; CPI-conservative 10% size |
+
+### Stops Placed (GTC trailing)
+- NVDA: 48 shares, 10% trail, stop $198.324 (HWM $220.36) — order ID **c35a1ad1**
+- Note: 0.316 fractional shares uncovered (Alpaca trailing stop requires integer qty)
+
+### Skipped
+- DDOG: ask $198.66 vs ~$189 close = +5.1% → exceeds 5% gap rule ($198.45 limit) → SKIP
+- NVDA (full 15% size): sized down to 10% due to CPI risk Tuesday May 12
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | TXN | 53 | $276.10 | $266.67 (10% trail, db503de0, HWM $296.30) | $331.32 | 2.0:1 |
+| 2 | INTC | 139 | $111.71 | $119.64 (7% trail, 67cdf482, HWM $128.64) | $139.64 (+25% partial) | 2.0:1 |
+| 3 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899, HWM $277.80) | $328.37 | 2.0:1 |
+| 4 | NVDA | 48.316 | $220.20 | $198.324 (10% trail, c35a1ad1, HWM $220.36) | $264.24 | 2.0:1 |
+
+- Trades this week: 1 of 7
+- Watch: CPI Tuesday May 12 (est 3.8% YoY) — binary risk; all stops protect downside
