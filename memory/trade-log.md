@@ -1337,3 +1337,17 @@ CPI est. +3.8% YoY / Core +0.3% (2.7% YoY). Tech sector broadly flat-to-down int
 
 ### Actions Taken
 None. No cuts, no stop changes, no new entries.
+
+---
+
+### May 12 - EOD Snapshot (Day 16, Tuesday)
+**Portfolio:** $105,408.41 | **Cash:** $46,859.25 (44.4%) | **Day P&L:** +$22.48 (+0.02%) | **Phase P&L:** +$5,408.41 (+5.41%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AMZN | 56 | $273.64 | $267.34 | -$1.65 (-0.61%) | -$352.80 (-2.30%) | $250.02 (10% trail, HWM $277.80) |
+| INTC | 139 | $111.71 | $124.72 | -$4.72 (-3.65%) | +$1,808.50 (+11.65%) | $120.90 (7% trail, HWM $130.00) |
+| NVDA | 48 | $220.20 | $217.65 | -$1.79 (-0.82%) | -$123.21 (-1.16%) | $200.07 (10% trail, HWM $222.30) |
+| TXN | 53 | $276.10 | $296.70 | -$1.06 (-0.36%) | +$1,091.77 (+7.46%) | $268.362 (10% trail, HWM $298.18) |
+
+**Notes:** CPI day — all four positions closed red intraday as macro uncertainty weighed on tech/semis (INTC -3.65% worst hit). Portfolio equity essentially flat (+$22.48) because aggregate unrealized losses were offset by prior session basis. No trades today; week at 1/3 used (NVDA May 11). No -7% cut thresholds breached; no stop tightening triggered. INTC strongest unrealized (+11.65%), TXN +7.46%; AMZN and NVDA modestly underwater. Portfolio 55.6% deployed vs 75-85% target — 2 trade slots remain this week. Watch INTC for +20% trigger ($134.05) and TXN for +15% ($317.52). Tomorrow: assess post-CPI action and identify new entry setups with dry powder.
