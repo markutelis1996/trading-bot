@@ -1978,3 +1978,86 @@ Clean. No overnight stop-outs or gaps. All GTC trailing stops active.
 **NVDA secondary** — same process; skip if gap >5% from $215.20.
 
 Patience: CPI tomorrow is the week's critical event. Protect capital first.
+
+---
+
+## 2026-05-12 - Pre-market Research
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| TXN | 53 | 53 | ✓ |
+| INTC | 139 | 139 | ✓ |
+| AMZN | 56 | 56 | ✓ |
+| NVDA | 48.316 | 48.317 | ✓ (fractional rounding) |
+
+Clean. All GTC trailing stops confirmed active. Stop updates since last log:
+- INTC: HWM moved to $130.00 (was $128.64), stop $120.90 (7% trail)
+- TXN: HWM moved to $298.18 (was $296.30), stop $268.362 (10% trail)
+- NVDA: HWM moved to $222.30 (was $220.36), stop $200.07 (10% trail)
+- AMZN: HWM unchanged at $277.80, stop $250.02 (10% trail)
+
+### Account
+- Equity: $105,402.93
+- Cash: $46,859.25
+- Buying power: $152,262.18 (margin 2x)
+- Daytrade count: 0
+- Long market value: $58,543.68 (55.5% deployed)
+- Phase P&L: +$5,402.93 (+5.40%)
+
+### Market Context
+- WTI: ~$99.51 (+1.9% Mon); Brent: ~$105.40 — Trump rejected Iran peace proposal → Hormuz still closed; oil elevated
+- S&P 500 futures: 7,420.25 (-0.22%); Nasdaq -0.49%; Dow -0.05% — cautious pre-CPI
+- VIX: 18.38 (jumped +6.92% Monday — elevated uncertainty)
+- **CPI TODAY 8:30 AM ET**: April CPI est 0.6% MoM, 3.7% YoY; Core est 0.3% MoM, 2.7% YoY — near 3-year high. WEEK'S PRIMARY BINARY EVENT
+- Earnings before open: NONE today (CSCO Wed May 13, AMAT Thu May 14)
+- Economic calendar: CPI 8:30 today; PPI Wed; Retail Sales Thu; UMich Consumer Sentiment Fri; Powell term ends Fri (Warsh confirmation expected this week)
+- Sector momentum YTD: Energy +31.98% > Semis/Tech +18.63% (1M) > Industrials +11.15% > Consumer Staples +9.82% > IT +9.67% | Financials -5.93%, Healthcare -6.24% lagging
+
+### Position Status (last close May 11)
+| Ticker | Shares | Entry | Close | P&L% | Stop | HWM | Note |
+|--------|--------|-------|-------|------|------|-----|------|
+| INTC | 139 | $111.71 | $124.69 | +11.6% | $120.90 (7% trail) | $130.00 | ⚠️ 3% cushion above stop |
+| TXN | 53 | $276.10 | $296.70 | +7.46% | $268.362 (10% trail) | $298.18 | HOLD |
+| NVDA | 48.316 | $220.20 | $217.64 | -1.16% | $200.07 (10% trail) | $222.30 | HOLD |
+| AMZN | 56 | $273.64 | $267.34 | -2.30% | $250.02 (10% trail) | $277.80 | HOLD |
+
+**INTC alert**: Pulled back -3.67% Monday from $129.44 → $124.69. Stop at $120.90 gives only $3.79 / 3% cushion. A hot CPI print causing 3-5% selloff could trigger stop. Per rules: cannot move stop down; accept stop-out if it occurs (realized ~+$12/sh gain from entry = +$1,668). Thesis remains intact (Apple-Intel foundry deal confirmed preliminary, AI datacenter +22% Q1, SK Hynix packaging negotiations).
+
+### Capitol Trades (Whitelist Check)
+- Pelosi: Last disclosed Jan 26, 2026 (>45 days). No qualifying stock buys within window.
+- Ro Khanna: Sold MSFT (Mar 16), sold Visa (Mar), mixed small trades — all outside 30-day window or below $25K
+- Josh Gottheimer: Bought MSFT $500K-$1M (Mar 25 = 48 days ago, outside 45-day window); bought XOM ~$138 (mid-Mar, outside window); no qualifying trades in window
+- Tommy Tuberville: Last trades Dec 2025 (ETFs only) — outside window
+- McCaul: Sold Visa Apr 27 ($1K-$15K — too small, sell signal anyway)
+- **No qualifying whitelist buys within 30-45 day window.** No Capitol Trades signal today.
+
+### Trade Ideas
+No new entries today — CPI is an unresolved binary event. Standing rule: no new positions on major inflation print day.
+
+**Watchlist for post-CPI evaluation (market-open workflow):**
+1. DDOG — Q1 beat $1.006B +32% YoY; FY raised; software momentum; stalled at $189-190 on May 9. If CPI cool → possible entry if ≤5% gap from $189. Need live quote at open.
+2. CSCO — Reports AMC Wed May 13; if beat + raise → Thursday morning entry. Enterprise networking / AI capex proxy.
+3. AMAT — Reports Thu May 14; semiconductor fab capex barometer. If beat → Friday morning entry.
+
+**Price verification (after-hours quotes from broker — too wide for entry pricing; use at-market quotes at open):**
+- INTC AH: bid $122.97 / ask $136.32
+- TXN AH: bid $282.46 / ask $312.43
+- AMZN AH: bid $256.11 / ask $283.48
+- NVDA AH: bid $218.91 / ask N/A
+
+### Risk Factors
+- **CPI 8:30 AM** — if core >0.3% → tech selloff; INTC stop at risk (3% cushion only)
+- Iran/Hormuz unresolved → WTI ~$100 → inflation stay elevated → Fed stays hawkish
+- S&P -0.22% pre-market with VIX at 18.38 — market pricing in uncertainty
+- Burry "tech bubble" warning published May 12 — contrarian sentiment signal; not actionable alone
+- Powell term ends Friday; Warsh confirmation uncertain — potential Fed policy uncertainty
+- Semiconductor sector concentration: INTC + NVDA + TXN = ~$43.6K / $105.4K = 41.4% of portfolio; under 60% cap — room exists for 1 more tech position post-CPI if print is benign
+
+### Decision
+**HOLD all positions.** No new entries on CPI day.
+- INTC: accept potential stop-out if hot CPI → $120.90 trigger; DO NOT cancel stop
+- TXN/AMZN/NVDA: all above -7% threshold; stops protect downside; HOLD
+- Post-CPI signal: if cool (core ≤0.2%), re-evaluate DDOG/CSCO at market open
+- Post-CPI signal: if hot (core >0.3%), expect volatility; stay in cash; protect stops
+
