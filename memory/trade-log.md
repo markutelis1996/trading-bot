@@ -1351,3 +1351,34 @@ None. No cuts, no stop changes, no new entries.
 | TXN | 53 | $276.10 | $296.70 | -$1.06 (-0.36%) | +$1,091.77 (+7.46%) | $268.362 (10% trail, HWM $298.18) |
 
 **Notes:** CPI day — all four positions closed red intraday as macro uncertainty weighed on tech/semis (INTC -3.65% worst hit). Portfolio equity essentially flat (+$22.48) because aggregate unrealized losses were offset by prior session basis. No trades today; week at 1/3 used (NVDA May 11). No -7% cut thresholds breached; no stop tightening triggered. INTC strongest unrealized (+11.65%), TXN +7.46%; AMZN and NVDA modestly underwater. Portfolio 55.6% deployed vs 75-85% target — 2 trade slots remain this week. Watch INTC for +20% trigger ($134.05) and TXN for +15% ($317.52). Tomorrow: assess post-CPI action and identify new entry setups with dry powder.
+
+---
+
+## 2026-05-12 - Reconciliation (Midday 2nd Pass)
+
+| Ticker | Log Qty | Broker Qty | Suspected Cause | Realized P&L |
+|--------|---------|------------|-----------------|--------------|
+| INTC | 139 | 0 | 7% trailing stop fired 10:29 AM EDT; HWM $130.00, stop $120.90, fill $120.92/sh | +$1,280.19 |
+| NVDA | 48 (+ 0.316 fractional) | 48.316 | ✓ match (0.316 uncovered fractional from May 11 buy — ongoing) | — |
+| AMZN | 56 | 56 | ✓ | — |
+| TXN | 53 | 53 | ✓ | — |
+
+### INTC — Stopped Out
+- Entry $111.71 × 139 shares | Exit $120.920 × 139 shares
+- Realized P&L: 139 × ($120.920 - $111.71) = **+$1,280.19**
+- Stop triggered at 10:29 AM EDT (14:29 UTC) May 12 — intraday drop from $124.72 prior close → $120.90 stop
+- Hold period: May 6 → May 12 (5 trading days). Return: +8.24% on position
+
+### Remaining Positions (midday)
+| Ticker | Shares | Entry | Current | P&L% | Stop | Status |
+|--------|--------|-------|---------|------|------|--------|
+| AMZN | 56 | $273.64 | $264.16 | -3.46% | $250.02 (10% trail, a7a75899, HWM $277.80) | HOLD |
+| NVDA | 48 | $220.20 | $218.60 | -0.73% | $201.375 (10% trail, c35a1ad1, HWM $223.75) | HOLD |
+| TXN | 53 | $276.10 | $290.70 | +5.29% | $268.362 (10% trail, db503de0, HWM $298.18) | HOLD |
+
+- No cuts (all above -7% rule)
+- No stop tightening (TXN +15% trigger $317.52 not reached; NVDA/AMZN below threshold)
+- Thesis intact for all three: AWS/AI (AMZN), AI inference (NVDA), analog semi cycle (TXN)
+- Deployment post-INTC exit: ~$40,762 long MV vs ~$63,667 cash ≈ 39% deployed (was 55%)
+- NVDA 0.316 fractional shares uncovered — minor; carry until next session cleanup opportunity
+
