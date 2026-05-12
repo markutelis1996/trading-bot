@@ -1292,3 +1292,48 @@ Clean. All GTC trailing stops active and confirmed.
 
 - Trades this week: 1 of 7
 - Watch: CPI Tuesday May 12 (est 3.8% YoY) — binary risk; all stops protect downside
+
+---
+
+## 2026-05-12 - Midday Scan
+
+**Portfolio:** ~$105,560 equity | **Cash:** ~$46,860 | **Positions:** 4 | **Deployed:** ~55.6% | **Phase P&L:** ~+$5,560 (+5.56%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| TXN | 53 | 53 | ✓ |
+| INTC | 139 | 139 | ✓ |
+| AMZN | 56 | 56 | ✓ |
+| NVDA | 48.316 | 48.316 | ✓ |
+
+Clean. No overnight stop-outs.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|------|-----|--------|
+| TXN | 53 | $276.10 | $297.50 | +7.75% | -0.09% | $268.362 (10% trail, db503de0) | $298.18 | HOLD |
+| INTC | 139 | $111.71 | $125.07 | +11.96% | -3.38% | $120.90 (7% trail, 67cdf482) | $130.00 | HOLD |
+| NVDA | 48.316 | $220.20 | $218.10 | -0.95% | -0.61% | $200.07 (10% trail, c35a1ad1) | $222.30 | HOLD |
+| AMZN | 56 | $273.64 | $268.00 | -2.06% | -0.37% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+
+### Step 3 — Cuts
+None. All positions above -7% rule.
+
+### Step 4 — Stop Tightening
+- TXN +7.75%: +15% trigger $317.52 — not reached. No action.
+- INTC +11.96%: already on 7% trail (tightened May 11 open). +20% trigger $134.05 — not reached. No action.
+- NVDA -0.95%: below threshold. No action.
+- AMZN -2.06%: below threshold. No action.
+
+### Step 5 — Thesis Check
+- **TXN**: Analog semi cycle intact; BofA $320 PT; Q2 guide raised. HWM $298.18 — stop trailing correctly. **HOLD.**
+- **INTC**: -3.38% intraday driven by CPI-day macro pressure, not thesis break. Apple foundry + AI data center dual catalyst intact. 7% trail stop $120.90 provides cushion. **HOLD.**
+- **NVDA**: -0.61% intraday. AI inference thesis intact. Conservatively sized at 10% equity per CPI risk plan. **HOLD.**
+- **AMZN**: -0.37% intraday. AWS +28% cloud/AI thesis intact. Quiet session. **HOLD.**
+
+### Macro — CPI May 12
+CPI est. +3.8% YoY / Core +0.3% (2.7% YoY). Tech sector broadly flat-to-down intraday. Intraday weakness is macro-driven (CPI uncertainty), not position-specific thesis breaks. All stops protect downside if print comes hot.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
