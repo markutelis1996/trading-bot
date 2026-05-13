@@ -2061,3 +2061,106 @@ No new entries today — CPI is an unresolved binary event. Standing rule: no ne
 - Post-CPI signal: if cool (core ≤0.2%), re-evaluate DDOG/CSCO at market open
 - Post-CPI signal: if hot (core >0.3%), expect volatility; stay in cash; protect stops
 
+---
+
+## 2026-05-13 - Pre-market Research
+
+### Account
+- Equity: $105,151.91
+- Cash: $63,667.17
+- Buying power: $168,819.08
+- Daytrade count: 0
+- Open positions: 3 (AMZN 56sh, NVDA 48.316sh, TXN 53sh)
+- Deployed: ~39.5% (target 75-85% — wide gap)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN | 56 | 56 | ✓ |
+| NVDA | 48.316 | 48.316 | ✓ (0.316 fractional uncovered) |
+| TXN | 53 | 53 | ✓ |
+
+INTC: already reconciled and closed in May 12 midday log (+$1,280.19). No new discrepancies.
+
+### Market Context
+- WTI: ~$100.70 (-1.49%); Brent: ~$106.30 (-1.40%) — easing slightly, Hormuz risk premium $14-18/bbl still embedded
+- S&P 500 futures: 7,439.25 (+0.17%) — premarket calm despite hot inflation data
+- VIX: 17.99 (May 12 close, -2.12%) — benign; fear easing
+- **PPI April (8:30 AM ET today)**: M-o-M actual +0.6% vs +0.5% est; Y-o-Y actual +4.95% vs +4.0% est — **HOT, above expectations**
+- CPI yesterday (May 12): +0.6% MoM (in-line), +3.8% YoY (vs 3.7% est) — slightly above but not shocking
+- FOMC minutes: 2:00 PM ET today — intraday binary risk; hawkish tone expected given elevated inflation
+- Earnings BMO today: BABA (Alibaba), SIEGY (Siemens), SFTBF (SoftBank)
+- Earnings AMC today: AMAT (Applied Materials; ~8% swing implied), Figma
+- Economic week ahead: Thu May 14 — Retail Sales (+0.5% est), Jobless Claims (205k est)
+- Sector momentum YTD (Fidelity): Energy +26.93% | IT +16.80% (+20.54% last month) | Materials +14.06% | Industrials +12.81% | S&P 500 +8.29%
+- Technology sector: clear momentum leader (1-month +20.54%); US-China tariff pause (May 8) major driver
+
+### Capitol Trades (Whitelist Check)
+- Pelosi: Last trades Jan 16, 2026 (NVDA, GOOGL, AMZN, AB — 117 days ago) — OUTSIDE 45-day window; not actionable
+- McCaul: No semiconductor/AI/cybersecurity stock purchases in last disclosure (confirmed)
+- Khanna: INTC buy Mar 23, 2026 ($1K-$15K) — below $25K minimum threshold; disqualified by size
+- Tuberville: Sell-rotation pattern (sold ORCL Oct 2025, AAPL Dec 2025); no qualifying buys
+- Gottheimer: No qualifying buys found
+- Green/Crenshaw/Mast: No qualifying buys found
+- **Signal: NONE actionable this cycle**
+
+### Held Positions — Thesis Check
+| Ticker | Shares | Entry | Last Close | P&L% | Stop | HWM | Status |
+|--------|--------|-------|------------|------|------|-----|--------|
+| AMZN | 56 | $273.64 | $267.34 | -2.30% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD — Globalstar acquisition (+4% AH news) |
+| NVDA | 48 | $220.20 | $217.65 | -1.16% | $201.375 (10% trail, c35a1ad1) | $223.75 | HOLD — agentic AI inference surge; earnings May 20 |
+| TXN | 53 | $276.10 | $296.70 | +7.46% | $268.362 (10% trail, db503de0) | $298.18 | HOLD — analog semi cycle intact |
+
+**AMZN update**: Amazon acquiring Globalstar (satellite connectivity) for $11.6B — AMZN +4% after-hours. Alpaca after-hours ask $280.88 (+5.05% from $267.34 close) — right at 5% gap rule boundary. AWS AI revenue run rate $15B+, up 260x in 3 years. AWS sticking with NVDA ("partners for as long as I can foresee"). Thesis: INTACT/STRENGTHENED.
+
+**NVDA update**: Amazon CEO confirmed deep NVDA partnership + substantial orders. NVDA Vera Rubin trial production June, CSP shipments starting July. Agentic AI = major inflection in inference demand. Jensen Huang at GTC Taipei June 1 keynote. TSMC April revenue +17.5% YoY (NVDA chips manufactured by TSMC). Earnings May 20 — 7 days. NOT yet in 3-day blackout (cutoff = May 17). Thesis: INTACT/STRENGTHENED.
+
+**TXN update**: No fresh catalyst. BofA Buy/$320 PT. Analog semi cycle intact. +7.46% unrealized. Stop trailing correctly. Thesis: INTACT.
+
+### Trade Ideas (Live Prices Required)
+
+**BABA — CONDITIONAL (earnings BMO today)**
+- Catalyst: Q4 FY2026 earnings report BMO today + US-China 90-day tariff pause (May 8) = double macro tailwind; Alibaba Cloud AI acceleration
+- Live price: Alpaca bid $117.51 (May 12 AH close) — broad spread in AH; must verify at open
+- Entry plan: IF earnings beat confirmed → enter only if open within 5% of $117.51 (<$123.39); use live ask at open
+- Stop: entry × 0.90 (10% trail)
+- Target: entry × 1.20, R:R 2:1
+- Size: ~10% of equity (~$10,500 = ~86 shares at $122)
+- SKIP if: miss, negative guidance, or gap >5% above prior close
+
+**AMAT (Applied Materials) — DEFER to Thursday May 14**
+- Catalyst: Q2 FY2026 earnings AMC tonight; ~8% swing implied; semiconductor equipment leader; AI capex buildout = wafer equipment boom
+- Current price: Alpaca ask $437.86 (May 12 close); target entry zone post-beat ~$430-460
+- Entry plan: Thursday morning ONLY if beat + raise confirmed. Stop 10% trail. Target +20%.
+- Skip if: gap >5% from prior close at Thursday open
+
+**NVDA add (small) — WATCH**
+- Current position: 48sh at $220.20 entry (10% of equity)
+- Plan: Could add to 12-13% if NVDA holds above $213 (stop $201.375 provides cushion), and market settles post-FOMC minutes
+- Risk: Earnings May 20 = binary event; limit any add to maintain discipline
+- SKIP if: FOMC minutes spark hawkish selloff intraday; only add on calm tape
+
+### Crypto Section
+- BTC: ~$80,861 (May 12 close); RSI ~65.1 (neutral-bullish, NOT <30) — no oversold entry
+- ETH: ~$2,291 (May 12); RSI ~50.7 (neutral); Death Cross active (50d $2,242 < 200d $2,648); MACD bearish — no entry
+- 7-day BTC trend: approximately flat (was $81,224 on May 11) — skip rule not triggered but RSI 65 ≠ oversold
+- **Decision: HOLD all crypto** — entry criteria not met; ETH Death Cross + bearish MACD; BTC RSI not at threshold
+
+### Risk Factors
+- PPI hot (+4.95% YoY vs +4.0% est) — producer inflation running well above expectations; hawkish repricing risk
+- FOMC minutes 2 PM ET — may reinforce hawkish language; intraday volatility risk
+- AMZN Globalstar deal: markets may react negatively to large M&A (capital deployment at $11.6B); dilution perception
+- NVDA earnings May 20 — binary event approaching; any add is subject to 7-day runway
+- Oil elevated ($100+ WTI) — inflation pressure ongoing; Fed constrained from cutting
+- INTC -6.82% May 12 (already stopped out at $120.92; closed at $120.61) — validates stop rule execution
+
+### Decision
+**CONDITIONAL TRADE — evaluate at market open:**
+1. BABA: Enter if earnings beat + open within 5% of $117.51. 10% trail stop. 10% size. Primary catalyst: earnings + tariff pause.
+2. AMAT: DEFER to Thursday morning. No action today.
+3. NVDA small add: Possible intraday if tape settles post-FOMC minutes (post 2 PM ET). Max bring to 12-13% from current 10%. Skip if FOMC hawkish selloff.
+4. All existing positions (AMZN, NVDA, TXN): HOLD. Stops protect downside.
+
+Default: HOLD if no confirmed BABA beat or FOMC minutes spook the market.
+
+
