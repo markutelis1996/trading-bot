@@ -1382,3 +1382,16 @@ None. No cuts, no stop changes, no new entries.
 - Deployment post-INTC exit: ~$40,762 long MV vs ~$63,667 cash ≈ 39% deployed (was 55%)
 - NVDA 0.316 fractional shares uncovered — minor; carry until next session cleanup opportunity
 
+
+### May 13 - EOD Snapshot (Day 17, Wednesday)
+**Portfolio:** $105,151.91 | **Cash:** $63,667.17 (60.5%) | **Day P&L:** -$1,146.82 (-1.08%) | **Phase P&L:** +$5,151.91 (+5.15%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AMZN | 56 | $273.64 | $267.05 | +$1.23 (+0.46%) | -$369.04 (-2.30%) | $250.02 (10% trail, HWM $277.80) |
+| NVDA | 48.316 | $220.20 | $224.24 | +$3.46 (+1.57%) | +$195.20 (+1.84%) | $201.375 (10% trail, HWM $223.75) |
+| TXN | 53 | $276.10 | $296.14 | +$0.97 (+0.33%) | +$1,062.09 (+7.26%) | $268.362 (10% trail, HWM $298.18) |
+
+**Notes:** No trades today (1/3 used this week — NVDA May 11). Day P&L -$1,146.82 (-1.08%) — portfolio pulled back from yesterday's last_equity $106,298.73. INTC stop-out (+$1,280.19 realized, +8.24%) already reconciled May 12. Positions AMZN, NVDA, TXN all closed modestly green intraday (+0.46%, +1.57%, +0.33% respectively); portfolio-level decline reflects mark-to-market from a higher base. No -7% cut thresholds breached; no +15%/+20% tightening triggers reached (TXN +15% trigger $317.52, NVDA +15% trigger $253.23 — neither hit). All three GTC trailing stops active and intact. Deployment 39.5% vs 75-85% target — significant dry powder; 2 trade slots remain this week. Tomorrow: identify new entry setups to close deployment gap.
+
+---
