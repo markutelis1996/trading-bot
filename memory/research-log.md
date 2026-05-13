@@ -2163,4 +2163,24 @@ INTC: already reconciled and closed in May 12 midday log (+$1,280.19). No new di
 
 Default: HOLD if no confirmed BABA beat or FOMC minutes spook the market.
 
+### Midday Addendum (2026-05-13)
+
+**TXN +4.37% intraday — catalyst confirmed:**
+- Q1 2026 earnings beat continuing to be priced in (EPS $1.68 vs $1.36 est; rev $4.83B vs $4.52B; 8th consecutive growth quarter)
+- BofA Buy upgrade with substantially raised PT
+- Silicon Labs acquisition ($7.5B, close H1 2027) targeting wireless-connectivity chips for industrial/consumer
+- Second price increase planned July 1, 2026
+- TXN HWM now $309.32 (broker trailing stop auto-updated); approaching all-time highs
+- Thesis STRENGTHENED. +15% tightening trigger ($317.52) not yet reached but monitor.
+
+**NVDA +2.90% intraday:**
+- Broader AI semi rally; HWM updated to $227.84 on broker trailing stop
+- Earnings May 20 — 7 days out; blackout cutoff May 17
+
+**AMZN +1.57% intraday:**
+- Recovering; Globalstar deal digested positively
+
+**FOMC minutes (2 PM ET):** Not yet released at scan time. Hawkish tone expected. Monitor for afternoon volatility.
+
+**BABA trade (pre-market plan):** Outcome to be logged in EOD snapshot.
 

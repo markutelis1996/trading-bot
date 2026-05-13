@@ -1395,3 +1395,56 @@ None. No cuts, no stop changes, no new entries.
 **Notes:** No trades today (1/3 used this week — NVDA May 11). Day P&L -$1,146.82 (-1.08%) — portfolio pulled back from yesterday's last_equity $106,298.73. INTC stop-out (+$1,280.19 realized, +8.24%) already reconciled May 12. Positions AMZN, NVDA, TXN all closed modestly green intraday (+0.46%, +1.57%, +0.33% respectively); portfolio-level decline reflects mark-to-market from a higher base. No -7% cut thresholds breached; no +15%/+20% tightening triggers reached (TXN +15% trigger $317.52, NVDA +15% trigger $253.23 — neither hit). All three GTC trailing stops active and intact. Deployment 39.5% vs 75-85% target — significant dry powder; 2 trade slots remain this week. Tomorrow: identify new entry setups to close deployment gap.
 
 ---
+
+## 2026-05-13 - Midday Scan
+
+**Portfolio:** ~$106,091 equity | **Cash:** ~$63,667 (60.0%) | **Positions:** 3 | **Deployed:** ~40.0% | **Phase P&L:** ~+$6,091 (+6.09%)**
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN | 56 | 56 | ✓ |
+| NVDA | 48.316 | 48.316621 | ✓ (fractional carry) |
+| TXN | 53 | 53 | ✓ |
+
+Clean. No overnight or intraday stop-outs.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|------|---------|---------------|-----|--------|
+| AMZN | 56 | $273.64 | $269.99 | -1.33% | +1.57% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+| NVDA | 48.316 | $220.20 | $227.18 | +3.17% | +2.90% | $205.056 (10% trail, c35a1ad1) | $227.84 | HOLD |
+| TXN | 53 | $276.10 | $308.07 | +11.58% | +4.37% | $278.388 (10% trail, db503de0) | $309.32 | HOLD |
+
+### Step 3 — Cuts
+None. All positions above -7% threshold.
+
+### Step 4 — Stop Tightening
+- TXN +11.58%: +15% trigger $317.52 — not reached ($308.07 current). Broker trailing HWM $309.32 auto-updating. No manual action.
+- NVDA +3.17%: below threshold. No action.
+- AMZN -1.33%: below threshold. No action.
+
+### Step 5 — Thesis Check
+- **AMZN**: -1.33% unrealized, +1.57% intraday (recovering). Globalstar acquisition ($11.6B) + AWS AI thesis intact. **HOLD.**
+- **NVDA**: +3.17%, +2.90% intraday. AI inference surge; Vera Rubin trial production June; earnings May 20. HWM updated to $227.84 by broker. **HOLD.**
+- **TXN**: +11.58%, +4.37% intraday surge investigated — catalyst confirmed: market continues to price Q1 2026 beat (EPS $1.68 vs $1.36 est, rev $4.83B vs $4.52B), BofA Buy upgrade, Silicon Labs acquisition ($7.5B deal for wireless-connectivity chips), analog semi demand from industrials + data centers. Thesis STRENGTHENED. **HOLD.**
+
+### Step 6 — Intraday Research (TXN)
+TXN up 4.37% intraday. Q1 beat catalyst (Apr 29): EPS +23.5% beat, 8th consecutive growth quarter. BofA Buy/$320 PT. Silicon Labs deal ($7.5B, close H1 2027). Second price increase planned July 1, 2026. No thesis break — price action consistent with sustained re-rating. Stop (HWM $309.32, trail $278.388) protecting +0.8% from entry — adequate cushion. TXN approaching all-time highs.
+
+**Macro watch:** FOMC minutes 2:00 PM ET — hawkish tone expected given hot PPI (+0.6% MoM vs +0.5% est). Binary intraday risk. All stops protect downside.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | TXN | 53 | $276.10 | $278.388 (10% trail, db503de0) | $309.32 |
+| 2 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 |
+| 3 | NVDA | 48.316 | $220.20 | $205.056 (10% trail, c35a1ad1) | $227.84 |
+
+- Trades this week: 1 of 3 (NVDA May 11)
+- Watch: FOMC minutes 2PM ET; AMAT earnings AMC (assess Thursday open entry)
+
+---
