@@ -1448,3 +1448,18 @@ None. No cuts, no stop changes, no new entries.
 - Watch: FOMC minutes 2PM ET; AMAT earnings AMC (assess Thursday open entry)
 
 ---
+
+### May 13 - EOD Snapshot (Day 17, Wednesday) — CORRECTED
+> Note: An earlier erroneous snapshot (same heading, lines above) was written by the local cron using May 12 closing prices. This entry reflects actual May 13 market-close data.
+
+**Portfolio:** $105,958.00 | **Cash:** $63,667.14 (60.1%) | **Day P&L:** +$1,093.59 (+1.04%) | **Phase P&L:** +$5,958.00 (+5.96%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AMZN | 56 | $273.64 | $270.00 | +$4.18 (+1.57%) | -$203.84 (-1.33%) | $250.02 (10% trail, HWM $277.80) |
+| NVDA | 48.316 | $220.20 | $225.97 | +$5.19 (+2.35%) | +$278.83 (+2.62%) | $205.056 (10% trail, HWM $227.84) |
+| TXN | 53 | $276.10 | $306.34 | +$11.17 (+3.78%) | +$1,602.69 (+10.95%) | $278.388 (10% trail, HWM $309.32) |
+
+**Notes:** Strong broad rally — all three positions up on the day (AMZN +1.57%, NVDA +2.35%, TXN +3.78%), driving portfolio +$1,093.59 (+1.04%). FOMC minutes (2 PM ET) were a non-event; market held gains through close. TXN continues to march higher (+10.95% unrealized), approaching +15% tightening trigger at $317.52; HWM broker-tracked at $309.32. NVDA +2.62% unrealized, HWM auto-updated to $227.84. AMZN still modestly underwater (-1.33%) but recovering. No trades today; 1/3 week slots used (NVDA May 11), 2 slots remain. Deployment 39.9% ($42,291 long MV / $105,958) — significantly below 75-85% target. AMAT earnings tonight (AMC) — assess tomorrow open for potential entry. Tomorrow: identify 1-2 new entries to close deployment gap.
+
+---
