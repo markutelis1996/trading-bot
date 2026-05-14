@@ -2184,3 +2184,123 @@ Default: HOLD if no confirmed BABA beat or FOMC minutes spook the market.
 
 **BABA trade (pre-market plan):** Outcome to be logged in EOD snapshot.
 
+---
+
+## 2026-05-14 - Pre-market Research
+
+### Account Snapshot
+| Field | Value |
+|-------|-------|
+| Equity | $105,988.14 |
+| Cash | $63,667.14 (60.1%) |
+| Buying power | $169,655.28 (includes 2x margin) |
+| Positions | 3 (AMZN 56sh, NVDA 48.316sh, TXN 53sh) |
+| Long market value | $42,321 (39.9% deployed) |
+| Daytrade count | 0/3 |
+| Trades this week | 1/3 (NVDA May 11) |
+| Phase P&L | +$5,988.14 (+5.99%) |
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Stop (broker) | HWM | Match? |
+|--------|---------|------------|---------------|-----|--------|
+| AMZN | 56 | 56 | $250.02 (10% trail, a7a75899) | $277.80 | ✓ |
+| NVDA | 48.316 | 48.316621 | $205.056 (10% trail, c35a1ad1) | $227.84 | ✓ (fractional carry) |
+| TXN | 53 | 53 | $278.388 (10% trail, db503de0) | $309.32 | ✓ |
+
+Clean. No overnight stop-outs or discrepancies.
+
+### Market Context
+- **WTI:** $101.59/bbl | **Brent:** $106.19/bbl (+0.56% today) — Strait of Hormuz still closed; oil elevated but easing from Brent $126 March peak
+- **S&P 500 futures:** ESM26 ~7,410 (-0.12%) vs 7,440 close May 13; sixth straight weekly gain streak intact
+- **VIX:** 17.19–17.87 (declining, risk-on returning; down from ~31 March peak)
+- **CPI April (released May 12):** 3.8% YoY (above 3.7% est), core +2.8% YoY (+0.4% MoM) — above consensus; driven by energy (+17.9% YoY) and shelter. Already priced in; markets digested without major selloff.
+- **PPI April (released May 13):** elevated (+4.95% YoY per prior session data); USD firmed slightly
+
+### Economic Calendar Today (May 14)
+- **8:30 AM ET:** Retail Sales April — exp +0.5% MoM vs prior +1.7% (**MARKET-MOVING** — miss = risk-off for tech)
+- **8:30 AM ET:** Import/Export Prices April
+- **8:30 AM ET:** Weekly Jobless Claims
+- **4:30 PM ET:** AMAT earnings call (reports AMC today — binary event)
+
+### Trump-Xi Beijing Summit (May 13–15, ONGOING)
+- Summit in Beijing covering AI, tariffs, Iran war, Taiwan arms sales
+- **Jensen Huang (NVDA CEO) joined as surprise last-minute addition** — spotted boarding Air Force One in Alaska; confirmed via Trump social media
+- Trump's "first request" to Xi: open China to U.S. businesses
+- China wants: eased chip export restrictions (H200, chipmaking equipment)
+- NVDA rose +3% in AH on news of Huang's inclusion
+- H200 approved for China by Trump late 2025 but China central govt has not yet approved purchases
+- Outcome binary: chip restriction easing = major NVDA catalyst; stalemate = neutral
+
+### Cisco Q3 2026 Earnings (AMC May 13 — REPORTED)
+- **Revenue:** $15.84B vs $15.56B est → **BEAT**
+- **EPS:** $1.06 vs $1.04 est → **BEAT**
+- **Q4 guidance:** $16.8B vs $15.8B est → **MASSIVE BEAT (+$1B above consensus)**
+- **AI orders YTD:** $5.3B (already exceeded prior full-year $5B target) → raised FY2026 AI order forecast to **$9B**
+- CSCO at all-time highs intraday May 13 ($96.57 close, +4.79%) before earnings; should gap up further at May 14 open
+
+### Politician Signals
+- **Pelosi:** Last trades disclosed Jan 26, 2026 (traded Jan 16) = 118 days ago → OUTSIDE 45-day window. Has NVDA exposure via Jan 16 exercise ($80 strike, $250K–500K). **Not actionable.**
+- **Tuberville:** Defensive rotation Dec 2025 (sold tech, bought XLU) → >5 months ago → outside window. Not actionable.
+- **McCaul, Crenshaw, Khanna, Gottheimer, Green, Mast:** No qualifying stock buys ≥$25K in last 45 days found.
+- **Whitelist signal: NONE.** No politician catalyst for any ticker today.
+
+### Held Positions — Thesis Check
+| Ticker | Shares | Entry | AH Ask (premarket) | Unrealized | Stop | HWM | Status |
+|--------|--------|-------|--------------------|------------|------|-----|--------|
+| AMZN | 56 | $273.64 | $283.24 (wide AH) | -1.22% | $250.02 (10% trail) | $277.80 | HOLD — OpenAI partnership; ARK bought; Alexa shopping agent |
+| NVDA | 48.316 | $220.20 | $227.80 (AH) | +3.31% | $205.056 (10% trail) | $227.84 | HOLD — Jensen at Beijing summit; Vera Rubin June; earnings May 20 |
+| TXN | 53 | $276.10 | $324.37 (wide AH) | +10.65% | $278.388 (10% trail) | $309.32 | HOLD — +15% trigger $317.52 approaching; watch today |
+
+- **NVDA +15% trigger:** $253.23 → not reached
+- **TXN +15% trigger:** $317.52 → AH ask $324.37 suggests TXN may breach trigger at open (verify live quote at open; if ≥$317.52 → tighten stop to 7% trail on 53 shares)
+- All stops confirmed active in broker (orders: c35a1ad1, a7a75899, db503de0)
+
+### Crypto Section
+- BTC: ~$80,800 area; RSI ~65 (neutral-bullish, NOT <30) — no entry criteria
+- ETH: RSI ~50 neutral; Death Cross still active; bearish structure — HOLD
+- **Decision: HOLD all crypto** — no entry criteria met
+
+### Trade Ideas (Live Prices Required at Open)
+
+**1. CSCO (Cisco Systems) — PRIMARY TRADE ★★**
+- **Catalyst:** Q3 2026 beat + massive Q4 guidance ($16.8B vs $15.8B est) + AI order forecast raised $5B→$9B FY2026; AI infrastructure orders tripled to $5.3B YTD; Silicon One P200 wins with hyperscalers. Sector (IT) +19.35% 1-month — strongest momentum sector.
+- **Live AH bid:** $96.36 (afterhours May 13 close; no ask quoted → premarket illiquid). Prior close: $96.57 (+4.79% already on May 13).
+- **Entry plan:** Verify live ask at 9:30 AM EDT. Enter ONLY if open ≤$101.40 (within 5% of $96.57 prior close). Skip if gap >5%.
+- **At $98 entry:** stop = $88.20 (10% trail), target = $117.60 (20%), R:R 2.0:1
+- **At $101 entry:** stop = $90.90 (10% trail), target = $121.20 (20%), R:R 2.0:1
+- **Position size:** 15% of equity = $15,898 → INT(15898/ask) shares (round DOWN for stop coverage)
+- **Sector check:** AMZN+NVDA+TXN+CSCO = ~55% tech → under 60% cap ✓
+- **Deployment after:** 39.9% + 15% = 54.9% (still below 75-85% target)
+- **Trade count if entered:** 2/3 this week
+- **Risk:** stock already +4.79% May 13; gap risk at open; Retail Sales 8:30 AM miss = caution
+
+**2. AMAT (Applied Materials) — DEFER to May 15 ★**
+- **Catalyst:** Q2 2026 results AMC today (4:30 PM call); prior beat was +8.18%; exp EPS $2.66-2.68 (+11% YoY); AI fab equipment leader (HBM, gate-all-around, advanced packaging)
+- **AH bid/ask:** $412.66 / $446.94 (wide; prior close ~$437.86)
+- **Plan:** If beat + raise → enter Friday May 15 morning ONLY if open within 5% of prior close (<$459.75). Stop 10% trail. Target +20%.
+- **Skip if:** earnings miss, negative guidance, or gap >5%
+- **Do NOT enter before AMC binary event.**
+
+**3. NVDA (add to existing) — PASS**
+- Jensen at Beijing summit already captured by 48.316sh position
+- Earnings May 20 blackout starts May 17 → only 2 trading days left to add
+- Adding 2-4% exposure not worth binary event risk
+- PASS — hold existing stop-protected position
+
+### Risk Factors
+- **Retail Sales 8:30 AM:** If +0.5% expectation misses → stagflation narrative re-ignites → tech selloff; skip CSCO entry if macro print is bad
+- **Trump-Xi summit outcome:** Chip restriction NOT eased = NVDA mild negative intraday; chip restriction EASED = NVDA +5-10% catalyst
+- **AMAT earnings AMC:** Binary; do not enter before
+- **NVDA earnings May 20:** 6 days out; all semi positions carry binary risk
+- **TXN stop proximity:** Stop $278.388 vs cost basis $276.10 — if TXN corrects sharply, could be stopped out near breakeven
+- **Deployment gap:** 39.9% deployed vs 75-85% target — adding CSCO brings to ~55%; still 20-30% gap
+
+### Decision
+**CONDITIONAL TRADE:**
+1. **CSCO:** Enter at open IF live ask ≤$101.40 (≤5% above $96.57 close) AND Retail Sales print is not a bad miss. Use 10% trailing stop on integer shares, target +20%.
+2. **TXN stop tightening:** If TXN opens ≥$317.52 → trigger +15% rule → REPLACE stop with 7% trail (via new GTC order at 7% trail, cancel old db503de0). If ATR14 > 4% of price → keep at 7%, do not go to 5%.
+3. **AMAT:** HOLD — assess post-close earnings; entry decision deferred to May 15 morning.
+4. **AMZN, NVDA, TXN (existing):** HOLD. All stops active. Thesis intact.
+
+Default if Retail Sales badly misses OR CSCO gaps >5%: **HOLD all.**
+
