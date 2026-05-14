@@ -1463,3 +1463,63 @@ None. No cuts, no stop changes, no new entries.
 **Notes:** Strong broad rally — all three positions up on the day (AMZN +1.57%, NVDA +2.35%, TXN +3.78%), driving portfolio +$1,093.59 (+1.04%). FOMC minutes (2 PM ET) were a non-event; market held gains through close. TXN continues to march higher (+10.95% unrealized), approaching +15% tightening trigger at $317.52; HWM broker-tracked at $309.32. NVDA +2.62% unrealized, HWM auto-updated to $227.84. AMZN still modestly underwater (-1.33%) but recovering. No trades today; 1/3 week slots used (NVDA May 11), 2 slots remain. Deployment 39.9% ($42,291 long MV / $105,958) — significantly below 75-85% target. AMAT earnings tonight (AMC) — assess tomorrow open for potential entry. Tomorrow: identify 1-2 new entries to close deployment gap.
 
 ---
+
+## 2026-05-14 - Market-Open Session
+
+**Portfolio:** $106,050.47 equity | **Cash:** $63,667.14 | **Positions:** 3 | **Deployed:** ~39.9% | **Daytrade count:** 0
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN | 56 | 56 | ✓ |
+| NVDA | 48.316 | 48.316621 | ✓ (fractional carry) |
+| TXN | 53 | 53 | ✓ |
+
+Clean. No overnight stop-outs or discrepancies. All GTC trailing stops active.
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 0 (NO TRADES — CSCO gap +19.5% → skip rule triggered)
+
+### Live Price Re-verification (STEP 1b — ~10:15 AM EDT)
+| Ticker | Research Plan | Live Ask | Delta | Stop (broker) | HWM | Status |
+|--------|--------------|----------|-------|---------------|-----|--------|
+| TXN | $306.34 close | $322.35 (wide) / bid $304.87 | -0.50% from close | $278.388 (10% trail, db503de0) | $309.32 | HOLD — +15% trigger $317.52 NOT reached at bid |
+| NVDA | $225.97 close | $232.00 | +2.67% | $209.943 (10% trail, c35a1ad1) | $233.27 | HOLD — stop auto-trailed ✓ |
+| AMZN | $270.00 close | $268.23 | -0.66% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+| CSCO | $96.57 close | $115.41 | **+19.5% gap** | — | — | **SKIP — 5% gap rule triggered** |
+
+### Stop Tightening Check
+- **TXN**: bid $304.87 / last $304.82 — +15% trigger = $317.52. Current bid BELOW trigger. No tightening. (Note: ask quote $322.35 is unusually wide — bid-based pricing used for stop math)
+- **NVDA**: +5.20% from entry — below +15% threshold ($253.23). No action.
+- **AMZN**: -1.98% — below threshold. No action.
+
+### CSCO — SKIP
+- Pre-market plan: enter if live ask ≤$101.40 (≤5% above $96.57 close)
+- Q3 2026 beat confirmed: Rev $15.84B beat, EPS $1.06 beat, Q4 guide $16.8B vs $15.8B est, AI orders raised $5B→$9B FY2026
+- Live ask: $115.41 = **+19.5% gap above prior close** → far exceeds 5% rule → SKIP
+
+### Macro Context
+- Retail Sales April: +0.5% MoM (in-line with +0.5% est), +4.9% YoY — benign print, no risk-off trigger
+- Trump-Xi summit ongoing (Beijing) — Jensen Huang (NVDA CEO) present; chip restriction decision pending
+- AMAT earnings AMC tonight — do NOT enter before; assess Friday May 15 morning
+- NVDA earnings May 20 — blackout cutoff May 17 (3 days from now)
+
+### Position Status (live broker)
+| Ticker | Shares | Entry | Current | P&L% | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|------|---------------|-----|--------|
+| AMZN | 56 | $273.64 | $268.23 | -1.98% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+| NVDA | 48.316 | $220.20 | $231.65 | +5.20% | $209.943 (10% trail, c35a1ad1) | $233.27 | HOLD |
+| TXN | 53 | $276.10 | $304.82 | +10.40% | $278.388 (10% trail, db503de0) | $309.32 | HOLD |
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $328.37 | 2.0:1 |
+| 2 | NVDA | 48.316 | $220.20 | $209.943 (10% trail, c35a1ad1) | $264.24 | 2.0:1 |
+| 3 | TXN | 53 | $276.10 | $278.388 (10% trail, db503de0) | $331.32 | 2.0:1 |
+
+- Trades this week: 1 of 3 (NVDA May 11) — 2 slots remain
+- Watch: AMAT AMC tonight — assess Fri May 15 morning for entry if beat + ≤5% gap
+- Watch: TXN — approaching +15% tightening trigger ($317.52); tighten to 7% when price breaches
+- Watch: NVDA blackout May 17 — no new NVDA adds after Sunday May 17
