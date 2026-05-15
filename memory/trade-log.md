@@ -1523,3 +1523,55 @@ Clean. No overnight stop-outs or discrepancies. All GTC trailing stops active.
 - Watch: AMAT AMC tonight — assess Fri May 15 morning for entry if beat + ≤5% gap
 - Watch: TXN — approaching +15% tightening trigger ($317.52); tighten to 7% when price breaches
 - Watch: NVDA blackout May 17 — no new NVDA adds after Sunday May 17
+
+---
+
+## 2026-05-14 - Midday Scan
+
+**Portfolio:** ~$106,401 equity | **Cash:** $63,667.14 (59.8%) | **Positions:** 3 | **Deployed:** ~40.2% | **Phase P&L:** ~+$6,401 (+6.40%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Log Stop/HWM | Broker Stop/HWM | Delta |
+|--------|---------|------------|--------------|-----------------|-------|
+| AMZN | 56 | 56 | $250.02 / $277.80 | $250.02 / $277.80 | ✓ |
+| NVDA | 48.316 | 48.316621 | $209.943 / $233.27 | $212.886 / $236.54 | ✓ auto-trail |
+| TXN | 53 | 53 | $278.388 / $309.32 | $279.261 / $310.29 | ✓ auto-trail |
+
+Clean. Stop auto-trailing working correctly on NVDA (+HWM $233.27→$236.54, stop +$209.94→$212.89) and TXN (+HWM $309.32→$310.29, stop $278.39→$279.26).
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|------|----------|---------------|-----|--------|
+| AMZN | 56 | $273.64 | $267.26 | -2.33% | -1.06% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+| NVDA | 48.316 | $220.20 | $236.84 | +7.56% | +4.88% | $212.886 (10% trail, c35a1ad1) | $236.54 | HOLD |
+| TXN | 53 | $276.10 | $308.00 | +11.55% | +0.54% | $279.261 (10% trail, db503de0) | $310.29 | HOLD |
+
+### Step 3 — Cuts
+None. All positions above -7% rule.
+
+### Step 4 — Stop Tightening
+- **TXN** +11.55%: +15% trigger $317.52 — not reached ($308.00 < $317.52). No action.
+- **NVDA** +7.56%: +15% trigger $253.23 — not reached. No action.
+- **AMZN** -2.33%: below threshold. No action.
+
+### Step 5 — Thesis Check
+- **NVDA**: +4.88% intraday — catalyst known: Trump-Xi Beijing summit with Jensen Huang present; market pricing in H200/chip export restriction easing. Vera Rubin trial production on track for June. Earnings May 20 (blackout May 17). Thesis STRENGTHENED. **HOLD.**
+- **TXN**: +0.54% intraday, +11.55% from entry. Analog semi cycle intact; BofA $320 PT; approaching +15% tightening threshold ($317.52). No thesis break. **HOLD.**
+- **AMZN**: -1.06% intraday, -2.33% from entry. AWS +28% / cloud/AI thesis unchanged. Quiet session. **HOLD.**
+
+### Step 6 — Intraday Research
+- NVDA's +4.88% move fully explained by Beijing summit: Jensen Huang confirmed aboard Air Force One; Trump's "first request" to Xi = open China to US businesses; chip restriction easing is primary ask. HWM $236.54 tracking near current price — stop will trail up if price advances further.
+- AMAT reports AMC tonight (4:30 PM ET call) — binary event; do NOT enter before close. Assess May 15 morning.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 |
+| 2 | NVDA | 48.316 | $220.20 | $212.886 (10% trail, c35a1ad1) | $236.54 |
+| 3 | TXN | 53 | $276.10 | $279.261 (10% trail, db503de0) | $310.29 |
+
+- Trades this week: 1 of 3 (NVDA May 11) — 2 slots remain
+- No notification sent (no action taken)
