@@ -1652,3 +1652,75 @@ Clean. No overnight exits. All GTC stops active.
 - Watch: TXN — next tighten trigger $331.32 (+20%); check ATR14 at that point
 - Watch: AMZN -4% from entry; -7% cut line $254.49; stop $250.02
 
+---
+
+## 2026-05-15 - Midday Scan
+
+**Portfolio:** ~$89,144 long MV | **Cash:** ~$16,243 | **Positions:** 6 | **Deployed:** ~84.6% | **Phase P&L:** ~+$5,000 est.
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN | 56 | 56 | ✓ |
+| NVDA | 48.316 | 48.316621 | ✓ (fractional carry) |
+| TXN | 53 | 53 | ✓ |
+| AMAT | 36.707 | 36.707499 | ✓ (fractional carry) |
+| GOOGL | 39.657 | 39.657886 | ✓ (fractional carry) |
+| AVGO | 37.196 | 37.196240 | ✓ (fractional carry) |
+
+Clean. No overnight or intraday stop-outs.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|------|-----|--------|
+| AMAT | 36.707 | $430.65 | $437.74 | +1.65% | -0.64% | $398.03 (10% trail, e3a01c6b) | $442.25 | HOLD |
+| AMZN | 56 | $273.64 | $261.74 | -4.35% | -2.05% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD ⚠️ |
+| AVGO | 37.196 | $424.99 | $428.71 | +0.88% | -2.52% | $387.75 (10% trail, 6a7bc8d9) | $430.84 | HOLD |
+| GOOGL | 39.657 | $398.61 | $396.04 | -0.65% | -1.26% | $359.59 (10% trail, 4e322e3f) | $399.54 | HOLD |
+| NVDA | 48.316 | $220.20 | $227.91 | +3.50% | -3.32% | $212.89 (10% trail, c35a1ad1) | $236.54 | HOLD |
+| TXN | 53 | $276.10 | $305.65 | +10.70% | -0.82% | $284.91 (7% trail, fe276bad) | $306.36 | HOLD |
+
+### Step 3 — Cuts
+- None. All positions above -7% rule.
+- AMZN closest: -4.35% from entry; -7% cut threshold = $254.49; current $261.74 = $7.25 above cut line.
+
+### Step 4 — Stop Tightening
+- TXN +10.70%: already on 7% trail; +20% trigger $331.32 — not reached ($305.65). No action.
+- NVDA +3.50%: +15% trigger $253.23 — not reached. No action.
+- AMAT +1.65%: below threshold. No action.
+- AVGO +0.88%: below threshold. No action.
+- GOOGL -0.65%: below threshold. No action.
+- AMZN -4.35%: below threshold. No action.
+
+### Step 5 — Thesis Check
+- **AMAT**: -0.64% intraday, broad sector pullback. Q2 beat + >30% semi equipment growth 2026 guide unchanged. INTACT.
+- **AMZN**: -2.05% intraday, -4.35% from entry. No Amazon-specific negative news — broad macro selloff (Treasury yields, post-summit disappointment). AWS +28% thesis unchanged. Stop $250.02 protecting. **MONITOR — 5.7% above stop.**
+- **AVGO**: -2.52% intraday (new position). AI ASIC/hyperscaler demand unchanged. Profit-taking in semis after recent run. INTACT.
+- **GOOGL**: -1.26% intraday (new position). Google Cloud +28%; AI governance framework thesis unchanged. INTACT.
+- **NVDA**: -3.32% intraday. **Catalyst known: Chinese firms did NOT purchase H200 chips** (Trump: they "chose not to"; Chinese authorities "did not authorize" purchases). China upside was incremental — core thesis is AI demand globally (all hyperscalers confirmed $400B+ combined capex). Earnings May 20; Vera Rubin on track. **Thesis SOFTENED but NOT BROKEN. HOLD.**
+- **TXN**: -0.82% intraday; +10.70% from entry. Analog semi cycle intact; BofA $320 PT; HWM $306.36 auto-trailing. INTACT.
+
+### Step 6 — Intraday Research
+**Tech selloff drivers (May 15, 2026):**
+1. **Trump-Xi summit ended without major policy breakthroughs** — market expected more; disappointment selling
+2. **NVDA H200 China: no sales materialized** — permission granted but Chinese firms didn't buy (choice + lack of authorization from Beijing); SOX index fell 5% by noon
+3. **30-year Treasury yield +10bp → 5.114%** (highest since May 2025) — PPI +1.4% MoM (Thu) stagflation signal; rate hike probability rising → multiple compression on high-P/E tech
+4. **Broad profit-taking** after tech's sharp recent gains (Nasdaq up 20%+ in 1 month)
+- S&P 500: -1% | Nasdaq: -1.3% | Dow: -515pts
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 |
+| 2 | NVDA | 48.316 | $220.20 | $212.89 (10% trail, c35a1ad1) | $236.54 |
+| 3 | TXN | 53 | $276.10 | $284.91 (7% trail, fe276bad) | $306.36 |
+| 4 | AMAT | 36.707 | $430.65 | $398.03 (10% trail, e3a01c6b) | $442.25 |
+| 5 | GOOGL | 39.657 | $398.61 | $359.59 (10% trail, 4e322e3f) | $399.54 |
+| 6 | AVGO | 37.196 | $424.99 | $387.75 (10% trail, 6a7bc8d9) | $430.84 |
+
+- Trades this week: 4 of 7
+- No notification sent (no action taken)
+
