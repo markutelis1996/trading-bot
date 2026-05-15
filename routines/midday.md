@@ -16,6 +16,17 @@ IMPORTANT - ENV VARS: REQUIRED=ALPACA_API_KEY, ALPACA_SECRET_KEY, CLICKUP_*, TAV
 
   MUST commit and push at STEP 8 if anything changed.
 
+STEP 0 - Reconcile broker state with TRADE-LOG (MANDATORY).
+A trailing stop can fire any time the market is open; the local log won't
+know until you compare it to live positions. Run:
+  bash scripts/alpaca.sh positions > /tmp/.live_positions.json
+For each ticker in last "Open Positions" table of memory/TRADE-LOG.md:
+  - Missing from broker → fully exited
+  - qty differs (broker < log) → partial / stop on integer qty, fractional left
+On ANY discrepancy: append "## YYYY-MM-DD - Reconciliation" section listing
+ticker, log qty, broker qty, suspected cause, realized P&L if computable.
+Then continue.
+
 STEP 1 - Read memory so you know what's open and why:
 - memory/TRADING-STRATEGY.md (exit rules)
 - tail of memory/TRADE-LOG.md (entries, original thesis per position, stops)

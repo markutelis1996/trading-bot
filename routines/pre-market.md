@@ -17,6 +17,17 @@ IMPORTANT - ENV VARS: REQUIRED=ALPACA_API_KEY, ALPACA_SECRET_KEY, CLICKUP_*, TAV
 
   MUST commit and push at STEP 6.
 
+STEP 0 - Reconcile broker state with TRADE-LOG (MANDATORY before any research).
+After-hours stops and overnight gaps may have changed positions since last
+EOD. Run:
+  bash scripts/alpaca.sh positions > /tmp/.live_positions.json
+For each ticker in last "Open Positions" of memory/TRADE-LOG.md:
+  - Missing from broker → fully exited (overnight stop or after-hours fill)
+  - qty differs (broker < log) → partial fill, fractional remnant left
+On ANY discrepancy: append "## YYYY-MM-DD - Reconciliation" section listing
+ticker, log qty, broker qty, suspected cause, realized P&L if computable.
+Then continue with research.
+
 STEP 1 - Read memory for context:
 - memory/TRADING-STRATEGY.md
 - tail of memory/TRADE-LOG.md

@@ -23,12 +23,15 @@ Defined in .claude/commands/ (local) and routines/ (cloud). Five scheduled runs 
 - Max 20% per position.
 - Max 3 new trades per week.
 - 75-85% capital deployed.
-- 10% trailing stop on every position as a real GTC order.
+- 10% trailing stop on every position as a real GTC order (integer qty only — round position size DOWN to whole shares).
 - Cut losers at -7% manually.
-- Tighten trail to 7% at +15%, to 5% at +20%.
+- Tighten trail to 7% at +15%, to 5% at +20% — UNLESS 14-day ATR > 4% of price (high-vol stocks stay at 7%).
+- Partial profit: sell 1/3 at +25%, 1/3 at +40%, final 1/3 runner with 5%/7% trail.
+- Sector cap 60% of portfolio in any single sector.
 - Never within 3% of current price. Never move a stop down.
 - Follow sector momentum. Exit a sector after 2 failed trades.
 - Patience > activity.
+- Reconcile broker state (`scripts/alpaca.sh positions`) with `trade-log.md` BEFORE every session.
 
 ## API Wrappers
 

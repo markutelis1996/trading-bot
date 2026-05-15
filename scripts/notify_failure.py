@@ -26,15 +26,20 @@ if os.path.exists(env_path):
                 k, v = line.split('=', 1)
                 os.environ.setdefault(k, v.strip().strip('"'))
 
-# Fallback to AI Evoliucija .env (where SMTP creds live)
+# Fallback to AI Evoliucija .env (where SMTP creds historically lived).
+# macOS Documents folder requires Full Disk Access for launchd; if the read
+# raises PermissionError we silently continue and rely on the local .env.
 fallback_env = '/Users/dziugas/Documents/AI Evoliucija/.env'
-if os.path.exists(fallback_env):
-    with open(fallback_env) as f:
-        for line in f:
-            line = line.strip()
-            if '=' in line and not line.startswith('#'):
-                k, v = line.split('=', 1)
-                os.environ.setdefault(k, v.strip().strip('"'))
+try:
+    if os.path.exists(fallback_env):
+        with open(fallback_env) as f:
+            for line in f:
+                line = line.strip()
+                if '=' in line and not line.startswith('#'):
+                    k, v = line.split('=', 1)
+                    os.environ.setdefault(k, v.strip().strip('"'))
+except (PermissionError, OSError):
+    pass
 
 SMTP_EMAIL = os.environ.get('SMTP_EMAIL', '')
 SMTP_PASSWORD = os.environ.get('SMTP_PASSWORD', '')

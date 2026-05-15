@@ -22,6 +22,20 @@ IMPORTANT - PERSISTENCE:
 - Fresh clone. File changes VANISH unless committed and pushed.
   MUST commit and push at STEP 8.
 
+STEP 0 - Reconcile broker state with TRADE-LOG (MANDATORY before any analysis).
+Trailing stops can fire between routines. The local log will lie about open
+positions until you sync it. Steps:
+  bash scripts/alpaca.sh positions > /tmp/.live_positions.json
+For each ticker in TRADE-LOG.md "Open Positions" table tail:
+  - If symbol missing from /tmp/.live_positions.json → fully exited (stop fired or sold)
+  - If qty differs (broker < log) → partial fill (likely stop on integer qty,
+    fractional remnant left)
+For ANY discrepancy, before STEP 1, append a "## YYYY-MM-DD - Reconciliation"
+section to memory/TRADE-LOG.md with: ticker, log qty, broker qty, suspected
+cause (stop fill / manual / fractional remnant), realized P&L if computable
+(qty_change * (last_known_stop_price - avg_entry_price)). Then proceed.
+This is what prevents a trade from "disappearing" from your awareness.
+
 STEP 1 - Read memory for today's plan:
 - memory/TRADING-STRATEGY.md
 - TODAY's entry in memory/RESEARCH-LOG.md (if missing, run pre-market

@@ -102,6 +102,24 @@ run_claude_with_timeout() {
 log "Running $ROUTINE routine (pid=$$)..."
 wait_for_network || true
 
+# Pre-flight auth check — bail fast if claude credentials are dead. Saves
+# 45+ minutes of failed retry loops and surfaces the real problem (the user
+# needs to /login again) instead of letting the routine die silently.
+AUTH_OUT="$ROOT/.tmp/.auth-check-$$.out"
+bash "$ROOT/scripts/auth_check.sh" >"$AUTH_OUT" 2>&1
+AUTH_RC=$?
+if [[ $AUTH_RC -eq 1 ]]; then
+    log "AUTH FAILURE: claude credentials rejected — re-run /login on this Mac"
+    cat "$AUTH_OUT" | tee -a "$LOGFILE"
+    rm -f "$AUTH_OUT"
+    python3 "$ROOT/scripts/notify_failure.py" "$ROUTINE-AUTH" "$LOGFILE" >>"$LOGFILE" 2>&1 || true
+    exit 3
+elif [[ $AUTH_RC -eq 2 ]]; then
+    log "Auth check transient error — proceeding with routine, will retry naturally"
+    cat "$AUTH_OUT" >>"$LOGFILE"
+fi
+rm -f "$AUTH_OUT"
+
 # Pull latest repo state (best-effort, do not fail run on git issues)
 git pull origin main --rebase >/dev/null 2>&1 || log "git pull failed (non-fatal)"
 

@@ -16,6 +16,17 @@ IMPORTANT - ENV VARS: REQUIRED=ALPACA_API_KEY, ALPACA_SECRET_KEY, CLICKUP_*, TAV
 
   MUST commit and push at STEP 6.
 
+STEP 0 - Reconcile broker state with TRADE-LOG (MANDATORY).
+Some stops fire late in the session; this is your last chance today to catch
+that. Run:
+  bash scripts/alpaca.sh positions > /tmp/.live_positions.json
+For each ticker in last "Open Positions" table of memory/TRADE-LOG.md:
+  - Missing from broker → fully exited intraday
+  - qty differs (broker < log) → fractional remnant / partial fill
+On ANY discrepancy: append "## YYYY-MM-DD - Reconciliation" section before
+the EOD snapshot listing ticker, log qty, broker qty, realized P&L (qty_diff
+× (estimated_fill - avg_entry)). Then proceed.
+
 STEP 1 - Read memory for continuity:
 - tail of memory/TRADE-LOG.md (find most recent EOD snapshot -> yesterday's
   equity, needed for Day P&L)
