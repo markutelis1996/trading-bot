@@ -1575,3 +1575,16 @@ None. No cuts, no stop changes, no new entries.
 
 - Trades this week: 1 of 3 (NVDA May 11) — 2 slots remain
 - No notification sent (no action taken)
+
+### May 15 - EOD Snapshot (Day 19, Friday)
+**Portfolio:** $106,393.99 | **Cash:** $63,667.14 (59.8%) | **Day P&L:** +$452.21 (+0.43%) | **Phase P&L:** +$6,393.99 (+6.39%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AMZN | 56 | $273.64 | $266.49 | -$0.73 (-0.28%) | -$400.69 (-2.62%) | $250.02 (10% trail, a7a75899, HWM $277.80) |
+| NVDA | 48.316 | $220.20 | $237.87 | +$2.13 (+0.90%) | +$853.63 (+8.03%) | ~$214.08 (10% trail, c35a1ad1, HWM ~$237.87) |
+| TXN | 53 | $276.10 | $307.75 | -$0.42 (-0.14%) | +$1,677.42 (+11.46%) | $279.26 (10% trail, db503de0, HWM $310.29) |
+
+**Notes:** Week closes with 1/3 trade slots used (NVDA May 11). Portfolio +$452.21 on light session — NVDA +0.90% pushed through prior HWM $236.54 to $237.87; trailing stop auto-updated to ~$214.08 (10% below new HWM). TXN -0.14% quiet at $307.75, +11.46% unrealized, approaching +15% tightening trigger at $317.52 — cancel db503de0 and replace with 7% trail when price breaches $317.52. AMZN -0.28% day, -2.62% unrealized; AWS/AI thesis intact; AMZN lagging but stop $250.02 comfortably below. Portfolio 40.2% deployed vs 75-85% target — significant dry powder; 3 fresh trade slots open Monday May 18. AMAT beat AMC May 14 (assess Monday morning entry if ≤5% gap). NVDA blackout effective May 17 — no new NVDA adds next week. NVDA earnings May 20. No trades this session; no -7% cuts or +15%/+20% stop-tighten triggers breached.
+
+---
