@@ -2304,3 +2304,232 @@ Clean. No overnight stop-outs or discrepancies.
 
 Default if Retail Sales badly misses OR CSCO gaps >5%: **HOLD all.**
 
+
+---
+
+## 2026-05-15 - Pre-market Research
+
+### Account
+| Field | Value |
+|-------|-------|
+| Equity | $106,393.99 |
+| Cash | $63,667.14 (59.8%) |
+| Long market value | $42,726.85 |
+| Deployed | ~40.2% |
+| Daytrade count | 0/3 |
+| Trades this week | 1 of 7 (NVDA May 11) — 6 slots remain |
+| Phase P&L | +$6,393.99 (+6.39%) |
+
+### Open Positions (broker — May 14 EOD)
+| Ticker | Shares | Entry | Close | Unrealized P&L | Stop (GTC) | HWM |
+|--------|--------|-------|-------|----------------|------------|-----|
+| AMZN | 56 | $273.64 | $266.48 | -$401 (-2.61%) | $250.02 (10% trail, a7a75899) | $277.80 |
+| NVDA | 48.316 | $220.20 | $237.87 | +$857 (+8.03%) | $212.886 (10% trail, c35a1ad1) | $236.54→auto |
+| TXN | 53 | $276.10 | $307.75 | +$1,677 (+11.46%) | $279.261 (10% trail, db503de0) | $310.29 |
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN | 56 | 56 | ✓ |
+| NVDA | 48.316 | 48.316621 | ✓ (fractional carry) |
+| TXN | 53 | 53 | ✓ |
+
+Clean. No overnight stop-outs or discrepancies. All GTC trailing stops active.
+
+**Stop tightening check:**
+- NVDA: HWM $236.54 (from orders), current $237.87 > HWM → broker auto-trailed stop to ~$214.08. No manual action.
+- TXN: HWM $310.29, stop $279.261. +15% trigger = $317.52 — current $307.75 NOT reached. No action.
+- AMZN: -2.61% from entry — below +15% threshold. No action.
+
+### Market Context
+- **WTI:** ~$102.42 (+0.50%) | **Brent:** ~$107.32 (+1.52%) — Hormuz stalemate continues; oil stays elevated
+- **S&P 500:** Closed ABOVE 7,500 for first time yesterday (new ATH, +0.8%); Nasdaq 26,635 (+0.9%); Dow crossed 50,000 for first time since Iran war began
+- **VIX:** 17.26 (May 14 close, declining) — low volatility, bullish backdrop
+- **Earnings BMO today:** RBC Bearings (RBC, $3.33 est) — no market movers for our sectors
+- **PPI April (released today, 8:30am):** +1.4% MoM vs +0.5% expected (VERY HOT). Annual rate ~6% (highest since 2022). Core PPI +1.0% MoM vs +0.4% est. Futures market eliminated rate cuts for 2026; rate hike odds rising to ~40% by year-end. → Stagflation risk elevated.
+- **Retail Sales April:** +0.5% MoM (in-line) — benign
+
+### Key Catalysts Today
+1. **Trump-Xi Summit (Day 2, Beijing):** US cleared NVDA H200 chip sales to ~10 Chinese firms (Alibaba, Tencent, ByteDance, JD.com), up to 75,000 units each. NVDA market cap approaching $6T. MASSIVE incremental revenue catalyst.
+2. **AMAT Q2 2026 BEAT (AMC May 14):** Record revenue $7.91B vs $7.69B est (+$220M beat); non-GAAP EPS $2.86 vs $2.68 est (+$0.18); >30% semiconductor equipment growth 2026 guide (raised from >20%). Q3 guide $8.45-9.45B. Stock +6% AH (~$467 estimated from $441.30 close).
+3. **PPI hot print:** Fed cannot cut; rate hike probability rising → headwind for high-multiple tech.
+4. **NVDA earnings May 20 — blackout May 17:** No new NVDA adds after Sunday May 17.
+
+### Sector Momentum YTD
+| Sector | YTD | Trend |
+|--------|-----|-------|
+| Energy (XLE) | +28.0% | #1; Iran Hormuz premium |
+| Info Tech (XLK) | +16.8% | #2 — surged; 1-month +20.5%! AI/semi recovery |
+| Industrials | +11.9% | #3 |
+| Consumer Staples | +11.0% | #4 |
+| Financials | -7.0% | Worst sector |
+
+### Capitol Trades (Whitelist Check)
+| Politician | Ticker | Action | Size | Date | In Window? | Signal |
+|------------|--------|--------|------|------|------------|--------|
+| Pelosi | PLTR | Buy | $1M-$5M | Apr 15 | ✓ (30d) | Primary — but PLTR broken below $140 → risky |
+| Gottheimer | XOM | Buy | $500K-$1M | Apr 14 | ✓ (31d) | Secondary — energy, not our focus |
+| Crenshaw | NVDA | Sell (P) | $15K-$50K | Apr 12 | ✓ (33d) | Negative (small; selling) |
+| Khanna | INTC | Sell (P) | $250K-$500K | Apr 17-18 | ✓ | Validates INTC exit |
+| McCaul, Tuberville, Mast, Green | — | No buys | — | — | — | No signal |
+
+**Assessment:** No actionable whitelist BUY signals for our AI/semi/cloud sectors. Pelosi's PLTR buy is large but PLTR below support. No politician catalyst for new entries today.
+
+### Crypto Section
+- **BTC/USD:** ~$80,725 (May 15). 7-day: $82,139 → $80,725 = -1.7% (NOT -10%+ → skip rule NOT triggered). RSI: neutral-to-weak per analysis. 200WMA ~$65-70K. NOT oversold. 7d trend: modest pullback from $82K highs.
+- **ETH/USD:** ~$2,287 (May 13 data). RSI neutral. No clear setup.
+- **SOL, AVAX, LINK:** No catalysts.
+- **Decision: HOLD all crypto** — BTC RSI not <30; not oversold; no entry criteria met. Oil macro headwind from Hormuz ongoing.
+
+### Trade Ideas — Live Prices
+
+**STEP 3d — Price Verification:**
+- AMAT: AH Alpaca bid $421.23 (extended hours, unreliable; no ask shown). Prior close per news: ~$441.30. +6% AH est. = ~$467.78. **Gap check: $441.30 × 1.05 = $463.37.** At ~$468, that EXCEEDS 5% rule. Must verify live ask at open.
+- NVDA: AH bid $235.25 (Alpaca extended hours). Day close per broker: $237.87.
+- TXN: AH bid $288.80 / ask $322.35 (very wide AH spread — unreliable).
+- DDOG: AH bid $193.79 (no catalyst today; no entry).
+
+**1. AMAT (Applied Materials) — CONDITIONAL ★★**
+- Catalyst: Record Q2 2026 beat (Rev +$220M vs est; EPS +$0.18 vs est); >30% semi equipment growth 2026 (raised from >20%); AI infrastructure buildout driving DRAM, HBM, gate-all-around demand; AMAT is picks-and-shovels for AI chip production — no China restriction risk unlike fabless chips. YTD +72%.
+- Live price: MUST verify at open. AH Alpaca shows $421.23 bid (unreliable); estimated open ~$467 based on +6% AH from $441 close.
+- **Gap rule threshold: $441.30 × 1.05 = $463.37.** ENTER only if live ask ≤ $463.37. If opens >$463.37 → SKIP.
+- If in zone: entry ~$455-$463, stop $409.50-$416.70 (10% trail), target $546-$555 (+20%), R:R 2:1
+- Position size: 15% of $106,394 = $15,959 → ~34 shares at $460
+- Sector cap check: adding AMAT keeps semi exposure ~41% of portfolio → below 60% cap ✓
+- Risk: May exceed 5% gap rule; PPI hot print = macro headwind for high-multiple semis; NVDA earnings May 20 creates sector binary risk
+
+**2. NVDA — HOLD (do not add)**
+- H200 China approval is a major incremental catalyst; +8% unrealized
+- Blackout approaching (May 17 = last day to add); earnings May 20 = binary event
+- Adding more NVDA here = binary concentration risk → NO ADD. Hold existing position.
+
+**3. TXN — HOLD**
+- +11.46% unrealized; approaching +15% tightening trigger ($317.52)
+- If opens ≥$317.52 → cancel db503de0, place 7% trail GTC. First check ATR14: if ATR14 >4% of price → stay at 7% (not 5%).
+
+**4. AMZN — HOLD**
+- -2.61% from entry but well above -7% cut rule ($254.49). Stop $250.02 intact. Thesis (AWS +28%) unchanged.
+
+### Risk Factors
+1. **PPI +1.4% MoM (VERY HOT)** — Fed cannot cut; rate hike odds 40% year-end → multiple compression on high-P/E tech. Semis most exposed.
+2. **NVDA earnings May 20** — all semi positions carry binary risk; stops are the protection.
+3. **Oil Brent $107+ (elevated)** — Hormuz stalemate; each oil spike = CPI headwind; Fed hawkish stance reinforced.
+4. **AMAT gap risk** — likely opens >5% above prior close; may not be tradeable at open.
+5. **S&P at new ATH 7,500+** — market extended; any macro shock = sharp mean-reversion.
+6. **Deployment at 40%** — significantly below 75-85% target; 2-3 new positions needed.
+
+### Decision
+- **AMAT:** CONDITIONAL TRADE at open — enter only if live ask ≤ $463.37. Skip if gap >5%.
+- **NVDA:** HOLD — no add; blackout approaching; H200 catalyst already lifting existing position.
+- **TXN:** HOLD — tighten to 7% trail if opens ≥$317.52.
+- **AMZN:** HOLD — thesis intact; stop protects.
+- **CRYPTO:** HOLD — no entry criteria met.
+
+---
+
+### 2026-05-15 Pre-market UPDATE — Live Data & Additional Candidates
+
+### Account
+- Equity: $105,820.37
+- Cash: $63,667.14
+- Buying power: $169,487.51
+- Deployed: ~39.8% (target 75-85% — significantly under, need 2-3 new positions)
+- Daytrade count: 0
+- Open positions: 3 (AMZN, NVDA, TXN)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Log Stop | Broker Stop | Delta |
+|--------|---------|------------|----------|-------------|-------|
+| AMZN | 56 | 56 | $250.02 (a7a75899) | $250.02 | ✓ |
+| NVDA | 48.316 | 48.316621 | ~$212-214 (c35a1ad1) | $212.886 HWM $236.54 | ✓ auto-trail |
+| TXN | 53 | 53 | $279.261 (db503de0) | $279.261 HWM $310.29 | ✓ auto-trail |
+
+Clean. All stops active. No overnight gaps or exits.
+
+### Position Status (live broker, pre-market)
+| Ticker | Shares | Entry | Pre-mkt | P&L% | Stop | HWM |
+|--------|--------|-------|---------|------|------|-----|
+| AMZN | 56 | $273.64 | $264.77 | -3.24% | $250.02 (10% trail) | $277.80 |
+| NVDA | 48.316 | $220.20 | $230.44 | +4.65% | $212.886 (10% trail) | $236.54 |
+| TXN | 53 | $276.10 | $305.51 | +10.65% | $279.261 (10% trail) | $310.29 |
+
+Stop checks:
+- TXN +15% trigger = $317.52 — current $305.51. Not reached. No tightening.
+- NVDA +15% trigger = $253.23 — current $230.44. Not reached.
+- AMZN -7% cut = $254.49 — current $264.77. Above cut line. Hold.
+
+### Market Context
+- **WTI:** $103.25 (+1.31%) | **Brent:** $107.54 (+1.72%) — Hormuz stalemate; oil creeping higher again
+- **S&P 500 futures:** +0.2% (tech-driven rally; Trump-Xi summit tailwind; S&P ATH 7,501)
+- **VIX:** 17.26 (May 14 close), declining — bullish backdrop
+- **Earnings BMO today (May 15):** No major market movers
+- **AMAT (AMC May 14):** Confirmed beat. Pre-market ~$445 (MarketBeat 07:32 AM ET) — see trade ideas
+- **Economic calendar:** PPI +1.4% MoM Thurs (VERY HOT, stagflation risk); no major releases today
+- **Sector momentum YTD:** Energy (XLE) +28% #1 | Info Tech (XLK) +16.8% #2 | Industrials +11.9% #3 | Financials -7% worst
+- **Macro:** Trump-Xi summit concluded. US cleared NVDA H200 sales to China (~10 firms). AI framework agreement. Chip export easing = structural positive for semis.
+
+### Capitol Trades (Whitelist Check)
+| Politician | Last Disclosed | In 45d Window? | Signal |
+|------------|---------------|----------------|--------|
+| Pelosi | Jan 26, 2026 (traded Dec-Jan) | ❌ >45 days | Out of window |
+| Gottheimer | FN buy Mar 24, disclosed Apr 9 | ✓ (36d disclosure lag) | Secondary — FN already +17.5% from entry |
+| Tuberville | No recent buys found | ❌ | No signal |
+| McCaul/Crenshaw/Khanna/Mast/Green | No recent buys found | ❌ | No signal |
+
+**Assessment:** No actionable whitelist BUY signals within window at or near current price. Gottheimer's FN already ran significantly — secondary confirmation only, not primary catalyst.
+
+**Bonus (not on whitelist):** Trump Q1 2026 disclosures show buys of NVDA, MSFT, Boeing (Straits Times, May 15). Not actionable per rules (not on whitelist), but validates AI/tech thesis.
+
+### Crypto Section
+- **BTC/USD:** ~$81,302 (BitPinas 9AM PHT/2AM ET, +2.5% post-Trump-Xi). 7-day: $80,725 → $81,302 = +0.7% (skip rule not triggered). Polymarket: 57% chance $80-82K at 5PM ET. RSI: neutral (not <30). Entry criteria NOT met.
+- **ETH/SOL/AVAX/LINK:** No catalysts.
+- **Decision: HOLD all crypto** — BTC RSI not oversold; no entry criteria.
+
+### Trade Ideas — Pre-market Price Verification (AH quotes, confirm at open)
+
+**NOTE:** Alpaca quotes in AH have no ask (ap=0) or very wide spreads — unreliable for exact entry. All prices must be reverified at 9:30 AM open before any execution.
+
+**1. AMAT (Applied Materials) — CONDITIONAL ★★**
+- Catalyst: Q2 2026 beat confirmed AMC May 14. Rev $7.91B vs $7.69B est; EPS $2.86 vs $2.68 est. >30% semiconductor equipment growth 2026 (raised from >20%). Q3 guide $8.45-9.45B. AI infrastructure picks-and-shovels — no China restriction risk unlike fabless. YTD +72%.
+- AH approximate price (MarketBeat 07:32 AM ET): ~$445.24
+- Gap rule reference: May 13 close $436.61 (May 14 close ambiguous — Alpaca bid $421.23 at EOD, possibly pre-earnings trough)
+- Gap thresholds: $436.61 × 1.05 = $458.44 | $421.23 × 1.05 = $442.29
+- **ENTRY RULE:** At open, if live ask ≤ $442 → ENTER CONFIDENT. If $442-$458 → ENTER CAUTIOUS (use $437 reference). If ask > $458 → SKIP.
+- Entry zone: $442-$458 | Stop 10% trail | Target +20% | R:R 2:1
+- Position size: 15% × $105,820 = $15,873 → ~35 shares at $450
+- Sector cap: semis ~$27K + AMAT ~$16K = $43K / $105,820 = 40.6% → below 60% cap ✓
+
+**2. AVGO (Broadcom) — NEW CANDIDATE ★**
+- Catalyst: AI chip demand strong. +5.52% on May 14 (Trump-Xi chip export clarity). AI inference ASIC demand from hyperscalers (Apple, Google, Meta). No major earnings binary near-term. Sector #2 momentum. Pelosi held historically.
+- AH quote (Alpaca, very wide spread): bid $440.52 / ask $460.39 (spread = $20 = unreliable). Approximate midpoint ~$450.
+- **Confirm at open.** If opens near $450: entry ~$450, stop $405 (10% trail), target $540 (+20%), R:R 2:1
+- Position size: 15% × $105,820 = $15,873 → ~35 shares at $450
+- Sector cap check: NVDA+TXN+AMAT+AVGO = ~$58K / $105,820 = 54.8% → below 60% ✓ (tight)
+- Risk: Sector concentration approaching cap; PPI hot = multiple compression risk
+
+**3. GOOGL (Alphabet) — NEW CANDIDATE ★**
+- Catalyst: Trump-Xi AI summit concluded → AI governance framework = tech sector tailwind. Google Cloud (+28% YoY in Q1), Gemini AI scaling. Cross-platform AI moat. Not directly China-restricted. Sector diversifier (Communication Services, not pure Semi).
+- AH quote (Alpaca): bid $377.65, no ask (ap=0). Approximate ~$378.
+- **Confirm at open.** If opens near $378: entry ~$378, stop $340 (10% trail), target $454 (+20%), R:R 2:1
+- Position size: 15% × $105,820 = $15,873 → ~42 shares at $378
+- Sector cap: adds Communication Services exposure → diversifies away from semi concentration ✓
+- Secondary politician signal: Pelosi bought $500K-$1M GOOGL Jan 16, 2026 at $150 (out of window but validates thesis)
+
+### Risk Factors
+1. **PPI +1.4% MoM (VERY HOT)** — Rate hike probability 40% year-end → multiple compression for high-P/E tech. Biggest macro risk.
+2. **NVDA earnings May 20, blackout May 17** — All semi exposure carries binary risk this week. Existing NVDA stop protects.
+3. **Oil Brent $107+ rising** — Hormuz stalemate reinforces stagflation narrative.
+4. **AMAT gap risk** — Open price may exceed 5% gap rule; deployment may be delayed.
+5. **Sector concentration** — Adding AMAT + AVGO pushes semis to ~55% of portfolio. GOOGL better for diversification.
+6. **S&P at ATH** — Extended market; PPI shock could trigger sharp reversal.
+
+### Decision
+- **AMAT:** CONDITIONAL TRADE — enter if live ask ≤ $458.44 at open. Preference: ≤ $442 (conservative threshold). Skip if gap > 5% above prior close.
+- **AVGO:** NEW CANDIDATE — verify open ask; enter if opens near AH range ($445-460) and within 5% of any recent close.
+- **GOOGL:** NEW CANDIDATE — verify open ask; enter if confirms ~$378 area. Preferred addition for sector diversification.
+- **NVDA:** HOLD — no add (blackout May 17, earnings May 20).
+- **TXN:** HOLD — tighten to 7% trail (cancel db503de0, replace) if price ≥ $317.52. Check ATR14 first.
+- **AMZN:** HOLD — -3.24% from entry, thesis intact, stop $250.02 protects.
+- **CRYPTO:** HOLD — no entry criteria met.
+
+Priority order for deployment (need ~$37K more capital deployed): GOOGL (diversifier) → AMAT (if gap rule OK) → AVGO (if AMAT skipped, watch sector cap).
