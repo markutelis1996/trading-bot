@@ -104,6 +104,80 @@ Friday reviews appended here. Template for each entry:
 
 ---
 
+## Week ending 2026-05-15
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $105,385.93 (EOD May 9) |
+| Ending portfolio | $105,417.65 |
+| Week return | +$31.72 (+0.03%) |
+| S&P 500 week | ~-0.2% (SPY $738.62 EOD; Perplexity unavailable — estimated) |
+| Bot vs S&P | ~+0.23% outperformance |
+| Trades | 4 new entries (W:1 / L:0 closed / open:6) |
+| Win rate | 100% (1 closed win) |
+| Best trade | TXN +9.65% unrealized; INTC +8.24% closed |
+| Worst trade | AMZN -3.71% unrealized |
+| Profit factor | N/A (no realized losses this week) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| INTC | $111.71 (May 6) | $120.92 (May 12) | +$1,280.19 | +8.24% | 7% trailing stop triggered 10:29 AM; CPI-day drop from $124.72 → stop $120.90; hold 5 days |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop | HWM |
+|--------|-------|-------|------------|------|-----|
+| TXN | $276.10 (Apr 24) | $302.73 | +$1,411.39 (+9.65%) | $286.03 (7% trail, fe276bad) | $307.56 |
+| NVDA | $220.20 (May 11) | $225.14 | +$238.68 (+2.24%) | $212.89 (10% trail, c35a1ad1) | $236.54 |
+| AMAT | $430.65 (May 15) | $436.62 | +$219.19 (+1.39%) | $400.05 (10% trail, e3a01c6b) | $444.50 |
+| AVGO | $424.99 (May 15) | $425.19 | +$7.44 (+0.05%) | $387.75 (10% trail, 6a7bc8d9) | $430.84 |
+| GOOGL | $398.61 (May 15) | $396.31 | -$91.21 (-0.58%) | $359.59 (10% trail, 4e322e3f) | $399.54 |
+| AMZN | $273.64 (May 6) | $263.50 | -$567.84 (-3.71%) | $250.02 (10% trail, a7a75899) | $277.80 |
+
+Deployment: ~84.4% ($89,174 / $105,418) — finally in target range ✓
+
+### What Worked
+- Deployment gap closed: 3 new entries on May 15 (AMAT, GOOGL, AVGO) pushed deployed capital from 39.9% → 84.4%; first time in target range (75-85%) after 4 weeks underdeployed
+- INTC stop execution: 7% trailing stop fired correctly at $120.92 on CPI selloff; +8.24% realized; stop rule protected gain (position was +11.65% prior day)
+- ATR rule applied correctly on May 11: INTC tightened to 7% trail (not 5%) after confirming ATR >4% of price — direct fix for the MU error from prior week
+- NVDA re-entry (May 11) well-timed: 2nd attempt at $220.20 after first stop-out at $194.90; now +2.24% and surviving initial post-Trump-Xi selloff
+- TXN multi-week compounder: now +9.65% unrealized; analog semi cycle thesis intact; stop auto-trailing to protect growing gain; Silicon Labs acquisition added as thesis catalyst
+
+### What Didn't Work
+- Friday new entries (AMAT/GOOGL/AVGO) opened directly into market selloff: Trump-Xi summit disappointment + NVDA China H200 non-event + 30Y Treasury at 5.11% drove S&P -1%, Nasdaq -1.3% same day; all three positions immediately underwater or barely positive
+- AMZN continues to underperform: 4th consecutive week with negative unrealized P&L; now -3.71%; stop $250.02 is $9 below current $263.50 — position alive but draining returns
+- Week return +0.03% despite 4 trades and 84% deployment — Friday selloff on new entries erased INTC gain timing advantage
+- Waited until May 15 (Friday) to open new positions: should have entered AMAT/GOOGL/AVGO earlier in week (Wed/Thu) when market was strong; delayed due to earnings binary risk (AMAT AMC May 14)
+- NVDA thesis softened: Chinese firms did not purchase H200 chips post-summit; China upside was incremental; thesis still intact but market priced out China premium
+
+### Key Lessons
+- **Earnings-catalyst entries should happen at the earliest valid moment**: AMAT beat was confirmed AMC May 14; entry at May 15 open was correct, but a Thursday entry would have been better if AMAT had beaten earlier. The lesson: use market-open workflow immediately after confirmation.
+- **AMZN needs a thesis review at Monday open**: -3.71% unrealized, 4th week negative. Stop $250.02 (9% below current). AWS thesis intact but stock underperforming sector. If no catalyst by mid-week, consider cutting early.
+- **Friday is a low-quality entry day**: Three new positions entered on a Friday ahead of a weekend (NVDA earnings risk May 20, Summit disappointment selling). Better to enter Monday–Thursday when there's a full week to manage.
+- **ATR rule is now consistent**: Applied correctly (7% not 5%) to INTC on May 11 — confirms the MU lesson from prior week is absorbed.
+- **TXN at +15% trigger $317.52**: Has not been reached; need to watch closely. Next tighten trigger: +20% at $331.32 — check ATR14 at that point.
+
+### Adjustments for Next Week
+- **AMZN**: Re-evaluate Monday morning. If below $260 or no catalyst → consider cutting ahead of -7% rule ($254.49); holding a consistent loser for 4 weeks is value destruction. If AWS Q2 outlook reinforced, give it one more week.
+- **NVDA**: Earnings May 20 (Wednesday) — largest binary event next week. Position is 48 shares, stop $212.89. No new adds allowed (blackout May 17+). Pre-earnings: hold; post-earnings: reassess size/trail.
+- **AMAT/GOOGL/AVGO**: All opened May 15; give them 1-2 days to settle post-selloff before cuts. AMAT catalyst (>30% semi equipment growth 2026) remains intact. AVGO AI ASIC demand intact. GOOGL Cloud +28% intact.
+- **TXN**: Watch $317.52 (+15% trigger) — if hit, cancel fe276bad and place 7% trail (ATR already confirmed >4% for semis). Next trigger $331.32 (+20%).
+- **No new entries until NVDA earnings cleared (May 20)**: Portfolio at 84.4% deployment and NVDA binary risk means no new adds this week unless a position closes.
+- **Sector caps**: Semi (NVDA+TXN+AMAT+AVGO) ~55% — below 60% cap; room for 1 more semi add post-NVDA earnings if warranted.
+
+### Overall Grade: B
+- INTC +8.24% closed win ✓
+- Deployment finally at 84.4% target range ✓
+- ATR rule applied correctly (lesson from Week 3 absorbed) ✓
+- 4 new trades this week (learning mode cadence improving) ✓
+- Week return +0.03% — near-flat despite full deployment ✗
+- Friday entry timing (into selloff) cost unrealized P&L ✗
+- AMZN -3.71% (4th consecutive week underperforming) ✗
+- Phase P&L: +$5,418 (+5.42%) — still ahead ✓
+
+---
+
 ## Week ending 2026-05-09
 
 ### Stats
