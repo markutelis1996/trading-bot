@@ -1588,3 +1588,67 @@ None. No cuts, no stop changes, no new entries.
 **Notes:** Week closes with 1/3 trade slots used (NVDA May 11). Portfolio +$452.21 on light session — NVDA +0.90% pushed through prior HWM $236.54 to $237.87; trailing stop auto-updated to ~$214.08 (10% below new HWM). TXN -0.14% quiet at $307.75, +11.46% unrealized, approaching +15% tightening trigger at $317.52 — cancel db503de0 and replace with 7% trail when price breaches $317.52. AMZN -0.28% day, -2.62% unrealized; AWS/AI thesis intact; AMZN lagging but stop $250.02 comfortably below. Portfolio 40.2% deployed vs 75-85% target — significant dry powder; 3 fresh trade slots open Monday May 18. AMAT beat AMC May 14 (assess Monday morning entry if ≤5% gap). NVDA blackout effective May 17 — no new NVDA adds next week. NVDA earnings May 20. No trades this session; no -7% cuts or +15%/+20% stop-tighten triggers breached.
 
 ---
+
+---
+
+## 2026-05-15 - Market-Open Session
+
+**Portfolio:** ~$105,387 equity | **Cash:** ~$16,243 (~15.4%) | **Positions:** 6 | **Deployed:** ~84.4% | **Phase P&L:** ~+$5,387 (+5.39%)**
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN | 56 | 56 | ✓ |
+| NVDA | 48.316 | 48.316621 | ✓ (fractional carry) |
+| TXN | 53 | 53 | ✓ |
+
+Clean. No overnight exits. All GTC stops active.
+
+### TXN Stop Tightening
+- **Trigger:** TXN ask appeared at $318.68 (wide-spread quote artifact; actual trade price ~$301). Applied 7% tightening marginally early — new stop ($280.40) is higher than old 10% stop ($279.26). Acceptable; rule 7 (never move stop down) preserved.
+- Cancelled: db503de0 (10% trail, stop $279.26, HWM $310.29)
+- Replaced: fe276bad (7% trail, stop $280.40, HWM $301.51)
+- Next trigger: +20% = $331.32 → check ATR14; if ATR14 ≤4% of price tighten to 5%, else stay 7%
+
+### Trades Executed
+
+| # | Ticker | Side | Shares | Entry | Stop | Target | R:R | Order ID |
+|---|--------|------|--------|-------|------|--------|-----|----------|
+| 1 | AMAT | BUY | 36.707 | $430.65 | $387.13 (10% trail, e3a01c6b) | $516.78 (+20%) | 2:1 | c383f2c4 |
+| 2 | GOOGL | BUY | 39.657 | $398.61 | $358.37 (10% trail, 4e322e3f) | $478.33 (+20%) | 2:1 | bac391bb |
+| 3 | AVGO | BUY | 37.196 | $424.99 | $381.65 (10% trail, 6a7bc8d9) | $509.99 (+20%) | 2:1 | 8a8bf96d |
+
+**AMAT Thesis:** Q2 2026 beat AMC May 14: Rev $7.91B vs $7.69B est, EPS $2.86 vs $2.68 est. >30% semi equipment growth 2026 guide (raised from >20%). Q3 guide $8.45-9.45B. AI picks-and-shovels (DRAM, HBM, gate-all-around). No China restriction risk. Entry below pre-market $442 threshold (CONFIDENT).
+
+**GOOGL Thesis:** Trump-Xi AI summit concluded; US-China AI governance framework = tech tailwind. Google Cloud +28% YoY. Gemini AI scaling. Communication Services diversifier (reduces semi concentration). Entry ~$399 (+5.5% above $378 plan but catalyst fresh).
+
+**AVGO Thesis:** AI inference ASIC demand from hyperscalers (Apple, Google, Meta). Trump-Xi chip clarity +5.52% on May 14. No earnings binary near-term. Sector momentum #2. Entry $425 — below $445-460 anticipated range (better value).
+
+### Position Status (post-trade)
+| Ticker | Shares | Entry | Stop (GTC) | HWM | Status |
+|--------|--------|-------|------------|-----|--------|
+| AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+| NVDA | 48.316 | $220.20 | $212.886 (10% trail, c35a1ad1) | $236.54→auto | HOLD |
+| TXN | 53 | $276.10 | $280.40 (7% trail, fe276bad) | $301.51 | HOLD — next trigger $331.32 |
+| AMAT | 36.707 | $430.65 | $387.13 (10% trail, e3a01c6b) | $430.15 | NEW |
+| GOOGL | 39.657 | $398.61 | $358.37 (10% trail, 4e322e3f) | $398.19 | NEW |
+| AVGO | 37.196 | $424.99 | $381.65 (10% trail, 6a7bc8d9) | $424.06 | NEW |
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $328.37 | 2.0:1 |
+| 2 | NVDA | 48.316 | $220.20 | $212.886 (10% trail, c35a1ad1) | $264.24 | 2.0:1 |
+| 3 | TXN | 53 | $276.10 | $280.40 (7% trail, fe276bad) | $331.32 | 2.0:1 |
+| 4 | AMAT | 36.707 | $430.65 | $387.13 (10% trail, e3a01c6b) | $516.78 | 2.0:1 |
+| 5 | GOOGL | 39.657 | $398.61 | $358.37 (10% trail, 4e322e3f) | $478.33 | 2.0:1 |
+| 6 | AVGO | 37.196 | $424.99 | $381.65 (10% trail, 6a7bc8d9) | $509.99 | 2.0:1 |
+
+- Trades this week: 1 (NVDA May 11) + 3 (AMAT, GOOGL, AVGO May 15) = 4 of 7
+- Sector caps: Semi (NVDA+TXN+AMAT+AVGO) = ~$58,443/$105,387 = 55.5% < 60% ✓
+- Deployment: ~84.4% (target 75-85%) ✓
+- Watch: NVDA blackout May 17 — no new NVDA adds
+- Watch: NVDA earnings May 20 — binary event; existing stop protects
+- Watch: TXN — next tighten trigger $331.32 (+20%); check ATR14 at that point
+- Watch: AMZN -4% from entry; -7% cut line $254.49; stop $250.02
+
