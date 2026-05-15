@@ -1724,3 +1724,21 @@ None. No cuts, no stop changes, no new entries.
 - Trades this week: 4 of 7
 - No notification sent (no action taken)
 
+
+---
+
+### May 15 - EOD Snapshot (Day 19, Friday) — CORRECTED
+> Note: An earlier snapshot with this heading was prematurely written by the May 14 midday workflow, using pre-open cash/deployment figures. This entry reflects actual May 15 market-close data (post today's 3 new buys).
+
+**Portfolio:** $105,500.29 | **Cash:** $16,243.05 (15.4%) | **Day P&L:** -$854.34 (-0.80%) | **Phase P&L:** +$5,500.29 (+5.50%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AMAT | 36.707 | $430.65 | $436.62 | -$3.94 (-0.89%) | +$219.19 (+1.39%) | $400.05 (10% trail, HWM $444.50) |
+| AMZN | 56 | $273.64 | $263.50 | -$3.72 (-1.39%) | -$567.84 (-3.71%) | $250.02 (10% trail, HWM $277.80) |
+| AVGO | 37.196 | $424.99 | $425.19 | -$14.60 (-3.32%) | +$7.44 (+0.05%) | $387.75 (10% trail, HWM $430.84) |
+| GOOGL | 39.657 | $398.61 | $396.31 | -$4.76 (-1.19%) | -$91.21 (-0.58%) | $359.59 (10% trail, HWM $399.54) |
+| NVDA | 48.316 | $220.20 | $225.14 | -$10.60 (-4.50%) | +$238.68 (+2.24%) | $212.89 (10% trail, HWM $236.54) |
+| TXN | 53 | $276.10 | $302.73 | -$5.44 (-1.77%) | +$1,411.39 (+9.65%) | $286.03 (7% trail, HWM $307.56) |
+
+**Notes:** Broad tech selloff — S&P -1%, Nasdaq -1.3% — driven by (1) Trump-Xi summit ended without major policy breakthroughs, (2) NVDA H200 China sales did not materialize (Chinese firms chose not to buy; Beijing didn't authorize), (3) 30-year Treasury yield +10bp to 5.11% (highest since May 2025) on PPI stagflation signal. Three new positions opened this morning (AMAT +Q2 beat+raise, GOOGL +Cloud+AI governance, AVGO +AI ASIC demand), deploying from 39.9% to 84.4% — now squarely in target range. Day P&L -$854.34 (-0.80%) is mark-to-market on a red day; no stops triggered. TXN leads at +9.65% unrealized; AMZN is most vulnerable at -3.71% unrealized (cut line $254.49, stop $250.02 — $9 cushion). NVDA thesis softened on China H200 news but NOT broken (global hyperscaler AI demand intact; earnings May 20). All 6 GTC trailing stops active. 4 trades this week (NVDA Mon 11 + AMAT/GOOGL/AVGO Fri 15). Next: NVDA earnings May 20 is the key binary event; blackout prevents adding NVDA. Monitor AMZN closely at open Monday.
