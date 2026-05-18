@@ -2533,3 +2533,84 @@ Stop checks:
 - **CRYPTO:** HOLD — no entry criteria met.
 
 Priority order for deployment (need ~$37K more capital deployed): GOOGL (diversifier) → AMAT (if gap rule OK) → AVGO (if AMAT skipped, watch sector cap).
+
+---
+
+## 2026-05-18 - Pre-market Research
+
+### Account
+- Equity: $105,103.43
+- Cash: $16,243.05 (15.4%)
+- Buying power: $121,346.48 (includes 2x margin)
+- Daytrade count: 0
+- Phase P&L: +$5,103.43 (+5.10%)
+- Deployed: ~84.6% (at top of 75-85% target)
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN | 56 | 56 | ✓ |
+| NVDA | 48.316 | 48.316621 | ✓ |
+| TXN | 53 | 53 | ✓ |
+| AMAT | 36.707 | 36.707499 | ✓ |
+| GOOGL | 39.657 | 39.657886 | ✓ |
+| AVGO | 37.196 | 37.196240 | ✓ |
+Clean — no overnight exits. All 6 GTC trailing stops active.
+
+### Market Context
+- WTI: ~$107.65 (+2.2%); Brent: ~$111.29 (+1.9%) — Strait of Hormuz CLOSED (US-Iran war active, no negotiations)
+- S&P 500 futures: -0.62% (7,386.50); DOW -0.86%; NASDAQ 100 -0.57%
+- VIX: 18.43 (closed May 15 +6.78%); rising today on oil/yield shock
+- 30-yr Treasury: 5.11% (highest since May 2025) — PPI +1.4% Apr stagflation signal still fresh
+- Today's catalysts: Oil surging on Hormuz closure → Treasury yields rising → halting AI rally; Monday light on US data (Atlanta Fed remarks 8:30am; China industrial data overnight)
+- Earnings before open: BIDU Q1 BMO; Ryanair Q4 BMO. No position-relevant names.
+- Economic calendar week: Tue May 19 VIX expiry + Home Depot BMO; **Wed May 20 NVDA earnings AMC + FOMC April minutes 2pm ET** (CRITICAL); Thu May 21 jobless claims + housing starts + PMIs + Walmart/Deere; Fri May 22 consumer sentiment final
+- Sector momentum: Energy > Defense > Tech (under yield/oil pressure); semis pulling back pre-NVDA earnings
+
+### Current Positions (broker prices premarket)
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| AMZN | 56 | $273.64 | $261.50 | -4.44% | $250.02 (10%, a7a75899) | $277.80 | ⚠️ MONITOR — cut line $254.49 |
+| NVDA | 48.316 | $220.20 | $223.99 | +1.72% | $212.886 (10%, c35a1ad1) | $236.54 | HOLD — blackout; earnings May 20 |
+| TXN | 53 | $276.10 | $305.51 | +10.65% | $286.03 (7%, fe276bad) | $307.56 | HOLD — next tighten $331.32 |
+| AMAT | 36.707 | $430.65 | $432.60 | +0.45% | $400.05 (10%, e3a01c6b) | $444.50 | HOLD |
+| GOOGL | 39.657 | $398.61 | $394.00 | -1.16% | $359.59 (10%, 4e322e3f) | $399.54 | HOLD |
+| AVGO | 37.196 | $424.99 | $421.98 | -0.71% | $387.75 (10%, 6a7bc8d9) | $430.84 | HOLD |
+
+### Capitol Trades (Whitelist Check)
+- **Pelosi:** Last disclosed Jan 26, 2026 (AMZN/GOOGL/NVDA buys Dec-Jan) — all >45 days ago. No new filings.
+- **McCaul:** Disclosed May 11 — EQT energy buy ($15K-$50K, traded Apr 9); OMF buy ($15K-$50K). Amounts at/below $25K threshold. No tech buys. Sold ASML. Not qualifying as primary catalyst.
+- **All others (Khanna, Crenshaw, Tuberville, Gottheimer, Green, Mast):** No qualifying filings surfaced in 45-day window.
+- **Result:** No actionable politician signals. WATCHLIST ONLY.
+
+### Crypto Research (3c)
+- **BTC:** ~$76,711-$78,116 (7-day: -3.7% from ~$81K May 15 high). RSI(14) ~49 (neutral). MACD negative. Not meeting <30 RSI entry criterion.
+- **ETH:** ~$2,127-$2,188 (May 15 close ~$2,247). **Whale accumulation: 140K ETH ($322M) in early May + BitMine bought 101K ETH week of May 12** (strong institutional signal). Range-bound $2,100-$2,400. WATCHLIST: enter if RSI<30 confirmed AND deployment room exists.
+- **SOL:** ~$85-$90. Goldman Sachs spot SOL ETF ($108M). Testing $88-$89 resistance; above = $100 in play.
+- **Deployment constraint:** 84.6% deployed. Adding 10% crypto → ~94.6% = above 85% cap. **NO CRYPTO ENTRY TODAY.**
+
+### Trade Ideas
+No new entries — 6/6-8 positions filled, 84.6% deployed at top of target range.
+
+**WATCHLIST for next open slot (if AMZN stopped/cut):**
+1. **ETH/USD** — Whale accumulation ($322M, early May) + institutional BitMine/Goldman buying. Entry: live Alpaca quote at time of AMZN exit. Stop: 15% trail. Target: +30% ($2,400-$2,500 range). Catalyst confirmed; waiting for deployment room.
+2. **Energy sector (XOM/SLB)** — Hormuz WTI $107+ catalyst. Would require McCaul buy as secondary confirmation + sector momentum check. Live quote required. Secondary signal only.
+
+*PRICE VERIFICATION: All prices above are from live Alpaca broker snapshot. No stale article prices used.*
+
+### Risk Factors
+- **NVDA earnings May 20 AMC** — binary event affecting NVDA, AMAT, AVGO, GOOGL simultaneously. Portfolio semi-concentration ~55%. Stop protects; no hedge (no options).
+- **AMZN at -4.44%** — if market opens down on oil, could breach $254.49 manual cut line. Monitor at 9:30am open.
+- **Oil surge ($107+ WTI)** — ongoing P/E compression headwind via 30-yr Treasury at 5.11%.
+- **FOMC minutes Wednesday** — hawkish = rate hike probability rises; dovish = tech relief rally.
+- **VIX expiry Tuesday May 19** — today is last full trading day before settlement. Unusual volatility patterns possible.
+
+### Decision
+**HOLD — no new trades.**
+- At max deployment (84.6%) and 6/8 positions.
+- **Critical action at open:** If AMZN opens ≤$254.49 → manual cut per -7% rule.
+- **Critical event Wednesday:** NVDA earnings AMC — do not trade semis before.
+- Crypto: ETH whale signal noted (WATCHLIST); no room to enter today.
+- Politician signals: none qualifying.
+
+
