@@ -1883,3 +1883,33 @@ None. No cuts, no stop changes, no new entries.
 - Trades this week: 0 of 3 (week cap resets Monday)
 - No notification sent (no action taken)
 
+
+---
+
+## 2026-05-19 - Market-Open (09:32 ET) — Second Pass
+
+**Context:** Cron ran pre-open using May 18 close prices. This pass captures actual opening prices.
+
+### Step 0 — Reconciliation
+All 6 positions match broker. No overnight stop-outs.
+
+### Live Prices at Open (09:32 ET)
+| Ticker | Entry | Open | P&L% | Stop (GTC) | Status |
+|--------|-------|------|------|-----------|--------|
+| AMAT | $430.65 | $402.78 (bid $407.57) | -6.47% | $400.05 (10% trail) | ⚠️ 1.5% above stop |
+| AMZN | $273.64 | $261.30 (bid $259.75) | -4.51% | $250.02 (10% trail) | HOLD |
+| AVGO | $424.99 | $410.84 (bid $414.52) | -3.33% | $387.75 (10% trail) | HOLD |
+| GOOGL | $398.61 | $395.05 (bid $383.00) | -0.89% | $367.75 (10% trail) | HOLD |
+| NVDA | $220.20 | $219.97 (bid $221.77) | -0.10% | $212.89 (10% trail) | HOLD — earnings blackout |
+| TXN | $276.10 | $293.71 (bid $295.79) | +6.37% | $287.55 (7% trail) | HOLD |
+
+**Account:** $102,944.77 equity | $16,243.05 cash | 0 daytrades | PDT: false
+
+### Actions
+**NO TRADES.**
+- Positions: 6/6 max — no room for entries
+- Pre-market plan: HOLD ALL pending NVDA earnings AMC May 20
+- AMAT: gap-down to $402.78 (bid $407.57), within 1.5% of GTC stop $400.05. Thesis intact (Q2 beat; ex-div May 21). Let stop auto-execute if breached.
+- All 6 GTC trailing stops confirmed active (verified via orders API)
+
+- Trades this week: 0 of 3
