@@ -2614,3 +2614,106 @@ No new entries — 6/6-8 positions filled, 84.6% deployed at top of target range
 - Politician signals: none qualifying.
 
 
+
+---
+
+## 2026-05-19 - Pre-market Research
+
+### Account
+- Equity: $104,362.51
+- Cash: $16,243.05 (15.6%)
+- Buying power: $120,605.56 (includes 2x margin)
+- Daytrade count: 0
+- Deployed: ~84.4% (6 positions open)
+
+### Reconciliation (Step 0 — CLEAN)
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMAT | 36.707 | 36.707499 | ✓ |
+| AMZN | 56 | 56.000 | ✓ |
+| AVGO | 37.196 | 37.196240 | ✓ |
+| GOOGL | 39.657 | 39.657886 | ✓ |
+| NVDA | 48.316 | 48.316621 | ✓ |
+| TXN | 53 | 53.000 | ✓ |
+
+No overnight stop-outs or discrepancies.
+
+### Market Context
+- WTI: ~$103.35 (+1.02%); Brent: ~$110.20 (-1.69%) — Hormuz tensions sustaining elevated energy; WTI range $97-$107 past 2 weeks
+- S&P 500 futures: -0.17% at 7,413 (tech-led pullback Monday, bounced slightly Tuesday pre-open)
+- Nasdaq futures: -0.34%; Dow futures: -0.05%
+- VIX: 17.82 (May 18 close); May futures expiring today at ~17.75 — normal range, no panic
+- Asian markets: Nikkei -0.44%, Hang Seng -1.11% — broad risk-off overnight
+
+### Economic Calendar Today & This Week
+- **TODAY (May 19)**: Fed Gov Waller speech 8am; Pending Home Sales April (est +1.5%) 10am
+- **Tomorrow (May 20)**: FOMC minutes 2pm; **NVDA Q1 FY2027 earnings AMC** (est EPS $1.76, rev $78.75B)
+- **Thursday (May 21)**: Jobless claims; Housing starts; Flash PMIs (services est 51.5)
+- **Friday (May 22)**: Consumer sentiment final (est 48.2); Leading indicators
+
+### Key Macro Concern
+- 30-year Treasury yield at ~5.11% (near multi-month highs from May 15 PPI print) — multiple compression risk on high-P/E tech/semis
+
+### Capitol Trades (Whitelist Check)
+- **Pelosi**: Last disclosures Jan 2026 (AMZN, GOOGL, NVDA calls/shares) — outside 45-day window, no qualifying activity
+- **Ro Khanna (May 13 disclosed, traded Apr 2026)**: AMZN buy ($1k-15k), JPM buy ($15k-50k), HD buy, CSCO buy, DHR buy — ALL below $25k minimum threshold → NOT qualifying
+- **McCaul**: DHR buy ($1k-15k, May 11 disclosed) — below threshold
+- **Tuberville, Crenshaw, Gottheimer, Green, Mast**: No qualifying activity identified in 45-day window
+- **Verdict**: No whitelist politician signals this cycle. Zero Capitol Trades input today.
+
+### Position Status (live broker prices — May 18 close)
+| Ticker | Shares | Entry | Price | P&L% | Stop | HWM | Status |
+|--------|--------|-------|-------|------|------|-----|--------|
+| AMAT | 36.707 | $430.65 | $408.97 | -5.04% | $400.05 (10% trail, e3a01c6b) | $444.50 | ⚠️ MONITOR |
+| AMZN | 56 | $273.64 | $264.04 | -3.51% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+| AVGO | 37.196 | $424.99 | $418.36 | -1.56% | $387.75 (10% trail, 6a7bc8d9) | $430.84 | HOLD |
+| GOOGL | 39.657 | $398.61 | $400.19 | +0.40% | $367.75 (10% trail, 4e322e3f) | $408.61 | HOLD |
+| NVDA | 48.316 | $220.20 | $221.39 | +0.54% | $212.89 (10% trail, c35a1ad1) | $236.54 | HOLD |
+| TXN | 53 | $276.10 | $305.51 | +10.67% | $287.55 (7% trail, fe276bad) | $309.19 | HOLD |
+
+**AMAT ALERT**: AH bid $391.16 (vs close $408.97) — potential gap-down risk at open. Stop $400.05 may fill below that level. -7% cut line = $400.50. Monitor closely at open. Thesis intact (Q2 beat May 14; multiple PTs raised: Barclays $500, TD Cowen $525, Stifel $530; ex-dividend May 21 $0.53). Ex-div date is tomorrow — holding through is a consideration.
+
+**NVDA**: Stop $212.89 is only 3.8% below current $221.39 — thin cushion ahead of earnings tomorrow AMC. Trailing stop GTC in place; holds regardless of gap.
+
+**TXN**: +10.67% unrealized; 7% trail in place. Next tighten trigger: +20% = $331.32 (current $305.51, 8.4% away).
+
+### Thesis Review
+- **AMAT**: Q2 2026 BEAT (EPS $2.86 vs $2.68 est, Rev $7.91B +11% YoY). Q3 guide $8.45-9.45B. >30% semi equipment growth 2026 raised from >20%. EPIC Center partnerships (TSMC, Stanford, ASU, RPI). Multiple analyst upgrades. Thesis INTACT but price action weak (-5% unrealized).
+- **AMZN**: AWS +28% Q1 2026 beat. Cloud/AI infra spending confirmed by all hyperscalers. Thesis INTACT (-3.5% unrealized — within tolerance).
+- **AVGO**: Q1 2026 record $19.3B (+29% YoY); AI rev +106% to $8.4B; Q2 guide $22B (+47%); AI rev Q2 guide +140% to $10.7B. Earnings June 3 (not imminent). Thesis STRENGTHENED.
+- **GOOGL**: Google Cloud +28% YoY; Gemini scaling; diversifier. Thesis INTACT.
+- **NVDA**: Q1 FY2027 earnings TOMORROW (May 20) AMC. Est EPS $1.76, Rev $78.75B, Data Center $72.85B. NO China market share (Jensen: "dropped to zero" in China). AI demand from US/global hyperscalers intact ($400B+ combined Mag7 capex). Binary event.
+- **TXN**: Q1 beat (EPS $1.68 vs $1.36 est). Silicon Labs acquisition ($7.5B). BofA $320 PT. Analog semi cycle intact. Thesis INTACT.
+
+### Crypto (Step 3c)
+- BTC: ~$76,864, RSI 43.65 (NEUTRAL) — not at <30 entry threshold; down from $108k May high; choppy range
+- ETH: ~$2,137; SOL: ~$85
+- No crypto entry criteria met (RSI not oversold; no confirmed catalyst)
+- Decision: HOLD — no crypto trades
+
+### Stop Tightening Check
+- AMAT: below +15% threshold (entry was purchased down -5%). No action.
+- AMZN: below threshold. No action.
+- AVGO: below threshold. No action.
+- GOOGL: +0.40% — below threshold. No action.
+- NVDA: +0.54% — below +15% trigger ($253.23). No action.
+- TXN: +10.67% — below +20% trigger ($331.32); already on 7% trail. No action.
+
+### Trade Ideas
+No new entries today.
+- **Rationale**: NVDA earnings AMC tomorrow = major binary event for entire portfolio (NVDA position + sector exposure across AMAT/AVGO/GOOGL/TXN). Risk adding new positions into this is too high. Bond yield headwinds persist. Deploy dry powder post-NVDA reaction Wednesday.
+- **Post-NVDA watch (Wednesday open)**: If NVDA beats + raises guidance, evaluate adding 1-2 positions to close dry powder gap. If miss, sector-wide selloff likely; manage stops.
+
+### Risk Factors
+- **NVDA earnings AMC tomorrow**: Miss would hit all semi/tech positions (AMAT, AVGO, NVDA, TXN, GOOGL). Beat could re-rate upward across all.
+- **AMAT overnight weakness**: AH bid $391.16; if gap-down to/through $400 stop, may exit at worse price. Ex-div May 21 provides modest offsetting incentive.
+- **30-yr Treasury ~5.11%**: Multiple compression on high-P/E tech if yields stay elevated
+- **Sector concentration**: Semi/tech = ~5 of 6 positions; correlated risk on NVDA miss
+- **FOMC minutes tomorrow 2pm**: Hawkish tone could amplify yield pressure
+
+### Decision
+**HOLD ALL — NO NEW TRADES**
+- Wait for NVDA earnings reaction (May 20 AMC → May 21 market open = next action window)
+- Let AMAT stop protect downside if gap continues
+- All 6 GTC trailing stops active and confirmed
+
