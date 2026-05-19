@@ -1742,3 +1742,89 @@ None. No cuts, no stop changes, no new entries.
 | TXN | 53 | $276.10 | $302.73 | -$5.44 (-1.77%) | +$1,411.39 (+9.65%) | $286.03 (7% trail, HWM $307.56) |
 
 **Notes:** Broad tech selloff — S&P -1%, Nasdaq -1.3% — driven by (1) Trump-Xi summit ended without major policy breakthroughs, (2) NVDA H200 China sales did not materialize (Chinese firms chose not to buy; Beijing didn't authorize), (3) 30-year Treasury yield +10bp to 5.11% (highest since May 2025) on PPI stagflation signal. Three new positions opened this morning (AMAT +Q2 beat+raise, GOOGL +Cloud+AI governance, AVGO +AI ASIC demand), deploying from 39.9% to 84.4% — now squarely in target range. Day P&L -$854.34 (-0.80%) is mark-to-market on a red day; no stops triggered. TXN leads at +9.65% unrealized; AMZN is most vulnerable at -3.71% unrealized (cut line $254.49, stop $250.02 — $9 cushion). NVDA thesis softened on China H200 news but NOT broken (global hyperscaler AI demand intact; earnings May 20). All 6 GTC trailing stops active. 4 trades this week (NVDA Mon 11 + AMAT/GOOGL/AVGO Fri 15). Next: NVDA earnings May 20 is the key binary event; blackout prevents adding NVDA. Monitor AMZN closely at open Monday.
+
+---
+
+### May 19 - EOD Snapshot (Day 21, Tuesday)
+> Note: Day P&L spans Fri May 15 close → Tue May 19 close (no May 18 EOD recorded). Alpaca last_equity $105,544.43 used as baseline.
+
+**Portfolio:** $104,361.54 | **Cash:** $16,243.05 (15.6%) | **Day P&L:** -$1,182.89 (-1.12%) | **Phase P&L:** +$4,361.54 (+4.36%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AMAT | 36.707 | $430.65 | $408.97 | -$4.60 (-1.11%) | -$795.76 (-5.03%) | $400.05 (10% trail, HWM $444.50) |
+| AMZN | 56 | $273.64 | $264.04 | -$0.82 (-0.31%) | -$537.60 (-3.51%) | $250.02 (10% trail, HWM $277.80) |
+| AVGO | 37.196 | $424.99 | $418.36 | -$2.35 (-0.56%) | -$246.61 (-1.56%) | $387.75 (10% trail, HWM $430.84) |
+| GOOGL | 39.657 | $398.61 | $400.19 | +$3.25 (+0.82%) | +$62.66 (+0.40%) | $367.75 (10% trail, HWM $408.61) |
+| NVDA | 48.316 | $220.20 | $221.37 | -$0.95 (-0.43%) | +$56.53 (+0.53%) | $212.89 (10% trail, HWM $236.54) |
+| TXN | 53 | $276.10 | $305.51 | +$4.91 (+1.63%) | +$1,558.70 (+10.65%) | $287.55 (7% trail, HWM $309.19) |
+
+**Notes:** Mixed session: tech under continued pressure from elevated 30-yr yields (5.11%) and Hormuz oil shock ($107+ WTI). TXN +1.63% and GOOGL +0.82% were bright spots; AMAT -1.11% is most concerning — now -5.03% unrealized, within 2% of the -7% cut line ($400.48). AMZN continues sliding (-3.51% unrealized); stop at $250.02 holds but 5.3% above cut threshold. NVDA earnings AMC Wednesday May 20 is tomorrow's binary event — semi concentration ~55% (NVDA/AMAT/AVGO). GTC stop HWMs updated: GOOGL now $408.61 (stop $367.75), TXN now $309.19 (stop $287.55). No trades today. Trades this week: 0.
+
+---
+
+## 2026-05-19 - Midday Scan
+
+**Portfolio:** ~$88,119 long MV | **Cash:** ~$16,243 | **Positions:** 6 | **Deployed:** ~84.4% | **Phase P&L:** ~+$5,100 est.
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN | 56 | 56 | ✓ |
+| NVDA | 48.316 | 48.316621 | ✓ (fractional carry) |
+| TXN | 53 | 53 | ✓ |
+| AMAT | 36.707 | 36.707499 | ✓ (fractional carry) |
+| GOOGL | 39.657 | 39.657886 | ✓ (fractional carry) |
+| AVGO | 37.196 | 37.196240 | ✓ (fractional carry) |
+
+Clean — no overnight exits. All 6 GTC trailing stops active and confirmed.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|---------------|-----|--------|
+| AMAT | 36.707 | $430.65 | $408.97 | -5.03% | -1.11% | $400.05 (10% trail, e3a01c6b) | $444.50 | HOLD ⚠️ |
+| AMZN | 56 | $273.64 | $264.04 | -3.51% | -0.31% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD ⚠️ |
+| AVGO | 37.196 | $424.99 | $418.36 | -1.56% | -0.56% | $387.75 (10% trail, 6a7bc8d9) | $430.84 | HOLD |
+| GOOGL | 39.657 | $398.61 | $400.19 | +0.40% | +0.82% | $367.75 (10% trail, 4e322e3f) | $408.61 | HOLD |
+| NVDA | 48.316 | $220.20 | $221.39 | +0.54% | -0.42% | $212.89 (10% trail, c35a1ad1) | $236.54 | HOLD — earnings AMC tomorrow |
+| TXN | 53 | $276.10 | $305.51 | +10.65% | +1.63% | $287.55 (7% trail, fe276bad) | $309.19 | HOLD |
+
+### Step 3 — Cuts
+None. No position at ≤-7%.
+- AMAT closest: -5.03% from entry; -7% cut threshold = $400.50; current $408.97 = $8.47 above cut line.
+- AMZN: -3.51%; cut line $254.49; current $264.04 = $9.55 above cut line.
+
+### Step 4 — Stop Tightening
+- TXN +10.65%: already on 7% trail. +20% trigger = $331.32; current $305.51 — not reached. No action.
+- GOOGL +0.40%, NVDA +0.54%: below +15% threshold. No action.
+- AMAT, AMZN, AVGO: underwater. No action.
+
+### Step 5 — Thesis Check
+- **AMAT**: -5.03% unrealized; -1.11% intraday. Broad semi pressure pre-NVDA earnings (tomorrow AMC). Semi equipment picks-and-shovels thesis (AI DRAM/HBM/gate-all-around demand) INTACT. Stop $400.05 provides cushion. HOLD.
+- **AMZN**: -3.51% unrealized, recovering slightly (-0.31% intraday). No AMZN-specific adverse news. AWS +28% cloud/AI thesis unchanged. Hormuz oil surge compressing multiples (30-yr yield 5.11%). Stop $250.02 protecting. HOLD.
+- **AVGO**: -1.56% unrealized, modest intraday pullback. AI ASIC/hyperscaler demand thesis unchanged. HOLD.
+- **GOOGL**: +0.40% unrealized, +0.82% intraday — only position outperforming today. Google Cloud +28%; AI governance thesis intact. HOLD.
+- **NVDA**: +0.54% unrealized, quiet ahead of earnings AMC tomorrow (May 20). Core AI inference demand thesis intact. **No new NVDA buys (blackout). Binary event tomorrow — existing stop protects.** HOLD.
+- **TXN**: +10.65% unrealized, +1.63% intraday (leading portfolio). Analog semi cycle + BofA $320 PT + Silicon Labs deal. HWM $309.19; stop trailing at $287.55. INTACT. HOLD.
+
+### Step 6 — Research
+No sharp unexplained moves. All intraday action consistent with (1) NVDA pre-earnings caution dragging semis, (2) Hormuz closure sustaining 30-yr yield at 5.11% = P/E compression headwind for high-multiple tech, (3) VIX expiry day (today). No Perplexity research needed.
+- **NVDA earnings AMC May 20** — binary event. Portfolio semi concentration: NVDA+TXN+AMAT+AVGO = ~55%. All stops active. No pre-earnings entry. No hedge (no options per rules).
+- **FOMC minutes Wed May 20 2pm ET** — simultaneous with NVDA earnings day. Potential double catalyst.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 |
+| 2 | NVDA | 48.316 | $220.20 | $212.89 (10% trail, c35a1ad1) | $236.54 |
+| 3 | TXN | 53 | $276.10 | $287.55 (7% trail, fe276bad) | $309.19 |
+| 4 | AMAT | 36.707 | $430.65 | $400.05 (10% trail, e3a01c6b) | $444.50 |
+| 5 | GOOGL | 39.657 | $398.61 | $367.75 (10% trail, 4e322e3f) | $408.61 |
+| 6 | AVGO | 37.196 | $424.99 | $387.75 (10% trail, 6a7bc8d9) | $430.84 |
+
+- Trades this week: 0 of 3 (week cap resets Monday)
+- No notification sent (no action taken)
+
