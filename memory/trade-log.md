@@ -1745,6 +1745,61 @@ None. No cuts, no stop changes, no new entries.
 
 ---
 
+## 2026-05-19 - Market-Open Session
+
+**Portfolio:** $104,366.70 equity | **Cash:** $16,243.05 (15.6%) | **Positions:** 6 | **Deployed:** ~84.4% | **Phase P&L:** +$4,366.70 (+4.37%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN | 56 | 56 | ✓ |
+| NVDA | 48.316 | 48.316621 | ✓ |
+| TXN | 53 | 53 | ✓ |
+| AMAT | 36.707 | 36.707499 | ✓ |
+| GOOGL | 39.657 | 39.657886 | ✓ |
+| AVGO | 37.196 | 37.196240 | ✓ |
+
+Clean — no overnight exits since May 15. All 6 GTC trailing stops confirmed active.
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 0 (NO TRADES — max deployment 84.4%; NVDA earnings tomorrow AMC)
+
+### Live Price Re-verification (STEP 1b)
+| Ticker | May 18 Pre | Live | P&L% | Stop (GTC) | HWM | Status |
+|--------|-----------|------|------|------------|-----|--------|
+| AMAT | $432.60 | $408.97 | -5.04% | $400.05 (10% trail, e3a01c6b) | $444.50 | HOLD ⚠️ 2.2% above stop |
+| AMZN | $261.50 | $264.04 | -3.51% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+| AVGO | $421.98 | $418.36 | -1.56% | $387.75 (10% trail, 6a7bc8d9) | $430.84 | HOLD |
+| GOOGL | $394.00 | $400.32 | +0.43% | $367.75 (10% trail, 4e322e3f) | $408.61 | HOLD |
+| NVDA | $223.99 | $221.37 | +0.53% | $212.89 (10% trail, c35a1ad1) | $236.54 | HOLD (blackout) |
+| TXN | $305.51 | $305.51 | +10.65% | $287.55 (7% trail, fe276bad) | $309.19 | HOLD |
+
+### Rule Checks
+- Positions: 6/6 max → no new entries
+- Deployed: 84.4% (target 75-85%) → at target
+- TXN +20% trigger $331.32 — not reached; still on 7% trail ✓
+- AMAT: -5.04%; -7% cut line $400.50 — current $408.97 → HOLD (stop $400.05 acts as automatic protection)
+- AMZN: -3.51%; -7% cut line $254.49 — current $264.04 → HOLD
+- NVDA blackout since May 17 — no new NVDA adds; earnings May 20 AMC
+- Daytrade count: 0/3 — clean
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Target | R:R |
+|---|--------|--------|-------|---------|------|------|--------|-----|
+| 1 | AMZN | 56 | $273.64 | $264.04 | -3.51% | $250.02 (10% trail, a7a75899) | $328.37 | 2.0:1 |
+| 2 | NVDA | 48.316 | $220.20 | $221.37 | +0.53% | $212.89 (10% trail, c35a1ad1) | $264.24 | 2.0:1 |
+| 3 | TXN | 53 | $276.10 | $305.51 | +10.65% | $287.55 (7% trail, fe276bad) | $331.32 | 2.0:1 |
+| 4 | AMAT | 36.707 | $430.65 | $408.97 | -5.04% | $400.05 (10% trail, e3a01c6b) | $516.78 | 2.0:1 |
+| 5 | GOOGL | 39.657 | $398.61 | $400.32 | +0.43% | $367.75 (10% trail, 4e322e3f) | $478.33 | 2.0:1 |
+| 6 | AVGO | 37.196 | $424.99 | $418.36 | -1.56% | $387.75 (10% trail, 6a7bc8d9) | $509.99 | 2.0:1 |
+
+- Trades this week: 0 of 7
+- NVDA earnings May 20 AMC — binary event; semi concentration ~55% (NVDA/AMAT/AVGO/TXN)
+- Watch: AMAT stop $400.05 thin cushion; AMZN cut line $254.49 proximity
+
+---
+
 ### May 19 - EOD Snapshot (Day 21, Tuesday)
 > Note: Day P&L spans Fri May 15 close → Tue May 19 close (no May 18 EOD recorded). Alpaca last_equity $105,544.43 used as baseline.
 
