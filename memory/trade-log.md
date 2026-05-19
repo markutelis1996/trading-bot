@@ -1886,6 +1886,21 @@ None. No cuts, no stop changes, no new entries.
 
 ---
 
+## 2026-05-19 - Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Realized P&L |
+|--------|---------|------------|--------------|
+| AMAT | 36.707 | 0.707 | ~-$858 (36 shares; fill ~$406.81; stop $400.05 triggered intraday) |
+| AMZN | 56 | 56 | ✓ |
+| AVGO | 37.196 | 37.196 | ✓ |
+| GOOGL | 39.657 | 39.657 | ✓ |
+| NVDA | 48.316 | 48.316 | ✓ |
+| TXN | 53 | 53 | ✓ |
+
+AMAT: 36 integer shares stopped out intraday. Entry $430.65; estimated fill ~$406.81 (cash delta: $30,888.08 - $16,243.05 = +$14,645.03 / 36 shares). Realized P&L: 36 × ($406.81 - $430.65) = **-$858**. Fractional 0.707 shares remain (no GTC stop; negligible value ~$288).
+
+---
+
 ## 2026-05-19 - Market-Open (09:32 ET) — Second Pass
 
 **Context:** Cron ran pre-open using May 18 close prices. This pass captures actual opening prices.
@@ -1913,3 +1928,20 @@ All 6 positions match broker. No overnight stop-outs.
 - All 6 GTC trailing stops confirmed active (verified via orders API)
 
 - Trades this week: 0 of 3
+
+---
+
+### May 19 - EOD Snapshot (Day 21, Tuesday) — CORRECTED
+> Earlier snapshot (this date, above) used open prices. This reflects actual EOD broker data. AMAT 36-share stop triggered intraday (~-$858 realized); see Reconciliation above.
+
+**Portfolio:** $103,011.37 | **Cash:** $30,888.08 (30.0%) | **Day P&L:** -$1,309.14 (-1.25%) | **Phase P&L:** +$3,011.37 (+3.01%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AMZN | 56 | $273.64 | $259.25 | -$5.61 (-2.12%) | -$805.84 (-5.26%) | $250.02 (10% trail, HWM $277.80) |
+| AVGO | 37.196 | $424.99 | $411.07 | -$9.64 (-2.29%) | -$517.77 (-3.28%) | $387.75 (10% trail, HWM $430.84) |
+| GOOGL | 39.657 | $398.61 | $387.62 | -$9.32 (-2.35%) | -$435.84 (-2.76%) | $367.75 (10% trail, HWM $408.61) |
+| NVDA | 48.316 | $220.20 | $220.63 | -$1.69 (-0.76%) | +$20.78 (+0.20%) | $212.89 (10% trail, HWM $236.54) |
+| TXN | 53 | $276.10 | $302.31 | +$1.71 (+0.57%) | +$1,389.10 (+9.49%) | $287.55 (7% trail, HWM $309.19) |
+
+**Notes:** AMAT trailing stop ($400.05) triggered intraday — 36 shares stopped out at ~$406.81, realized -$858. Cash rises from $16,243 to $30,888 post-fill. Broad selloff continued: AMZN -2.12%, AVGO -2.29%, GOOGL -2.35%, NVDA -0.76%; only TXN green (+0.57%). AMZN now -5.26% unrealized (cut line $254.49, current $259.25 — $4.76 above cut; stop $250.02). GOOGL -2.76% and AVGO -3.28% both holding above thresholds. NVDA earnings AMC tonight (May 20) — binary event; existing 10% trail at $212.89 protects; semi concentration ~55%. Portfolio now 70% deployed post-AMAT exit. No new entries; 0/3 week slots used. FOMC minutes Wednesday 2PM coincides with NVDA earnings day — double catalyst.
