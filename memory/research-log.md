@@ -2717,3 +2717,125 @@ No new entries today.
 - Let AMAT stop protect downside if gap continues
 - All 6 GTC trailing stops active and confirmed
 
+---
+
+## 2026-05-20 - Pre-market Research
+
+### Account
+- Equity: $103,213.14
+- Cash: $30,888.08 (29.9%)
+- Buying power: $134,101.22
+- Long market value: $72,325.06
+- Deployed: ~70.1%
+- Daytrade count: 0
+- Open positions: 6 (AMZN, AVGO, GOOGL, NVDA, TXN + AMAT 0.707 fractional)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN | 56 | 56 | ✓ |
+| AVGO | 37.196 | 37.196 | ✓ |
+| GOOGL | 39.657 | 39.657 | ✓ |
+| NVDA | 48.316 | 48.316 | ✓ |
+| TXN | 53 | 53 | ✓ |
+| AMAT | 0.707 (fractional) | 0.707 | ✓ |
+
+Clean. All 5 GTC trailing stops active (AMZN a7a75899, AVGO 6a7bc8d9, GOOGL 4e322e3f, NVDA c35a1ad1, TXN fe276bad). No overnight stop-outs.
+
+### Market Context
+- WTI: ~$103.67/bbl (June futures); Brent: ~$110.81/bbl — Hormuz war sustaining elevated prices
+- S&P 500 futures: ~$7,385 (+0.09% — essentially flat overnight)
+- VIX: 18.06 (May 19 close, +1.35%) — moderate fear; slight uptick
+- Gold: $4,495 (-0.35%); Bitcoin: $76,757 (-0.41%)
+- **FOMC minutes tonight at 6 PM ET** (from Apr 28-29 meeting; Fed held 3.50-3.75% under Powell's final session; now Warsh era)
+- **NVDA earnings AMC tonight (~4:30 PM ET results, 5 PM ET call)** — biggest binary event of the day
+- Earnings before open today: TJX Companies (BMO), Lowe's (BMO), Baidu (BMO), Deere & Co (BMO) — none in portfolio
+- Earnings AMC today: NVDA ★★ (consensus: $1.76 EPS, $78.82B revenue), Analog Devices (ADI), Workday (WDAY)
+- Tomorrow BMO: Walmart (WMT)
+- Economic calendar today: MBA 30-yr mortgage rate (11 AM ET), FOMC minutes (6 PM ET)
+- Tomorrow: Housing Starts + Building Permits (8:30 AM ET)
+
+### Sector Momentum YTD
+| Sector | YTD Return |
+|--------|-----------|
+| Energy | +30.70% |
+| Technology | +17.17% |
+| Industrials | +15.95% |
+| Basic Materials | +14.17% |
+| Consumer Defensive | +11.00% |
+| Utilities | +9.52% |
+| Communication Services | +7.88% |
+| Real Estate | +7.78% |
+| Consumer Cyclical | +0.59% |
+| Healthcare | +0.17% |
+| Financials | -5.17% |
+
+Today's intraday: Energy +1.01%, Healthcare +0.90% leading; Basic Materials -2.47%, Comm Services -1.51%, Financials -1.06% lagging.
+
+### Politician Signals (Capitol Trades — Whitelist)
+- **McCaul (R-TX)**: SPGI (S&P Global) — 5× buys Apr 1-28, $100K-$250K each. Total ~$500K+ buy. But SPGI is financial analytics; Financials is worst sector YTD (-5.17%). No sector momentum → **watchlist only, no trade**
+- **Khanna (D-CA)**: JPM buy $15K-$50K on Apr 21. Below learning-mode $25K minimum threshold → skip
+- **Pelosi (D-CA)**: Last activity Jan 16-26, 2026 (GOOGL, AMZN, NVDA options/exercises). No new disclosures in last 45 days
+- **Tuberville, Crenshaw, Gottheimer, Green, Mast**: No qualifying buys identified this cycle
+- **Broad scan**: No new top-performer politicians identified with >20% YTD above S&P
+
+**No whitelist politician signals meeting trade criteria today.**
+
+### Position Status (live prices from Alpaca)
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | Cushion | Status |
+|--------|--------|-------|---------|------|------------|---------|--------|
+| AMZN | 56 | $273.64 | $258.55 | -5.51% | $250.02 (10% trail, a7a75899) | $4.06 above cut ($254.49) | HOLD ⚠️ |
+| AVGO | 37.196 | $424.99 | $411.27 | -3.23% | $387.75 (10% trail, 6a7bc8d9) | 5.7% above stop | HOLD |
+| GOOGL | 39.657 | $398.61 | $387.63 | -2.75% | $367.75 (10% trail, 4e322e3f) | 5.1% above stop | HOLD |
+| NVDA | 48.316 | $220.20 | $221.37 | +0.53% | $212.89 (10% trail, c35a1ad1) | 3.8% above stop | HOLD — earnings AMC |
+| TXN | 53 | $276.10 | $305.51 | +10.65% | $287.55 (7% trail, fe276bad) | 5.9% above stop | HOLD |
+| AMAT | 0.707 | $430.65 | $407.20 | -5.44% | none | fractional only | SELL at open |
+
+**Rule checks:**
+- AMZN: -7% cut threshold $254.49; current $258.55 = **$4.06 above cut line ⚠️** — let stop auto-execute if breached; no manual cut until $254.49 triggered
+- TXN: +20% trigger $331.32 (stay 7% trail); not reached at $305.51
+- NVDA: +15% trigger $253.23 (10% trail → 7%); not reached at $221.37. **Earnings tonight = hold, no adds**
+- AVGO/GOOGL: below tightening thresholds; stop tracking correctly
+- Positions: 6/6 max → **no new entries today**
+
+### Crypto Research
+- BTC: $76,757 (down from $81K May 15 = -5.4% in 5 days, -4.3% in 7 days)
+  - 200-day MA trending up (bullish structural)
+  - Short-term: 9 Sell signals vs 3 Buy (bearish momentum)
+  - RSI: Not at oversold threshold (<30) — no entry signal
+  - 7-day trend: Negative but NOT -10%+ → skip rule not triggered
+- ETH: ~$2,247 (May 15 data), likely similar range
+- SOL/AVAX/LINK: No confirmed catalysts
+- No whale accumulation signals found
+- ETF flows: Not materially positive in last 7 days (BTC declining from $81K)
+- **Crypto decision: NO TRADE** — BTC mild downtrend, no oversold signal, no confirmed catalyst
+
+### NVDA Earnings Preview (AMC tonight)
+- Consensus: EPS $1.76, Revenue $78.82B
+- NVDA guidance was: Rev ~$78B (+/- 2%); Non-GAAP gross margin ~72%
+- NVDA track record: Beat EPS every quarter (Q4 FY26: $1.62 vs $1.54 est, +5.2%)
+- Key metric: Q2 guidance vs Wall Street est ($87B)
+- Our position: 48 shares (+ 0.316 fractional), entry $220.20, stop $212.89, unrealized +$57 (+0.53%)
+- HWM $236.54 — stop will trail up if NVDA gaps up post-earnings
+- **No action pre-earnings; let stop protect. If beat + guidance raise → monitor Thursday open for stop-tighten trigger ($253.23 = +15%)**
+
+### Trade Ideas
+None. At 6/6 position max; all deployed capital has GTC stops protecting. No new entries possible.
+- Pending action at open: sell AMAT 0.707 fractional shares (~$288 value, cleanup)
+
+### Risk Factors
+- **NVDA earnings binary tonight** — semi concentration ~55% (NVDA+TXN+AVGO+AMAT remnant); all stops active
+- **AMZN approaching -7% cut** — only $4 above cut threshold; any gap down triggers immediate cut
+- **FOMC minutes 6 PM ET** — coincides with NVDA earnings call; double catalyst; expect elevated post-hours volatility
+- **WTI $103+ / Brent $110+** — Hormuz war sustaining yield pressure (30-yr ~5.1%); P/E compression headwind for high-multiple tech
+- **BTC mild downtrend** — not a portfolio risk directly (no crypto position) but confirms risk-off tone
+- **Walmart tomorrow BMO** — consumer health signal; if miss = risk-off for consumer/retail names
+
+### Decision
+**HOLD ALL — NO NEW TRADES**
+- 6/6 max positions; ~70% deployed (below 75-85% target but no room to add)
+- AMAT fractional: sell 0.707 shares at open (cleanup, no stop protection)
+- NVDA earnings AMC tonight: existing 10% trail ($212.89) protects downside; let run
+- AMZN ⚠️: stop $250.02 is the automatic exit; only $4.06 above manual cut line; do NOT move stop; let trail do its job
+- FOMC minutes + NVDA = elevated after-hours volatility; all stops active
+
