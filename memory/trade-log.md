@@ -2062,3 +2062,73 @@ All 5 GTC trailing stops confirmed active.
 - Trades this week: 0 of 3
 - AMD watch: entry ~$425-430, stop ~$382-387, target ~$470, R:R ~2:1 — revisit midday if spread normalizes
 - Watch: NVDA — HWM $236.54 must be broken for stop to trail up further (+6.5% from current $222.15)
+
+---
+
+## 2026-05-21 - Midday Scan (Afternoon Update)
+
+**Portfolio:** ~$71,926 long MV | **Cash:** $31,189 | **Positions:** 5 | **Deployed:** ~69.7% | **Phase P&L:** ~+$3,100 est.
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN | 56 | 56 | ✓ |
+| AVGO | 37.196 | 37.196240 | ✓ |
+| GOOGL | 39.657 | 39.657886 | ✓ |
+| NVDA | 48.316 | 48.316621 | ✓ |
+| TXN | 53 | 53 | ✓ |
+
+Clean. AMAT fractional (0.707 sh) confirmed sold at open. All 5 GTC trailing stops active.
+
+### Position Status (afternoon)
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|------|----------|---------------|-----|--------|
+| AMZN | 56 | $273.64 | $266.43 | -2.64% | +0.54% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+| AVGO | 37.196 | $424.99 | $412.23 | -3.00% | -1.32% | $387.75 (10% trail, 6a7bc8d9) | $430.84 | HOLD |
+| GOOGL | 39.657 | $398.61 | $388.32 | -2.58% | -0.15% | $367.75 (10% trail, 4e322e3f) | $408.61 | HOLD |
+| NVDA | 48.316 | $220.20 | $220.36 | +0.07% | -1.39% | $212.89 (10% trail, c35a1ad1) | $236.54 | HOLD |
+| TXN | 53 | $276.10 | $297.25 | +7.66% | -2.50% | $287.55 (7% trail, fe276bad) | $309.19 | HOLD ⚠️ 3.3% above stop |
+
+### Step 3 — Cuts
+None. All above -7% rule. AVGO closest at -3.00% (cut line $395.24; current $412.23 = $16.99 above).
+
+### Step 4 — Stop Tightening
+- TXN +7.66%: +20% trigger $331.32 — not reached ($297.25). No action.
+- NVDA +0.07%: +15% trigger $253.23 — not reached. No action.
+- All others underwater. No action.
+
+### Step 5 — Thesis Check
+- **AMZN**: -2.64% unrealized, +0.54% recovering intraday. Macro headwind (Treasury yields). AWS thesis unchanged. HOLD.
+- **AVGO**: -3.00% unrealized, -1.32% intraday. AI ASIC/hyperscaler demand thesis INTACT — NVDA beat ($82B rev, Q2 guide $91B vs $87B est) confirms $400B+ AI capex acceleration. Macro-driven pullback, not thesis break. HOLD.
+- **GOOGL**: -2.58% unrealized. Google Cloud +28% thesis intact. HOLD.
+- **NVDA**: +0.07% unrealized, -1.39% intraday post-earnings. Q1 FY27: Rev $82B (+85% YoY), Q2 guide $91B vs $87B est = BEAT. Sell-the-news reaction on top-end guidance uncertainty. Core thesis INTACT/STRENGTHENED. HOLD.
+- **TXN**: +7.66% unrealized, -2.50% intraday. ⚠️ Stop at $287.55 is only $9.70 (3.3%) below current $297.25. No thesis break — broad semi selloff. Per rules: cannot move stop down. Let stop auto-execute if triggered. Analog semi cycle intact. HOLD.
+
+### Step 6 — Intraday Research
+**Market context (May 21 afternoon):**
+- S&P 500 -0.5%, Nasdaq 100 -0.7%, Dow -0.5% — broad selloff
+- Drivers: (1) 30-yr Treasury yields rebounding, (2) NVDA sell-the-news despite actual guidance beat ($91B vs $87B est), (3) Walmart -6.43% (margin compression), Intuit -15% (workforce cut 17%), Salesforce -4.27%
+- Semi sector: broad pullback as "sell the news" extends to adjacent names (AVGO, TXN)
+
+**AMD — SKIP (afternoon evaluation):**
+- AMD reversed sharply: prior close $414.05, current ~$447.58 = +8.1% gap
+- Exceeds 5% gap rule ($414.05 × 1.05 = $434.75 limit) → **SKIP per gap rule**
+- R:R at $447 entry: target $472 / stop $403 = 0.54:1 — far below 2:1 minimum
+- Decision: AMD is no longer a valid setup at current price.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 |
+| 2 | AVGO | 37.196 | $424.99 | $387.75 (10% trail, 6a7bc8d9) | $430.84 |
+| 3 | GOOGL | 39.657 | $398.61 | $367.75 (10% trail, 4e322e3f) | $408.61 |
+| 4 | NVDA | 48.316 | $220.20 | $212.89 (10% trail, c35a1ad1) | $236.54 |
+| 5 | TXN | 53 | $276.10 | $287.55 (7% trail, fe276bad) | $309.19 |
+
+- Trades this week: 0 of 3
+- Watch: TXN stop $287.55 is 3.3% below current — thin cushion; acceptable; cannot move down per rules
+- Watch: AVGO -3% from entry; thesis intact; stop $387.75 provides adequate buffer
+- AMD invalidated for entry today (>5% gap rule, R:R < 1:1)
