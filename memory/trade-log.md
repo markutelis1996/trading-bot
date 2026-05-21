@@ -2018,4 +2018,47 @@ None. No position at ≤-7%.
 
 - Trades this week: 0 of 3
 - Watch: TXN +20% trigger $331.32 (+9.2% away); AMZN cut line $254.49 ($10.66 cushion)
+
+---
+
+## 2026-05-21 - Market-Open (09:33 ET)
+
+**Portfolio:** $103,344.33 equity | **Cash:** $31,188.75 (30.2%) | **Deployed:** 69.8% | **Daytrade count:** 0
+
+### Step 0 — Reconciliation
+All 5 positions match broker exactly. AMAT fractional (0.707 sh, order bf04a9f8) confirmed sold — no AMAT in broker positions. Clean.
+
+### Live Prices at Open (09:33 ET)
+| Ticker | Entry | Bid | Ask | P&L% | Stop (GTC) | Status |
+|--------|-------|-----|-----|------|-----------|--------|
+| AMZN | $273.64 | $261.59 | $261.74 | -4.40% | $250.02 (10% trail, a7a75899) | HOLD |
+| AVGO | $424.99 | $417.33 | $434.32 | -1.80% | $387.75 (10% trail, 6a7bc8d9) | HOLD |
+| GOOGL | $398.61 | $384.05 | $384.32 | -3.65% | $367.75 (10% trail, 4e322e3f) | HOLD |
+| NVDA | $220.20 | $222.03 | $226.00 | +0.83% | $212.89 (10% trail, c35a1ad1) | HOLD |
+| TXN | $276.10 | $300.85 | $302.46 | +8.97% | $287.55 (7% trail, fe276bad) | HOLD |
+
+All 5 GTC trailing stops confirmed active.
+
+### Trade Candidate Evaluated
+- **AMD** (inline pre-market research — no May 21 research log entry found):
+  - Catalyst: NVDA beat confirmed hyperscaler AI capex surge; AMD has Meta+OpenAI 6GW MI450 commitments for H2 2026
+  - Pre-market: -3.6%; opening bid/ask $419.20/$464.10 — **10.7% spread (too wide)**
+  - Analyst consensus PT $472, Strong Buy (41/51 analysts)
+  - Sector: Semiconductors; adding AMD → semi sector at 48.5% of portfolio (under 60% cap)
+  - **REJECTED** — opening spread too wide for safe notional execution; semi concentration elevated; Philly Semi +50% in 6 weeks (extension risk)
+
+### Actions Taken
+**NO TRADES.** Watch AMD for better entry at midday if spread normalizes and price stabilizes.
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 |
+| 2 | AVGO | 37.196 | $424.99 | $387.75 (10% trail, 6a7bc8d9) | $430.84 |
+| 3 | GOOGL | 39.657 | $398.61 | $367.75 (10% trail, 4e322e3f) | $408.61 |
+| 4 | NVDA | 48.316 | $220.20 | $212.89 (10% trail, c35a1ad1) | $236.54 |
+| 5 | TXN | 53 | $276.10 | $287.55 (7% trail, fe276bad) | $309.19 |
+
+- Trades this week: 0 of 3
+- AMD watch: entry ~$425-430, stop ~$382-387, target ~$470, R:R ~2:1 — revisit midday if spread normalizes
 - Watch: NVDA — HWM $236.54 must be broken for stop to trail up further (+6.5% from current $222.15)

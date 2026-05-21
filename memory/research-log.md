@@ -2839,3 +2839,57 @@ None. At 6/6 position max; all deployed capital has GTC stops protecting. No new
 - AMZN ⚠️: stop $250.02 is the automatic exit; only $4.06 above manual cut line; do NOT move stop; let trail do its job
 - FOMC minutes + NVDA = elevated after-hours volatility; all stops active
 
+---
+
+## 2026-05-21 - Pre-market Research (inline, run during market-open)
+
+### Account
+- Equity: $103,344.33
+- Cash: $31,188.75 (30.2%)
+- Buying power: $134,533.08
+- Daytrade count: 0
+- Open positions: 5 (AMZN, AVGO, GOOGL, NVDA, TXN)
+- Deployed: ~69.8%
+
+### Market Context
+- S&P 500 futures: +0.09% (flat after +1.08% rally May 20)
+- Nasdaq: flat/slightly positive
+- VIX: eased (market stabilizing post-NVDA beat)
+- NVDA Q1 FY27: Revenue $81.6B (+85% YoY), EPS $1.87 vs $1.76 est (+6.3% beat); Data Center $75.25B (+92%); new $80B buyback; stock reaction muted (-0.6% AH after +1.3% intraday May 20) — typical sell-the-news
+- Iran deal: US in "final stages" of negotiations; Trump skeptical; WTI ~$100 (down from $120 March peak); Hormuz closure may end
+- Sector leaders May 20: Technology +2.11%, Consumer Discretionary +2.39%; Energy -2.08%
+- Quantum computing: IONQ +8.3%, QBTS +18%, RGTI +15% (not in our universe)
+- Philly Semiconductor Index: +50% in 6 weeks (elevated extension risk)
+
+### Position Review
+| Ticker | Bid (9:33 ET) | P&L% | Stop | Status |
+|--------|---------------|------|------|--------|
+| AMZN | $261.59 | -4.40% | $250.02 | HOLD — cut line $254.49, $7.10 cushion |
+| AVGO | $417.33 | -1.80% | $387.75 | HOLD — AI ASIC thesis intact post-NVDA beat |
+| GOOGL | $384.05 | -3.65% | $367.75 | HOLD — Cloud +28% thesis intact |
+| NVDA | $222.03 | +0.83% | $212.89 | HOLD — post-earnings muted; stop trails |
+| TXN | $300.85 | +8.97% | $287.55 | HOLD — +20% trigger $331.32 (+10.2% away) |
+
+### Trade Ideas
+1. **AMD** — catalyst: NVDA confirmed hyperscaler AI capex surge; Meta+OpenAI 6GW MI450 commitments H2 2026; MSFT confirmed buyer; Q1 EPS beat; consensus PT $472 (Strong Buy, 41/51 analysts)
+   - Pre-market: -3.6%; opening bid/ask $419.20/$464.10 (10.7% spread)
+   - Entry target: ~$425-430 (wait for spread normalization)
+   - Stop: ~$383-387 (10% below ask)
+   - Target: ~$470 (consensus PT)
+   - R:R: ~2:1
+   - Sector: Semiconductors — semi allocation would rise to 48.5% (under 60% cap)
+   - **Status: WATCH — do not enter at open; revisit midday**
+
+### Risk Factors
+- NVDA sell-the-news reaction may dampen broader semi enthusiasm today
+- Philly Semi +50% in 6 weeks — mean reversion risk
+- Iran deal uncertainty (Trump doubts) — WTI volatile
+- AMZN -4.40% and approaching cut line; any gap down risks trigger
+- Opening spreads extremely wide (AMD $45 spread = 10.7%)
+
+### Decision
+**NO TRADE at market open.**
+- AMD rejected: spread too wide for safe execution, semi concentration elevated
+- All 5 positions HOLD with active GTC stops
+- Revisit AMD at midday if price settles ~$425-430 and spread normalizes to <1%
+
