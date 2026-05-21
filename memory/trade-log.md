@@ -2132,3 +2132,18 @@ None. No cuts, no stop changes, no new entries.
 - Watch: TXN stop $287.55 is 3.3% below current — thin cushion; acceptable; cannot move down per rules
 - Watch: AVGO -3% from entry; thesis intact; stop $387.75 provides adequate buffer
 - AMD invalidated for entry today (>5% gap rule, R:R < 1:1)
+
+---
+
+### May 21 - EOD Snapshot (Day 23, Thursday)
+**Portfolio:** $103,438.62 | **Cash:** $31,188.75 (30.2%) | **Day P&L:** -$510.41 (-0.49%) | **Phase P&L:** +$3,438.62 (+3.44%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AMZN | 56 | $273.64 | $268.46 | +$3.45 (+1.30%) | -$290.08 (-1.89%) | $250.02 (10% trail, HWM $277.80) |
+| AVGO | 37.196 | $424.99 | $414.69 | -$3.07 (-0.74%) | -$383.12 (-2.42%) | $387.75 (10% trail, HWM $430.84) |
+| GOOGL | 39.657 | $398.61 | $387.88 | -$1.03 (-0.27%) | -$425.53 (-2.69%) | $367.75 (10% trail, HWM $408.61) |
+| NVDA | 48.316 | $220.20 | $219.50 | -$3.97 (-1.78%) | -$33.82 (-0.32%) | $212.89 (10% trail, HWM $236.54) |
+| TXN | 53 | $276.10 | $298.39 | -$6.49 (-2.13%) | +$1,181.34 (+8.07%) | $287.55 (7% trail, HWM $309.19) |
+
+**Notes:** No trades today (0 of 3 used this week). Portfolio -$510.41 (-0.49%) in a broad tech/semi selloff continuation — NVDA sell-the-news extended despite massive Q1 FY27 beat ($82B rev +85% YoY; Q2 guide $91B vs $87B est). AMZN was the only green position (+1.30%), recovering from -5.26% unrealized lows toward -1.89% now. TXN -2.13% intraday and now only 3.7% above its 7% trailing stop ($287.55); stop cannot be moved down per rules — let it auto-execute if breached. AVGO -2.42% and GOOGL -2.69% unrealized remain well above -7% cut thresholds. NVDA -0.32% unrealized — HWM $236.54 not yet broken post-earnings; stop $212.89 solid cushion. Reconciliation clean: all 5 positions match broker exactly. Deployment 69.8% (target 75-85%) — below target but max 5 positions occupied. No new entries viable today (AMD >5% gap rule, 5 positions at limit). Tomorrow: assess if TXN stop triggers and whether to redeploy into AMAT/AMD if spread normalizes.
