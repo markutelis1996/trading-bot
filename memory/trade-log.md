@@ -1945,3 +1945,77 @@ All 6 positions match broker. No overnight stop-outs.
 | TXN | 53 | $276.10 | $302.31 | +$1.71 (+0.57%) | +$1,389.10 (+9.49%) | $287.55 (7% trail, HWM $309.19) |
 
 **Notes:** AMAT trailing stop ($400.05) triggered intraday — 36 shares stopped out at ~$406.81, realized -$858. Cash rises from $16,243 to $30,888 post-fill. Broad selloff continued: AMZN -2.12%, AVGO -2.29%, GOOGL -2.35%, NVDA -0.76%; only TXN green (+0.57%). AMZN now -5.26% unrealized (cut line $254.49, current $259.25 — $4.76 above cut; stop $250.02). GOOGL -2.76% and AVGO -3.28% both holding above thresholds. NVDA earnings AMC tonight (May 20) — binary event; existing 10% trail at $212.89 protects; semi concentration ~55%. Portfolio now 70% deployed post-AMAT exit. No new entries; 0/3 week slots used. FOMC minutes Wednesday 2PM coincides with NVDA earnings day — double catalyst.
+
+---
+
+## 2026-05-21 - Midday Scan
+
+**Portfolio:** ~$103,892 equity | **Cash:** $30,888 (29.7%) | **Positions:** 5 (+AMAT frac sold) | **Deployed:** ~70.3% | **Phase P&L:** ~+$3,892 (+3.89%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|-----------|--------|
+| AMAT | 0.707 (frac) | 0.707 | ✓ → SELL ORDER PLACED |
+| AMZN | 56 | 56 | ✓ |
+| AVGO | 37.196 | 37.196 | ✓ |
+| GOOGL | 39.657 | 39.657 | ✓ |
+| NVDA | 48.316 | 48.316 | ✓ |
+| TXN | 53 | 53 | ✓ |
+
+Clean. No stop-outs since May 19 EOD. All 5 GTC trailing stops active (AMZN a7a75899, AVGO 6a7bc8d9, GOOGL 4e322e3f, NVDA c35a1ad1, TXN fe276bad).
+
+### AMAT Fractional Cleanup
+- Sell order placed: 0.707 sh market, order ID bf04a9f8 (fills at next open ~$427)
+- Est. realized P&L: 0.707 × ($427 - $430.65) ≈ **-$2.58**
+- Reason: planned cleanup (no GTC stop, planned since May 20 pre-market)
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|---------------|-----|--------|
+| AMZN | 56 | $273.64 | $265.15 | -3.10% | +0.05% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+| AVGO | 37.196 | $424.99 | $419.30 | -1.34% | +0.37% | $387.75 (10% trail, 6a7bc8d9) | $430.84 | HOLD |
+| GOOGL | 39.657 | $398.61 | $389.95 | -2.17% | +0.27% | $367.75 (10% trail, 4e322e3f) | $408.61 | HOLD |
+| NVDA | 48.316 | $220.20 | $222.15 | +0.89% | -0.59% | $212.89 (10% trail, c35a1ad1) | $236.54 | HOLD |
+| TXN | 53 | $276.10 | $303.01 | +9.75% | -0.61% | $287.55 (7% trail, fe276bad) | $309.19 | HOLD |
+
+### Step 3 — Cuts
+None. No position at ≤-7%.
+- AMZN closest: -3.10% from entry; -7% cut threshold = $254.49; current $265.15 = $10.66 above cut line ✓
+
+### Step 4 — Stop Tightening
+- TXN +9.75%: on 7% trail; +20% trigger = $331.32 — not reached. No action.
+- NVDA +0.89%: +15% trigger $253.23 — not reached. No action.
+- AVGO/GOOGL/AMZN: underwater or below threshold. No action.
+
+### Step 5 — Thesis Check
+- **NVDA**: Post-earnings sell-the-news reaction (muted +~0-1% vs May 19 close despite massive beat). Fundamentals exceptional. Thesis INTACT/STRENGTHENED. HOLD.
+- **TXN**: +9.75% unrealized; analog semi cycle intact; BofA $320 PT. HOLD.
+- **AVGO**: Recovering from May 19 low ($411→$419); AI ASIC/hyperscaler demand intact; NVDA beat confirms hyperscaler AI capex surge. HOLD.
+- **GOOGL**: Recovering ($387→$390); Google Cloud +28% thesis intact. HOLD.
+- **AMZN**: Recovering ($259→$265); AWS +28% thesis intact; cut line $254.49 now $10.66 below current. HOLD.
+
+### Step 6 — NVDA Earnings Research (AMC May 20)
+- **Revenue:** $82B (+85% YoY, +20% QoQ) vs $78.82B est → BEAT by $3.2B
+- **EPS:** ~$2.39 (non-GAAP) vs ~$1.76 est → BEAT by ~36%
+- **Data Center:** $75B (+92% YoY, +21% QoQ)
+- **Jensen:** "Demand has gone parabolic"; compute spend toward $3-4T for hyperscalers
+- **Stock reaction:** Muted (+0-2% from May 19 close) — typical sell-the-news after a 6%+ pre-earnings run; stock had already priced in a major beat
+- **Impact on other positions:** AVGO/TXN/GOOGL all benefit from confirmed hyperscaler AI capex acceleration
+- **Market context:** S&P 500 +1.1%, 10-year Treasury yields easing — broad recovery from May 15–19 selloff
+
+### Actions Taken
+- AMAT fractional: sell 0.707 sh (market order bf04a9f8, cleanup — see above)
+- No cuts, no stop changes, no new entries
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 |
+| 2 | AVGO | 37.196 | $424.99 | $387.75 (10% trail, 6a7bc8d9) | $430.84 |
+| 3 | GOOGL | 39.657 | $398.61 | $367.75 (10% trail, 4e322e3f) | $408.61 |
+| 4 | NVDA | 48.316 | $220.20 | $212.89 (10% trail, c35a1ad1) | $236.54 |
+| 5 | TXN | 53 | $276.10 | $287.55 (7% trail, fe276bad) | $309.19 |
+
+- Trades this week: 0 of 3
+- Watch: TXN +20% trigger $331.32 (+9.2% away); AMZN cut line $254.49 ($10.66 cushion)
+- Watch: NVDA — HWM $236.54 must be broken for stop to trail up further (+6.5% from current $222.15)
