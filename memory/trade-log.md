@@ -2263,3 +2263,19 @@ None. No cuts, no stop changes, no new entries.
 - Trades this week: 1 of 7 (MU bought this morning)
 - Watch: TXN — +20% tighten trigger at $331.32 (5.2% away); monitor for ATR check at trigger
 
+---
+
+### May 22 - EOD Snapshot (Day 24, Friday)
+**Portfolio:** $103,454.31 | **Cash:** $15,609.53 (15.1%) | **Day P&L:** +$16.94 (+0.02%) | **Phase P&L:** +$3,454.31 (+3.45%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AMZN | 56 | $273.64 | $266.50 | -$1.96 (-0.73%) | -$399.84 (-2.61%) | $250.02 (10% trail, HWM $277.80) |
+| AVGO | 37.196 | $424.99 | $414.14 | -$0.43 (-0.10%) | -$403.58 (-2.55%) | $387.75 (10% trail, HWM $430.84) |
+| GOOGL | 39.657 | $398.61 | $383.50 | -$4.16 (-1.07%) | -$599.23 (-3.79%) | $367.75 (10% trail, HWM $408.61) |
+| MU | 20.649 | $754.46 | $751.58 | -$2.88 (-0.38%) | -$59.47 (-0.38%) | $702.18 (10% trail, HWM $780.20) |
+| NVDA | 48.316 | $220.20 | $215.19 | -$4.32 (-1.97%) | -$242.07 (-2.28%) | $212.89 (10% trail, HWM $236.54) |
+| TXN | 53 | $276.10 | $309.21 | +$10.82 (+3.63%) | +$1,754.80 (+12.00%) | $293.48 (7% trail, HWM $315.57) |
+
+**Notes:** Portfolio essentially flat (+$16.94 / +0.02%) as TXN's +3.63% surge offset broad weakness across the other five names. MU was bought at the morning open ($754.46, 20-share GTC stop at $702.18); it closed at $751.58, -0.38% from entry — trailing stop has already auto-trailed to $702.18 (HWM $780.20). TXN +12.00% unrealized continues to re-rate; HWM $315.57, stop $293.48 (7% trail); +20% tighten trigger at $331.32 is 7.2% away — watch Monday open. NVDA stop proximity is the key risk: current $215.19 vs stop $212.89 = only 1.1% cushion; no thesis break but thin. GOOGL -3.79% unrealized is deepest underwater; stop $367.75 provides $15.75 buffer. Reconciliation clean: all 6 broker positions match log exactly. Deployment 84.9% (target 75-85%) — fully deployed. 1 trade this week (MU); 6 slots remain. Monday: TXN +20% trigger watch, NVDA stop proximity monitor, assess any new setups if a stop fires.
+
