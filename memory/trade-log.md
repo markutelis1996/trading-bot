@@ -2201,3 +2201,65 @@ Clean. All 5 GTC trailing stops active. TXN stop auto-trailed: HWM $313.15 → s
 - Trades this week: 1 of 7
 - Watch: TXN +13.19% — +15% tighten trigger at $317.52 (+1.6% away); monitor closely
 - Watch: MU — AI memory thesis; stop $679.53 protects floor
+
+## 2026-05-22 - Midday Scan
+
+**Portfolio:** ~$104,368 equity | **Cash:** ~$15,609 | **Positions:** 6 | **Deployed:** ~85.0% | **Phase P&L:** ~+$4,368 (+4.37%)**
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN   | 56      | 56         | ✓      |
+| AVGO   | 37.196  | 37.196240  | ✓      |
+| GOOGL  | 39.657  | 39.657886  | ✓      |
+| MU     | 20.649  | 20.649484  | ✓      |
+| NVDA   | 48.316  | 48.316621  | ✓      |
+| TXN    | 53      | 53         | ✓      |
+
+Clean. MU trailing stop auto-trailed since morning entry: stop $679.53→$694.33, HWM $755.03→$771.48 ✓ (price climbed post-entry).
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|---------------|-----|--------|
+| AMZN | 56 | $273.64 | $267.66 | -2.19% | -0.30% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+| AVGO | 37.196 | $424.99 | $413.86 | -2.62% | -0.17% | $387.75 (10% trail, 6a7bc8d9) | $430.84 | HOLD |
+| GOOGL | 39.657 | $398.61 | $385.91 | -3.19% | -0.45% | $367.75 (10% trail, 4e322e3f) | $408.61 | HOLD |
+| MU | 20.649 | $754.46 | $769.65 | +2.01% | +0.99% | $694.33 (10% trail, 61379954) | $771.48 | HOLD |
+| NVDA | 48.316 | $220.20 | $217.16 | -1.38% | -1.07% | $212.89 (10% trail, c35a1ad1) | $236.54 | HOLD |
+| TXN | 53 | $276.10 | $314.84 | +14.03% | +5.51% | $293.12 (7% trail, fe276bad) | $315.18 | HOLD ⚠️ |
+
+### Step 3 — Cuts
+None. All above -7% rule.
+
+### Step 4 — Stop Tightening
+- **TXN** +14.03%: already on 7% trail (tightened previously). Next action at +20% ($331.32). Current $314.84 is 5.2% below trigger. No action.
+- **MU** +2.01%: below +15% threshold. No action.
+- All others below threshold. No action.
+
+### Step 5 — Thesis Check
+- **TXN** (+5.51% intraday): Q1 2026 beat-and-raise continuation momentum; Tradingkey confirms "TXN moved up 4.69% on May 22 on robust Q1 results"; reaching new 52-week highs. Thesis INTACT/STRENGTHENED. Stop $293.12 (7% trail, HWM $315.18) protects +6.2% from entry.
+- **MU** (+0.99% intraday): AI memory demand thesis intact; HBM/DRAM hyperscaler demand continuing. Trailing stop auto-adjusting correctly. INTACT.
+- **NVDA** (-1.07% intraday): Minor pullback; AI inference thesis unchanged; HWM $236.54 intact. INTACT.
+- **AMZN** (-0.30% intraday): Quiet; AWS AI cloud thesis intact. INTACT.
+- **AVGO** (-0.17% intraday): Minor drift; AI networking/custom silicon thesis intact. INTACT.
+- **GOOGL** (-0.45% intraday): Minor drift; AI search + Cloud thesis intact. INTACT.
+
+### Step 6 — Intraday Research (TXN)
+TXN +5.51% intraday. Catalyst confirmed: continuation of Q1 2026 beat-and-raise (EPS $1.68 vs $1.36 est; Q2 guide raised). New 52-week high territory. BofA Buy/$320 PT in play. Silicon Labs acquisition ($7.5B) + second price increase July 1 add to thesis. **NOT a thesis break — sustained re-rating.** No action beyond monitoring +20% trigger at $331.32.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 |
+| 2 | AVGO | 37.196 | $424.99 | $387.75 (10% trail, 6a7bc8d9) | $430.84 |
+| 3 | GOOGL | 39.657 | $398.61 | $367.75 (10% trail, 4e322e3f) | $408.61 |
+| 4 | MU | 20.649 | $754.46 | $694.33 (10% trail, 61379954) | $771.48 |
+| 5 | NVDA | 48.316 | $220.20 | $212.89 (10% trail, c35a1ad1) | $236.54 |
+| 6 | TXN | 53 | $276.10 | $293.12 (7% trail, fe276bad) | $315.18 |
+
+- Trades this week: 1 of 7 (MU bought this morning)
+- Watch: TXN — +20% tighten trigger at $331.32 (5.2% away); monitor for ATR check at trigger
+
