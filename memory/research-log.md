@@ -2893,3 +2893,99 @@ None. At 6/6 position max; all deployed capital has GTC stops protecting. No new
 - All 5 positions HOLD with active GTC stops
 - Revisit AMD at midday if price settles ~$425-430 and spread normalizes to <1%
 
+
+---
+
+## 2026-05-22 - Pre-market Research
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN   | 56      | 56         | ✓      |
+| AVGO   | 37.196  | 37.196240  | ✓      |
+| GOOGL  | 39.657  | 39.657886  | ✓      |
+| NVDA   | 48.316  | 48.316621  | ✓      |
+| TXN    | 53      | 53         | ✓      |
+
+Clean. All 5 GTC trailing stops active (IDs confirmed in orders).
+
+### Account Snapshot
+- Equity: $103,949.19
+- Cash: $31,188.75 (30.0%)
+- Long MV: $72,760.44
+- Deployed: ~70.0% (below 75-85% target — room for 1-2 new positions)
+- Daytrade count: 0
+
+### Market Context
+- **S&P 500 futures**: +0.35% (7,492) — modestly green
+- **Nasdaq 100 futures**: +0.47%
+- **VIX**: 16.76 (-3.90% from 17.44) — declining, calming trend
+- **WTI**: $97.46 (-0.28%) / **Brent**: $103.89 (+1.28%) — flat; Iran peace deal hopes moderating oil
+- **Economic calendar today**: Consumer Sentiment final (10am ET), Leading Economic Indicators April (10am), Fed Gov Waller speech (10am). No CPI/FOMC/jobs.
+- **BMO earnings today**: BJ's Wholesale Club (BJ, Q1), Booz Allen Hamilton (BAH, Q4), Frontline (FRO) — none in our sectors
+- **Sector YTD leadership**: Energy +26-38% #1, Materials +9-12%, Industrials. Tech recovering but was worst YTD early 2026.
+- **S&P 500 YTD**: +7.78% (Yahoo). Market overall recovered from March lows.
+- **Yesterday notable movers**: ARM +16.16%, ENPH +17.29%, IBM +12.43%, MU +4.11%, QBTS +33%, RGTI +30% (quantum surge)
+
+### Position Status (pre-market quotes)
+| Ticker | Pre-mkt | Unrealized P&L | Stop | HWM | Status |
+|--------|---------|----------------|------|-----|--------|
+| AMZN | $268.75 (+0.11%) | -1.79% | $250.02 (10% trail) | $277.80 | HOLD |
+| AVGO | $417.29 (+0.65%) | -1.81% | $387.75 (10% trail) | $430.84 | HOLD |
+| GOOGL | $390.20 (+0.65%) | -2.11% | $367.75 (10% trail) | $408.61 | HOLD |
+| NVDA | $220.52 (+0.46%) | +0.14% | $212.89 (10% trail) | $236.54 | HOLD |
+| TXN | $303.01 (+1.55%) | +9.75% | $287.55 (7% trail) | $309.19 | HOLD — stop 5.1% below |
+
+All positions recovering modestly in pre-market. No stops at risk.
+
+### Politician Signals (Step 3b)
+- **Pelosi (Jan 26, 2026 disclosure)**: AMZN buy $500K-$1M (trade date Jan 16), GOOGL buy $500K-$1M, NVDA buy $250K-$500K — all already in portfolio. No new May disclosures found.
+- **McCaul (May 11, 2026 disclosure)**: Municipal bonds (non-tradeable), ALH (private), NSIT $15-50K (traded Apr 23), EQT $15-50K, OMF $15-50K — all below $25K minimum threshold. **Watchlist only.**
+- **Gottheimer (May 20, 2026 disclosure)**: AMD buy $1K-$15K (traded Apr 23/27), GS buy $1K-$15K, FCX buy $1K-$15K — all below $25K min. **Watchlist only.**
+- **Crenshaw, Tuberville, Khanna, Green, Mast**: No recent disclosures found in May 2026 window.
+- **Verdict**: No actionable politician signals today. No whitelist politician meeting $25K threshold with a new buy.
+
+### Crypto Research (Step 3c)
+- **BTC**: ~$76,749 (range $75-82K last 30 days). Whale accumulation increasing (Hyperliquid net longs at 2026 high), but price flat/mild downtrend from $97K Jan highs. Below 50-day MA (bearish), above 200-day MA (bullish). RSI neutral.
+- **ETH**: ~$2,130. RSI 60.93 (neutral). Below 50-day SMA (bearish), above 200-day SMA (bullish). Volume weak.
+- **Crypto verdict**: No confirmed catalyst for entry. BTC in $75-82K consolidation — neither RSI extreme nor MA crossover. SKIP crypto today.
+
+### Trade Ideas (Step 3d — LIVE QUOTES REQUIRED)
+Evaluated: MU, IBM, ARM, MRVL after yesterday's large moves.
+- **MU**: Alpaca quote: bid $65.25 / ask $764.80 — after-hours spread >1000%, unusable. **SKIP** (rule: skip if quote unusable).
+- **IBM**: bid $236.24 / ask $265.85 — after-hours spread 12%, unusable. **SKIP**.
+- **ARM**: ask $0 (no market maker). **SKIP**.
+- **MRVL**: bid $178.99 / ask $199.06 — spread 11%, unusable pre-market. Earnings AMC May 27 — binary event risk. **SKIP**.
+- **No valid live-price trade ideas available pre-market** — all candidate quotes have after-hours spreads >5%. Per rule, cannot trade on stale prices.
+
+→ **Watch at market open**: MU (Micron) — AI memory demand confirmed, +4% yesterday on strong DRAM thesis. If open spread normalizes to <1% and entry ~$755-765, stop ~$679, target ~$917 (20% up), R:R 2:1. Sector: Tech/Semi (would push semi allocation to ~59% — near 60% cap). Hold entry decision until 9:45 ET.
+
+### Risk Factors
+- Semi concentration: NVDA+AVGO+TXN+potential MU = ~58-59% approaching 60% cap
+- TXN: stop $287.55 is 5.1% below current $303 — let trail do its job; cannot move down
+- NVDA: post-earnings consolidation; HWM $236.54 not broken; stop cushion 3.5% adequate
+- VIX declining but VIX futures in contango (Jun 19.4, Jul 21.17) — tail risk persists
+- Iran deal: still uncertain; WTI spike risk if talks break down
+- Fed Gov Waller speech at 10am — potential rate/inflation comment volatility
+- Deployment at 70%, below 75-85% target — could add 1 position but need live-price confirmation
+
+### Decision
+**HOLD ALL — NO NEW TRADES (pre-market)**
+- All 5 positions healthy; stops active; theses intact
+- No politician signals meet $25K threshold
+- All candidate quote spreads unusable pre-market
+- Revisit MU at 9:45 ET if spread normalizes and semi allocation allows (<60%)
+- Trades this week: 0 of 7 (LEARNING MODE limit)
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 |
+| 2 | AVGO | 37.196 | $424.99 | $387.75 (10% trail, 6a7bc8d9) | $430.84 |
+| 3 | GOOGL | 39.657 | $398.61 | $367.75 (10% trail, 4e322e3f) | $408.61 |
+| 4 | NVDA | 48.316 | $220.20 | $212.89 (10% trail, c35a1ad1) | $236.54 |
+| 5 | TXN | 53 | $276.10 | $287.55 (7% trail, fe276bad) | $309.19 |
+
+- Trades this week: 0 of 7
+- Watch at open: MU — only if spread <1% and semi allocation stays under 60% cap
+
