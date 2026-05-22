@@ -2147,3 +2147,57 @@ None. No cuts, no stop changes, no new entries.
 | TXN | 53 | $276.10 | $298.39 | -$6.49 (-2.13%) | +$1,181.34 (+8.07%) | $287.55 (7% trail, HWM $309.19) |
 
 **Notes:** No trades today (0 of 3 used this week). Portfolio -$510.41 (-0.49%) in a broad tech/semi selloff continuation — NVDA sell-the-news extended despite massive Q1 FY27 beat ($82B rev +85% YoY; Q2 guide $91B vs $87B est). AMZN was the only green position (+1.30%), recovering from -5.26% unrealized lows toward -1.89% now. TXN -2.13% intraday and now only 3.7% above its 7% trailing stop ($287.55); stop cannot be moved down per rules — let it auto-execute if breached. AVGO -2.42% and GOOGL -2.69% unrealized remain well above -7% cut thresholds. NVDA -0.32% unrealized — HWM $236.54 not yet broken post-earnings; stop $212.89 solid cushion. Reconciliation clean: all 5 positions match broker exactly. Deployment 69.8% (target 75-85%) — below target but max 5 positions occupied. No new entries viable today (AMD >5% gap rule, 5 positions at limit). Tomorrow: assess if TXN stop triggers and whether to redeploy into AMAT/AMD if spread normalizes.
+
+---
+
+## 2026-05-22 - Market-Open (10:13 ET)
+
+**Portfolio:** $103,861.43 equity | **Cash:** ~$15,609 | **Deployed:** ~85.0% | **Daytrade count:** 0
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN   | 56      | 56         | ✓      |
+| AVGO   | 37.196  | 37.196240  | ✓      |
+| GOOGL  | 39.657  | 39.657886  | ✓      |
+| NVDA   | 48.316  | 48.316621  | ✓      |
+| TXN    | 53      | 53         | ✓      |
+
+Clean. All 5 GTC trailing stops active. TXN stop auto-trailed: HWM $313.15 → stop $291.23 (was $287.55).
+
+### Live Prices at Open (10:13 ET)
+| Ticker | Entry | Ask | P&L% | Stop (GTC) | Status |
+|--------|-------|-----|------|-----------|--------|
+| AMZN | $273.64 | $268.11 | -2.02% | $250.02 (10% trail, a7a75899) | HOLD |
+| AVGO | $424.99 | $414.89 | -2.38% | $387.75 (10% trail, 6a7bc8d9) | HOLD |
+| GOOGL | $398.61 | $385.21 | -3.36% | $367.75 (10% trail, 4e322e3f) | HOLD |
+| NVDA | $220.20 | $216.94 | -1.48% | $212.89 (10% trail, c35a1ad1) | HOLD |
+| TXN | $276.10 | $312.51 | +13.19% | $291.23 (7% trail, fe276bad, HWM $313.15) | HOLD |
+
+### Trade Executed — MU (Micron Technology)
+- **Catalyst:** AI memory demand confirmed; DRAM strength; MU +4.11% yesterday; hyperscaler AI capex acceleration (NVDA Q1 FY27 beat) drives HBM/DRAM demand surge
+- **Entry:** $754.46 avg fill | **Notional:** $15,579.21 (15% of equity)
+- **Filled qty:** 20.649 shares | **Stop covers:** 20 integer shares (0.649 fractional unprotected per rule 14)
+- **Trailing stop:** 10% GTC, stop $679.53, HWM $755.03, order ID 61379954
+- **Target:** ~$905 (+20% from entry) | **R:R:** ~2.0:1
+- **Sector post-trade:** Semiconductors 55.9% of portfolio (< 60% cap ✓)
+- **Buy order ID:** d48faa39
+
+### Rules Verified
+- Positions: 6/6-8 ✓ | Trades this week: 1/7 ✓ | Size: 15% ✓
+- Sector cap: 55.9% < 60% ✓ | Daytrade count: 0 ✓ | Deployment: ~85% ✓
+- Spread at entry: 0.62% ✓ | R:R: 2.0:1 ✓
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 |
+| 2 | AVGO | 37.196 | $424.99 | $387.75 (10% trail, 6a7bc8d9) | $430.84 |
+| 3 | GOOGL | 39.657 | $398.61 | $367.75 (10% trail, 4e322e3f) | $408.61 |
+| 4 | NVDA | 48.316 | $220.20 | $212.89 (10% trail, c35a1ad1) | $236.54 |
+| 5 | TXN | 53 | $276.10 | $291.23 (7% trail, fe276bad) | $313.15 |
+| 6 | MU | 20.649 | $754.46 | $679.53 (10% trail, 61379954, covers 20 int. shares) | $755.03 |
+
+- Trades this week: 1 of 7
+- Watch: TXN +13.19% — +15% tighten trigger at $317.52 (+1.6% away); monitor closely
+- Watch: MU — AI memory thesis; stop $679.53 protects floor
