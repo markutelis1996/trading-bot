@@ -2328,3 +2328,31 @@ None. No cuts, no stop changes, no new entries. Markets closed (Memorial Day).
 - Iran/Hormuz deal confirmation: potential tech/AI relief rally catalyst if signed.
 - Trades this week: 0 of 7 (new week May 26-30)
 
+
+---
+
+### May 25 - EOD Snapshot (Memorial Day — Market Closed)
+**Portfolio:** $103,415.59 | **Cash:** $15,609.53 (15.1%) | **Day P&L:** $0.00 (market closed) | **Phase P&L:** +$3,415.59 (+3.42%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AMZN | 56 | $273.64 | $266.32 | — | -$409.92 (-2.68%) | $250.02 (10% trail, HWM $277.80) |
+| AVGO | 37.196 | $424.99 | $414.14 | — | -$403.58 (-2.55%) | $387.75 (10% trail, HWM $430.84) |
+| GOOGL | 39.657 | $398.61 | $382.97 | — | -$620.25 (-3.92%) | $367.75 (10% trail, HWM $408.61) |
+| MU | 20.649 | $754.46 | $751.00 | — | -$71.45 (-0.46%) | $702.18 (10% trail, HWM $780.20) |
+| NVDA | 48.316 | $220.20 | $215.33 | — | -$235.30 (-2.21%) | $212.89 (10% trail, HWM $236.54) |
+| TXN | 53 | $276.10 | $309.21 | — | +$1,754.80 (+12.00%) | $293.48 (7% trail, HWM $315.57) |
+
+**Notes:** Memorial Day — US markets closed. No trading. Portfolio flat vs May 22 close. Broker reconciliation clean: all 6 positions match log, all 6 trailing stops intact. TXN continues to lead at +12.00% unrealized; +15% tighten trigger at $317.52 is 2.7% above last close — watch Tuesday open. NVDA stop proximity remains key risk ($215.33 vs stop $212.89, 1.1% cushion). GOOGL deepest underwater at -3.92%. New trading week starts May 26; 0 trades used this week.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 |
+| 2 | AVGO | 37.196 | $424.99 | $387.75 (10% trail, 6a7bc8d9) | $430.84 |
+| 3 | GOOGL | 39.657 | $398.61 | $367.75 (10% trail, 4e322e3f) | $408.61 |
+| 4 | MU | 20.649 | $754.46 | $702.18 (10% trail, 61379954) | $780.20 |
+| 5 | NVDA | 48.316 | $220.20 | $212.89 (10% trail, c35a1ad1) | $236.54 |
+| 6 | TXN | 53 | $276.10 | $293.48 (7% trail, fe276bad) | $315.57 |
+
+- Trades this week: 0 of 3 (week May 26-30)
