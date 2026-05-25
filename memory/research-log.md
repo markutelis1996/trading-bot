@@ -2989,3 +2989,99 @@ Evaluated: MU, IBM, ARM, MRVL after yesterday's large moves.
 - Trades this week: 0 of 7
 - Watch at open: MU — only if spread <1% and semi allocation stays under 60% cap
 
+---
+
+## 2026-05-25 - Pre-market Research
+
+**Note: Memorial Day — US markets CLOSED. Research targets Tuesday May 26 open.**
+
+### Account (as of May 22 EOD close)
+- Equity: $103,415.59
+- Cash: $15,609.53
+- Long MV: $87,806.06
+- Deployed: ~84.9% (within 75-85% target band)
+- Daytrade count: 0 of 3
+
+### Reconciliation (STEP 0)
+All 6 broker positions match trade log exactly — no discrepancies, no stop-outs over long weekend.
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AMZN   | 56      | 56.000000  | ✓      |
+| AVGO   | 37.196  | 37.196240  | ✓      |
+| GOOGL  | 39.657  | 39.657886  | ✓      |
+| MU     | 20.649  | 20.649484  | ✓      |
+| NVDA   | 48.316  | 48.316621  | ✓      |
+| TXN    | 53      | 53.000000  | ✓      |
+
+### Open Positions (May 22 close — stale, market closed)
+| # | Ticker | Shares | Entry | Stop | HWM | May 22 Close | Unreal P&L |
+|---|--------|--------|-------|------|-----|--------------|------------|
+| 1 | AMZN   | 56     | $273.64 | $250.02 (10% trail) | $277.80 | — | — |
+| 2 | AVGO   | 37.196 | $424.99 | $387.75 (10% trail) | $430.84 | — | — |
+| 3 | GOOGL  | 39.657 | $398.61 | $367.75 (10% trail) | $408.61 | $382.97 | -3.9% |
+| 4 | MU     | 20.649 | $754.46 | $702.18 (10% trail) | $780.20 | — | — |
+| 5 | NVDA   | 48.316 | $220.20 | $212.89 (10% trail) | $236.54 | $215.33 | -2.2% |
+| 6 | TXN    | 53     | $276.10 | $293.48 (7% trail)  | $315.57 | — | ~+12% |
+
+*All prices stale — quotes returned market-closed flag. Verify live at Tue 9:30 ET.*
+
+### Risk Flags
+- **NVDA CRITICAL**: Stop $212.89 vs May 22 close $215.33 = only 1.1% cushion. Any gap-down Tuesday may trigger stop-out. CANNOT move stop down per rules. Acceptable outcome — let stop work.
+- **TXN**: ~+12% unrealized. Tighten trigger at +15% = $317.52 (close ~$309; ~2.7% away). Watch closely at Tuesday open.
+- **GOOGL**: -3.9% unrealized. Stop at $367.75 / price $382.97 = 4.0% above stop. Within normal range.
+
+### Market Context
+**Macro:**
+- S&P 500 (May 22 close): 7,473.47 (+0.37%) | Dow: 50,579.70 | Nasdaq: 26,343.97
+- VIX: 16.70 (declining — bullish signal)
+- **Iran/Hormuz deal**: Trump said deal "largely negotiated" — 60-day ceasefire draft, Hormuz reopening; Iran can sell oil again. NOT yet signed. WTI -5.75% to $91.05, Brent -5.47% to $97.88.
+  - BULLISH for tech/AI: oil drop → inflation relief → yield compression → P/E expansion
+  - Risk: deal could collapse before signing
+
+**Economic Calendar (week of May 26):**
+- Tue: Consumer Confidence
+- Thu: Durable Goods, New Home Sales
+- **Fri: GDP 2nd estimate + April PCE** (key inflation print — market-moving)
+
+**Earnings this week:**
+- Tue AMC: AZO, ZS
+- **Wed AMC: MRVL** ← watch, CRM, SNPS, SNOW
+- Thu AMC: DELL, COST, ADSK
+
+**Sector Momentum (YTD):**
+- Energy +38.3% | Technology +17.68% | Materials +9.7% | Semis strong
+
+### Capitol Trades (last 45 days, whitelist only)
+No qualifying stock buys found ($25k+ threshold, stocks only):
+- Pelosi: All options/LEAPs — disqualified
+- Gottheimer: MSFT options May 20 — options = disqualified; other trades <$25k or options
+- McCaul: Municipal bonds only — not equities
+- Tuberville: Last traded Dec 2025 — outside 45-day window
+- Khanna/Crenshaw/Green/Mast: No recent disclosures found
+
+**Signal: NONE**
+
+### Crypto
+- BTC: $76,988 (+0.41%), 7-day trend DOWN from $82k+
+- RSI: NOT <30 — entry criteria NOT met
+- **Decision: HOLD, no new crypto entries**
+
+### Trade Ideas (verify live Tuesday open)
+**MRVL — Pre-earnings consideration (AMC May 27):**
+- Est EPS: $0.75 | 4 consecutive beats | AI networking tailwind
+- Stale close: ~$195 (quote spread unusable pre-holiday)
+- CANNOT confirm entry — must verify spread normalizes by 9:45 ET Tuesday
+- Only viable if NVDA stops out (currently at cap: 6 positions, 84.9% deployed)
+- If NVDA fires: evaluate MRVL entry with proceeds
+
+**No other setups.** Deployed at cap, position count at cap.
+
+### Decision
+**HOLD all 6 positions into Tuesday open.**
+- Iran deal = potential relief rally catalyst (tech/AI/semis)
+- NVDA stop may fire (acceptable — 1.1% cushion; let stop work)
+- If NVDA stops out: evaluate MRVL pre-earnings entry
+- TXN: monitor for +15% tighten trigger ($317.52)
+- PCE Friday = key risk event; avoid new positions unless strong setup
+- Trades this week: 0 of 7 used (new week)
+
