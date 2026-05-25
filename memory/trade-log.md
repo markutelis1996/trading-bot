@@ -2279,3 +2279,52 @@ None. No cuts, no stop changes, no new entries.
 
 **Notes:** Portfolio essentially flat (+$16.94 / +0.02%) as TXN's +3.63% surge offset broad weakness across the other five names. MU was bought at the morning open ($754.46, 20-share GTC stop at $702.18); it closed at $751.58, -0.38% from entry — trailing stop has already auto-trailed to $702.18 (HWM $780.20). TXN +12.00% unrealized continues to re-rate; HWM $315.57, stop $293.48 (7% trail); +20% tighten trigger at $331.32 is 7.2% away — watch Monday open. NVDA stop proximity is the key risk: current $215.19 vs stop $212.89 = only 1.1% cushion; no thesis break but thin. GOOGL -3.79% unrealized is deepest underwater; stop $367.75 provides $15.75 buffer. Reconciliation clean: all 6 broker positions match log exactly. Deployment 84.9% (target 75-85%) — fully deployed. 1 trade this week (MU); 6 slots remain. Monday: TXN +20% trigger watch, NVDA stop proximity monitor, assess any new setups if a stop fires.
 
+---
+
+## 2026-05-25 - Midday Scan (Memorial Day — Markets CLOSED)
+
+**Portfolio:** $103,415.59 (May 22 EOD) | **Cash:** $15,609.53 | **Positions:** 6 | **Deployed:** ~84.9%
+
+### Step 0 — Reconciliation
+All 6 broker positions match log exactly — no stop-outs over long weekend.
+| Ticker | Log Qty | Broker Qty | Stop (broker) | HWM (broker) | Match |
+|--------|---------|------------|---------------|--------------|-------|
+| AMZN | 56 | 56.000 | $250.02 (10%) | $277.80 | ✓ |
+| AVGO | 37.196 | 37.196240 | $387.75 (10%) | $430.84 | ✓ |
+| GOOGL | 39.657 | 39.657886 | $367.75 (10%) | $408.61 | ✓ |
+| MU | 20.649 | 20.649484 | $702.18 (10%) | $780.20 | ✓ |
+| NVDA | 48.316 | 48.316621 | $212.89 (10%) | $236.54 | ✓ |
+| TXN | 53 | 53.000 | $293.48 (7%) | $315.57 | ✓ |
+
+### Position Status (prices stale — May 22 close; market closed today)
+| Ticker | Shares | Entry | May 22 Close | P&L% | Stop | HWM | Status |
+|--------|--------|-------|--------------|------|------|-----|--------|
+| AMZN | 56 | $273.64 | $266.32 | -2.68% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+| AVGO | 37.196 | $424.99 | $414.14 | -2.55% | $387.75 (10% trail, 6a7bc8d9) | $430.84 | HOLD |
+| GOOGL | 39.657 | $398.61 | $382.97 | -3.92% | $367.75 (10% trail, 4e322e3f) | $408.61 | HOLD |
+| MU | 20.649 | $754.46 | $751.00 | -0.46% | $702.18 (10% trail, 61379954) | $780.20 | HOLD |
+| NVDA | 48.316 | $220.20 | $215.33 | -2.21% | $212.89 (10% trail, c35a1ad1) | $236.54 | HOLD ⚠️ |
+| TXN | 53 | $276.10 | $309.21 | +11.99% | $293.48 (7% trail, fe276bad) | $315.57 | HOLD |
+
+### Step 3 — Cuts
+None. Worst is GOOGL at -3.92% — above -7% cut rule.
+
+### Step 4 — Stop Tightening
+- TXN +11.99%: below +15% trigger ($317.52). No action.
+- All others below threshold. No action.
+
+### Step 5 — Thesis Check
+All theses intact per May 25 pre-market research. No intraday news (market closed).
+
+### Step 6 — Intraday Research
+N/A — market closed.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries. Markets closed (Memorial Day).
+
+### Key Watch for Tuesday May 26 Open
+- **NVDA**: Stop $212.89 vs close $215.33 = 1.1% cushion. Gap-down risk — let stop work per rules.
+- **TXN**: +15% tighten trigger = $317.52 (~2.7% above close $309.21). Watch at open.
+- Iran/Hormuz deal confirmation: potential tech/AI relief rally catalyst if signed.
+- Trades this week: 0 of 7 (new week May 26-30)
+
