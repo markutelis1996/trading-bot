@@ -3085,3 +3085,101 @@ No qualifying stock buys found ($25k+ threshold, stocks only):
 - PCE Friday = key risk event; avoid new positions unless strong setup
 - Trades this week: 0 of 7 used (new week)
 
+---
+
+## 2026-05-26 - Pre-market Research
+
+### Account
+- Equity: $104,872.06
+- Cash: $15,609.53
+- Buying power: $120,481.59
+- Daytrade count: 0
+- Open positions: 6
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN   | 56      | 56.000     | ✓      |
+| AVGO   | 37.196  | 37.196240  | ✓      |
+| GOOGL  | 39.657  | 39.657886  | ✓      |
+| MU     | 20.649  | 20.649484  | ✓      |
+| NVDA   | 48.316  | 48.316621  | ✓      |
+| TXN    | 53      | 53.000     | ✓      |
+
+Clean — no overnight stop-outs over Memorial Day weekend. All 6 GTC trailing stops active and confirmed.
+
+### Market Context
+- WTI: ~$91.84 (-4.93% premarket) / Brent: ~$97.59-$98.53 — oil plunging on Iran peace deal optimism
+- S&P 500 futures: +0.69% (~7,536) | Nasdaq 100 futures: +0.93% | Dow futures: -0.33% (divergence)
+- VIX: ~16.59 (from May 22 close; low fear, bullish backdrop)
+- 10-yr Treasury: ~4.55% (from May 22; elevated but off highs)
+- Major catalyst: Trump declared Iran peace deal "largely negotiated"; Strait of Hormuz to reopen per MOU framework; oil -5%+ premarket. Deal not finalized — "last-minute disputes" possible.
+- Earnings before open today: None major (US large-cap)
+- This week: MRVL, CRM, SNPS AMC May 27 | GDP Q1 2nd estimate + PCE inflation data May 28 (MAJOR RISK)
+- Consumer Confidence (CB): Due today 10 AM ET — Michigan Sentiment at record low 48.20; expect weak print
+- Sector momentum YTD: Semis +38.6% ★ | Semi Equipment +71.65% ★ | Computer Hardware +111.79% | Energy declining (-1.12% on May 21, rotating out on Iran deal)
+
+### Position Status (live broker prices)
+| Ticker | Shares | Entry | Current | P&L% | Premarket Chg | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|--------------|-----------|-----|--------|
+| AMZN | 56 | $273.64 | $268.47 | -1.89% | +0.81% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+| AVGO | 37.196 | $424.99 | $418.01 | -1.64% | +0.93% | $387.75 (10% trail, 6a7bc8d9) | $430.84 | HOLD |
+| GOOGL | 39.657 | $398.61 | $386.15 | -3.13% | +0.83% | $367.75 (10% trail, 4e322e3f) | $408.61 | HOLD |
+| MU | 20.649 | $754.46 | $779.69 | +3.34% | +3.82% | $702.18 (10% trail, 61379954) | $780.20 | HOLD ✓ |
+| NVDA | 48.316 | $220.20 | $216.89 | -1.50% | +0.72% | $212.89 (10% trail, c35a1ad1) | $236.54 | HOLD ⚠️ thin |
+| TXN | 53 | $276.10 | $315.28 | +14.19% | +1.96% | $293.48 (7% trail, fe276bad) | $315.57 | HOLD ★ |
+
+### Rule Checks
+- TXN +14.19%: already on 7% trail (changed May 15). Next trigger: +20% = $331.32 (+5.1% away). No action.
+- MU +3.34%: +15% trigger = $867.63 — far off. No action.
+- NVDA: stop $212.89 vs current $216.89 = 1.85% cushion (thin). Premarket +0.72% helps marginally. Cannot move stop. Let trail auto-update if price advances.
+- GOOGL -3.13%: -7% cut threshold = $370.71. Current $386.15 = $15.44 above cut line. HOLD.
+- AVGO -1.64%: -7% cut threshold = $395.24. Current $418.01 = $22.77 above cut. HOLD.
+- AMZN -1.89%: -7% cut threshold = $254.49. Current $268.47 = $13.98 above cut. HOLD.
+- Deployment: ~84.9% (target 75-85%) ✓
+- Daytrade count: 0/3 ✓
+- Positions: 6/6-8 (at soft cap; 2 more slots available if stops fire)
+
+### Capitol Trades (Whitelist Check — last 45 days)
+- Pelosi: Most recent trades Jan 26, 2026 (GOOGL/AMZN/NVDA options = disqualified; no stock buys in 45-day window)
+- Khanna: May 13 disclosure (Apr 27 trade): SOLD MU $1K-$15K at $524.56 (below $25K threshold; left $255/share on the table); SOLD GOOGL small; BOUGHT non-tech diversified names. No qualifying buys.
+- Gottheimer: May 20 disclosure: Bought AMD $1K-$15K (Apr 27, below $25K threshold). No qualifying buys.
+- McCaul, Tuberville, Green, Crenshaw, Mast: No new qualifying disclosures found in last 45 days.
+- **Conclusion: No whitelist politician qualifying stock buys ($25K+) this cycle. Politician signal = ABSENT.**
+
+### MRVL Pre-Earnings Watch (AMC May 27)
+- Reports tomorrow AMC; est EPS $0.75, Rev est ~$2.4B guidance
+- Prior 4 quarters: beat every quarter (avg +10%+ EPS surprise); FY26 record $8.2B rev (+42% YoY)
+- AI custom silicon (ASICs for Apple, Google, Meta) = same thesis as AVGO
+- If beats + raises → positive catalyst for AVGO (sentiment spillover)
+- Entry window would be May 28 morning if beat confirmed — BUT PCE data same day = conflicting risk
+- **Skip entry on MRVL unless stop fires AND PCE risk manageable**
+
+### Crypto Check
+- BTC: ~$77,362 (May 22); not oversold (RSI not <30). Iran peace deal = slight risk-ON tailwind. No entry criteria met.
+- No crypto positions; no action.
+
+### Trade Ideas
+**None actionable today.** Portfolio fully deployed at 85% (6 positions). No new entries unless a GTC stop fires.
+
+If NVDA stop fires ($212.89):
+- Freed capital ~$10,450 (~10% of equity)
+- Primary candidate: MRVL (if May 27 beat confirmed) — wait for May 28 open, but weigh PCE risk
+- Alternative: QCOM (saw +11% on May 22 on semi re-rating — but gap already too wide; skip)
+
+### Risk Factors
+1. **NVDA stop proximity** — $212.89 vs $216.89 (1.85%). Any intraday dip of >1.85% triggers exit. Acceptable; let stop work.
+2. **PCE inflation data May 28** — Q1 2026 PCE was +4.3% core (stagflation-adjacent); if April PCE still hot → rate hike fear → tech selloff. MAJOR event this week.
+3. **Consumer confidence record low** — 48.20 (lowest in 70+ years per Trading Economics). Today's CB print at 10 AM ET could add volatility.
+4. **Iran deal not finalized** — "largely negotiated" ≠ done. Last-minute dispute over Hormuz tolls/enriched uranium stockpile could reverse oil/market move.
+5. **MRVL/CRM earnings AMC May 27** — binary for tech/AI sentiment; AVGO particularly exposed to MRVL result.
+6. **Sector concentration** — 4 of 6 positions in Semiconductors/Tech; if sector rotates, multiple positions move simultaneously.
+
+### Decision
+**HOLD all 6 positions.** Iran peace deal optimism + oil drop = tailwind for tech/growth. All GTC stops protect downside.
+- NVDA: let stop auto-execute if breached; no manual intervention
+- TXN: next trigger $331.32 (+20%); watch closely
+- MU: AI memory thesis strongest in book (+3.82% premarket — thesis validating)
+- PCE May 28 = key risk; no new positions initiated this week unless very clean setup post-stop-fire
+- Trades this week: 0 of 7 used
+
