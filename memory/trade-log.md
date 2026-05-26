@@ -2356,3 +2356,100 @@ None. No cuts, no stop changes, no new entries. Markets closed (Memorial Day).
 | 6 | TXN | 53 | $276.10 | $293.48 (7% trail, fe276bad) | $315.57 |
 
 - Trades this week: 0 of 3 (week May 26-30)
+
+---
+
+## 2026-05-26 - Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Suspected Cause | Realized P&L |
+|--------|---------|------------|-----------------|--------------|
+| NVDA | 48.316 | 0.316621 | 10% trailing stop c35a1ad1 fired 11:54 AM ET; fill $212.713333/sh (HWM $236.54, stop $212.886) | -$359.36 |
+| AMZN | 56 | 56 | ✓ | — |
+| AVGO | 37.196 | 37.196240 | ✓ | — |
+| GOOGL | 39.657 | 39.657886 | ✓ | — |
+| MU | 20.649 | 20.649484 | ✓ | — |
+| TXN | 53 | 53 | ✓ | — |
+
+### NVDA — Stopped Out (48 integer shares)
+- Entry $220.20 × 48 shares | Exit $212.7133 × 48 shares
+- Realized P&L: 48 × ($212.7133 - $220.20) = **-$359.36**
+- Stop triggered 11:54 AM ET; NVDA dipped intraday below $212.886 then recovered to $213.76
+- Hold period: May 11 → May 26 (11 trading days). Return: -3.40% on position
+- 0.316621 fractional shares remain (no GTC stop; ~$67 value)
+- Semiconductor sector loss #2 (counter: 2 losses — NVDA May 4 stop-out, NVDA May 26 stop-out)
+
+### MU — Stop Tightened 10% → 7%
+- MU at $898.85 = +19.14% from entry ($754.46); +15% trigger ($867.63) crossed → tighten rule triggered
+- ATR14 confirmed >4% of price (MU surged ~$754→$899 = +19% in 4 trading days; high-vol stock → tighten to 7% only, not 5%)
+- Cancelled: order 61379954 (10% trail, stop $809.46, HWM $899.40)
+- Placed: order **867707e4** (7% trail, stop $835.5585, HWM $898.45)
+- Stop moved UP from $809.46 → $835.56 ✓ (never move stop down rule preserved)
+- 3% rule check: 7% stop $835.56 vs current $898.85 = 7.0% below current price (>3% clearance ✓)
+
+---
+
+## 2026-05-26 - Midday Scan
+
+**Portfolio:** ~$81,263 long MV | **Cash:** ~$27,000 est (post-NVDA stop) | **Positions:** 5 active (+NVDA frac) | **Phase P&L:** ~+$4,000 est
+
+### Step 0 — Reconciliation
+See above — NVDA 48-share stop-out; all other 5 positions match broker exactly.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|---------------|-----|--------|
+| AMZN | 56 | $273.64 | $262.51 | -4.07% | -1.43% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD ⚠️ |
+| AVGO | 37.196 | $424.99 | $423.035 | -0.46% | +2.15% | $391.78 (10% trail, 6a7bc8d9) | $435.31 | HOLD |
+| GOOGL | 39.657 | $398.61 | $386.84 | -2.95% | +1.01% | $367.75 (10% trail, 4e322e3f) | $408.61 | HOLD |
+| MU | 20.649 | $754.46 | $898.85 | +19.14% | +19.69% | $835.56 (7% trail, 867707e4, NEW) | $898.45 | HOLD ★ |
+| NVDA | 0.316 | $220.20 | $213.76 | — | -0.73% | N/A (fractional) | — | fractional only |
+| TXN | 53 | $276.10 | $323.755 | +17.26% | +4.70% | $303.57 (7% trail, fe276bad) | $326.42 | HOLD ★ |
+
+### Step 3 — Cuts
+None. No position at ≤-7%.
+- AMZN closest: -4.07% from entry; -7% cut threshold = $254.49; current $262.51 = $8.02 above cut line. Monitor.
+
+### Step 4 — Stop Tightening
+- **MU** +19.14%: **TIGHTENED** — 10%→7% trail (cancelled 61379954; placed 867707e4, stop $835.56, HWM $898.45). Next trigger at +25% = $943.08 (partial profit rule: sell 1/3 at +25%).
+- **TXN** +17.26%: already on 7% trail. +20% trigger = $331.32 — current $323.755 is 2.3% below. No action.
+- All others below threshold. No action.
+
+### Step 5 — Thesis Check
+- **MU**: +19.69% intraday — **catalyst: UBS raised PT $535→$1,625 (Street-high)**, calling MU "AI-native infrastructure giant"; long-term supply agreements (LTAs) with MSFT Azure/Google Cloud/AWS covering 60-70% of server DDR5 volumes locked in through 2029; HBM4 capacity sold out for 2026; CEO confirmed fulfilling only 50-65% of customers' demand. Thesis MASSIVELY STRENGTHENED. **STRONG HOLD.**
+- **TXN**: +4.70% intraday — analog semi cycle / Q1 beat continuation; BofA $320 PT. HWM $326.42; stop $303.57. Approaching +20% tighten trigger ($331.32). INTACT.
+- **AVGO**: +2.15% intraday; AI ASIC/hyperscaler demand; MU UBS upgrade confirms AI capex acceleration (positive spillover). INTACT.
+- **GOOGL**: +1.01% intraday; Google Cloud +28% thesis intact; MU LTA with Google Cloud = direct validation. INTACT.
+- **AMZN**: -1.43% intraday; -4.07% from entry. Concern: approaching -7% cut line. No AMZN-specific adverse news — broad market drag / sector rotation. AWS +28% cloud/AI thesis unchanged. Stop $250.02 protecting. **MONITOR CLOSELY. Hold but -7% cut strictly enforced at $254.49.**
+- **NVDA**: Fractional remnant (0.316 sh, ~$67 value). Stopped out this morning.
+
+### Step 6 — Intraday Research
+**MU surge catalyst (11:54 AM stop-out preceded recovery):**
+- UBS analyst Timothy Arcuri raised PT $535→**$1,625** (Street-high, +204% from entry); re-rated MU as "AI-native infrastructure giant" with Nvidia-like earnings visibility through 2029
+- Long-term supply agreements (LTAs) with hyperscalers locking in 60-70% of server DDR5 volumes
+- HBM4 2026 capacity fully sold out; CEO: fulfilling only 50-65% of demand
+- MU +70% YTD at current levels; Motley Fool/analysts still see upside to $1,625 target
+- **Thesis impact: DRAMATIC STRENGTHENING** — MU is no longer a cyclical memory stock; it's an AI infrastructure platform with locked-in revenues
+- **Note:** NVDA stop triggered BEFORE MU's surge became apparent (11:54 AM fill at $212.71); no connection to MU news
+
+**Iran peace deal (continuing):**
+- Oil -5% premarket; deal "largely negotiated" per Trump; if confirmed → tech/growth relief rally ongoing today
+
+### Actions Taken
+1. **NVDA stop-out reconciled** — 48 shares stopped at $212.713, realized -$359.36
+2. **MU stop tightened** — 10%→7% trail (order 867707e4, stop $835.56, HWM $898.45)
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 |
+| 2 | AVGO | 37.196 | $424.99 | $391.78 (10% trail, 6a7bc8d9) | $435.31 |
+| 3 | GOOGL | 39.657 | $398.61 | $367.75 (10% trail, 4e322e3f) | $408.61 |
+| 4 | MU | 20.649 | $754.46 | $835.56 (7% trail, 867707e4) | $898.45 |
+| 5 | TXN | 53 | $276.10 | $303.57 (7% trail, fe276bad) | $326.42 |
+
+- Trades this week: 0 of 7
+- Watch: AMZN -4.07% approaching -7% cut ($254.49); cut strictly at threshold
+- Watch: TXN +20% trigger at $331.32 (2.3% away); check ATR14 at trigger
+- Watch: MU +25% partial profit at $943.08 (sell 1/3 = 6 integer shares, place new stop on remaining)
+- Watch: NVDA fractional 0.316 sh — sell at next clean session (not day-trade)
+
