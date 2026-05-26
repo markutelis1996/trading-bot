@@ -2453,3 +2453,50 @@ None. No position at ≤-7%.
 - Watch: MU +25% partial profit at $943.08 (sell 1/3 = 6 integer shares, place new stop on remaining)
 - Watch: NVDA fractional 0.316 sh — sell at next clean session (not day-trade)
 
+
+---
+
+## 2026-05-26 - Market Open (Day 25, Tuesday)
+**Portfolio:** $107,392 | **Cash:** $25,820 | **Positions:** 5 (+NVDA fractional) | **Deployed:** ~76%
+
+### Step 0 — Reconciliation vs Log
+| Ticker | Log Qty | Broker Qty | Stop (broker) | HWM (broker) | Match |
+|--------|---------|------------|---------------|--------------|-------|
+| AMZN | 56 | 56.000 | $250.02 (10%) | $277.80 | ✓ |
+| AVGO | 37.196 | 37.196240 | $391.78 (10%) | $435.31 | ✓ (HWM trailed up) |
+| GOOGL | 39.657 | 39.657886 | $367.75 (10%) | $408.61 | ✓ |
+| MU | 20.649 | 20.649484 | $835.70 (7%) | $898.60 | ✓ TIGHTENED (was 10%) |
+| NVDA | 48.316 | 0.316621 | — | — | STOPPED OUT ⚠️ |
+| TXN | 53 | 53.000 | $303.57 (7%) | $326.42 | ✓ (auto-trailed up) |
+
+### NVDA Stop-Out
+- **48 integer shares sold** via trailing stop c35a1ad1 (~$212.89 stop trigger)
+- Entry $220.20 → exit ~$212.89 = **-$350.88 (-3.3%)** on 48 shares
+- 0.316 fractional shares remain (no stop order; ~$67 — negligible)
+- Cash freed: ~$10,219
+
+### MU Trailing Stop Tightened (7%)
+- MU gapped up massively: $751 last close → $898.81 (+19.7%)
+- Old order 61379954 (10% trail, $702.18) replaced with **867707e4** (7% trail, HWM $898.60, stop $835.70)
+- Per strategy: tighten to 7% at +15% ✓ — Next trigger: 5% trail at +20% = $905.35 (check ATR14 first)
+
+### Live Position Status
+| Ticker | Shares | Price | P&L% | Stop | HWM | Status |
+|--------|--------|-------|-------|------|-----|--------|
+| AMZN | 56 | $262.54 | -4.1% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+| AVGO | 37.196 | $422.82 | -0.5% | $391.78 (10% trail, 6a7bc8d9) | $435.31 | HOLD |
+| GOOGL | 39.657 | $386.97 | -2.9% | $367.75 (10% trail, 4e322e3f) | $408.61 | HOLD |
+| MU | 20.649 | $898.81 | +19.1% | $835.70 (7% trail, 867707e4) | $898.60 | HOLD — +20% trigger at $905.35 |
+| NVDA | 0.316 | $213.67 | — | none | — | FRACTIONAL ONLY (stopped out) |
+| TXN | 53 | $323.94 | +17.3% | $303.57 (7% trail, fe276bad) | $326.42 | HOLD — +20% trigger at $331.32 |
+
+### Decision: HOLD — No New Trades
+- MRVL (pre-market candidate): earnings AMC tomorrow → skip; wait for post-earnings reaction Wednesday
+- Deployed 76% = within 75-85% target range
+- Trades this week: 0 of 3
+
+### Key Watches (rest of session)
+- **MU**: +20% tighten trigger $905.35 (0.7% away) → cancel 867707e4, place 5% trail (check ATR14 first; if >4% of price, stay 7%)
+- **TXN**: +20% tighten trigger $331.32 (2.3% away) → same ATR14 check → 5% trail
+- **MRVL**: evaluate entry Wednesday post-earnings if reaction is constructive
+
