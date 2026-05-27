@@ -2523,3 +2523,71 @@ None. No position at ≤-7%.
 - AMZN: monitor cut at $254.49; no action above that level
 - MRVL: evaluate post-earnings entry if constructive reaction
 
+
+---
+
+## 2026-05-27 - Market-Open Session
+
+**Portfolio:** $108,307.48 equity | **Cash:** $31,364.71 (29.0%) | **Deployed:** ~71.0% | **Phase P&L:** +$8,307.48 (+8.31%) | **Daytrade count:** 0
+
+### Step 0 — Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN   | 56      | 56.000     | ✓      |
+| AVGO   | 37.196  | 37.196240  | ✓      |
+| GOOGL  | 39.657  | 39.657886  | ✓      |
+| MU     | 20.649  | 20.649484  | ✓      |
+| NVDA   | 0.316   | 0.316621   | ✓      |
+| TXN    | 53      | 53.000     | ✓      |
+
+Clean — no overnight stop-outs. All 5 GTC stops active and confirmed.
+
+**Key observations vs log:**
+- MU broker HWM $955.96 (was $916.80) — +25% partial profit trigger ($943.08) already crossed during session
+- TXN broker HWM $331.51 (was $326.42) — +20% stop-tighten trigger ($331.32) crossed
+- NVDA 0.316 fractional still pending cleanup (safe to sell today — not a daytrade; original buy May 11)
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 4 (MU partial sell, NVDA fractional cleanup, MU new stop, TXN stop tighten)
+
+### Rule-Based Executions (not new entries; no weekly cap impact)
+
+**1. MU Partial Profit (+25% rule triggered)**
+- HWM $955.96 > +25% trigger $943.08 ✓; current price ~$912-943 at execution
+- Cancelled: stop 867707e4 (20 shares, 7% trail) to free shares
+- Sold: 6 integer shares @ **$912.945** avg fill (order 331a1461)
+- Realized P&L: 6 × ($912.945 - $754.46) = **+$950.91** (+21.0%)
+- Placed: new 7% trail on **14 integer shares** (order e96e092c, stop $866.11, HWM $931.30)
+- Note: ATR14 confirmed >4% of price (MU moved +19.7% in single day May 26); stay at 7%, NOT 5%
+- Remaining MU: 14 integer + 0.649 fractional (fractional unprotected per rule)
+
+**2. TXN Stop Tighten (7% → 5% at +20%)**
+- HWM $331.51 > +20% trigger $331.32 ✓
+- ATR14 estimated ~$7-10 ≈ 2.5-3% of $328 price → BELOW 4% threshold → tighten to 5%
+- Cancelled: fe276bad (53 shares, 7% trail, stop $308.30)
+- Placed: de34cfbc (53 shares, 5% trail, stop $310.14, HWM $326.46)
+- Stop moved UP: $308.30 → $310.14 ✓ (never move stop down rule preserved)
+
+**3. NVDA Fractional Cleanup**
+- Sold: 0.316621 shares @ **$212.502** (order f6c2adf0)
+- Realized P&L: -$2.44 (negligible)
+- NVDA position: FULLY CLOSED
+
+### Open Positions (post-execution)
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | HWM |
+|---|--------|--------|-------|---------|------|------|-----|
+| 1 | AMZN | 56 | $273.64 | ~$267 | -2.4% | $250.02 (10% trail, a7a75899) | $277.80 |
+| 2 | AVGO | 37.196 | $424.99 | ~$425 | +0.1% | $391.78 (10% trail, 6a7bc8d9) | $435.31 |
+| 3 | GOOGL | 39.657 | $398.61 | ~$390 | -2.2% | $367.75 (10% trail, 4e322e3f) | $408.61 |
+| 4 | MU | 14.649 | $754.46 | ~$917 | +21.5% | $866.11 (7% trail, e96e092c) | $931.30 |
+| 5 | TXN | 53 | $276.10 | ~$322 | +16.6% | $310.14 (5% trail, de34cfbc) | $326.46 |
+
+- Trades this week: 0 new entries (partial sells are rule executions, not new entries)
+- Watch: MU next partial profit at +40% = $1,056.24 → sell ~5 more integer shares
+- Watch: TXN +25% partial profit at $345.13 → sell ~18 integer shares (1/3 of 53)
+- Watch: AMZN -7% cut at $254.49; current ~$267 = $12.50 cushion
+- Watch: MRVL earnings AMC tonight — assess entry May 28 ONLY if stop fires AND PCE data benign
+- Watch: PCE inflation May 28 8:30 AM ET — MAJOR risk event; no new entries before data
+
