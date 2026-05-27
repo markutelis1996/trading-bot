@@ -2500,3 +2500,26 @@ None. No position at ≤-7%.
 - **TXN**: +20% tighten trigger $331.32 (2.3% away) → same ATR14 check → 5% trail
 - **MRVL**: evaluate entry Wednesday post-earnings if reaction is constructive
 
+
+---
+
+### May 27 - EOD Snapshot (Day 26, Wednesday)
+**Portfolio:** $108,067 | **Cash:** $25,820 (23.9%) | **Day P&L:** +$485 (+0.45%) | **Phase P&L:** +$8,067 (+8.07%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AMZN | 56 | $273.64 | $265.11 | -$0.18 (-0.07%) | -$477.68 (-3.12%) | $250.02 (10% trail, HWM $277.80) |
+| AVGO | 37.196 | $424.99 | $422.48 | +$0.47 (+0.11%) | -$93.36 (-0.59%) | $391.78 (10% trail, HWM $435.31) |
+| GOOGL | 39.657 | $398.61 | $388.07 | -$0.81 (-0.21%) | -$417.99 (-2.64%) | $367.75 (10% trail, HWM $408.61) |
+| MU | 20.649 | $754.46 | $917.20 | +$21.32 (+2.38%) | +$3,360.50 (+21.57%) | $852.62 (7% trail, HWM $916.80) |
+| NVDA | 0.316 | $220.20 | $214.04 | -$0.82 (-0.38%) | -$1.95 (fractional) | none |
+| TXN | 53 | $276.10 | $326.21 | +$1.32 (+0.41%) | +$2,655.80 (+18.15%) | $303.57 (7% trail, HWM $326.42) |
+
+**Notes:** Quiet positive session (+$485/+0.45%) driven entirely by MU extending to $917.20 (+21.57% from entry) and TXN ticking up to $326.21 (+18.15%). MU's 7% trailing stop auto-trailed to $852.62 on HWM $916.80 — the +25% partial profit trigger ($943.08, sell 6 integer shares) is now just 2.8% away. TXN remains 1.5% from the +20% tighten trigger ($331.32); ATR14 check required before placing 5% trail. AMZN is the key risk at -3.12% unrealized ($265.11 vs -7% cut line $254.49 = $10.62 cushion); no adverse news, AWS thesis intact, stop at $250.02 provides protection. GOOGL -2.64% unrealized, cloud thesis intact. AVGO holding near entry. No trades today; 0/3 this week. Deployed 76.1% (within 75-85% target).
+
+**Watches tomorrow (May 28, Thursday):**
+- MU: +25% partial profit at $943.08 → sell 6 shares integer; set new trail on remaining 14
+- TXN: +20% tighten trigger at $331.32 → cancel fe276bad, place 5% trail (check ATR14 first)
+- AMZN: monitor cut at $254.49; no action above that level
+- MRVL: evaluate post-earnings entry if constructive reaction
+
