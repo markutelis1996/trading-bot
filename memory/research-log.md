@@ -3183,3 +3183,108 @@ If NVDA stop fires ($212.89):
 - PCE May 28 = key risk; no new positions initiated this week unless very clean setup post-stop-fire
 - Trades this week: 0 of 7 used
 
+
+---
+
+## 2026-05-27 - Pre-market Research
+
+### Account
+- Equity: $108,073.44
+- Cash: $25,819.77
+- Buying power: $133,893.21 (2x margin; non-margined: $61,841)
+- Daytrade count: 0
+- Open positions: 5 (+NVDA 0.316 fractional)
+- Deployed: 76.1% ($82,254 long MV / $108,073 equity)
+
+### Step 0 — Reconciliation vs Log (2026-05-26 Market-Open)
+| Ticker | Log Qty | Broker Qty | Match | Stop (broker) | HWM (broker) |
+|--------|---------|------------|-------|---------------|--------------|
+| AMZN | 56 | 56.000 | ✓ | $250.02 (10% trail, a7a75899) | $277.80 |
+| AVGO | 37.196 | 37.196240 | ✓ | $391.78 (10% trail, 6a7bc8d9) | $435.31 |
+| GOOGL | 39.657 | 39.657886 | ✓ | $367.75 (10% trail, 4e322e3f) | $408.61 |
+| MU | 20.649 | 20.649484 | ✓ | $852.62 (7% trail, 867707e4, auto-trailed↑) | $916.80 |
+| NVDA | 0.316 | 0.316621 | ✓ | none (fractional) | — |
+| TXN | 53 | 53.000 | ✓ | $303.57 (7% trail, fe276bad) | $326.42 |
+
+**Clean — no overnight stop-outs.** MU stop auto-trailed: $835.56 → $852.62 (HWM $898.45 → $916.80) as MU continued rallying to $917.50 close.
+
+### Market Context
+- WTI: ~$91.84 (-2.2%) / Brent: ~$97.63 (-1.7%) — oil declining on Iran peace deal optimism
+- S&P 500 futures: +0.10% (~7,542; near ATH 7,539 set May 26)
+- Nasdaq 100 futures: +0.11% (~30,108)
+- Dow futures: +0.19% (~50,642) 
+- VIX: ~17.01 (mild uptick from 16.59 May 22 close; low fear, near-record equity backdrop)
+- Iran: US conducted "self-defense" strikes in southern Iran (missile sites, mine-laying boats) while ceasefire nominally holds; oil recovered from -5% to -2.2%. Peace deal NOT finalized — "last-minute disputes" ongoing. Binary geopolitical risk.
+- Consumer confidence (CB, May 26): Actual 93.1 vs 92.0 consensus — mild beat. (Different from Michigan Sentiment 44.8 which is at 70+ year low.)
+- Earnings before open today (May 27): None major
+- AMC today: MRVL (Q1 FY2027, est EPS $0.75, rev ~$2.40B), SNPS, HPQ
+- **Tomorrow May 28 MAJOR DATA**: PCE April (core est +0.3% m/m / +3.3% y/y), GDP Q1 2nd estimate, jobless claims, durable goods, personal income/spending — ALL at 8:30 AM ET. Dominant risk event for week.
+- Sector momentum: Semis #1 (SMH at 52-wk high; DRAM ETF +100% YTD); Tech +; Energy declining; Healthcare/Consumer weak
+
+### Position Status (May 26 close prices from broker)
+| Ticker | Shares | Entry | Close | P&L% | Stop | HWM | Status |
+|--------|--------|-------|-------|------|------|-----|--------|
+| AMZN | 56 | $273.64 | $265.11 | -3.1% | $250.02 (10%, a7a75899) | $277.80 | HOLD |
+| AVGO | 37.196 | $424.99 | $422.48 | -0.6% | $391.78 (10%, 6a7bc8d9) | $435.31 | HOLD |
+| GOOGL | 39.657 | $398.61 | $388.07 | -2.6% | $367.75 (10%, 4e322e3f) | $408.61 | HOLD |
+| MU | 20.649 | $754.46 | $917.50 | +21.6% | $852.62 (7%, 867707e4) | $916.80 | HOLD ★★ |
+| NVDA | 0.316 | $220.20 | $214.05 | — | none | — | frac only |
+| TXN | 53 | $276.10 | $326.21 | +18.1% | $303.57 (7%, fe276bad) | $326.42 | HOLD ★ |
+
+### Rule Checks
+- **MU +21.6%**: +25% partial profit trigger = **$943.08** (~$25.58 or +2.8% away). **ACTION READY**: when/if MU ≥ $943.08, sell 6 integer shares (1/3 of 20), cancel 867707e4, place new 7% trail stop on remaining 14 shares. Check ATR14 before placing — if >4%, stay at 7% (likely; MU is high-vol).
+- **TXN +18.1%**: +20% tighten trigger = **$331.32** (~$5.11 or +1.6% away). **WATCH**: when TXN ≥ $331.32, check ATR14 (if ≤4% of price → tighten to 5% trail; if >4% → stay 7%).
+- AMZN -3.1%: -7% cut threshold = $254.49; current $265.11 = $10.62 above. Hold.
+- GOOGL -2.6%: -7% cut threshold = $370.71; current $388.07 = $17.36 above. Hold.
+- AVGO -0.6%: -7% cut threshold = $395.24; current $422.48 = $27.24 above. Hold.
+- Deployment 76.1% ✓ (target 75-85%)
+- Daytrade count: 0/3 ✓
+- Sector concentration: Semis (AVGO+MU+TXN+NVDA) = ~48% of equity ✓ (under 60% cap)
+
+### Capitol Trades (Whitelist — last 45 days from May 27)
+Window: April 12 – May 27, 2026
+- **Pelosi**: Most recent disclosed trades Jan 16/26, 2026 (GOOGL, AMZN, NVDA exercises, AB buy) — outside 45-day window. No qualifying stock buys in window.
+- **Gottheimer**: May 20 disclosure: AMD buy $1K-$15K (Apr 27), NTES buy $1K-$15K (Apr 6) — both below $25K threshold. No qualifying buys.
+- **McCaul, Crenshaw, Tuberville, Khanna, Green, Mast**: No qualifying disclosures found in window.
+- **Conclusion: Politician signal = ABSENT. No whitelist qualifying buys.**
+- Top congressional traders scan: Thomas Kean (not whitelist) bought TXN $1K-$15K (Apr 14) — too small, not whitelist. No actionable signal.
+
+### MRVL Watch (AMC today)
+- Q1 FY2027: est EPS $0.75-$0.80, rev est $2.40B. Guided $2.3B-$2.5B range.
+- Track record: beat 4 consecutive quarters (avg +10% EPS surprise). FY2026 record rev $8.2B (+42% YoY).
+- AI custom silicon (ASICs for Apple/Google/Meta) + NVLink Fusion NVIDIA partnership announced — same AI ASIC thesis as AVGO.
+- Pre-earnings price: ~$195 (May 22 close); ask $218.22 (after-hours, wide spread).
+- IF beats tonight: potential entry May 28 open — BUT PCE data 8:30 AM May 28 = MAJOR conflicting risk.
+- SECTOR CAP CHECK: Current semis allocation ~48%. Adding MRVL at ~15% position ($16K, ~8 shares at ~$200) would push semis to ~63% — ABOVE 60% cap. **Cannot add MRVL unless a GTC stop fires first** (freeing both capital and slot).
+- **IF AVGO stop fires (most similar thesis)**: could replace with MRVL post-earnings IF beat + guides up + PCE manageable. Live quote needed at that time.
+
+### Crypto (LEARNING MODE)
+- BTC: ~$75,992 (-0.96% 24h; 7-day trend: $77,910 → $75,992 = -2.5%). RSI not available but price declining.
+- ETH: ~$2,075 (-1.22% 24h); RSI 14-day = 40.5 (sell signal). 7-day range $2,025–$2,147.
+- SOL: ~$83.80 (-1.07% 24h)
+- No BTC/ETH RSI <30 (oversold entry criteria not met); 7-day BTC trend negative (-2.5%).
+- Iran geopolitical flare-up = risk-OFF for crypto. No crypto entry criteria met.
+- **Crypto decision: NO TRADE.**
+
+### Trade Ideas
+**None actionable for market open today.** Portfolio fully deployed at 76.1% (5 positions at target allocation).
+
+Pre-positioned watches for intraday/tomorrow:
+1. **MU partial profit** (trigger $943.08): Sell 6 shares at market/limit; place 7% trail on 14 remaining. Catalyst: UBS $1,625 PT, AI memory supercycle, LTAs locked through 2029. NOT a new trade — rule execution.
+2. **TXN tighten** (trigger $331.32): Check ATR14 → 5% or stay 7%. Catalyst: analog semi cycle Q1 beat continuation, BofA $320 PT. NOT a new trade — rule execution.
+3. **MRVL post-earnings** (conditional): Only viable if stop fires AND PCE risk manageable. Entry range: live ask at May 28 open post-beat (est ~$200-220); stop 10% below; target 20% above.
+
+### Risk Factors
+1. **PCE inflation May 28 8:30 AM ET** — core PCE est +0.3% m/m / +3.3% y/y; if hot print → rate hike fear → tech selloff. MAJOR event; no new entries before data confirmed.
+2. **Iran "self-defense" strikes** — US hit missile sites/boats while ceasefire nominally active. Peace deal in flux; binary risk (deal finalized = oil -5%+ more, tech rally; breakdown = oil spike, risk-off).
+3. **MRVL/SNPS earnings AMC tonight** — binary for semi/AI sentiment. AVGO directly exposed to MRVL result.
+4. **AMZN** -3.1% from entry; -7% cut at $254.49. No AMZN-specific negative news. AWS/cloud thesis unchanged. Monitor; stop is protecting.
+5. **Sector concentration** — semis 48% of equity; MU surge (+21.6%) is driving concentration higher. Partial profit rule at $943.08 will reduce MU weight naturally.
+6. **MU high-vol risk** — stock moved +19.7% in single day (May 26). 7% trail = appropriate given ATR14 well above 4% of price.
+
+### Decision
+**HOLD all 5 positions. No new entries today.**
+- MU and TXN approaching rule-trigger thresholds; execute mechanically when hit.
+- PCE May 28 = key risk; no new positions initiated until post-data.
+- MRVL earnings tonight: watch; assess entry opportunity May 28 only if stop fires AND PCE data benign.
+- Trades this week: 0 of 7 used (week May 26-30)
