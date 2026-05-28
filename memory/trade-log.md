@@ -2591,3 +2591,26 @@ Clean — no overnight stop-outs. All 5 GTC stops active and confirmed.
 - Watch: MRVL earnings AMC tonight — assess entry May 28 ONLY if stop fires AND PCE data benign
 - Watch: PCE inflation May 28 8:30 AM ET — MAJOR risk event; no new entries before data
 
+
+---
+
+### May 28 - EOD Snapshot (Day 27, Thursday)
+**Portfolio:** $107,497.81 | **Cash:** $31,364.71 (29.2%) | **Day P&L:** -$569 (-0.53%) | **Phase P&L:** +$7,498 (+7.50%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AMZN | 56 | $273.64 | $271.26 | -$0.59 (-0.22%) | -$133.28 (-0.87%) | $250.02 (10% trail, HWM $277.80) |
+| AVGO | 37.196 | $424.99 | $419.78 | -$2.08 (-0.49%) | -$193.79 (-1.23%) | $391.78 (10% trail, HWM $435.31) |
+| GOOGL | 39.657 | $398.61 | $387.30 | -$1.53 (-0.39%) | -$448.53 (-2.84%) | $367.75 (10% trail, HWM $408.61) |
+| MU | 14.649 | $754.46 | $911.18 | -$17.23 (-1.86%) | +$2,295.87 (+20.77%) | $872.12 (7% trail, HWM $937.76) |
+| TXN | 53 | $276.10 | $317.00 | -$0.45 (-0.14%) | +$2,167.67 (+14.81%) | $310.14 (5% trail, HWM $326.46) |
+
+**Notes:** Mild down day (-$569/-0.53%) with all five positions closing lower in a broad tech pullback. MU led intraday losses at -1.86% ($911.18 close) but remains the portfolio's top performer at +20.77% unrealized; 7% trailing stop auto-trailed to $872.12 on HWM $937.76 — next trigger is +40% partial profit at $1,056.24 (16% away). TXN -0.14% on the day; 5% trail at $310.14 intact; +25% partial profit at $345.13 is 8.8% away. AMZN -0.87% unrealized ($271.26), still $16.77 above the -7% hard cut line ($254.49); no adverse news, AWS thesis intact. GOOGL -2.84% unrealized but thesis unchanged. AVGO -1.23% unrealized. No trades today; 0/3 new entries this week. Deployed 70.8% — slightly under 75-85% target; 1 new position possible if conviction setup arises. Tomorrow is Friday: weekly review required.
+
+**Watches (May 29, Friday):**
+- MU: +40% partial profit at $1,056.24 → sell ~5 integer shares, reset trail
+- TXN: +25% partial profit at $345.13 → sell ~18 integer shares (1/3 of 53)
+- AMZN: -7% hard cut strictly at $254.49 (monitor)
+- MRVL: post-earnings entry if constructive setup
+- Deployed 70.8% → scan for 1 new position to restore 75-85% deployment
+- Weekly review (Friday)
