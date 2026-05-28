@@ -3288,3 +3288,125 @@ Pre-positioned watches for intraday/tomorrow:
 - PCE May 28 = key risk; no new positions initiated until post-data.
 - MRVL earnings tonight: watch; assess entry opportunity May 28 only if stop fires AND PCE data benign.
 - Trades this week: 0 of 7 used (week May 26-30)
+
+---
+
+## 2026-05-28 - Pre-market Research
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN | 56 | 56 | ✓ |
+| AVGO | 37.196 | 37.196 | ✓ |
+| GOOGL | 39.657 | 39.657 | ✓ |
+| MU | 14.649 | 14.649 | ✓ |
+| TXN | 53 | 53 | ✓ |
+
+Clean. No overnight stop-outs. All 5 positions intact.
+
+### Account
+- Equity: $107,746.99
+- Cash: $31,364.71 (29.1%)
+- Deployed: ~71% (within 75-85% target range)
+- Daytrade count: 0
+- Phase P&L: +$7,746.99 (+7.75%)
+
+### Position Status (Alpaca live — early pre-market May 28)
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | HWM | Status |
+|---|--------|--------|-------|---------|------|------|-----|--------|
+| 1 | AMZN | 56 | $273.64 | $271.26 | -0.87% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+| 2 | AVGO | 37.196 | $424.99 | $419.78 | -1.23% | $391.78 (10% trail, 6a7bc8d9) | $435.31 | HOLD |
+| 3 | GOOGL | 39.657 | $398.61 | $387.30 | -2.84% | $367.75 (10% trail, 4e322e3f) | $408.61 | HOLD |
+| 4 | MU | 14.649 | $754.46 | $911.24 | +20.78% | $872.12 (7% trail, e96e092c) | $937.76 | HOLD — partial done May 27 |
+| 5 | TXN | 53 | $276.10 | $317.00 | +14.82% | $310.14 (5% trail, de34cfbc) | $326.46 | HOLD — tightened May 27 |
+
+Stop verification (Alpaca orders API):
+- TXN: 5% trail, stop $310.137, HWM $326.46 ✓
+- MU: 7% trail, stop $872.117, HWM $937.76 ✓
+- AVGO: 10% trail, stop $391.775, HWM $435.31 ✓
+- GOOGL: 10% trail, stop $367.749, HWM $408.61 ✓
+- AMZN: 10% trail, stop $250.02, HWM $277.80 ✓
+
+### Market Context
+- WTI: $91.07 (+2.7%) | Brent: $96.89 (+2.76%) — oil rebounding sharply; US struck Iranian military site overnight, peace talks stalled/reversed (was $88.50 yesterday on peace optimism)
+- S&P 500 futures: 7,529.75, -0.14% (flat/slightly negative pre-market)
+- VIX: 16.76 (low; declining from 18+ range — bullish environment despite oil spike)
+- Trades this week: 0 of 7 used (week May 26-30)
+
+### Macro Calendar (Today — HIGH IMPORTANCE)
+- **8:30 AM ET: PCE April** (est Core +3.3% YoY / +0.3% MoM vs 3.2% prior) — PRIMARY RISK EVENT
+- **8:30 AM ET: GDP Q1 2nd estimate** (est 2.0% annualized)
+- Do NOT initiate new positions before these two prints are confirmed benign.
+
+### Earnings
+- BMO today: DLTR, BURL, BBY — not relevant to portfolio or watchlist
+- AMC today: COST, GAP — not relevant
+- **MRVL (reported AMC May 27)**: EPS $0.80 actual vs $0.80 est (inline, -0.37% surprise). Stock -4.59% to $198.70 at close; AH bid ~$190 (further -4%). Weak forward reaction to "just met" numbers.
+
+### Capitol Trades (Whitelist Check)
+- **Pelosi**: Last disclosure Jan 26, 2026 (>120 days ago, outside 45-day window, all options). NO.
+- **Gottheimer**: May 20 disclosures all below $25k threshold. NO.
+- **McCaul, Crenshaw, Tuberville, Khanna, Green, Mast**: No qualifying $25k+ stock buys within 45 days.
+- **Signal: NONE actionable.**
+
+### Crypto Section
+- BTC: ~$74,332 (May 28 pre-market). RSI 30.337 (borderline oversold). MACD -690.7 (bearish). ADX = sell signal. 7-day trend: $79k → $74k (-6.3% declining).
+- ETH, SOL, AVAX, LINK: No entry criteria met.
+- **Crypto decision: NO TRADE.** RSI borderline but MACD bearish + 7-day trend negative = skip.
+
+### Sector Momentum
+| Sector | YTD | Status |
+|--------|-----|--------|
+| Energy | +22-38% | #1 — oil spike today reinforces |
+| Materials | ~+10% | momentum |
+| Comm Services | recovering | watchlist |
+| IT/Semis | recovering | portfolio exposed |
+| Financials | lagging | avoid |
+| Consumer Disc | lagging | avoid |
+
+### Position Thesis Check
+- **MU (+20.78%)**: INTACT — Barclays raised PT $1,175 (today May 28); BofA top pick reiterated; joined $1T market cap club May 26. HBM4/AI memory supercycle thesis intact. Partial profit executed May 27 (+$950.91 realized). 7% trail protecting gains. Next trigger: if MU reaches HWM again, trail auto-adjusts.
+- **TXN (+14.82%)**: INTACT — at 5% trail (tightened May 27). Stop $310.14, HWM $326.46. Approaching -7% cut territory only if drops hard today. Monitor for gap down on oil-driven macro fear.
+- **AVGO (-1.23%)**: INTACT — Q2 FY2026 earnings June 3 AMC (binary event upcoming). AI/networking thesis strong. Stop $391.78 protects.
+- **GOOGL (-2.84%)**: INTACT — Cloud +40% CC Q1 beat; thesis intact. Oil/macro headwind today. Stop $367.75 protecting.
+- **AMZN (-0.87%)**: INTACT — AWS +28% thesis. PCE-sensitive; stop $250.02 protecting.
+
+### Trade Ideas
+
+**1. MRVL — CONDITIONAL WATCHLIST (post-PCE only)**
+- Catalyst: Q1 FY2027 beat ($0.80 EPS met), Q2 FY2027 guide key; AI custom silicon (Amazon Trainium, Google TPU) multi-year design win cycle; stock -4.6% on "just met" may be overreaction if macro benign
+- AH indicated ~$190-193 at open (vs $198.70 prior close)
+- Sector concentration check: AVGO + MU + TXN + MRVL = semis ~56% of equity < 60% cap ✓
+- **Entry criteria** (ALL must be met):
+  1. PCE Core ≤ 3.4% YoY (benign)
+  2. GDP ≥ 1.5% (no shock miss)
+  3. Live ask ≤ $208.64 (≤5% gap from $198.70 close) — do NOT chase
+  4. Spread tight (regular hours only)
+- At $193 entry (est): stop $173.70 (10% trail), target $231.60 (20%), R:R 2:1
+- Position size: 15% of ~$108k = ~$16,200 → ~83 shares at ~$193
+- **If PCE hot or GDP miss: SKIP entirely**
+
+**2. All current positions: HOLD**
+- No rule triggers breached. All stops in place.
+- TXN approaching +15% threshold ($317.51) — if closes above, verify ATR14 before any further tightening. ATR14 likely >4% of price given recent volatility → stay at 5% (already tightened).
+
+**Not actionable today:**
+- AMZN/GOOGL/AVGO: already held, adding would breach position sizing rules
+- BTC/crypto: no entry criteria met
+
+### Risk Factors
+1. **PCE April 8:30 AM**: est Core 3.3% YoY — if hot (>3.5%) = rate hike fear, tech selloff. PRIMARY blocker for any new entry.
+2. **GDP Q1 2nd estimate 8:30 AM**: est 2.0% — if miss (<1.5%) = stagflation narrative.
+3. **Oil +2.7% overnight**: WTI $91.07, Brent $96.89 — peace deal reversal; further escalation could spike oil → risk-off → TXN/AVGO margin pressure narrative.
+4. **AVGO June 3 earnings**: Binary event in 6 days — position sizing discipline; do not add to AVGO.
+5. **TXN at 5% trail**: Stop $310.14 is tight; intraday volatility on macro data could trigger stop. Acceptable per rules (tightened at +20%).
+6. **Semi concentration 48-56%**: High but within 60% cap. No new semi positions unless MRVL replaces a stop-out.
+
+### Decision
+**HOLD all 5 positions. Conditional MRVL watch only.**
+- No new entries until 8:30 AM PCE + GDP data confirmed benign.
+- If benign: evaluate MRVL at open (live price ≤ $208.64 only).
+- If hot PCE or GDP miss: all-hold day, no new positions.
+- MU: thesis massively intact (Barclays $1,175 PT today); 7% trail appropriate given high ATR.
+- TXN: watch stop $310.14 closely today; oil macro could compress analog semi sentiment.
+- Trades this week: 0 of 7 used (week May 26-30)
