@@ -2594,6 +2594,66 @@ Clean — no overnight stop-outs. All 5 GTC stops active and confirmed.
 
 ---
 
+## 2026-05-28 - Market-Open Session
+
+**Portfolio:** $108,256.26 equity | **Cash:** $31,364.70 | **Positions:** 5 | **Deployed:** ~71.1% | **Daytrade count:** 0
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN | 56 | 56 | ✓ |
+| AVGO | 37.196 | 37.196240 | ✓ |
+| GOOGL | 39.657 | 39.657886 | ✓ |
+| MU | 14.649 | 14.649484 | ✓ |
+| TXN | 53 | 53 | ✓ |
+
+Clean — no overnight stop-outs.
+
+### Live Prices at Session Open
+| Ticker | Entry | Live | P&L% | Stop (broker) | HWM | Status |
+|--------|-------|------|------|---------------|-----|--------|
+| AMZN | $273.64 | $270.61 ask | -1.1% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+| AVGO | $424.99 | $423.98 | -0.2% | $391.78 (10% trail, 6a7bc8d9) | $435.31 | HOLD |
+| GOOGL | $398.61 | $388.19 | -2.6% | $367.75 (10% trail, 4e322e3f) | $408.61 | HOLD |
+| MU | $754.46 | $936.99 | +24.2% | $879.06 (7% trail, e96e092c, auto-trailed↑) | $945.23 | HOLD ★ |
+| TXN | $276.10 | $320.18 | +16.0% | $310.14 (5% trail, de34cfbc) | $326.46 | HOLD |
+
+**MU stop auto-trail note:** HWM trailed up $937.76 → $945.23 as MU hit new intraday high. Stop auto-trailed $872.12 → $879.06. No manual action required.
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 0 (NO NEW TRADES)
+
+### Macro Data (8:30 AM ET)
+- **PCE April Core YoY:** 3.31% (est 3.3%) — IN-LINE, BENIGN ✓ (threshold: ≤3.4%)
+- **GDP Q1 2nd estimate:** ~2.0% (in-line with advance) — BENIGN ✓
+
+### MRVL Evaluation (conditional from pre-market plan)
+- PCE benign ✓ | GDP benign ✓
+- MRVL live ask: **$213.03** vs prior close $198.70 = **+7.2% gap** → EXCEEDS 5% rule (max $208.64) ❌
+- Spread: $213.03 - $200.11 = $12.92 (6.4% wide) → too wide for safe execution ❌
+- **DECISION: SKIP** — gap rule and spread rule both violated
+
+### Rule Checks
+- No -7% cut triggers reached
+- MU first +25% partial (6 shares) already executed May 27; next trigger +40% ($1,056.24) — NOT reached (+24.2%)
+- TXN already at 5% trail (tightened May 27); +25% partial at $345.13 — NOT reached (+16.0%)
+- Sector concentration: Semis (AVGO+MU+TXN) ~48% < 60% cap ✓
+- Weekly trades: 0/7 ✓
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 |
+| 2 | AVGO | 37.196 | $424.99 | $391.78 (10% trail, 6a7bc8d9) | $435.31 |
+| 3 | GOOGL | 39.657 | $398.61 | $367.75 (10% trail, 4e322e3f) | $408.61 |
+| 4 | MU | 14.649 | $754.46 | $879.06 (7% trail, e96e092c, auto-trailed) | $945.23 |
+| 5 | TXN | 53 | $276.10 | $310.14 (5% trail, de34cfbc) | $326.46 |
+
+- Trades this week: 0 of 7
+
+---
+
 ### May 28 - EOD Snapshot (Day 27, Thursday)
 **Portfolio:** $107,497.81 | **Cash:** $31,364.71 (29.2%) | **Day P&L:** -$569 (-0.53%) | **Phase P&L:** +$7,498 (+7.50%)**
 
