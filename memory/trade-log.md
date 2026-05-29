@@ -2674,3 +2674,64 @@ Clean — no overnight stop-outs.
 - MRVL: post-earnings entry if constructive setup
 - Deployed 70.8% → scan for 1 new position to restore 75-85% deployment
 - Weekly review (Friday)
+
+---
+
+## 2026-05-29 - Market-Open Session
+
+**Portfolio:** $109,457.82 equity | **Cash:** ~$14,946 (post-trade) | **Positions:** 6 | **Deployed:** ~86.3% | **Daytrade count:** 0
+
+### Step 0 — Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AMZN   | 56      | 56         | ✓      |
+| AVGO   | 37.196  | 37.196240  | ✓      |
+| GOOGL  | 39.657  | 39.657886  | ✓      |
+| MU     | 14.649  | 14.649484  | ✓      |
+| TXN    | 53      | 53         | ✓      |
+
+Clean — no overnight stop-outs.
+
+### Live Prices at Session Open
+| Ticker | Entry | Live Ask | P&L% | Status |
+|--------|-------|----------|------|--------|
+| AMZN | $273.64 | $274.20 | +0.2% | HOLD |
+| AVGO | $424.99 | $450.00 | +5.9% | HOLD (PT raised $490 by Susquehanna) |
+| GOOGL | $398.61 | $384.25 | -3.6% | HOLD (−7% cut at $370.71) |
+| MU | $754.46 | $959.75 | +27.2% | HOLD (+40% trigger at $1,056.24) |
+| TXN | $276.10 | $315.72 | +14.3% | HOLD (+25% trigger at $345.13) |
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 1 (MRVL buy)
+
+### Macro Context
+- US-Iran tentative Hormuz deal → risk-on; WTI -1.4% to $87.66
+- No major data or earnings today (light calendar)
+- Semi sector strong: AVGO +7.2% on PT raise, MU +5.3%
+
+### Trade Executed
+
+| # | Date | Ticker | Side | Shares | Entry | Stop | Target | R:R | Thesis |
+|---|------|--------|------|--------|-------|------|--------|-----|--------|
+| 1 | 2026-05-29 | MRVL | BUY | 80.040 | $205.13 | $185.07 (10% trail, 6541deb9, HWM $205.63) | $246.16 | 2.0:1 | AI custom silicon design wins (Amazon Trainium, Google TPU); post-earnings "met estimates" overreaction; multi-year AI infrastructure supercycle; PCE benign 3.31% (May 28); GDP benign ~2.0% |
+
+### Stop Placed
+- MRVL: 80 integer shares, 10% trail, stop $185.07, HWM $205.63 — order 6541deb9
+
+### Open Positions (post-execution)
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 |
+| 2 | AVGO | 37.196 | $424.99 | $391.78→auto-trail (10% trail, 6a7bc8d9) | $450.00 (new) |
+| 3 | GOOGL | 39.657 | $398.61 | $367.75 (10% trail, 4e322e3f) | $408.61 |
+| 4 | MU | 14.649 | $754.46 | $879.06→auto-trail (7% trail, e96e092c) | $959.75 (new) |
+| 5 | TXN | 53 | $276.10 | $310.14 (5% trail, de34cfbc) | $326.46 |
+| 6 | MRVL | 80.040 | $205.13 | $185.07 (10% trail, 6541deb9) | $205.63 |
+
+- Trades this week: 1 of 7 (MRVL May 29)
+- Watch: MU +40% partial at $1,056.24; TXN +25% partial at $345.13
+- Watch: AVGO earnings June 3 AMC (binary event — no add to AVGO)
+- Watch: AMZN -7% cut strictly at $254.49
+- Semi concentration: AVGO+MU+TXN+MRVL ≈ 58.5% < 60% cap ✓
