@@ -247,3 +247,84 @@ Deployment: ~45.4% ($47,887 / $105,386) vs 75-85% target — still underdeployed
 - ATR rule not applied at MU tightening — left ~$658 on table ✗
 - Deployment still at 45% (3rd week underdeployed) ✗
 - Auth failure + stop reconciliation gap ✗
+
+---
+
+## Week ending 2026-05-30
+
+> Note: Week ending 2026-05-22 review was NOT completed (operational gap).
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $103,415.59 (EOD May 22) |
+| Ending portfolio | $108,635.06 |
+| Week return | +$5,219.47 (+5.05%) |
+| S&P 500 week | ~+1.5% (7,473.45 → ~7,584) |
+| Bot vs S&P | +3.55% outperformance |
+| Trades | 1 new entry + 3 closes (W:2 / L:1 / open:5) |
+| Win rate | 66.7% (2W / 1L — closed integer lots only) |
+| Best trade | MU partial +21.0% (+$951 realized, 6 shares) |
+| Worst trade | NVDA -3.32% (-$351 realized, stopped May 26) |
+| Profit factor | 7.84 ($2,752 winners / $351 loser) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| NVDA (48 sh) | $220.20 (May 11) | $212.89 (May 26) | -$351 | -3.32% | 10% trailing stop triggered; HWM $236.54; 10 trading days; semi diverged from MU |
+| MU (6 sh) | $754.46 (May 22) | $912.95 (May 27) | +$951 | +21.0% | +25% partial profit rule; ATR14 >4% confirmed → 7% trail on remaining 14 sh |
+| TXN (53 sh) | $276.10 (Apr 24) | ~$310.08 (May 30) | +$1,801 | +12.3% | 5% trailing stop triggered; HWM $326.46; tightened May 27 at +20%; held 24 trading days |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| AMZN | 56 | $273.64 | $270.46 | -$178 (-1.16%) | $250.02 (10% trail, a7a75899) | $277.80 |
+| AVGO | 37.196 | $424.99 | $445.70 | +$770 (+4.87%) | $403.99 (10% trail, 6a7bc8d9) | $448.88 |
+| GOOGL | 39.657 | $398.61 | $380.60 | -$714 (-4.52%) | $367.75 (10% trail, 4e322e3f) | $408.61 |
+| MRVL | 80.040 | $205.13 | $203.65 | -$118 (-0.72%) | $187.88 (10% trail, 6541deb9) | $208.76 |
+| MU | 14.649 | $754.46 | $965.00 | +$3,084 (+27.91%) | $912.33 (7% trail, e96e092c) | $981.00 |
+
+Deployment: 71.1% ($77,255 / $108,635) — below 75-85% target after TXN stop-out; 1 new entry needed
+
+### What Worked
+- MU AI memory supercycle fully validating — +27.91% unrealized on 14.649 remaining shares; HWM $981 auto-trailing stop $912.33; partial profit rule ($951 realized May 27) executed mechanically and correctly; Barclays PT $1,175 reinforces bull case
+- TXN +12.3% realized — 5% trailing stop captured clean gain after tighten at +20% (May 27); held 24 trading days from Apr 24; analog semi cycle thesis played out fully
+- AVGO inflecting positively — +4.87% unrealized, HWM trailed to $448.88; Susquehanna PT raise $490; earnings June 3 provides next catalyst
+- NVDA stop discipline — stopped at -3.32% (not held to -7%); freed capital; -$351 is controlled loss; correct execution even though timing was poor (stopped just as semi sector rallied)
+- MRVL entry discipline — gap rule correctly blocked day-after-earnings entry ($213 ask = +7.2% gap); waited two days, entered at $205.13 with clean setup
+
+### What Didn't Work
+- NVDA stopped May 26 at -3.32% just as semi sector exploded; MU +19.7% same session vs NVDA hitting stop — wrong semi at the wrong time; catalyst specificity (HBM4/memory vs general inference) mattered enormously
+- GOOGL -4.52% unrealized; 7th consecutive week negative or near-zero; Cloud thesis intact but stock persistently underperforming; -7% cut at $370.71 is only $9.89 below current $380.60 — dangerously close
+- TXN 5% trail cost 5.2% of peak gain — HWM $326.46, stopped $310.08; 7% trail would have given $20 more buffer; ATR14 was borderline at tightening time ($7-10 ≈ 2.5-3% of price); marginal call
+- Week ending May 22 weekly review was NOT completed — second consecutive missed Friday review (operational gap)
+- Deployment 71.1% after TXN stop-out; back below 75% target; need 1 new entry Monday-Tuesday
+
+### Key Lessons
+- **AI semi catalyst specificity is decisive**: NVDA (general inference) vs MU (HBM4 supply-constrained memory) — same sector, opposite outcomes. Always identify the most catalyzed name in a sector rather than spreading across the cohort
+- **5% trail on borderline ATR stocks**: When ATR14 is 2.5-3% (below 4% threshold but close), the 5% trail is rules-correct but leaves less cushion; for borderline cases prefer 7% trail to reduce false stop risk
+- **MU partial profit mechanics work**: The +25% rule fired at $943.08; executed 6 shares at $912.95 (+21%); remaining 14 shares continue to run; HWM now $981; this is the correct approach for a multi-month compounder
+- **GOOGL patience limit approaching**: At -4.52% unrealized and approaching -7% cut ($370.71), must act decisively on next breach; 7-week hold without recovery is capital lock-up
+- **Gap rule prevents bad entries**: MRVL at $213 ask (>5% gap) correctly blocked; $205 entry 2 days later is cleaner risk; rule working as designed
+
+### Adjustments for Next Week
+- **New entry priority**: TXN stop freed ~$16,434; 1 new position needed to restore 75-85% deployment; scan semis (energy/materials as inflation hedge), AI infrastructure, or sector-momentum name; entry by Wednesday
+- **GOOGL hard cut at $370.71**: No exceptions, no extensions. If close approaches $372-375 with no catalyst, reassess thesis. Six weeks negative is long enough.
+- **MU next trigger**: +40% partial profit at $1,056.24 (HWM $981, ~+7.8% away); ATR14 >4% confirmed → 7% trail stays; do NOT tighten
+- **AVGO binary June 3 AMC**: No new adds; hold 37 integer shares; have plan for post-earnings reaction (beat + guide up → hold; miss or weak guide → reassess)
+- **MRVL**: 1-2 weeks to develop; stop $187.88 (10% trail); next check at +15% = $235.90; thesis is AI custom silicon multi-year cycle (Trainium, TPU)
+- **AMZN**: Now -1.16% unrealized; $270.46 vs -7% cut $254.49 ($15.97 buffer); AWS thesis intact; stop $250.02 protecting; hold but monitor weekly
+
+### Overall Grade: A-
+- +5.05% vs S&P ~+1.5% = +3.55% outperformance ✓
+- MU partial profit rule executed correctly and mechanically ✓
+- TXN +12.3% realized — multi-week compounder captured ✓
+- NVDA stopped at -3.32%, not held to -7% ✓
+- ATR rule applied consistently across all tightening decisions ✓
+- No rule violations ✓
+- Phase P&L: +$8,635 (+8.64%) — tracking well ahead of benchmark ✓
+- GOOGL 7th consecutive underperforming week ✗
+- Deployment 71.1% (below 75% target after TXN stop) ✗
+- May 22 weekly review missed (operational gap) ✗
+
+---
