@@ -2734,4 +2734,116 @@ Clean — no overnight stop-outs.
 - Watch: MU +40% partial at $1,056.24; TXN +25% partial at $345.13
 - Watch: AVGO earnings June 3 AMC (binary event — no add to AVGO)
 - Watch: AMZN -7% cut strictly at $254.49
+
+---
+
+## 2026-05-29 - Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AMZN | 56 | 56 | ✓ |
+| AVGO | 37.196 | 37.196240 | ✓ |
+| GOOGL | 39.657 | 39.657886 | ✓ |
+| MRVL | 80.040 | 80.040316 | ✓ |
+| MU | 14.649 | 14.649484 | ✓ |
+| TXN | 53 | 0 | STOPPED OUT — 5% trail $310.14 triggered intraday May 29 |
+
+TXN fill ~$310.08 (derived from cash: $31,380.27 broker - $14,946 post-MRVL = $16,434 proceeds ÷ 53 sh)
+TXN realized P&L: 53 × ($310.08 - $276.10) = **+$1,801** (+12.3%)
+
+---
+
+### May 29 - EOD Snapshot (Day 28, Friday)
+**Portfolio:** $108,626.32 | **Cash:** $31,380.27 (28.9%) | **Day P&L:** +$1,128.51 (+1.05%) | **Phase P&L:** +$8,626.32 (+8.63%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AMZN | 56 | $273.64 | $270.54 | -$3.46 (-1.26%) | -$173.60 (-1.13%) | $250.02 (10% trail, HWM $277.80) |
+| AVGO | 37.196 | $424.99 | $445.76 | +$19.18 (+4.50%) | +$772.57 (+4.89%) | $403.99 (10% trail, HWM $448.88) |
+| GOOGL | 39.657 | $398.61 | $380.48 | -$9.65 (-2.47%) | -$719.00 (-4.55%) | $367.75 (10% trail, HWM $408.61) |
+| MRVL | 80.040 | $205.13 | $204.52 | -$0.31 (-0.15%) | -$48.82 (-0.30%) | $187.88 (10% trail, HWM $208.76) |
+| MU | 14.649 | $754.46 | $964.90 | +$41.38 (+4.48%) | +$3,082.84 (+27.89%) | $912.33 (7% trail, HWM $981.00) |
+
+**Notes:** TXN 5% trail stop triggered at ~$310.08 intraday (HWM $326.46); realized +$1,801 (+12.3%); hold was 33 trading days (Apr 29 → May 29). MRVL entered $205.13 (80 shares, 10% trail); HWM $208.76 intraday, closed $204.52 (-0.30%). AVGO surged +4.50% on AI/semi momentum; stop auto-trailed to $403.99 (HWM $448.88). MU +4.48%; +40% partial trigger at $1,056.24 still 9.5% away. GOOGL -4.55% unrealized, -7% manual cut at $370.71 only $9.77 above current close — watch Monday open closely; broker stop $367.75 provides trailing backstop just below cut level. Portfolio +1.05% for the day; deployed 71.1% (5 positions) — slightly under 75-85% target. 1 new entry this week (MRVL); 3 fresh slots next week.
 - Semi concentration: AVGO+MU+TXN+MRVL ≈ 58.5% < 60% cap ✓
+
+---
+
+## 2026-05-30 - Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Suspected Cause | Realized P&L |
+|--------|---------|------------|-----------------|--------------|
+| TXN | 53 | 0 | 5% trailing stop de34cfbc fired; estimated fill ~$310/sh (HWM $326.46, 5% trail → stop $310.14) | ~+$1,797 |
+| AMZN | 56 | 56 | ✓ | — |
+| AVGO | 37.196 | 37.196240 | ✓ (stop auto-trailed: HWM $448.88, stop $403.99) | — |
+| GOOGL | 39.657 | 39.657886 | ✓ | — |
+| MRVL | 80.040 | 80.040316 | ✓ (stop auto-trailed: HWM $208.76, stop $187.88) | — |
+| MU | 14.649 | 14.649484 | ✓ (stop auto-trailed: HWM $981.00, stop $912.33) | — |
+
+### TXN — Stopped Out
+- Entry $276.10 × 53 shares | Estimated exit ~$310.00 (5% trail, HWM $326.46)
+- Estimated realized P&L: 53 × ($310 - $276.10) = **~+$1,797**
+- Hold period: May 15 → May 30 (11 trading days). Estimated return: +12.3%
+- Stop tightened to 5% May 27 per +20% rule; fired on pullback
+
+---
+
+## 2026-05-30 - Midday Scan
+
+**Portfolio:** $108,646.54 equity | **Cash:** $31,380.27 (28.9%) | **Positions:** 5 | **Deployed:** ~71.1% | **Phase P&L:** ~+$8,646 (+8.65%)**
+
+### Step 0 — Reconciliation
+See above. TXN stopped out; all other 5 positions match broker exactly.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|---------------|-----|--------|
+| AMZN | 56 | $273.64 | $270.49 | -1.15% | -0.28% | $250.02 (10% trail, a7a75899) | $277.80 | HOLD |
+| AVGO | 37.196 | $424.99 | $445.50 | +4.83% | +4.44% | $403.99 (10% trail, 6a7bc8d9) | $448.88 | HOLD |
+| GOOGL | 39.657 | $398.61 | $380.55 | -4.53% | -2.46% | $367.75 (10% trail, 4e322e3f) | $408.61 | HOLD ⚠️ |
+| MRVL | 80.040 | $205.13 | $203.65 | -0.72% | -0.57% | $187.88 (10% trail, 6541deb9) | $208.76 | HOLD |
+| MU | 14.649 | $754.46 | $964.88 | +27.89% | +4.48% | $912.33 (7% trail, e96e092c) | $981.00 | HOLD ★ |
+
+### Step 3 — Cuts
+None. All positions above -7% rule.
+- GOOGL closest: -4.53% from entry; -7% cut threshold = $370.71; current $380.55 = $9.84 above cut line. Monitor.
+
+### Step 4 — Stop Tightening
+- MU +27.89%: already at 7% trail; next action +40% partial profit at $1,056.24. Current $964.88 = 9.5% below trigger. No action.
+- AVGO +4.83%: +15% trigger = $489.14 — not reached. No action.
+- MRVL -0.72%, AMZN -1.15%, GOOGL -4.53%: below threshold. No action.
+
+### Step 5 — Thesis Check
+- **MU**: +27.89% unrealized, +4.48% intraday. AI memory supercycle fully intact; HBM4 sold out 2026; UBS $1,625 PT (Street-high). 7% trail at $912.33 protecting significant gains. **STRONG HOLD.**
+- **AVGO**: +4.83%, +4.44% intraday. AI ASIC/hyperscaler demand thesis intact. ⚠️ Earnings June 3 AMC — binary event; no new AVGO adds; existing stop protects. **HOLD.**
+- **GOOGL**: -4.53% unrealized, -2.46% intraday. Cut line $370.71 = $9.84 below current. Research confirms no thesis break — Google Cloud +28%, $462B backlog, Gemini AI scaling; Morgan Stanley maintains Buy; RBC $425 PT. Pullback is macro-driven (rate pressure), not fundamental deterioration. **HOLD.**
+- **MRVL**: -0.72% from entry; intraday HWM $208.76 (stop trailed to $187.88); UBS raised PT $195→$230 (May 28); Q1 FY27 beat confirmed ($2.42B rev); AI custom silicon thesis (Amazon Trainium, Google TPU, NVLink Fusion) intact. **HOLD.**
+- **AMZN**: -1.15%. AWS/cloud AI thesis unchanged. **HOLD.**
+
+### Step 6 — Research
+- No Perplexity (key unavailable). Tavily check: No sharp moves with unknown cause.
+- AVGO +4.44% intraday — consistent with sector strength; no single adverse catalyst for other names.
+- GOOGL -2.46% intraday — continuation of tech rate-pressure selloff; no GOOGL-specific adverse news. Morgan Stanley Buy reiterated May 29. Google engineer insider trading scandal (Polymarket) is noise — not a fundamental thesis break.
+- MRVL: hit Day High $208.76 intraday, now pulling back. Earnings beat confirmed (May 27); UBS $230 PT. AI custom silicon multi-year ramp intact.
+- MU: intraday high tracked to HWM $981; stop auto-trailed. No action.
+
+### Actions Taken
+- None. No cuts, no stop changes, no new entries.
+- TXN stop-out reconciled (see Reconciliation above).
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 |
+| 2 | AVGO | 37.196 | $424.99 | $403.99 (10% trail, 6a7bc8d9) | $448.88 |
+| 3 | GOOGL | 39.657 | $398.61 | $367.75 (10% trail, 4e322e3f) | $408.61 |
+| 4 | MRVL | 80.040 | $205.13 | $187.88 (10% trail, 6541deb9) | $208.76 |
+| 5 | MU | 14.649 | $754.46 | $912.33 (7% trail, e96e092c) | $981.00 |
+
+- Trades this week: 1 of 7 (MRVL May 29)
+- Deployed: 71.1% vs 75-85% target — slight shortfall post-TXN stop; 1 slot available
+- Watch: GOOGL -4.53%; cut strictly at $370.71
+- Watch: MU +40% partial profit at $1,056.24 (9.5% away)
+- Watch: AVGO earnings June 3 AMC — no new AVGO adds; stop $403.99 protects
+- Watch: MRVL earnings Aug 26 (est) — no near-term binary event
+
