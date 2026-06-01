@@ -2847,3 +2847,72 @@ None. All positions above -7% rule.
 - Watch: AVGO earnings June 3 AMC — no new AVGO adds; stop $403.99 protects
 - Watch: MRVL earnings Aug 26 (est) — no near-term binary event
 
+
+## 2026-06-01 - Midday Scan
+
+**Portfolio:** $110,902.05 equity | **Cash:** $31,380.27 (28.3%) | **Positions:** 5 | **Deployed:** ~71.7% | **Phase P&L:** +$10,902.05 (+10.90%)**
+
+### Step 0 — Reconciliation
+All 5 positions match broker exactly. No discrepancies.
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AMZN | 56 | 56 | ✓ |
+| AVGO | 37.196 | 37.196240 | ✓ |
+| GOOGL | 39.657 | 39.657886 | ✓ |
+| MRVL | 80.040 | 80.040316 | ✓ |
+| MU | 14.649 | 14.649484 | ✓ |
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | -7% Cut | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|------|----------|---------|---------------|-----|--------|
+| AMZN | 56 | $273.64 | $261.97 | -4.26% | -3.20% | $254.49 | $250.02 (10% trail, a7a75899) | $277.80 | HOLD ⚠️ |
+| AVGO | 37.196 | $424.99 | $461.63 | +8.62% | +3.33% | $395.24 | $417.258 (10% trail, 6a7bc8d9) | $463.62 | HOLD — earnings June 3 AMC |
+| GOOGL | 39.657 | $398.61 | $375.98 | -5.68% | -1.15% | $370.71 | $367.749 (10% trail, 4e322e3f) | $408.61 | HOLD ⚠️ cut line $5.27 away |
+| MRVL | 80.040 | $205.13 | $218.305 | +6.42% | +6.49% | $190.77 | $198.171 (10% trail, 6541deb9) | $220.19 | HOLD ★ |
+| MU | 14.649 | $754.46 | $1,044.20 | +38.40% | +7.54% | $701.65 | $971.85 (7% trail, e96e092c) | $1,045 | HOLD ★★ |
+
+### Step 3 — Cuts
+None. All positions above -7% rule.
+- GOOGL: -5.68% unrealized; -7% cut at $370.71; cushion $5.27. Monitor closely.
+- AMZN: -4.26% unrealized; -7% cut at $254.49; cushion $7.48. Drift continues.
+
+### Step 4 — Stop Tightening
+- **MU +38.4%**: Above +20% tightening rule. High-ATR exception applies (moved +7.54% today alone = $73, far above 4% of price = $41.76). Memory/AI semis whipsaw on 5% — STAY at 7% per rule. ✓ No change.
+- **AVGO +8.62%**: Below +15% threshold. No action.
+- **MRVL +6.42%**: Below +15% threshold. No action.
+
+### Step 5 — Thesis Check
+- **MU ★★**: NVIDIA Q1 ($81.6B revenue, +85% YoY) confirms AI memory demand supercycle. MU HBM4 sold out 2026; approaching $1T market cap. **STRONG HOLD.** +40% partial trigger at $1,056.24 ($11.84 away).
+- **MRVL ★**: +6.49% intraday on NVIDIA Q1 AI tailwind + post-earnings momentum (May 27 beat). Bank of America raised PT. AI custom silicon thesis (Amazon Trainium, Google TPU) fully intact. **HOLD.**
+- **AVGO**: +8.62% unrealized. AI ASICs thesis intact. **⚠️ Earnings June 3 AMC — binary event. No new adds. Stop $417.26 protects.**
+- **GOOGL**: -5.68%. Google Cloud +28%, Gemini scaling, $462B backlog. Pullback macro/rate-driven. No GOOGL-specific adverse news. -7% cut strictly at $370.71. **HOLD but monitor intraday.**
+- **AMZN**: -4.26%. AWS/AI thesis unchanged. No adverse news. Persistent weak price action; stop $250.02 provides backstop. **HOLD.**
+
+### Step 6 — Research: Sharp Movers
+- **MU +7.54%**: NVIDIA Q1 blowout ($81.6B rev, +85% YoY, Q2 guide well above consensus) = massive AI memory demand signal. Approaching $1T market cap. UBS PT $1,625 (Street-high). Thesis intact.
+- **MRVL +6.49%**: Same NVDA AI tailwind + post-Q1-beat momentum. Bank of America PT raised. Citi catalyst watch issued.
+
+### ⚠️ MU Partial Profit Rule Violation — Logged
+- +25% trigger was $943.08 (entry $754.46 × 1.25). MU surpassed $943 before May 29 snapshot.
+- **+25% partial of 4 shares was NOT executed** — missed in prior sessions.
+- Plan (per June 1 morning research): sell 4 integer shares when MU bid ≥ $1,056.24 (+40% trigger).
+- Current $1,044.20 is $11.84 below trigger. Do NOT chase — let the pre-staged trigger fire.
+- After +40% sell: cancel 14-share stop, place 10-share stop at 7% trail. Then await +50% for second partial.
+
+### Actions Taken
+- None. No cuts, no stop changes, no partial sells.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AMZN | 56 | $273.64 | $250.02 (10% trail, a7a75899) | $277.80 |
+| 2 | AVGO | 37.196 | $424.99 | $417.258 (10% trail, 6a7bc8d9) | $463.62 |
+| 3 | GOOGL | 39.657 | $398.61 | $367.749 (10% trail, 4e322e3f) | $408.61 |
+| 4 | MRVL | 80.040 | $205.13 | $198.171 (10% trail, 6541deb9) | $220.19 |
+| 5 | MU | 14.649 | $754.46 | $971.85 (7% trail, e96e092c) | $1,045 |
+
+- Trades this week: 0 (0 of 7)
+- Watch: GOOGL -5.68%; strict cut at $370.71 (cushion $5.27)
+- Watch: MU +40% partial at $1,056.24 — $11.84 away; pre-stage sell 4 shares at market when triggered
+- Watch: AVGO earnings June 3 AMC — hold existing, no adds
+- Watch: AMZN weak; thesis intact but drift toward cut line
