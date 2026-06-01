@@ -3410,3 +3410,67 @@ Stop verification (Alpaca orders API):
 - MU: thesis massively intact (Barclays $1,175 PT today); 7% trail appropriate given high ATR.
 - TXN: watch stop $310.14 closely today; oil macro could compress analog semi sentiment.
 - Trades this week: 0 of 7 used (week May 26-30)
+
+---
+
+## 2026-06-01 - Pre-market Research (inline, market-open)
+
+### Step 0 — Reconciliation
+All 5 positions match broker exactly. No weekend stop-outs.
+
+### Account
+- Equity: $108,628 | Cash: $31,380 (28.9%)
+- Deployed: ~71.1% (5 positions, 1 slot available)
+- Daytrade count: 0/3 | Phase P&L: +$8,628 (+8.63%)
+
+### Market Context
+- S&P 500: Record highs; Goldman raised 2026 year-end target to 8,000 (was 7,600); 24% EPS growth driving rally
+- Earnings beat wave continues (Mag7 Q1 beats; DELL AI guidance boost)
+- VIX: ~17 (low fear)
+- Economic calendar today: ISM Manufacturing 10am ET (prior 52.7, est stable expansion)
+- Week ahead: JOLTS Tue, ADP Wed, ISM Services Wed, AVGO earnings June 3 AMC, NFP Friday June 5
+
+### Pre-Market Movers (June 1)
+- **ARM +13.97%** — AGI CPU launch announced today (first-ever production silicon for AI data centers)
+- IBM +9.81% — catalyst unknown
+- CDNS +8.69% — Cadence Design, EDA software
+- QCOM leading losers
+
+### Position Status (live quotes ~9:30 AM ET)
+| Ticker | Shares | Entry | Ask | P&L% | Stop | Status |
+|--------|--------|-------|-----|------|------|--------|
+| AMZN | 56 | $273.64 | $263.50 | -3.70% | $250.02 (10% trail, a7a75899) | HOLD |
+| AVGO | 37.196 | $424.99 | $443.21 | +4.27% | $403.99 (10% trail, 6a7bc8d9) | HOLD — earnings June 3 AMC |
+| GOOGL | 39.657 | $398.61 | $377.04 | -5.41% | $367.75 (10% trail, 4e322e3f) | HOLD ⚠️ |
+| MRVL | 80.040 | $205.13 | $201.38 | -1.83% | $187.88 (10% trail, 6541deb9) | HOLD |
+| MU | 14.649 | $754.46 | $1,040 | +37.9% | $912.33 (7% trail, e96e092c) | HOLD ★★ |
+
+### Rule Checks
+- GOOGL -5.41%: manual cut at $370.71 = $6.33 below current. Monitor intraday.
+- AMZN -3.70%: cut at $254.49 = $9 below current. OK.
+- MU +37.9%: +40% partial trigger = $1,056.24 (~$16 or +1.5% away). Approaching. Pre-stage sell 4 integer shares (1/3 of 14 = ~4.9 → 4 shares).
+- AVGO: no adds; binary earnings June 3 AMC (Wells Fargo raised PT $545; $2T market cap; AI ASICs).
+
+### Semi Sector Concentration
+AVGO $16,574 + MU $15,235 + MRVL $16,126 = $47,935 / $108,628 = 44.1% (well under 60% cap ✓)
+
+### New Position Evaluation
+1. **ARM** (ask $452, +14% gap): Catalyst = AGI CPU launch today (historic first). BUT >5% gap rule triggered. Pre-market spread $393-$452 = 60 pts wide. ARM already +80% YTD. Analyst note: "Wait for Next Pullback." → **SKIP today; WATCHLIST for consolidation entry.** Target entry zone: $400-$415 on pullback.
+2. **PANW** (ask $302, earnings AMC June 2): Too close to binary event. → **SKIP.**
+
+### Capitol Trades
+No new whitelist qualifying buys found. Signal: absent.
+
+### Crypto
+BTC no RSI <30 signal. No crypto entry criteria met.
+
+### Actions Taken
+- None. No new entries. All 5 stops confirmed active.
+
+### Decisions
+- HOLD all 5 positions
+- ARM watchlist: target $400-$415 on post-gap pullback
+- MU +40% partial: execute sell 4 shares when MU bid ≥ $1,056.24; then replace stop on remaining 10 shares with 7% trail
+- GOOGL: manual cut at $370.71 if touched intraday today or this week
+- AVGO: binary June 3 — hold existing, no adds
+- Trades this week: 0 of 7 used
