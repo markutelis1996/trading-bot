@@ -2916,3 +2916,18 @@ None. All positions above -7% rule.
 - Watch: MU +40% partial at $1,056.24 — $11.84 away; pre-stage sell 4 shares at market when triggered
 - Watch: AVGO earnings June 3 AMC — hold existing, no adds
 - Watch: AMZN weak; thesis intact but drift toward cut line
+
+---
+
+### Jun 01 - EOD Snapshot (Day 29, Monday)
+**Portfolio:** $110,793.90 | **Cash:** $31,380.26 (28.3%) | **Day P&L:** +$1,923.24 (+1.77%) | **Phase P&L:** +$10,793.90 (+10.79%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AMZN | 56 | $273.64 | $261.33 | -$9.31 (-3.44%) | -$689.36 (-4.50%) | $250.02 (10% trail, HWM $277.80) |
+| AVGO | 37.196 | $424.99 | $459.98 | +$13.21 (+2.96%) | +$1,301.50 (+8.23%) | $419.45 (10% trail, HWM $466.05) |
+| GOOGL | 39.657 | $398.61 | $376.40 | -$3.94 (-1.04%) | -$880.80 (-5.57%) | $367.75 (10% trail, HWM $408.61) |
+| MRVL | 80.040 | $205.13 | $219.50 | +$14.50 (+7.07%) | +$1,150.18 (+7.00%) | $202.63 (10% trail, HWM $225.14) |
+| MU | 14.649 | $754.46 | $1,034.75 | +$63.75 (+6.57%) | +$4,106.10 (+37.15%) | $973.68 (7% trail, HWM $1,046.97) |
+
+**Notes:** Strong day for AI names — MU +6.57% intraday (+37.15% unrealized from entry) and MRVL +7.07% both surging on continued AI infrastructure momentum. AVGO +2.96%, stop auto-trailed to $419.45 (HWM $466.05); earnings June 3 AMC — binary event, no new AVGO adds. GOOGL -1.04% day, -5.57% unrealized — cut line $370.71 now only $5.69 above current close ($376.40); no thesis break (Google Cloud +28% intact) but approaching hard cut threshold; monitor at Tuesday open. AMZN -3.44% day, -4.50% unrealized — cut line $254.49 is $6.84 above close ($261.33); drift continues, no adverse news. MU +40% partial profit trigger ($1,056.24) still not reached — HWM $1,046.97 needs $9.27 more; execute sell of 4 integer shares when triggered. Phase P&L +$10,793.90 (+10.79%) — milestone: crossed +10%. No trades today; 0/7 weekly cap used. Deployed 71.7% (5 positions) vs 75-85% target — one slot available. Reconciliation clean: all 5 broker positions match log exactly.
