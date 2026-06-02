@@ -3548,3 +3548,24 @@ Note: Non-whitelist David Taylor sold GOOGL 2 days ago ($15K-$50K) — minor bea
 ### Decision
 HOLD all 5. MRVL stop tighten at open (mandatory rule). No new entries today.
 Trades this week: 0 of 7 used.
+
+---
+
+## 2026-06-02 - Afternoon Addendum (Midday Scan)
+
+### MRVL +28.99% Intraday — Catalyst Confirmed
+- **Jensen Huang at Computex 2026** (Taipei): declared Marvell "the next trillion-dollar company" — AI data center connectivity dominance
+- **NVIDIA $2B strategic investment** in Marvell announced
+- Q1 FY2027 earnings (May 27): EPS $0.80 vs $0.75 est (+6.67% beat), revenue $2.418B record (+42% YoY), 75% AI data center revenue mix, 50+ active custom ASIC design engagements
+- Thesis: MASSIVELY INTACT/STRENGTHENED. 7% trailing stop appropriate. No stop change (high-ATR semi)
+
+### +40% Partial Triggers Crossed
+- **MRVL**: trigger $287.18, current $293.74. Partial (18 shares) submitted after market close — expires. Re-execute at June 3 open.
+- **MU**: trigger $1,056.24, current $1,064.90. Partial (4 shares) submitted after market close — expires. Re-execute at June 3 open.
+
+### AVGO Binary Event
+- Earnings June 3 AMC. Current +13.49% unrealized. 7% stop ($451.75) is floor. No adds.
+
+### Market Structure
+- AI infrastructure names (MRVL, MU, AVGO) all accelerating on Computex 2026 momentum
+- S&P tech sector leadership continuing; NVDA endorsement of MRVL = sector-wide sentiment lift

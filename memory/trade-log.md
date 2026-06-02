@@ -3053,3 +3053,71 @@ Clean. No discrepancies. All GTC stops active (AVGO c52f0e3c 7% trail, MRVL 4307
 
 **Notes:** Three position management trades today: GOOGL trailing stop fired overnight (39 shares, avg $361.35, −$1,453.14), MRVL +25% partial sell executed (26 shares @ $270.67, +$1,704.04), AMZN manual −7% cut (56 shares @ $254.52, −$1,070.72); AVGO stop tightened 10%→7% at +15% trigger. Net realized today: −$819.82. Portfolio +$5,528.67 (+4.99%) on the day, driven by MRVL's extraordinary +32.82% intraday surge (major AI custom silicon catalyst — likely NVDA supply agreement or analyst re-rating) and AVGO +4.71%, MU +2.85%. ⚠️ TWO +40% PARTIAL TRIGGERS CROSSED INTRADAY — MUST EXECUTE WEDNESDAY OPEN: MRVL at $291.44 > $287.18 trigger (sell 18 shares, place new 7% stop on 36 remaining); MU at $1,065.05 > $1,056.24 trigger (sell 4 shares, place new 7% stop on 10 remaining). AVGO earnings June 3 AMC — binary event, 7% stop at $449.56 protects. Deployed 42.6% vs 75-85% target — underdeployed; GOOGL+AMZN exits freed ~$38k cash; identify 2-3 new setups. No new entries this week. Phase P&L +$16,307.47 (+16.31%) — new high-water mark.
 
+
+---
+
+## 2026-06-02 - Midday Scan
+
+**Portfolio:** ~$116,500 equity | **Cash:** $66,763.30 (57.3%) | **Positions:** 4 | **Deployed:** ~42.7% | **Phase P&L:** ~+$16,500 (+16.50%)**
+
+### Step 0 — Reconciliation
+All 4 broker positions match log exactly. No discrepancies.
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AVGO | 37.196 | 37.196240 | ✓ |
+| GOOGL | 0.657886 | 0.657886 | ✓ |
+| MRVL | 54.040 | 54.040316 | ✓ |
+| MU | 14.649 | 14.649484 | ✓ |
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | -7% Cut | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|------|----------|---------|---------------|-----|--------|
+| AVGO | 37.196 | $424.99 | $482.31 | +13.49% | +4.86% | $395.24 | $451.75 (7% trail, c52f0e3c) | $485.75 | HOLD — earnings Jun 3 AMC ⚠️ |
+| GOOGL | 0.657886 | $398.61 | $362.09 | -9.26% | -3.80% | $370.71 | none (fractional) | $408.61 | CUT PENDING — below -7% rule |
+| MRVL | 54.040 | $205.13 | $293.74 | +43.2% | +28.99% | $190.77 | $275.60 (7% trail, 9a6f6ef5) | $296.34 | HOLD ★★ +40% partial PENDING |
+| MU | 14.649 | $754.46 | $1,064.90 | +41.1% | +2.84% | $701.65 | $993.31 (7% trail, e367f1f2) | $1,068.07 | HOLD ★★ +40% partial PENDING |
+
+### Step 3 — Cuts
+- **GOOGL**: -9.26% → below -7% rule. Submitted market close order (f3cebffe) at ~4:02pm ET. **Market was closed — order cancelled (day TIF expired).** Re-execute at tomorrow's open.
+
+### Step 4 — Stop Tightening
+- AVGO +13.49%: below +15% threshold. Already at 7% (tightened at open). ✓ No change.
+- MRVL +43.2%: above +20%. High-ATR exception applies (moved +29% today). STAY at 7% per rule. ✓
+- MU +41.1%: above +20%. High-ATR exception applies. STAY at 7%. ✓
+- Stop cushions all >3% below current price: MRVL 6.17% ✓, MU 6.72% ✓, AVGO 6.33% ✓
+
+### Step 5 — Thesis Check
+- **MRVL ★★**: Jensen Huang at Computex 2026 declared Marvell "the next trillion-dollar company." NVIDIA $2B strategic investment. Q1 FY2027: EPS $0.80 vs $0.75 est, revenue $2.418B record (+42% YoY), 75% from AI data centers. Thesis massively INTACT/STRENGTHENED.
+- **MU ★★**: AI memory supercycle; HBM4 supply agreement with NVDA; approaching +40% partial trigger. INTACT.
+- **AVGO**: AI ASICs. Earnings June 3 AMC — binary event. 7% stop ($451.75) protects. HOLD; no adds.
+- **GOOGL fractional**: -9.26%; cut rule triggered at -7%. No new GOOGL news. Cut at open tomorrow.
+
+### Step 6 — Intraday Research: MRVL +28.99%
+- **Catalyst confirmed**: Jensen Huang keynote at Computex 2026 (Taipei) — explicitly named Marvell as "the next trillion-dollar company" due to AI data center connectivity dominance
+- NVIDIA $2B strategic investment announced
+- Q1 FY2027 (May 27 earnings): revenue $2.418B (+42% YoY), EPS $0.80 beat, 75% AI data center mix, record operating cash flow $638.8M
+- AI custom silicon moat: silicon photonics + custom ASIC design; 50+ active design opportunities across 10+ customers
+- Thesis impact: MASSIVE CONFIRMATION. 7% trailing stop appropriate; no stop change (high-ATR).
+
+### Actions Taken
+1. **GOOGL close**: Submitted market sell (f3cebffe) at ~4:02pm ET — market closed, day order cancelled. **Re-execute tomorrow open.**
+2. **MRVL +40% partial triggered** ($287.18): Cancelled stop 4307e3b1; submitted 18-share market sell (dafb753e) — market closed, day order cancelled. Replaced 54-share 7% GTC stop (9a6f6ef5, HWM $296.34, stop $275.60). **Re-execute 18-share partial at tomorrow open.**
+3. **MU +40% partial triggered** ($1,056.24): Cancelled stop e96e092c; submitted 4-share market sell (cda06954) — market closed, day order cancelled. Replaced 14-share 7% GTC stop (e367f1f2, HWM $1,068.07, stop $993.31). **Re-execute 4-share partial at tomorrow open.**
+
+### Mandatory Actions for Tomorrow's Open
+1. **GOOGL**: Close 0.657886 fractional shares immediately at open (rule: cut at -7%, currently -9.26%)
+2. **MRVL**: Sell 18 integer shares at market (verify price ≥ $287.18); then cancel 54-share stop 9a6f6ef5 and place new 36-share 7% GTC trail
+3. **MU**: Sell 4 integer shares at market (verify price ≥ $1,056.24); then cancel 14-share stop e367f1f2 and place new 10-share 7% GTC trail
+4. **AVGO earnings AMC tonight**: Hold only; no new entries; 7% stop ($451.75) is backstop
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AVGO | 37.196 | $424.99 | $451.75 (7% trail, c52f0e3c) | $485.75 |
+| 2 | GOOGL | 0.657886 | $398.61 | none (fractional remnant, CUT AT OPEN) | $408.61 |
+| 3 | MRVL | 54.040 | $205.13 | $275.60 (7% trail, 9a6f6ef5) | $296.34 |
+| 4 | MU | 14.649 | $754.46 | $993.31 (7% trail, e367f1f2) | $1,068.07 |
+
+- Trades this week: 0 of 7 (no new entries; morning sells were position management)
+- Deployed: ~42.7% — cash-heavy from morning exits; 2-3 new quality setups needed
+- **AVGO binary event June 3 AMC**: Stop $451.75 is floor. If gap-down tomorrow: morning reconciliation will show stop fired.
