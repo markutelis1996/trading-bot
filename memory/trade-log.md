@@ -2931,3 +2931,98 @@ None. All positions above -7% rule.
 | MU | 14.649 | $754.46 | $1,034.75 | +$63.75 (+6.57%) | +$4,106.10 (+37.15%) | $973.68 (7% trail, HWM $1,046.97) |
 
 **Notes:** Strong day for AI names — MU +6.57% intraday (+37.15% unrealized from entry) and MRVL +7.07% both surging on continued AI infrastructure momentum. AVGO +2.96%, stop auto-trailed to $419.45 (HWM $466.05); earnings June 3 AMC — binary event, no new AVGO adds. GOOGL -1.04% day, -5.57% unrealized — cut line $370.71 now only $5.69 above current close ($376.40); no thesis break (Google Cloud +28% intact) but approaching hard cut threshold; monitor at Tuesday open. AMZN -3.44% day, -4.50% unrealized — cut line $254.49 is $6.84 above close ($261.33); drift continues, no adverse news. MU +40% partial profit trigger ($1,056.24) still not reached — HWM $1,046.97 needs $9.27 more; execute sell of 4 integer shares when triggered. Phase P&L +$10,793.90 (+10.79%) — milestone: crossed +10%. No trades today; 0/7 weekly cap used. Deployed 71.7% (5 positions) vs 75-85% target — one slot available. Reconciliation clean: all 5 broker positions match log exactly.
+
+---
+
+## 2026-06-02 - Reconciliation
+
+### GOOGL Stop Fired (overnight → market open)
+| Ticker | Log Qty | Broker Qty | Status | Cause |
+|--------|---------|------------|--------|-------|
+| AMZN | 56 | 56 | ✓ Match | — |
+| AVGO | 37.196 | 37.196240 | ✓ Match | — |
+| GOOGL | 39.657 | 0.657886 | ⚠️ STOP FIRED | 10% trailing stop 4e322e3f triggered |
+| MRVL | 80.040 | 80.040316 | ✓ Match | — |
+| MU | 14.649 | 14.649484 | ✓ Match | — |
+
+**GOOGL fills:** 25@$361.29 + 8@$361.07 + 5@$362.29 + 1@$360.47 = 39 shares, avg fill **$361.35**
+- Stop price: $367.749 (10% trail from HWM $408.61). Slippage: -$6.40/share (fast market, gapped through stop)
+- **Realized P&L: 39 × ($361.35 − $398.61) = −$1,453.14**
+- Remaining: 0.657886 fractional shares (unprotected, MV ~$237)
+
+---
+
+## 2026-06-02 - Market Open (Day 30, Tuesday)
+
+**Portfolio:** $115,108.74 equity | **Cash:** $66,763.30 (58.0%) | **Phase P&L:** +$15,108.74 (+15.11%)**
+
+### Step 0 — Reconciliation
+See above. GOOGL stop fired between Jun 1 EOD and Jun 2 open.
+
+### Step 1 — Plan from Research
+- Pre-market: hold all, tighten MRVL stop, stage MRVL +25% partial, no new entries (futures negative, AVGO binary tomorrow)
+- GOOGL stop already fired on open — no manual action needed
+- MRVL hit +30% intraday — +25% partial trigger ($256.41) passed during session
+
+### Position Status (market open)
+| Ticker | Shares | Entry | Current | P&L% | Flag |
+|--------|--------|-------|---------|------|------|
+| AMZN | 56 | $273.64 | $254.83 | -6.87% | ⚠️ -7% CUT EXECUTED |
+| AVGO | 37.196 | $424.99 | $483.30 | +13.72% | HWM $488.82 → tighten stop 10%→7% |
+| GOOGL | 0.657886 | $398.61 | $360.08 | -9.67% | fractional remnant only |
+| MRVL | 80.040 | $205.13 | $274.60 | +33.87% | +25% trigger passed → partial sell |
+| MU | 14.649 | $754.46 | $1,036.27 | +37.35% | +40% trigger $1,056.24 not yet reached |
+
+### Actions Taken
+
+**1. MRVL — +25% Partial Profit (1/3 position)**
+- Rule: +25% from entry ($205.13 × 1.25 = $256.41) → sell 1/3 (80 ÷ 3 = 26.67 → 26 integer shares)
+- Cancelled stop 6541deb9 (80 shares, 10% trail, HWM $269.86)
+- Sold 26 shares @ $270.67 (market order 9f1f36dc)
+- **Realized P&L: 26 × ($270.67 − $205.13) = +$1,704.04**
+- Placed new 7% trailing stop on remaining 54 integer shares (4307e3b1, HWM $272.55, stop $253.47)
+- Note: tightened 10%→7% per rule (>+20% from entry) — high-vol ATR exception keeps at 7% not 5%
+
+**2. AVGO — Stop Tighten 10% → 7%**
+- Rule: +15% from entry ($424.99 × 1.15 = $488.74) — HWM $488.82 exceeded threshold intraday
+- Cancelled stop 6a7bc8d9 (37 shares, 10% trail, HWM $488.82)
+- Placed new 7% trailing stop on 37 integer shares (c52f0e3c, HWM $483.40, stop $449.56)
+- No P&L impact. Note: high-ATR semi — stays at 7%, not 5% per rule
+
+**3. AMZN — Manual -7% Cut**
+- Rule: cut loser at -7% from entry ($273.64 × 0.93 = $254.49)
+- Price reached $254.51 and declining; cut executed at $0.02 above rule threshold
+- Cancelled stop a7a75899 (56 shares, 10% trail, stop $250.02)
+- Sold 56 shares @ avg $254.52 (fills: 16@$254.51 + 38@$254.52 + 1@$254.48 + 1@$254.49)
+- **Realized P&L: 56 × ($254.52 − $273.64) = −$1,070.72**
+- Thesis was intact (AWS/AI) but technical rule overrides. AMZN underperformed since entry (May 6); no recovery catalyst near term.
+
+### Net Realized Today
+| Trade | P&L |
+|-------|-----|
+| GOOGL stop-out (39 shares) | −$1,453.14 |
+| MRVL +25% partial (26 shares) | +$1,704.04 |
+| AMZN manual cut (56 shares) | −$1,070.72 |
+| **Net** | **−$819.82** |
+
+### Step 4 — Stop Tightening Summary
+- MRVL: 10% → 7% ✓ (executed, included in partial above)
+- AVGO: 10% → 7% ✓ (executed, order c52f0e3c)
+- MU: already at 7% ✓ (high-ATR exception applies)
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AVGO | 37.196 | $424.99 | $449.56 (7% trail, c52f0e3c) | $483.40 |
+| 2 | GOOGL | 0.657886 | $398.61 | none (fractional remnant) | $408.61 |
+| 3 | MRVL | 54.040 | $205.13 | $257.55 (7% trail, 4307e3b1) | $276.94 |
+| 4 | MU | 14.649 | $754.46 | $978.36 (7% trail, e96e092c) | $1,052 |
+
+- Trades this week: 0 of 7 (no new entries; sells are position management)
+- Deployed: 42.0% ($48,345 / $115,109) — significantly below 75-85% target; GOOGL stop-out + AMZN cut freed capital
+- **Need 2-3 quality setups to redeploy ~$38k; no rush — discipline over deployment speed**
+- Watch: MU +40% partial at $1,056.24 ($19.97 away at current $1,036.27) — pre-stage: sell 4 integer shares when bid ≥ $1,056.24
+- Watch: MRVL +40% trigger = $287.18 (+34.9% currently, $10.39 away) — stage sell 18 integer shares when triggered
+- Watch: AVGO earnings June 3 AMC — hold existing; 7% stop protects $449.56
+- GOOGL fractional remnant: 0.657886 shares (~$237) — no stop possible; can close manually or let expire
+
