@@ -3026,3 +3026,30 @@ See above. GOOGL stop fired between Jun 1 EOD and Jun 2 open.
 - Watch: AVGO earnings June 3 AMC — hold existing; 7% stop protects $449.56
 - GOOGL fractional remnant: 0.657886 shares (~$237) — no stop possible; can close manually or let expire
 
+---
+
+## 2026-06-02 - Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AVGO | 37.196 | 37.196240 | ✓ |
+| GOOGL | 0.657886 | 0.657886 | ✓ (fractional remnant) |
+| MRVL | 54.040 | 54.040316 | ✓ |
+| MU | 14.649 | 14.649484 | ✓ |
+
+Clean. No discrepancies. All GTC stops active (AVGO c52f0e3c 7% trail, MRVL 4307e3b1 7% trail, MU e96e092c 7% trail).
+
+---
+
+### Jun 02 - EOD Snapshot (Day 30, Tuesday)
+**Portfolio:** $116,307.47 | **Cash:** $66,763.30 (57.4%) | **Day P&L:** +$5,528.67 (+4.99%) | **Phase P&L:** +$16,307.47 (+16.31%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AVGO | 37.196 | $424.99 | $481.63 | +$21.66 (+4.71%) | +$2,106.80 (+13.33%) | $451.75 (7% trail, HWM $485.75) |
+| GOOGL | 0.657886 | $398.61 | $362.00 | -$14.37 (-3.82%) | -$24.08 (-9.18%) | none (fractional) |
+| MRVL | 54.040 | $205.13 | $291.44 | +$72.01 (+32.82%) | +$4,664.22 (+42.08%) | $270.90 (7% trail, HWM $291.29) |
+| MU | 14.649 | $754.46 | $1,065.05 | +$29.55 (+2.85%) | +$4,549.98 (+41.17%) | $1,001.20 (7% trail, HWM $1,076.56) |
+
+**Notes:** Three position management trades today: GOOGL trailing stop fired overnight (39 shares, avg $361.35, −$1,453.14), MRVL +25% partial sell executed (26 shares @ $270.67, +$1,704.04), AMZN manual −7% cut (56 shares @ $254.52, −$1,070.72); AVGO stop tightened 10%→7% at +15% trigger. Net realized today: −$819.82. Portfolio +$5,528.67 (+4.99%) on the day, driven by MRVL's extraordinary +32.82% intraday surge (major AI custom silicon catalyst — likely NVDA supply agreement or analyst re-rating) and AVGO +4.71%, MU +2.85%. ⚠️ TWO +40% PARTIAL TRIGGERS CROSSED INTRADAY — MUST EXECUTE WEDNESDAY OPEN: MRVL at $291.44 > $287.18 trigger (sell 18 shares, place new 7% stop on 36 remaining); MU at $1,065.05 > $1,056.24 trigger (sell 4 shares, place new 7% stop on 10 remaining). AVGO earnings June 3 AMC — binary event, 7% stop at $449.56 protects. Deployed 42.6% vs 75-85% target — underdeployed; GOOGL+AMZN exits freed ~$38k cash; identify 2-3 new setups. No new entries this week. Phase P&L +$16,307.47 (+16.31%) — new high-water mark.
+
