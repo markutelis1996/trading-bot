@@ -3474,3 +3474,77 @@ BTC no RSI <30 signal. No crypto entry criteria met.
 - GOOGL: manual cut at $370.71 if touched intraday today or this week
 - AVGO: binary June 3 — hold existing, no adds
 - Trades this week: 0 of 7 used
+
+---
+
+## 2026-06-02 - Pre-market Research
+
+### Step 0 — Reconciliation
+All 5 broker positions match log exactly. No overnight stop-outs.
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AMZN | 56 | 56 | ✓ |
+| AVGO | 37.196 | 37.196 | ✓ |
+| GOOGL | 39.657 | 39.657 | ✓ |
+| MRVL | 80.040 | 80.040 | ✓ |
+| MU | 14.649 | 14.649 | ✓ |
+
+### Account
+- Equity: ~$108,628 | Cash: ~$31,380 (~28.9% idle)
+- Deployed: ~71.1% (5 of 6-8 positions used; 1 slot open)
+- Daytrade count: 0/3 | Phase P&L: +$8,628 (+8.63%)
+
+### Market Context
+- **S&P futures**: ESM26 7,581.50 (-31.75, -0.42%) | NQM26 30,360.75 (-205.50, -0.67%) — mildly negative
+- **VIX**: 16.05 (Jun 1 close, +4.77%); VIX futures 18.15
+- **Oil**: WTI $91.32 (-0.91%), Brent $94.28 (-0.74%). Spike yesterday (+5.49%) on Iran/Hormuz escalation; partial reversal today.
+- **Macro**: No major data today. NFP June 5, CPI June 10, FOMC June 17.
+- **Earnings today**: Dollar General, Signet, Victoria's Secret (BMO); PANW, GitLab, Ulta (AMC) — no holdings affected.
+- **Earnings tomorrow**: AVGO June 3 AMC (est EPS $2.40, +51.9% YoY; AI revenue $10.7B, +140%). 94% beat odds on Polymarket. Hold; no adds.
+- **Sector**: Info Tech +33% YTD; Semis (SOXX) +84% from March lows. Semi equipment +76.68% YTD.
+- **Catalyst summary**: ARM +13.97% June 1 (AGI CPU launch); NVDA +6.26% (new PC processor); DELL +10.70% (Q1 blowout); MU +6.64% June 1.
+
+### Position Status (premarket June 2)
+| Ticker | Shares | Entry | ~Premarket | P&L% | Stop | Flag |
+|--------|--------|-------|------------|------|------|------|
+| AMZN | 56 | $273.64 | ~$278 | ~+1.6% | $250.02 (10% trail, a7a75899) | HOLD |
+| AVGO | 37.196 | $424.99 | ~$466 | ~+9.7% | $419.45 (10% trail, 6a7bc8d9) | HOLD — AVGO earnings Jun 3 AMC |
+| GOOGL | 39.657 | $398.61 | ~$376 | -5.68% | $367.75 (10% trail, 4e322e3f) | ⚠️ WATCH — cut at $370.71 |
+| MRVL | 80.040 | $205.13 | ~$255 | +24.3% | $202.63 (10% trail, 6541deb9) → NEEDS UPDATE | ⚡ TIGHTEN STOP + STAGE PARTIAL |
+| MU | 14.649 | $754.46 | ~$1,016 | +34.6% | $973.68 (7% trail, e96e092c) | ★ Stage +40% partial |
+
+Note: Alpaca paper quotes unreliable (MU shows $52 — stale). Using broker position current_price.
+
+### Rule Check Alerts
+1. **MRVL ⚡ HIGH PRIORITY**: At ~$255, past +20% trigger ($246.16). Must tighten stop 10%→7% (ATR exception applies: implied vol 114% = high-vol semi; do NOT go to 5%). New 7% trail from $255 HWM = **$237.15**. Cancel order 6541deb9, place new GTC 7% trail on 80 shares. Approaching +25% partial trigger at $256.41 → stage sell 26 shares (1/3 of 80 = 26.67 → 26 integer).
+2. **GOOGL ⚠️ TIGHT**: Last reliable quote ~$376.37. Cut line $370.71. Cushion: $5.66. Monitor intraday; cut immediately if $370.71 touched.
+3. **MU ★**: +40% partial trigger = $1,056.24. Stage sell 4 shares (1/3 of 14 = 4.88 → 4 integer) when bid ≥ $1,056.24. Remaining 10 shares keep 7% trail.
+4. **AVGO binary**: Hold existing; no adds before June 3 AMC earnings.
+
+### Sector Concentration Check
+- Semi: AVGO $17,345 + MU ~$14,870 + MRVL ~$20,410 = ~$52,625 / $108,628 = **48.4%** (under 60% cap ✓)
+- Tech total (+ AMZN GOOGL): ~78% deployed — no headroom for new semi adds even if desired
+
+### Capitol Trades — Whitelist Politicians
+No qualifying fresh stock buys found in last 30 days from whitelist (McCaul, Crenshaw, Tuberville, Khanna, Gottheimer, Green, Mast, Pelosi). Signal: absent.
+Note: Non-whitelist David Taylor sold GOOGL 2 days ago ($15K-$50K) — minor bearish GOOGL signal (non-qualifying).
+
+### Crypto
+- **BTC**: ~$70k range; RSI not <30. No entry.
+- **ETH**: ~$1,997; RSI 31.70 (approaching oversold but not <30). 50-day SMA $2,207 (price below). Bearish momentum. No entry.
+- **SOL**: ~$81.29; RSI 38.25 (neutral). No entry.
+- All crypto: No RSI <30 entry criteria met. No new crypto positions.
+
+### New Trade Candidates
+- **ARM**: Still on watchlist. Post-gap pullback target $400-415. Today's futures negative → no entry.
+- No other setups qualify. Futures -0.42%; Iran escalation risk; AVGO binary tomorrow. Discipline: no new entries today.
+
+### Actions for Market Open
+1. **MRVL** — Execute stop tighten to 7% (cancel 6541deb9, place new GTC trailing stop 7% on 80 shares, current price ~$255)
+2. **MRVL** — Stage partial sell: 26 shares limit at $256.41 (GTC or limit-day)
+3. **GOOGL** — Watch intraday; manual cut at $370.71
+4. **MU** — Stage 4-share partial sell at bid ≥ $1,056.24
+
+### Decision
+HOLD all 5. MRVL stop tighten at open (mandatory rule). No new entries today.
+Trades this week: 0 of 7 used.
