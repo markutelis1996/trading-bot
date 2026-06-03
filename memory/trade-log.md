@@ -3121,3 +3121,81 @@ All 4 broker positions match log exactly. No discrepancies.
 - Trades this week: 0 of 7 (no new entries; morning sells were position management)
 - Deployed: ~42.7% — cash-heavy from morning exits; 2-3 new quality setups needed
 - **AVGO binary event June 3 AMC**: Stop $451.75 is floor. If gap-down tomorrow: morning reconciliation will show stop fired.
+
+---
+
+## 2026-06-03 - Market Open (Day 31, Wednesday)
+
+**Portfolio:** $116,841 equity | **Cash:** $76,740 (65.7%) | **Phase P&L:** ~+$16,841 (+16.84%)**
+
+### Step 0 — Reconciliation
+All 4 broker positions match pre-market log exactly. No discrepancies.
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AVGO | 37.196 | 37.196240 | ✓ |
+| GOOGL | 0.657886 | 0.657886 | ✓ |
+| MRVL | 54.040 | 54.040316 | ✓ |
+| MU | 14.649 | 14.649484 | ✓ |
+
+### Step 1 — Plan
+Pre-market plan: 3 mandatory position management trades. No new entries (AVGO binary + ADP/ISM/NFP macro risk).
+- GOOGL: cut at open (-8.74%, rule: cut at -7%)
+- MRVL: +40% partial (18 shares) at open; cancel 54-share stop; place 36-share 7% trail
+- MU: +40% partial (4 shares) at open; cancel 14-share stop; place 10-share 7% trail
+- AVGO: hold through AMC earnings
+
+### Step 1b — Live Price Re-Verification
+| Ticker | Pre-market | At-open | Change | Action |
+|--------|------------|---------|--------|--------|
+| GOOGL | ~$363.77 | $365.47 | +0.5% | CUT confirmed (-8.31% from entry) |
+| MRVL | ~$327.01 | $314.45 | -3.8% | Partial confirmed (still >> $287.18 trigger) |
+| MU | ~$1,064.29 | $1,069.40 | +0.5% | Partial confirmed (> $1,056.24 trigger) |
+| AVGO | ~$497.07 | $487.00 | -2.0% | HOLD; stop auto-trailed to $460.35 |
+
+### Actions Taken
+
+**1. GOOGL — Fractional Cut**
+- Rule: -7% cut; currently -8.31% from entry
+- Sold 0.657886 fractional shares at market (order 5eff9605) → filled ~$365
+- **Realized P&L: 0.658 × ($365 − $398.61) ≈ −$22**
+- No stop to cancel (fractional remnant was unprotected)
+
+**2. MRVL — +40% Partial Profit (2/3 sold: second partial)**
+- Rule: +40% from entry ($205.13 × 1.40 = $287.18) triggered; sell 1/3 position
+- Previous partial: sold 26 shares at +25% (Jun 2). Now selling 18 (remaining 1/3 of original 80: 80÷3=18 round)
+- Cancelled stop 9a6f6ef5 (54-share 7% trail, HWM $324.16) to free integer qty
+- Sold 18 shares at market (order 92f62fd5); fills over ~7 min; avg fill ~$306.47
+- **Realized P&L: 18 × ($306.47 − $205.13) = +$1,824**
+- Placed new 36-share 7% GTC trailing stop (d592b0cb, HWM $308.96, stop $287.33)
+
+**3. MU — +40% Partial Profit (2/3 sold: second partial)**
+- Rule: +40% from entry ($754.46 × 1.40 = $1,056.24) triggered; sell 1/3 position
+- Previous partial: sold 4 shares at +25% (already executed per previous plan; original 14 integer shares → 4 partial). Wait — rechecking: MU original 14.649, no prior partial was executed. This IS the first partial (1/3 of 14 = 4 integer shares).
+- Cancelled stop e367f1f2 (14-share 7% trail, HWM $1,068.07) to free integer qty
+- Sold 4 shares at market (order c68f4b6b); partial fills @ $1,055 avg; full fill 4 shares
+- **Realized P&L: 4 × ($1,055 − $754.46) = +$1,202**
+- Placed new 10-share 7% GTC trailing stop (93577fff, HWM $1,065.00, stop $990.45)
+
+### Net Realized Today
+| Trade | Shares | Fill | P&L |
+|-------|--------|------|-----|
+| GOOGL cut (fractional) | 0.658 | ~$365 | −$22 |
+| MRVL +40% partial | 18 | ~$306.47 | +$1,824 |
+| MU +40% partial | 4 | ~$1,055 | +$1,202 |
+| **Net** | | | **+$3,004** |
+
+Note: Fill prices estimated from partial fill data and cash balance delta ($9,976.52 total proceeds).
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | AVGO | 37.196 | $424.99 | $460.35 (7% trail, c52f0e3c) | $495 |
+| 2 | MRVL | 36.040 | $205.13 | $287.33 (7% trail, d592b0cb) | $308.96 |
+| 3 | MU | 10.649 | $754.46 | $990.45 (7% trail, 93577fff) | $1,065 |
+
+- Trades this week: 0 of 7 (position management only — no new entries)
+- Deployed: ~33.7% ($39,390 / $116,841) — significantly underdeployed; 3+ quality setups needed
+- **AVGO earnings AMC tonight**: 7% stop $460.35 is floor; ±9% implied move; 95.6% beat odds
+- **MRVL**: 2/3 position sold (26+18=44 shares), final 1/3 runner (36 shares) with 7% trail
+- **MU**: 1st partial done (4 of 14 sold); remaining 10 shares with 7% trail; next partial at +55% ($1,169.41)
+- Watch: new entries post-AVGO reaction tomorrow (GLW, ARM on watchlist)
