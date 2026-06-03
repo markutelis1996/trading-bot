@@ -3199,3 +3199,51 @@ Note: Fill prices estimated from partial fill data and cash balance delta ($9,97
 - **MRVL**: 2/3 position sold (26+18=44 shares), final 1/3 runner (36 shares) with 7% trail
 - **MU**: 1st partial done (4 of 14 sold); remaining 10 shares with 7% trail; next partial at +55% ($1,169.41)
 - Watch: new entries post-AVGO reaction tomorrow (GLW, ARM on watchlist)
+
+---
+
+## 2026-06-03 - Midday Scan
+
+**Portfolio:** ~$117,264 equity | **Cash:** ~$76,740 (65.4%) | **Positions:** 3 | **Deployed:** ~34.6% | **Phase P&L:** ~+$17,264 (+17.26%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AVGO | 37.196 | 37.196240 | ✓ |
+| MRVL | 36.040 | 36.040316 | ✓ |
+| MU | 10.649 | 10.649484 | ✓ |
+
+Clean. GOOGL fractional cut at open per plan. No intraday stop-outs.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|------|----------|---------------|-----|--------|
+| AVGO | 37.196 | $424.99 | $486.84 | +14.55% | +1.09% | $460.35 (7% trail, c52f0e3c) | $495.00 | HOLD ⚠️ EARNINGS AMC |
+| MRVL | 36.040 | $205.13 | $307.54 | +49.92% | +5.76% | $294.61 (7% trail, d592b0cb) | $316.79 | HOLD — HWM auto-updated |
+| MU | 10.649 | $754.46 | $1,064.09 | +41.04% | -0.001% | $1,000.35 (7% trail, 93577fff) | $1,075.65 | HOLD — HWM auto-updated |
+
+### Step 3 — Cuts
+None. All positions well above -7% rule.
+
+### Step 4 — Stop Tightening
+- **AVGO** +14.55%: below +15% threshold ($488.74). Already at 7% trail. No action.
+- **MRVL** +49.92%: ATR > 4% confirmed (moved +5.76% today, +28.99% Jun 2) → high-ATR exception → stay at 7%, not 5%. Broker auto-trailing correctly (HWM $316.79 ↑ from $308.96). Stop $294.61 = 4.20% below current ✓ (>3% rule).
+- **MU** +41.04%: ATR > 4% confirmed → stay at 7%, not 5%. HWM $1,075.65 ↑ from $1,065. Stop $1,000.35 = 5.99% below current ✓.
+- No manual stop actions needed.
+
+### Step 5 — Thesis Check
+- **AVGO**: +14.55% unrealized; +1.09% intraday. AI ASIC / custom silicon thesis intact. EARNINGS AMC TONIGHT (est EPS $2.40, Q2 guide $22B +47% YoY, 95.6% beat odds, ±9% implied move). 7% stop $460.35 is floor. HOLD.
+- **MRVL**: +49.92% unrealized; +5.76% intraday (Computex 2026 momentum continuing). Jensen Huang "next trillion-dollar company" + NVIDIA $2B strategic investment thesis MASSIVELY INTACT. Final 1/3 runner with 7% trail. HOLD.
+- **MU**: +41.04% unrealized; flat intraday. HBM4/NVDA Vera Rubin supply + AI memory supercycle thesis intact. 1st partial executed at open. Next partial at +55% ($1,169.41). HOLD.
+
+### Step 6 — Intraday Research
+No sharp unexplained moves. MRVL +5.76% is Computex 2026 continuation (Jensen Huang keynote tailwind). No Perplexity check needed (all moves thesis-consistent).
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Notes
+- Deployment 34.6% — well below 75-85% target; waiting for post-AVGO clarity to add 2-3 positions
+- AVGO earnings AMC tonight: if beat + guide raise → evaluate add or hold; if miss → gap-down, stop $460.35 backstop
+- GLW and ARM on watchlist for Thursday morning entry post-AVGO reaction
+- Trades this week: 0 of 7
