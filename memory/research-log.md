@@ -3568,4 +3568,90 @@ Trades this week: 0 of 7 used.
 
 ### Market Structure
 - AI infrastructure names (MRVL, MU, AVGO) all accelerating on Computex 2026 momentum
+
+---
+
+## 2026-06-03 - Pre-market Research
+
+### Step 0 — Reconciliation
+All 4 broker positions match log exactly. No discrepancies.
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AVGO | 37.196 | 37.196240 | ✓ |
+| GOOGL | 0.657886 | 0.657886 | ✓ |
+| MRVL | 54.040 | 54.040316 | ✓ |
+| MU | 14.649 | 14.649484 | ✓ |
+
+### Account
+- Equity: $118,773.37 | Cash: $66,763.30 (~56.2% idle)
+- Long market value: $52,010.07 | Deployed: ~43.7%
+- Daytrade count: 0/3 | Phase P&L: ~+$18,773 (+18.77%)
+
+### Position Status (premarket June 3)
+| Ticker | Shares | Entry | ~Current | P&L% | Stop | Notes |
+|--------|--------|-------|----------|------|------|-------|
+| AVGO | 37.196 | $424.99 | $497.07 | +16.96% | $451.75 (7% trail, c52f0e3c, HWM $485.75) | EARNINGS AMC tonight ⚠️ |
+| GOOGL | 0.657886 | $398.61 | $363.77 | -8.74% | none (fractional) | CUT AT OPEN (−8.74% > −7% rule) |
+| MRVL | 54.040 | $205.13 | $327.01 | +59.41% | $275.60 (7% trail, 9a6f6ef5, HWM $296.34) | +40% partial (18 shares) PENDING |
+| MU | 14.649 | $754.46 | $1,064.29 | +41.07% | $993.31 (7% trail, e367f1f2, HWM $1,068.07) | +40% partial (4 shares) PENDING |
+
+Live prices from Alpaca positions (premarket June 3).
+
+### Market Context
+- **S&P 500 futures**: ESM26 7,622.25 (-1.50, -0.03%) — essentially flat
+- **VIX**: 15.99 (June 2 close), VIX futures 17.90. Declining trend → bullish backdrop
+- **WTI**: ~$94.83 (+1.14%); **Brent**: ~$96.98 (+1.02%) — elevated on Iran/Hormuz concerns
+- **Sector momentum**: Semis #1 YTD (+51.27%), Info Tech +27.88% YTD, Energy +38.3% YTD
+- **Earnings before open**: Macy's (M), Medtronic (MDT), Ollie's (OLLI) — not in our sectors
+- **Earnings after close**: **AVGO** ⚠️, CrowdStrike (CRWD), Docusign (DOCU), Lululemon (LULU)
+- **AVGO preview**: Q2 guidance $22B (+47% YoY); EPS est $2.40 (+51.9% YoY); 95.6% beat probability (Polymarket); 8-quarter EPS beat streak; implied ±9% move
+- **Economic calendar**: ADP Employment 7:15am (forecast 120K); ISM Services PMI 9:00am (prior 53.8); Factory Orders 9:00am; Beige Book 12:00pm
+- **Key risk events ahead**: NFP Friday June 5 (major); FOMC blackout starts June 6; FOMC June 16-17
+
+### Capitol Trades — Whitelist Signals
+- **Pelosi**: Last trade Jan 16, 2026 (NVDA $375K, GOOGL $750K, AMZN $750K). Outside 45-day window. NO signal.
+- **Tuberville**: Last trade Dec 17, 2025. Outside window. NO signal.
+- **Crenshaw**: Zero trades in 3 years. NO signal.
+- **Khanna**: Last April 29; bought BRK/B, HD, CSCO, JNJ, ADP ($15-50K each). Within window but ALL below $25K threshold. Also SOLD MU April 27 (weak bearish). NO qualifying signal.
+- **McCaul**: Last traded March 31 — mostly municipal bonds, small stocks. NO qualifying signal.
+- **Gottheimer**: Bought AMD April 23+27 ($1K-$15K each). Below threshold. NO signal.
+- **Green, Mast**: No recent qualifying activity found.
+- **VERDICT**: No whitelist politician buys meeting thresholds. Signal: ABSENT.
+
+### Crypto
+- **BTC**: ~$67,079 (-5.04% today); 7-day trend: from $75,580 → $67,079 = **-11.26%**
+- **RULE TRIGGER**: BTC -10%+ in 7 days → SKIP all crypto entries today
+- **ETH, SOL**: No RSI <30 entries; BTC bearish trend overrides
+- All crypto: NO TRADES — mandatory skip rule triggered
+
+### Trade Ideas (Live Prices Required — Verified via Alpaca Positions)
+Note: After mandatory sells, deployed drops to ~34%—well below 75-85% target. However, AVGO earnings tonight creates binary event risk across AI/semi space. Better to enter new positions AFTER AVGO reaction.
+
+1. **WATCH: GLW (Corning)** — AI data center fiber optic demand; +13.41% June 2 on AI connectivity buildout catalyst (same Computex tailwind). June 2 close ~$200.40. After-hours Alpaca quote unreliable (wide spread $189/$208). Wait for open price. Stop = ~$180 (10% trail), target ~$241 (20%). Sector: Comm Equipment (+73% YTD). NOT entering today — wait for post-AVGO clarity.
+
+2. **WATCH: ARM Holdings** — Jensen Huang at Computex drove CPU/AI momentum. June 2 close ~$400.65. After-hours quote unreliable. Watchlist until post-AVGO open. Stop = ~$361 (10% trail), target ~$481 (20%).
+
+**No new entries today — AVGO binary event + ADP/ISM macro data + NFP Friday risk.**
+
+### Mandatory Actions at Market Open
+1. **GOOGL**: Sell 0.657886 fractional shares market order (cut at -8.74%, rule: cut at -7%)
+2. **MRVL**: Sell 18 integer shares at market (current ~$327 >> +40% trigger $287.18); then cancel stop 9a6f6ef5 (54-share); place new 36-share 7% GTC trailing stop
+3. **MU**: Sell 4 integer shares at market (current ~$1,064 > +40% trigger $1,056.24); then cancel stop e367f1f2 (14-share); place new 10-share 7% GTC trailing stop
+4. **AVGO**: HOLD through AMC earnings. Do NOT add before binary event.
+
+### Risk Factors
+- AVGO earnings tonight — ±9% implied move; 95.6% beat odds but miss = semi sector selloff
+- NFP Friday June 5 — could reprice rate expectations
+- Bitcoin -11.26% in 7 days — risk asset sentiment pressure
+- MRVL/MU already at +59%/+41% — extended, high volatility; stop discipline critical
+- Semi sector crowding — if AI trade unwinds, all four positions move together
+- Post-partial deployed ~34% — will need 2-3 new positions soon after AVGO clarity
+
+### Decision
+**TRADE (mandatory position management only)**
+- GOOGL: CUT at open (rule-triggered)
+- MRVL: +40% partial at open + stop restructure (rule-triggered)
+- MU: +40% partial at open + stop restructure (rule-triggered)
+- **No new entries**: AVGO binary + macro risk (ADP, ISM, NFP). Enter GLW/ARM tomorrow post-AVGO reaction if thesis holds.
+- Trades this week: 0 of 7 (these are position management, not new entries)
 - S&P tech sector leadership continuing; NVDA endorsement of MRVL = sector-wide sentiment lift
