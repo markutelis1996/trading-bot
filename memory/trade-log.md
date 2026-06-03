@@ -3247,3 +3247,16 @@ None. No cuts, no stop changes, no new entries.
 - AVGO earnings AMC tonight: if beat + guide raise → evaluate add or hold; if miss → gap-down, stop $460.35 backstop
 - GLW and ARM on watchlist for Thursday morning entry post-AVGO reaction
 - Trades this week: 0 of 7
+
+---
+
+### Jun 03 - EOD Snapshot (Day 31, Wednesday)
+**Portfolio:** $116,940.06 | **Cash:** $76,739.79 (65.6%) | **Day P&L:** +$632.59 (+0.54%) | **Phase P&L:** +$16,940.06 (+16.94%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AVGO | 37.196 | $424.99 | $480.29 | −$1.28 (−0.27%) | +$2,056.95 (+13.01%) | $460.35 (7% trail, c52f0e3c, HWM $495.00) |
+| MRVL | 36.040 | $205.13 | $301.02 | +$10.23 (+3.52%) | +$3,455.93 (+46.75%) | $294.61 (7% trail, d592b0cb, HWM $316.79) |
+| MU | 10.649 | $754.46 | $1,078.78 | +$14.68 (+1.38%) | +$3,453.84 (+42.99%) | $1,013.04 (7% trail, 93577fff, HWM $1,089.29) |
+
+**Notes:** Three position management trades at open: GOOGL fractional cut (−$22, −8.31% rule), MRVL +40% partial 18 shares (+$1,824), MU first partial 4 shares (+$1,202). Net realized today +$3,004. AVGO −0.27% on day — held through AMC earnings tonight (est EPS $2.40, Q2 guide $22B, ±9% implied move; 7% stop $460.35 is floor). MRVL runner +46.75% unrealized on final 1/3 (36 shares); Computex 2026 momentum continuing (+3.52% today, HWM $316.79). MU +42.99% unrealized; next partial at +55% ($1,169.41). Portfolio 34.4% deployed vs 75-85% target — significantly underdeployed; cash freed from GOOGL/MRVL/MU partials. Tomorrow: assess post-AVGO gap reaction at open; GLW and ARM on watchlist for new entries to close deployment gap. Trades this week: 0 new entries (all position management).
