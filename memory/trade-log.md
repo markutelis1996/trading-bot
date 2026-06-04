@@ -3312,4 +3312,57 @@ None.
 - Deployed: 0% — will redeploy when sector stabilizes, target 75-85% (4-5 positions @ $16-17K each)
 - Sector "fail" note: AVGO = 1 failed semi trade. MU/MRVL profitable but stopped out on contagion. Not sector failure per rules (MU/MRVL still net-positive). Monitor semi sector for re-entry after clarity.
 - Watch for tomorrow: post-NFP reaction, AVGO earnings call transcript (guidance details), GLW/ARM re-eval if semi bounce
+
+---
+
+## 2026-06-04 - Midday Scan
+
+**Portfolio:** $113,075.65 equity | **Cash:** $113,075.65 (100%) | **Positions:** 0 | **Phase P&L:** +$13,075.65 (+13.08%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| (none) | 0 | 0 | ✓ |
+
+Clean. All positions stopped out at market open per morning reconciliation log. No open positions in broker or log.
+
+### Position Status
+No open positions.
+
+### Step 3 — Cuts
+N/A — no positions.
+
+### Step 4 — Stop Tightening
+N/A — no positions, no open GTC stops.
+
+### Step 5 — Thesis Check
+N/A — no positions.
+
+### Step 6 — Intraday Research
+**AVGO Miss Clarity (sell-the-news, not demand break):**
+- Q2 revenue: $22.2B (+48% YoY) — beat vs $22B estimate
+- Guided Q3 to $29.4B; did NOT raise full-year AI chip revenue target → sell-the-news reaction
+- Stock dropped ~15% at open; NOT a fundamental AI demand collapse
+- MRVL/MU: contagion (-6.5%/-6.8% at open); recovering intraday
+
+**Watchlist Quotes (~1:00 PM ET):**
+| Ticker | Jun 2 Close | Open (Jun 4) | Now (ask) | Recovery |
+|--------|------------|--------------|-----------|----------|
+| GLW | $200.40 | $191.82 | $197.40 | +2.9% from open |
+| ARM | $400.65 | $387.53 | $406.68 ask / $380 bid | Wide spread (~7%) — untradeable |
+
+**NFP Tomorrow (June 5):**
+- Consensus: ~115k jobs added, unemployment ~4.3% (weak labor, tariff/immigration drag)
+- Weak print = Fed cut expectations rise → market positive; strong print = hawkish repricing
+- Hold cash through data print; enter new positions post-NFP if semi sector confirms stabilization
+
+### Actions
+None. 100% cash. No cuts, no stop changes, no new entries.
+
+### Notes
+- GLW recovering from open lows; thesis still valid (AI fiber optic demand); watch post-NFP for entry
+- ARM spread too wide midday; revisit Friday post-NFP
+- AVGO miss = "sell the news" not thesis break; semi sector not in "2 failed trades" territory (AVGO fail #1; MU/MRVL still net-positive)
+- Target: 4-5 new positions next week once sector stabilizes and NFP absorbed
+- Trades this week: 0 of 7
 - Phase P&L vs S&P benchmark: +13.08% from $100K start
