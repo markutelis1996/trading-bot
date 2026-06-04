@@ -3260,3 +3260,56 @@ None. No cuts, no stop changes, no new entries.
 | MU | 10.649 | $754.46 | $1,078.78 | +$14.68 (+1.38%) | +$3,453.84 (+42.99%) | $1,013.04 (7% trail, 93577fff, HWM $1,089.29) |
 
 **Notes:** Three position management trades at open: GOOGL fractional cut (−$22, −8.31% rule), MRVL +40% partial 18 shares (+$1,824), MU first partial 4 shares (+$1,202). Net realized today +$3,004. AVGO −0.27% on day — held through AMC earnings tonight (est EPS $2.40, Q2 guide $22B, ±9% implied move; 7% stop $460.35 is floor). MRVL runner +46.75% unrealized on final 1/3 (36 shares); Computex 2026 momentum continuing (+3.52% today, HWM $316.79). MU +42.99% unrealized; next partial at +55% ($1,169.41). Portfolio 34.4% deployed vs 75-85% target — significantly underdeployed; cash freed from GOOGL/MRVL/MU partials. Tomorrow: assess post-AVGO gap reaction at open; GLW and ARM on watchlist for new entries to close deployment gap. Trades this week: 0 new entries (all position management).
+
+---
+
+## 2026-06-04 - Reconciliation (Market Open)
+
+AVGO reported Q3 earnings AMC Jun 3 — apparent miss/guidance disappointment. Stock gapped -14% at open ($479 → ~$410). All three GTC trailing stops breached simultaneously (semi sector contagion: MRVL -6.5%, MU -6.5% also).
+
+Alpaca paper trading did not execute the trailing stops cleanly on the gap-down. Stop orders were found still "new" at 9:31 AM ET with current prices well below stop prices. Canceled all three stops and executed manual market-close orders to simulate proper live-account stop fills.
+
+| Ticker | Log Qty | Broker Qty | Stop Price | Gap Open | Action |
+|--------|---------|------------|------------|----------|--------|
+| AVGO | 37.196 | 37.196 | $460.35 | ~$413 (gap through stop) | Canceled stop; closed position |
+| MRVL | 36.040 | 36.040 | $294.61 | ~$282 (gap through stop) | Canceled stop; closed position |
+| MU | 10.649 | 10.649 | $1,013.04 | ~$1,010 (borderline) | Canceled stop; closed position |
+
+Note: Stop orders had partially executed before cancel arrived (paper engine race condition):
+- AVGO: 19 shares filled @ $410.00 via stop; remaining 18.196 closed via market sell @ $410.74
+- MRVL: 11 shares filled @ $286.01 via stop; remaining 25.040 closed via market sell @ $286.12
+- MU: 3 shares filled @ $1,011.34 via stop; remaining 7.649 closed via market sell @ $1,010.18
+
+---
+
+## 2026-06-04 - Market-Open Trades (Day 32, Thursday)
+
+**Portfolio:** $113,075.65 | **Cash:** $113,075.65 (100%) | **Positions:** 0 | **Phase P&L:** +$13,075.65 (+13.08%)
+
+### All Positions Stopped Out — AVGO Earnings Miss
+
+| Trade | Shares | Entry | Fill Price | Realized P&L | Cause |
+|-------|--------|-------|------------|--------------|-------|
+| AVGO SELL (stop partial) | 19 | $424.99 | $410.00 | −$284.81 | 7% trail stop triggered |
+| AVGO SELL (close remainder) | 18.196 | $424.99 | $410.74 | −$258.72 | Manual close post-stop-cancel |
+| MRVL SELL (stop partial) | 11 | $205.13 | $286.01 | +$888.68 | 7% trail stop triggered |
+| MRVL SELL (close remainder) | 25.040 | $205.13 | $286.12 | +$2,028.91 | Manual close post-stop-cancel |
+| MU SELL (stop partial) | 3 | $754.46 | $1,011.34 | +$770.64 | 7% trail stop triggered |
+| MU SELL (close remainder) | 7.649 | $754.46 | $1,010.18 | +$1,956.39 | Manual close post-stop-cancel |
+| **Net Today** | | | | **+$5,101** | |
+
+### No New Entries — Post-Earnings Clarity Needed
+
+- AVGO Q3 earnings miss → semi sector contagion (-6 to -14% across AVGO/MRVL/MU)
+- GLW ask $191.82 (Jun 2 close $200.40, -4%); ARM ask $387.53 (Jun 2 close $400.65, -3%). Both caught in AI selloff with wide spreads. No fresh catalysts overriding sector headwind.
+- NFP tomorrow (June 5) — major macro event; entering before it adds risk.
+- Decision: HOLD CASH. Re-evaluate post-sector stabilization and post-NFP.
+
+### Open Positions
+None.
+
+- Trades this week: 0 of 7 (stop-outs are not new entries)
+- Deployed: 0% — will redeploy when sector stabilizes, target 75-85% (4-5 positions @ $16-17K each)
+- Sector "fail" note: AVGO = 1 failed semi trade. MU/MRVL profitable but stopped out on contagion. Not sector failure per rules (MU/MRVL still net-positive). Monitor semi sector for re-entry after clarity.
+- Watch for tomorrow: post-NFP reaction, AVGO earnings call transcript (guidance details), GLW/ARM re-eval if semi bounce
+- Phase P&L vs S&P benchmark: +13.08% from $100K start

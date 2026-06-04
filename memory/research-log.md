@@ -3655,3 +3655,40 @@ Note: After mandatory sells, deployed drops to ~34%—well below 75-85% target. 
 - **No new entries**: AVGO binary + macro risk (ADP, ISM, NFP). Enter GLW/ARM tomorrow post-AVGO reaction if thesis holds.
 - Trades this week: 0 of 7 (these are position management, not new entries)
 - S&P tech sector leadership continuing; NVDA endorsement of MRVL = sector-wide sentiment lift
+
+---
+
+## 2026-06-04 - Market-Open Research (Inline)
+
+### Account
+- Equity: $113,075.65 (all cash — all positions stopped out at open)
+- Cash: $113,075.65
+- Buying power: ~$379K (4x margin, paper)
+- Daytrade count: 0
+- Open positions: 0
+
+### Market Context (at ~9:38 AM ET)
+- AVGO earnings miss AMC Jun 3 → gapped -14% at open ($479 → $410); triggered semi sector selloff
+- MRVL: -6.5% ($301 → $282), MU: -6.8% ($1,079 → $1,010)
+- GLW: ask $191.82 (vs Jun 2 close $200.40, -4.3%); wide bid/ask spread ($181/$192)
+- ARM: ask $387.53 (vs Jun 2 close $400.65, -3.3%); spread $375/$388
+- VIX: elevated (not checked live; expect spike from semi selloff)
+- NFP tomorrow June 5 — major macro event
+
+### Trade Ideas
+1. GLW — AI fiber optics, Comm Equipment sector (different from semi). Jun 2 catalyst still valid (+13.41% on AI connectivity buildout). Current ask $191.82. Stop ~$172 (10% trail), target $230 (+20%). R:R ~2.1:1. CONCERN: down 4% on semi contagion, wide spread, NFP tomorrow. VERDICT: WATCHLIST — pass today.
+2. ARM — AI CPU/custom silicon, Computex Jensen Huang catalyst. Ask $387.53. Stop ~$349 (10% trail), target $465 (+20%). R:R 2.0:1. CONCERN: semi headwind from AVGO miss, 3% down today, spread wide. VERDICT: WATCHLIST — pass today.
+
+### Risk Factors
+- AVGO earnings miss = unclear if demand weakness (MRVL/MU also affected) or execution issue
+- Semi sector "1 failed trade" (AVGO) logged; 1 more semi failure = sector exit rule triggers
+- NFP June 5 = rate repricing risk
+- Wide spreads at open = elevated volatility
+
+### Decision
+**HOLD — No new entries today**
+- All 3 positions stopped out. 100% cash.
+- Semi sector under pressure — wait for stabilization before re-entry
+- No new catalysts today offsetting sector headwind
+- NFP Friday risk argues for caution
+- Re-evaluate pre-market June 5 post-NFP clarity
