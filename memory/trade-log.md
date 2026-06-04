@@ -3366,3 +3366,15 @@ None. 100% cash. No cuts, no stop changes, no new entries.
 - Target: 4-5 new positions next week once sector stabilizes and NFP absorbed
 - Trades this week: 0 of 7
 - Phase P&L vs S&P benchmark: +13.08% from $100K start
+
+---
+
+### Jun 04 - EOD Snapshot (Day 32, Thursday)
+**Portfolio:** $113,075.65 | **Cash:** $113,075.65 (100%) | **Day P&L:** -$3,858.10 (-3.30%) | **Phase P&L:** +$13,075.65 (+13.08%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** All three remaining positions (AVGO, MRVL runner, MU runner) stopped out at morning open on AVGO Q3 earnings contagion. AVGO gapped -14% at open (~$413 vs $480 prior close); semi sector followed (-6.5% MRVL, -6.5% MU). Alpaca paper engine race condition on gap-down stops required manual close — all exits executed at approximately stop-level prices. Net realized from today's exits: +$5,101 (AVGO combined -$543, MRVL combined +$2,918, MU combined +$2,727). Day P&L -$3,858 reflects difference between Jun 03 mark-to-market ($116,940 with positions) and today's lower exit fills. Portfolio 100% cash. No new entries — NFP due Friday June 5, semi sector needs stabilization post-AVGO. AVGO miss was "sell the news" (Q3 $22.2B beat, no full-year AI chip revenue raise), not a fundamental demand collapse. Phase P&L +$13,075.65 (+13.08%) vs starting $100K. Next: post-NFP entry into 4-5 quality setups; GLW and ARM top watchlist.
+
