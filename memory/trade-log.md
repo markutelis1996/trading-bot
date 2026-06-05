@@ -3378,3 +3378,44 @@ None. 100% cash. No cuts, no stop changes, no new entries.
 
 **Notes:** All three remaining positions (AVGO, MRVL runner, MU runner) stopped out at morning open on AVGO Q3 earnings contagion. AVGO gapped -14% at open (~$413 vs $480 prior close); semi sector followed (-6.5% MRVL, -6.5% MU). Alpaca paper engine race condition on gap-down stops required manual close — all exits executed at approximately stop-level prices. Net realized from today's exits: +$5,101 (AVGO combined -$543, MRVL combined +$2,918, MU combined +$2,727). Day P&L -$3,858 reflects difference between Jun 03 mark-to-market ($116,940 with positions) and today's lower exit fills. Portfolio 100% cash. No new entries — NFP due Friday June 5, semi sector needs stabilization post-AVGO. AVGO miss was "sell the news" (Q3 $22.2B beat, no full-year AI chip revenue raise), not a fundamental demand collapse. Phase P&L +$13,075.65 (+13.08%) vs starting $100K. Next: post-NFP entry into 4-5 quality setups; GLW and ARM top watchlist.
 
+---
+
+## 2026-06-05 - Market-Open Trades (Day 33, Friday)
+
+**Portfolio:** $113,075.62 | **Cash:** $96,120.45 | **Positions:** 1 | **Phase P&L:** +$13,075.62 (+13.08%)**
+
+### Reconciliation (Step 0)
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| (none) | 0 | 0 | ✓ |
+Clean. No discrepancies.
+
+### Macro Context
+- NFP May 2026: **172k actual vs 85k consensus** — massive beat (+103%). Strong labor market signals economic resilience → AI infrastructure spending intact.
+- S&P futures pre-market -0.59%; market opened mixed, semi-sector mixed.
+- MRVL down -5.5% from pre-market $316.43 → $299 ask at open → >5% rule triggered, SKIPPED.
+- GLW spread 10.5% untradeable. ARM spread ~25% untradeable. NVDA: no catalyst in today's research log.
+
+### New Positions
+
+| Date | Ticker | Side | Shares | Entry | Stop | Thesis | Target | R:R |
+|------|--------|------|--------|-------|------|--------|--------|-----|
+| 2026-06-05 | GOOGL | BUY | 46 | $368.59 | $332.54 (10% trail GTC a2f8d542) | Cloud AI / Gemini thesis; recovery from AVGO contagion; NFP beat 172k confirms economic strength → AI spend intact | $442.31 (+20%) | 2.0:1 |
+
+- Cost basis: $16,955.17 (14.99% of equity)
+- Stop order ID: a2f8d542, HWM $369.49, trail 10% GTC
+
+### Skipped (with reason)
+- MRVL: ask $299 vs pre-market $316.43 = -5.5% (>5% reconsider rule); spread 3% wide — SKIP
+- GLW: spread $20 (10.5%) — UNTRADEABLE
+- ARM: spread $103 (25%) — UNTRADEABLE
+- NVDA: tight spread but no catalyst documented in today's RESEARCH-LOG — SKIP
+
+### Open Positions
+| Ticker | Shares | Entry | Stop | Thesis |
+|--------|--------|-------|------|--------|
+| GOOGL | 46 | $368.59 | $332.54 (10% trail, a2f8d542) | Cloud AI / Gemini |
+
+- Trades this week: 1 of 7
+- Deployed: ~15% (1 position) — significantly underdeployed vs 75-85% target; midday/weekly review to identify new entries
+
