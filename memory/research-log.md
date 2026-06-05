@@ -3692,3 +3692,66 @@ Note: After mandatory sells, deployed drops to ~34%—well below 75-85% target. 
 - No new catalysts today offsetting sector headwind
 - NFP Friday risk argues for caution
 - Re-evaluate pre-market June 5 post-NFP clarity
+
+---
+
+## 2026-06-05 - Pre-market Research
+
+### Account
+- Equity: $113,075.65
+- Cash: $113,075.65
+- Buying power: $452,302.60
+- Daytrade count: 0
+- Open positions: 0 (all stopped out Jun 4 on AVGO earnings contagion)
+- Open orders: 0
+- Phase P&L: +$13,075.65 (+13.08%) vs S&P YTD ~+18%
+
+### Reconciliation
+- Broker: 0 positions | Trade-log: "None" → CLEAN, no discrepancies
+
+### Market Context
+- WTI: ~$93.18 | Brent: ~$95.36
+- S&P 500 futures: -0.59% (7,556) | Nasdaq 100: -1.07% (30,163) | Dow: -0.12%
+- VIX: ~15.40 spot (complacent zone); Jun futures 17.35 (slight contango)
+- **NFP May 8:30 AM ET TODAY** — consensus 85k (April 115k; ADP 122k beat; JOLTS 7,618k highest ~2yr)
+- AVGO: -12.59% premarket ($418.91) — earnings miss contagion continuing
+- MRVL: +4.90% premarket ($316.43) — recovering from contagion
+- NVDA: +1.82% premarket ($218.66) — recovering
+- GOOGL: +3.68% premarket ($372.19) — recovering
+- Semi sector: 1 failed trade logged (AVGO stop-out); 1 more = sector exit rule triggers
+
+### Sector Momentum (YTD)
+- Energy: +27-29% | IT: +25-28% | Industrials: +12-18% | Materials: +11-15%
+- Weakest: Financials: -5 to -6% | Healthcare: -1 to -6%
+
+### Politician Signals
+- No qualifying whitelist buys ≥$25k in last 30-45 days
+- Khanna: AMZN $1k-15k (Apr 2), JPM $15k-50k (Apr 21) — below threshold / wrong sector
+- Gottheimer: AMD $1k-15k (May 5) — below threshold
+- WATCHLIST ONLY — no primary catalyst from this source today
+
+### Crypto
+- BTC: ~$62,753 (Jun 4 close), -14.46% over 5 days, RSI 18-33 (extreme oversold), below ALL MAs
+- Fear & Greed: 11-18 (Extreme Fear) | Spot ETF outflows: $3.4B/week
+- **BTC SKIP RULE TRIGGERED** (BTC -10%+ in 7d per crypto rules)
+- ETH ~$1,978 declining | SOL ~$67 declining → crypto block = SKIP ALL
+
+### Trade Ideas
+- **All prices UNVERIFIED** — after-hours spreads are unreliable; must verify live post-NFP
+1. MRVL — AI custom silicon (NVDA partnership thesis intact), +4.9% recovery premarket. After-hours: ask $334.58/bid $299.03 (unusable). **Verify live at open post-NFP**. Stop ~10% trail, target +20%, R:R ~2:1. CONCERN: semi sector has 1 failed trade — needs post-NFP clear market direction.
+2. GOOGL — Cloud AI/Gemini thesis, +3.7% recovery premarket. After-hours: ask $391.53/bid $347.93 (unusable). **Verify live at open post-NFP**. CONCERN: NFP binary; wide after-hours spread.
+3. GLW / ARM — still on watchlist from Jun 4; same concerns (semi sector weakness, NFP risk)
+
+### Risk Factors
+- NFP 8:30 AM ET today: binary outcome — miss = risk-off selloff; strong beat = rate-hike fear
+- Semi sector stress: AVGO contagion ongoing; 1 failed trade on books; sector cap risk if re-entering
+- Friday low-liquidity risk: thin pre-weekend volume, gap risk
+- BTC skip rule active — no crypto entries
+- After-hours quote spreads make pre-market sizing impossible; MUST use live open prices
+
+### Decision
+**HOLD — await NFP at 8:30 AM ET**
+- 100% cash, no urgency to deploy
+- No new entries until: (1) NFP released, (2) market reaction settles (~9:45 AM ET), (3) live quotes verified via alpaca.sh
+- MRVL + GOOGL are highest-conviction candidates if NFP neutral/positive and semis stabilize
+- Trades this week: 0 of 7 (position management Jun 4 not counted as new trades)
