@@ -3419,3 +3419,45 @@ Clean. No discrepancies.
 - Trades this week: 1 of 7
 - Deployed: ~15% (1 position) — significantly underdeployed vs 75-85% target; midday/weekly review to identify new entries
 
+---
+
+## 2026-06-05 - Midday Scan
+
+**Portfolio:** ~$113,075 equity | **Cash:** ~$96,120 (85%) | **Positions:** 1 | **Deployed:** ~15% | **Phase P&L:** ~+$13,075 (+13.08%)**
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+
+Clean. Stop a2f8d542 active (trail 10%, HWM $372.08, stop $334.87).
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|------|----------|------|-----|--------|
+| GOOGL | 46 | $368.59 | $368.97 | +0.10% | +0.10% | $334.87 (10% trail, a2f8d542) | $372.08 | HOLD |
+
+### Step 3 — Cuts
+None. GOOGL +0.10% — well above -7% rule.
+
+### Step 4 — Stop Tightening
+- GOOGL +0.10% — below +15% threshold ($424.13). No action.
+
+### Step 5 — Thesis Check
+- **GOOGL**: Cloud AI / Gemini thesis intact. NFP 172k beat (vs 85k consensus) confirms economic resilience → AI infrastructure spend intact. Entry today on post-AVGO contagion recovery. HOLD.
+
+### Step 6 — Intraday Research
+- **MRVL**: $283 midday vs $299 at open (-5.7% from open); was $316 pre-market. Continuing to decline — no recovery. Not actionable.
+- **GLW**: Ask $188.36 / bid $178.00 — spread still wide (~5.5%). Untradeable.
+- **NVDA**: $207.71 tight spread; no catalyst in today's research. Skip.
+- Friday afternoon (1:50 PM ET) — low conviction for new entries. No new positions added.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries. 100% cash aside from GOOGL.
+
+### Notes
+- Deployment 15% vs 75-85% target — significant gap; Monday pre-market to identify 3-4 quality setups
+- Semi sector stress continuing: MRVL -5.7% from open, GLW wide spread — wait for stabilization
+- Monitor for Monday: MRVL (needs to reclaim $299+), NVDA (needs catalyst), GLW (needs tight spread)
+- Trades this week: 1 of 7
+
