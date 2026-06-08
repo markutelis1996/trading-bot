@@ -3755,3 +3755,67 @@ Note: After mandatory sells, deployed drops to ~34%—well below 75-85% target. 
 - No new entries until: (1) NFP released, (2) market reaction settles (~9:45 AM ET), (3) live quotes verified via alpaca.sh
 - MRVL + GOOGL are highest-conviction candidates if NFP neutral/positive and semis stabilize
 - Trades this week: 0 of 7 (position management Jun 4 not counted as new trades)
+
+---
+
+## 2026-06-08 - Pre-market Research
+
+### Account
+- Equity: $112,827.64
+- Cash: $96,120.44
+- Buying power: $96,120.44
+- Daytrade count: 0
+- Open positions: 1 (GOOGL 46 shares @ $368.59 avg)
+- Phase P&L: +$13,075.62 (+13.08%)
+- Deployed: ~15% (well below 75-85% target)
+
+### Reconciliation
+- GOOGL: log=46 shares, broker=46 shares ✓ CLEAN
+- Stop a2f8d542 active: 10% trail, HWM $372.08, stop price $334.87
+
+### Market Context
+- WTI: $94.72 (+4.62%) | Brent: $97.61 (+4.86%) — Hormuz/OPEC tensions; OPEC+ met Jun 7
+- S&P 500 futures: ~-0.16% (Nasdaq -4.18% Monday, ongoing AI/tech selloff)
+- VIX: 21.51 (elevated; Jun futures 19.55)
+- Key catalysts:
+  - Goldman Sachs (Jun 7) pushed Fed rate-cut forecast to 2027 (was Dec 2026) after NFP May blowout (172k vs 85k consensus)
+  - AI/Semi mega-selloff: MRVL -16.74%, MU -13.25%, ARM -12.84%, AMD -10.86%, NVDA -6.20%, AVGO -7.92% — extending from AVGO earnings miss (Jun 4) + NFP beat (Jun 5) + Goldman call (Jun 7)
+  - GOOGL last print: bid $359.04 / ask $368.16 (Jun 5 close $364.37; premarket not yet available)
+- Earnings before open Jun 9: None major. ORCL AMC Jun 9, ADBE AMC Jun 11
+- Economic calendar:
+  - **CPI Jun 10 (Wed) — BINARY EVENT, no new entries before**
+  - PPI Jun 11 (Thu)
+  - FOMC Jun 17 (hawkish backdrop; Goldman now says cuts pushed to 2027)
+- Sector YTD: Energy +27.95%, IT +27.76%, Industrials +12.06%, Materials +11.87%; Comm Services +4.48% YTD but -2.61% Monday
+
+### Capitol Trades (Whitelist — 45-day window, $25k+ threshold)
+- McCaul: AAPL $50-100k BUY 2026-02-14 (114d ago — expired); META $1-15k Apr 17 (52d — expired + below $25k)
+- Crenshaw: META $15-50k BUY 2026-01-24 (135d — expired + below $25k)
+- Tuberville: NVDA $15-50k BUY 2026-01-30 (129d — expired + below $25k)
+- Khanna: JPM $15-50k BUY 2026-04-21 (48d — just outside window); Apr 13 cluster (56d — expired). MU SALE Apr 27. All <$50k most $1-15k.
+- Green, Mast: No qualifying buys found in data
+- **RESULT: ZERO whitelist politician buys qualify (45-day window + $25k). No signal.**
+
+### Crypto
+- BTC: $63,324 (+3.87% 24h | -14.04% 7d | -21% 30d). ATH $126k Oct 2025. Bounced from $59.1k low Jun 6. RSI oversold (14-23 range), Fear & Greed = 11 (Extreme Fear). Price below all MAs (5d $64k, 20d $73.6k, 50d $74.5k, 200d $87.7k). No 20/50-day bullish crossover. Bounce is mechanical (short squeeze / liquidations cleared $1.87B), not demand-driven.
+- ETH: ~$1,610-1,621. Large holders accumulating (10-week high supply concentration). Fear & Greed = 12. SC reiterated $4k year-end target. Below 200d MA.
+- SOL: ~$69. 200-day SMA declining. Neutral RSI. ETF inflows ATH but price depressed. 200d SMA ~$143.
+- Whale activity: Mixed (big transfers on exchanges = possible distribution + accumulation). No clean signal.
+- **CRYPTO DECISION: NO entries. All 3 in downtrend (price < 200d MA), macro headwinds (Fed-2027), no 20/50-day MA crossover, Extreme Fear bounce only.**
+
+### Trade Ideas
+1. GOOGL — HOLD. Google Cloud +28%, Gemini AI momentum intact. Entry $368.59, stop $334.87 (-9.2% current cushion from last print $364.37). Tech selloff is sector risk but GOOGL less AI-hardware dependent than semis. CPI Jun 10 = key; if cool → tech recovers.
+2. Energy (XOM/COP/OXY) — WATCH ONLY. Oil $94-97 on Hormuz/OPEC; energy sector YTD +27.95%. No clean setup pre-CPI — adding into CPI binary event = avoidable risk. Re-evaluate post-CPI Jun 10.
+3. No new stock entries until CPI clears Jun 10.
+
+### Risk Factors
+- CPI Jun 10 hot print → more rate-hike repricing → further tech/growth selloff; GOOGL stop could approach $334 if HWM doesn't move up
+- Goldman Fed-2027 call compresses high-multiple tech multiples further
+- Oil spike: if Hormuz escalates → stagflation fears → broad risk-off
+- GOOGL already -1.14% unrealized; one bad CPI print risks meaningful drawdown before stop triggers
+- Only 15% deployed vs 75-85% target — significant opportunity cost if market reverses; but adding into CPI is reckless
+
+### Decision
+**HOLD** — No new entries pre-CPI. Monitor GOOGL vs $334.87 stop. Energy sector watch for post-CPI entry (Jun 10 afternoon). Sector cap check if adding energy: GOOGL = Communication Services (~15%), energy = different sector, no cap issue. Max 5 shares XOM/OXY if oil thesis holds post-CPI.
+
+---
