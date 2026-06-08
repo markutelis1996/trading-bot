@@ -3461,3 +3461,44 @@ None. No cuts, no stop changes, no new entries. 100% cash aside from GOOGL.
 - Monitor for Monday: MRVL (needs to reclaim $299+), NVDA (needs catalyst), GLW (needs tight spread)
 - Trades this week: 1 of 7
 
+---
+
+## 2026-06-08 - Midday Scan
+
+**Portfolio:** ~$112,779 equity | **Cash:** $96,120.44 (85.2%) | **Positions:** 1 | **Deployed:** ~14.8% | **Phase P&L:** ~+$12,779 (+12.78%)**
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+
+Clean. Stop a2f8d542 active (10% trail, HWM $372.08, stop $334.872).
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|------|-----|--------|
+| GOOGL | 46 | $368.59 | $362.14 | -1.75% | -1.74% | $334.87 (10% trail, a2f8d542) | $372.08 | HOLD |
+
+### Step 3 — Cuts
+None. GOOGL -1.75% — well above -7% cut threshold ($342.79). No action.
+
+### Step 4 — Stop Tightening
+- GOOGL -1.75%: +15% trigger = $423.88; not reached. No action.
+
+### Step 5 — Thesis Check
+- **GOOGL**: Google Cloud +28%, Gemini AI thesis intact. Broad tech selloff context (Goldman pushed Fed rate-cut forecast to 2027 post-NFP 172k blowout + AVGO semi contagion) is sector-level, not GOOGL-specific fundamental break. GOOGL is less AI-hardware-dependent than semis — less exposed to chip restriction/supply fears. CPI Jun 10 is next binary event. Thesis INTACT. HOLD.
+
+### Step 6 — Intraday Research
+No sharp unexplained moves. GOOGL -1.74% intraday is consistent with continued broad tech pressure (known drivers documented in Jun 8 pre-market research: Goldman Fed-2027 call, AI/semi selloff continuing, oil $94-97 Hormuz). No new catalyst requiring investigation.
+- CPI Jun 10 (Wed): binary event; pre-CPI entry blackout remains in effect.
+- Energy sector (XOM/COP/OXY): watch only post-CPI per pre-market plan.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries (pre-CPI blackout).
+
+### Notes
+- Deployment 14.8% vs 75-85% target — significant cash overhang; intentional pending CPI Jun 10
+- Trades this week: 0 of 7 (GOOGL bought Jun 5 = prior week)
+- Watch: GOOGL stop $334.87 vs current $362.14 = 7.5% cushion; HWM $372.08 has not advanced (price below HWM since entry)
+- Post-CPI plan: if cool print → energy sector (XOM/OXY) + semi recovery (NVDA/MRVL if spread tightens)
+
