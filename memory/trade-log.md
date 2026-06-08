@@ -3502,3 +3502,13 @@ None. No cuts, no stop changes, no new entries (pre-CPI blackout).
 - Watch: GOOGL stop $334.87 vs current $362.14 = 7.5% cushion; HWM $372.08 has not advanced (price below HWM since entry)
 - Post-CPI plan: if cool print → energy sector (XOM/OXY) + semi recovery (NVDA/MRVL if spread tightens)
 
+---
+
+### Jun 08 - EOD Snapshot (Day 34, Monday)
+**Portfolio:** $112,836.73 | **Cash:** $96,120.44 (85.2%) | **Day P&L:** -$236.09 (-0.21%) | **Phase P&L:** +$12,836.73 (+12.84%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| GOOGL | 46 | $368.59 | $363.40 | -$5.13 (-1.39%) | -$238.88 (-1.41%) | $334.87 (10% trail, HWM $372.08, a2f8d542) |
+
+**Notes:** No trades today; 0 of 7 week slots used (GOOGL bought Jun 5 = last week). GOOGL -1.39% on the day — broad tech pressure from Goldman pushing Fed rate-cut forecast to 2027 (post-NFP 172k blowout) and continued AI/semi sector contagion post-AVGO miss. No GOOGL-specific adverse news; Google Cloud +28%/Gemini thesis intact. Portfolio deliberately cash-heavy (85.2%) pending CPI Wednesday June 10 — pre-CPI entry blackout in effect. Stop $334.87 (10% trail) holds with 7.5% cushion; HWM $372.08 has not been exceeded since entry. Reconciliation clean: GOOGL 46 shares matches broker exactly ✓. Post-CPI plan: cool print → XOM/OXY (energy) + NVDA/MRVL semi recovery; hot print → hold cash, extend blackout.
