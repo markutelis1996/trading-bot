@@ -3555,3 +3555,14 @@ None. No cuts, no stop changes, no new entries (pre-CPI blackout).
 - Deployment 14.8% — intentional; CPI Jun 10 is binary event
 - Post-CPI plan: cool print → MU/AMAT/MRVL semi entries + XOM/OXY energy; hot print → extend blackout
 - No notification sent (no action taken)
+
+---
+
+### Jun 09 - EOD Snapshot (Day 35, Tuesday)
+**Portfolio:** $112,901.24 | **Cash:** $96,120.44 (85.1%) | **Day P&L:** +$64.51 (+0.06%) | **Phase P&L:** +$12,901.24 (+12.90%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| GOOGL | 46 | $368.59 | $364.21 | +$0.90 (+0.25%) | -$201.48 (-1.19%) | $334.87 (10% trail, HWM $372.08, a2f8d542) |
+
+**Notes:** No trades today; 0 of 7 week slots used. GOOGL recovered +0.25% intraday after yesterday's -1.39% — mildly positive session. Unrealized -1.19% from entry ($368.59 → $364.21); stop $334.87 holds with 7.9% cushion. Portfolio deliberately 85.1% cash pending CPI Wednesday June 10 at 8:30 AM ET. Pre-CPI blackout remains in effect — no new entries today. Reconciliation clean: GOOGL 46 shares matches broker exactly ✓. Post-CPI plan: cool print → MU/MRVL/AMAT semi entries + XOM/OXY energy sector; hot print → extend blackout, hold cash. Semi sector continues recovery pre-CPI (MU +9.87%, INTC +11.19%, MRVL +9.63% Jun 8).
