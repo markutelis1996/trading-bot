@@ -3819,3 +3819,95 @@ Note: After mandatory sells, deployed drops to ~34%—well below 75-85% target. 
 **HOLD** — No new entries pre-CPI. Monitor GOOGL vs $334.87 stop. Energy sector watch for post-CPI entry (Jun 10 afternoon). Sector cap check if adding energy: GOOGL = Communication Services (~15%), energy = different sector, no cap issue. Max 5 shares XOM/OXY if oil thesis holds post-CPI.
 
 ---
+
+## 2026-06-09 - Pre-market Research
+
+### Account
+- Equity: $112,864.44
+- Cash: $96,120.44 (85.2%)
+- Long MV: $16,744 (GOOGL 46 shares)
+- Buying power: $431,364.96 (paper, 4x margin)
+- Daytrade count: 0
+- Phase P&L: +$12,864.44 (+12.86% from $100K start)
+
+### Reconciliation (Step 0)
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+Clean. Stop a2f8d542 active (10% trail, HWM $372.08, stop $334.87).
+
+### Market Context
+- WTI: $90.17/bbl (-1.32%), Brent: $93.36/bbl (-1.04%) — oil declining on US-Iran peace settlement hopes
+- S&P 500 futures: +0.18% at 7,429; Nasdaq 100 futures: +0.39%
+- VIX: 18.92 (Jun 8 close, -12% from 21.51 on Jun 5) — fear subsiding
+- **Semi sector massive rally Jun 8**: INTC +11.19% (GOOGL foundry deal), MU +9.87%, MRVL +9.63%, KLAC +9.27%, AMAT +8.64%, LRCX +6.98%, ASML +6.54%
+- Earnings today: No major BMO; GME AMC (irrelevant); ORCL AMC tomorrow; ADBE AMC Thu
+- Economic data today: Trade Balance 8:30 AM (benign), Wholesale Trade 10 AM (benign)
+- **CRITICAL: CPI tomorrow (Jun 10, 8:30 AM) — pre-CPI entry blackout in effect**
+- PPI: Jun 11; FOMC decision: Jun 17
+- Cleveland Fed CPI nowcast: Jun 2026 ~4.05% YoY (vs May 4.18% — cooling slightly)
+
+### Sector Momentum (YTD)
+- Energy: +28.65% #1 | Technology: +18.69% | Industrials: +17.22%
+- Communication Services: +3.21% (GOOGL sector); today -2.61% intraday
+- Comm Services/Tech remain primary momentum sectors despite today's pullback
+
+### Capitol Trades (Whitelist Check)
+- **Pelosi**: All recent disclosures are options (disqualified) or Jan 2026 exercises (>45 days old). No qualifying stock buys within window. Also reportedly retiring from Congress.
+- **Gottheimer**: AMD, LITE, PANW, SANDISK purchases (May 2026, filed Jun 3-4) — all $1K-$15K = below $25K threshold. **DISQUALIFIED**.
+- All other whitelist politicians: No new disclosures found.
+- **Capitol Trades signal: NONE qualifying**
+
+### Crypto Research (Step 3c)
+- BTC: $62,739 today (-0.57% 24h), **-11.23% 7-day** (from $70,673 on Jun 2); -22% from May peak ~$80K
+- ETF flows: **14 consecutive sessions of outflows**, cumulative $5B negative
+- Whale activity: Whale transaction count at multi-year lows; reduced large-scale trading
+- Mt. Gox moved 10,422 BTC (~$739M) to unmarked wallets — market concern
+- **Rule triggered: BTC -10%+ in 7 days → SKIP all crypto**
+- **CRYPTO DECISION: NO TRADE — strongly bearish trend, skip rule triggered**
+
+### GOOGL Position Update
+- 46 shares, entry $368.59, Jun 8 close $363.40 (-1.41%), unrealized ~-$238.88 (-1.41%)
+- Stop: $334.87 (10% trail, HWM $372.08, order a2f8d542)
+- **New catalyst (Jun 8)**: Google signed Intel as foundry customer — ordering 2M AI chips at Intel US fabs. Positive for GOOGL (AI chip sovereignty, cost reduction, reduces NVDA dependency). Caused INTC +11.19% Jun 8.
+- **Prior catalyst (Jun 5)**: SpaceX $30B compute deal ($920M/mo cloud agreement)
+- Ex-dividend Jun 8: $0.22 × 46 = $10.12 captured
+- Q2 earnings: ~Jul 23, est $2.85 EPS / $101B rev; 86% Buy ratings; 1yr PT $431.19
+- Thesis: INTACT / STRENGTHENED (INTC deal adds AI chip production angle). HOLD.
+
+### Trade Ideas — WATCHLIST ONLY (pre-CPI blackout; verify at open tomorrow)
+**All prices below are AH extended-hours quotes (Jun 8, 8PM ET) with wide spreads — NOT live market prices. Must re-verify at open.**
+
+1. **MU** (AI memory supercycle — verify post-CPI)
+   - AH ask: $985.24 | Jun 8 close: $949.28 | AH premium: +3.8%
+   - Stop (10% trail): ~$887 | Target (+20%): ~$1,182
+   - Thesis: HBM4 for NVDA Vera Rubin GPU; all Mag7 AI capex intact; Jun 8 +9.87%
+   - Action: Skip today (pre-CPI blackout). Re-evaluate tomorrow post-CPI.
+
+2. **AMAT** (semi equipment picks-and-shovels — verify post-CPI)
+   - AH ask: $512.89 | Jun 8 close: $492.17 | AH premium: +4.2%
+   - Stop (10% trail): ~$462 | Target (+20%): ~$616
+   - Thesis: >30% semi equipment growth guide; Q2 beat; gate-all-around AI DRAM/HBM
+   - Action: Skip today. Re-evaluate tomorrow post-CPI.
+
+3. **MRVL** (AI networking semis — verify post-CPI)
+   - AH ask: $303.28 | Jun 8 close: $288.85 | AH premium: +5.0% (at 5% rule limit)
+   - Stop (10% trail): ~$273 | Target (+20%): ~$364
+   - Thesis: Custom AI ASICs for hyperscalers; AI networking demand; Jun 8 +9.63%
+   - Action: Skip today. Re-evaluate tomorrow post-CPI.
+
+### Risk Factors
+- **CPI Jun 10**: Cleveland nowcast 4.05% YoY — slight cooling, but hot print would kill tech rally; binary event
+- **Goldman Fed 2027**: Goldman pushed Fed rate-cut forecast to 2027 post-NFP 172k blowout — hawkish headwind for high-multiple tech
+- **Oil/Hormuz**: Iran-US peace settlement talks ongoing — oil falling could ease inflation (positive) but energy sector rotation risk
+- **GOOGL DOJ antitrust**: Ongoing overhang; remedies decision could pressure stock
+- **BTC/crypto**: Strong downtrend — crypto position off the table
+- **Semi sector gap risk**: After +8-11% moves Jun 8, if CPI hot → sharp reversal expected
+
+### Decision
+**HOLD — Pre-CPI entry blackout strictly maintained.**
+- GOOGL 46 shares: HOLD. Thesis strengthened (Intel foundry deal). Stop $334.87 intact (8.5% below current). No action needed.
+- Post-CPI plan: If cool print (CPI ≤ 4.0% YoY) → enter 2-3 positions from watchlist (MU, AMAT, or MRVL) at live open prices. If hot print → extend blackout, hold cash.
+- Deployment: 15% (far below 75-85% target) — intentional pending CPI binary event
+
+---
