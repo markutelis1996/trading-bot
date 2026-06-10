@@ -3566,3 +3566,48 @@ None. No cuts, no stop changes, no new entries (pre-CPI blackout).
 | GOOGL | 46 | $368.59 | $364.21 | +$0.90 (+0.25%) | -$201.48 (-1.19%) | $334.87 (10% trail, HWM $372.08, a2f8d542) |
 
 **Notes:** No trades today; 0 of 7 week slots used. GOOGL recovered +0.25% intraday after yesterday's -1.39% — mildly positive session. Unrealized -1.19% from entry ($368.59 → $364.21); stop $334.87 holds with 7.9% cushion. Portfolio deliberately 85.1% cash pending CPI Wednesday June 10 at 8:30 AM ET. Pre-CPI blackout remains in effect — no new entries today. Reconciliation clean: GOOGL 46 shares matches broker exactly ✓. Post-CPI plan: cool print → MU/MRVL/AMAT semi entries + XOM/OXY energy sector; hot print → extend blackout, hold cash. Semi sector continues recovery pre-CPI (MU +9.87%, INTC +11.19%, MRVL +9.63% Jun 8).
+
+---
+
+## 2026-06-10 - Market-Open Session (Day 36, Wednesday)
+
+**Portfolio:** ~$112,855 equity | **Cash:** ~$62,235 (est.) | **Positions:** 4 | **Deployed:** ~62% | **Phase P&L:** ~+$12,855 (+12.86%)**
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+
+Clean. Stop a2f8d542 active (10% trail, HWM $372.08, stop $334.87).
+
+### CPI Override — Blackout Lifted
+Pre-market Jun 10 had extended blackout through FOMC Jun 17, assuming CPI 4.2% (hot). **Actual CPI print: 3.1% YoY, +0.3% MoM** — significantly below 4.0% threshold. Cool print triggers Jun 9 plan: enter MU/MRVL/XOM.
+
+### Trades Executed
+
+| # | Ticker | Side | Shares | Entry | Stop | Stop Order | Unprotected Frac |
+|---|--------|------|--------|-------|------|-----------|-----------------|
+| 1 | MU | BUY | 18 | $906.29 | $810.03 (10% trail, HWM $900.03, c3324da2) | GTC ✓ | 0.679 shares |
+| 2 | MRVL | BUY | 60 | $264.17 | $236.49 (10% trail, HWM $262.77, f5f304be) | GTC ✓ | none |
+| 3 | XOM | BUY | 111 | $151.22 | $135.81 (10% trail, HWM $150.90, 82fa861c) | GTC ✓ | 0.945 shares |
+
+### Trade Thesis & Targets
+
+| Ticker | Thesis | Target | R:R |
+|--------|--------|--------|-----|
+| MU | AI memory supercycle; CPI cool 3.1% = rate relief for high-multiple semis; DRAM/HBM demand from AI training; -3.4% premarket = better entry | +20% = $1,087 | 2:1 |
+| MRVL | AI networking ASICs for hyperscalers; -7.6% premarket on CPI fear = entry gift; CPI cool removes hawkish headwind; Jun 8 semi sector confirmed uptrend | +20% = $317 | 2:1 |
+| XOM | Energy #1 YTD sector (+25-28%); oil $88-92 range (Hormuz); cool CPI = rate relief for energy capex; Jun 9 cool-print plan explicitly named XOM | +20% = $181 | 2:1 |
+
+### Open Positions (Post-Trade)
+| # | Ticker | Shares | Entry | Stop | HWM | Order ID |
+|---|--------|--------|-------|------|-----|----------|
+| 1 | GOOGL | 46 | $368.59 | $334.87 (10% trail) | $372.08 | a2f8d542 |
+| 2 | MU | 18 | $906.29 | $810.03 (10% trail) | $900.03 | c3324da2 |
+| 3 | MRVL | 60 | $264.17 | $236.49 (10% trail) | $262.77 | f5f304be |
+| 4 | XOM | 111 | $151.22 | $135.81 (10% trail) | $150.90 | 82fa861c |
+
+- Trades this week: 3 of 7
+- Deployment: ~62% (4 × ~15%)
+- FOMC Jun 17 remains next binary event — 62% deployed is prudent pre-FOMC
+- Fractional shares unprotected: MU 0.679, XOM 0.945 (Alpaca limitation)
