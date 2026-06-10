@@ -3672,3 +3672,17 @@ None. No cuts, no stop changes, no new entries.
 - Watch: FOMC Jun 17 — next binary event; 59% deployed is prudent
 - Watch: MRVL stop $245.18 vs -7% cut $245.68 — stop will auto-execute near same level; monitor
 - No notification sent (no action taken)
+
+---
+
+### Jun 10 - EOD Snapshot (Day 36, Wednesday)
+**Portfolio:** $111,378.83 | **Cash:** $45,335.81 (40.7%) | **Day P&L:** -$1,497.57 (-1.33%) | **Phase P&L:** +$11,378.83 (+11.38%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| GOOGL | 46 | $368.59 | $355.75 | -$8.51 (-2.34%) | -$590.67 (-3.48%) | $334.87 (10% trail, HWM $372.08, a2f8d542) |
+| MU | 18.679 | $906.29 | $890.02 | -$45.87 (-4.90%) | -$303.90 (-1.80%) | $861.72 (10% trail, HWM $957.47, c3324da2) |
+| MRVL | 64.093 | $264.12 | $252.59 | -$14.29 (-5.36%) | -$738.89 (-4.37%) | $245.18 (10% trail, HWM $272.43, f5f304be) |
+| XOM | 111.945 | $151.22 | $150.65 | +$1.74 (+1.17%) | -$63.77 (-0.38%) | $137.24 (10% trail, HWM $152.49, 82fa861c) |
+
+**Notes:** Red day across tech/semis as "Parabolic 7" sector rotation (MRVL +243%, MU +273% YTD) continued post-CPI momentum fade — profit-taking unwind, NOT thesis break. MRVL -5.36% and MU -4.90% intraday; both ran intraday highs (MRVL $272.43, MU $957.47) before reversing hard. XOM lone green +1.17%, energy benefiting from cool CPI rate relief and Hormuz support. GOOGL -2.34% on broad tech pressure. Weekly 3-trade cap reached (MU + MRVL + XOM all entered today); no new entries possible this week. Reconciliation clean — all 4 broker qtys match log exactly. MRVL stop $245.18 is closest at 2.93% cushion from $252.59 — monitor daily. FOMC Jun 17 next binary event; 59% deployment appropriate pre-FOMC.
