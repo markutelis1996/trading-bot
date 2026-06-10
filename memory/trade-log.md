@@ -3611,3 +3611,64 @@ Pre-market Jun 10 had extended blackout through FOMC Jun 17, assuming CPI 4.2% (
 - Deployment: ~62% (4 × ~15%)
 - FOMC Jun 17 remains next binary event — 62% deployed is prudent pre-FOMC
 - Fractional shares unprotected: MU 0.679, XOM 0.945 (Alpaca limitation)
+
+---
+
+## 2026-06-10 - Midday Scan
+
+**Portfolio:** ~$112,900 equity | **Cash:** ~$45,336 | **Positions:** 4 | **Deployed:** ~59% | **Phase P&L:** ~+$12,900 (+12.90%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46.000 | ✓ |
+| MU | 18 (+ 0.679 frac) | 18.679 | ✓ |
+| MRVL | 60 (+ 0 frac per log) | 64.093 | ⚠️ 4.093 fractional unprotected (log error — stop covers 60 integer shares only) |
+| XOM | 111 (+ 0.945 frac) | 111.945 | ✓ |
+
+MRVL discrepancy: bot bought ~64.093 shares for ~$16,928 notional; stop order covers 60 integer shares; 4.093 fractional shares unprotected per Alpaca integer-stop rule. Not a stop-out. Log entry was incorrect ("none" for fractional). No action required intraday; clean up fractional at next session (avoid day-trade rule today).
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|------|----------|---------------|-----|--------|
+| GOOGL | 46 | $368.59 | $358.31 | -2.79% | -1.64% | $334.87 (10% trail, a2f8d542) | $372.08 | HOLD |
+| MU | 18 | $906.29 | $900.76 | -0.61% | -3.75% | $861.72 (10% trail, c3324da2) | $957.47 | HOLD |
+| MRVL | 60 | $264.17 | $256.53 | -2.89% | -3.88% | $245.18 (10% trail, f5f304be) | $272.43 | HOLD |
+| XOM | 111 | $151.22 | $151.76 | +0.36% | +1.91% | $136.62 (10% trail, 82fa861c) | $151.80 | HOLD |
+
+### Step 3 — Cuts
+None. All positions above -7% rule.
+- MRVL closest: -2.89% from entry; -7% cut threshold = $245.68; current $256.53 = $10.85 above cut line.
+
+### Step 4 — Stop Tightening
+- All positions entered today — none near +15%/+20% tightening thresholds. No action.
+
+### Step 5 — Thesis Check
+- **GOOGL**: -2.79% from entry; -1.64% intraday. Broad tech/macro pressure. Google Cloud +28%, Gemini AI, Intel foundry deal, AAPL collaboration thesis intact. HOLD.
+- **MU**: -0.61% from entry; -3.75% intraday. "Parabolic 7" unwind (profit-taking after MU +273% YTD) dragging price. AI memory supercycle (HBM4 sold out 2026; hyperscaler DRAM demand intact). Stop $861.72 provides 4.3% cushion above current. Thesis INTACT. HOLD.
+- **MRVL**: -2.89% from entry; -3.88% intraday. Same "Parabolic 7" unwind (MRVL +243% YTD) — coordinated sector rotation, NOT thesis break. NVIDIA strategic investment + Jensen Huang "trillion-dollar company" + AI ASIC custom silicon (Trainium, TPU) demand intact. Stop $245.18 provides 4.4% cushion. Thesis INTACT. HOLD.
+- **XOM**: +0.36% from entry; +1.91% intraday. Energy #1 YTD sector. Cool CPI 3.1% = rate relief supporting energy capex. Hormuz oil $88-92 range. Thesis INTACT. HOLD.
+
+### Step 6 — Intraday Research
+**"Parabolic 7" unwind (MRVL/MU/semiconductor selloff driver):**
+- Coordinated profit-taking rotation out of SanDisk, Marvell, Micron, Intel, Dell, AMD, Broadcom — basket up 243-623% YTD; institutional rotation after massive run-up
+- NOT a fundamental AI demand collapse; Micron guided Q2 FY2026 revenue $18.7B; MRVL raised FY27/FY28 outlooks; fundamentals remain intact
+- Market context: post-CPI 3.1% (cool) initially triggered entry; "buy the dip" vs "take profits on parabolic winner" conflict active intraday
+- XOM diverging higher (+1.91%) as energy benefits directly from cool inflation (rate relief) and Hormuz oil support
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | GOOGL | 46 | $368.59 | $334.87 (10% trail, a2f8d542) | $372.08 |
+| 2 | MU | 18 | $906.29 | $861.72 (10% trail, c3324da2) | $957.47 |
+| 3 | MRVL | 60 | $264.17 | $245.18 (10% trail, f5f304be) | $272.43 |
+| 4 | XOM | 111 | $151.22 | $136.62 (10% trail, 82fa861c) | $151.80 |
+
+- Trades this week: 3 of 7 (MU, MRVL, XOM — all Jun 10)
+- Fractional cleanup pending: MRVL 4.093 sh, MU 0.679 sh, XOM 0.945 sh (sell tomorrow — avoid day-trade rule today)
+- Watch: FOMC Jun 17 — next binary event; 59% deployed is prudent
+- Watch: MRVL stop $245.18 vs -7% cut $245.68 — stop will auto-execute near same level; monitor
+- No notification sent (no action taken)
