@@ -3911,3 +3911,80 @@ Clean. Stop a2f8d542 active (10% trail, HWM $372.08, stop $334.87).
 - Deployment: 15% (far below 75-85% target) — intentional pending CPI binary event
 
 ---
+
+## 2026-06-10 - Pre-market Research
+
+### Account
+- Equity: $112,710.80
+- Cash: $96,120.44 (85.2%)
+- Buying power: $430,934.77
+- Daytrade count: 0
+- Open positions: 1 (GOOGL 46 shares)
+- Phase P&L: ~+$12,710 (+12.71%)
+
+### Reconciliation (Step 0)
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+Clean. Stop a2f8d542 active (10% trail, HWM $372.08, stop $334.872).
+
+### Market Context
+- WTI: $88.55 (+0.39%); Brent: $91.86 (-0.59%) — oil stable, Iran war ongoing
+- S&P 500 futures: -0.35% at 7,367 (pre-CPI caution)
+- Nasdaq 100 futures: -0.55%
+- VIX: 19.87 (Jun 9 close, up from 18.92 — fear rising ahead of CPI)
+- **CPI May 2026 (8:30 AM ET today)**: Consensus 4.2% YoY (3-year high, vs 3.8% prior). Monthly +0.5%. Core est 2.9%. **HOT PRINT expected → per pre-plan: extend blackout.**
+- Earnings today BMO: None major. Adobe AMC Thursday.
+- Economic calendar: PPI Jun 11, FOMC Jun 17 (key next binary event)
+- Premarket semi selloff: MRVL -7.61%, INTC -2.13%, MU -1.41%, NVDA -0.22%
+
+### Sector Momentum (YTD)
+- Energy: +25-28% #1 | IT/Technology: +12-28% | Industrials: +12-16%
+- Communication Services: +2-4% (GOOGL sector) — lagging
+- Financials: -3 to -6% (underperforming)
+- Note: Tech/IT multi-week of -1% to -3% intraday pressure on CPI days expected
+
+### Capitol Trades (Whitelist Check)
+- **Pelosi**: Last disclosures Jan 23, 2026 (>45 days, out of window). Mostly options. No qualifying stock buys within 45-day window. Also reportedly retiring.
+- **Gottheimer**: Recent buys ADI, TWLO, PANW, MU (filed Jun 4) — all $1K-$15K, below $25K threshold. **DISQUALIFIED.**
+- All other whitelist politicians: No new disclosures found within 45-day window.
+- **Capitol Trades signal: NONE qualifying**
+
+### Crypto (Step 3c)
+- BTC: ~$63,564 (Jun 8), ~$61,732 AH Jun 9. 7-day: ~-11% from ~$70K (bearish, skip rule triggered from prior session)
+- ETF flows: 14+ consecutive sessions of outflows; Mt. Gox 10,422 BTC moved to unmarked wallets
+- **Skip rule: BTC -10%+ in 7 days → NO CRYPTO TRADES**
+
+### GOOGL Position Update
+- AH bid (Alpaca Jun 9 close): $353.24 | Web quote Jun 10: ~$363.60
+- Entry: $368.59 | Unrealized: ~-$217 (-1.35%) at ~$363.60
+- Stop: $334.87 (10% trail, HWM $372.08, order a2f8d542) — 7.6% cushion at $363.60
+- New catalysts: (1) Apple extending Private Cloud Compute through Google collaboration; (2) Google backstopping Anthropic's $35B data center deal; (3) Intel foundry deal (Jun 8, confirmed); (4) SpaceX $30B compute deal (Jun 5)
+- Risks: CPI hot print = high-multiple tech headwind; FOMC Jun 17; DOJ antitrust
+- **Thesis: INTACT / STRENGTHENED. HOLD.**
+
+### Trade Ideas — WATCHLIST ONLY (blackout extended post-CPI hot print)
+**CPI consensus 4.2% → hot print per pre-plan → extend blackout through FOMC Jun 17**
+
+1. **MU** — AI memory supercycle thesis still intact; but premarket -1.41% on CPI fears; AH bid ~$935. Post-FOMC re-evaluate.
+2. **MRVL** — AI networking; premarket -7.61% = significant drawback from Jun 8 highs; watchlist only post-FOMC.
+3. **XOM/OXY** — Energy #1 YTD sector; oil $88-92 range; post-FOMC entry window if rates held + dovish guidance.
+
+**No live price checks needed — all skipped per blackout rule. Will verify at open post-FOMC.**
+
+### Risk Factors
+- **CPI today 4.2% consensus (HOT)**: Three-year high; if confirmed → tech selloff, hawkish Fed repricing
+- **FOMC Jun 17**: J.P. Morgan and Goldman both see rate HIKE risk in 2027; no cut expected. New Fed chair = unknown communication style
+- **Goldman Fed-2027 call**: Hawkish headwind for high-multiple tech (GOOGL, semis)
+- **Oil/Hormuz**: Iran war ongoing; oil elevated ($88-92); energy stays hot but entry requires post-CPI/FOMC clarity
+- **Semi sector gap risk**: MRVL -7.61% premarket shows fragility after Jun 8 +9% surge; don't catch falling knife
+- **GOOGL stop risk**: At $363.60, stop at $334.87 = 7.6% cushion. If CPI-driven selloff >7.6% today → stop gets hit. Acceptable outcome.
+
+### Decision
+**EXTEND BLACKOUT — CPI 4.2% consensus is HOT (>4.0% threshold).**
+- GOOGL 46 shares: HOLD. New catalysts (AAPL/Google, Anthropic deal) strengthen long-term thesis. Stop $334.87 protects downside.
+- No new entries today or until post-FOMC (Jun 17).
+- Post-FOMC plan: if rates held + neutral/dovish tone → energy (XOM/OXY) + semi recovery (MU/MRVL) at live Alpaca quote prices.
+- Deployment 15% — intentional; CPI + FOMC = back-to-back binary events this week/next.
+
+---
