@@ -3686,3 +3686,70 @@ None. No cuts, no stop changes, no new entries.
 | XOM | 111.945 | $151.22 | $150.65 | +$1.74 (+1.17%) | -$63.77 (-0.38%) | $137.24 (10% trail, HWM $152.49, 82fa861c) |
 
 **Notes:** Red day across tech/semis as "Parabolic 7" sector rotation (MRVL +243%, MU +273% YTD) continued post-CPI momentum fade — profit-taking unwind, NOT thesis break. MRVL -5.36% and MU -4.90% intraday; both ran intraday highs (MRVL $272.43, MU $957.47) before reversing hard. XOM lone green +1.17%, energy benefiting from cool CPI rate relief and Hormuz support. GOOGL -2.34% on broad tech pressure. Weekly 3-trade cap reached (MU + MRVL + XOM all entered today); no new entries possible this week. Reconciliation clean — all 4 broker qtys match log exactly. MRVL stop $245.18 is closest at 2.93% cushion from $252.59 — monitor daily. FOMC Jun 17 next binary event; 59% deployment appropriate pre-FOMC.
+
+---
+
+## 2026-06-11 - Market-Open Session
+
+**Portfolio:** $112,466.47 equity | **Cash:** $45,335.80 | **Positions:** 4 | **Deployed:** ~59.7% | **Daytrade count:** 0
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty (Jun 10 EOD) | Broker Qty | Match? |
+|--------|---------------------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+| MU | 18.679 | 18.679 | ✓ |
+| MRVL | 64.093 | 64.093 | ✓ |
+| XOM | 111.945 | 111.945 | ✓ |
+
+**CLEAN** — no overnight stop-outs. All 4 trailing stops confirmed active and matching log.
+
+### Execution Status
+- Alpaca API: LIVE
+- New buys: 0 (pre-market plan: HOLD pending FOMC Jun 16-17 + ADBE AMC tonight)
+- Fractional cleanup: EXECUTED (deferred from Jun 10)
+
+### Fractional Cleanup (T+1 after Jun 10 entries)
+| # | Ticker | Side | Qty | Approx Fill | Realized P&L | Order ID |
+|---|--------|------|-----|-------------|--------------|----------|
+| 1 | MU | SELL | 0.679 | ~$903 | ~-$2 | a7cb571a |
+| 2 | XOM | SELL | 0.945 | ~$151.45 | ~+$0.22 | f7ab882d |
+| 3 | MRVL | SELL | 4.093 | PENDING ~$263 | TBD | d5fdf4c6 |
+
+- MU 0.679 fractional SOLD — position cleaned to 18 integer shares (all covered by stop c3324da2) ✓
+- XOM 0.945 fractional SOLD — position cleaned to 111 integer shares (all covered by stop 82fa861c) ✓
+- MRVL 4.093 fractional SELL order submitted (d5fdf4c6) — pending fill at session open; position remains 64.093 until filled; 60 integer shares covered by stop f5f304be
+
+### Live Price Re-verification (STEP 1b — ~9:33 AM EDT)
+| Ticker | Entry | Live Price | P&L% | Stop | Cushion | Status |
+|--------|-------|------------|------|------|---------|--------|
+| GOOGL | $368.59 | $351.90 | -4.53% | $334.87 (10% trail, a2f8d542) | 5.1% | HOLD |
+| MRVL | $264.12 | $263.80 | -0.12% | $245.18 (10% trail, f5f304be) | 7.5% | HOLD |
+| MU | $906.29 | $904.30 | -0.22% | $861.72 (10% trail, c3324da2) | 4.7% | HOLD |
+| XOM | $151.22 | $151.27 | +0.03% | $137.24 (10% trail, 82fa861c) | 9.3% | HOLD |
+
+All 4 recovering from Jun 10 lows on benign PPI (implied by market bounce today). MRVL +3.5% intraday, MU +1.1% intraday — "Parabolic 7" unwind stabilizing.
+
+### Rule Checks
+- No position at -7% cut threshold: GOOGL -4.53% (cut=$342.79, current $351.90 → safe) ✓
+- No +15%/+20% tightening triggers reached ✓
+- All 4 GTC trailing stops active ✓
+- Daytrade count: 0/3 ✓
+- Trades this week: 3/7 (MU+MRVL+XOM Jun 10) ✓
+
+### Decision — NO NEW BUYS
+- FOMC Jun 16-17 (new Chair Warsh, first meeting) = binary event next week
+- ADBE reports AMC tonight — assess Jun 12 morning if beat + raise
+- Current 59.7% deployment appropriate pre-FOMC
+- Dry powder ($45.3k) reserved for post-FOMC opportunity
+
+### Open Positions (Post-Cleanup)
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | HWM |
+|---|--------|--------|-------|---------|------|------|-----|
+| 1 | GOOGL | 46 | $368.59 | $351.90 | -4.53% | $334.87 (10% trail, a2f8d542) | $372.08 |
+| 2 | MRVL | 60 (+ 4.093 pending sell) | $264.12 | $263.80 | -0.12% | $245.18 (10% trail, f5f304be) | $272.43 |
+| 3 | MU | 18 | $906.29 | $904.30 | -0.22% | $861.72 (10% trail, c3324da2) | $957.47 |
+| 4 | XOM | 111 | $151.22 | $151.27 | +0.03% | $137.24 (10% trail, 82fa861c) | $152.49 |
+
+- Trades this week: 3 of 7 (new entries Mon-Fri Jun 8 week)
+- FOMC hard cutoff: Jun 13 EOD (3 days before Jun 16) — last entry day if adding new positions
+- Watch: ADBE AMC tonight → entry Jun 12 morning if beat+raise+≤5% gap
