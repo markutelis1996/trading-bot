@@ -3753,3 +3753,69 @@ All 4 recovering from Jun 10 lows on benign PPI (implied by market bounce today)
 - Trades this week: 3 of 7 (new entries Mon-Fri Jun 8 week)
 - FOMC hard cutoff: Jun 13 EOD (3 days before Jun 16) — last entry day if adding new positions
 - Watch: ADBE AMC tonight → entry Jun 12 morning if beat+raise+≤5% gap
+
+## 2026-06-11 - Midday Scan
+
+**Portfolio:** $112,246.72 equity | **Cash:** $47,180.97 (42.0%) | **Positions:** 4 | **Deployed:** ~57.9% | **Phase P&L:** +$12,246.72 (+12.25%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+| MRVL | 60 | 60 | ✓ (4.093 fractional cleanup executed at open) |
+| MU | 18 | 18 | ✓ (0.679 fractional cleanup executed at open) |
+| XOM | 111 | 111 | ✓ (0.945 fractional cleanup executed at open) |
+
+Clean. All fractional cleanup (MRVL 4.093 + MU 0.679 + XOM 0.945) confirmed executed at open per Jun 11 market-open plan. Cash reflects proceeds: $47,180.97 vs log $45,335.81 (+$1,845 fractional proceeds). All 4 GTC trailing stops active and intact.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|---------------|-----|--------|
+| GOOGL | 46 | $368.59 | $347.79 | -5.64% | -2.41% | $334.87 (10% trail, a2f8d542) | $372.08 | HOLD ⚠️ |
+| MRVL | 60 | $264.11 | $263.64 | -0.18% | +4.37% | $245.18 (10% trail, f5f304be) | $272.43 | HOLD |
+| MU | 18 | $906.29 | $916.44 | +1.12% | +2.96% | $861.72 (10% trail, c3324da2) | $957.47 | HOLD |
+| XOM | 111 | $151.22 | $150.22 | -0.66% | -0.27% | $137.24 (10% trail, 82fa861c) | $152.49 | HOLD |
+
+### Step 3 — Cuts
+None. No position at ≤-7%.
+- GOOGL closest: -5.64% from entry; -7% cut threshold = $342.79; current $347.79 = **$5.00 above cut**. Monitor closely.
+
+### Step 4 — Stop Tightening
+- GOOGL -5.64%: below threshold. No action.
+- MRVL -0.18%: below threshold. No action.
+- MU +1.12%: +15% trigger $1,042.23 — not reached. No action.
+- XOM -0.66%: below threshold. No action.
+
+### Step 5 — Thesis Check
+- **GOOGL**: -5.64% from entry, -2.41% intraday. PPI May 2026 HOT print (beat estimates, fastest pace in ~4 years) → hawkish repricing hitting high-multiple tech. ORCL -11.87% (cloud earnings miss) creating cloud contagion drag on GOOGL/MSFT. No GOOGL-specific fundamental break — Google Cloud +28%, Gemini scaling, Intel 3M AI chip deal (Jun 8), TD Cowen $475 PT all intact. Hard cut at $342.79 ($5 away). **HOLD, monitor.**
+- **MRVL**: -0.18% from entry; +4.37% intraday recovery. AH stop proximity (0.56% Jun 10) did NOT trigger — stock gapped up at open vs AH bid. "Parabolic 7" unwind stabilizing; stop $245.18 now 7.0% cushion. S&P 500 inclusion Jun 22 + NVIDIA strategic investment thesis intact. **HOLD.**
+- **MU**: +1.12% from entry; +2.96% intraday recovery. AI memory supercycle / HBM4 demand intact. Stop $861.72 provides 6.1% cushion (well above AH scare level). MU earnings Jun 24 = catalyst. **HOLD.**
+- **XOM**: -0.66% from entry; -0.27% intraday. WTI $91+, Hormuz closure ongoing. Hot PPI slightly hawkish for energy capex costs but higher oil revenue is net positive for XOM. Thesis intact. **HOLD.**
+
+### Step 6 — Intraday Research
+**PPI May 2026 (8:30 AM ET today):** HOT — beat estimates; "surging at fastest pace in nearly 4 years" (Schwab Jun 11). Previous April PPI +1.4% MoM (+6.0% YoY); May accelerated further. Impact: hawkish repricing → broad tech selloff post-open despite initial futures gains (+0.23-0.46% pre-open).
+
+**ORCL -11.87%** (from Barchart): Cloud/enterprise SaaS miss; likely guidance cut. Creating sympathy selloff in cloud names — GOOGL, MSFT -2.68% all impacted. Not a GOOGL thesis break.
+
+**Semi recovery**: MRVL +4.37%, MU +2.96% intraday — AI/chip names recovering despite hot PPI. AMAT +4% (Singapore expansion + Oracle AI spending plans). Pre-FOMC stabilization in semis.
+
+**Market context:** VIX 22.22 (elevated). S&P 500 tech -10% over last 5 sessions, -1.7% over last month. FOMC Jun 16-17 (new Chair Warsh) is next binary event.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM |
+|---|--------|--------|-------|------|-----|
+| 1 | GOOGL | 46 | $368.59 | $334.87 (10% trail, a2f8d542) | $372.08 |
+| 2 | MRVL | 60 | $264.11 | $245.18 (10% trail, f5f304be) | $272.43 |
+| 3 | MU | 18 | $906.29 | $861.72 (10% trail, c3324da2) | $957.47 |
+| 4 | XOM | 111 | $151.22 | $137.24 (10% trail, 82fa861c) | $152.49 |
+
+- Trades this week: 3 of 7 (MU + MRVL + XOM Jun 10)
+- Deployment: 57.9% — appropriate pre-FOMC Jun 16-17
+- Watch: GOOGL cut strictly at $342.79 (currently $5 away; -7% rule)
+- Watch: FOMC Jun 16-17; pre-FOMC entry blackout from Jun 13 EOD
+- Watch: ADBE AMC tonight → assess Jun 12 if beat+raise+≤5% gap
+- Watch: ORCL cloud contagion may continue; monitor GOOGL at tomorrow open
+- No notification sent (no action taken)
