@@ -3819,3 +3819,16 @@ None. No cuts, no stop changes, no new entries.
 - Watch: ADBE AMC tonight → assess Jun 12 if beat+raise+≤5% gap
 - Watch: ORCL cloud contagion may continue; monitor GOOGL at tomorrow open
 - No notification sent (no action taken)
+
+### Jun 11 - EOD Snapshot (Day 37, Thursday)
+**Portfolio:** $114,543.59 | **Cash:** $47,180.97 (41.2%) | **Day P&L:** +$3,104.85 (+2.79%) | **Phase P&L:** +$14,543.59 (+14.54%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| GOOGL | 46 | $368.59 | $358.00 | +$1.62 (+0.46%) | -$487.17 (-2.87%) | $334.87 (10% trail, HWM $372.08, a2f8d542) |
+| MRVL | 60 | $264.11 | $279.62 | +$27.03 (+10.70%) | +$930.10 (+5.87%) | $254.09 (10% trail, HWM $282.32, f5f304be) |
+| MU | 18 | $906.29 | $992.55 | +$100.67 (+11.29%) | +$1,552.68 (+9.52%) | $897.01 (10% trail, HWM $996.68, c3324da2) |
+| XOM | 111 | $151.22 | $147.10 | -$3.52 (-2.34%) | -$457.28 (-2.72%) | $137.24 (10% trail, HWM $152.49, 82fa861c) |
+
+**Notes:** Strong semi rally day — MRVL +10.70% and MU +11.29% drove portfolio +2.79%. Fractional cleanup executed at open (MRVL 4.093 sh, MU 0.679 sh, XOM 0.945 sh — all confirmed). Trailing stops auto-trailed: MU HWM $957→$997 (stop $862→$897), MRVL HWM $272→$282 (stop $245→$254). GOOGL recovered +0.46%; cut line $342.79 is $15.21 above close — comfortable. XOM -2.34% on oil softness but energy thesis intact. No new entries today (3/7 week slots used Jun 10). FOMC Jun 16-17 (new Chair Warsh) next binary event; pre-FOMC blackout begins Jun 13 EOD. Deployed 58.8% vs 75-85% target — intentionally cash-heavy pre-FOMC. Reconciliation clean: all 4 broker positions match log exactly; all 4 GTC stops confirmed active.
+
