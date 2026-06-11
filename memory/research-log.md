@@ -3988,3 +3988,117 @@ Clean. Stop a2f8d542 active (10% trail, HWM $372.08, stop $334.872).
 - Deployment 15% — intentional; CPI + FOMC = back-to-back binary events this week/next.
 
 ---
+
+## 2026-06-11 - Pre-market Research
+
+### Account
+- Equity: $111,950.05 (vs Jun 10 close $111,378.83 — up ~$571 overnight/AH)
+- Cash: $45,335.81 (40.5%)
+- Buying power: $367,863.12 (4× margin)
+- Daytrade count: 0
+- Open positions: 4 (GOOGL, MU, MRVL, XOM)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty (Jun 10 EOD) | Broker Qty | Match? |
+|--------|---------------------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+| MU | 18.679 | 18.679 | ✓ |
+| MRVL | 64.093 | 64.093 | ✓ |
+| XOM | 111.945 | 111.945 | ✓ |
+
+**CLEAN** — no overnight stop-outs. All 4 trailing stops active (GOOGL a2f8d542, MU c3324da2, MRVL f5f304be, XOM 82fa861c).
+
+### ⚠️ CRITICAL: Stop Proximity Alert (AH quotes)
+After-hours quotes at ~4:47 PM EDT Jun 10:
+| Ticker | Jun 10 Close | AH Bid | AH Ask | Stop | Cushion (AH bid vs stop) |
+|--------|-------------|--------|--------|------|--------------------------|
+| MRVL | $252.59 | $246.56 | $247.37 | $245.18 | +0.56% ⚠️ CRITICAL |
+| MU | $890.02 | $861.40 | $952.47 | $861.72 | -0.04% ⚠️ (wide spread, stale) |
+| GOOGL | $355.75 | $337.72 | $374.24 | $334.87 | wide spread (illiquid AH) |
+| XOM | $150.65 | $142.81 | $158.68 | $137.24 | wide spread (illiquid AH) |
+
+All stops are `extended_hours: false` → will NOT execute AH. BUT at open, MRVL and MU are both at high risk of stop-out depending on PPI print (8:30 AM ET).
+
+### Market Context
+- WTI: ~$91.81/bbl (front-month Jul, +2.07% yesterday); Brent: ~$94.73
+- S&P 500 futures: +0.29-0.46% premarket (7,299-7,301 on ESM26); AI trade rebound Day 2
+- S&P 500 Jun 10 close: 7,267 (down from record ~7,621 earlier in June)
+- VIX: 22.22 (+11.83% Jun 10) — elevated, "Parabolic 7" unwind pressure
+- DOW futures: +0.18%, NASDAQ 100 futures: +0.49%
+- USD/JPY: 160.52; EUR/USD: 1.1545
+
+### Today's Events
+- **8:30 AM ET: PPI May 2026** — consensus MoM +0.7% (prior 1.4%), Core PPI +0.4% (prior 0.6%). BINARY for semis: cool print → recovery; hot print → further selloff
+- **8:30 AM ET: Initial Jobless Claims** — est 220k (prior 225k)
+- **AMC tonight: Adobe (ADBE)** — Q2 FY26 EPS est $5.81-5.94, Rev est $6.46-6.6B; potential setup tomorrow
+- **AMC tonight: Lennar (LEN), RH** — homebuilder/luxury retail (not relevant)
+- FOMC June 16-17 (NEXT WEEK) — rate hold expected at 3.50-3.75%; new Chair Warsh first meeting
+
+### Held Positions — Live Quote Verification
+| Ticker | Entry | AH Bid | AH Ask | Stop | Target | P&L% vs Entry |
+|--------|-------|--------|--------|------|--------|----------------|
+| GOOGL | $368.59 | $337.72* | $374.24* | $334.87 | $442 | -3.5% (Jun 10 close basis) |
+| MU | $906.29 | $861.40* | $952.47* | $861.72 | $1,088 | -1.8% (Jun 10 close basis) |
+| MRVL | $264.17 | $246.56 | $247.37 | $245.18 | $317 | -6.2% ⚠️ |
+| XOM | $151.22 | $142.81* | $158.68* | $137.24 | $181 | -0.4% (Jun 10 close basis) |
+
+*Wide AH spread — use Jun 10 regular close for actual P&L reference. MRVL quote is tighter and more reliable.
+
+### Position Thesis Check
+- **GOOGL**: Intel 3M AI chip order for 2028 (Jun 8), Apple AI running on Google Cloud (Jun 8), TD Cowen PT raised to $475 (Jun 9). Q2 earnings Jul 23. Thesis INTACT. Google Cloud +63% YoY, $462B backlog.
+- **MU**: Zacks Rank #1 Strong Buy. Q3 FY26 rev guidance $33.5B (up from $23.86B Q2), 81% gross margin target. Earnings Jun 24. "Parabolic 7" unwind = profit-taking NOT thesis break. Thesis INTACT.
+- **MRVL**: Added to S&P 500 Jun 22. Stifel PT raised to $321 (Jun 3). FY27/28 guidance raised. AI ASIC custom silicon for hyperscalers. "Parabolic 7" unwind. Thesis INTACT — but stop critically close at AH levels.
+- **XOM**: Energy sector YTD #1 (+22%). WTI $91, Hormuz closure ongoing. Analyst consensus PT $163.65 (63% Buy). Thesis INTACT.
+
+### Capitol Trades — Whitelist Check (last 45 days)
+- **Pelosi**: No recent stock buys found in May-Jun 2026 window
+- **McCaul**: No qualifying $25k+ buys found
+- **Crenshaw**: LEFT CONGRESS (lost House seat); no longer trackable
+- **Tuberville**: Only $375k volume 2026 YTD (low activity); no recent disclosures
+- **Khanna**: No recent qualifying buys found
+- **Gottheimer**: SNDK purchase May 7, 2026, disclosed Jun 3 — $1,001-$15,000 range. BELOW $25k threshold → NOT qualifying signal
+- **Green (Mark)**: RESIGNED Jul 20, 2025 — no longer trackable
+- **Mast**: No recent qualifying buys found
+- **Broad scan**: No new top performers meeting >20% above S&P threshold identified
+
+**Capitol Trades result: NO QUALIFYING SIGNALS this session.**
+
+### Crypto Research (STEP 3c)
+- **BTC/USD**: $61,492 (Jun 11). 7-day trend: $64,021 (Jun 4) → $60,861 (Jun 7) → $63,254 (Jun 8) → $61,492 (Jun 11). 30-day: -23.4% (from $80k). Down from ATH $126k (-51%). Bearish trend.
+  - ETF: 14 consecutive sessions of OUTFLOWS; cumulative -$5B
+  - Mt. Gox moved 10,422 BTC ($739M) to unmarked wallets → distribution risk
+  - BTC hashrate -22%, miner capitulation risk
+  - 7-day BTC change: ~-4.0% (just under -10% skip rule but trend clearly bearish)
+- **ETH/USD**: ~$2,300 range (Jun data from Fortune). Down from yearly highs. No entry signal.
+- **SOL/USD**: No data; prolonged downtrend.
+- **Crypto Decision**: NO TRADE — BTC downtrend (-23% in 30d), ETF outflows, Mt. Gox distribution risk, RSI not confirmed oversold. Skip crypto entirely until BTC stabilizes above $70k or RSI <30 confirmed.
+
+### Trade Ideas
+No actionable entries today. Rationale:
+1. PPI binary at 8:30 AM — cool confirms semi recovery, hot triggers further selling
+2. MRVL/MU stops may trigger at open (0.56% and near-zero cushion on AH data)
+3. FOMC June 16-17 = new binary event next week; don't add risk pre-FOMC
+4. ADBE reports AMC tonight — potential setup tomorrow if beats
+
+**Watching for tomorrow if setup materializes:**
+1. **ADBE** (Adobe, AMC tonight): est EPS $5.94/Rev $6.6B; if strong beat + raise → entry at live Alpaca open price, stop 10% below, target 20% above. LIVE QUOTE REQUIRED before entry.
+
+### Risk Factors
+- **PPI May 8:30 AM**: Core PPI consensus +0.4% (MoM); anything above 0.7% = hawkish repricing → "Parabolic 7" unwind accelerates; MRVL/MU stops trigger
+- **MRVL stop proximity**: AH $246.56 bid vs stop $245.18 = 0.56% cushion. If opens below $245.18 → stopped out. Watch open closely.
+- **MU stop proximity**: AH bid $861.40 below stop $861.72 BUT wide spread makes AH unreliable. Jun 10 close $890.02 = 3.2% above stop. Monitor open.
+- **FOMC Jun 16-17**: New Chair Warsh (hawkish unknown); no cut expected; potential hike language risk
+- **VIX 22.22** → elevated fear; Parabolic 7 unwinding continues across semis
+- **BTC distribution**: Mt. Gox + ETF outflows = contagion risk for risk assets broadly
+- **Earnings risk ADBE AMC**: If miss → software/SaaS sector pressure; but doesn't directly impact held positions
+
+### Decision
+**HOLD — no new entries today.**
+- All 4 trailing stops in place; let PPI (8:30 AM) determine direction
+- MRVL and MU may stop out at open — acceptable outcome; stops protect capital
+- No new positions until PPI cleared AND MRVL/MU situation resolved
+- Post-PPI: if cool print + positions survive → evaluate adding 1 position pre-FOMC (max 1 new entry given FOMC risk next week)
+- ADBE: watch AMC tonight for beat; potential entry tomorrow morning
+- Trades this week: 3 of 7 used (MU, MRVL, XOM — all Jun 10)
+
+---
