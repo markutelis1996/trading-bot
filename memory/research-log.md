@@ -4102,3 +4102,139 @@ No actionable entries today. Rationale:
 - Trades this week: 3 of 7 used (MU, MRVL, XOM — all Jun 10)
 
 ---
+
+---
+
+## 2026-06-12 - Pre-Market Research (Day 38, Friday)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty (Jun 11 EOD) | Broker Qty | Match? |
+|--------|---------------------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+| MRVL | 60 | 60 | ✓ |
+| MU | 18 | 18 | ✓ |
+| XOM | 111 | 111 | ✓ |
+
+**CLEAN** — no overnight stop-outs. All 4 GTC trailing stops active and intact.
+
+### Account Snapshot
+- **Equity:** $114,679.02 | **Cash:** $47,180.97 | **Long MV:** $67,498.05
+- **Deployed:** 58.9% (below 75-85% target — intentionally cash-heavy pre-FOMC)
+- **Daytrade count:** 0/3 | **Trades this week:** 3/7 (MU+MRVL+XOM Jun 10)
+- **Phase P&L:** +$14,679.02 (+14.68%)
+
+### Market Context
+- **WTI:** $86.24 (-1.67%) | **Brent:** $88.92 (-1.62%) — oil SOFTENING on Iran deal signal
+- **S&P 500 futures (ESM26):** +0.23% at 7,412 — constructive positive open
+- **VIX:** 19.44 (-12.51% from 22.22) — fear moderating; semi rally stabilizing
+- **Gold:** $4,173 (+2.03%) — risk-off hedge still bid
+- **BTC:** ~$63,500 (+0.04%)
+- **Key headline:** Trump signals Iran deal coming soon → risk assets bid, oil lower, Hormuz risk premium fading
+
+### Today's Events (Jun 12)
+- **10:00 AM ET:** U. Michigan Consumer Sentiment (June preliminary) — low-impact vs FOMC
+- **No CPI/PPI/FOMC today** — relatively quiet data day
+- **FOMC Jun 16-17 NEXT WEEK** — new Chair Warsh first meeting; rate hold expected (3.50-3.75%); hawkish tone risk
+- **Today is last trading day before FOMC blackout** (Jun 13 = Saturday → no entry window reopens until Jun 17+ post-FOMC)
+
+### ADBE Post-Earnings Assessment
+- **Q2 FY26 results (AMC Jun 11):** EPS $5.96 (beat +2.60% vs $5.81 est) | Rev $6.62B (beat +2.63% vs $6.45B est) | FY guidance RAISED
+- **AH reaction:** Stock traded at bid $207.77 (live Alpaca quote) — gap of ~-11% from pre-earnings close $233.38
+- **Verdict: DISQUALIFIED** — >5% gap rule triggered. ADBE is NOT an entry candidate today.
+- **Post-mortem:** Sell-the-news reaction despite solid beat. CEO succession concerns + AI competition fear + stock near 52-week lows ($224 low) likely creating persistent selling.
+- **Watch post-FOMC:** If ADBE stabilizes above $205-210 with volume drying up, reassess for swing entry.
+
+### Held Positions — Status Check (Jun 11 close prices, source: Alpaca positions API)
+| Ticker | Shares | Entry | Close Jun11 | P&L% | Stop (broker) | HWM | Cushion |
+|--------|--------|-------|-------------|------|---------------|-----|---------|
+| GOOGL | 46 | $368.59 | $358.00 | -2.87% | $334.87 (a2f8d542) | $372.08 | 6.5% |
+| MRVL | 60 | $264.11 | $279.62 | +5.87% | $254.09 (f5f304be) | $282.32 | 9.2% |
+| MU | 18 | $906.29 | $992.55 | +9.52% | $897.01 (c3324da2) | $996.68 | 9.6% ⚠️ near HWM |
+| XOM | 111 | $151.22 | $147.10 | -2.72% | $137.24 (82fa861c) | $152.49 | 6.7% |
+
+**MU note:** HWM $996.68 vs close $992.55 — stop correctly trails at $897.01 (10%). No manual action needed.
+**GOOGL note:** -7% cut threshold $342.79; close $358 = $15.21 above cut. Safe.
+**XOM note:** Iran deal signal → oil falling → XOM headwind. Stop $137.24 provides 6.7% cushion at $147.10.
+
+### Thesis Check
+- **GOOGL:** Anthropic partnering with Google for data center push (Jun 12 news). Google expanding home listings to all 50 states (real estate disruption). 86% analyst buy rating, 1y target $432.83 (+20% from current). Q2 earnings Jul 23. Thesis INTACT.
+- **MRVL:** Custom AI investor event Jun 17 (during FOMC — double catalyst). S&P 500 inclusion Jun 22 (index-buy catalyst). AI ASIC/custom silicon thesis intact. Thesis INTACT.
+- **MU:** HBM4 demand supercycle. Q3 FY26 guidance $33.5B rev (was $23.86B Q2 = +40% QoQ). Earnings Jun 24 catalyst. Thesis INTACT.
+- **XOM:** Energy sector #1 YTD but Iran deal signal = oil headwind. WTI now $86 vs $91 peak. If deal materializes → WTI $80s → XOM pressure. Thesis weakening on Iran deal developments. Monitor stop closely.
+
+### Stop Tightening Check
+- GOOGL: -2.87% from entry → below +15% threshold. No action.
+- MRVL: +5.87% from entry → below +15% threshold (+15% = $303.74). No action.
+- MU: +9.52% from entry → below +15% threshold (+15% = $1,042.23). No action.
+- XOM: -2.72% from entry → below threshold. No action.
+
+### Capitol Trades — Whitelist Check (last 45 days, threshold $25k+)
+- **Pelosi:** Most recent disclosed buys were GOOGL (Jan 2026, $329.76) and AMZN (Jan 2026). No new disclosures in last 45 days.
+- **McCaul:** No qualifying $25k+ buys in last 45 days.
+- **Crenshaw:** Left Congress (lost House seat) — removed from tracking.
+- **Tuberville:** Low activity in 2026 ($375k total YTD); no recent disclosures.
+- **Khanna:** Active but all trades in $1k-$15k range (well below $25k threshold).
+- **Gottheimer:** No new buys in last 45 days (prior SNDK May 7 was $1k-$15k, below threshold).
+- **Green (Mark):** Resigned Jul 20, 2025 — no longer trackable.
+- **Mast:** No qualifying buys found.
+- **Broad scan:** No new top performers meeting >20% above S&P threshold in 2026.
+
+**Capitol Trades result: NO QUALIFYING SIGNALS this session.**
+
+### Crypto Research (STEP 3c)
+- **BTC/USD:** ~$63,500. RSI 57.89 (neutral — not <30 oversold, no entry signal). STOCH 99 (overbought). 30-day trend: -23.74% (from ~$80k). 7-day trend: minor recovery from $59-60k lows.
+- **ETH/USD:** ~$1,671. Downtrend from yearly highs.
+- **SOL/USD:** ~$66.85. No setup.
+- **Crypto catalysts:** BTC recovering off $59.1k low but no clear reversal signal. ETF outflows prior weeks partially reversing. Mt. Gox distribution risk remains. Iran deal = risk-on = mild crypto positive.
+- **Decision: NO CRYPTO TRADE.** RSI not oversold, trend still bearish, BTC below $70k stability threshold.
+
+### Trade Ideas (with Live Price Verification)
+
+**⚠️ NOTE: All Alpaca quotes below are AH quotes from Jun 11 20:00 ET — wide spreads, not suitable for entry pricing. Prices noted as AH-only / informational.**
+
+**No actionable entries today. Rationale:**
+1. Today = last trading day before FOMC blackout (Jun 13-16 window locked)
+2. FOMC Jun 16-17: new Chair Warsh, first meeting, potential hawkish surprise
+3. ADBE disqualified: >5% gap down post-earnings (AH ~$208 vs close $233 = -11%)
+4. No politician signals
+5. BTC not oversold
+6. Current deployment 58.9% vs 75-85% target — gap intentional pre-FOMC
+
+**Watchlist for post-FOMC (Jun 17+):**
+
+**1. NVDA** — AI GPU leader, recovering semi sector
+- AH quote (informational only): bid $191.33 (AH — unreliable, Jun 11 close ~$204)
+- **Live Alpaca market-hours quote REQUIRED before any entry**
+- Catalyst: AI capex $700B hyperscaler cycle intact; Iran deal = risk-on; semi recovery
+- Setup (hypothetical, post-FOMC): entry at open, stop 10% below, target 20% above
+- Entry/stop/target: **PENDING live market-hours quote — do not use AH prices**
+
+**2. ADBE** — Post-earnings washout recovery
+- AH quote (live Alpaca): bid $207.77, ask $207.88 (Jun 11 20:55 ET)
+- Disqualified for today (>5% gap). Watch for stabilization above $205-210 over 2-3 days.
+- Entry trigger: market-hours price + ≤5% gap from prior close + volume stabilization
+- Post-FOMC: if stabilized, entry ~market price, stop 10% below, target 20% above
+
+**3. MRVL (add on dip)** — S&P 500 inclusion play
+- Already holding 60 shares. Cannot double-up same ticker.
+- Note: MRVL custom AI investor event Jun 17 (FOMC day) = potential catalyst for gap-up Jun 18
+
+### Risk Factors
+1. **FOMC Jun 16-17 (Warsh):** New hawkish chair; rate hold expected but tone uncertain. Any hike language → tech selloff.
+2. **Iran deal signal → oil decline:** WTI $86 and falling. XOM stop at $137.24 (6.7% cushion from $147.10). If WTI reaches $75-78, XOM could approach stop.
+3. **MU HWM $996.68 vs close $992.55:** Stop $897.01 correctly auto-trails. MU earnings Jun 24 = binary event.
+4. **ADBE sector signal:** Software/SaaS sell-the-news suggests risk appetite for high-multiple growth may be limited pre-FOMC.
+5. **VIX 19.44:** Improved but still above 15-16 base levels. Elevated uncertainty from Iran + FOMC.
+6. **U. Michigan sentiment 10:00 AM:** Soft print (consumer confidence falling on inflation) could pressure equities.
+
+### Decision
+**HOLD — no new entries today.**
+- All 4 stops in place. FOMC blackout effective today (last trading day before Jun 16-17).
+- 58.9% deployment appropriate given Warsh uncertainty.
+- Post-FOMC (Jun 17+ afternoon or Jun 18):
+  - If FOMC dovish/neutral → add 1-2 positions (NVDA first, then reassess ADBE)
+  - If FOMC hawkish → protect capital; consider cutting GOOGL if approaches -7% trigger
+- Dry powder: $47,181 → available for aggressive post-FOMC deployment if thesis confirmed
+- Iran deal: monitor XOM. If WTI falls below $80 and deal confirmed → consider closing XOM early vs waiting for stop.
+- Weekly remaining: 4/7 trade slots still open (can add 4 more new trades week of Jun 8)
+
