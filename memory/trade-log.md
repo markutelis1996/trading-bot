@@ -3832,3 +3832,73 @@ None. No cuts, no stop changes, no new entries.
 
 **Notes:** Strong semi rally day — MRVL +10.70% and MU +11.29% drove portfolio +2.79%. Fractional cleanup executed at open (MRVL 4.093 sh, MU 0.679 sh, XOM 0.945 sh — all confirmed). Trailing stops auto-trailed: MU HWM $957→$997 (stop $862→$897), MRVL HWM $272→$282 (stop $245→$254). GOOGL recovered +0.46%; cut line $342.79 is $15.21 above close — comfortable. XOM -2.34% on oil softness but energy thesis intact. No new entries today (3/7 week slots used Jun 10). FOMC Jun 16-17 (new Chair Warsh) next binary event; pre-FOMC blackout begins Jun 13 EOD. Deployed 58.8% vs 75-85% target — intentionally cash-heavy pre-FOMC. Reconciliation clean: all 4 broker positions match log exactly; all 4 GTC stops confirmed active.
 
+---
+
+### Jun 12 - EOD Snapshot (Day 38, Friday)
+**Portfolio:** $114,495.32 | **Cash:** $47,180.95 (41.2%) | **Day P&L:** -$48.27 (-0.04%) | **Phase P&L:** +$14,495.32 (+14.50%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| GOOGL | 46 | $368.59 | $359.68 | ~+$1.68 (+0.47%) | -$409.89 (-2.42%) | $334.87 (10% trail, HWM $372.08, a2f8d542) |
+| MRVL | 60 | $264.11 | $279.70 | ~+$0.08 (+0.03%) | +$934.90 (+5.90%) | $259.11 (10% trail, HWM $287.90, f5f304be) |
+| MU | 18 | $906.29 | $981.61 | ~-$10.94 (-1.10%) | +$1,355.76 (+8.31%) | $911.35 (10% trail, HWM $1,012.61, c3324da2) |
+| XOM | 111 | $151.22 | $147.01 | ~-$0.09 (-0.06%) | -$467.27 (-2.78%) | $137.24 (10% trail, HWM $152.49, 82fa861c) |
+
+**Notes:** No trades today (3/7 week slots used; FOMC blackout effective). MRVL and MU both hit new session HWMs during Jun 12 trading (MRVL $287.90, MU $1,012.61) with trailing stops auto-trailed up accordingly. Both pulled back into close. GOOGL marginally improved from Jun 11. XOM essentially flat on light oil volume. FOMC Jun 16-17 (Warsh) is next binary event; no new entries until post-FOMC confirmation Jun 17+. Deployment 58.8% — intentionally below 75-85% target pre-FOMC. Dry powder $47,181 ready to deploy post-FOMC.
+
+---
+
+## 2026-06-13 - Midday Scan (Saturday — Markets Closed)
+
+**Portfolio:** $114,495.32 (Jun 12 EOD) | **Cash:** $47,180.95 (41.2%) | **Positions:** 4 | **Deployed:** ~58.8% | **Phase P&L:** +$14,495.32 (+14.50%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Log Stop/HWM | Broker Stop/HWM | Match? |
+|--------|---------|------------|--------------|-----------------|--------|
+| GOOGL | 46 | 46 | $334.87 / $372.08 | $334.87 / $372.08 | ✓ |
+| MRVL | 60 | 60 | $254.09 / $282.32 | $259.11 / $287.90 | ✓ auto-trail |
+| MU | 18 | 18 | $897.01 / $996.68 | $911.35 / $1,012.61 | ✓ auto-trail |
+| XOM | 111 | 111 | $137.24 / $152.49 | $137.24 / $152.49 | ✓ |
+
+Clean. No overnight stop-outs. MRVL and MU stops auto-trailed up on Jun 12 session. Expected behavior.
+
+### Position Status (Jun 12 close — market closed Sat Jun 13)
+| Ticker | Shares | Entry | Jun 12 Close | P&L% | Stop (broker) | HWM | Status |
+|--------|--------|-------|--------------|------|---------------|-----|--------|
+| GOOGL | 46 | $368.59 | $359.68 | -2.42% | $334.87 (10% trail, a2f8d542) | $372.08 | HOLD |
+| MRVL | 60 | $264.11 | $279.70 | +5.90% | $259.11 (10% trail, f5f304be) | $287.90 | HOLD |
+| MU | 18 | $906.29 | $981.61 | +8.31% | $911.35 (10% trail, c3324da2) | $1,012.61 | HOLD |
+| XOM | 111 | $151.22 | $147.01 | -2.78% | $137.24 (10% trail, 82fa861c) | $152.49 | HOLD |
+
+### Step 3 — Cuts
+None. All positions above -7% rule (worst: XOM -2.78%, GOOGL -2.42%).
+- GOOGL: cut threshold $342.79; current $359.68 = $16.89 above cut ✓
+- XOM: cut threshold $140.63; current $147.01 = $6.38 above cut ✓
+
+### Step 4 — Stop Tightening
+- GOOGL -2.42%: below +15% threshold. No action.
+- MRVL +5.90%: +15% trigger $303.74 — not reached. No action.
+- MU +8.31%: +15% trigger $1,042.23 — Jun 12 HWM $1,012.61 (+11.73%) not at trigger. No action.
+- XOM -2.78%: below threshold. No action.
+
+### Step 5 — Thesis Check
+- **GOOGL**: -2.42% from entry. Anthropic + Google data center partnership confirmed (Jun 12). Google Cloud +28%, Gemini scaling. 86% analyst buy, $432.83 1yr PT. INTACT.
+- **MRVL**: +5.90% from entry. Custom AI investor event Jun 17 (FOMC Day 2) + S&P 500 inclusion Jun 22. Both remain pending catalysts. Jun 12 HWM $287.90 = +8.99% from entry. INTACT.
+- **MU**: +8.31% from entry. HBM4/AI memory supercycle intact. Jun 12 HWM $1,012.61 = +11.73% from entry. Earnings Jun 24 = next binary catalyst. INTACT.
+- **XOM**: -2.78% from entry. Iran deal signal → WTI $86 (fell from $91). Thesis weakening on oil decline. Stop $137.24 provides 6.7% cushion from $147.01. Monitor closely post-FOMC.
+
+### Step 6 — Research
+Market closed (Saturday). No intraday moves to assess. No Perplexity research needed.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries. Markets closed.
+
+### Key Watches for Monday Jun 16 (FOMC Day 1)
+- **FOMC Jun 16-17** (Chair Warsh, first meeting): hawkish tone = tech selloff risk; hold expected at 3.50-3.75%
+- **MU**: +15% tightening trigger $1,042.23 (HWM $1,012.61 = +11.73% — 2.8% from trigger). If MU opens strong Jun 16: ready to tighten to 7% trail
+- **MRVL**: Custom AI investor event Jun 17 = potential catalyst. Watch for gap-up Jun 18.
+- **GOOGL**: Cut threshold $342.79. If tech sells off hard pre-FOMC → monitor closely.
+- **XOM**: If Iran deal confirmed → WTI could test $80-82 → XOM may approach stop. Consider early exit if WTI breaks $82.
+- **Deployment**: 58.8% pre-FOMC; deploy post-FOMC if neutral/dovish (NVDA primary candidate)
+- Trades this week: 3 of 7 (Jun 10: MU + MRVL + XOM); 4 slots remain
+
