@@ -3835,6 +3835,20 @@ None. No cuts, no stop changes, no new entries.
 ---
 
 ### Jun 12 - EOD Snapshot (Day 38, Friday)
+**Portfolio:** $114,495.32 | **Cash:** $47,180.95 (41.2%) | **Day P&L:** -$183.91 (-0.16%) | **Phase P&L:** +$14,495.32 (+14.50%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| GOOGL | 46 | $368.59 | $359.68 | +$1.68 (+0.47%) | -$409.89 (-2.42%) | $334.87 (10% trail, HWM $372.08, a2f8d542) |
+| MRVL | 60 | $264.12 | $279.70 | +$0.08 (+0.03%) | +$934.90 (+5.90%) | $259.11 (10% trail, HWM $287.90, f5f304be) |
+| MU | 18 | $906.29 | $981.61 | -$10.94 (-1.10%) | +$1,355.76 (+8.31%) | $911.35 (10% trail, HWM $1,012.61, c3324da2) |
+| XOM | 111 | $151.22 | $147.01 | -$0.09 (-0.06%) | -$467.27 (-2.78%) | $137.24 (10% trail, HWM $152.49, 82fa861c) |
+
+**Notes:** Quiet Friday after Thursday's big semi rally. No trades; all 4 positions held with trailing stops intact. MU hit intraday HWM $1,012.61 (+11.72% from entry) before settling at $981.61; stop auto-trailed to $911.35. MRVL hit HWM $287.90 (+9.0%), stop trailed to $259.11. GOOGL +0.47%, cut line $342.79 comfortable at $16.89 cushion. XOM essentially flat on oil consolidation; energy thesis intact. Portfolio -$183.91 (-0.16%) — near-flat day. Pre-FOMC entry blackout now active (no new positions until post-FOMC Jun 18+). FOMC Jun 16-17 (new Chair Warsh) next binary event. Deployed 58.8% vs 75-85% target — intentionally cash-heavy into FOMC. EOD workflow ran Jun 13 (Saturday); snapshot covers Jun 12 (Friday) trading session. Reconciliation clean: all 4 broker qtys match log; all 4 GTC stops confirmed active.
+
+---
+
+### Jun 12 - EOD Snapshot (Day 38, Friday)
 **Portfolio:** $114,495.32 | **Cash:** $47,180.95 (41.2%) | **Day P&L:** -$48.27 (-0.04%) | **Phase P&L:** +$14,495.32 (+14.50%)
 
 | Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
