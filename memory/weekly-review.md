@@ -250,6 +250,80 @@ Deployment: ~45.4% ($47,887 / $105,386) vs 75-85% target — still underdeployed
 
 ---
 
+## Week ending 2026-06-13
+
+> Note: Week ending 2026-06-06 review was NOT completed (operational gap).
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $113,072.82 (EOD Jun 6, est. from Jun 8 day P&L) |
+| Ending portfolio | $114,495.32 |
+| Week return | +$1,422.50 (+1.26%) |
+| S&P 500 week | +1.6% (9th consecutive weekly gain) |
+| Bot vs S&P | -0.34% underperformance |
+| Trades | 3 new entries (W:0 / L:0 / open:4) |
+| Win rate | N/A (no closed trades) |
+| Best trade | MU +8.31% unrealized |
+| Worst trade | XOM -2.78% unrealized |
+| Profit factor | N/A (no closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| — | — | — | — | — | No trades closed this week |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| GOOGL | 46 | $368.59 | $359.68 | -$409.89 (-2.42%) | $334.87 (10% trail, a2f8d542) | $372.08 |
+| MRVL | 60 | $264.12 | $279.70 | +$934.90 (+5.90%) | $254.09 (10% trail, f5f304be) | $282.32 |
+| MU | 18 | $906.29 | $981.61 | +$1,355.76 (+8.31%) | $897.01 (10% trail, c3324da2) | $996.68 |
+| XOM | 111 | $151.22 | $147.01 | -$467.27 (-2.78%) | $137.24 (10% trail, 82fa861c) | $152.49 |
+
+Deployment: ~58.8% ($67,314 / $114,495) — below 75-85% target; intentional pre-FOMC Jun 16-17
+
+### What Worked
+- Cool CPI 3.1% (Jun 10) triggered pre-planned entries: MU, MRVL, XOM entered cleanly per CPI contingency plan
+- Fractional cleanup discipline: All unprotected fractional shares (MU 0.679, XOM 0.945, MRVL 4.093) sold T+1 on Jun 11 per plan
+- ADBE gap rule: >5% gap post-earnings correctly disqualified ADBE ($207 AH vs $233 close = -11%); skipped correctly
+- "Parabolic 7" unwind correctly identified as sector rotation, not thesis break — held through Jun 10 volatility; MRVL +10.7% / MU +11.3% confirmed Jun 11
+- FOMC pre-entry blackout correctly applied — no new entries after Jun 12 (Warsh first meeting = hawkish-uncertainty risk)
+
+### What Didn't Work
+- Jun 10 entry-day selloff: All 3 new positions immediately underwater after CPI entry due to "Parabolic 7" rotation; required 2 days to recover
+- GOOGL persistent underperformer: -2.42% from Jun 5 entry; -7% cut trigger only $5 away on Jun 11 midday; ORCL cloud miss created sympathy pressure
+- XOM thesis weakening: Iran deal signal pushed WTI from $91 → $86; Hormuz-closure energy thesis now has headwind
+- Deployment 58.8% vs 75-85% target — entire week below target; intentional pre-FOMC but still a gap
+- Week return +1.26% vs S&P +1.6%: slight underperformance driven by GOOGL/XOM drag
+
+### Key Lessons
+- CPI as binary entry gate works: Cool print correctly unlocked positions; hot would have extended blackout; macro-triggered entries are disciplined and repeatable
+- Day-1 pain on sector rotation is normal: "Parabolic 7" -4% to -5% entries on Jun 10 recovered fully Jun 11; thesis > price action in first 24h
+- GOOGL at -7% proximity requires a plan: If FOMC hawkish and GOOGL sells off post-announcement, cut at $342.79 immediately — no discretion
+- Pre-FOMC deployment gap is correct risk management: $47k dry powder available for post-FOMC opportunity; holding cash ahead of new Fed Chair first meeting is disciplined
+- Fractional cleanup routine is working: T+0 fractions logged, T+1 cleanup executed — zero unprotected positions at week end
+
+### Adjustments for Next Week
+- Post-FOMC (Jun 17 PM or Jun 18 AM): If neutral/dovish → add NVDA first; target 75-85% deployment by Jun 20
+- GOOGL: Hard cut at $342.79 — if FOMC hawkish and GOOGL sells off, cut at open Jun 18; no extensions
+- MU: +15% trigger = $1,042.23 (currently $981.61 = +8.31% — getting close); check ATR14 before tightening; earnings Jun 24 is next binary event
+- MRVL: Custom AI investor event Jun 17 (FOMC day) + S&P 500 inclusion Jun 22 = double catalyst; may gap up Jun 18 open
+- XOM: WTI $86 and falling on Iran deal; if WTI breaks $80 or deal confirmed → consider early close vs waiting for stop $137.24
+- Sector cap: Tech/semi at ~57% (GOOGL+MRVL+MU); NVDA add only viable if GOOGL closes first (to stay under 60% cap)
+
+### Overall Grade: B
+- +1.26% vs S&P +1.6% = -0.34% underperformance ✗ (within noise range)
+- CPI entry trigger executed correctly and per plan ✓
+- Fractional cleanup discipline maintained ✓
+- No rule violations ✓
+- GOOGL proximity to -7% cut ($5 away Jun 11) ✗
+- XOM thesis weakening (Iran deal = oil headwind) ✗
+- 58.8% deployment (below 75-85% target all week) ✗
+- Phase P&L: +$14,495 (+14.50%) — well ahead of S&P benchmark ✓
+
+---
+
 ## Week ending 2026-05-30
 
 > Note: Week ending 2026-05-22 review was NOT completed (operational gap).
