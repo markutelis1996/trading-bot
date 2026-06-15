@@ -4022,3 +4022,16 @@ None. No cuts, no stop changes, no new entries (FOMC blackout active Jun 16-17).
 - Jun 19: Market CLOSED (Juneteenth)
 - Post-FOMC (Jun 18): NVDA primary entry candidate if neutral/dovish outcome
 
+---
+
+### Jun 15 - EOD Snapshot (Day 39, Monday)
+**Portfolio:** $117,489.01 | **Cash:** $62,698.75 (53.3%) | **Day P&L:** +$2,993.69 (+2.62%) | **Phase P&L:** +$17,489.01 (+17.49%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| GOOGL | 46 | $368.59 | $369.55 | +$9.87 (+2.74%) | +$44.16 (+0.26%) | $335.69 (10% trail, HWM $372.99, a2f8d542) |
+| MRVL | 60 | $264.12 | $306.07 | +$26.37 (+9.43%) | +$2,517.00 (+15.88%) | $281.68 (10% trail ⚠️ TIGHTEN TO 7%, HWM $312.98, f5f304be) |
+| MU | 18 | $906.29 | $1,079.54 | +$97.93 (+9.98%) | +$3,118.50 (+19.12%) | $1,020.65 (7% trail, HWM $1,097.47, bb67e510) |
+
+**Notes:** Big risk-on day — US-Iran peace deal confirmed drove NASDAQ ~+5% with semis leading. XOM cut at open (-7.55%, -$1,267.62) on thesis break (WTI -5.16% to $80.50; JPM forecasts Brent $60). All 3 remaining positions surged: MU +9.98% (HWM $1,097.47; +20% trigger $1,087.55 breached intraday — ATR high-vol exception applies, stays at 7% trail); MRVL +9.43% (HWM $312.98; +15% trigger $303.73 breached — 10% trail MUST be tightened to 7% pre-market Jun 16); GOOGL +2.74% on general NASDAQ lift. Phase P&L +$17,489.01 (+17.49%). Portfolio 46.6% deployed vs 75-85% target; FOMC blackout (Warsh, Jun 16-17) — no new entries until Jun 18. Post-FOMC candidates: NVDA primary. Reconciliation clean: GOOGL/MRVL/MU all match broker qtys; XOM fully exited.
+
