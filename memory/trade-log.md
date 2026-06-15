@@ -3916,3 +3916,61 @@ None. No cuts, no stop changes, no new entries. Markets closed.
 - **Deployment**: 58.8% pre-FOMC; deploy post-FOMC if neutral/dovish (NVDA primary candidate)
 - Trades this week: 3 of 7 (Jun 10: MU + MRVL + XOM); 4 slots remain
 
+---
+
+## 2026-06-15 - Market Open
+
+**Portfolio:** ~$117,405 est. | **Cash:** ~$62,699 (after XOM sale) | **Positions:** 3 | **Phase P&L:** ~+$17,405 | **Week trades:** 0/7 new (XOM exit = rule-based close)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+| MRVL | 60 | 60 | ✓ |
+| MU | 18 | 18 | ✓ |
+| XOM | 111 | 111 | ✓ |
+
+Clean. No overnight stop-outs or discrepancies.
+
+### Step 1b — Live Price Re-verification
+| Ticker | Entry | Live Price | P&L% | Threshold | Action |
+|--------|-------|------------|------|-----------|--------|
+| GOOGL | $368.59 | $370.59 | +0.54% | Cut $342.79 | HOLD |
+| MRVL | $264.11 | $289.92 | +9.77% | +15% @ $303.73 | HOLD |
+| MU | $906.29 | $1,067.42 | +**17.78%** | +15% @ $1,042.23 ✓ TRIGGERED | TIGHTEN |
+| XOM | $151.22 | $139.64 | **-7.84%** | Cut $140.63 ✓ BREACHED | SELL |
+
+### Actions Taken
+
+**1. XOM — MANUAL CUT (thesis broken)**
+- Reason: US-Iran peace deal CONFIRMED Jun 14; WTI -5.16% to $80.50; JPM forecasts Brent $60/bbl 2026. Iran war premium fully unwound. -7% rule triggered ($139.64 < $140.63).
+- Cancelled trailing stop 82fa861c (204)
+- Placed market sell: 111 shares @ **$139.80** fill (order ca0d545c, filled 14:06 UTC)
+- Realized P&L: -$1,267.62 (-7.55% of cost basis $16,785.38)
+- Cash freed: +$15,517.80
+
+**2. MU — STOP TIGHTENED 10% → 7% (+15% trigger)**
+- MU at $1,067.42 = +17.78% from entry; +15% trigger $1,042.23 EXCEEDED
+- ATR note: MU is high-vol AI semi — tighten to 7% (not 5%); 5% tightening at +20% only
+- Cancelled 10% trail stop c3324da2 (204)
+- Placed new 7% trail stop: 18 shares GTC (order **bb67e510**)
+- New stop: **$991.08** (7% below HWM $1,065.68)
+- Protects +9.3% gain floor vs prior 10% stop at $969.11
+
+**3. No new buys — FOMC blackout active (Jun 16-17, Warsh first meeting)**
+
+### Open Positions (Post-Session)
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | HWM | Order ID |
+|---|--------|--------|-------|---------|------|------|-----|----------|
+| 1 | GOOGL | 46 | $368.59 | $370.59 | +0.54% | $334.93 (10% trail, a2f8d542) | $372.14 | a2f8d542 |
+| 2 | MRVL | 60 | $264.11 | $289.92 | +9.77% | $272.16 (10% trail, f5f304be) | $302.40 | f5f304be |
+| 3 | MU | 18 | $906.29 | $1,067.42 | +17.78% | $991.08 (7% trail, bb67e510) | $1,065.68 | bb67e510 |
+| ~~4~~ | ~~XOM~~ | ~~111~~ | ~~$151.22~~ | ~~$139.80~~ | **-7.55% CLOSED** | — | — | ca0d545c |
+
+- Trades this week (Jun 15): 0 new entries; XOM close = rule-triggered exit
+- Deployment: ~3 positions; est. 53% deployed post-XOM exit; FOMC blackout until Jun 18+
+- Watches: FOMC Jun 16-17 (Warsh) → post-FOMC NVDA entry if neutral/dovish
+- Watches: MU stop now $991.08 (7%); +20% trigger = $1,087.55 → tighten to 5% if ATR permits
+- Watches: MRVL +15% trigger $303.73 (current $289.92; ~4.8% away) — could trigger Jun 16-17 on vol
+- Jun 19: Market CLOSED (Juneteenth)
+
