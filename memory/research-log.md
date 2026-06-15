@@ -4238,3 +4238,100 @@ No actionable entries today. Rationale:
 - Iran deal: monitor XOM. If WTI falls below $80 and deal confirmed → consider closing XOM early vs waiting for stop.
 - Weekly remaining: 4/7 trade slots still open (can add 4 more new trades week of Jun 8)
 
+---
+
+## 2026-06-15 - Pre-market Research
+
+### Account
+- Equity: $116,321.20 (+$16,321.20 / +16.32% phase P&L)
+- Cash: $47,180.95 (40.6%)
+- Buying power: $382,316.50
+- Daytrade count: 0
+- Open positions: 4 (GOOGL, MRVL, MU, XOM)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+| MRVL | 60 | 60 | ✓ |
+| MU | 18 | 18 | ✓ |
+| XOM | 111 | 111 | ✓ |
+
+Clean. All 4 GTC trailing stops confirmed active. No overnight stop-outs.
+
+### Market Context
+- WTI: $80.50 (-5.16%) | Brent: $83.41 (-4.49%) — US-Iran peace deal CONFIRMED Jun 14; Hormuz reopening → supply normalization
+- S&P 500 futures: +1.20% → 7,524 | NASDAQ: +1.95% → 30,240 | DOW: +0.95% → 51,715
+- VIX: ~17.68 (declining — risk-on; Iran deal + market relief)
+- Nikkei +4.99%, Asia/Europe rallying sharply
+- Gold: $4,288 (+1.73%) — safe haven bid despite risk-on (uncertainty over FOMC)
+- Today's data: Empire State manufacturing (8:30 AM), Industrial production (9:15 AM) — minor
+- Today earnings: No major releases before open
+- This week: FOMC Jun 16-17 (Warsh's first meeting, decision Jun 17 PM) | Retail Sales Jun 17 (8:30 AM) | ACN earnings Thu Jun 19 PMO | Jun 19 = **Juneteenth — market closed** (also Iran deal official signing in Switzerland)
+- Jun 24 AMC: **MU earnings** — key catalyst for held position
+- Sector momentum: AI/Tech (NASDAQ +1.95%) > Industrials > Financials | Energy rotating OUT sharply (oil -5.16%)
+
+### US-Iran Peace Deal — CONFIRMED (primary macro event)
+- Announced: June 14, 2026 (Trump Truth Social + Pakistan PM Sharif)
+- Terms: Permanent ceasefire + Strait of Hormuz toll-free opening + US Naval blockade removed
+- Signing: June 19, 2026, Switzerland
+- Oil trajectory: WTI now $80.50 (was $91+ last week); JPM forecasts Brent avg $60/bbl 2026; CoinCodex: XOM forecast $135-139 by Jun 18-19
+- Impact on XOM: THESIS BROKEN. XOM was an Iran-war premium trade. Oil now in sustained decline.
+
+### FOMC Jun 16-17 (Chair Warsh — first meeting)
+- Decision: NO CHANGE (97-98% probability, hold 3.50-3.75%)
+- Expected: Drop easing bias → neutral stance
+- Iran deal = deflationary → could soften hawkish tone slightly
+- Risk: Warsh signals rate hike in Sep/Oct 2026 → tech selloff
+- Premarket blackout still active — no new entries until post-FOMC Jun 18+
+
+### Capitol Trades (Whitelist Check)
+- Pelosi: Last disclosed Jan 26, 2026 (GOOGL, NVDA, AMZN options — Jan 2026 trades, >4 months old, outside 45-day window). No qualifying stock buys.
+- Ro Khanna: Disclosed May 13, 2026 — sold MU Apr 27 ($1K-$15K, under $25K min, disqualified); bought TMO/SYK/ADP/BRK/B/HD/CSCO/JNJ Apr 13 (all $15K-$50K, under $25K min, disqualified)
+- Dan Crenshaw: No trade activity in 3 years
+- Tuberville: Bought PayPal >$500K — PayPal not aligned with current thesis
+- **No whitelist politician qualifying stock buys ($25K+) in last 45 days**
+- Signal: None
+
+### Position Monitor (live prices — Alpaca AH quotes Jun 12; regular closes from broker positions data)
+
+| Ticker | Entry | Jun 12 Close | AH Bid | AH Ask | +15% Trigger | -7% Cut | Stop | Status |
+|--------|-------|-------------|--------|--------|-------------|---------|------|--------|
+| GOOGL | $368.59 | $359.68 | $344.50 | — | $423.88 | $342.79 | $334.87 | HOLD — safe |
+| MRVL | $264.11 | $279.70 | $267.84 | $295.66 | $303.73 | $245.63 | $259.11 | HOLD — monitor |
+| MU | $906.29 | $981.61 | $943.01 | $1,040.42 | **$1,042.23** | $843.06 | $911.35 | ⚠️ NEAR +15% TRIGGER |
+| XOM | $151.22 | $147.01 | $141.10 | $156.18 | $173.90 | $140.63 | $137.24 | 🔴 CUT RISK |
+
+**XOM alert**: WTI -5.16% today. Energy stocks typically move 0.5-0.7x oil → XOM may open $139-142. Manual cut at $140.63 (-7% from $151.22). Stop at $137.24. XOM likely to be cut or stopped out at market open.
+
+**MU alert**: AH ask $1,040.42 on Jun 12 — $1.81 below +15% trigger. NASDAQ +1.95% premarket. MU may open above $1,042.23 → **tighten trail from 10% to 7% if triggered**. HWM current $1,012.61; if MU hits $1,042.23, new stop = HWM * 0.93.
+
+**MRVL**: Custom AI investor event Jun 17 (tomorrow, FOMC Day 1). +15% trigger at $303.73 (current $279.70 = +5.90%). No action today.
+
+**GOOGL**: Market rally premarket → likely opens ~$364-368. Cut threshold $342.79 — comfortable.
+
+### Crypto Research
+- BTC: ~$64,000-66,000 (Polymarket consensus 56%); Iran peace deal = risk-on tailwind but no RSI trigger; BTC up daily per prediction market
+- ETH: $1,724 (+1.97%) — down -23.81% in 1 month, bearish trend; ETH Foundation sold 10k ETH; co-founder Wilcke deposited 79,859 ETH to Kraken; Culper Research short position; death cross likely still active
+- SOL: ~$60-70 range; low
+- No crypto entry criteria met (BTC not oversold; ETH bearish trend; no confirmed catalyst)
+- Crypto: HOLD ALL
+
+### Trade Ideas (Post-FOMC watchlist only — FOMC blackout active)
+1. **NVDA** (post-FOMC primary) — AI backbone; Vera Rubin H2 2026 on track; NASDAQ rallying; China H200 market potential. Live AH ask: $215.13 (Jun 12 close ~$205.19). If FOMC neutral/dovish Jun 17 → entry Jun 18 ~$207-210, stop ~$186-189 (10% trail), target ~$248-252 (20%), R:R 2:1. **Requires FOMC confirmation first.**
+
+### Risk Factors
+- XOM: Iran deal likely triggers exit today (oil -5.16%); watch for auto-stop or manual cut at $140.63
+- FOMC Jun 17: Warsh surprise (hawkish tone / rate hike signal) → tech selloff could pressure GOOGL/MU/MRVL
+- MU stop tightening: if 10% → 7% tightening at open, the new stop will be ~$969 (7% below ~$1,042). If MU then pulls back post-open, could get stopped out near entry
+- Jun 19: Market CLOSED (Juneteenth) — 4-day effective week; reduced trading window
+- Deployment post-FOMC: currently 59.4%; target 75-85% → $17-30K to deploy post-FOMC
+
+### Decision
+**HOLD — FOMC blackout; no new entries today or tomorrow.**
+- XOM: **WATCH AT OPEN — likely manual cut ($140.63) or stop ($137.24) triggers.** Do not add to position.
+- MU: **IF opens ≥ $1,042.23 → tighten trail from 10% to 7%.** Route update order at open.
+- MRVL: HOLD. Watch Jun 17 investor event for breakout above $303.73 (+15% trigger).
+- GOOGL: HOLD. Market rally helps; comfortable cushion.
+- Post-FOMC (Jun 18): NVDA primary candidate if neutral/dovish outcome.
+
