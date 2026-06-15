@@ -3974,3 +3974,51 @@ Clean. No overnight stop-outs or discrepancies.
 - Watches: MRVL +15% trigger $303.73 (current $289.92; ~4.8% away) — could trigger Jun 16-17 on vol
 - Jun 19: Market CLOSED (Juneteenth)
 
+---
+
+## 2026-06-15 - Midday Scan
+
+**Portfolio:** ~$117,128 est. | **Cash:** ~$62,699 | **Positions:** 3 | **Deployed:** ~46.5% | **Phase P&L:** ~+$17,128 (+17.13%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+| MRVL | 60 | 60 | ✓ |
+| MU | 18 | 18 | ✓ |
+
+Clean. XOM exit logged in market-open session. No overnight or intraday stop-outs.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|------|----------|------|-----|--------|
+| GOOGL | 46 | $368.59 | $371.33 | +0.74% | +3.24% | $335.69 (10% trail, a2f8d542) | $372.99 | HOLD |
+| MRVL | 60 | $264.11 | $300.71 | +13.85% | +7.51% | $272.16 (10% trail, f5f304be) | $302.40 | HOLD ⚠️ |
+| MU | 18 | $906.29 | $1,072.52 | +18.34% | +9.26% | $1,004.93 (7% trail, bb67e510) | $1,080.57 | HOLD ⚠️ |
+
+### Step 3 — Cuts
+None. All above -7% (GOOGL +0.74%, MRVL +13.85%, MU +18.34%).
+
+### Step 4 — Stop Tightening
+- **MRVL**: +13.85% — +15% trigger at $303.73 (current $300.71 = 1.0% away). NOT triggered. Watch closely; MRVL investor event tomorrow Jun 16 could push through.
+- **MU**: +18.34% — +20% trigger at $1,087.55 (HWM $1,080.57 = 0.6% away). NOT triggered. Already on 7% trail from this morning's tightening. Next tighten to 5% at $1,087.55 (check ATR rule).
+- **GOOGL**: +0.74% — far below +15% trigger ($423.88). No action.
+
+### Step 5 — Thesis Check
+- **GOOGL**: +3.24% intraday; riding NASDAQ rally (Iran peace deal risk-on). DoD AI + search + cloud thesis unchanged. INTACT.
+- **MRVL**: +7.51% intraday; custom AI investor event Jun 16 = near-term catalyst. AI semi momentum intact. INTACT.
+- **MU**: +9.26% intraday; AI memory supercycle + HBM4/hyperscaler capex thesis intact. Earnings Jun 24. INTACT/STRENGTHENED.
+
+### Step 6 — Research
+No sharp unexplained moves. All gains consistent with Iran peace deal → NASDAQ risk-on rally. No thesis breaks across portfolio. No intraday research needed.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries (FOMC blackout active Jun 16-17).
+
+### Notes
+- FOMC Jun 17 (Warsh): No new entries until Jun 18 post-decision
+- **MRVL watch**: $303.73 (+15%) triggers 7% trail cancel/replace; check 14-day ATR vs 4% rule before placing
+- **MU watch**: $1,087.55 (+20%) triggers 5% trail (confirm ATR ≤4% of price before tightening to 5%)
+- Jun 19: Market CLOSED (Juneteenth)
+- Post-FOMC (Jun 18): NVDA primary entry candidate if neutral/dovish outcome
+
