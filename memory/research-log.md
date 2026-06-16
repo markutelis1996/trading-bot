@@ -4335,3 +4335,110 @@ Clean. All 4 GTC trailing stops confirmed active. No overnight stop-outs.
 - GOOGL: HOLD. Market rally helps; comfortable cushion.
 - Post-FOMC (Jun 18): NVDA primary candidate if neutral/dovish outcome.
 
+---
+
+## 2026-06-16 - Pre-market Research
+
+### Account
+- Equity: $117,492.71
+- Cash: $62,698.75
+- Buying power: $404,218.09 (margin account)
+- Deployed: ~46.5% ($54,793.96 long market value)
+- Daytrade count: 0
+- Phase P&L: +$17,492.71 (+17.49%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+| MRVL | 60 | 60 | ✓ |
+| MU | 18 | 18 | ✓ |
+
+Clean. No overnight stop-outs. All three GTC trailing stops active (a2f8d542, f5f304be, bb67e510).
+
+⚠️ **PENDING ACTION**: MRVL still on 10% trail (f5f304be, stop $281.68, HWM $312.98). +15% trigger ($303.73) was breached on Jun 15 (close $306.07 → HWM $312.98). Must tighten to 7% at market open: cancel f5f304be → place 7% trail 60 shares. New stop = $312.98 × 0.93 = ~$291.07.
+
+### Market Context
+- WTI: $80.69/bbl (-1.03% today); Brent: $82.93 (-0.29%); oil stabilizing post Iran-peace deal shock. JPM $60/bbl 2026 forecast intact but speed of decline slowing.
+- S&P 500 futures: 7,559.75 (-0.02%) — essentially flat overnight after massive Jun 15 rally (+1.62% to 7,554; DOW record high). Asian stocks up +0.5-0.9%.
+- VIX: 16.20 (Jun 15 close, -8.37% on day). Cross-asset volatilities normalizing as geopolitical risk premium dissipates (Cboe note). Low fear environment.
+- Sector momentum: AI/Semis dominant — Semis +42% YTD, Semi Equipment +98% YTD, Computer Hardware +162% YTD. Energy rotating out sharply (post Iran deal). S&P 500 +26% YTD.
+- Earnings today (Jun 16): No major US names (John Wiley, La-Z-Boy only). Accenture Thu Jun 18.
+- Economic calendar today: Housing Starts May (8:30 AM); FOMC Day 1 meeting begins (no decision).
+- Tomorrow Jun 17 (key): FOMC rate decision (hold expected at 3.50-3.75%, dot plot included), Retail Sales May (est +0.3% MoM), MRVL Custom AI Investor Event.
+- Jun 19: Market CLOSED (Juneteenth). Iran deal signing in Switzerland.
+- Jun 24 AMC: MU earnings (key binary event for held position).
+
+### Open Position Status (live quotes Jun 15 close / broker current_price)
+| Ticker | Shares | Entry | Jun 15 Close | Current | P&L% | Stop | HWM | Status |
+|--------|--------|-------|-------------|---------|------|------|-----|--------|
+| GOOGL | 46 | $368.59 | $369.55 | $370.18 | +0.43% | $335.69 (10% trail, a2f8d542) | $372.99 | HOLD |
+| MRVL | 60 | $264.11 | $306.07 | $305.00 | +15.48% | $281.68 (10% ⚠️ TIGHTEN to 7%) | $312.98 | HOLD — stop action needed |
+| MU | 18 | $906.29 | $1,087.99 | $1,081.12 | +19.29% | $1,020.65 (7% trail, bb67e510) | $1,097.47 | HOLD |
+
+MU notes: Jun 15 HWM $1,097.47; +20% trigger $1,087.55 was breached. ATR exception applies (MU = high-vol AI semi, stays at 7% trail — no further tightening to 5%). Already on correct stop.
+
+### Capitol Trades (Whitelist Check)
+- Pelosi: Last disclosure Jan 26, 2026. GOOGL/AMZN/NVDA via option exercises — all Jan 2026 trades (>4 months old, outside 45-day window). No new stock buys in last 45 days.
+- McCaul: Jun 11 disclosures (trades May 4-28, 2026). Largest: BJ's Wholesale $50K-$100K; Mastercard $15K-$50K. Not in AI/tech sector. No qualifying signal for current strategy.
+- Others (Crenshaw, Tuberville, Khanna, Gottheimer, Green, Mast): No new disclosures found in window. Khanna sold MU Apr 27 ($1K-$15K, below min threshold, disqualified).
+- **Signal: NONE — no whitelist politician qualifying buys ($25K+) in AI/tech sector in last 45 days.**
+
+### MRVL News Check
+- Custom AI Investor Event scheduled Jun 17 (FOMC Day 2) — major catalyst for upward move post-event.
+- Jun 11: CFO Transition announced (minor risk, leadership change).
+- Mar 31: NVIDIA invested $2B in Marvell (NVLink Fusion AI ecosystem) — strong structural tailwind.
+- Jun 1: First 102.4 Tbps switch for AI/cloud data centers announced.
+- FQ1 FY2027 results May 27 — beat expected per sector momentum (no details retrieved).
+- Thesis: Custom AI silicon leadership; NVLink Fusion partnership; S&P 500 inclusion Jun 22. INTACT/STRENGTHENED.
+
+### MU News Check
+- Jun 7: MU down 11% on Samsung winning some NVDA HBM4 slots — recovered fully by Jun 15 (+9.98%).
+- HBM4 2026 capacity: Fully sold out under binding multi-year contracts.
+- DRAM avg selling price +mid-60% YoY; NAND +high-70% YoY; gross margins guided ~68%.
+- Jun 24 AMC: MU FQ3 2026 earnings — key catalyst. Bull case: confirm $1,087+ level as durable floor.
+- Risk: Samsung HBM4 competition could shift Nvidia GPU mix going forward.
+- Thesis: AI memory supercycle, HBM4 sold out, pricing power. INTACT.
+
+### Crypto Research
+- BTC: ~$65,893 (Jun 15); previous low ~$59.1K (early Jun). RSI recovered to ~52 (neutral). Post-Iran deal "Hormuz Hop" bounce. Not oversold (need <30 for entry). HOLD.
+- ETH: Bearish trend; altcoins -22% weekly slide. Avoid.
+- No crypto entry criteria met.
+
+### Trade Ideas
+
+**1. MRVL — Stop Tighten (action at market open Jun 16, NOT a new trade):**
+- Cancel f5f304be (10% trail, stop $281.68, HWM $312.98)
+- Place 7% trail: 60 shares GTC
+- Expected new stop: ~$291.07 (7% below HWM $312.98)
+- Live price used: Broker current_price $305.00 (Jun 16 premarket); AH ask $323.97 (very wide spread, not indicative)
+- Catalyst tomorrow: Custom AI Investor Event Jun 17 — potential gap-up Jun 17/18
+
+**2. NVDA — Post-FOMC Entry Candidate (Jun 18+ only, requires FOMC neutral/dovish outcome):**
+- Live AH ask Jun 15: $219.40 (wide spread); regular close $212.45 (+3.54% on Jun 15)
+- Entry zone: Live Alpaca quote at Jun 18 open; expect ~$210-220 depending on FOMC reaction
+- Stop: 10% trail below entry
+- Target: 20% above entry
+- R:R: 2:1
+- Catalyst: Vera Rubin in full production (ramping into AI factories worldwide); NVIDIA AI data center $1T order backlog by 2027; Goldman Sachs Buy/$250 PT; hyperscaler capex confirmed by all Mag7
+- Constraint: MUST wait for FOMC outcome Jun 17 PM. Hawkish surprise (rate hike signal) → SKIP. Neutral/hold → ENTER Jun 18.
+- Position size: 15% of equity (~$17,600) → ~80-83 shares at $212-215. Round down to 80 shares.
+- Sector check: Adding NVDA would push AI/semis to ~58% (GOOGL + MRVL + MU + NVDA). Below 60% cap. ✓
+- Trades this week (Jun 16): 0/7 used
+
+### Risk Factors
+- FOMC Jun 17: Warsh hawkish surprise (rate hike signal) → tech selloff; GOOGL/MU/MRVL all vulnerable
+- MRVL stop still at 10% — needs tightening at open TODAY before market action
+- MU earnings Jun 24 AMC: binary event; could reverse all Jun 15 gains
+- Samsung HBM4 competition: risk to MU margin estimates
+- Jun 19 Juneteenth: 4-day trading week, reduced liquidity
+- Deployment: 46.5% vs 75-85% target. Post-FOMC: deploy $17-30K (NVDA primary)
+- BTC: AH "Hormuz Hop" bounce may fade; don't chase crypto on geopolitical sentiment
+
+### Decision
+**HOLD — FOMC blackout Day 1. No new entries.**
+- **Market-open Jun 16 action**: Tighten MRVL 10% trail → 7% (cancel f5f304be, place new GTC, 60 shares)
+- GOOGL: HOLD. Comfortable at +0.43%.
+- MU: HOLD. 7% trail at $1,020.65 protecting +19%+ gain. ATR exception = no further tighten.
+- Post-FOMC Jun 18: NVDA primary candidate (~80 shares, ~$17K, if neutral/dovish FOMC + live quote confirms entry zone)
+
