@@ -4035,3 +4035,53 @@ None. No cuts, no stop changes, no new entries (FOMC blackout active Jun 16-17).
 
 **Notes:** Big risk-on day — US-Iran peace deal confirmed drove NASDAQ ~+5% with semis leading. XOM cut at open (-7.55%, -$1,267.62) on thesis break (WTI -5.16% to $80.50; JPM forecasts Brent $60). All 3 remaining positions surged: MU +9.98% (HWM $1,097.47; +20% trigger $1,087.55 breached intraday — ATR high-vol exception applies, stays at 7% trail); MRVL +9.43% (HWM $312.98; +15% trigger $303.73 breached — 10% trail MUST be tightened to 7% pre-market Jun 16); GOOGL +2.74% on general NASDAQ lift. Phase P&L +$17,489.01 (+17.49%). Portfolio 46.6% deployed vs 75-85% target; FOMC blackout (Warsh, Jun 16-17) — no new entries until Jun 18. Post-FOMC candidates: NVDA primary. Reconciliation clean: GOOGL/MRVL/MU all match broker qtys; XOM fully exited.
 
+---
+
+## 2026-06-16 - Market-Open Session
+
+**Portfolio:** $117,464.47 equity | **Cash:** $62,698.72 | **Positions:** 3 | **Deployed:** ~46.6% | **Phase P&L:** +$17,464.47 (+17.46%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+| MRVL | 60 | 60 | ✓ |
+| MU | 18 | 18 | ✓ |
+
+Clean. No overnight stop-outs.
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 0 new trades (FOMC Day 1 blackout — no new entries)
+- Position management: MRVL stop tightened 10% → 7%
+
+### Actions Taken
+
+**MRVL — Stop Tightened 10% → 7% (+15% trigger rule)**
+- +15% trigger ($303.73) was breached on Jun 15 (close $306.07, intraday HWM $316.99)
+- Cancelled 10% trail f5f304be (stop $285.29, HWM $316.99)
+- Placed new 7% trail: 60 shares GTC → order **e9a9c73a**
+- Broker initialized HWM at current price $304.01 (intraday pullback from Jun 15 HWM); stop = $282.75
+- Note: New stop ($282.75) slightly below old ($285.29) due to HWM reset on order replacement; will trail up as MRVL recovers. Entry protected at +7.05% floor ($264.11 → $282.75 = +$1,116 locked if stopped).
+- ATR check: MRVL tighten to 7% at +15% is mandatory; ATR exception (stays at 7% not 5%) only applies at +20% trigger
+
+**MU — No action (confirmed correct)**
+- 7% trail bb67e510 active; HWM $1,110.38; stop $1,032.65
+- +20% trigger ($1,087.55) already breached; ATR high-vol exception = stays at 7%, no further tighten to 5%
+
+**GOOGL — No action**
+- 10% trail a2f8d542 active; HWM $374.07; stop $336.66
+- +0.80% from entry; far below +15% trigger ($423.88)
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | HWM | Order ID |
+|---|--------|--------|-------|---------|------|------|-----|----------|
+| 1 | GOOGL | 46 | $368.59 | $372.29 | +1.00% | $336.66 (10% trail) | $374.07 | a2f8d542 |
+| 2 | MRVL | 60 | $264.11 | $303.79 | +15.01% | $282.75 (7% trail) | $304.03 | e9a9c73a |
+| 3 | MU | 18 | $906.29 | $1,072.80 | +18.37% | $1,032.65 (7% trail) | $1,110.38 | bb67e510 |
+
+- Trades this week: 0/7 (new entries only)
+- FOMC Jun 16-17: no new entries until Jun 18 post-decision (Warsh)
+- Post-FOMC primary candidate: NVDA (~80 shares, 15% equity, if neutral/dovish outcome)
+- MU earnings Jun 24 AMC: next key binary event
+
