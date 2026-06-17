@@ -4085,3 +4085,39 @@ Clean. No overnight stop-outs.
 - Post-FOMC primary candidate: NVDA (~80 shares, 15% equity, if neutral/dovish outcome)
 - MU earnings Jun 24 AMC: next key binary event
 
+
+---
+
+## 2026-06-17 - Reconciliation (Pre-market)
+
+**Trigger:** MU missing from broker positions; cash +$18,585 vs last log.
+
+| Ticker | Log Qty | Broker Qty | Delta | Cause |
+|--------|---------|------------|-------|-------|
+| GOOGL | 46 | 46 | ✓ | Match |
+| MRVL | 60 | 60 | ✓ | Match (⚠️ stop anomaly — see notes) |
+| MU | 18 | **0** | **-18** | 7% trailing stop bb67e510 triggered Jun 16 |
+
+### MU Exit — RECONCILED
+- **Trigger:** FOMC day (Jun 16) semi selloff; MU -6.18% on Jun 16; stop at $1,032.65 triggered intraday
+- **Estimated fill:** ~$1,033/sh (cash delta: $81,284 - $62,699 = $18,585 ÷ 18 ≈ $1,033)
+- **Realized P&L:** 18 × ($1,033 - $906.29) ≈ **+$2,274 (+13.9%)**
+- **Hold period:** Jun 10 – Jun 16 (4 trading days)
+- **MU total from all legs:** see May 6 reconciliation for prior MU; this was a separate Jun 10 re-entry
+- **Note:** Jun 10 entry $906.29; Jun 15 peak unrealized +$3,118 (+19.12%); stopped at +$2,274 — runner caught significant upside but didn't hit +25% partial profit trigger
+
+### MRVL Stop Anomaly
+- Alpaca lastday_price (Jun 16 close) = $278.67 — BELOW stop $283.87
+- Yet broker shows 60 shares open, stop order e9a9c73a status = "new"
+- Premarket Jun 17 = $289.81 (ABOVE stop) → position currently safe
+- Action: Monitor closely at open Jun 17; manual cut if opens below $283.87
+
+### Open Positions (post-reconciliation)
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | HWM | Order ID |
+|---|--------|--------|-------|---------|------|------|-----|----------|
+| 1 | GOOGL | 46 | $368.59 | ~$372.75 | +1.13% | $338.19 (10% trail) | $375.77 | a2f8d542 |
+| 2 | MRVL | 60 | $264.11 | ~$289.81 | +9.73% | $283.87 (7% trail ⚠️) | $305.24 | e9a9c73a |
+
+- Equity: $115,819.18 | Cash: $81,284.08 (70.2%) | Deployed: 29.8%
+- Phase P&L: +$15,819.18 (+15.82%)
+- FOMC today Jun 17 at 2pm ET (Warsh) — no new entries until post-decision Jun 18

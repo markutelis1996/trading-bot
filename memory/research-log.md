@@ -4442,3 +4442,110 @@ MU notes: Jun 15 HWM $1,097.47; +20% trigger $1,087.55 was breached. ATR excepti
 - MU: HOLD. 7% trail at $1,020.65 protecting +19%+ gain. ATR exception = no further tighten.
 - Post-FOMC Jun 18: NVDA primary candidate (~80 shares, ~$17K, if neutral/dovish FOMC + live quote confirms entry zone)
 
+
+---
+
+## 2026-06-17 - Pre-market Research
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Delta | Notes |
+|--------|---------|------------|-------|-------|
+| GOOGL | 46 | 46 | ✓ | Stop $338.19 (10% trail, a2f8d542), HWM $375.77 |
+| MRVL | 60 | 60 | ✓ | Stop $283.87 (7% trail, e9a9c73a), HWM $305.24 ⚠️ |
+| MU | 18 | **0** | **STOPPED OUT** | 7% trail bb67e510 triggered Jun 16; MU closed ~$1,020 vs stop $1,032.65 |
+
+**MU Reconciliation:**
+- Stop fill: est. ~$1,032 (7% trail from HWM $1,110.38); confirmed by cash delta $81,284 - $62,699 = +$18,585 → ÷18 ≈ $1,033/sh
+- Realized P&L: 18 × ($1,033 - $906.29) ≈ **+$2,274 (+13.9%)** from this leg
+- Cause: FOMC day selloff (Nasdaq -1%); MU dropped -6.18% on Jun 16; stop triggered intraday
+
+**MRVL Anomaly:**
+- Alpaca lastday_price = $278.67 (Jun 16 close) which is BELOW stop $283.87 — stop SHOULD have triggered
+- But broker still shows 60 shares open, stop order status = "new"
+- Current premarket = $289.81 (ABOVE stop $283.87) → position safe right now
+- Possible cause: intraday breach with recovery; Alpaca stop execution lag; data feed discrepancy
+- Action: monitor MRVL closely at open today; if it opens below $283.87 → manual cut
+
+### Account
+- Equity: $115,819.18
+- Cash: $81,284.08 (70.2%)
+- Long market value: $34,535.10 (GOOGL $17,147 + MRVL $17,388)
+- Deployed: **29.8%** (target 75-85% — SEVERELY UNDERDEPLOYED)
+- Daytrade count: 0
+- Phase P&L: +$15,819.18 (+15.82%)
+
+### Market Context
+- **WTI:** $75.03 (-1.3%) | **Brent:** $78.07 (-1.0%) — Iran peace deal continues to weigh; WTI fell from $91 on Jun 11 to $75 today (-17.6%)
+- **S&P 500 futures:** 7,542 (+0.31%) | **NASDAQ 100 futures:** +0.85% | DOW: +0.11%
+- **VIX:** 16.21 (↓ from 16.41 Jun 16 close; declining = low fear, bullish)
+- **FOMC TODAY at 2pm ET:** Warsh's first meeting DECISION. Expected: HOLD rates (3.5-3.75%). Language shift from easing bias → neutral/hawkish. Dot plot could show hikes in 2026 if inflation sticks. Market has priced in hold; hawkish surprise = tech selloff.
+- **Earnings BMO today:** JBL (Jabil), KMX (CarMax) — neither relevant to our thesis
+- **Jun 19 = Juneteenth** — market CLOSED; effective last trading day this week = TODAY
+- **Jun 22:** MRVL S&P 500 inclusion (index buying catalyst)
+- **Jun 24:** MU earnings AMC + NVDA Annual Meeting
+
+### Jun 16 Session Recap
+- DOW: record close 51,999.67 (+0.6%)
+- Nasdaq: -1% (tech profit-taking ahead of FOMC; semis hardest hit)
+- MRVL: -5.13% (CFO Willem Meintjes resigned effective Jun 15 + stretched valuation ~70x fwd earnings + sector profit-taking)
+- MU: -6.18% (tech selloff + FOMC positioning)
+- NVDA: -2.37%
+- GOOGL: +1.09% (defensive amid sell-off)
+
+### Position Status (premarket Jun 17)
+| Ticker | Shares | Entry | Premarket | P&L% | Stop | Action |
+|--------|--------|-------|-----------|------|------|--------|
+| GOOGL | 46 | $368.59 | ~$372.75 | +1.13% | $338.19 (10% trail, a2f8d542) | HOLD |
+| MRVL | 60 | $264.11 | ~$289.81 | +9.73% | $283.87 (7% trail, e9a9c73a) ⚠️ | HOLD + MONITOR |
+
+- GOOGL: Stop at $338.19 = 9.3% below premarket; safe cushion. Thesis intact (Google Cloud +34%, Gemini scaling, DoD AI deal, Q2 earnings Jul 23).
+- MRVL: Stop $283.87 = 2.1% below premarket $289.81 = thin cushion. S&P 500 inclusion Jun 22 still pending catalyst. CFO departure is execution risk. If MRVL opens below $283.87 → manual cut.
+
+### Capitol Trades (Whitelist Check)
+- **Pelosi:** Last qualifying STOCK buys Jan 2026 (exercised GOOGL/AMZN/NVDA options into shares $500K-$1M each). All activity within last 45 days = OPTIONS only (disqualified per rules). No qualifying signal.
+- **Other whitelist politicians:** No qualifying $25K+ stock buys within 45 days identified in this cycle.
+- Capitol Trades signal: **NONE** this session.
+
+### Crypto Research
+- **BTC:** $65,604 (-1.06% today), +7.01% in 7 days, -14.65% vs 1 month ago ($76.9k), -38.76% vs 1 year ago
+- **Trend:** BTC declining from $76k+ peak in late May; range $61-67k in June. 7-day is positive but monthly trend negative.
+- **RSI:** Not explicitly confirmed today; 7-day +7% from ~$61k suggests RSI likely 45-55 (neutral/slightly bullish), NOT oversold (<30)
+- **Entry criteria:** RSI <30 OR price ~$55-58k → NOT MET
+- **Crypto decision: NO TRADE** — not oversold; monthly trend negative; FOMC uncertainty
+
+### Trade Ideas (POST-FOMC only — no entries until Jun 18)
+
+**CRITICAL: FOMC blackout active until 2pm today; no new entries. All ideas for Jun 18 assessment.**
+
+**1. NVDA ★★ (Primary post-FOMC candidate)**
+- Catalyst: AI inference demand acceleration; AVGO Q3 beat (AI rev +63% YoY) validates AI chip demand; KKR+NVDA Helix Digital Infrastructure partnership; China H200 orders resuming; Blackwell Ultra ramping; Rubin on track H2 2026; Annual Meeting Jun 24 = mini-catalyst
+- **Live NVDA AH quote (8pm Jun 16):** ask $221.54 / bid $200.42 (wide AH spread); Jun 16 close est. ~$207-209 per investing.com (-2.37%)
+- **MUST verify live price at Jun 18 open via `alpaca.sh quote NVDA`**
+- Plan: If opens within 5% of Jun 16 close (≤$219 est.) → entry ~$207-209; stop 10% trail; target +20% (+$41-42); R:R 2:1
+- Position size: 15% equity (~$17,400); 83 shares at $209 = $17,347
+- Note: 2nd NVDA attempt (1st stopped at -3.2% in May)
+
+**2. MU re-entry (Jun 18 or later)**
+- Stopped out +13.9%; thesis still intact (HBM4, AI memory supercycle, Micron Jun 24 earnings = catalyst)
+- MU Jun 16 close ~$1,020 (Alpaca: was at this price when stop triggered at $1,032)
+- If MU stabilizes / recovers post-FOMC → re-entry opportunity
+- **MUST verify live price Jun 18; if MU < $1,100 and within 5% of Jun 16 close → evaluate**
+- Risk: earnings Jun 24 is binary (hold through or exit before?)
+
+**3. GOOGL add (secondary)**
+- Existing position at +1.13%; thesis strong; Q2 earnings Jul 23
+- Not adding until NVDA/MU assessed first and deployment justified
+
+### Risk Factors
+- FOMC 2pm today: hawkish surprise (explicit hike signal) = broad tech selloff → GOOGL and MRVL both at risk
+- MRVL stop anomaly: if MRVL opens below $283.87, cut immediately; CFO departure = near-term execution risk
+- Jun 19 Juneteenth = no trading → only 1 effective day left this week after today
+- Portfolio 29.8% deployed (severely below 75-85% target) → underdeploy risk to upside capture
+- Oil continuing to decline (WTI $75 from $91 peak) = energy sector headwind (no energy exposure → positive)
+- BTC declining monthly trend = risk-off signal for growth assets
+
+### Decision
+**HOLD all positions (GOOGL, MRVL). NO new entries today (FOMC blackout until 2pm ET).**
+Post-FOMC assessment tonight/tomorrow Jun 18:
+- If FOMC neutral/hold (no hike signal) → DEPLOY: NVDA primary (15% equity), MU secondary (10%), potentially 1 more
+- If FOMC hawkish surprise (explicit hike guidance) → maintain HOLD, reassess
