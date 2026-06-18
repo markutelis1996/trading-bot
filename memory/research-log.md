@@ -4549,3 +4549,104 @@ MU notes: Jun 15 HWM $1,097.47; +20% trigger $1,087.55 was breached. ATR excepti
 Post-FOMC assessment tonight/tomorrow Jun 18:
 - If FOMC neutral/hold (no hike signal) → DEPLOY: NVDA primary (15% equity), MU secondary (10%), potentially 1 more
 - If FOMC hawkish surprise (explicit hike guidance) → maintain HOLD, reassess
+
+---
+
+## 2026-06-18 - Pre-market Research
+
+### Account
+- Equity: $115,095.31 | Cash: $98,311.29 (85.4%) | Buying power: $440,240.42
+- Daytrade count: 0 | Open positions: 1 (GOOGL 46 sh)
+- Deployed: ~14.6% (severely below 75-85% target)
+- Phase P&L: +$15,095.31 (+15.10%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+| MRVL | 0 | 0 | ✓ (stopped Jun 17 per prior log) |
+| MU | 0 | 0 | ✓ (stopped Jun 16 per prior log) |
+
+Clean. Live order confirmed: GOOGL trailing stop a2f8d542 (10% trail, HWM $375.77, stop $338.193, 46 sh).
+
+### Market Context
+- WTI: ~$78/bbl (-2.96% premarket); Brent: $79.60 (Jun 17 close) — Iran peace deal signed Jun 14-15; Hormuz reopening → IEA forecasts supply glut 2027; oil down ~27% from $107 peak
+- S&P 500 futures: +0.69% (~7,475); Nasdaq 100 futures: +1.12% (~30,020) — post-FOMC bounce
+- Dow futures: +0.48%
+- VIX: 18.44 (Jun 17 close; spiked +12.37% from 16.41 on FOMC day; still elevated but not panic)
+- FOMC Jun 17 (Warsh, first meeting): HOLD 3.5-3.75% (12-0). HAWKISH — dot plot 9/18 members project rate hike in 2026 (6 project two hikes); inflation projections raised sharply: headline 3.6% (was 2.7%), core 3.3% (was 2.7%); removed easing bias entirely. Market Jun 17: S&P -1.21%, Nasdaq -1.34%.
+- Today premarket recovery driven by: market digesting FOMC as "no hike yet," tech bouncing (AMAT +4.35%, AVGO +4.30%, MRVL +3.90% premarket)
+- Earnings today BMO: ACN (Q3, est $3.70 EPS / $18.78B rev), KR (Q1, est $1.46-1.59 EPS) — no tech names
+- Earnings next week: MU (Q3, Jun 24 AMC) ← KEY EVENT; FDX (Jun 23 AMC)
+- Economic calendar today: 8:30 AM jobless claims (Jun 13 wk); Philly Fed Survey; 10:00 AM CB Leading Indicators (May)
+- Jun 19 = Juneteenth (market CLOSED); next active day Mon Jun 22
+- Jun 25: PCE (next major inflation print)
+- Jul 2: Non-farm payrolls (Jul)
+- Sector momentum (Schwab 6mo): IT +18.7% | Materials +13.6% | Industrials +13.1% | Comm Services +9% | Energy reversing (Iran deal; oil -27% from peak)
+- US-Iran deal: Hormuz reopening confirmed; oil supply returning; Energy sector headwind
+
+### GOOGL Position Check
+| Ticker | Shares | Entry | After-hours (Jun 17 8pm) | P&L% est | Stop | HWM | Status |
+|--------|--------|-------|--------------------------|-----------|------|-----|--------|
+| GOOGL | 46 | $368.59 | ask $380.46 / bid $350.50 | ~-1.2% from HWM | $338.19 (10% trail, a2f8d542) | $375.77 | HOLD |
+
+- GOOGL thesis: Google Cloud Q1 $20B record revenue (+28%), 33% margins, $462B backlog (doubled QoQ). HSBC multi-year AI pact announced Jun 17. $1.5B Alabama data center. Gemini scaling. Q2 earnings Jul 23.
+- Wells Fargo Buy; Needham Buy/$450; avg analyst PT $432.83 vs ~$370 current = +17% upside
+- CMA (UK) ordering Google to improve search transparency — minor regulatory overhang; not thesis-breaking
+- Stop $338.19 well below current price; no action.
+
+### Capitol Trades (Whitelist Check)
+- Pelosi: Last disclosures Jan 2026 (GOOGL/AMZN/AAPL/NVDA buys — all options/LEAPs; STOCK buys were via exercised calls). No fresh $25k+ stock disclosures in last 45 days.
+- McCaul / Crenshaw / Tuberville / Khanna / Gottheimer / Green / Mast: No qualifying $25k+ stock buys in last 45-day window found.
+- Ro Khanna +112% excess return vs S&P 500 (Jan 2024–Apr 2026) confirmed as top whitelist performer.
+- **Signal: NO active whitelist politician trade to follow today.**
+
+### Crypto Section
+- BTC: ~$64,450 Jun 18 premarket (down -2.53% 24h from ~$66k)
+- 7-day trend: DOWN — $67k Jun 11 → $64.4k Jun 18 (-4.1%); NOT -10% (skip rule not triggered)
+- RSI(14): ~35 (bearish, below 40 threshold; approaching oversold but NOT <30 = entry threshold)
+- All MAs: Sell (MA5/10/20/50/100/200 all below current price or bearish); MACD -438
+- Catalyst: FOMC hawkish = risk-off headwind for BTC; BTC leverage reset (OI $90B→$50B); funding rates neutral ~$64k
+- Standard Chartered / Charles Schwab identify $59k-$60k as potential cycle bottom
+- **Decision: HOLD/NO TRADE. RSI 35 not at <30 entry threshold; FOMC hawkish = macro headwind; wait for RSI <30 or $60k retest for entry signal.**
+
+### STEP 3d — Price Verification (Potential Trade Ideas)
+Live quotes pulled (after-hours Jun 17 8pm — pre-open reference only):
+| Ticker | Ask | Bid | Reference Close | Notes |
+|--------|-----|-----|-----------------|-------|
+| NVDA | $205.15 | $193.86 | ~$204.65 | Primary post-FOMC candidate |
+| MRVL | $307.86 | $278.21 | ~$289.54 | S&P 500 inclusion Jun 22 catalyst |
+| AVGO | $416.43 | $377.01 | ~$392.90 | AI ASIC demand |
+
+**NVDA analysis:** Entry ~$205; stop ~$184.50 (10%); target ~$246 (20%); R:R 2:1. Catalyst: AI GPU infrastructure backbone; $400B+ combined hyperscaler capex; Blackwell demand; no binary event near-term. Risk: FOMC hawkish dot plot = multiple compression for high-P/E growth tech; -1.33% yesterday. Live price $204.65 confirmed. SECONDARY CANDIDATE — watchlist for Mon Jun 22.
+
+**MRVL analysis:** Entry ~$308; stop ~$277 (10%); target ~$370 (20%); R:R 2:1. Catalyst: S&P 500 inclusion Jun 22 (index fund buy pressure builds pre-date). Risk: CFO resignation creates execution uncertainty; 70x fwd P/E stretched; FOMC hawkish headwind. Live price ~$289.54 confirmed. WATCHLIST ONLY today; may enter Mon Jun 22 morning if CFO overhang clears.
+
+**AVGO analysis:** Entry ~$393-416; stop ~$354-375 (10%); target ~$471-499 (20%). Catalyst: AI ASIC demand from Apple/Google/Meta; custom silicon accelerator wave. Risk: FOMC hawkish; not urgent without specific catalyst today. WATCHLIST.
+
+### Risk Factors
+- FOMC hawkish: dot plot shows 9/18 members project 2026 rate hike; rate hike = multiple compression for high-P/E tech
+- Jun 19 Juneteenth (closed): effectively only 1 trading day left this week; MRVL S&P inclusion Jun 22 is a timed catalyst
+- MU earnings Jun 24 AMC: cannot enter MU after Jun 21 (3-day blackout); potential re-entry on post-earnings gap
+- BTC declining toward $59-60k support; risk-off signal for growth assets
+- Oil continuing to fall (IEA supply glut forecast): Energy sector headwind (no current energy exposure = neutral)
+- 30-yr Treasury at 5.11%: P/E compression headwind persists for high-multiple tech
+
+### Decision
+**HOLD. No new entries today.**
+
+Rationale:
+1. FOMC hawkish surprise requires more than 1 day to digest (dot plot hike projections = structural headwind not 1-session event)
+2. VIX 18.44 still elevated; market not fully stabilized
+3. Jun 19 market closed = entering today means 3-day weekend hold with elevated uncertainty
+4. Better to deploy Mon Jun 22 after market proves stability (S&P holds 7,450+, VIX retreats below 17)
+
+**Monday Jun 22 priority queue:**
+1. NVDA — enter if open ≤$215 (≤5% above Jun 17 close $204.65); 10% trail; ~75 shares (15% equity ~$17.2k)
+2. MRVL — enter if CFO situation clarifies + S&P inclusion momentum + open ≤$320; 10% trail; ~55 shares (15%)
+3. AVGO — tertiary; enter if above 2 fill and deployment still below 75%
+
+**Watches:**
+- MU Jun 24 AMC: last entry window = Jun 21 (Mon); enter Jun 22 only if room; 3-day blackout Jun 22 = no actually Jun 21 is 3 days before Jun 24 so enter Mon or skip and wait post-earnings
+- GOOGL Q2 earnings Jul 23 → hold through
+- PCE Jun 25 → major inflation print; tighten stops week of Jun 22
