@@ -4121,3 +4121,53 @@ Clean. No overnight stop-outs.
 - Equity: $115,819.18 | Cash: $81,284.08 (70.2%) | Deployed: 29.8%
 - Phase P&L: +$15,819.18 (+15.82%)
 - FOMC today Jun 17 at 2pm ET (Warsh) — no new entries until post-decision Jun 18
+
+---
+
+## 2026-06-18 - Reconciliation (Midday Scan)
+
+**Trigger:** MRVL missing from broker positions after Jun 17 FOMC-day selloff.
+
+| Ticker | Log Qty | Broker Qty | Delta | Cause |
+|--------|---------|------------|-------|-------|
+| GOOGL | 46 | 46 | ✓ | Match — stop a2f8d542 active, HWM $375.77, stop $338.19 |
+| MRVL | 60 | **0** | **-60** | 7% trail e9a9c73a triggered Jun 17 intraday |
+
+### MRVL Exit — RECONCILED
+- **Stop order:** e9a9c73a (7% trail, HWM $305.24, stop $283.87)
+- **Trigger:** FOMC Jun 17 selloff; MRVL day low $278.13 (breached stop $283.87); also CFO resignation + stretched valuation ~70x fwd P/E
+- **Estimated fill:** ~$283.87 (trail stop fill at or near stop level; cash delta: $98,311 - $81,284 = +$17,027 ÷ 60 ≈ $283.78/sh)
+- **Realized P&L:** 60 × ($283.87 - $264.11) = **+$1,185.60 (+7.48%)**
+- **Hold period:** Jun 10 – Jun 17 (5 trading days)
+- **Note:** MRVL recovered to close ~$308.88 on Jun 17 after stop triggered at intraday low. Unfortunate timing but rules followed. S&P 500 inclusion Jun 22 remains a catalyst; potential re-entry if thesis re-validates after CFO transition clears.
+
+### FOMC Outcome (Jun 17, 2pm ET)
+- **Decision:** HOLD — rates unchanged at 3.5-3.75% (12-0 vote)
+- **Tone:** HAWKISH. Removed easing bias entirely. Dot plot: 9/18 members project rate hike in 2026 (6 project two hikes).
+- **Inflation projections raised:** Headline 3.6% (was 2.7%), Core 3.3% (was 2.7%)
+- **Market reaction Jun 17:** NASDAQ -1.34%, S&P 500 -1.21%; tech/semis hardest hit
+- **Impact on NVDA entry plan:** Pre-market rule = "hawkish surprise → SKIP". Dot plot hike projections = hawkish surprise. **NVDA entry DEFERRED until market stabilizes / Fed language shifts back.**
+
+### Current State (Jun 18 Midday)
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | HWM | Order ID |
+|---|--------|--------|-------|---------|------|------|-----|----------|
+| 1 | GOOGL | 46 | $368.59 | $364.17 | -1.20% | $338.19 (10% trail) | $375.77 | a2f8d542 |
+
+- **Equity:** ~$115,097 | **Cash:** $98,311.29 (85.4%) | **Deployed:** 14.6%
+- **Phase P&L:** ~+$15,097 (+15.10%)
+- **GOOGL thesis:** INTACT — Google Cloud +34%, Gemini scaling, DoD AI deal, Q2 earnings Jul 23. Down 2.43% today in broad FOMC reaction. Stop at $338.19 well below; no action.
+- **Cut at -7%:** No position triggered (-1.20% < threshold)
+- **Stop tighten:** No position at +15%/+20%
+- **New entries:** HOLD. FOMC hawkish surprise → no new tech/semi entries until market digests. Severely underdeployed (14.6%) but capital preservation priority in hawkish regime.
+- **Watch:** NVDA re-evaluate next week if tech bounces; MU (earnings Jun 24 AMC); MRVL post-S&P500 inclusion Jun 22
+
+---
+
+### Jun 18 - EOD Snapshot (Day 42, Thursday)
+**Portfolio:** $115,070.47 | **Cash:** $98,311.29 (85.4%) | **Day P&L:** -$103.29 (-0.09%) | **Phase P&L:** +$15,070.47 (+15.07%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| GOOGL | 46 | $368.59 | $364.39 | +$0.60 (+0.17%) | -$193.23 (-1.14%) | $338.19 (10% trail, HWM $375.77, a2f8d542) |
+
+**Notes:** Hawkish FOMC aftermath continued — NASDAQ and tech under moderate pressure. MRVL (7% trail e9a9c73a) stopped out Jun 17 intraday at ~$283.87 (+7.48%, +$1,186 realized); MU (7% trail bb67e510) stopped out Jun 16 at ~$1,033 (+13.9%, +$2,274 realized). Both exits logged in Jun 17-18 reconciliation entries above. GOOGL is the sole remaining position — +0.17% today ($363.79→$364.39), -1.14% unrealized from entry; 10% trailing stop at $338.19 (HWM $375.77) intact. No trades today; 0 new entries this week (Jun 16-18); exits are not counted toward weekly cap. Portfolio 14.6% deployed vs 75-85% target — intentionally cash-heavy post-hawkish FOMC (Warsh held 3.5-3.75%, removed easing bias; 9/18 dot-plot members project 2026 hike). Capital preservation is the priority. Jun 19 = Juneteenth (market CLOSED). Next catalysts: MRVL S&P 500 inclusion Jun 22, MU earnings Jun 24 AMC. Post-FOMC re-deployment plan: NVDA primary candidate if tech stabilizes; MRVL potential re-entry post-CFO transition clarity (>Jun 22). Reconciliation clean: GOOGL 46 shares matches broker exactly ✓.
