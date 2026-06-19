@@ -4650,3 +4650,104 @@ Rationale:
 - MU Jun 24 AMC: last entry window = Jun 21 (Mon); enter Jun 22 only if room; 3-day blackout Jun 22 = no actually Jun 21 is 3 days before Jun 24 so enter Mon or skip and wait post-earnings
 - GOOGL Q2 earnings Jul 23 → hold through
 - PCE Jun 25 → major inflation print; tighten stops week of Jun 22
+
+---
+
+## 2026-06-19 - Pre-market Research (Juneteenth — Market CLOSED)
+
+**Research scope: Week of Jun 23-27 setup**
+
+### Account (from broker — Jun 18 close)
+- Equity: $115,240.65
+- Cash: $98,311.27 (85.3%)
+- Buying power: $440,647.34
+- Daytrade count: 0
+- Open positions: 1 (GOOGL 46 shares)
+- Phase P&L: ~+$15,240 (+15.24%)
+
+### Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+
+Clean. MRVL stopped out Jun 17 (+7.48%, +$1,186) and MU stopped out Jun 16 (+13.9%, +$2,274) — both already reconciled in Jun 17-18 entries.
+
+### Market Context (Jun 18-19 data)
+- WTI: ~$77.02/bbl (-24% from 1 month ago; US-Iran peace deal signed Jun 15-16 → supply restored)
+- Brent: ~$79.78/bbl (-0.09% Jun 19)
+- S&P 500 futures: ~$7,508-7,539 (Jun 19 settlement); Jun 18 S&P +1.13% post-FOMC relief bounce
+- VIX: 16.40 (Jun 18 close; -11.06% from Jun 17's 18.44 spike on FOMC day)
+- **FOMC Jun 17 (Warsh)**: Held 3.5-3.75%; HAWKISH — removed easing bias; 9/18 dot-plot members project 2026 hike; inflation projections raised (headline 3.6%, core 3.3%)
+- Jun 18 recovery: S&P +1.13%, NASDAQ leader; semis surged (MU +8.70%, MRVL +7.27%, INTC +10.64%, NVDA +2.95%)
+- **Today Jun 19 = JUNETEENTH — market CLOSED**
+
+### Earnings calendar (week of Jun 23)
+- Mon Jun 22: No major earnings BMO
+- Tue Jun 23 BMO: FedEx (FDX) est $5.92 EPS, $24B rev; Carnival (CCL) est $0.33
+- **Wed Jun 24 AMC: Micron (MU) — EPS est $19.92; strong beat expected (Wedbush $1,300 PT; HBM supply sold out)**
+- Thu Jun 25 BMO: Darden (DRI), McCormick (MKC), TD Synnex (SNX)
+
+### Economic calendar (week of Jun 23)
+- Mon Jun 22: Nothing
+- Tue Jun 23: S&P Flash PMI (manuf 55.1 prev, svcs 50.7 prev)
+- Wed Jun 24: New home sales, Leading indicators
+- **Thu Jun 25 8:30am: Core PCE May** (prev 3.3%, est 3.3%; Cleveland Fed nowcast 3.30% — expected in-line; no hot surprise anticipated)
+- Thu Jun 25: Initial jobless claims, personal income/spending
+
+### Sector Momentum (as of Jun 18)
+- Information Technology: surging post-Iran peace deal + FOMC digestion; MU +232% YTD; MRVL +7.27% Jun 18; INTC +10.64%
+- Communication Services (GOOGL YTD +17.73% vs S&P +9.57%): outperforming
+- Semis broadly recovering: AI infrastructure capex story intact (NVDA Q1 FY27 Data Center $75.2B +92% YoY; Vera Rubin H2 2026)
+- Energy: fading on Iran peace deal (oil -24% from 1-month ago)
+
+### Capitol Trades (Whitelist Check)
+- Pelosi: Last disclosed buys Jan 16-26, 2026 — GOOGL, AMZN, NVDA (all via option exercises, $250K-$1M). Outside 45-day window (>5 months ago). **Not qualifying.**
+- Gottheimer, Khanna, McCaul, Crenshaw, Tuberville, Green, Mast: No new buys identified within 45-day window from available search data.
+- **No whitelist politician signals this cycle.**
+
+### Crypto (LEARNING MODE)
+- BTC: $62,584-62,900 (Jun 19); 7-day: Jun 12 $63,552 → Jun 19 $62,584 = -1.5% (not -10% skip rule); 1-month: -18% ($74-77k → $62.6k); 1-year: -40%
+- ETH: ~$1,650 area (per intellectia.ai); declining alongside BTC
+- Macro headwind: FOMC hawkish surprise → higher rates → BTC bearish macro
+- BTC RSI: Not at oversold (<30) trigger; trend bearish (down from $74k ATH recent high)
+- **Crypto decision: NO TRADE** — RSI not oversold; hawkish macro; 7-day declining trend
+
+### STEP 3d — Live Price Verification (potential trade ideas)
+- NVDA: Alpaca AH quote Jun 18 8:28pm — bid $210 / ask $231.80 (wide AH spread); last close ~$210.69 (Yahoo). **Use Monday open live quote.**
+- GOOGL: Alpaca AH Jun 18 8:00pm — bid $348.21 (stale AH, thin); last close $368.03 (Macrotrends). Current position: 46 shares @ $368.59 = -0.15% unrealized; stop $338.19 intact.
+- MU: Last close ~$1,133.99 (Jun 18); +8.70% on Jun 18; NOT entering before Jun 24 AMC earnings (binary)
+- MRVL: Last close ~$310.58 (Jun 18 +7.27%); S&P 500 inclusion Jun 22 → forced index buying catalyst; stopped out at $283.87 Jun 17 (CFO resignation overhang). Potential re-entry if ≤5% gap Mon Jun 23.
+
+### Trade Ideas (for week of Jun 23)
+1. **NVDA — WATCHLIST → Entry Mon Jun 23 if tech holds**
+   - Catalyst: AI inference demand; Q1 FY27 Data Center $75.2B +92% YoY; Vera Rubin H2 2026 on track; next earnings Aug 26 (no near-term binary)
+   - Constraint: Post-FOMC hawkish environment; verify tech stabilizes Mon open; need live ask at ≤5% of Jun 18 close
+   - Sizing: ~82 shares at ~$210 (15% equity × $115K); stop 10% below entry ~$189; target +20% ~$252; R:R 2:1
+   - **⚠️ Get live Alpaca quote at Mon open before any entry — NEVER use these prices**
+
+2. **MU — Post-earnings entry Thu Jun 25 only if beat + raise**
+   - Catalyst: Q3 FY26 rev est $33.5B; HBM supply sold out 2026; AI memory supercycle; Wedbush $1,300 PT
+   - Rule: NO ENTRY before Jun 24 AMC binary earnings event
+   - Entry window: Jun 25 BMO if gap ≤5%; entry ~last close; stop 10% below; target +20%
+   - 3-position rule: MU would be our 3rd position after GOOGL + NVDA
+   - **⚠️ Live quote required Jun 25 morning**
+
+3. **MRVL — Opportunistic only Mon Jun 22 open**
+   - Catalyst: S&P 500 index inclusion Jun 22 (forced passive buying ~$6B estimated); prior MRVL run +15% from our Jun 10 entry
+   - Risk: CFO resignation overhang; ~$310 close Jun 18 = +17% above our Jun 17 stop-out ($283.87); risk of gap >5% on inclusion day
+   - Constraint: only enter if ≤5% gap from Jun 18 close ($310.58 × 1.05 = $326.11 limit); CFO clarity needed
+   - **⚠️ Live quote required Mon Jun 22 open — high chance gap >5% → SKIP**
+
+### Risk Factors
+- FOMC hawkish surprise overhang: 9/18 members project 2026 rate hike; elevated inflation (core PCE 3.3%)
+- Core PCE Thu Jun 25: if hot surprise → tech selloff; Cleveland Fed nowcast 3.30% (in-line) → manageable
+- MU earnings Wed Jun 24 AMC: strong beat expected but binary event
+- AI valuation stretch: Shiller CAPE 41.6 (2nd highest in 140+ years); S&P YTD +9.57% but stretched
+- Hawkish regime + stretched tech valuations = stop-outs more likely on any macro negative
+- PCE + MU earnings create TWO binary events this week → sizing conservatively
+
+### Decision
+**HOLD GOOGL (46 shares). Research phase complete.**
+- Deploy dry powder GRADUALLY — target 50-60% deployed by end of week (not full 75-85% all at once given hawkish macro + binary events)
+- Priority sequence: NVDA Mon Jun 23 (if tech holds) → assess MU Thu Jun 25 (post-earnings) → reassess MRVL after CFO transition clarity
+- No action today (market closed — Juneteenth)
