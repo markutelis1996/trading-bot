@@ -324,6 +324,78 @@ Deployment: ~58.8% ($67,314 / $114,495) — below 75-85% target; intentional pre
 
 ---
 
+## Week ending 2026-06-20
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $117,464.47 (Mon Jun 16 AM; includes Jun 15 surge post-Jun 13 review) |
+| Ending portfolio | $115,240.65 |
+| Week return | -$2,223.82 (-1.89%) |
+| S&P 500 week | +0.93% (7,431.46 → 7,500.58; Jun 19 Juneteenth closed; Jun 20 flat) |
+| Bot vs S&P | -2.82% underperformance |
+| Trades | 0 new entries (W:2 / L:0 closed / open:1) |
+| Win rate | 100% (MU +13.9%, MRVL +7.48% — both stopped to profit) |
+| Best trade | MU +13.9% (+$2,274 realized, stopped Jun 16) |
+| Worst trade | MRVL +7.48% (+$1,186 realized, stopped Jun 17) |
+| Profit factor | N/A (no realized losses this week) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| MU (18 sh) | $906.29 (Jun 10) | ~$1,033 (Jun 16) | +$2,274 | +13.9% | 7% trailing stop bb67e510 triggered; FOMC-day semi selloff Jun 16; HWM $1,110.38; hold 4 trading days |
+| MRVL (60 sh) | $264.11 (Jun 10) | ~$283.87 (Jun 17) | +$1,186 | +7.48% | 7% trail e9a9c73a triggered; FOMC selloff + CFO resignation + 70x fwd P/E; HWM $305.24; hold 5 trading days |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| GOOGL | 46 | $368.59 | $368.03 | -$25.79 (-0.15%) | $338.19 (10% trail, a2f8d542) | $375.77 |
+
+Deployment: 14.7% ($16,929 / $115,241) — severely below 75-85% target post-FOMC stop-outs
+
+### What Worked
+- Both MU and MRVL closed as realized wins: MU +13.9%, MRVL +7.48% — trailing stop discipline protected gains even in whipsaw
+- FOMC blackout rule executed correctly: no new entries Jun 16-17; hawkish Warsh decision (dot plot 9/18 project hike; inflation raised to 3.6% core) confirmed the blackout was right
+- NVDA entry correctly deferred: pre-market rule said "hawkish surprise = SKIP"; FOMC was hawkish → NVDA not entered; capital preserved in risk-off regime
+- GOOGL held through FOMC volatility: stop $338.19 never threatened despite -1.21% S&P June 17; thesis (Cloud +34%, Gemini, Q2 Jul 23) intact; no rule violations on hold
+- XOM cut Jun 15 before this week's review period: executed at -7.55% thesis break (WTI broke $80 on Iran peace deal) — manual cut rule applied correctly
+
+### What Didn't Work
+- Net portfolio -1.89% despite 2 profitable closed trades: MU and MRVL were worth more at week start ($37,524) than when stopped ($35,626); trailing stop whipsaw cost ~$1,900 in portfolio value vs position values at Jun 16 open
+- S&P 500 +0.93% vs bot -1.89% = -2.82% underperformance: market recovered after FOMC selloff but bot's positions were already stopped out at the low
+- 0 new entries all week: combination of FOMC blackout (days 1-2) + post-FOMC stabilization caution (days 3-5) = 5 consecutive trading days with no deployment
+- Week-end deployment 14.7% (severely below 75-85%): XOM/MRVL/MU all gone; only GOOGL remaining; $98k+ in cash doing nothing
+- MRVL stopped just before S&P 500 inclusion Jun 22 (potentially large catalyst): 7% trail e9a9c73a triggered at intraday low $278 before MRVL recovered to close $308; rules-correct but unfortunate timing
+
+### Key Lessons
+- **FOMC volatility whipsaws trailing stops**: The Jun 17 hawkish FOMC caused intraday moves that swept through 7% trails before reversing. In hawkish surprise scenarios, wider temporary stops (9-10%) may preserve positions that recover same-day. Worth tracking: MU closed $1,020 Jun 16 (stop $1,032), MRVL closed $308.88 Jun 17 (stop $283.87) — both stopped at intraday lows, both recovered.
+- **Post-FOMC caution vs deployment urgency**: Correct to hold cash through FOMC uncertainty (Warsh = unknown Fed Chair with hawkish tilt). But the hawkish decision was on Jun 17 and by Jun 18 market was already bouncing. Mon Jun 22 is now the earliest redeployment window.
+- **4-day trading week (Juneteenth) reduced options**: Only 4 trading days this week (Mon-Thu); Jun 19 Juneteenth; Jun 20 low volume. Post-FOMC redeployment into shortened week = correct to wait for Mon Jun 22 full week.
+- **MRVL CFO resignation as compounding risk**: Stop was already borderline at $283.87 (HWM $305.24 = 7% = $283.87); CFO resignation added uncertainty. Correct to exit on stop, not override rule due to catalyst proximity (S&P inclusion).
+- **Cash is a position too**: $98K in cash with FOMC uncertainty is intentional risk management. Redeployment quality > redeployment speed. Next week must execute 2-3 entries to restore 75-85%.
+
+### Adjustments for Next Week
+- **Primary: NVDA entry Mon Jun 22 if tech stabilizes**: Target ≤$215 open (≤5% above Jun 18 close ~$204); 10% trail; ~75 shares (~15% equity ~$17.2k). Catalyst: Vera Rubin ramp, $400B+ hyperscaler capex, NVIDIA Annual Meeting Jun 24.
+- **MU re-entry post-earnings Jun 24 AMC**: 3-day blackout Jun 21+ means NO pre-earnings entry; wait for post-earnings gap play Jun 25 if beat confirmed. Stop at 10% trail.
+- **MRVL re-entry Jun 22 if CFO overhang clears**: S&P 500 inclusion Jun 22 (index fund buy pressure); entry ≤$315; 10% trail; ~50 shares. Requires confirmation CFO replacement announced.
+- **AVGO tertiary**: If NVDA+MRVL fill and deployment still below 75%, consider AVGO ~$415-420; AI ASIC demand intact.
+- **Deployment target: 75-85% by Friday Jun 27**: Need 3-4 new entries; this is the primary mission next week.
+- **PCE Jun 25**: Tighten any new stops to 9% (from 10%) if PCE comes in hot (above 3.4% core); may trigger FOMC hike pivot.
+- **GOOGL**: Hold; stop $338.19 intact; Q2 earnings Jul 23 is next catalyst. +15% trigger = $423.88 (far away at $368.03). No action.
+
+### Overall Grade: C+
+- Both closed trades profitable (MU +13.9%, MRVL +7.48%) ✓
+- FOMC blackout followed correctly ✓
+- NVDA entry correctly deferred on hawkish surprise ✓
+- No rule violations ✓
+- Portfolio -1.89% vs S&P +0.93% = -2.82% underperformance ✗
+- 0 new entries all week ✗
+- Week-end deployment 14.7% (catastrophically underdeployed) ✗
+- MRVL stopped before S&P 500 inclusion catalyst ✗
+- Phase P&L: +$15,240.65 (+15.24%) — still well ahead of S&P benchmark ✓
+
+---
+
 ## Week ending 2026-05-30
 
 > Note: Week ending 2026-05-22 review was NOT completed (operational gap).
