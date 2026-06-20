@@ -4213,4 +4213,15 @@ None. No cuts, no stop changes, no new entries.
 |--------|--------|-------|-------|---------|----------------|------|
 | GOOGL | 46 | $368.59 | $367.48 | +$3.69 (+1.01%) | -$51.09 (-0.30%) | $338.19 (10% trail, HWM $375.77, a2f8d542) |
 
+---
+
+### Jun 20 - EOD Snapshot (Day 43, Friday)
+**Portfolio:** $115,240.65 | **Cash:** $98,311.27 (85.3%) | **Day P&L:** $0.00 (0.00%) | **Phase P&L:** +$15,240.65 (+15.24%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| GOOGL | 46 | $368.59 | $368.03 | $0.00 (0.00%) | -$25.79 (-0.15%) | $338.19 (10% trail, HWM $375.77, a2f8d542) |
+
+**Notes:** Jun 19 Juneteenth (market closed); Jun 20 flat day — GOOGL unchanged at $368.03, unrealized -$25.79 (-0.15%). No trades this week (0/3 cap). Severely underdeployed at 14.7% deployed vs 75-85% target — redeployment is the primary priority next week. Key catalysts ahead: MRVL S&P 500 inclusion Jun 22 (potential re-entry), MU earnings Jun 24 AMC (primary re-entry target on beat), NVDA re-evaluate Mon Jun 23 if tech stabilizes post-FOMC digestion. Phase P&L +$15,240.65 (+15.24%) — tracking well above S&P 500 but underdeployment is leaving alpha on the table.
+
 **Notes:** Post-FOMC relief bounce — GOOGL +1.01% on the day, recovering from yesterday's hawkish selloff. MRVL (7% trail e9a9c73a) stopped out Jun 17 intraday at ~$283.87 (+7.48%, +$1,186 realized); MU (7% trail bb67e510) stopped out Jun 16 at ~$1,033 (+13.9%, +$2,274 realized). Both exits logged in Jun 17-18 reconciliation entries above. GOOGL sole remaining position — -0.30% unrealized from entry; 10% trailing stop at $338.19 (HWM $375.77) intact. No trades today; 0 new entries this week (Jun 16-18); exits not counted toward weekly cap. Portfolio 14.7% deployed vs 75-85% target — intentionally cash-heavy post-hawkish FOMC (Warsh held 3.5-3.75%, removed easing bias; dot plot projects 2026 hike). Capital preservation priority. Jun 19 = Juneteenth (market CLOSED). Next catalysts: MRVL S&P 500 inclusion Jun 22, MU earnings Jun 24 AMC. Post-FOMC redeployment: NVDA primary if tech stabilizes; MRVL potential re-entry post-CFO transition clarity (>Jun 22). Reconciliation clean: GOOGL 46 shares matches broker ✓.
