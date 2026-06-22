@@ -4271,3 +4271,51 @@ See RESEARCH-LOG Jun 22 addendum.
 - NVDA: Secondary watchlist; tech headwinds today suggest caution
 - Underdeployment (14%) intentional given hawkish macro + company-specific GOOGL risk at stop
 
+
+---
+
+## 2026-06-22 - Market-Open Session
+
+**Portfolio:** $114,308.46 equity | **Cash:** $98,311.27 | **Positions:** 3 | **Deployed:** ~43.8% (post-trades) | **Phase P&L:** +$14,308.46 (+14.31%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+
+Clean. No overnight stop-outs.
+
+### GOOGL Position Alert (Pre-trade)
+- GOOGL down -5.67% today ($347.15 vs $368.03 close)
+- **Cause:** AI brain drain (DeepMind VP John Jumper → Anthropic; Gemini co-lead Noam Shazeer → OpenAI) + $84.75B secondary equity offering (dilution, buyback suspension) + FCF down 47% YoY + California legal setback
+- **Current:** $347.975 | -7% threshold: $342.79 | Stop: $338.19 (order a2f8d542)
+- **Decision:** HOLD — above -7% hard rule; stop active. Thesis materially weakened; monitor closely.
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 2 (BUY NVDA, BUY MRVL)
+
+### Trades Executed
+
+| # | Date | Ticker | Side | Shares | Entry | Stop | Target | R:R | Thesis |
+|---|------|--------|------|--------|-------|------|--------|-----|--------|
+| 1 | 2026-06-22 | NVDA | BUY | 82.11 | $208.826 | $188.01 (10% trail, HWM $208.90) | $250.59 | 2.0:1 | AI GPU infrastructure backbone; $400B+ combined hyperscaler capex; Blackwell demand; Vera Rubin H2 2026; no near-term binary; ask $208.89 within plan limit ($215) |
+| 2 | 2026-06-22 | MRVL | BUY | 55.95 | $306.459 | $275.88 (10% trail, HWM $306.53) | $367.75 | 2.0:1 | S&P 500 inclusion Jun 22 (forced passive buying); NVIDIA $2B investment; Jensen Huang "next trillion-dollar company" endorsement; CFO sale noted but NVIDIA partnership overshadows; ask $306.85 within plan limit ($326.11) |
+
+### Stops Placed (GTC trailing)
+- NVDA: 82 shares, 10% trail, stop $188.01 (HWM $208.90) — order ID **3f025520**
+- MRVL: 55 shares, 10% trail, stop $275.88 (HWM $306.53) — order ID **23878320**
+- Note: 0.11 NVDA + 0.95 MRVL fractional shares uncovered (Alpaca trailing stop requires integer qty)
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | GOOGL | 46 | $368.59 | $338.19 (10% trail, HWM $375.77) | ~$442 | — |
+| 2 | NVDA | 82.11 | $208.826 | $188.01 (10% trail, HWM $208.90) | $250.59 | 2.0:1 |
+| 3 | MRVL | 55.95 | $306.459 | $275.88 (10% trail, HWM $306.53) | $367.75 | 2.0:1 |
+
+- Trades this week: 2 (NVDA + MRVL — Jun 22)
+- MU: SKIP — binary earnings Jun 24 AMC (re-evaluate Jun 25 post-beat)
+- GOOGL: ⚠️ Thesis weakened (AI brain drain + dilution); monitor; stop $338.19 protects; cut at $342.79 (-7%)
+- PCE Jun 25: Next major macro event — tighten stops if hot surprise
+
