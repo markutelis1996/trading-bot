@@ -4751,3 +4751,42 @@ Clean. MRVL stopped out Jun 17 (+7.48%, +$1,186) and MU stopped out Jun 16 (+13.
 - Deploy dry powder GRADUALLY — target 50-60% deployed by end of week (not full 75-85% all at once given hawkish macro + binary events)
 - Priority sequence: NVDA Mon Jun 23 (if tech holds) → assess MU Thu Jun 25 (post-earnings) → reassess MRVL after CFO transition clarity
 - No action today (market closed — Juneteenth)
+
+---
+
+## 2026-06-22 - Midday Research Addendum
+
+**Trigger:** GOOGL -5.69% intraday vs NASDAQ +1.91% — company-specific investigation required.
+
+### Broader Market (Jun 22 ~midday)
+- S&P 500: +1.08% (~7,500)
+- NASDAQ: +1.91% (~26,517)
+- Dow: +0.14% (~51,564)
+- 10Y yield: 4.49% (+0.04)
+
+### GOOGL Selloff Analysis
+**Current:** $347.19 (-5.69% day, -5.81% from entry $368.59)
+
+**Identified headwinds (multi-factor repricing, no single new catalyst):**
+1. **$80B share sale dilution** (announced ~Jun 2): AI capex financing via equity issuance ($180-190B capex 2026 vs $91.4B 2025). FCF compression narrative ongoing. Stock has fallen ~15% from ATH $408.61 (May 18) since announcement.
+2. **AI talent departure**: Anthropic publicly poached a Nobel Prize winner from Google's AI division. Raises concerns about internal AI team stability at critical Gemini scaling phase.
+3. **Antitrust overhang**: Chrome ruling was favorable (Google keeps Chrome, Apple search deal maintained — Wedbush called "monster win"). But search monopoly remedies still pending from Judge Mehta. BMO noted potential +/-10% swing on outcome. Uncertainty persists.
+
+**Thesis check (original entry rationale):**
+- Google Cloud Q1 2026: +63% YoY, $460B backlog → **INTACT**
+- Gemini monetization: ongoing despite talent headwind → **STRAINED but intact**
+- DoD AI deal → **INTACT**
+- Q2 earnings Jul 23 catalyst → **STILL UPCOMING**
+
+**Verdict: HOLD.** Core business robust. Today's drop is multi-headwind repricing, not fundamental breakdown. Stop $338.19 active; manual cut at $342.79 (-7% from entry).
+
+### Key Levels to Watch
+- -7% manual cut: $342.79 (~$4.40 below current $347.19)
+- 10% trailing stop: $338.19 (HWM $375.77 × 0.90)
+- If GOOGL drops to $343: consider manual cut even slightly above -7% threshold given relative weakness
+
+### Other Watchlist (Jun 22)
+- **MRVL**: S&P 500 inclusion day; prior entry stopped Jun 17 at $283.87. NOT re-entering — CFO resignation still unresolved, inclusion pop may already be priced at ~$310 close Jun 18.
+- **NVDA**: -0.86% today; NASDAQ up — more relative weakness. Secondary watchlist; not entering yet.
+- **MU**: Jun 24 AMC earnings — binary. No entry before event.
+

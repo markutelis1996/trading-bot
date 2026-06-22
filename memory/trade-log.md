@@ -4225,3 +4225,49 @@ None. No cuts, no stop changes, no new entries.
 **Notes:** Jun 19 Juneteenth (market closed); Jun 20 flat day — GOOGL unchanged at $368.03, unrealized -$25.79 (-0.15%). No trades this week (0/3 cap). Severely underdeployed at 14.7% deployed vs 75-85% target — redeployment is the primary priority next week. Key catalysts ahead: MRVL S&P 500 inclusion Jun 22 (potential re-entry), MU earnings Jun 24 AMC (primary re-entry target on beat), NVDA re-evaluate Mon Jun 23 if tech stabilizes post-FOMC digestion. Phase P&L +$15,240.65 (+15.24%) — tracking well above S&P 500 but underdeployment is leaving alpha on the table.
 
 **Notes:** Post-FOMC relief bounce — GOOGL +1.01% on the day, recovering from yesterday's hawkish selloff. MRVL (7% trail e9a9c73a) stopped out Jun 17 intraday at ~$283.87 (+7.48%, +$1,186 realized); MU (7% trail bb67e510) stopped out Jun 16 at ~$1,033 (+13.9%, +$2,274 realized). Both exits logged in Jun 17-18 reconciliation entries above. GOOGL sole remaining position — -0.30% unrealized from entry; 10% trailing stop at $338.19 (HWM $375.77) intact. No trades today; 0 new entries this week (Jun 16-18); exits not counted toward weekly cap. Portfolio 14.7% deployed vs 75-85% target — intentionally cash-heavy post-hawkish FOMC (Warsh held 3.5-3.75%, removed easing bias; dot plot projects 2026 hike). Capital preservation priority. Jun 19 = Juneteenth (market CLOSED). Next catalysts: MRVL S&P 500 inclusion Jun 22, MU earnings Jun 24 AMC. Post-FOMC redeployment: NVDA primary if tech stabilizes; MRVL potential re-entry post-CFO transition clarity (>Jun 22). Reconciliation clean: GOOGL 46 shares matches broker ✓.
+
+---
+
+## 2026-06-22 - Midday Scan
+
+**Portfolio:** $114,284.77 | **Cash:** $98,311.27 (86.0%) | **Deployed:** ~14.0% | **Phase P&L:** +$14,284.77 (+14.28%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+
+Clean.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|------|----------|------|-----|--------|
+| GOOGL | 46 | $368.59 | $347.19 | -5.81% | -5.663% | $338.19 (10% trail, a2f8d542) | $375.77 | WATCH |
+
+### Step 3 — Cuts
+None. GOOGL -5.81% — below -7% threshold of $342.79 by $4.40. No cut.
+
+### Step 4 — Stop Tightening
+Not applicable. GOOGL negative vs entry.
+
+### Step 5 — Thesis Check
+**GOOGL: -5.69% today vs NASDAQ +1.91% — company-specific selloff.**
+- Causes identified: (1) $80B share sale dilution overhang (announced ~Jun 2, ongoing repricing); (2) high-profile AI talent departure — Anthropic poached Nobel Prize winner from Google AI team; (3) antitrust uncertainty — search monopoly remedy ruling pending (Chrome ruling was positive; search exclusivity remedies still TBD)
+- Core thesis status: Google Cloud +63% YoY Q1 2026, $460B contract backlog, Gemini scaling, Q2 earnings Jul 23 → **INTACT**
+- No single catastrophic new event found — today is multi-headwind repricing
+- Stop $338.19 = 2.59% below current $347.19; -7% manual cut threshold = $342.79 (~$4.40 above current)
+- **Verdict: HOLD. Thesis strained but not broken. Stop active. Watch closely — another 1.3% downside triggers manual cut rule.**
+
+### Step 6 — Research
+See RESEARCH-LOG Jun 22 addendum.
+
+### Actions Taken
+**None.** No cuts, no stop changes, no new entries.
+
+### Notes
+- NVDA -0.86% vs NASDAQ +1.91%; MSFT -2.56%; AMZN -4.37% — broad mega-cap tech underperforming despite positive NASDAQ; possible rotation into small-caps
+- MRVL S&P 500 inclusion day: price and order book not checked (not re-entering until CFO clarity)
+- MU: Do not enter before Jun 24 AMC earnings
+- NVDA: Secondary watchlist; tech headwinds today suggest caution
+- Underdeployment (14%) intentional given hawkish macro + company-specific GOOGL risk at stop
+
