@@ -4319,3 +4319,16 @@ Clean. No overnight stop-outs.
 - GOOGL: ⚠️ Thesis weakened (AI brain drain + dilution); monitor; stop $338.19 protects; cut at $342.79 (-7%)
 - PCE Jun 25: Next major macro event — tighten stops if hot surprise
 
+---
+
+### Jun 22 - EOD Snapshot (Day 44, Monday)
+**Portfolio:** $114,479.43 | **Cash:** $64,016.46 (55.9%) | **Day P&L:** -$761.22 (-0.66%) | **Phase P&L:** +$14,479.43 (+14.48%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| GOOGL | 46 | $368.59 | $349.59 | -5.01% | -$874.03 (-5.15%) | $338.19 (10% trail, HWM $375.77, a2f8d542) |
+| NVDA | 82.11 | $208.83 | $208.78 | -0.91% | -$3.81 (-0.02%) | $188.35 (10% trail, HWM $209.28, 3f025520) |
+| MRVL | 55.95 | $306.46 | $307.89 | -0.87% | +$80.09 (+0.47%) | $277.61 (10% trail, HWM $308.45, 23878320) |
+
+**Notes:** Active deployment day — bought NVDA (82 shares) and MRVL (55 shares) at market open, lifting deployed capital from 14% to ~44%. GOOGL -5.01% intraday (AI brain drain + $84.75B secondary offering overhang) drove most of the -$761.22 day loss; NVDA -0.91% and MRVL -0.87% marginal red on entry day. All three trailing stops GTC and confirmed active: GOOGL $338.19 (HWM $375.77), NVDA $188.35 (HWM $209.28), MRVL $277.61 (HWM $308.45). Trades this week: 2/3 cap used. Still below 75-85% deployment target at 44% — no fourth position until MU post-earnings Jun 25 or new catalyst. PCE Jun 25 is next macro trigger; tighten stops if hot print.
+
