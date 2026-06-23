@@ -109,6 +109,79 @@ MU post-earnings entry Jun 25 if beats (live price verify at open before sizing)
 
 ---
 
+## 2026-06-23 - Pre-market Research (UPDATE — Second Run)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL  | 46      | 46         | ✓ |
+| NVDA   | 82.11   | 82.112     | ✓ |
+| MRVL   | 55.95   | 55.953     | ✓ |
+
+Clean. No overnight stop-outs.
+
+### Account (live — Alpaca)
+- Equity: $113,114.32 (vs $115,240.65 Jun 20 close — -$2,126 since Fri)
+- Cash: $64,016.46
+- Buying power: $393,539.84
+- Daytrade count: 0/3
+- Deployed: ~43.4% ($49,097 long market value)
+- Phase P&L: +$13,114.32 (+13.11%)
+
+### Market Context (Jun 23 pre-market)
+- S&P 500 futures: ~7,440 (-1.26% / -101 pts)
+- NASDAQ 100 futures: ~29,963 (-2.25% / -690 pts)
+- DOW futures: ~51,759 (-0.69%)
+- VIX spot: **20.29 (+17.42%)** — significant fear spike from Jun 22 close 17.28
+- WTI: ~$73.80 (-0.08%) | Brent: ~$77.56 (-0.35%)
+- Gold: -1.60% (sell-everything / margin call dynamic)
+- **Primary catalyst**: SPCX (SpaceX) extending 3-day selloff after IPO. Jun 22: -16.43% ($154.60). 3-day loss: -24%. $20B bond sale + $60B Cursor acquisition dilution + AI capex concerns. Dragging broad tech/growth complex.
+- Secondary: BofA "Fed Rate Hikes Coming" note still weighing on rate-sensitive growth stocks.
+- MU: Anthropic supply deal announced Jun 22 → MU +6.82% to $1,211.38 (yesterday close). MU earnings Jun 24 AMC still on track.
+- NVDA: Announced 35 new AI supercomputers across 23 European countries (bullish).
+- Earnings today: KFY BMO (small-cap, irrelevant). FDX/CCL/GIS AMC tonight.
+- Economic calendar: PCE May 2026 due **Thu Jun 25** — ClevFed nowcast PCE +3.82% YoY, Core +3.30%. Risk event.
+
+### Position Updates (Intraday Verification — Live Broker + Research)
+
+| Ticker | Broker Price | Entry | Unrealized | -7% Threshold | Today Intraday Low | GTC Stop | Status |
+|--------|-------------|-------|------------|---------------|-------------------|----------|--------|
+| GOOGL  | $345.04     | $368.59 | -$1,083 (-6.39%) | $342.79 | **$340.94 (BREACHED)** | $338.19 | **SELL** |
+| MRVL   | $292.46     | $306.46 | -$783 (-4.57%) | $285.01 | **$283.32 (BREACHED)** | $277.61 | HOLD / WATCH |
+| NVDA   | $206.18     | $208.83 | -$217 (-1.27%) | $194.21 | $207.72 (safe) | $188.35 | HOLD |
+
+**GOOGL**: -7% threshold ($342.79) was breached intraday (low $340.94). Thesis remains broken (AI talent exodus: DeepMind VP → Anthropic, Gemini co-lead → OpenAI; $80B equity dilution; FCF -47%; CA antitrust setback). **SELL GOOGL** — rule triggered. GTC stop $338.19 provides backstop if manual sell delayed at open gap.
+
+**MRVL**: -7% threshold ($285.01) breached intraday (low $283.32), recovered to ~$292. New risk: CFO Willem Meintjes filed Form 144 to sell 211,329 shares (~$65M) — large insider sale adds pressure. NVLink Fusion intact; Q1 FY27 beat (Rev $2.42B). Thesis strained but not fully broken. **HOLD** at $292. Manual cut trigger: $285.01 breach on sustained basis.
+
+**NVDA**: Safe. NVDA Annual Stockholder Meeting Jun 24 — AI roadmap update expected. Thesis INTACT.
+
+### Capitol Trades (Whitelist — Updated)
+- **Gottheimer**: MSFT $500K-$1M + $250K-$500K buys on May 19 (filed Jun 3) → qualifies >$25K. BUT: MSFT is -12% from his buy price ($417 → ~$367) = thesis NOT confirmed by price action. SKIP.
+- **Gottheimer**: MU $1K-$15K May 21 → below $25K threshold → watchlist only.
+- **All others** (Pelosi, McCaul, Crenshaw, Tuberville, Khanna, Green, Mast): No qualifying buys within last 45 days.
+- **Conclusion**: No actionable politician signal today.
+
+### Trade Ideas
+1. **SELL GOOGL 46 shares at market** — mandatory -7% rule. Intraday low $340.94 < threshold $342.79. Thesis broken. Expected fill ~$340-$345 range. Estimated realized P&L: 46 × ($342 avg fill - $368.59) = ~-$1,223 (-6.63%). Live quote: broker $345.04 (unreliable for fill estimate; will gap further down given futures -1.26%).
+2. **MU post-earnings (Jun 25 entry)** — if beats + guidance strong. Live price verification mandatory at open. Current $1,211. Max size ~$17K (15% of portfolio). Target +20% = ~$1,453. Stop -10% = ~$1,090.
+3. **No new entries today** — VIX 20.29, NASDAQ -2.25% pre-mkt, SPCX contagion unresolved.
+
+### Risk Factors
+- SPCX selloff continuing today (-16% yesterday, no floor established): could extend tech selloff
+- PCE Thu Jun 25: nowcast 3.82% YoY — any hot surprise → more selling
+- MRVL CFO insider sale ($65M) + stretched 95x P/E: could trigger further leg lower
+- GOOGL open fill risk: market -1.26%, could gap to $338 GTC stop level; may not get clean fill above threshold
+- MU earnings Jun 24 AMC: binary event — do not enter before results
+
+### Decision
+**SELL GOOGL at open** — mandatory (threshold breached intraday, thesis broken)
+**HOLD MRVL** — recovered above threshold; CFO sale is pressure but thesis intact. Alert: manual cut at $285.01.
+**HOLD NVDA** — safe, thesis intact, Annual Meeting catalyst tomorrow.
+**No new entries** — await market stabilization + PCE Thu + MU earnings Wed AMC.
+
+---
+
 ## 2026-04-20 - Pre-market Research (UPDATED)
 
 ### Account
