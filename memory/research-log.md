@@ -31,6 +31,84 @@ TRADE or HOLD (default HOLD if no edge)
 
 ---
 
+## 2026-06-23 - Pre-market Research
+
+### Account
+- Equity: $112,169.61
+- Cash: $64,016.46
+- Buying power: $390,894.66
+- Daytrade count: 0/3
+- Deployed: ~42.9% ($48,153 in 3 positions)
+- Phase P&L: +$12,169.61 (+12.17% vs SPY)
+
+### Open Positions (reconciled vs broker)
+| Ticker | Qty | Avg Cost | Pre-mkt Price | Unrealized | Stop (GTC) | Status |
+|--------|-----|----------|---------------|------------|------------|--------|
+| GOOGL  | 46  | $368.59  | ~$341.33      | -$1,254 (-7.40%) | $338.19 (a2f8d542) | **SELL AT OPEN** |
+| MRVL   | 55  | $306.46  | ~$288.24      | -$1,019 (-5.95%) | $277.61 (23878320) | HOLD |
+| NVDA   | 82  | $208.83  | ~$202.61      | -$510 (-2.98%)   | $188.35 (3f025520) | HOLD |
+
+### Market Context
+- WTI: $73.07 (-1.07%) | Brent: $76.96 (-1.21%) — Iran deal progress, supply concerns easing
+- S&P 500 futures: ~7,452 (-1.18%) | Nasdaq futures: ~29,960 (-2.11%)
+- VIX: 17.28 (Jun 22 close) — elevated, risk-off
+- Macro catalyst: BofA "Fed Rate Hikes Are Coming" note (Jun 22) hammering growth/tech
+- PCE May due Thu Jun 25 (est 3.8% YoY, Core ~3.3%) — major event risk
+- Earnings before open: None today; **MU reports Jun 24 AMC** (EPS est $20.21, Rev est $35.2B)
+- Economic calendar: PCE Thu Jun 25 is the week's biggest macro event
+- Sector momentum: Tech/Semis under pressure; Energy softening on Iran deal; Defensives holding
+
+### Capitol Trades (Whitelist)
+- Gottheimer: Bought MU ~May 21 ($1K–$15K range) — BELOW $25K minimum → not actionable, watchlist only
+- No other qualifying whitelist buys found. No politician signal this session.
+
+### Crypto Research
+- BTC: ~$63,957, RSI ~41.79 — neutral, not oversold (<30 required for entry) → NO ENTRY
+- ETH: ~$1,723, RSI ~45 — neutral → NO ENTRY
+- SOL: ~$72, RSI ~48.9 — neutral → NO ENTRY
+- No crypto entry criteria met
+
+### Live Price Verification (Alpaca quotes — mandatory STEP 3d)
+- GOOGL: ~$341.33 (from positions endpoint, change_today -2.39% from Jun 22 close $349.68)
+  - **-7% threshold: $342.79 — CURRENT PRICE BELOW THRESHOLD → MANDATORY CUT RULE TRIGGERED**
+- MRVL: ~$288.24 (from positions endpoint) — threshold $285.01 → $3.23 above cut line, MONITOR
+- NVDA: ~$202.61 (from positions endpoint) — threshold $194.21 → safe
+- MU AH (Jun 22 20:59 ET): bid $1,244.06 / ask $1,244.87 — tight spread, liquid
+
+### GOOGL Thesis Assessment
+Entry thesis (Alphabet AI catch-up / cloud growth): BROKEN
+- $80B equity offering dilution announced
+- FCF -47% YoY
+- AI talent exodus: VP Jumper → Anthropic, Noam Shazeer → OpenAI
+- California antitrust setback (state AG suit)
+- GTC stop at $338.19 provides backstop if open gaps below cut threshold
+
+### MRVL Thesis Assessment
+Entry thesis (S&P 500 inclusion + NVIDIA $2B partnership): INTACT
+- Passive index flows still processing after Jun 20 inclusion
+- AI ASIC demand secular tailwind
+- Only risk: broad tech selloff on BofA rate hike note + PCE risk Thu
+
+### Trade Ideas
+1. **GOOGL** — SELL 46 shares at open. Mandatory -7% cut rule triggered (pre-mkt $341.33 < threshold $342.79). No discretion.
+2. **MU** — POST-EARNINGS WATCHLIST. Jun 24 AMC earnings; if beats + stock up >5% next day, evaluate entry Jun 25 morning (post-open gap check, live price verification required). Gottheimer watchlist adds minor confidence. MU AH ~$1,244, so 1 share = 1.1% of portfolio.
+3. **NVDA/MRVL** — Hold per rules. No new entries today (macro uncertainty, PCE Thu, tech under pressure).
+
+### Risk Factors
+- BofA rate hike signal: growth stocks re-rate lower; MRVL at -5.95% approaching -7% cut
+- PCE Thu Jun 25: hot print → more selling; cold print → relief rally
+- GOOGL open could gap below GTC stop $338.19 (limit order risk on open fill)
+- MU guidance risk: beats EPS but guides cautious → stock down despite beat
+- Broad Nasdaq selloff (-2.11% futures) could drag MRVL through -7% threshold intraday
+
+### Decision
+**SELL GOOGL at open** (mandatory -7% cut, thesis broken)
+HOLD MRVL + NVDA (theses intact, above cut thresholds)
+No new entries today — wait for PCE Thu Jun 25 clarity + MU earnings result
+MU post-earnings entry Jun 25 if beats (live price verify at open before sizing)
+
+---
+
 ## 2026-04-20 - Pre-market Research (UPDATED)
 
 ### Account
