@@ -4332,3 +4332,41 @@ Clean. No overnight stop-outs.
 
 **Notes:** Active deployment day — bought NVDA (82 shares) and MRVL (55 shares) at market open, lifting deployed capital from 14% to ~44%. GOOGL -5.01% intraday (AI brain drain + $84.75B secondary offering overhang) drove most of the -$761.22 day loss; NVDA -0.91% and MRVL -0.87% marginal red on entry day. All three trailing stops GTC and confirmed active: GOOGL $338.19 (HWM $375.77), NVDA $188.35 (HWM $209.28), MRVL $277.61 (HWM $308.45). Trades this week: 2/3 cap used. Still below 75-85% deployment target at 44% — no fourth position until MU post-earnings Jun 25 or new catalyst. PCE Jun 25 is next macro trigger; tighten stops if hot print.
 
+
+---
+
+## 2026-06-23 - Market-Open Session
+
+**Portfolio:** $111,839.24 equity | **Cash:** ~$78,867 (est, post-fills) | **Positions:** 1 (NVDA) + MRVL fractional pending | **Deployed:** ~15% | **Phase P&L:** +$11,839.24 (+11.84%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| GOOGL | 46 | 46 | ✓ |
+| NVDA | 82.11 | 82.112 | ✓ |
+| MRVL | 55.95 | 55.953 | ✓ |
+
+Clean. No overnight stop-outs.
+
+### Trades Executed
+
+| # | Date | Ticker | Side | Shares | Fill Price | Entry | Realized P&L | Reason |
+|---|------|--------|------|--------|------------|-------|--------------|--------|
+| 1 | 2026-06-23 | GOOGL | SELL | 46 | $344.22 | $368.591 | -$1,121.07 (-6.63%) | Mandatory -7% cut: ask $342.38 < threshold $342.79; thesis broken (AI talent exodus, $80B dilution, FCF -47%) |
+| 2 | 2026-06-23 | MRVL | SELL | 53 (partial) | $280.76 | $306.459 | -$1,362.05 (-8.39%) | Mandatory -7% cut: last $280.42 < threshold $285.01; GTC stop cancelled, market sell order af6a9ede partially filled |
+
+**Note:** MRVL 2.953873273 fractional shares still pending fill (market order af6a9ede DAY TIF — will fill during session).
+
+### Open Positions (post-trades)
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | NVDA | 82.11 | $208.826 | $188.35 (10% trail, HWM $209.28, 3f025520) | $250.59 | 2.0:1 |
+| 2 | MRVL | ~2.953 (fractional) | $306.459 | — | — | — |
+
+- Trades this week: 4/7 (NVDA + MRVL Jun 22 buys; GOOGL + MRVL Jun 23 sells — exits not capped but count as week activity)
+- GOOGL: EXITED. Thesis broken. -6.63% realized loss.
+- MRVL: EXITED (pending final 2.953 fractional). Thesis strained; -7% rule triggered.
+- NVDA: Hold. -4.1% today. Stop $188.35 active. -7% threshold: $194.21. Safe. Annual Meeting Jun 24 catalyst.
+- No new entries: VIX 20.29, NASDAQ -2.25% pre-mkt, PCE Thu Jun 25 major risk event.
+- Deployment dropped to ~15% (NVDA ~$16,600 / $111,839 equity). Severely underdeployed again.
+- Next entry window: Jun 25 post-PCE or MU post-earnings (if beats Jun 24 AMC).
