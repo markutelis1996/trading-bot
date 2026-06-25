@@ -4370,3 +4370,25 @@ Clean. No overnight stop-outs.
 - No new entries: VIX 20.29, NASDAQ -2.25% pre-mkt, PCE Thu Jun 25 major risk event.
 - Deployment dropped to ~15% (NVDA ~$16,600 / $111,839 equity). Severely underdeployed again.
 - Next entry window: Jun 25 post-PCE or MU post-earnings (if beats Jun 24 AMC).
+
+---
+
+## 2026-06-25 - Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Status | Notes |
+|--------|---------|------------|--------|-------|
+| NVDA | 82.11 | 82.112 | ✓ Match | Fractional rounding only |
+| MRVL | ~2.953 (fractional, pending Jun 23) | 0 | Exited | DAY TIF order af6a9ede filled Jun 23; full MRVL position closed. Est. realized P&L on fractional: ~2.953 × ($280.76 - $306.459) ≈ -$75.89 (same fill zone as 53-share lot) |
+
+MRVL fully exited. Only NVDA remains.
+
+---
+
+### Jun 25 - EOD Snapshot (Day 47, Thursday)
+**Portfolio:** $112,078.41 | **Cash:** $95,561.47 (85.3%) | **Day P&L:** +$91.15 (+0.08%) | **Phase P&L:** +$12,078.41 (+12.08%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| NVDA | 82.112 | $208.826 | $201.20 | +1.11% | -$626.22 (-3.65%) | $188.35 (10% trail, HWM $209.28, 3f025520) |
+
+**Notes:** PCE day (the anticipated macro trigger) arrived with no catastrophic surprise — NVDA recovered +1.11% intraday after yesterday's close at $199, bringing day P&L to a marginal +$91. MRVL fractional (2.953 shares, DAY TIF af6a9ede) confirmed fully filled and settled; position cleared from broker. Portfolio severely underdeployed at 14.7% (NVDA $16,517 / $112,078 equity) with $95,561 in cash. Week activity: 4 trades (NVDA+MRVL buys Jun 22, GOOGL+MRVL exits Jun 23) — 2 new positions used of 3/week cap, 1 slot remains. NVDA trailing stop GTC confirmed active (order 3f025520, stop $188.35, HWM $209.28). No new entries today — need clean catalyst and PCE digestion before deploying next position. Tomorrow (Friday): weekly review session.
