@@ -4434,3 +4434,43 @@ MRVL fully exited. Only NVDA remains.
 | NVDA | 82.112 | $208.826 | $201.20 | +1.11% | -$626.22 (-3.65%) | $188.35 (10% trail, HWM $209.28, 3f025520) |
 
 **Notes:** PCE day (the anticipated macro trigger) arrived with no catastrophic surprise — NVDA recovered +1.11% intraday after yesterday's close at $199, bringing day P&L to a marginal +$91. MRVL fractional (2.953 shares, DAY TIF af6a9ede) confirmed fully filled and settled; position cleared from broker. Portfolio severely underdeployed at 14.7% (NVDA $16,517 / $112,078 equity) with $95,561 in cash. Week activity: 4 trades (NVDA+MRVL buys Jun 22, GOOGL+MRVL exits Jun 23) — 2 new positions used of 3/week cap, 1 slot remains. NVDA trailing stop GTC confirmed active (order 3f025520, stop $188.35, HWM $209.28). No new entries today — need clean catalyst and PCE digestion before deploying next position. Tomorrow (Friday): weekly review session.
+
+---
+
+## 2026-06-25 - Market-Open Session (UPDATED — actual fill confirmed)
+
+**Portfolio:** $112,091.54 equity | **Cash:** $90,663.15 (post-MU-fill) | **Positions:** 2 (NVDA + MU)
+
+### Reconciliation Update
+| Ticker | Log Qty | Broker Qty | Status | Notes |
+|--------|---------|------------|--------|-------|
+| NVDA | 82.11 | 82.112 | ✓ | Trailing stop 3f025520 active, stop $188.352, HWM $209.28 |
+| MU | TBD (prev log) | 13.590631 | RESOLVED | Buy order 65fc333e fully filled at market open |
+
+### MU Fill Details
+- Order 65fc333e: FILLED (was partially_filled at session start, fully filled by 9:31 AM ET)
+- Filled qty: 13.590631 shares | Avg fill: $1,237.155
+- Total notional: ~$16,814 (15% of equity ✓)
+
+### Stops Placed
+- Initial 4-share stop f11da0fb: CANCELLED (superseded by full-position stop)
+- **MU: order 2245e9e4 | 13 shares | 10% trail GTC | stop $1,127.601 | HWM $1,252.89**
+- Note: 0.590631 fractional shares uncovered (Alpaca trailing stop requires integer qty)
+
+### PCE May 2026 (8:30 AM ET)
+- Core PCE YoY: 3.4% (Actual) vs 3.4% (Forecast) vs 3.3% (Previous) → IN-LINE, no shock
+
+### NVDA Check
+- Current: ~$199.06 | Entry: $208.826 | Unrealized: -4.68%
+- -7% cut threshold: $194.21 — NOT breached (safe)
+- Stop 3f025520 active at $188.352 — 5.5% below current price
+
+### Open Positions (post-session)
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | NVDA | 82.112 | $208.826 | $188.352 (10% trail, HWM $209.28, 3f025520) | $250.59 | 2.0:1 |
+| 2 | MU | 13.590 | $1,237.155 | $1,127.601 (10% trail, HWM $1,252.89, 2245e9e4) | $1,484.59 | 2.0:1 |
+
+- Trades this week: 5/7 (NVDA+MRVL buys Jun 22; GOOGL+MRVL exits Jun 23; MU buy Jun 25)
+- New entries this week: 3 (NVDA, MRVL, MU) — at weekly new-entry pace, 2 slots remain in 7-trade cap
+- Deployed: ~30% ($16,525 NVDA + $16,814 MU / $112,091) — still underdeployed vs 75-85%
