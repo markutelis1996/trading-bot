@@ -2,6 +2,65 @@
 
 Daily pre-market research entries will be appended here. Format each entry:
 
+## 2026-06-25 - Pre-market Research
+
+### Account
+- Equity: $112,086.62
+- Cash: $95,561.47
+- Buying power: $428,516.29
+- Daytrade count: 0/3
+- Deployed: ~14.7% ($16,525 NVDA only)
+- Phase P&L: +$12,086.62 (+12.09%)
+- Trades this week: 4/7 (2 new entries: NVDA + MRVL Jun 22)
+
+### Open Positions (reconciled)
+| Ticker | Qty | Avg Cost | Last AH | Unrealized | Stop (GTC) | Status |
+|--------|-----|----------|---------|------------|------------|--------|
+| NVDA | 82.112 | $208.826 | ~$200.35 bid | -$630 (-3.68%) | 10% trail (3f025520, 82 shares) | HOLD |
+
+### Market Context (4:04 AM EDT)
+- PCE May 2026 due **8:30 AM EDT today** — Cleveland Fed nowcast core 3.30% (in-line expected); prev 3.30%
+- MU Q3 FY26 earnings (Jun 24 AMC): MASSIVE BEAT — EPS $25.11 vs $20.60 est (+21.9%); Rev $41.46B vs $35.59B est (+16.4%); Q4 guide $49-51B vs $42.9B est; gross margin record 84.9%; $100B contracted revenue. AH: +13.1% to ~$1,185.90
+- Sector momentum: Semis/Tech positive on MU beat; QQQ futures +0.46% premarket
+- MU regular session Jun 24: -13% before earnings (uncertainty sell-off)
+- NVDA AH quote Jun 24: bid $200.35 / ask $231.80 (wide AH spread, stale)
+
+### MU Price Verification
+- AH quote (20:34 ET Jun 24): bid $1,164.04 / ask $1,166.06 (early AH before full price discovery)
+- AH high ~$1,185.90 (+13.1% from regular close ~$1,048)
+- Pre-market Jun 25: up ~3% per search → estimated open $1,180-1,225 range
+- Planned entry from prior research: ~$1,211 → deviation ≤5% ✓
+
+### MU Thesis Assessment
+- Entry catalyst: MASSIVE Q3 beat + Q4 guide raise to $49-51B (vs $42.9B est = +17% above consensus)
+- HBM4 supply sold out 2026; $100B in customer agreements (16 agreements)
+- AI memory supercycle thesis STRONGLY CONFIRMED
+- Gross margin record 84.9% — structural improvement, not one-time
+- PCE risk: Cleveland Fed nowcast in-line → unlikely to negate this catalyst magnitude
+
+### NVDA Thesis Assessment
+- AI GPU demand backbone: intact. Blackwell/Vera Rubin H2 2026 on track
+- NVDA Annual Stockholder Meeting Jun 24 — no adverse news
+- Current: -3.68% from entry. Stop active at 10% trail. Above -7% cut threshold ($194.21)
+- HOLD
+
+### Trade Ideas
+1. **MU — BUY at open** — massive earnings catalyst, all criteria met, price within 5% of plan
+   - Notional: 15% × $112,086 = $16,813
+   - Est entry: ~$1,180-1,225; stop 10% below fill; target +20% = ~$1,420-1,470; R:R 2:1
+   - Risk: PCE at 8:30 AM (in-line expected); if surprise hot, stock still likely holds given magnitude of beat
+2. **NVDA** — HOLD, no action
+
+### Risk Factors
+- PCE hot surprise: growth stocks could sell off post-8:30 AM; DAY TIF order will execute at open regardless
+- MU: binary reaction to guidance quality already priced into AH; open gap risk if AH enthusiasm fades
+- Deployment still low (target 75-85%): MU adds one position → ~30% deployed; still room for 3-4 more
+
+### Decision
+**BUY MU at market open** — earnings catalyst confirmed, price in range, thesis STRONGLY intact
+**HOLD NVDA** — stop active, no action
+**No other new entries today** — wait for PCE clarity at 8:30 AM for additional positions
+
 ## YYYY-MM-DD - Pre-market Research
 
 ### Account

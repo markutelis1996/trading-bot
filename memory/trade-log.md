@@ -4375,6 +4375,48 @@ Clean. No overnight stop-outs.
 
 ## 2026-06-25 - Reconciliation
 
+| Ticker | Log Qty | Broker Qty | Match? | Suspected Cause | Realized P&L |
+|--------|---------|------------|--------|-----------------|--------------|
+| NVDA | 82.11 | 82.112 | ✓ | fractional diff — expected | — |
+| MRVL | 2.953 (pending) | 0 | RESOLVED | DAY TIF market order af6a9ede filled Jun 23 session | ~2.953 × ($280.76 - $306.459) = -$75.93 |
+
+Clean. MRVL 2.953 fractional confirmed exited Jun 23. Only NVDA open.
+
+---
+
+## 2026-06-25 - Market-Open Session
+
+**Portfolio:** $112,091.54 equity | **Cash:** $95,561.47 | **Positions:** 1 (NVDA)
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 1 (BUY MU — pending fill at 9:30 AM ET open)
+- Note: Workflow ran at 4:07 AM EDT; market opens 9:30 AM EDT; DAY TIF order will fill at open
+
+### Trades Executed
+
+| # | Date | Ticker | Side | Shares | Entry | Stop | Target | R:R | Thesis |
+|---|------|--------|------|--------|-------|------|--------|-----|--------|
+| 1 | 2026-06-25 | MU | BUY | TBD at fill | TBD at fill | 10% trail below fill | ~+20% | 2.0:1 | Q3 FY26 MASSIVE BEAT: EPS $25.11 vs $20.60 (+21.9%); Rev $41.46B vs $35.59B (+16.4%); Q4 guide $49-51B vs $42.9B est; record 84.9% gross margin; $100B contracted revenue; HBM4 AI memory supercycle confirmed |
+
+**Order details:** notional $16,813.73 | order ID 65fc333e | status: pending_new (DAY TIF, fills at market open)
+**⚠️ TRAILING STOP PENDING:** Must place 10% GTC trailing stop immediately after fill confirmation at 9:30 AM ET. Integer qty only.
+
+### Open Positions (post-trade, pending fill)
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | NVDA | 82.112 | $208.826 | 10% trail (3f025520, 82 shares) | $250.59 | 2.0:1 |
+| 2 | MU | TBD | TBD | TBD (10% trail — PENDING FILL) | ~+20% from fill | 2.0:1 |
+
+- Trades this week: 5/7 (NVDA + MRVL Jun 22 buys; GOOGL + MRVL Jun 23 exits; MU Jun 25 buy)
+- New entries this week: 3/7 (NVDA, MRVL, MU)
+- PCE May 2026 at 8:30 AM ET: Cleveland nowcast core 3.30% (in-line)
+- Deployment post-fill: ~30% (NVDA $16,525 + MU ~$16,814 / $112,091) — still underdeployed vs 75-85% target
+
+---
+
+## 2026-06-25 - Reconciliation
+
 | Ticker | Log Qty | Broker Qty | Status | Notes |
 |--------|---------|------------|--------|-------|
 | NVDA | 82.11 | 82.112 | ✓ Match | Fractional rounding only |
