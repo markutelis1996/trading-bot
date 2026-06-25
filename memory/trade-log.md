@@ -4473,4 +4473,16 @@ MRVL fully exited. Only NVDA remains.
 
 - Trades this week: 5/7 (NVDA+MRVL buys Jun 22; GOOGL+MRVL exits Jun 23; MU buy Jun 25)
 - New entries this week: 3 (NVDA, MRVL, MU) — at weekly new-entry pace, 2 slots remain in 7-trade cap
+
+---
+
+### Jun 25 - EOD Snapshot (Day 47, Thursday) — CORRECTED (post-MU-fill)
+**Portfolio:** $111,414.90 | **Cash:** $78,747.75 (70.7%) | **Day P&L:** -$486.96 (-0.43%) | **Phase P&L:** +$11,414.90 (+11.41%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| NVDA | 82.112 | $208.826 | $195.91 | -1.55% | -$1,060.82 (-6.19%) | $188.352 (10% trail, HWM $209.28, 3f025520) |
+| MU | 13.590 | $1,237.155 | $1,220.01 | +16.36% | -$233.01 (-1.39%) | $1,129.464 (10% trail, HWM $1,254.96, 2245e9e4) |
+
+**Notes:** MU gapped +16.4% at open on massive Q3 FY26 beat (EPS $25.11 vs $20.60 est; rev $41.46B vs $35.59B; Q4 guide $49-51B) — filled 13.590 shares at $1,237.155 avg. HBM4 AI memory supercycle thesis confirmed. NVDA slipped -1.55% to $195.91, now -6.19% unrealized — approaching -7% manual cut threshold ($194.21); stop at $188.352 remains 3.9% below current price. Portfolio deployed 29.3% ($32,667), cash-heavy at $78,748 (70.7%). Week: 3 new entries (NVDA, MRVL, MU) — weekly cap exhausted. Tomorrow is Friday weekly review. Top priority: watch NVDA closely; if $194.21 breached intraday → manual cut. MU stop 2245e9e4 covers 13 integer shares; 0.590631 fractional uncovered.
 - Deployed: ~30% ($16,525 NVDA + $16,814 MU / $112,091) — still underdeployed vs 75-85%
