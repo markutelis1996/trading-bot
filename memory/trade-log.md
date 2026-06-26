@@ -4530,3 +4530,34 @@ MU trailing stop fired when price broke below $1,129.464 (HWM $1,254.96 × 0.90)
 - Weekly new entries reset: Mon Jun 29
 - Cash heavy: $109,408 / $110,105 = 99.4% — fully exited, start fresh next week
 
+---
+
+## 2026-06-26 - Midday Scan
+
+**Portfolio:** ~$110,050 equity | **Cash:** ~$109,984 (post-MU-fractional-cut) | **Positions:** 0
+
+### Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| MU | 0.590631 | 0.590631036 | ✓ Match (fractional only) |
+
+No discrepancies.
+
+### STEP 3 — Cut Losers
+- **MU fractional (0.590631 shares)**: unrealized −7.66% ($1,142.45 vs entry $1,237.155) → BELOW −7% hard rule threshold ($1,150.55)
+- Action: SELL 0.590631 MU @ market (order 4023d836) — cut per hard rule
+- Realized P&L: ~−$55.93
+
+### STEP 4 — Stop Tightening
+- No remaining positions.
+
+### STEP 5 — Thesis Check
+- No open positions.
+
+### Open Positions
+None — portfolio fully in cash.
+
+| # | Ticker | Side | Shares | Entry | Exit | P&L | Reason |
+|---|--------|------|--------|-------|------|-----|--------|
+| 1 | MU | SELL | 0.590631 | $1,237.155 | ~$1,142.45 (mkt, order 4023d836) | ~−$55.93 (−7.66%) | Cut at −7% per hard rule |
+
