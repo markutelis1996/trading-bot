@@ -4486,3 +4486,47 @@ MRVL fully exited. Only NVDA remains.
 
 **Notes:** MU gapped +16.4% at open on massive Q3 FY26 beat (EPS $25.11 vs $20.60 est; rev $41.46B vs $35.59B; Q4 guide $49-51B) — filled 13.590 shares at $1,237.155 avg. HBM4 AI memory supercycle thesis confirmed. NVDA slipped -1.55% to $195.91, now -6.19% unrealized — approaching -7% manual cut threshold ($194.21); stop at $188.352 remains 3.9% below current price. Portfolio deployed 29.3% ($32,667), cash-heavy at $78,748 (70.7%). Week: 3 new entries (NVDA, MRVL, MU) — weekly cap exhausted. Tomorrow is Friday weekly review. Top priority: watch NVDA closely; if $194.21 breached intraday → manual cut. MU stop 2245e9e4 covers 13 integer shares; 0.590631 fractional uncovered.
 - Deployed: ~30% ($16,525 NVDA + $16,814 MU / $112,091) — still underdeployed vs 75-85%
+
+---
+
+## 2026-06-26 - Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Suspected Cause | Realized P&L |
+|--------|---------|------------|-----------------|--------------|
+| NVDA | 82.112 | 82.112531 | ✓ Match (fractional rounding only) | — |
+| MU | 13.590 | 0.590631 | Trailing stop 2245e9e4 fired at open — 13 integer shares sold @ $1,133.129 (9:34 AM ET); 0.590631 fractional uncovered as expected | 13 × ($1,133.129 − $1,237.155) = **−$1,352.24** |
+
+NVDA: $193.51 at open — below -7% cut threshold ($194.21) → manual cut required per hard rule.
+MU trailing stop fired when price broke below $1,129.464 (HWM $1,254.96 × 0.90) at market open.
+
+---
+
+## 2026-06-26 - Market-Open Session
+
+**Portfolio:** $110,104.98 equity | **Cash:** $109,408.25 | **Positions:** 1 (MU fractional only)
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 1 (SELL NVDA — manual cut per -7% rule)
+
+### Reconciliation Applied
+- MU trailing stop 2245e9e4: FILLED 13 shares @ $1,133.13 | 9:34 AM ET | Realized P&L: −$1,352.24
+- NVDA trailing stop 3f025520: CANCELLED (manual cut superseded it)
+
+### Trades Executed
+
+| # | Date | Ticker | Side | Shares | Entry | Exit | P&L | Thesis |
+|---|------|--------|------|--------|-------|------|-----|--------|
+| 1 | 2026-06-26 | MU | SELL (stop) | 13 | $1,237.155 | $1,133.129 (trail stop 2245e9e4) | −$1,352.24 (−8.41%) | Trailing stop fired at market open; stop level $1,129.464 (HWM $1,254.96 × 0.90) |
+| 2 | 2026-06-26 | NVDA | SELL (cut) | 82.112 | $208.826 | $194.00 (order 8fb2463c) | −$1,217.35 (−7.11%) | Hard rule: price ≤ −7% cut threshold ($194.21); stop 3f025520 cancelled before sell; NQ weak −0.71% premarket; Q-end rebalancing pressure |
+
+### Open Positions (post-session)
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | MU | 0.590631 | $1,237.155 | None (fractional — uncoverable) | ~$1,485 | — |
+
+- Trades this week: 7/7 (NVDA+MRVL buys Jun 22; GOOGL+MRVL exits Jun 23; MU buy Jun 25; MU stop + NVDA cut Jun 26)
+- New entries this week: 3/3 — cap exhausted
+- Weekly new entries reset: Mon Jun 29
+- Cash heavy: $109,408 / $110,105 = 99.4% — fully exited, start fresh next week
+
