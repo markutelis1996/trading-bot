@@ -474,3 +474,77 @@ Deployment: 71.1% ($77,255 / $108,635) — below 75-85% target after TXN stop-ou
 - May 22 weekly review missed (operational gap) ✗
 
 ---
+
+## Week ending 2026-06-27
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $112,169.61 (Mon Jun 23 AM) |
+| Ending portfolio | $110,083.49 |
+| Week return | −$2,086.12 (−1.86%) |
+| S&P 500 week | ~−2.04% (7,500.58 → ~7,348; Perplexity unavailable; estimated from Jun 25 close 7,357.49) |
+| Bot vs S&P | ~+0.18% outperformance (marginal) |
+| Trades | 7 total (W:0 / L:4 closed / open:0) |
+| Win rate | 0% (0W / 4L — all closed trades were losses) |
+| Best trade | NVDA −7.11% (least bad) |
+| Worst trade | MRVL −9.40% |
+| Profit factor | 0.00 (no realized winners this week) |
+
+### Closed Trades
+| Ticker | Shares | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|--------|-------|------|------|------|-------|
+| GOOGL | 46 | $368.59 (May) | ~$341.33 Jun 23 | ~−$1,254 | −7.40% | Manual cut at −7% threshold; FOMC hawkish + BofA "hike coming" note destroyed tech sentiment |
+| MRVL | 57.953 | $306.46 (Jun 22) | $277.61/$280.76 Jun 23 | ~−$1,663 | −9.40% | 10% trailing stop + fractional cut; 1-day hold; Q-end selling + NQ −2.11% premarket wiped position |
+| MU | 13.591 | $1,237.155 (Jun 25) | $1,133.13/$1,142.45 Jun 26 | ~−$1,408 | −8.41% | 10% trailing stop fired at open + fractional cut; 1-day hold; massive earnings beat faded on Q-end selling |
+| NVDA | 82.112 | $208.826 (Jun 22) | $194.00 Jun 26 | ~−$1,218 | −7.11% | Manual cut at −7% rule; Q-end NQ weakness; China revenue = zero per Jensen Huang |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| — | — | — | — | — | — | — |
+
+Portfolio: 100% cash ($110,083.49). No open positions.
+
+### What Worked
+- Manual cut discipline executed flawlessly: GOOGL at −7.40% and NVDA at −7.11% both cut without hesitation; rules followed exactly
+- Trailing stops on MRVL and MU capped losses at 9.4% and 8.4% respectively — prevented larger drawdowns
+- Weekly new-entry cap (3/3) enforced correctly: no additional entries after Jun 25 MU buy despite underdeployment urge
+- PCE monitoring was accurate: Jun 25 PCE 3.4% in-line correctly forecasted; macro research process working
+- Portfolio −1.86% vs S&P −2.04% = marginal outperformance; cash position inadvertently protected relative performance
+
+### What Didn't Work
+- 0% win rate: all 4 closed trades were losses — worst week of the challenge by win rate; total realized losses ~−$5,543
+- MRVL and MU were 1-day-hold positions: entered into Q-end rebalancing headwind and stopped out same or next session
+- Q-end entry timing failure: research explicitly noted "fund rebalancing/trimming equities all week" on Jun 26 — yet entries were made Jun 22 (NVDA, MRVL) and Jun 25 (MU) inside the Q-end window
+- Portfolio ended 0% deployed (100% cash) — inability to hold positions = 0 compounding; worst deployment week of challenge
+- GOOGL carried as a loser for 5+ weeks before cutting: entered May 15, cut Jun 23; −7.40% realized; should have cut weeks earlier when thesis stalled
+
+### Key Lessons
+- **Quarter-end (last 5 trading days of Q) = hostile entry environment**: Q-end fund rebalancing created forced selling pressure that overwhelmed thesis catalysts; MRVL and MU both had strong theses but price couldn't hold during systematic selling. New rule: no new entries in the last 5 trading days of a quarter (Mar 25–31, Jun 25–30, Sep 25–30, Dec 25–31).
+- **Post-FOMC hawkish + Q-end = double headwind**: Two independent selling forces converged Jun 22–26; being patient through both was the correct call. The Jun 20 review noted "hold cash through FOMC" — should have extended caution through Q-end too.
+- **1-day whipsaw risk on high-momentum entries**: MU +16.4% gap-up entry then -8.4% next day; MRVL entered at peak then -9.4% in 1 day. Buying into gap-up post-earnings day within Q-end window compounds whipsaw risk. Either wait for gap to settle (1-2 days post-earnings) or skip entirely during Q-end.
+- **GOOGL patience had a cost**: 5+ weeks of negative unrealized dragged portfolio returns; the -7% rule eventually fired but should have been evaluated for discretionary cut at −5% after 4+ weeks of no recovery. Long-term losers consume position slots.
+- **Cash as accidental defense**: 0% deployment on a −2% S&P week meant the absolute dollar loss was limited; this was not intentional risk management but the outcome was relatively good.
+
+### Adjustments for Next Week
+- **Quarter-end clears Jun 30 (Monday)**: Q3 begins Jul 1 — rebalancing headwind lifts; first clean entry window is Mon Jun 30 PM or Tue Jul 1 AM
+- **NFP Jul 2 (Thursday)**: Major binary event; no new entries Jul 1–2 until NFP prints; deployment can start Mon-Tue on strong setups, pause ahead of NFP
+- **NVDA re-entry**: Watch for $200+ stabilization on NQ recovery; target entry Mon Jul 1 if S&P futures + NQ confirm positive; 82 shares @ ~15% equity (~$16.5k); 10% trail
+- **MU re-entry**: Thesis strongest in book ($100B contracted revenue, HBM4 sold out 2026, Q3 MASSIVE beat); wait for $1,200+ price stabilization post-Q-end selling; gap rule applies — do not chase
+- **MRVL**: Wait for VIX < 17 and NQ 3-day recovery; entry ≤ $285; thesis (AI custom silicon, Trainium/TPU) intact
+- **Deployment target**: 75-85% by end of week Jul 3 (short week); 3-4 entries: NVDA + MU + 1-2 new setups
+- **Q-end rule**: Codify in TRADING-STRATEGY.md — no new entries in last 5 trading days of each quarter
+
+### Overall Grade: C+
+- GOOGL/NVDA −7% cuts executed without hesitation ✓
+- No rule violations ✓
+- Trailing stops functioned correctly on MRVL + MU ✓
+- Marginal S&P outperformance (+0.18%) ✓ (unintentional)
+- 0% win rate — worst of challenge ✗
+- 0% deployment at week end ✗
+- Q-end entry timing error (entered into known rebalancing window) ✗
+- GOOGL held 5+ weeks as loser before cutting ✗
+- Phase P&L: +$10,083.49 (+10.08%) — still ahead of S&P benchmark ✓
+
+---
