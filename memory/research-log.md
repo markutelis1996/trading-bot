@@ -61,6 +61,83 @@ Daily pre-market research entries will be appended here. Format each entry:
 **HOLD NVDA** — stop active, no action
 **No other new entries today** — wait for PCE clarity at 8:30 AM for additional positions
 
+## 2026-06-26 - Pre-market Research
+
+### Account
+- Equity: $110,525.24
+- Cash: $78,747.74
+- Buying power: $403,967.95
+- Daytrade count: 0/3
+- Deployed: ~28.8% ($31,777 market value)
+- Phase P&L: +$10,525.24 (+10.52%)
+- Trades this week: 5/7 | New entries: 3/3 → **WEEKLY NEW ENTRY CAP EXHAUSTED**
+
+### Reconciliation
+| Ticker | Log Qty | Broker Qty | Status | Notes |
+|--------|---------|------------|--------|-------|
+| NVDA | 82.112 | 82.112531 | ✓ Match | Fractional rounding only |
+| MU | 13.590 | 13.590631 | ✓ Match | Fractional rounding only |
+
+No discrepancies. Trailing stops confirmed active (NVDA 3f025520 @ $188.352; MU 2245e9e4 @ $1,129.464).
+
+### ⚠️ CRITICAL — NVDA BELOW -7% CUT THRESHOLD
+- NVDA current (broker): $193.31 | Entry: $208.826 | Unrealized: **-7.44%**
+- Manual cut threshold: $194.21 (-7%) → **BREACHED**
+- Trailing stop: $188.352 (HWM $209.28) — 2.6% below current
+- Action: Monitor closely at market open. Per hard rule, cut if price remains ≤ $194.21. NVDA thesis remains intact (Q1 FY27 $81.6B revenue +85% YoY, Vera CPU $20B plan, AI GPU demand strong), but rule says cut at -7%.
+- ATR context: Today's intraday range already shown $192.13-$201.78 = 5.0% of price → ATR > 4% threshold → confirms high-vol stock. Trail stays at 10% (not tighten). This does NOT exempt from -7% cut rule.
+
+### Market Context (premarket Jun 26)
+- **WTI**: $70.12 (-2.50%) | **Brent**: $73.04 (-2.41%) — oil weak; Hormuz tanker traffic rebounding = de-escalation
+- **S&P 500 futures**: 7,408 (-15pts, -0.20%)
+- **NQ100 futures**: 29,514 (-255pts, -0.71%) → bearish for tech/semis
+- **VIX**: 19.75 (+4.55%) — fear rising, still moderate
+- **Today's releases**: University of Michigan Consumer Sentiment (final June) — only notable data
+- **Earnings BMO**: APOG (Apogee Enterprises, $790M cap) — no market-moving events
+- **Quarter-end**: Q2 ends Jun 30 → fund rebalancing/trimming equities all week
+- **Sector momentum**: Tech/AI semis weakening despite MU beat; "chip sell-off resumes, Micron shares extend losses" (CNBC); NQ fell 4 consecutive days
+
+### Position Thesis Check
+| Ticker | Shares | Entry | Current | Unrealized | Stop | -7% Cut | Status |
+|--------|--------|-------|---------|------------|------|---------|--------|
+| NVDA | 82.112 | $208.826 | $193.31 | **-7.44%** | $188.352 (3f025520) | $194.21 | ⚠️ CUT ALERT |
+| MU | 13.590 | $1,237.155 | $1,172.12 | -5.26% | $1,129.464 (2245e9e4) | $1,150.55 | HOLD |
+
+**NVDA thesis**: AI GPU demand intact; Q1 FY27 $81.6B (+85% YoY); Vera Rubin H2 2026 on track; Vera CPU = new $200B TAM/$20B revenue; BUT China revenue = zero (per Jensen Huang); NQ weak. Thesis INTACT but price below cut rule.
+
+**MU thesis**: Massive Q3 FY26 beat confirmed (EPS $25.11 vs $20.60 est, Rev $41.46B vs $35.59B est); Q4 guide $49-51B vs $42.9B est; HBM4 supply sold out entire 2026; $100B in customer agreements; AI memory supercycle. Today's range $1,136-$1,255 (high hit $1,255 = NEW HWM → trailing stop auto-updated to ~$1,129.50). Current $1,172 = safe above stop + above -7% threshold. Thesis STRONGLY INTACT.
+
+### Politician Signals (Capitol Trades)
+- **Dan Crenshaw**: Lost House seat March 2026 → no longer required to disclose. Remove from whitelist.
+- **Nancy Pelosi, Michael McCaul**: No disclosed buys in last 30 days found.
+- **Whitelist scan**: No actionable signals. No politician-driven trade setups.
+
+### Crypto (LEARNING MODE)
+- **BTC**: ~$60,983 Jun 25 open, slipped near $58,000, recovering. 7-day trend: bearish (-5%+ on week). "Bears tighten grip."
+- **ETH**: $1,564.84 Jun 26 (down -3.27% day, -7.23% 7-day, -35.26% YoY). Broad crypto selloff. No entry signal.
+- **Decision**: SKIP all crypto. BTC showing weekly loss and fear spread; no confirmed RSI <30 or MA crossover bullish signal.
+
+### Trade Ideas
+**No new entries this week — weekly new entry cap (3/3) exhausted.**
+
+For next week (resets Mon Jun 29):
+1. **MU — HOLD existing** | Thesis strongest position. Trailing stop provides protection. Next week watch for stabilization above $1,200.
+2. **NVDA — DECISION AT OPEN**: Cut if ≤ $194.21 (hard rule) OR hold if recovers above. Do NOT add.
+3. **New entries (next week)**: Watch for NQ stabilization after Jul 2 nonfarm payrolls. Potential sectors: semis (MU peers), AI infra. No specific setups identified today.
+
+### Risk Factors
+- Quarter-end rebalancing = equity selling pressure all week
+- NQ -0.71% premarket = tech headwind
+- NVDA at -7.44% — auto-stop at $188.35 provides floor but -7% cut rule active
+- MU pulled back from $1,255 high to $1,172 (-6.6% from today's high) — volatile but above stop
+- Jul 2 nonfarm payrolls = binary event next week → no new entries until after
+
+### Decision
+**NVDA**: ⚠️ AT -7% CUT THRESHOLD — evaluate at market open. If ≤ $194.21 at open → CUT per hard rule.
+**MU**: HOLD — thesis strongest in book, stop active, above -7% threshold.
+**New entries**: NONE — weekly cap exhausted. Reset Monday Jun 29.
+**Next week priority**: Evaluate NVDA replacement if cut; watch for NQ/semi stabilization post nonfarm payrolls (Jul 2).
+
 ## YYYY-MM-DD - Pre-market Research
 
 ### Account
