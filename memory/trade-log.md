@@ -4561,3 +4561,14 @@ None — portfolio fully in cash.
 |---|--------|------|--------|-------|------|-----|--------|
 | 1 | MU | SELL | 0.590631 | $1,237.155 | ~$1,142.45 (mkt, order 4023d836) | ~−$55.93 (−7.66%) | Cut at −7% per hard rule |
 
+
+---
+
+### Jun 26 - EOD Snapshot (Day 48, Friday)
+**Portfolio:** $110,083.49 | **Cash:** $110,083.49 (100%) | **Day P&L:** −$1,230.00 (−1.11%) | **Phase P&L:** +$10,083.49 (+10.08%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** Three exits today — MU trailing stop fired at open (13 sh @ $1,133.13, −$1,352.24, −8.41%), NVDA manual cut at −7% hard rule (82.112 sh @ $194.00, −$1,217.35, −7.11%), MU fractional cut at midday (0.591 sh @ ~$1,142.45, −$55.93). Portfolio 100% cash heading into weekend. Weekly new-entry cap exhausted (3/3: NVDA Jun 22, MRVL Jun 22, MU Jun 25). Both last positions failed quickly — MU gap-down at open the day after entry despite strong Q3 beat; NVDA continued Q-end weakness past −7% threshold. Phase P&L +$10,083.49 (+10.08%). Next week (Mon Jun 29): fresh 3/3 entry cap; weekend research to identify 2-3 catalyst setups to redeploy $110k. Reconciliation clean: broker shows 0 positions ✓ matches log.
