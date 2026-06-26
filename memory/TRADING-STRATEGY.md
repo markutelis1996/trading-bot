@@ -34,6 +34,7 @@ BEFORE switching to live, REVERT to original conservative rules (commented below
     - Trigger only on STOCKS, not crypto (crypto vol too high — rules 1-5 of crypto block apply instead)
 14. **Integer-qty discipline**: When sizing position by notional, round share count DOWN to integer. Reason: Alpaca trailing-stop orders require integer qty, so any fractional remainder sits unprotected. Plan for whole-share lots only.
 15. **Broker reconciliation every session**: Before trading or analysis, run `bash scripts/alpaca.sh positions` and compare to last `trade-log.md` "Open Positions" snapshot. If qty differs → log RECONCILED entry showing realized P&L before proceeding.
+16. **Quarter-end blackout (5 trading days)**: No new entries in the last 5 trading days of each quarter (approx Mar 25–31, Jun 25–30, Sep 25–30, Dec 25–31). Q-end fund rebalancing creates forced selling that overwhelms thesis catalysts even on strong beats. Hold existing positions; do not add. Confirmed by Jun 22–26 2026: MRVL and MU both stopped out in 1 day despite strong theses during Q2 Q-end window. Rule added: Week ending 2026-06-27.
 
 ## Original Conservative Rules (use when going live)
 - 5-6 positions at a time, max 20% each
