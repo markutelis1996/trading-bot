@@ -138,6 +138,102 @@ For next week (resets Mon Jun 29):
 **New entries**: NONE — weekly cap exhausted. Reset Monday Jun 29.
 **Next week priority**: Evaluate NVDA replacement if cut; watch for NQ/semi stabilization post nonfarm payrolls (Jul 2).
 
+## 2026-06-29 - Pre-market Research
+
+### Account
+- Equity: $110,083.46
+- Cash: $110,083.46 (100% — fully in cash)
+- Buying power: $440,333.84
+- Daytrade count: 0/3
+- Deployed: 0%
+- Phase P&L: +$10,083.49 (+10.08%)
+- Trades this week (new week Mon Jun 29): 0/7
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| — | 0 | 0 | ✓ Perfect match — no positions |
+
+Broker shows 0 positions, $0 long_market_value. Log shows 0 positions. Clean.
+
+### Market Context
+- **WTI**: ~$69.92/bbl (+1.00%) | **Brent**: ~$72.27/bbl (+0.39%)
+  - Oil down massively from $95-98 (May peak) — Hormuz de-escalation confirmed; energy macro tailwind fading
+- **S&P 500 futures**: +0.67% at 7,451.25
+- **NQ100 futures**: +0.84% at 29,614
+- **VIX**: 18.54 (↓ from 18.89 prior close — volatility declining, risk-on tone)
+- **Today's catalysts**: None. US Quarterly Grain Stocks (minor) + API Crude Oil Stock Change
+- **Earnings BMO**: None meaningful. America's Car-Mart (tiny); no S&P 500 companies.
+- **Economic calendar**: Nike (NKE) reports tomorrow Jun 30 AMC; **Jul 2 nonfarm payrolls = next major binary event**
+- **Sector momentum (YTD 2026)**:
+  - Energy: +22% YTD (leading but oil price collapsing $95→$70 = headwind vs earlier)
+  - Materials: ~+11.7% YTD
+  - Healthcare: "More Favored" (Schwab) — aging demographics, LLY +7.13% Jun 26
+  - Communication Services: mixed; concentrated in GOOGL/META
+  - Tech/Semis: NQ +0.84% premarket; semis had brutal Q-end week (SNDK -10.5%, WDC -13.2%, MU -6.7%, TXN -8.5% Jun 26); potential recovery bounce once Q-end rebalancing ends
+  - Consumer Discretionary: "Least Favored" (Schwab)
+
+### ⚠️ Q-END BLACKOUT — RULE 16 IN EFFECT
+- Q2 ends Jun 30 (tomorrow)
+- Rule 16 blackout window: Jun 25–30 — **NO NEW ENTRIES through Jun 30**
+- Rule confirmed by empirical experience: MRVL and MU both stopped out day after entry Jun 22–26 despite strong theses
+- Blackout lifts: **Wednesday Jul 1, 2026**
+
+### Politician Signals (Capitol Trades — STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal Level |
+|------------|--------|--------|------|------------|-----------|--------------|
+| **Nancy Pelosi** | **INTC** | BUY | **$1M–5M** | May 29 | Jun 24 | **PRIMARY** — $1M+ far exceeds $25K threshold; 25-day lag ✓ |
+| **Nancy Pelosi** | **UBER** | BUY | **$500K–1M** | May 29 | Jun 24 | **PRIMARY** — well above $25K threshold |
+| **Michael McCaul** | BJ's Wholesale (BJ) | BUY | $50K–100K | May 4 | Jun 11 | Secondary — above threshold, not momentum sector |
+| **Michael McCaul** | Louisiana-Pacific (LPX) | BUY | $50K–100K | May 5 | Jun 11 | Secondary — above threshold, building materials |
+
+Notes:
+- Dan Crenshaw REMOVED from whitelist (lost House seat Mar 2026)
+- Tommy Tuberville: mostly sells (434 sells vs 6 buys YTD)
+- Ro Khanna: very active (4,653 trades) — no specific qualifying buys found in this search
+- Josh Gottheimer: mostly sells (80 sells vs 45 buys YTD)
+
+**Pelosi INTC ($1M-5M) — analysis:**
+- INTC had massive Q1 2026 beat (EPS $0.29 vs $0.01 est); Intel Apple foundry deal + AI data center turnaround thesis
+- Pelosi trade date May 29; INTC was ~$109-124 range; now ~$107 (post Jun Q-end selloff) = potentially better entry than Pelosi's cost
+- Single whitelist politician + sector momentum needed for primary catalyst eligibility
+- INTC: tech sector recovering premarket (+0.84% NQ); foundry/AI thesis intact
+- Requires additional catalyst beyond politician buy alone
+
+**Pelosi UBER ($500K-1M) — analysis:**
+- Uber: autonomous rideshare thesis (Waymo partnership, expanding markets); strong FCF generation
+- Rideshare/tech crossover; not a semiconductor play
+- No sector-specific momentum data available — classified watchlist pending Jul 1 research
+
+### Crypto (STEP 3c)
+- **BTC**: ~$59,964 (Jun 27) — 7-day downward trend; well below $70k; bearish short-term
+- No RSI <30 or MA crossover signal; BTC -7% over 7 days → **SKIP all crypto**
+- ETH: downtrend; no setup
+- Decision: NO crypto entries
+
+### Trade Ideas (watchlist only — no action today per blackout)
+For **Jul 1+ evaluation only** (after blackout lifts):
+1. **INTC** — Pelosi $1M-5M buy (May 29) + AI/foundry turnaround thesis; need live quote Jul 1 to confirm entry zone; 10% trail stop; if NQ stabilizes post-payrolls this is top candidate
+   - Additional catalyst needed: confirm Intel/Apple foundry ramp news OR tech sector momentum recovery
+   - **Cannot execute today — blackout**
+2. **UBER** — Pelosi $500K-1M buy; autonomous rideshare long-term; watchlist only (secondary signal, no sector momentum confirmation yet)
+3. **Healthcare rotation** — LLY (obesity drugs), UNH, MRNA (MRNA +12.59% Jun 26 — catalyst unclear, research needed Jul 1)
+   - Schwab rates Healthcare "More Favored"; defensive + growth dual appeal
+
+### Risk Factors
+- **Jul 2 nonfarm payrolls**: biggest near-term binary. Hot print → rate hike risk, tech selloff. Cool print → risk-on, entry window opens.
+- **New Fed Chair Kevin Warsh**: first major policy test approaching; may not rescue richly-valued market at first sign of stress (Schwab note)
+- **Equity risk premium thin**: 10-year yield pressure; stocks offer minimal edge over Treasuries at current valuations
+- **Semi sector carnage continues**: Q-end rebalancing + profit-taking from "Parabolic 7" (SNDK+MU+INTC+WDC+STX) — expect stabilization but volatile
+- **Oil declining**: Brent $95→$72 = energy sector tailwind reversing; XOM/energy thesis weakening
+
+### Decision
+**NO TRADES TODAY** — Q-end blackout Rule 16 (Jun 25–30, Q2 ends tomorrow)
+**HOLD** 100% cash ($110,083) — do not enter any position
+**Next session (Jul 1)**: Prioritize INTC setup evaluation with live quote; NFP Jul 2 timing means enter Mon/Tue only if setup has strong confirmation; deploy 2-3 positions to reach 30-45% deployed pre-NFP, then add more after payrolls clear
+
+---
+
 ## YYYY-MM-DD - Pre-market Research
 
 ### Account
