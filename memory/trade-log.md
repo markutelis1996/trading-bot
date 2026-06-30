@@ -4625,4 +4625,40 @@ No intraday research needed — 0 positions. Market risk-on (S&P +0.67%, NQ +0.8
 |--------|--------|-------|-------|---------|----------------|------|
 | — | — | — | — | — | — | — |
 
+**Notes:** Q-end blackout (Rule 16) in effect. No positions, no orders.
+
+---
+
+## 2026-06-30 - Market-Open Session
+
+**Portfolio:** $110,083.46 equity | **Cash:** $110,083.46 (100%) | **Positions:** 0 | **Deployed:** 0% | **Phase P&L:** +$10,083.46 (+10.08%)**
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| — | 0 | 0 | ✓ Match — no positions, no orders |
+
+Broker confirmed $110,083.46 equity, $0 long_market_value, 0 open orders. Clean.
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 0 (NO TRADES — Rule 16 Q-end blackout, final day)
+- Daytrade count: 0/3 | Trades this week: 0/7
+
+### Watchlist Price Check (informational — cannot trade today)
+| Ticker | Live Ask | Live Bid | Jul 1 Entry Zone | Status |
+|--------|----------|----------|-----------------|--------|
+| INTC | $132.56 | $130.00 | $131–133 | ✓ In zone |
+| AMAT | $703.23 | $696.00 | $620–640 (pullback) | ✗ Still extended — do NOT chase |
+
+### Jul 1 Execution Plan
+1. **9:30 AM** — Warsh speech (Portugal). Hawkish = pause. Neutral/dovish = proceed.
+2. **INTC**: Enter if (a) Warsh neutral/dovish, (b) ask ≤ $133, (c) NQ green. Notional 15% × $110k = $16,500. Stop 10% trail GTC.
+3. **AMAT**: Monitor only; wait for pullback to $620–640 before entering.
+4. **Pre-NFP**: Max 1 more position before Jul 2 payrolls; add 1–2 more post-payrolls.
+5. **Jul 3**: Market closed (Independence Day observed).
+
+### Open Positions
+None
+
 **Notes:** No positions, no trades. Q-end blackout (Rule 16) in effect through Jun 30 — no new entries today or tomorrow. Portfolio 100% cash heading into the final Q2 session tomorrow. Fresh 3/3 weekly new-entry cap available. Next entry window: Wednesday Jul 1, 2026. Watchlist: INTC (Pelosi $1M-5M buy May 29; AI/foundry thesis) and UBER (Pelosi $500K-1M buy May 29; autonomous rideshare). NFP Jul 2 = next major binary event; plan to enter 2-3 positions Jul 1 at moderate size ahead of it. Phase P&L: +$10,083.46 (+10.08%). Reconciliation clean: 0 positions in broker ✓ matches log.
