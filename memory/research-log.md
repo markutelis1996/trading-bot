@@ -234,6 +234,108 @@ For **Jul 1+ evaluation only** (after blackout lifts):
 
 ---
 
+## 2026-06-30 - Pre-market Research
+
+### Account (Jun 29 EOD)
+- Equity: $110,083.46
+- Cash: $110,083.46 (100% cash)
+- Buying power: $440,333.84
+- Daytrade count: 0/3
+- Deployed: 0%
+- Phase P&L: +$10,083.46 (+10.08%)
+- Trades this week: 0/7
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| — | 0 | 0 | ✓ Match — no positions |
+
+Broker: 0 positions, $0 long_market_value, 0 open orders. Clean.
+
+### Market Context (pre-market Jun 30)
+- **WTI**: $70.39 (-0.51%) | **Brent**: $72.51 (-0.87%) — oil continued slide on Hormuz normalization
+- **ES futures**: ~7,498–7,506 (+flat to +0.1%) — consolidating after Jun 29 +1.18% rally
+- **NQ futures**: ~30,125 (+0.24%) — tech momentum continues
+- **VIX**: 17.65 (Jun 29 close, -4.13% from prior day) — declining, risk-on
+- **US-Iran stand-down**: Reported Jun 28-29; both sides halting attacks → VIX crushed, markets rallied
+- **Today's releases**: S&P Case-Shiller (9 AM), Chicago PMI (9:45 AM), JOLTS May + Consumer Confidence (10 AM)
+- **Earnings BMO**: None. **AMC tonight**: NKE ($0.13 est EPS), STZ ($3.27 est EPS)
+- **No PCE/CPI/FOMC today** — lighter macro day, Q2 last session
+- **Sector momentum (Schwab Jun 26)**: Healthcare/Industrials/Materials/Comm Services = More Favored | IT/Energy/Financials = Neutral | Consumer Discretionary/Real Estate = Least Favored
+
+### ⚠️ Q-END BLACKOUT — RULE 16 (FINAL DAY)
+- Today Jun 30 = LAST DAY of Q2 and final day of Rule 16 blackout window
+- **Blackout lifts: Tomorrow Wed Jul 1, 2026**
+- No new entries today regardless of setup quality
+
+### Politician Signals (Capitol Trades — STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal Level |
+|------------|--------|--------|------|------------|-----------|--------------|
+| **Nancy Pelosi** | **INTC** | BUY (call options, $50 strike Mar 2027) | **$1M–5M** | May 29 | Jun 24 | **PRIMARY direction** — $1M+ threshold; 32-day lag ✓; call options = bullish stock direction |
+| **Nancy Pelosi** | **UBER** | BUY (call options, $50 strike Mar 2027) | **$500K–1M** | May 29 | Jun 24 | Secondary — above threshold but Cons. Disc = Least Favored |
+| McCaul BJ/LPX | — | BUY | $50K–100K | May 4-5 | Jun 11 | Watchlist only — non-momentum sectors |
+
+No new disclosures found in last 7 days. Pelosi not running for re-election 2026 (final disclosures); signals still valid this year.
+- Dan Crenshaw: REMOVED (lost House seat Mar 2026)
+- Tommy Tuberville: last trades Dec 2025 (ETF sector funds); no qualifying single-stock buys
+- Ro Khanna/Gottheimer: no qualifying buys found in window
+
+### Live Price Verification (STEP 3d — watchlist only, cannot trade today)
+| Ticker | Alpaca Quote (Jun 29 AH) | Mid Est. | Stop (10%) | Target (+20%) | R:R |
+|--------|--------------------------|----------|------------|---------------|-----|
+| INTC | bid $123.32 / ask $136.15 | ~$129 | ~$116 | ~$155 | 2:1 |
+| UBER | bid $74.88 / ask $75.45 | ~$75.17 | ~$67.65 | ~$90.20 | 2:1 |
+| NKE | bid $38.93 / ask $43.26 | ~$41 (AH pre-earnings, unreliable) | — | — | — |
+
+Note: INTC AH quote has wide spread — thin AH market. Use open print Jul 1 for actual entry decision.
+
+### Crypto (STEP 3c)
+- **BTC**: ~$60,000–62,500 range; RSI ~44 (sell); threatening $60k support; 7-day trend bearish; bullish RSI divergence forming (but NOT confirmed)
+- **ETH**: continued downtrend
+- **Decision**: SKIP all crypto — BTC showing bearish weekly trend, no RSI <30 entry, no MA crossover
+
+### Trade Ideas (watchlist — action Jul 1+)
+**CANNOT EXECUTE TODAY (Q-end blackout Rule 16)**
+
+**1. INTC — Primary watchlist for Jul 1**
+- Catalyst: Pelosi $1M-5M call buy (May 29) + Q1 FY26 massive beat (EPS $0.29 vs $0.01 est) + Apple foundry deal + AI data center turnaround; INTC +237.9% YTD momentum
+- Concern: IT sector = Neutral per Schwab (not "More Favored") — weakens catalyst stack slightly
+- Constraint: Warsh speaks Portugal 9:30 AM Jul 1 ET → **wait for speech tone before entering**; hawkish = pause, neutral/dovish = proceed
+- Est entry Jul 1: live quote only; stop 10% below fill; target +20%
+- Position size: 15% × $110k = $16,500
+
+**2. MU — Secondary watchlist for Jul 1**
+- AI memory thesis intact (HBM4 supercycle, $100B agreements)
+- Quote context: Jun 29 AH ~$1,145 per investing.com (was $1,237 entry, stopped out during Q-end carnage)
+- Re-entry only if: price stabilized ≥3 days above $1,100 and NQ strong on Jul 1
+- Need live quote Jul 1 before committing
+
+**3. Healthcare rotation — Tertiary watchlist**
+- Schwab "More Favored"; LLY (obesity drugs), UNH (defensive), MRNA (catalyst needed)
+- No politician signal; pure sector momentum play
+- Research Jul 1 before considering
+
+### Risk Factors
+- **Warsh speech Jul 1 9:30 AM ET**: first unknown hawkish/dovish signal under new Fed chair — can jolt markets either direction
+- **NFP Jul 2 8:30 AM**: major binary. Strategy: deploy 2-3 positions pre-NFP (Mon/Tue), add more post-NFP
+- **Jul 3 market closed** (Independence Day observed) — shortened trading week
+- **JOLTS today 10 AM**: if job openings spike → rate hike fears, tech headwind
+- **NKE tonight AMC**: potential consumer sentiment read (Cons. Disc = Least Favored)
+- **Oil continuing down**: WTI -23.6% in 1 month. Energy thesis broken. Avoid energy.
+- **Gold -1.49% premarket** today — risk-on signal (capital rotating to equities)
+
+### Decision
+**NO TRADES TODAY** — Q-end blackout Rule 16 (final day, lifts Jul 1)
+**HOLD** 100% cash ($110,083)
+**Jul 1 execution plan**:
+1. Wait for Warsh 9:30 AM speech; assess tone
+2. If neutral/dovish → initiate **INTC position** with live quote confirmation
+3. Watch NKE AMC tonight for potential catalyst assessment
+4. Deploy max 2 positions (30%) pre-NFP; add 1-2 more after Jul 2 payrolls
+5. Sector priority: IT (recovering) / Healthcare (More Favored) / Materials (More Favored)
+
+---
+
 ## YYYY-MM-DD - Pre-market Research
 
 ### Account
