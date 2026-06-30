@@ -334,6 +334,65 @@ Note: INTC AH quote has wide spread — thin AH market. Use open print Jul 1 for
 4. Deploy max 2 positions (30%) pre-NFP; add 1-2 more after Jul 2 payrolls
 5. Sector priority: IT (recovering) / Healthcare (More Favored) / Materials (More Favored)
 
+### UPDATE — Session 2 (later pre-market)
+
+**Reconciliation (STEP 0):** Broker 0 positions, $0 long_market_value, 0 orders. Log 0 positions. ✓ Match.
+
+**Account (confirmed):** Equity $110,083.46 | Cash $110,083.46 | Buying power $440,333.84 | Daytrade 0/3
+
+**Market context refresh:**
+- ES futures: 7,506.50 (+0.08%) | NQ: 30,141 (+0.29%) — mildly positive open
+- VIX: 17.65 (Jun 29 close, -4.13%) — declining, risk-on
+- WTI: $70.40 (-0.49%) | Brent: $72.51 (-0.87%) — oil slide continues
+- Gold: $3,962 (-1.49%) — capital rotating to equities ✓
+- **Jun 29 semi rally catalyst confirmed**: AMAT +11% (Cantor Fitzgerald PT raised $650→$850 + AI equipment demand); KLAC +12%; ALAB +16%; WDC +11%; SMH +3%. Broad semi rebound post Q-end rebalancing carnage. DOW crossed 52,000 (GOOGL added as new member).
+- Today Jun 30 releases: Case-Shiller 9 AM | Chicago PMI 9:45 AM | **JOLTS May 10 AM** (risk: spike → rate hike fears) | Consumer Confidence 10 AM
+- Earnings today: NKE AMC ($0.13 est) | STZ AMC ($3.21 est) — both after close
+
+**Politician signals — no new disclosures since Jun 24.** Pelosi INTC ($1M-5M, May 29) and UBER ($500K-1M, May 29) remain the active signals.
+
+**INTC price verification (live Alpaca quote + historical):**
+- Jun 29 close: **$131.72** (+2.65%) | AH: $131.70
+- Jun 29 range: $118.50 - $132.05 | 52-wk range: $18.97 - $141.45
+- YTD return: +256.96% (from $39.38 Jan 1)
+- ⚠️ CONCERN: Analyst avg PT $93.93 (-29% below current); Forward P/E 128x; net loss company (-$0.67 EPS TTM)
+- Pelosi's entry ~$110-124 range (May 29); stock has ALREADY run past her basis → momentum partially captured
+- Entry Jul 1: ~$131-133 (live quote needed at open). Stop 10% = ~$118. Target +20% = ~$158. R:R 2:1
+- **Revised signal level**: SECONDARY (not primary) — stock extended 30% above analyst target; requires Warsh dovish tone AND NQ strength AND price < $135 (near recent range top)
+
+**UBER price verification:**
+- AH: bid $74.88 / ask $75.45 | Mid ~$75.17
+- Stop 10% = $67.65 | Target +20% = $90.20 | R:R 2:1
+- Consumer Discretionary = Least Favored (Schwab) — WATCHLIST ONLY
+
+**AMAT new watchlist addition (semi equipment AI demand):**
+- Jun 29 close: ~$694-699 (+10.82%) | AH bid $657.40 (thin)
+- Catalyst: Cantor Fitzgerald PT raised to $850 (+22% upside); Q2 FY26 revenue $7.91B (+11% YoY beat); record DRAM + AI packaging demand; AMAT +35% in 30 days
+- ⚠️ Extended — up 35% in 30 days; avoid chasing. Wait for pullback to ~$620-640 before entering
+- Jul 1 action: monitor, do NOT enter unless pullback AND Warsh dovish
+
+**Crypto (STEP 3c):**
+- BTC: $60,160 (Jun 30 AH). 7-day trend: $63,957 (Jun 23) → $60,160 = -5.9% bearish
+- BTC spot ETF weekly outflows: **$1.79B** — significant institutional exit
+- Strategy (MSTR) pausing buys, authorizing $1.25B BTC SALE framework — bearish signal
+- RSI not <30; no MA crossover; trend bearish → **SKIP all crypto**
+- ETH: continued downtrend; skip
+
+**Updated Jul 1 priority watchlist (post-blackout):**
+| Ticker | Signal | Entry (est) | Stop | Target | R:R | Notes |
+|--------|--------|-------------|------|--------|-----|-------|
+| INTC | Pelosi $1M+ (May 29) | ~$131-133 | ~$118 | ~$158 | 2:1 | Downgraded to secondary — overextended vs analyst PT; Warsh tone required |
+| UBER | Pelosi $500K (May 29) | ~$75 | ~$67.65 | ~$90 | 2:1 | Watchlist only; Cons. Disc. = Least Favored |
+| AMAT | Semi equipment AI demand | ~$620-640 (pullback) | ~$558 | ~$770 | 2:1 | Do NOT chase; wait for pullback to entry zone |
+
+**Revised Jul 1 execution plan:**
+1. **9:30 AM** — Warsh speech (Portugal). Hawkish = PAUSE ALL. Neutral/dovish = proceed.
+2. **Post-speech**: Check JOLTS result (10 AM) — if strong/in-line, proceed. Spike → delay.
+3. **INTC**: Enter only if: (a) Warsh neutral/dovish, (b) price ≤ $133, (c) NQ green. Size 15% ($16,500 → ~125 shares integer). Stop GTC 10% trail.
+4. **AMAT**: Monitor for pullback to $620-640. Do NOT buy at open.
+5. **Pre-NFP (Jul 2)**: Add at most 1 more position Mon/Tue before payrolls; hold dry powder for post-NFP deployment
+6. **Jul 3**: Market closed (Independence Day observed)
+
 ---
 
 ## YYYY-MM-DD - Pre-market Research
