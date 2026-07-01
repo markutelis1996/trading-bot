@@ -395,6 +395,110 @@ Note: INTC AH quote has wide spread — thin AH market. Use open print Jul 1 for
 
 ---
 
+## 2026-07-01 - Pre-market Research
+
+### Account
+- Equity: $110,083.46
+- Cash: $110,083.46 (100% cash)
+- Buying power: $440,333.84
+- Daytrade count: 0/3
+- Deployed: 0%
+- Phase P&L: +$10,083.46 (+10.08%)
+- Trades this week (Q3 Week 1): 0/7
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| — | 0 | 0 | ✓ Clean match — no positions, no orders |
+
+Broker: `[]` positions, `[]` orders. Clean.
+
+### Market Context (pre-market Jul 1)
+- **WTI**: $69.55 (+0.07%) | **Brent**: $73.02 (+0.10%) — oil stabilizing at lows; Hormuz talks ongoing but inconclusive (Iran claims no talks scheduled, prices reflect uncertainty)
+- **ES futures**: 7,527 (-0.28%) | **NQ futures**: 30,411 (-0.37%) — mildly negative; cautious Q3 open
+- **VIX**: ~16.45 (Jun 30 close), projected ~17.95 today — still low/moderate; risk-on tone intact
+- **Asian markets**: Nikkei +0.71%; Hang Seng cautious; mixed Q3 open
+- **Today's key releases**:
+  - ISM Manufacturing 10 AM ET — forecast 53.8 (prev 54.0); in-line expected; expansion territory
+  - Construction Spending (10 AM ET)
+- **⚠️ WARSH HAWKISH — ECB Sintra Forum (Portugal)**: New Fed Chair Kevin Warsh signaled hawkish stance on inflation at ECB's Sintra panel. Diverged from market expectations. This triggers our explicit **PAUSE** condition on new entries (per Jul 1 execution plan).
+- **NFP TOMORROW (Jul 2 8:30 AM ET)**: Major binary event. Next catalyst that could open/close entry window.
+- **Jul 3 CLOSED**: Independence Day observed. 3-day weekend ahead.
+- **Earnings BMO today**: No major S&P 500 companies. NKE was AMC Jun 30 ($0.13 est) — result unknown; consumer read.
+- **AVGO**: Dropped on cautious guidance despite strong AI revenue ($56B 2026 projection). Not a buying setup.
+
+### Politician Signals (Capitol Trades — STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal Level |
+|------------|--------|--------|------|------------|-----------|--------------|
+| **Nancy Pelosi** | **INTC** | BUY (calls, $50 strike Mar 2027) | **$1M–5M** | May 29 | Jun 24 | **PRIMARY direction** — $1M+ threshold ✓; 33-day lag ✓ |
+| **Nancy Pelosi** | **UBER** | BUY (calls, $50 strike Mar 2027) | **$500K–1M** | May 29 | Jun 24 | Secondary — above threshold; Cons. Disc. = Least Favored |
+| **Josh Gottheimer** | **LITE** (Lumentum) | BUY | Unknown size | May 2026 | — | Watchlist only — size unverified; fiber optics/AI data center play |
+| McCaul BJ/LPX | — | BUY | $50K–100K | May 4-5 | Jun 11 | Watchlist only — non-momentum sectors |
+
+No new disclosures since Jun 24. Pelosi signals remain active; no new whitelisted buys found.
+- Dan Crenshaw: REMOVED (lost House seat Mar 2026)
+- Tommy Tuberville: 400+ trades YTD mostly sells; no qualifying single-stock buys
+- Ro Khanna: high activity (4,000+ trades) — recent sales; no qualifying buys found
+
+### Live Price Verification (STEP 3d — Alpaca quotes, Jun 30 EOD/AH)
+| Ticker | Alpaca Quote | Jun 30 Close | Entry Zone | Stop (10%) | Target (+20%) | R:R | Status |
+|--------|-------------|--------------|------------|------------|---------------|-----|--------|
+| INTC | bid $133.52 / ask $146.87 (AH, wide) | **$137.90** | $131–133 (prior zone) | $124.11 | $165.48 | 2:1 | ⚠️ ABOVE ENTRY ZONE — was $131-133, now $137.90 |
+| UBER | bid $69.54 / ask $76.14 (AH, wide) | ~$75 | ~$75 | $67.65 | $90.20 | 2:1 | Watchlist — Cons. Disc. Least Favored |
+| AMAT | bid $690.32 / ask N/A (AH) | ~$695 | $620–640 (pullback) | ~$558 | ~$770 | 2:1 | ✗ Still extended — do NOT chase |
+| MU | bid $1,087.26 / ask $1,225.62 (AH, wide) | ~$1,154 | Re-entry ≥3 days stable | ~$1,039 | ~$1,385 | 2:1 | Watch — need stability confirmation |
+
+Note: AH spreads are wide/unreliable. Use open prints at market open for actual entry sizing.
+
+### Crypto (STEP 3c)
+- **BTC**: ~$55,500 — 7-day trend: ~$60,000 (Jun 24) → $55,500 = **-7.5% in 7 days**; bearish trend continuing; spot ETF weekly outflows $1.79B; MSTR authorized $1.25B BTC sale framework
+- **ETH**: ~$1,700; continued downtrend; no setup
+- **RSI**: Not <30 on BTC; no MA crossover bullish signal
+- **Decision**: SKIP all crypto — bearish weekly trend + institutional outflows = no entry
+
+### Sector Momentum YTD 2026
+| Sector | YTD Return | Schwab Rating | Notes |
+|--------|-----------|---------------|-------|
+| Energy | +26.47% | Neutral | Oil declining $119→$70 — tailwind fading |
+| Consumer Staples | +10.66% | More Favored | Defensive rotation |
+| Industrials | +9.61% | More Favored | AI capex + infra |
+| Technology/IT | ~+8% est | Neutral | Semi recovery ongoing; cautious post-Warsh |
+| Healthcare | More Favored | LLY/UNH defensive+growth dual appeal |
+| Consumer Discretionary | Least Favored | Avoid |
+
+### Trade Ideas
+**No new entries today — both conditions breached:**
+1. **Warsh HAWKISH** (explicit pause trigger per plan)
+2. **NFP tomorrow** (binary event; do not enter day before)
+
+**For Jul 2 post-NFP evaluation:**
+1. **INTC** — Pelosi $1M+ buy (May 29) + AI/foundry turnaround (Q1 2026 beat EPS $0.29 vs $0.01 est)
+   - Risk: stock extended past entry zone ($137.90 vs $131-133 plan); analyst PT $93.93 vs current price = extreme premium; IT sector Neutral
+   - **Cool NFP** → get live quote Jul 2 at open; enter if price ≤ $140 AND NQ green post-NFP
+   - **Hot NFP** → skip; re-evaluate Jul 7
+2. **UBER** — Pelosi $500K buy (May 29) + robotaxi/autonomous rideshare; strong FCF; Waymo competitive risk
+   - Watchlist only; need sector re-rating or additional catalyst for primary eligibility
+3. **INTC** max position: 15% × $110k = $16,500 → at $137.90 = 119 shares (integer, round down); stop GTC 10% trail at $124.11
+
+### Risk Factors
+- **Warsh hawkish**: rate cut timeline extending; high-multiple growth stocks at risk (INTC forward P/E 128x especially vulnerable)
+- **NFP Jul 2**: hot print → equities selloff; cool print → relief rally, entry window
+- **Jul 3 closed**: any position entered today holds through 3-day weekend (Wed close → Mon open) with heightened overnight risk
+- **BTC -7.5% in 7 days**: crypto bearish; no crypto allocation
+- **INTC analyst PT disconnect**: avg PT $93.93 vs current $137.90 = stock trading 47% above consensus target — purely momentum/politician trade
+- **ES/NQ -0.28%/-0.37% premarket**: mildly negative start to Q3; could worsen post-ISM 10 AM
+
+### Decision
+**NO TRADES TODAY**
+- Warsh hawkish = explicit PAUSE condition (per Jul 1 execution plan)
+- NFP tomorrow = binary event; do not enter day before
+- Jul 3 closed = 3-day weekend risk on any position entered today
+- **Strategy**: Stay 100% cash through today. Evaluate Jul 2 at 8:30 AM NFP print:
+  - Cool/in-line → enter INTC (live quote at open) + 1 more position; target 25-30% deployed
+  - Hot → stay flat; reload plan for Jul 7
+
+---
+
 ## YYYY-MM-DD - Pre-market Research
 
 ### Account
