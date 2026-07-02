@@ -5438,3 +5438,137 @@ Clean. MRVL stopped out Jun 17 (+7.48%, +$1,186) and MU stopped out Jun 16 (+13.
 - **NVDA**: -0.86% today; NASDAQ up — more relative weakness. Secondary watchlist; not entering yet.
 - **MU**: Jun 24 AMC earnings — binary. No entry before event.
 
+
+---
+
+## 2026-07-02 - Pre-Market Research
+
+### Account Snapshot
+- **Equity:** $110,083.46 | **Cash:** $110,083.46 (100%) | **Deployed:** 0%
+- **Positions:** 0 | **Daytrade count:** 0/3 | **Trades this week:** 0/7
+- **Phase P&L:** +$10,083.46 (+10.08%)
+
+### Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| — | 0 | 0 | ✓ Clean |
+
+Broker `[]` positions, `[]` orders. No discrepancies.
+
+### Market Context
+- **WTI:** $67.76/bbl (-1.19%) | **Brent:** $70.73/bbl (-1.17%) — oil continuing decline; -29% month, Iran exports unsold barrels piling up
+- **S&P 500 Futures:** 7,538.75 (-0.06%) | **NQ100 Futures:** 29,998.75 (-0.32%) | **DOW Futures:** 52,639.00 (-0.06%)
+- **VIX:** 16.59 (spot as of Jul 1 close) — moderate, not alarming
+- **Yesterday (Jul 1):** S&P -0.22%, Nasdaq -1.54%, Dow -0.03% — tech/semis led the decline
+- **Gold:** $4,066 (+0.88%) — safe-haven bid
+
+### KEY EVENT TODAY: NFP June 2026 at 8:30 AM ET
+- **Expected:** 114K (range 110-114K) | **Previous:** 172K (May)
+- **Unemployment rate:** forecast 4.3% (unchanged)
+- **Avg hourly earnings:** expected +0.3% MoM, +3.5% YoY
+- **Context:** Core PCE 3.4% (highest since Oct 2023); Warsh Fed hawkish → market pricing possible Sep hike
+- **Binary gate rule:** Evaluate post-print. NO NEW ENTRIES before 8:30 AM.
+
+### Earnings Today (Jul 2)
+- No major US earnings BMO or AMC today (Jul 3 = market closed)
+- Q2 earnings season kicks off next week: PepsiCo (PEP) Jul 9 PMO; Delta Air Lines (DAL) Jul 10 PMO
+
+### Sector Momentum YTD 2026 (H1 final)
+| Sector | H1 YTD |
+|--------|--------|
+| Energy | +18.7% |
+| Industrials | +17.9% |
+| Information Technology | +16.5% |
+| Real Estate | +12.1% |
+| Materials | +10.5% |
+| Consumer Staples | +8.3% |
+| Utilities | +7.8% |
+| Healthcare | +3.9% |
+| Communication Services | +0.4% |
+| Consumer Discretionary | -1.2% |
+| Financials | -1.9% |
+
+Schwab ratings (Jun 26): More favored = Communication Services, Healthcare, Industrials, Materials. IT = Neutral. Caution: Consumer Discretionary (least favored), Real Estate (least favored). Semis rotation OUT ongoing in early Q3.
+
+### Recent Market Notes
+- **Semiconductor selloff Jul 1:** MU -10.57%, KLAC -11.77%, TER -11.68%, ALAB -10.80%, SNDK -10.62%, CRWV -13.92%
+- **Winners Jul 1:** APP +9.58%, META +8.81%, GIS +8.53%, PLTR +7.77% — rotation into software/consumer from semis
+- **INTC:** Hit 52-week high $142.22 on Jul 1, then pulled back; Alpaca AH bid $120.46 (8pm Jul 1); multiple sites show $127 area today
+
+### Politician Signals — WHITELIST CHECK (45-day window: after May 18, 2026)
+
+**Qualifying trades (≥$25K buys from whitelist):**
+| Politician | Ticker | Trade Date | Disclosed | Amount | Signal Type |
+|-----------|--------|-----------|-----------|--------|-------------|
+| **Nancy Pelosi** | **INTC** | May 29, 2026 | Jun 24, 2026 | **$1M–5M (~$3M est)** | **PRIMARY** |
+| **Nancy Pelosi** | **UBER** | May 29, 2026 | Jun 24, 2026 | **$500K–1M (~$750K est)** | **PRIMARY** |
+
+- **Gottheimer:** Recent buys all $1K-15K — below $25K threshold → NOT qualifying
+- **Khanna:** Recent buys all $1K-15K — below $25K threshold → NOT qualifying
+- **McCaul, Crenshaw, Tuberville, Green, Mast:** No new buys identified in 45-day window
+
+**Signal assessment:**
+- INTC: Pelosi $3M buy + IT sector YTD momentum (+16.5%) = PRIMARY catalyst eligible (1 whitelist politician + sector momentum per LEARNING MODE rules)
+- UBER: Pelosi $750K buy = PRIMARY catalyst eligible; autonomous rideshare thesis; need sector confirmation
+
+### Crypto Research (LEARNING MODE)
+- **BTC:** $59,979 (Jul 2) | Jul 1: $58,550 | 7-day: -1.5% (Jun 25 $60,909 → $59,979) | 30-day: -21% ($73.8K → $58.5K) | 1-year: -43%
+- **Trend:** Declining from ATH $126K (Oct 2025); approaching possible bottom zone $55-60K but no confirmed reversal
+- **RSI:** Not confirmed oversold (<30); bearish macro (hawkish Warsh + possible Sep hike)
+- **Catalyst:** Investing.com notes "Bitcoin rebounded above $60K" ahead of NFP — speculative only
+- **Decision: NO CRYPTO TRADE** — no oversold trigger, declining trend, hawkish macro headwind
+
+### STEP 3d — Live Price Verification (Alpaca quotes from Jul 1 AH)
+| Ticker | Alpaca AH Bid | Time | Status |
+|--------|--------------|------|--------|
+| INTC | $120.46 | Jul 1 20:00 ET | AH bid (thin); day traded $126.60–$139.63 range |
+| UBER | $68.87 | Jul 1 20:00 ET | AH bid |
+
+⚠️ Note: AH bids in thin market may not reflect actual open prices. MUST re-verify with live Alpaca quote at market open before any entry. DO NOT use these stale prices for order execution.
+
+**INTC sizing calc (conditional — only if NFP cool + NQ green):**
+- Entry: use live Alpaca ask at 9:30-9:35 AM; expected range ~$120-$130
+- Stop: entry × 0.90 (10% trail GTC)
+- Target: entry × 1.20 (20% above)
+- Notional: 15% × $110,083 = $16,512; at $125 ask → 132 shares (int. down)
+- R:R: 2:1
+
+**UBER sizing calc (conditional — second position, only if INTC entered first):**
+- Entry: live ask at open; expected ~$68-$72 range
+- Stop: entry × 0.90
+- Target: entry × 1.20
+- Notional: 15% × $110,083 = $16,512; at $70 ask → 235 shares (int. down)
+- R:R: 2:1
+- Note: UBER needs additional catalyst beyond Pelosi buy alone — check autonomous rideshare news or options flow at open
+
+### Risk Factors
+1. **NFP binary event 8:30 AM:** Hot print (>175K) = stay flat; cool (<130K) = conditional entry
+2. **Jul 3 market closed (Independence Day):** Any position entered today held through 3-day weekend (Thu→Mon)
+3. **Semi sector rotation:** INTC -9% today from previous close; broader semi selloff ongoing; further selling risk if semis remain out of favor
+4. **Hawkish macro:** Warsh hike pricing + core PCE 3.4% = elevated rate risk for high-multiple tech
+5. **Entry on NFP day after sector selloff:** Can be buy-the-dip OR catching a falling knife — need NFP to confirm before committing
+6. **Q3 week 1:** Historically can be choppy after Q-end rebalancing
+
+### Trade Ideas
+
+**1. INTC — CONDITIONAL ENTRY (NFP-gated)**
+- **Catalyst:** Pelosi $3M buy May 29 (PRIMARY per LEARNING MODE rules) + IT sector +16.5% YTD + AI/foundry turnaround (INTC +278% YTD); Tesla Terafab/INTC partnership noted
+- **Condition gate:** (a) NFP ≤ 130K printed 8:30 AM AND (b) NQ green at 9:30 AM AND (c) live Alpaca ask ≤ $130
+- **Entry:** Live Alpaca ask at open (DO NOT use stale prices)
+- **Stop:** 10% trail below entry (GTC, integer shares)
+- **Target:** +20% from entry
+- **Risk:** Semi rotation headwind; analyst consensus "Hold" ($98 avg PT — significantly below market); 3-day weekend hold; 52-week high $142 = overhead supply
+- **Sizing:** ~132 shares at $125 est (15% equity, round DOWN per rule 14)
+
+**2. UBER — WATCHLIST ONLY (Mon Jul 7)**
+- **Catalyst:** Pelosi $750K buy May 29 (PRIMARY eligible) + autonomous rideshare secular theme
+- **Constraint:** Do not enter UBER same day as INTC on NFP day (too many new entries on volatile day); defer to Mon Jul 7 pre-market research
+- **Live price needed:** Current AH bid $68.87; verify Monday open
+
+### Decision
+**NFP-GATED:**
+- **COOL NFP (≤130K) + NQ green:** Enter INTC at open with live Alpaca quote, 10% trail, 15% equity (target 15% deployed → 30% with second trade next week)
+- **HOT NFP (>175K):** HOLD FLAT, reload Jul 7; no new entries before 3-day weekend
+- **MIXED (130-175K):** Default HOLD, wait for dust to settle over weekend, reload Jul 7
+- **UBER:** Deferred to Jul 7 regardless; avoid stacking two entries on volatile NFP day
+
