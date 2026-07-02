@@ -4769,3 +4769,49 @@ None. No action → no ClickUp notification.
 - **Cool/in-line NFP** → INTC at open (quote ≤$140, NQ green); add 1 more position; target ~25–30% deployed
 - **Hot NFP** → stay flat through Jul 4 weekend; reload Jul 7
 
+---
+
+## 2026-07-02 - Market-Open Session
+
+**Portfolio:** $110,083.46 equity | **Cash:** $110,083.46 (100%) | **Positions:** 0 | **Deployed:** 0% | **Phase P&L:** +$10,083.46 (+10.08%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| — | 0 | 0 | ✓ Match — broker `[]`, log 0 positions |
+
+Broker confirmed $110,083.46 equity, $0 long_market_value, 0 open orders. Clean.
+
+### Step 1b — Live Price Re-Verification (9:31 AM ET)
+| Ticker | AH Bid (Jul 1 8pm) | Live Ask (9:31 AM) | Entry Zone | Status |
+|--------|-------------------|-------------------|------------|--------|
+| INTC | $120.46 | $125.84 | ≤$130 | ✓ In zone |
+| UBER | $68.87 | $72.87 | watchlist only | Jul 7 |
+
+### NFP Result (8:30 AM ET — June 2026)
+- **Actual: 147,000 jobs added** (vs expected ~114K)
+- **Unemployment: 4.1%** (fell vs expected 4.3% — strong economy)
+- **Avg hourly earnings:** +0.2% MoM, +3.7% YoY (in-line)
+- **Verdict: MIXED range (130-175K)** — above "cool" threshold of ≤130K
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 0 — **NO TRADES** (MIXED NFP gate = default HOLD)
+- Daytrade count: 0/3 | Trades this week: 0/7 | New entries: 0/3
+
+### Decision — NO TRADES
+NFP 147K falls in **MIXED range (130-175K)** → per research plan: "Default HOLD, wait for dust to settle over weekend, reload Jul 7"
+
+Additional blockers:
+1. **NFP 147K > 130K cool threshold** → primary INTC gate FAILED
+2. **Jul 3 closed** (Independence Day observed) → any position held through 3-day weekend (Thu→Mon)
+3. **Semi sector rotation** — INTC fell from $139.63 (Jul 1 high) to $125.84 at open today; ongoing selling pressure
+4. **Hawkish macro** — Warsh Fed + core PCE 3.4%; strong jobs = less rate-cut pressure
+
+INTC ask $125.84 ✓ in zone, but NFP gate (a) failed → no entry.
+
+### Open Positions
+None
+
+**Notes:** NFP beat consensus (147K vs 114K est) with unemployment falling to 4.1%. Market reaction is positive (QQQ open $713.98, trading higher intraday). But the research plan explicitly requires NFP ≤130K for INTC entry, and 147K is MIXED. With Jul 3 closed and semi rotation headwind, the right call is to wait. UBER deferred to Jul 7 regardless. INTC deferred to Jul 7 — re-verify live quote; if NQ stable and INTC ≤$133, entry criteria apply. Trades this week: 0/7. New entries: 0/3. Phase P&L: +$10,083.46 (+10.08%).
+
