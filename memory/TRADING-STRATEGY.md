@@ -10,6 +10,20 @@ Beat the S&P 500 over the challenge window. Stocks + crypto - no options, ever.
 - PDT limit applies to stocks: 3 day trades per 5 rolling days (account < $25k)
 - Crypto has no PDT limit (24/7 market)
 
+## ⚠ CRYPTO SLEEVE — SEPARATE, DO NOT TOUCH
+Crypto is managed by a SEPARATE deterministic DCA sleeve (`tools/crypto_dca.py`,
+launchd `lt.trading-bot.crypto-dca`, runs 3x/week Mon/Wed/Fri). It is DCA +
+dip-buying, HODL ONLY, targeting ~$55k (50% BTC / 25% ETH / 15% SOL / 10% LINK).
+
+The stock routines (pre-market, market-open, midday, daily-summary, weekly-review)
+MUST treat every crypto position as UNTOUCHABLE:
+- A crypto symbol is any symbol containing "/" (e.g. BTC/USD, ETH/USD, SOL/USD, LINK/USD).
+- NEVER sell, close, stop-loss, cut, take-profit, tighten-stop, or reconcile-away crypto.
+- In EVERY step that iterates `alpaca.sh positions`, FILTER OUT all "/"-symbols FIRST.
+- The "-7% cut losers" rule, trailing stops, and partial-profit rules apply to STOCKS ONLY.
+- Crypto drawdowns are EXPECTED and handled by the sleeve buying MORE, never selling.
+Stock and crypto sleeves share the same cash but operate independently.
+
 ## Mode: LEARNING (paper only)
 Aggressive cadence to gather statistically meaningful trade samples in 4 weeks.
 BEFORE switching to live, REVERT to original conservative rules (commented below).
