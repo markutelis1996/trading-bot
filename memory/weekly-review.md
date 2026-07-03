@@ -548,3 +548,69 @@ Portfolio: 100% cash ($110,083.49). No open positions.
 - Phase P&L: +$10,083.49 (+10.08%) — still ahead of S&P benchmark ✓
 
 ---
+
+## Week ending 2026-07-03
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $110,083.49 (EOD Jun 27) |
+| Ending portfolio | $110,129.20 |
+| Week return | +$45.71 (+0.04%) |
+| S&P 500 week | ~+1.8% (week ending Jul 3; last trade day Jul 2) |
+| Bot vs S&P | -1.76% underperformance |
+| Trades | 0 new entries (W:0 / L:0 / open:0 stocks) |
+| Win rate | N/A (no closed trades) |
+| Best trade | N/A |
+| Worst trade | N/A |
+| Profit factor | N/A |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| — | — | — | — | — | No trades this week |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| — | — | — | — | — | — | — |
+
+Stocks: 0 positions. 100% cash ($107,338.95). Crypto DCA sleeve: BTC+ETH+SOL+LINK = $2,790.25 MV (untouched, sleeve-managed).
+
+### What Worked
+- Q-end blackout (Rule 16) correctly enforced through Jun 30 — avoided last-day Q2 rebalancing headwind
+- Warsh hawkish signal (ECB Sintra Jul 1) correctly blocked Jul 1 entries per pre-written pause condition
+- NFP 147K mixed result (>130K cool-entry gate) correctly blocked Jul 2 entries per plan
+- 3-day weekend risk (Jul 3 closed) correctly factored into Jul 2 no-trade decision
+- Shortened trading week (only 3 effective trading days) meant narrow entry windows; patience was rules-correct
+
+### What Didn't Work
+- 0% stock deployment all week — fifth consecutive week severely underdeployed
+- S&P 500 +1.8% vs bot +0.04% = -1.76% underperformance; cash drag continues
+- No positions built entering Q3 — new quarter started with empty book
+- NFP gate threshold (≤130K for clean entry) was too strict — 147K is benign; market rallied anyway
+- INTC thesis valid all week (Pelosi $1M-5M signal + AI foundry turnaround) but macro gates blocked every session
+
+### Key Lessons
+- **NFP cool-entry gate (≤130K) may be too conservative**: 147K is healthy range — market reacted positively. Consider ≤175K threshold (or "NQ green post-NFP = enter") after one more data point
+- **Warsh pause should be 1 day, not 1 week**: Post-Warsh-hawkish Jul 1, market recovered by Jul 2 open. Hawkish surprise = 1-session pause, not full-week blackout unless macro data confirms fear
+- **Cash drag compounding**: 0% deployed through +1.8% S&P week after C+ prior week eroding phase lead. Phase still +10.13% but gap to S&P benchmark narrowing
+- **Shortened weeks require faster gates**: 3-day stock week (Mon–Wed, Thu closed) leaves zero room for multi-day pause chains. Pre-condition entries the night before
+
+### Adjustments for Next Week
+- **Mon Jul 7 priority: INTC** — Pelosi $3M (May 29) + Q1 FY26 EPS $0.29 vs $0.01 beat; entry if live ask ≤$128, NQ green; Q2 earnings Jul 23 = 11 trading days; acceptable at 15% size
+- **AAPL secondary**: mega-cap software rotation; verify ≤5% gap from Jul 2 close; slot 2 after INTC fills
+- **UBER tertiary**: Pelosi $500K; watchlist only unless sector re-rates
+- **Deployment target**: 25-30% by Tue Jul 8; 60-70% by Thu Jul 10; 75-85% by Jul 11
+- **NFP gate**: Consider revising to ≤175K after one more data point; track outcome Jul 7 vs holding flat
+- **Q2 earnings**: INTC Jul 23, GOOGL Jul 23 — enter positions before Jul 18 blackout window
+
+### Overall Grade: C
+- Rules followed correctly every session (Q-end, Warsh, NFP) ✓
+- No rule violations ✓
+- +0.04% vs S&P +1.8% = -1.76% underperformance ✗
+- 0 new trades — 5th consecutive week with near-zero deployment ✗
+- 0% stock deployment at week end ✗
+- Phase P&L: +$10,129.20 (+10.13%) — still ahead of benchmark ✓
+
+---
