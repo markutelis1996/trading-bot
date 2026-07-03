@@ -5572,3 +5572,148 @@ Schwab ratings (Jun 26): More favored = Communication Services, Healthcare, Indu
 - **MIXED (130-175K):** Default HOLD, wait for dust to settle over weekend, reload Jul 7
 - **UBER:** Deferred to Jul 7 regardless; avoid stacking two entries on volatile NFP day
 
+---
+
+## 2026-07-03 - Pre-market Research
+
+### Account (Alpaca live)
+- Equity: $110,078.21
+- Cash: $108,711.24
+- Long market value: $1,366.97 (crypto DCA sleeve only — BTC/ETH/SOL/LINK)
+- Buying power: $434,844.96
+- Daytrade count: 0/3
+- Deployed (stocks): 0%
+- Phase P&L: +$10,077.61 (+10.08%)
+- Trades this week: 0/3
+
+### ⚠️ MARKET CLOSED TODAY — Independence Day (Jul 3 observed)
+Markets reopen Monday Jul 7. This is a forward-planning research session only. No trades possible today.
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| — | 0 | 0 | ✓ Match — broker returns 0 stock positions, 0 orders |
+
+Crypto DCA sleeve (filter by "/" symbols, UNTOUCHABLE):
+- BTC: 0.011103 @ $61,425 | ETH: 0.201533 @ $1,705 | SOL: 2.5442 @ $80.54 | LINK: 17.600 @ $7.75
+- All crypto unrealized ~-$1.80 collectively (noise-level drift). HOLD per sleeve rules.
+
+### Market Context (Jul 2 close + Jul 3 futures)
+- **WTI**: $69.03 (+0.94%) | **Brent**: $72.13 (+0.46%) — stabilizing near 3-year lows; Hormuz tanker traffic improving; oil macro tailwind faded
+- **S&P 500 (Jul 2 close)**: 7,483.24 (+0.01%) | **Dow**: 52,900 (+1.14%, record high) | **Nasdaq**: 25,832 (-0.80%)
+- **VIX**: 16.15 (-2.65%, Jul 2 close) — declining, low, risk-on tone
+- **Jul 3 futures**: S&P 500 muted (market closed); no premarket action today
+- **Gold**: $4,135 (+1.3% Jul 2) | **BTC**: ~$61,400 (stable)
+
+### Jul 2 Session Summary
+- **Theme**: Divergent rotation — Dow record, Nasdaq down; semis CRUSHED, mega-cap software outperformed
+- **Chip selloff (Jul 2)**: SOXX -6% | SNDK -14% | TER -13.6% | KLAC -11.5% | LRCX -10.2% | WDC -9.9% | INTC -5.25% | NVDA -1.39% | MU -5.49%
+- **Winners (Jul 2)**: AAPL +4.84% | MSFT +1.62% | GPC +12.92% | MRNA +10.01%
+- **Context**: Semi sector +82% H1 2026; profit-taking + rotation to broader market. JPM note: "AI chip winners may face tougher road as hyperscalers catch up." Analysts: "Rotation, not breakdown."
+- **NFP recap**: 57,000 ADP private payrolls (weaker than expected). "Weak June jobs report quieted rate-hike conversation" — mildly positive for equities; Warsh hawkish base remains.
+
+### Next Week Economic Calendar (Jul 7–10)
+| Date | Release | Notes |
+|------|---------|-------|
+| Mon Jul 7 | ISM Services (Jun) 10am; S&P Svcs PMI 9:45am | Services expansion expected 54.5; key read |
+| Tue Jul 8 | US Trade Balance (May) 8:30am | -$55.9B prior |
+| Wed Jul 8 | FOMC June meeting minutes 2pm | Key: will Warsh/Fed signal rate hike path? |
+| Thu Jul 9 | Initial jobless claims 8:30am; Existing home sales 10am | |
+| Fri Jul 10 | Nothing major | |
+| Q2 Earnings kick-off: PEP Jul 9 AMO; DAL Jul 10 AMO | INTC Q2 earnings Jul 23 |
+
+### Sector Momentum (Schwab Jun 26)
+| Sector | Rating |
+|--------|--------|
+| Communication Services | More Favored |
+| Healthcare | More Favored |
+| Industrials | More Favored |
+| Materials | More Favored |
+| IT/Tech, Energy, Financials, Consumer Staples | Neutral |
+| Consumer Discretionary, Real Estate, Utilities | Least Favored |
+
+### Politician Signals — WHITELIST CHECK (STEP 3b, 45-day window)
+No new disclosures since Jun 24. Active signals remain:
+
+| Politician | Ticker | Trade Date | Disclosed | Amount | Signal Level |
+|-----------|--------|-----------|-----------|--------|-------------|
+| **Nancy Pelosi** | **INTC** | May 29, 2026 | Jun 24, 2026 | **$3M est ($1M-5M)** | **PRIMARY** — $3M >> $25K threshold; 35-day lag ✓ |
+| **Nancy Pelosi** | **UBER** | May 29, 2026 | Jun 24, 2026 | **$750K est ($500K-1M)** | **PRIMARY eligible** — but Cons. Disc. = Least Favored headwind |
+| McCaul BJ/LPX | — | May 4-5 | Jun 11 | $50K-100K | Watchlist only — non-momentum |
+
+- **Gottheimer**: Recent trades all SELLS (ABT May 27, INTU May 22); no qualifying buys
+- **Tuberville**: 11 trades this year, $375K total — no qualifying single-stock buys found
+- **Green, Mast, Khanna**: No qualifying buys identified in 45-day window
+- **Pelosi not running for re-election 2026**: Final disclosure cycle, still valid this session
+
+**INTC signal re-assessment:** Stock pulled back from $142.35 (Jul 1 52-week high) to ~$120 AH (Jul 2). NOW BELOW prior entry zone ($131-133). Pelosi's basis ~$110-124 (May 29) = current price near Pelosi cost basis. BUT: massive semi selloff, analyst avg PT $98.50 (-17%), Q2 earnings Jul 23 (binary in 3 weeks), forward PE 132x.
+
+### STEP 3d — Live Price Verification (Alpaca AH quotes, Jul 2 8:00 PM ET)
+| Ticker | Alpaca AH Bid | Alpaca AH Ask | AH Mid | Stop (10%) | Target (+20%) | R:R | Note |
+|--------|--------------|--------------|--------|------------|--------------|-----|------|
+| INTC | $112.76 | $125.66 | ~$119.21 | ~$107.29 | ~$143.05 | 2:1 | ⚠️ Wide AH spread; use open print Jul 7 |
+| AAPL | $291.60 | $321.19 | ~$306.40 | ~$275.76 | ~$367.68 | 2:1 | ⚠️ Very wide AH spread; use open print Jul 7 |
+| UBER | $70.62 | $76.81 | ~$73.72 | ~$66.35 | ~$88.46 | 2:1 | Watchlist; need additional catalyst |
+
+⚠️ AH bids/asks are thin-market spreads — UNRELIABLE. MUST re-verify with live Alpaca ask at 9:31-9:35 AM Jul 7 before any entry decision. DO NOT size orders using these prices.
+
+**INTC estimated sizing** (conditional — Jul 7 only if entry criteria met):
+- Entry: live ask at open (expected range ~$115-$128)
+- Notional: 15% × $110,078 = $16,512; at $120 est → 137 shares (integer DOWN per rule 14)
+- Stop: 10% trail GTC | Target: +20% | R:R 2:1
+
+**AAPL estimated sizing** (conditional — Jul 7 only if rotation continues):
+- Notional: 15% × $110,078 = $16,512; at $308 est → 53 shares (integer DOWN per rule 14)
+- Stop: 10% trail GTC | Target: +20% | R:R 2:1
+
+### Trade Ideas for Jul 7
+
+**1. INTC — Watchlist (downgraded from Primary entry)**
+- Catalyst: Pelosi $3M buy (May 29) = signal confirmed; IT sector YTD +16.5%; AI/foundry turnaround (Q1 2026 EPS $0.29 vs $0.01 est)
+- Pullback opportunity: $142 → $120 = -15% in 2 days = potential entry zone if sector stabilizes
+- Additional risks identified this session:
+  - Semi sector rotation continuing: SOXX -6% Jul 1, further -X% Jul 2. Not done yet?
+  - INTC Q2 earnings Jul 23 = BINARY EVENT in 3 weeks. Entering now means holding through earnings binary.
+  - Analyst consensus PT $98.50 = stock at 22% premium to consensus even at $120
+  - 24/7wallst.com SELL rating with $103 target; 247 articles "prediction: plummet"
+  - Tesla "Terafab" uses INTC (minor catalyst)
+- **Entry conditions for Jul 7**: (a) NQ green at 9:31 AM; (b) SOXX not continuing collapse; (c) live INTC ask ≤ $122; (d) catalyst confirmed (no new negative INTC news over weekend)
+- Risk factor: Holding through Q2 earnings Jul 23 violates normal playbook of exiting before binary events
+
+**2. AAPL — New Primary Watchlist (earnings-backed)**
+- Catalyst: Q2 FY26 massive beat (EPS $2.01 vs $1.94; Rev $111.2B vs $109.3B est; Q3 guide 14-17% vs 9.5%); WWDC 2026 AI Siri revamp; Google Gemini integration; Supreme Court Apple-Epic hearing (legal overhang reduced); iPhone purchase intent +300bps (UBS)
+- Rotation signal: AAPL +4.84% on Jul 2 while semis -6% = AAPL as safe harbor in tech selloff
+- Communication Services = More Favored (Schwab) — AAPL increasingly viewed in this context
+- Q3 earnings Jul 30 = 4 weeks away (risk, but recent quarter confirmed strong trajectory)
+- No politician buy signal — catalyst is earnings beat + sector rotation; satisfies entry checklist without Pelosi
+- AH mid ~$306; open estimate ~$300-315 (verify Jul 7)
+- **Entry condition for Jul 7**: (a) live ask ≤ $312; (b) AAPL holding gains from Jul 2; (c) NQ not crashing
+- This is a cleaner thesis than INTC: earnings-backed, sector-backed, rotation into quality
+
+**3. UBER — Secondary (Jul 7 deferred)**
+- Catalyst: Pelosi $750K buy (May 29) = eligible
+- Consumer Discretionary = Least Favored = headwind. Skip unless autonomous driving news catalyst added
+- Evaluate only if INTC and AAPL both entered; max 2 new positions Jul 7
+
+### Risk Factors
+1. **FOMC June minutes Jul 8 2pm**: Hawkish tone = equities selloff; any rate hike signal = tech re-rate lower
+2. **Semi rotation not over**: Semis crashed 2 days in a row; further selling risk if AI capex concerns persist
+3. **INTC Q2 earnings Jul 23**: Binary event; any position entered Jul 7 held through this report
+4. **ISM Services Mon Jul 7**: Below 50 → contraction signal → risk-off
+5. **Warsh hawkish**: Base rate assumption; first potential hike pricing may accelerate
+6. **Zero deployment**: 100% cash, 0% stocks since Jun 22 (12 trading days). Missing bull market from Dow record highs.
+7. **Sector cap check**: Current stock deployment = 0%; can enter 6-8 positions at 15% each; sector cap 60%
+
+### Decision
+**TODAY (Jul 3)**: NO TRADES — market closed (Independence Day observed)
+
+**Monday Jul 7 execution plan**:
+1. Pre-open: Check overnight futures; if NQ -2% or more → HOLD ALL ENTRIES, reassess
+2. 9:31 AM: Get live Alpaca quotes for INTC + AAPL
+3. **AAPL (priority #1)**: If ask ≤ $312 AND NQ green AND AAPL holding Jul 2 gains → BUY 53 shares, 10% trail GTC, target +20% = ~$374. No politician signal but earnings + rotation catalysts = primary eligible
+4. **INTC (priority #2)**: If ask ≤ $122 AND NQ green AND SOXX stable → BUY 137 shares, 10% trail GTC, target +20% = ~$146. CAVEAT: Hold through Q2 earnings Jul 23 — ensure thesis conviction before entry
+5. **Max 2 entries Jul 7** (15% each = 30% deployed); add more post-FOMC minutes Jul 8 clarity
+6. **UBER**: Only if both AAPL + INTC entered AND additional autonomous/rideshare catalyst found
+
+**Default**: HOLD if NQ opens -1.5% or worse; do not deploy capital into a selloff without confirmed thesis
+
