@@ -5717,3 +5717,109 @@ No new disclosures since Jun 24. Active signals remain:
 
 **Default**: HOLD if NQ opens -1.5% or worse; do not deploy capital into a selloff without confirmed thesis
 
+## 2026-07-06 - Pre-market Research
+
+### Account
+- Equity: $110,124.46
+- Cash: $107,338.95
+- Buying power: $429,355.80
+- Daytrade count: 0/3
+- Deployed: ~2.5% (crypto sleeve only: BTC/ETH/SOL/LINK = $2,785.51 MV — UNTOUCHABLE)
+- Stock deployed: 0%
+- Phase P&L: +$10,124.46 (+10.12%)
+- Trades this week: 0/7 | New entries: 0/3
+
+### Reconciliation
+- Log: 0 stock positions | Broker: 0 stock positions | Orders: [] | ✓ Clean
+
+### Market Context (pre-open)
+- **S&P 500 futures**: +0.33% (7,553.25) ✓
+- **NQ100 futures**: +0.91% (29,826) ✓ ABOVE -1.5% hold threshold → entries eligible
+- **DOW futures**: +0.02%
+- **VIX**: 15.81 (Jul 3 close, declining from 17.65 on Jun 29) → low fear, risk-on
+- **WTI**: $68.78/bbl (+0.23%) | Brent: $72.12/bbl (flat) → oil stable, no geopolitical spike
+- **Macro note**: Oil down -22% from $97 peak (May 18) over last month
+
+### Earnings Today
+- Jul 6: No major earnings (SMPL — Simply Good Foods pre-open; irrelevant)
+- Thu Jul 9: PepsiCo (PEP) before open
+- Fri Jul 10: Delta Air Lines (DAL) before open
+- **Bank earnings kick off Jul 14** (BAC, C, GS, JPM, WFC)
+
+### Economic Calendar This Week
+| Date | Event | Forecast | Previous |
+|------|--------|----------|----------|
+| **Jul 6, 10 AM ET** | ISM Services PMI (Jun) | 54.2 | 54.5 |
+| **Jul 8, 2 PM ET** | FOMC June meeting minutes | — | HOLD |
+| Jul 9, 8:30 AM | Jobless claims | ~219K | — |
+| Jul 9, 10 AM | Existing home sales | ~4.20M | — |
+
+- **ISM Services (10 AM today)**: Forecast 54.2 vs prev 54.5 — slightly lower but still expansion (>50). Minor negative, not a deal-breaker.
+- **FOMC minutes Wed Jul 8** = key risk event. Warsh hawkish tone confirmed; if minutes signal rate hike path → tech re-rate lower. Do NOT add new positions Wed AM.
+
+### Sector Momentum (Schwab, as of Jun 26)
+| Sector | Rating | Trailing 6m | Trailing 12m |
+|--------|--------|-------------|--------------|
+| Communication Services | More Favored | +5.0% | +33.5% |
+| Health Care | More Favored | -3.4% | +14.8% |
+| Industrials | More Favored | +15.5% | +28.8% |
+| Information Technology | Neutral | +21.1% | +47.3% |
+| Consumer Discretionary | Least Favored | -2.8% | +13.3% |
+
+- **Semi rotation**: SOXX -8%+ on Jul 1-2 (Broadcom weak guidance triggered selloff); SNDK -14%, MU -5.5%, INTC -5.25% on Jul 2. NQ +0.91% today = bounce signal; rotation INTO quality tech (AAPL) and Comm Services observed.
+- **AAPL as safe harbor**: +4.84% on Jul 2 while semis crashed — clear rotation beneficiary.
+
+### Politician Signals
+| Politician | Ticker | Trade Date | Disclosed | Size | Signal |
+|-----------|--------|-----------|-----------|------|--------|
+| **Nancy Pelosi** | **INTC** | May 29, 2026 | Jun 24, 2026 | **$1M-$5M** | PRIMARY — 26-day lag ✓, >>$25K ✓ |
+| **Nancy Pelosi** | **UBER** | May 29, 2026 | Jun 24, 2026 | **$500K-$1M** | PRIMARY eligible — Cons. Disc. (Least Favored) headwind |
+
+- No new whitelist politician buys in last 30 days beyond the May 29 Pelosi trades (already factored in Jul 3 log)
+- Pelosi not running for re-election 2026 — final disclosure cycle, still valid
+
+### STEP 3d — Live Price Verification (Alpaca AH quotes, Jul 2 8:00 PM ET)
+⚠️ AH spreads are wide/unreliable — MUST re-verify at 9:31-9:35 AM open today before any entry.
+
+| Ticker | Alpaca AH Bid | Alpaca AH Ask | Last Close | Est. Open | Stop (10%) | Target (+20%) |
+|--------|--------------|--------------|------------|-----------|------------|--------------|
+| AAPL | $291.60 | $321.19 | $308.63 | ~$303-310 | ~$279 | ~$370 |
+| INTC | $112.76 | $125.66 | $120.35 | ~$118-124 | ~$108 | ~$144 |
+
+### Trade Ideas
+
+**1. AAPL — PRIMARY ENTRY (execute at open if criteria met)**
+- **Catalyst**: Q2 FY26 beat (EPS $2.01 vs $1.94 est; Rev $111.2B vs $109.3B, +17% YoY); WWDC 2026 AI Siri revamp; Services all-time high $31B; $100B buyback; iPhone 17 demand strong; AAPL is sector rotation safe harbor (+4.84% Jul 2 while semis -6%); Comm Services "More Favored" (Schwab); Morgan Stanley $440 target
+- **Entry condition**: Live ask at open ≤ $315 AND NQ not red at 9:31 AM
+- **Alpaca proof price**: AH ask $321.19 (stale/unreliable) → USE LIVE OPEN PRINT
+- **Sizing**: 15% × $110,124 = $16,519; at ~$307 est → **53 shares** (integer DOWN)
+- **Stop**: 10% trail GTC
+- **Target**: +20% = ~$368 | **R:R**: 2:1
+- **Q3 earnings risk**: Jul 30 (3.5 weeks) — plan to sell before if not at +25%; OR take partial profit at +25% per strategy rule 13
+- No politician signal needed — earnings + rotation = primary catalyst ✓
+
+**2. INTC — WATCHLIST ONLY (do not enter today)**
+- **Catalyst**: Pelosi $3M buy (May 29) = strong signal; HSBC doubled target to $200 (Jul 2); Cantor raised to $150; AI foundry EMIB/Foveros gaining traction
+- **BLOCKER**: Q2 earnings Jul 23 = binary in ~11 trading days. Entering now = holding through binary event. Gap-down risk on miss exceeds 10% trail stop protection. Strategy: WAIT for post-Jul 23 earnings. If beat → enter next session.
+- **Re-entry trigger**: Jul 23 earnings beat AND NQ green AND ask ≤ $130 → then enter with full conviction
+
+**3. UBER — WATCHLIST ONLY**
+- Pelosi $750K buy eligible but Consumer Discretionary = Least Favored. No additional catalyst. Skip.
+
+### Risk Factors
+1. **FOMC minutes Wed Jul 8 2 PM ET** → hawkish signal would re-rate tech lower; do NOT add positions Wed AM
+2. **ISM Services 10 AM today** → if actual < 50 (contraction) → abort AAPL entry
+3. **Semi rotation not over** → if AAPL drops below $285 before entry, reassess
+4. **NQ gap open** → if NQ -1.5%+ at open, hold all entries per plan
+5. **AAPL Q3 earnings Jul 30** → plan exit or partial profit before then if not in motion
+6. **Zero stock deployment 12 trading days** → missing bull market gains; urgency to deploy
+
+### Decision
+**AAPL — BUY at market open** (conditions: ask ≤ $315, NQ stable/green, ISM Services ≥ 50)
+- 53 shares, 10% trailing stop GTC, target +20%
+- Total notional: ~$16,300-16,500 → ~15% deployed
+
+**INTC — WATCHLIST** until post-Jul 23 earnings
+
+**After AAPL entry**: Deploy 2nd position next pre-market session (Jul 7) — consider Industrials/Healthcare rotation play or INTC post-earnings if beat.
+
