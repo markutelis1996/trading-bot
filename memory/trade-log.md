@@ -4839,6 +4839,43 @@ None
 
 ---
 
+## 2026-07-06 - Midday Scan
+
+**Portfolio:** ~$110,124 equity | **Cash:** ~$107,339 (97.5%) | **Stock Positions:** 0 | **Stock Deployed:** 0% | **Phase P&L:** +$10,124 (+10.12%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| — | 0 | 0 | ✓ Match — crypto sleeve only (BTC/ETH/SOL/LINK), OFF-LIMITS |
+
+Broker: 4 crypto positions (asset_class: crypto, all "/"-symbol) — discarded per guard. 0 stock positions. Orders: []. Clean.
+
+### Step 3 — Cuts
+None — no stock positions.
+
+### Step 4 — Stop Tightening
+None — no stock positions.
+
+### Step 5 — Thesis Check
+N/A — no stock positions.
+
+### Step 6 — Intraday Research
+- **ISM Services PMI (Jun 2026, 10 AM ET)**: Actual 54.0% vs forecast 54.2%, prev 54.5% — 24th consecutive month in expansion. Employment sub-index +3.3pp to 51.2% (first expansion in 4 months). ✓ ≥50 condition met.
+- **AAPL**: Intraday range $305.77–$314.20, current ~$312.52. Pre-market entry condition (ask ≤$315 AND NQ green AND ISM ≥50) — ALL conditions were met at open. Market-open session did not execute the trade (no entry in log, broker confirms 0 stock positions).
+- **NQ**: Was +0.91% at premarket; conditions were met for AAPL entry. Missed entry not recoverable at midday (entry-at-open rule). AAPL remains valid setup for Jul 7 pre-market.
+- **FOMC minutes Wed Jul 8 2 PM ET** — no new entries planned Wednesday per research plan; AAPL entry window = **Mon Jul 7**.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries (midday not the entry window).
+
+### Watchlist (Jul 7 open)
+- **AAPL**: Re-verify ask ≤$315 at 9:31 AM, NQ green → execute 53 shares, 10% trail GTC, target +20%
+- **INTC**: WATCHLIST ONLY — Q2 earnings Jul 23, binary in 11 trading days
+
+---
+
+---
+
 ## 2026-07-03 - Midday Scan
 
 **Portfolio:** $110,077.61 equity | **Cash:** $108,711.24 (98.8%) | **Positions:** 0 | **Deployed:** 0% | **Phase P&L:** +$10,077.61 (+10.08%)

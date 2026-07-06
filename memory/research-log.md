@@ -5823,3 +5823,10 @@ No new disclosures since Jun 24. Active signals remain:
 
 **After AAPL entry**: Deploy 2nd position next pre-market session (Jul 7) — consider Industrials/Healthcare rotation play or INTC post-earnings if beat.
 
+### Afternoon Addendum (Midday Scan)
+- **ISM Services Jun 2026**: 54.0% actual (forecast 54.2%, prev 54.5%) — expansion month 24 ✓; Employment sub-index expanded for first time in 4 months (51.2% vs 47.9%); no contraction risk, AAPL entry remains valid
+- **AAPL intraday**: Range $305.77–$314.20, ~$312.52 midday — within ≤$315 entry window; no adverse news; all pre-market conditions confirmed met at open
+- **Market-open session did not execute AAPL trade** — market-open cron appears to have not fired; entry deferred to Jul 7 open
+- **S&P/NQ**: Stable-to-green session confirming risk-on tone; semi rotation ongoing (SOXX still under pressure); AAPL outperforming as safe harbor ✓
+- **Action required Jul 7**: AAPL entry at open (verify ask ≤$315, NQ not red at 9:31 AM); 53 shares, 10% trail GTC; do NOT add new positions Wed Jul 8 (FOMC minutes 2 PM ET)
+
