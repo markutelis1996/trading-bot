@@ -4926,3 +4926,42 @@ None. No action → no ClickUp notification.
 **Notes:** No stock positions. Day P&L -$57.46 (-0.05%) driven by crypto DCA sleeve MTM decline (BTC -1.71%, ETH -2.02%, SOL -1.18%, LINK -1.27%). Crypto sleeve total unrealized +$40.66 (+$25.37 BTC, +$14.93 ETH, +$0.40 SOL, -$0.04 LINK). AAPL was primary target at open per yesterday's plan; market-open workflow status unknown — AAPL remains top candidate for entry. FOMC minutes tomorrow Wed Jul 8 2 PM ET = entry blackout Wednesday. 0 stock trades this week (0/3 cap). Deployed 0% stocks; all equity in cash + crypto DCA sleeve. Plan: Revisit AAPL Thu Jul 10 post-FOMC minutes dust settling; conditions ≤$315, NQ green, ~53 shares at 15% equity, 10% trail.
 
 ---
+
+## 2026-07-07 - Market-Open Session
+
+**Portfolio:** $110,132 equity | **Cash:** $105,829.57 (96.1% pre-trade) | **Positions:** 0 → 1 | **Deployed:** ~15% | **Phase P&L:** +$10,132 (+10.13%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| — | 0 | 0 | ✓ Match — broker: 4 crypto positions (BTCUSD/ETHUSD/SOLUSD/LINKUSD, all asset_class:crypto), 0 stock positions |
+
+Crypto positions filtered per guard (all "/" symbols). 0 stock positions. Clean.
+
+### Step 1b — Live Price Re-Verification (9:38 AM ET)
+| Ticker | Research Plan Price | Live Ask | Delta | Status |
+|--------|---------------------|----------|-------|--------|
+| AAPL | ~$313 | $313.82 | +0.4% | ✓ ≤$315 gate PASS |
+
+- NQ: flat/green at open (SpaceX added to Nasdaq-100 effective Jul 7; QQQ intraday ~$722+) — "NQ not red" gate PASS
+- Both entry conditions met → EXECUTE
+
+### Execution
+| Ticker | Side | Notional | Shares Filled | Avg Entry | Stop | Target | R:R |
+|--------|------|----------|---------------|-----------|------|--------|-----|
+| AAPL | BUY | $16,519.80 | 52.877 (52 protected) | $312.42 | $281.22 (10% trail GTC) | $374.90 (+20%) | 2:1 |
+
+- Stop order ID: fde3aa6a-834e-47ca-a0c6-d10bf504f312 (GTC, expires 2026-10-05)
+- Fractional remainder: 0.877 shares unprotected (per integer-qty rule — acceptable)
+- Daytrade count: 0/3 | Trades this week: 1/7
+
+### Open Positions
+| Ticker | Shares | Entry | Stop | Target | Thesis |
+|--------|--------|-------|------|--------|--------|
+| AAPL | 52.877 (52 stop) | $312.42 | $281.22 trail 10% | $374.90 | Q2 FY26 beat (EPS $2.01 vs $1.94, Rev +17% YoY); AAPL+AVGO AI chip supply deal Jul 6; mega-cap rotation safe harbor; foldable iPhone demand raised to 10M units |
+
+**Partial profit plan:** Sell 1/3 (~17 shares) at +25% ($390.52); sell 1/3 at +40% ($437.39); runner with 5%/7% trail.
+**Earnings risk:** AAPL Q3 Jul 30 — plan exit or partial profit before Jul 28.
+**FOMC blackout:** No new entries Wednesday Jul 8 (FOMC minutes 1 PM ET).
+
+---
