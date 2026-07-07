@@ -4904,3 +4904,25 @@ None. No action → no ClickUp notification.
 
 ---
 
+### Jul 06 - EOD Snapshot (Day 55, Monday)
+**Portfolio:** $110,191.42 | **Cash:** $105,829.57 (96.0%) | **Day P&L:** +$108.27 (+0.10%) | **Phase P&L:** +$10,191.42 (+10.19%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** No stock positions. Day P&L +$108.27 (+0.10%) driven by crypto DCA sleeve MTM appreciation (BTC +0.54%, ETH +0.60%, SOL +0.22%, LINK -0.71%). Market returned from Independence Day break. AAPL entry conditions were met at open (ask ~$312, NQ +0.91% pre-mkt, ISM ≥50) per midday scan notes but market-open workflow did not execute — AAPL remains the primary Jul 7 target. FOMC minutes Wed Jul 8 2 PM ET = entry blackout Wednesday. Plan: AAPL at Jul 7 open (ask ≤$315, NQ green, ~53 shares, 10% trail, 15% equity). 0 stock trades this week (0/3 cap used). Deployed 0% stocks; crypto DCA sleeve (BTCUSD +$60 / ETHUSD +$37 / SOLUSD +$9 / LINKUSD +$12) total unrealized +$118. Phase P&L +$10,191.42 (+10.19%).
+
+---
+
+
+### Jul 07 - EOD Snapshot (Day 56, Tuesday)
+**Portfolio:** $110,133.96 | **Cash:** $105,829.57 (96.1%) | **Day P&L:** -$57.46 (-0.05%) | **Phase P&L:** +$10,133.96 (+10.13%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| — | — | — | — | — | — | — |
+
+**Notes:** No stock positions. Day P&L -$57.46 (-0.05%) driven by crypto DCA sleeve MTM decline (BTC -1.71%, ETH -2.02%, SOL -1.18%, LINK -1.27%). Crypto sleeve total unrealized +$40.66 (+$25.37 BTC, +$14.93 ETH, +$0.40 SOL, -$0.04 LINK). AAPL was primary target at open per yesterday's plan; market-open workflow status unknown — AAPL remains top candidate for entry. FOMC minutes tomorrow Wed Jul 8 2 PM ET = entry blackout Wednesday. 0 stock trades this week (0/3 cap). Deployed 0% stocks; all equity in cash + crypto DCA sleeve. Plan: Revisit AAPL Thu Jul 10 post-FOMC minutes dust settling; conditions ≤$315, NQ green, ~53 shares at 15% equity, 10% trail.
+
+---
