@@ -4965,3 +4965,48 @@ Crypto positions filtered per guard (all "/" symbols). 0 stock positions. Clean.
 **FOMC blackout:** No new entries Wednesday Jul 8 (FOMC minutes 1 PM ET).
 
 ---
+
+## 2026-07-07 - Midday Scan
+
+**Portfolio:** $110,185.20 equity | **Cash:** $89,309.78 (81.1%) | **Stock Positions:** 1 | **Stock Deployed:** ~15.0% | **Phase P&L:** +$10,185.20 (+10.19%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Log Stop/HWM | Broker Stop/HWM | Match? |
+|--------|---------|------------|--------------|-----------------|--------|
+| AAPL | 52.877 | 52.877045 | $281.22 / (entry HWM) | $283.257 / $314.73 | ✓ (stop auto-trailed up) |
+
+Clean. AAPL trailing stop auto-trailed from initial $281.22 → $283.257 as price reached HWM $314.73 intraday. Expected behavior. No discrepancy.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|---------------|-----|--------|
+| AAPL | 52.877 | $312.42 | $312.91 | +0.16% | +0.08% (vs lastday $312.66) | $283.257 (10% trail, fde3aa6a) | $314.73 | HOLD |
+
+### Step 3 — Cuts
+None. AAPL +0.16% — well above -7% cut threshold ($290.55). No action.
+
+### Step 4 — Stop Tightening
+- AAPL +0.16%: +15% trigger = $359.28 — not reached. No action.
+
+### Step 5 — Thesis Check
+- **AAPL**: Q2 FY26 beat (EPS $2.01 vs $1.94, Rev +17% YoY) + AAPL+AVGO AI chip supply deal (Jul 6) + mega-cap rotation safe harbor + foldable iPhone 10M unit demand. Price +0.16% from entry — essentially flat but in positive territory. Stop auto-trailed to $283.257 (HWM $314.73). No adverse AAPL-specific news. **INTACT. HOLD.**
+
+### Step 6 — Intraday Research
+No sharp unexplained moves. AAPL +0.08% intraday is consistent with broad market (last_equity delta +$1.37). FOMC minutes tomorrow Jul 8 1 PM ET = no new entries Wednesday per plan. No research needed.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries (FOMC minutes blackout tomorrow).
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL | 52.877 (52 protected) | $312.42 | $283.257 (10% trail, fde3aa6a) | $314.73 | $374.90 (+20%) |
+
+- Trades this week: 1/3 (AAPL Jul 7)
+- Deployment: 15.0% vs 75-85% target — underdeployed; FOMC blackout Wed Jul 8 limits entry window
+- Next entry window: Thu Jul 10 (post-FOMC minutes dust settling)
+- Watch: AAPL +15% trigger $359.28 (tighten to 7% trail); partial profit +25% at $390.52
+- Watch: AAPL earnings Jul 30 — plan 1/3 partial or full exit before Jul 28
+- No action taken → no ClickUp notification
+
+---
