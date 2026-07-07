@@ -5830,3 +5830,119 @@ No new disclosures since Jun 24. Active signals remain:
 - **S&P/NQ**: Stable-to-green session confirming risk-on tone; semi rotation ongoing (SOXX still under pressure); AAPL outperforming as safe harbor ✓
 - **Action required Jul 7**: AAPL entry at open (verify ask ≤$315, NQ not red at 9:31 AM); 53 shares, 10% trail GTC; do NOT add new positions Wed Jul 8 (FOMC minutes 2 PM ET)
 
+---
+
+## 2026-07-07 - Pre-market Research
+
+### Account
+- Equity: $110,129.70
+- Cash: $105,829.57 (96.1%)
+- Long MV: $4,300.13 (crypto sleeve only — OFF-LIMITS)
+- Buying power: $105,829.57
+- Daytrade count: 0/3
+- Trades this week: 0/3 (week reset Mon Jul 7)
+- Phase P&L: +$10,129.70 (+10.13%)
+
+### Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| — | 0 | 0 | ✓ Match — broker: 4 crypto positions (BTCUSD/ETHUSD/SOLUSD/LINKUSD, all asset_class:crypto), 0 stock positions, 0 open orders |
+
+Clean. No discrepancies.
+
+### Market Context (pre-open ~2:05 AM ET)
+- **WTI**: $69.24/bbl (+1.01%) | **Brent**: $72.90/bbl (+1.24%) — rising; oil up ~2% from Jul 6 open
+- **S&P 500 Futures**: 7,571.50 (-0.26%) ⚠️ slightly red at 2AM
+- **NQ100 Futures**: 29,674.75 (-0.89%) ⚠️ RED early — AAPL entry gate uncertain; re-verify at 9:31 AM
+- **DOW Futures**: 53,385 (+0.02%) flat
+- **VIX**: 15.57 (Jul 6 close, -1.52% from prior day; declining trend = risk-on)
+- **10-yr Treasury**: 4.46% (-2 bps)
+- **Dollar Index**: 101.11 (+0.26%)
+- Note: Multiple bullish signals yesterday — chips led NQ +1.26% Jul 6; "Dow closes above 52,000 for first time"; TSLA +6.69%, AMD +6.61%, ANET +8.31%. Early 2AM futures may not reflect final pre-market tone.
+
+### Earnings Today (Jul 7)
+- **Before open**: 0 noteworthy
+- **After close**: EPAC, KRUS, PENG, SAR — all small/micro-cap, irrelevant to strategy
+
+### Economic Calendar
+| Date | Event | Note |
+|------|--------|------|
+| **Jul 7, 7:30 AM** | Trade Balance | Minor; not market-moving |
+| **Jul 8, 1:00 PM** | FOMC June Minutes | KEY RISK → NO new entries Wed morning |
+| Jul 9, 8:30 AM | Jobless Claims | Moderate |
+| Jul 14, 8:30 AM | CPI (June) | High impact |
+| Jul 15, 8:30 AM | PPI | Moderate |
+| Jul 29, 1:00 PM | FOMC Meeting | Rate decision |
+| Jul 30 | PCE + GDP preliminary + AAPL earnings | HIGH IMPACT DAY |
+
+### Sector Momentum (Schwab, as of Jun 26, 2026)
+| Sector | Rating | Trailing 6m | Trailing 12m |
+|--------|--------|-------------|--------------|
+| Communication Services | More Favored | +5.0% | +33.5% |
+| Health Care | More Favored | -3.4% | +14.8% |
+| Industrials | More Favored | +15.5% | +28.8% |
+| Materials | More Favored | +12.7% | +21.3% |
+| Information Technology | Neutral | +21.1% | +47.3% |
+| Consumer Discretionary | Least Favored | -2.8% | +13.3% |
+
+- Semis bouncing: SOXX -8% in Jul 1-2 selloff (SNDK -14%, MU -5.5%, INTC -9%); chips led recovery Jul 6 (TSLA +6.69%, AMD +6.61%). Rotation FROM semis INTO quality mega-cap (AAPL +1.31% Jul 6) continues.
+- AAPL: Comm Services safe harbor thesis intact; +4.84% Jul 2 while semis crashed; +1.31% Jul 6
+
+### Politician Signals
+| Politician | Ticker | Trade Date | Disclosed | Size | Signal |
+|-----------|--------|-----------|-----------|------|--------|
+| **Nancy Pelosi** | **INTC** | May 29, 2026 | Jun 24, 2026 | **$1M–$5M** | PRIMARY — 38-day lag ✓, >>$25K ✓ |
+| **Nancy Pelosi** | **UBER** | May 29, 2026 | Jun 24, 2026 | **$500K–$1M** | PRIMARY eligible — Cons. Disc. (Least Favored) headwind |
+| Josh Gottheimer | MU | May 21, 2026 | Jun 4, 2026 | $1K–$15K | BELOW $25K threshold → IGNORE |
+| Josh Gottheimer | ADI | May 19, 2026 | Jun 4, 2026 | $1K–$15K | BELOW $25K threshold → IGNORE |
+
+- No new whitelist politician disclosures in last 45 days beyond Pelosi May 29 trades
+- INTC Pelosi signal still active (38 days since trade, 13 days since disclosure)
+- Tuberville, Crenshaw, McCaul, Khanna, Green, Mast: no new qualifying disclosures in window
+
+### STEP 3d — Live Price Verification (Alpaca AH quotes, Jul 6 8:00 PM ET)
+⚠️ AH spreads are unreliable (wide). USE LIVE OPEN PRINT at 9:31-9:35 AM. Do NOT use AH bid/ask for entry.
+
+| Ticker | Alpaca AH Bid | Alpaca AH Ask | Jul 6 Close | Stop (10% below close) | Target (+20% close) |
+|--------|--------------|--------------|-------------|----------------------|---------------------|
+| AAPL | $298.33 | $329.36 | **$312.66** | ~$281 | ~$375 |
+| INTC | $116.45 | $128.79 | **$122.20** | ~$110 | ~$147 |
+
+### Trade Ideas
+
+**1. AAPL — CONDITIONAL PRIMARY ENTRY (execute at open IF conditions met)**
+- **Catalyst**: Q2 FY26 beat (EPS $2.01 vs $1.94 est, Rev $111.2B, +17% YoY, Jun 25 earnings); foldable iPhone production targets raised to 10M units (Jul 2, bullish demand signal); AAPL+AVGO extended multiyear AI chip supply agreement (Jul 6); mega-cap rotation safe harbor (+4.84% Jul 2 while SOXX -8%); 52-week high $317.40 in reach; RSI 60.15 (healthy)
+- **Conditions at 9:31 AM**: (a) live ask ≤ $315 AND (b) NQ not red → EXECUTE; if either fails → DEFER
+- **⚠️ NQ warning**: Futures showing -0.89% at 2AM ET; must clear at open. Likely to improve but gate is hard.
+- **Live proof price**: AH $312.58 (Jul 6 close equivalent); AH quote unreliable — USE LIVE OPEN
+- **Sizing**: 15% × $110,130 = $16,520; at ~$313 close → **52 shares** (integer DOWN)
+- **Stop**: 10% trailing GTC (broker order)
+- **Target**: +20% = ~$375 | **R:R 2:1**
+- **Earnings risk**: Jul 30, 2026 = 16 trading days. Plan: take 1/3 profit at +25% (rule 13) OR full exit before Jul 28 if not profitable; DO NOT hold through Jul 30 binary without partial profit.
+- No politician signal needed — earnings beat + rotation + product catalyst = primary catalyst ✓
+
+**2. INTC — WATCHLIST ONLY (no entry)**
+- **Catalyst**: Pelosi $1M–$5M buy (May 29, 38-day lag); HSBC PT $200; Cantor PT $150; NVDA/SoftBank equity stakes; foundry traction (EMIB/Foveros)
+- **BLOCKER**: Earnings Jul 23 = **11 trading days** → binary risk exceeds stop protection
+- **Entry trigger**: Post-Jul 23 beat AND NQ green AND ask ≤ $130 → full entry next session
+- **Live AH proof**: bid $116.45 / ask $128.79 (unreliable); close $122.20
+
+### Risk Factors
+1. **NQ -0.89% pre-market (2AM)** → AAPL entry gate may fail at open; re-verify at 9:31 AM
+2. **FOMC minutes Wed Jul 8 1PM ET** → hawkish signal = tech re-rate; NO new positions Wednesday
+3. **AAPL earnings Jul 30** → binary in 3.5 weeks; plan partial exit strategy now
+4. **Oil rising** ($69 WTI, +1%) → mild inflation concern but below recent $95+ peaks; not acute
+5. **Semi rotation ongoing** → SOXX pressure could drag AAPL in sector selloff
+6. **96% cash** → urgency to deploy; but discipline > haste; NQ gate is the right filter
+
+### Decision
+**AAPL: CONDITIONAL BUY at 9:31 AM open**
+- Conditions: ask ≤ $315 AND NQ not red
+- Size: 52 shares, 10% trailing stop GTC
+- If NQ is red at open → DEFER to Thu Jul 9 (no entry Thu either if close to FOMC window)
+- Do NOT enter Wednesday (FOMC minutes)
+
+**INTC: WATCHLIST** — binary earnings blocker; entry after Jul 23 if beat
+
+**Trades this week: 0/3 used**
+
