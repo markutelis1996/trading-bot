@@ -5946,3 +5946,112 @@ Clean. No discrepancies.
 
 **Trades this week: 0/3 used**
 
+---
+
+## 2026-07-08 - Pre-market Research
+
+### Account
+- Equity: $109,993.41
+- Cash: $89,309.78
+- Long MV: $20,683.63 (AAPL $16,433.66 + crypto $4,249.97 — crypto untouchable)
+- Stock MV: $16,433.66 (AAPL only)
+- Buying power: $403,253.36
+- Daytrade count: 0/3
+- Deployed (stocks): 14.9% ($16,434 AAPL)
+- Phase P&L: +$9,993.41 (+9.99%)
+- Trades this week: 1/7 (AAPL Jul 7)
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Log Stop/HWM | Broker Stop/HWM | Match? |
+|--------|---------|------------|--------------|-----------------|--------|
+| AAPL | 52.877 | 52.877045 | $283.257 / $314.73 | $283.257 / $314.73 | ✓ Match |
+
+Crypto positions (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per guard — all OFF-LIMITS. Stock position: AAPL confirmed, trailing stop fde3aa6a active (52 shares protected, 10% trail, GTC expires 2026-10-05). Clean.
+
+### AAPL Position Status
+| Ticker | Shares | Entry | Current | Unrealized | Stop | -7% Cut | +15% Trigger | Status |
+|--------|--------|-------|---------|------------|------|---------|--------------|--------|
+| AAPL | 52.877 (52 stop) | $312.42 | $310.79 | -$1.63 (-0.52%) | $283.257 (trail 10%, HWM $314.73) | $290.55 | $359.28 | HOLD |
+
+Thesis intact: Q2 FY26 beat, AVGO AI chip supply deal, foldable iPhone 10M units, mega-cap rotation safe harbor. No adverse AAPL-specific news. Price -0.52% from entry, well above -7% threshold. Stop auto-active, no action needed.
+
+### Market Context (pre-market Jul 8)
+- **WTI**: $72.27 (+2.54%) | **Brent**: $76.07 (+2.58%) — oil surging on renewed Hormuz shipping attacks (Jul 7-8); elevated geopolitical risk
+- **S&P 500 futures**: 7,553.50 (+0.03%) — essentially flat; Jul 7 session closed S&P -0.45%, Dow -0.25%, Nasdaq -1.16%
+- **NQ100 futures**: 29,430.50 (+0.13%) — mildly positive after yesterday's chip selloff
+- **VIX**: 16.13 (+0.56, +3.60% from Jul 7 close) — mild fear uptick; still moderate range
+- **10Y yield**: 4.554% (+0.55%) — rising; hawkish pressure on rate-sensitive tech
+- **Dollar Index**: 100.85 (+0.23%)
+- **Gold**: $4,145.30 (flat-to-slight decline — capital rotation neutral today)
+- **Asian markets**: Nikkei -0.75%, Hang Seng -0.51% — cautious
+
+### Today's Key Events
+| Time ET | Event | Importance |
+|---------|--------|-----------|
+| 10:00 AM | Wholesale inventories (May) +0.6% est | Minor |
+| **2:00 PM** | **FOMC June 16-17 meeting minutes** | **⚠️ PRIMARY — NO new entries today** |
+| AMC | LEVI, AZZ, PSMT earnings | Small-cap; not material |
+
+**FOMC minutes context (June 16-17 meeting):**
+- Rates held 3.50-3.75%
+- 9 officials on dot plot expect ≥1 hike before year-end (hawkish lean)
+- Warsh abstained from dot plot (unprecedented for chair) — removed forward guidance
+- Minutes are primary policy signal since Warsh said nothing new at press conference
+- NFP Jul 2: WEAK (57K vs 115K est) — dovish offset to hawkish dots
+- Market pricing: 75%+ probability hold at Jul 28-29 meeting
+- Traders will watch for: September hike probability, unanimity vs dissent, inflation framing
+
+### Sector Momentum (5-day Jul 6)
+| Sector | 5-Day | Notes |
+|--------|-------|-------|
+| Financials (XLF) | +4.50% | Leading; banks Q2 earnings Jul 14 |
+| Materials (XLB) | +2.61% | Strong |
+| Comm Services (XLC) | +2.16% | AAPL meta-sector — favorable |
+| Industrials (XLI) | +1.53% | Steady |
+| Information Technology (XLK) | -0.99% | Chip selloff Jul 7 dragged |
+| Real Estate (XLRE) | -1.40% | Underperforming |
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Trade Date | Disclosed | Size | Signal |
+|-----------|--------|-----------|-----------|------|--------|
+| **Nancy Pelosi** | **INTC** | May 29, 2026 | Jun 24, 2026 | **$3M** | PRIMARY direction — 40-day lag ✓ |
+| **Nancy Pelosi** | **UBER** | May 29, 2026 | Jun 24, 2026 | **$750K** | Secondary — Cons. Disc. Least Favored |
+| Josh Gottheimer | LITE | May 22, 2026 | Jul 3, 2026 | $1K-$15K | BELOW $25K threshold → IGNORE |
+
+- **INTC signal deteriorating**: Stock closed $110.39 (-9.66% Jul 7), down from ~$122 entry zone. Pelosi's INTC basis ~$110-130 (May 29). Signal active but stock declining.
+- Dan Crenshaw: removed (lost House seat Mar 2026)
+- **Mark Green (R-TN): RESIGNED Jul 20, 2025** → REMOVE FROM WHITELIST permanently
+- Tommy Tuberville: 440 trades YTD, 6 buys vs 434 sells → no qualifying single-stock buys
+- Michael McCaul, Ro Khanna, Brian Mast: no qualifying buys in 45-day window
+- McCaul retiring Jan 2027 (announced Sep 2025) but still in office; still valid until then
+
+### Live Price Verification (STEP 3d)
+- **AAPL**: current_price $310.79 (broker), lastday_price $310.66 (Jul 7 close). AH quote (bid $299.25 / ask $330.89) unreliable — 31-pt spread. Use $310.66-$310.79 as reference.
+- No new trade ideas today → no additional quotes required.
+
+### Trade Ideas
+**No new entries today — FOMC minutes blackout (mandatory, per Jul 7 plan)**
+
+**Post-FOMC watchlist (evaluate Thu Jul 10+):**
+1. **AAPL** — HOLD existing. If FOMC hawkish → monitor stop; if FOMC dovish → possible add or new position elsewhere
+2. **NVDA** — Held +0.71% Jul 7 while chips fell 8-11%; AI demand INTACT. Entry conditions: FOMC neutral/dovish + NQ green + ask ≤ $210. Stop 10% trail. Size 15% (~$16.5K). Live quote required at open.
+3. **Financials (BAC/JPM/GS)** — Sector leading 5-day (+4.50%); Q2 earnings Jul 14. Watchlist for next week.
+4. **PEP (PepsiCo)** — Reports BMO Thu Jul 9; consumer staples (defensive). Not a priority — no politician signal; sector Not Favored.
+
+### Risk Factors
+- **FOMC minutes 2pm ET**: Hawkish surprise (committee more unified on hike) → tech repricing; AAPL at risk
+- **Oil +2.5% on Hormuz attacks**: Inflation input cost concern; Fed hawkishness narrative reinforced
+- **Chip selloff continuing**: INTC -9.66%, ALAB -11.52%, WDC -7.86%, MU -4.71% Jul 7 — semi sector fragile
+- **Rising 10Y yield (4.554%)**: Headwind for high-multiple tech; FOMC could push yields higher
+- **AAPL earnings Jul 30**: Only 15 trading days away; earnings strategy plan needed (partial profit at +25% or exit before Jul 28)
+- **Deployment 14.9%**: Far below 75-85% target. FOMC minutes will determine pace of capital deployment Thu-Fri.
+
+### Decision
+**AAPL: HOLD** — thesis intact, stop active at $283.257, price safe above all thresholds
+**NO NEW ENTRIES TODAY** — FOMC minutes blackout (2:00 PM ET, mandatory gate per plan)
+**Thu Jul 10 action plan**:
+- Assess FOMC minutes tone first (release after today's close)
+- Hawkish (hike signaled/unanimous) → stay defensive, hold AAPL only, defer new entries to Jul 14+ post-CPI
+- Neutral/dovish (hold bias, split committee, NFP-driven pause) → enter NVDA at open (live quote verify ≤$210, NQ green); deploy to ~30% stocks
+- In either case: plan AAPL earnings strategy before Jul 28 (partial profit or exit)
+
