@@ -5010,3 +5010,14 @@ None. No cuts, no stop changes, no new entries (FOMC minutes blackout tomorrow).
 - No action taken → no ClickUp notification
 
 ---
+
+### Jul 08 - EOD Snapshot (Day 57, Wednesday)
+**Portfolio:** $109,993.41 | **Cash:** $89,309.78 (81.2%) | **Day P&L:** -$190.42 (-0.17%) | **Phase P&L:** +$9,993.41 (+9.99%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 52.877 | $312.42 | $310.79 | +$0.13 (+0.04%) | -$86.13 (-0.52%) | $283.257 (10% trail, fde3aa6a, HWM $314.73) |
+
+**Notes:** FOMC minutes blackout day (Jul 8) — 0 trades. AAPL +0.04% intraday ($310.66→$310.79), trailing stop confirmed active at $283.257 (HWM $314.73, 10% trail, order fde3aa6a; protects 52 of 52.877 shares). Day P&L -$190.42 (-0.17%) driven by crypto DCA sleeve MTM decline (BTC -0.31%, ETH -0.10%, SOL -0.95%, LINK -0.81%; total sleeve -$17.20 intraday). AAPL unrealized -$86.13 (-0.52%) — still comfortably above -7% cut threshold ($290.55). Reconciliation clean: broker qty 52.877045 matches log; 1 GTC trailing stop active. Deployed 15% stocks vs 75-85% target — underdeployed; 2 additional positions planned Thu Jul 10+ post-FOMC dust settling. Trades this week: 1/3 (AAPL Jul 07). Phase P&L: +$9,993.41 (+9.99%).
+
+---
