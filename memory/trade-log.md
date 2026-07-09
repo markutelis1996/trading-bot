@@ -5105,3 +5105,14 @@ None. No cuts, no stop changes, no new entries (FOMC hawkish → defensive hold,
 - Watch: AAPL +15% trigger $359.28 (tighten to 7% trail); +25% partial profit $390.52
 - Watch: AAPL earnings Jul 30 — plan 1/3 partial or full exit before Jul 28
 
+---
+
+### Jul 09 - EOD Snapshot (Day 58, Thursday)
+**Portfolio:** $110,297.29 | **Cash:** $89,309.77 (81.0%) | **Day P&L:** +$207.97 (+0.19%) | **Phase P&L:** +$10,297.29 (+10.30%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 52.877 | $312.42 | $316.05 | +$2.66 (+0.85%) | +$191.99 (+1.16%) | $284.877 (10% trail, fde3aa6a, HWM $316.53) |
+
+**Notes:** No trades today (FOMC hawkish → defensive hold per plan). AAPL +0.85% to $316.05; trailing stop auto-trailed to $284.877 (HWM $316.53). Unrealized +$191.99 (+1.16%) from entry $312.42. Portfolio 15.1% deployed vs 75-85% target — intentionally underdeployed pending CPI clarity. Crypto DCA sleeve (BTC +2.20%, ETH +0.37%, SOL -0.27%, LINK +2.20%) contributed ~+$59 MTM to Day P&L. Phase P&L +$10,297.29 (+10.30%). Next entry window: Jul 14 post-CPI; evaluate NVDA ≤$210 or financials on Q2 earnings. Earnings risk: AAPL Q3 Jul 30 — plan 1/3 partial or full exit before Jul 28. Trades this week: 1/3 (AAPL Jul 7).
+
