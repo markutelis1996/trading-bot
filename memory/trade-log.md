@@ -5061,3 +5061,47 @@ FOMC minutes (Jul 8) confirmed HAWKISH → per plan, no new entries today. Defer
 - Trades this week: 1/7 | Deployment: 14.9% vs 75-85% target
 - Next entry window: Jul 14 (post-CPI; evaluate NVDA ≤$210 or financials on Q2 earnings)
 
+---
+
+## 2026-07-09 - Midday Scan
+
+**Portfolio:** ~$110,441 equity (est.) | **Cash:** $89,309.77 (80.9%) | **Stock Positions:** 1 | **Stock Deployed:** ~15.1% | **Phase P&L:** ~+$10,441 (+10.44%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Log Stop/HWM | Broker Stop/HWM | Match? |
+|--------|---------|------------|--------------|-----------------|--------|
+| AAPL | 52.877 | 52.877045 | $283.257 / $314.73 | $283.941 / $315.49 | ✓ (stop auto-trailed up — expected) |
+
+Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) filtered per crypto guard — OFF-LIMITS. No discrepancy.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|---------------|-----|--------|
+| AAPL | 52.877 | $312.42 | $314.72 | +0.74% | +1.07% | $283.941 (10% trail, fde3aa6a) | $315.49 | HOLD |
+
+### Step 3 — Cuts
+None. AAPL +0.74% — well above -7% cut threshold ($290.55).
+
+### Step 4 — Stop Tightening
+- AAPL +0.74%: +15% trigger = $359.28, +20% trigger = $374.90 — neither reached. No action.
+- Broker trailing stop auto-trailed: $283.257 → $283.941 (HWM $314.73 → $315.49). Expected behavior — no manual action needed.
+
+### Step 5 — Thesis Check
+- **AAPL**: Q2 FY26 beat (EPS $2.01 vs $1.94, Rev +17% YoY) + Broadcom AI chip deal ($30B+) + mega-cap rotation safe harbor + foldable iPhone 10M demand. Price +0.74% from entry. Stop auto-trailed higher. No adverse AAPL-specific news. **INTACT. HOLD.**
+
+### Step 6 — Intraday Research
+No sharp unexplained moves. AAPL +1.07% intraday consistent with NQ bounce (SK Hynix US debut + AI sentiment). No research needed.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries (FOMC hawkish → defensive hold, next entry window Jul 14 post-CPI).
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL | 52.877 (52 protected) | $312.42 | $283.941 (10% trail, fde3aa6a) | $315.49 | $374.90 (+20%) |
+
+- Trades this week: 1/7 | Deployment: ~15.1% vs 75-85% target
+- Next entry window: Jul 14 (post-CPI; evaluate NVDA ≤$210 or financials Q2 earnings)
+- Watch: AAPL +15% trigger $359.28 (tighten to 7% trail); +25% partial profit $390.52
+- Watch: AAPL earnings Jul 30 — plan 1/3 partial or full exit before Jul 28
+
