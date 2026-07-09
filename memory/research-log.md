@@ -6055,3 +6055,57 @@ Thesis intact: Q2 FY26 beat, AVGO AI chip supply deal, foldable iPhone 10M units
 - Neutral/dovish (hold bias, split committee, NFP-driven pause) → enter NVDA at open (live quote verify ≤$210, NQ green); deploy to ~30% stocks
 - In either case: plan AAPL earnings strategy before Jul 28 (partial profit or exit)
 
+
+## 2026-07-09 - Pre-market Research (inline — no scheduled pre-market run)
+
+### Account
+- Equity: $109,904.25
+- Cash: $89,309.77
+- Long MV: $20,594.48 (AAPL ~$16,374 + crypto ~$4,241 — crypto untouchable)
+- Stock MV: ~$16,374 (AAPL only, 52.877 shares × $309.625 close)
+- Buying power: $403,010.51
+- Daytrade count: 0/3 (inferred from recent log)
+- Deployed (stocks): ~14.9%
+- Phase P&L: +$9,904.25 (+9.90%)
+- Trades this week: 1/7 (AAPL Jul 7)
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Log Stop/HWM | Match? |
+|--------|---------|------------|--------------|--------|
+| AAPL | 52.877 | 52.877045 | $283.257 / $314.73 | ✓ Match |
+
+Crypto positions (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per guard — all OFF-LIMITS.
+
+### FOMC Minutes Assessment (released Jul 8, 2:00 PM ET)
+- **Tone: HAWKISH** — confirmed via post-market reporting
+- 9 of 18 participants project ≥1 hike before year-end 2026
+- Median year-end rate 3.80% (one +25bp hike from 3.50-3.75%)
+- Easing bias language REMOVED — shift to neutral/hawkish stance
+- Inflation upside risks cited: AI investment, tariffs, Middle East tensions
+- Per Jul 8 plan: **Hawkish outcome → stay defensive, hold AAPL only, defer new entries to Jul 14+ post-CPI**
+
+### Market Context (9:31 AM ET Jul 9)
+- **NQ futures**: +0.46% (green) — SK Hynix US debut + AI sentiment driving tech bounce
+- **S&P 500 futures**: +0.05% (flat-to-green)
+- **US-Iran**: New US airstrikes overnight — oil elevated; geopolitical risk elevated
+- **Sector**: Tech/Nasdaq green intraday despite hawkish FOMC (AI narrative offsetting)
+
+### AAPL Position Status
+| Ticker | Shares | Entry | Live Ask | Unrealized | Stop | -7% Cut | Status |
+|--------|--------|-------|----------|------------|------|---------|--------|
+| AAPL | 52.877 (52 stop) | $312.42 | $308.72 | -$1.18% | $283.257 (10% trail, HWM $314.73) | $290.55 | HOLD |
+
+- EU court dismissed AAPL bid to overturn tech rules — minor headwind, not thesis-changing
+- Broadcom AI chip deal ($30B+) reconfirmed — fundamental thesis intact
+- Premarket down -0.42% ($312.08) — thesis intact, above all thresholds
+
+### Trade Ideas
+**No new entries today.** FOMC hawkish outcome triggers defensive hold per Jul 8 plan.
+
+**Next window: Jul 14+ (after CPI release)**
+1. **NVDA** — primary candidate if CPI in-line or soft; ask ≤$210, NQ green, 15% notional
+2. **Financials (BAC/JPM/GS)** — Q2 earnings Jul 14 week; XLF +4.5% 5-day; sector momentum
+
+### Decision
+**AAPL: HOLD** — thesis intact, stop active $283.257, above -7% threshold
+**NO NEW ENTRIES** — FOMC hawkish outcome mandates deferral to Jul 14+ post-CPI

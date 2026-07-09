@@ -5021,3 +5021,43 @@ None. No cuts, no stop changes, no new entries (FOMC minutes blackout tomorrow).
 **Notes:** FOMC minutes blackout day (Jul 8) — 0 trades. AAPL +0.04% intraday ($310.66→$310.79), trailing stop confirmed active at $283.257 (HWM $314.73, 10% trail, order fde3aa6a; protects 52 of 52.877 shares). Day P&L -$190.42 (-0.17%) driven by crypto DCA sleeve MTM decline (BTC -0.31%, ETH -0.10%, SOL -0.95%, LINK -0.81%; total sleeve -$17.20 intraday). AAPL unrealized -$86.13 (-0.52%) — still comfortably above -7% cut threshold ($290.55). Reconciliation clean: broker qty 52.877045 matches log; 1 GTC trailing stop active. Deployed 15% stocks vs 75-85% target — underdeployed; 2 additional positions planned Thu Jul 10+ post-FOMC dust settling. Trades this week: 1/3 (AAPL Jul 07). Phase P&L: +$9,993.41 (+9.99%).
 
 ---
+
+---
+
+## 2026-07-09 - Market-Open Session
+
+**Portfolio:** $109,904.25 equity | **Cash:** $89,309.77 (81.3%) | **Positions:** 1 (AAPL) | **Deployed:** ~14.9% | **Phase P&L:** +$9,904.25 (+9.90%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL | 52.877 | 52.877045 | ✓ Match |
+
+Crypto positions (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per guard — untouchable. Clean.
+
+### Step 1b — Live Price Re-Verification (9:31 AM ET)
+| Ticker | Research Plan | Live Ask | Delta | Status |
+|--------|---------------|----------|-------|--------|
+| AAPL | $312.42 entry | $308.72 | -1.18% | Above -7% cut threshold ($290.55) — HOLD |
+
+FOMC minutes (Jul 8) confirmed HAWKISH → per plan, no new entries today. Deferring to Jul 14+ post-CPI.
+
+### Step 3 — Hard Rule Checks
+- AAPL at -1.18% → above -7% cut threshold ($290.55) → HOLD ✓
+- +15% tighten trigger ($359.28) — not reached
+- No new entries: FOMC hawkish mandate → defer to Jul 14+
+- Trades this week: 1/7 used
+
+### Execution
+**NO TRADES** — FOMC hawkish outcome mandates defensive hold per pre-planned rule.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL | 52.877 (52 protected) | $312.42 | $283.257 (10% trail, fde3aa6a) | $314.73 | $374.90 (+20%) |
+
+- Thesis: Q2 FY26 beat + AVGO AI chip deal + mega-cap rotation safe harbor + foldable iPhone 10M demand
+- Earnings risk: Jul 30 — plan 1/3 partial or full exit before Jul 28
+- Trades this week: 1/7 | Deployment: 14.9% vs 75-85% target
+- Next entry window: Jul 14 (post-CPI; evaluate NVDA ≤$210 or financials on Q2 earnings)
+
