@@ -5154,3 +5154,46 @@ Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per crypto guard — OFF-LIMITS. 
 - Trades this week: 1/7 | Deployment: 15.1% vs 75-85% target
 - Next entry window: Jul 14 post-CPI; evaluate NVDA ≤$210 or financials on Q2 earnings (JPM, BAC, GS BMO Jul 14)
 
+
+## 2026-07-11 - Midday Scan
+
+**Portfolio:** ~$110,441 equity (est.) | **Cash:** $89,309.77 (81.0%) | **Stock Positions:** 1 | **Stock Deployed:** ~15.1% | **Phase P&L:** ~+$10,441 (+10.44%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Log Stop/HWM | Broker Stop/HWM | Match? |
+|--------|---------|------------|--------------|-----------------|--------|
+| AAPL | 52.877 | 52.877045 | $284.877 / $316.53 | $285.219 / $316.91 | ✓ (stop auto-trailed — expected) |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per crypto guard — OFF-LIMITS. No discrepancy.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|---------------|-----|--------|
+| AAPL | 52.877 | $312.42 | $314.93 | +0.80% | -0.41% | $285.219 (10% trail, fde3aa6a) | $316.91 | HOLD |
+
+### Step 3 — Cuts
+None. AAPL +0.80% — well above -7% cut threshold ($290.55).
+
+### Step 4 — Stop Tightening
+- AAPL: +0.80% from entry. +15% trigger = $359.28, +20% = $374.90 — neither reached. No action.
+- Trailing stop auto-trailed: stop $284.877 → $285.219, HWM $316.53 → $316.91. Expected behavior.
+
+### Step 5 — Thesis Check
+- **AAPL**: Broadcom AI chip deal ($30B+ through 2031) + Q2 FY26 beat + mega-cap safe harbor + foldable iPhone demand. No adverse AAPL-specific news. **INTACT. HOLD.**
+
+### Step 6 — Intraday Research
+Market closed (Saturday). No intraday moves to research.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL | 52.877 (52 protected) | $312.42 | $285.219 (10% trail, fde3aa6a) | $316.91 | $374.90 (+20%) |
+
+- Trades this week: 1/7 | Deployment: ~15.1% vs 75-85% target
+- Next entry window: Mon Jul 14 post-CPI (7:30 AM ET); evaluate NVDA ≤$210 or financials (JPM/BAC/GS/C Q2 BMO)
+- Watch: AAPL +15% trigger $359.28 (tighten to 7% trail); earnings Jul 30 — plan exit before Jul 28
+
+---
