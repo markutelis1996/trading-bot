@@ -81,7 +81,7 @@ BEFORE switching to live, REVERT to original conservative rules (commented below
 2. FDA approvals, M&A, major contracts
 3. Sector momentum + macro tailwind
 4. Politician buys (Capitol Trades) - WHITELIST ONLY: Pelosi, McCaul,
-   Crenshaw, Tuberville, Khanna, Gottheimer, Green, Mast. LEARNING MODE
+   Tuberville, Khanna, Gottheimer, Mast. [Crenshaw removed Mar 2026 - lost seat; Green removed Jul 2025 - resigned]. LEARNING MODE
    thresholds: min $25k trade size; 1 whitelist politician + sector momentum
    = primary catalyst eligible; 2+ whitelist politicians = strong signal.
    30-45 day disclosure lag, so use for swing setups not day trades. Update
