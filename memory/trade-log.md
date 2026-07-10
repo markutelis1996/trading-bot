@@ -5154,6 +5154,17 @@ Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per crypto guard — OFF-LIMITS. 
 - Trades this week: 1/7 | Deployment: 15.1% vs 75-85% target
 - Next entry window: Jul 14 post-CPI; evaluate NVDA ≤$210 or financials on Q2 earnings (JPM, BAC, GS BMO Jul 14)
 
+---
+
+### Jul 11 - EOD Snapshot (Day 59, Saturday)
+**Portfolio:** $110,298.01 | **Cash:** $89,309.77 (81.0%) | **Day P&L:** -$42.55 (-0.04%) | **Phase P&L:** +$10,298.01 (+10.30%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 52.877 | $312.42 | $314.93 | -$1.29 (-0.41%) | +$132.78 (+0.80%) | $285.219 (10% trail, fde3aa6a, HWM $316.91) |
+
+**Notes:** No trades today; week total 1/3 (AAPL Jul 7). Markets closed Saturday — capturing Fri Jul 10 close. Day P&L -$42.55 driven by AAPL -0.41% intraday (-$68.21) partially offset by crypto DCA sleeve gains (BTC +0.62%, ETH +1.54%, SOL -1.29%, LINK +0.75%; net ~+$25.67). AAPL unrealized +$132.78 (+0.80%) from entry $312.42; trailing stop auto-trailed to $285.219 (HWM $316.91, order fde3aa6a, 52 shares protected). Portfolio 15.1% deployed vs 75-85% target — intentionally underdeployed pending CPI Jul 14 gate. Next entry window Mon Jul 14 post-CPI: evaluate NVDA ≤$210, JPM/BAC/GS (BMO Jul 14) on Q2 earnings beat. AAPL Q3 earnings Jul 30 — plan 1/3 partial or full exit before Jul 28. Phase P&L: +$10,298.01 (+10.30%).
+
 
 ## 2026-07-11 - Midday Scan
 
