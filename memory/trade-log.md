@@ -5116,3 +5116,41 @@ None. No cuts, no stop changes, no new entries (FOMC hawkish → defensive hold,
 
 **Notes:** No trades today (FOMC hawkish → defensive hold per plan). AAPL +0.85% to $316.05; trailing stop auto-trailed to $284.877 (HWM $316.53). Unrealized +$191.99 (+1.16%) from entry $312.42. Portfolio 15.1% deployed vs 75-85% target — intentionally underdeployed pending CPI clarity. Crypto DCA sleeve (BTC +2.20%, ETH +0.37%, SOL -0.27%, LINK +2.20%) contributed ~+$59 MTM to Day P&L. Phase P&L +$10,297.29 (+10.30%). Next entry window: Jul 14 post-CPI; evaluate NVDA ≤$210 or financials on Q2 earnings. Earnings risk: AAPL Q3 Jul 30 — plan 1/3 partial or full exit before Jul 28. Trades this week: 1/3 (AAPL Jul 7).
 
+---
+
+## 2026-07-10 - Market-Open Session
+
+**Portfolio:** $110,247.14 equity | **Cash:** $89,309.77 (81.0%) | **Positions:** 1 (AAPL) | **Deployed:** ~15.1% | **Phase P&L:** +$10,247.14 (+10.25%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL | 52.877 | 52.877045 | ✓ Match |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per crypto guard — OFF-LIMITS. No discrepancy.
+
+### Step 1b — Live Price Re-Verification (~9:31 AM ET)
+| Ticker | Research Plan | Live Ask | Delta | Stop | HWM | Status |
+|--------|---------------|----------|-------|------|-----|--------|
+| AAPL | entry $312.42 | $313.87 | +0.46% | $284.877 (10% trail, fde3aa6a) | $316.53 | HOLD — above -7% cut threshold ($290.55) |
+
+### Step 3 — Hard Rule Checks
+- AAPL: +0.46% from entry → above -7% cut threshold → HOLD ✓
+- +15% tighten trigger ($359.28): not reached
+- New entries: NO — FOMC-hawkish defensive hold; CPI gate Jul 14
+- Daytrade count: 0/3 ✓
+- Trades this week: 1/7
+
+### Execution
+**NO TRADES** — FOMC hawkish mandate; CPI Jul 14 is the gate for new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL | 52.877 (52 protected) | $312.42 | $284.877 (10% trail, fde3aa6a) | $316.53 | $374.90 (+20%) |
+
+- Thesis: Q2 FY26 beat + Broadcom AI chip deal ($30B+ through 2031) + mega-cap rotation safe harbor + foldable iPhone demand. INTACT.
+- Earnings risk: Jul 30 — plan 1/3 partial or full exit before Jul 28
+- Trades this week: 1/7 | Deployment: 15.1% vs 75-85% target
+- Next entry window: Jul 14 post-CPI; evaluate NVDA ≤$210 or financials on Q2 earnings (JPM, BAC, GS BMO Jul 14)
+
