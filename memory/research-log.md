@@ -6108,4 +6108,120 @@ Crypto positions (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per guard — all OFF-L
 
 ### Decision
 **AAPL: HOLD** — thesis intact, stop active $283.257, above -7% threshold
+
+---
+
+## 2026-07-10 - Pre-market Research
+
+### Account
+- Equity: $110,303.14
+- Cash: $89,309.77
+- Long MV: $20,993.37 (AAPL ~$16,662 + crypto sleeve ~$4,324 — untouchable)
+- Stock deployed: ~15.1% (AAPL only)
+- Buying power: $403,929.93
+- Daytrade count: 0/3
+- Phase P&L: +$10,303.14 (+10.30%)
+- Trades this week: 1/7 (AAPL Jul 7)
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Stop (log) | Stop (broker) | Status |
+|--------|---------|------------|------------|---------------|--------|
+| AAPL | 52.877 | 52.877045 | $284.877 / HWM $316.53 | $284.877 / HWM $316.53 | ✓ Match |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per crypto guard — OFF-LIMITS. No discrepancy.
+
+### Market Context
+- **WTI**: ~$71-72/bbl (Jul 9 close; pulled back from Jul 8 spike of +7.4% to $74-75 on US-Iran Kharg Island strikes)
+- **Brent**: ~$75-76/bbl
+- **S&P 500 futures (ES)**: 7,586 (+57.25, +0.76% vs Jul 8 settlement 7,528.75) — strong bounce
+- **NQ futures**: 29,947.75 (+479.25, +1.63%) — tech/AI leading the recovery
+- **VIX**: Jul 8 close 16.90 (intraday high 18.91 on Iran news); expected to ease today with market bounce
+- **Today's earnings BMO**: Delta Air Lines (DAL) — est $1.47/sh (-30% YoY), rev $18.9B (+13.2%). Airline = Consumer Discretionary = Least Favored. NOT a trade idea.
+- **Today's economic data**: WASDE Report (4 PM), Baker Hughes Oil Rig Count (5 PM). No major US macro releases.
+- **Next week critical gates**:
+  - **Mon Jul 14 7:30 AM ET**: CPI Jun — forecast MoM **-0.1%** (DEFLATION), Core MoM +0.3%. Extremely dovish if confirmed.
+  - **Mon Jul 14 BMO**: JPM, BAC, C, GS, WFC Q2 earnings — bank earnings season begins
+  - **Tue Jul 15**: MS, BLK, JNJ, TMO earnings; PPI Jun (forecast MoM 0.00%)
+  - **Thu Jul 16 BMO**: GE, TSM, UNH earnings
+  - **Wed Jul 29**: FOMC policy decision
+
+### Sector Momentum (Schwab Jun 26, 2026)
+| Sector | Schwab Rating | YTD est | Notes |
+|--------|--------------|---------|-------|
+| Healthcare | More Favored | — | LLY, UNH defensive+growth |
+| Industrials | More Favored | +14-16% | AI infra/data center power |
+| Materials | More Favored | +11-17% | Hard assets leadership |
+| Communication Services | More Favored | — | GOOGL/META |
+| IT/Tech | Neutral | +8% est | Semis recovering but hawkish risk |
+| Energy | Neutral | +22-26% | Oil declining from peak; Iran fluid |
+| Financials | Neutral | — | Q2 earnings catalyst next week |
+| Consumer Discretionary | Least Favored | — | AVOID |
+| Real Estate | Least Favored | — | AVOID |
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal Level |
+|-----------|--------|--------|------|------------|-----------|--------------|
+| **Nancy Pelosi** | **INTC** | BUY (calls, $50 strike Mar 2027) | **$3M** | May 29 | Jun 24 | **PRIMARY direction** — $3M, 41-day lag ✓; ≤45 days |
+| **Nancy Pelosi** | **UBER** | BUY (calls, $50 strike Mar 2027) | **$750K** | May 29 | Jun 24 | Secondary — above $25K threshold; Cons. Disc. = Least Favored |
+| Ro Khanna | JPM/MS | BUY | $1K-15K ea. | May 1-18 | Jun 11 | IGNORE — below $25K minimum |
+| Gottheimer | AMD/LITE | BUY | $1K-15K ea. | May 5-22 | Jun 4 | IGNORE — below $25K minimum |
+| McCaul | BJ/LPX | BUY | $50K-100K | May 4-5 | Jun 11 | Watchlist only — non-momentum sectors |
+
+- **INTC signal deteriorating**: Stock closed ~$110 on Jul 7 (-9.66% that day); down from Pelosi's ~$110-130 entry zone. Semi selloff ongoing. INTC needs to stabilize before consideration.
+- **Mark Green (R-TN)**: RESIGNED Jul 20, 2025 → **PERMANENTLY REMOVED FROM WHITELIST**
+- Dan Crenshaw: already removed (lost House seat Mar 2026)
+- Tuberville: ETF-only (XLU/XLP/XLV) — no qualifying single-stock buys
+- Pelosi not running for re-election 2026 — final year of disclosures; signals still valid through 2026
+
+### AAPL Position Status
+| Ticker | Shares | Entry | Live (broker) | Unrealized | Stop | -7% Cut | Status |
+|--------|--------|-------|---------------|------------|------|---------|--------|
+| AAPL | 52.877 (52 stop) | $312.42 | $315.10 | +$141.77 (+0.86%) | $284.877 (10% trail, fde3aa6a, HWM $316.53) | $290.55 | HOLD |
+
+**AAPL News (Jul 6-8)**:
+- Broadcom-Apple $30B+ chip supply agreement renewed through 2031 (announced Jul 6-8) — **extremely positive for thesis**; Evercore ISI "strategic positive"; Broadcom expanding US facility
+- Apple closing in on NVIDIA as largest US company by market cap (MarketWatch Jul 7)
+- EU court rejected Apple challenge to EU big tech rules — minor headwind, not thesis-changing
+- Tim Cook stepping down as CEO (John Ternus taking over September 2026) — known risk, credible successor
+- AAPL +15.49% YTD, 1-yr +49.82%; 52wk high $317.40 (HWM $316.53 — approaching resistance)
+- Q3 FY26 earnings: **July 30** — only 14 trading days away; need exit plan by Jul 28
+- Analyst avg PT $315.57 (Robinhood) — near current price; Evercore PT $365
+- Thesis: Q2 FY26 beat + AI/Broadcom chip deal + mega-cap safe harbor + foldable iPhone demand → INTACT
+
+**AAPL AH quote Jul 9**: bid $294.84 / ask $326.15 — 31-pt spread, unreliable. Use open print.
+
+### Live Price Verification (STEP 3d — next entry candidates only)
+| Ticker | Source | AH Quote Jul 9 | Notes | Status |
+|--------|--------|----------------|-------|--------|
+| AAPL | Alpaca position | $315.10 (last price) | Stop $284.877, HWM $316.53 | HOLD existing |
+| NVDA | Alpaca AH quote | bid $194.25 / ask $211.65 | Wide AH spread — unreliable. Use open Jul 14 | Watchlist — wait for live open price Jul 14 |
+| JPM/BAC/GS | — | Not quoted today | Q2 earnings BMO Jul 14 — need open print post-beat | Watchlist — evaluate Jul 14 |
+
+**No new entries today** — all prices verified for existing position only; next entry window Jul 14 post-CPI.
+
+### Trade Ideas
+**No new entries today** — defensive hold continues per FOMC-hawkish mandate. CPI is the gate.
+
+**Post-CPI watchlist (Jul 14 evaluation order)**:
+1. **NVDA** — BofA "Buy" (Unique, Durable Growth Franchise) Jul 8; AI demand intact; held +0.71% Jul 7 when chips fell 8-11% (relative strength signal). Entry conditions: CPI deflation confirmed + NQ green + live ask ≤$210 at open Jul 14. Stop 10% trail below fill. Size: 15% × $110k = $16,500.
+   - ⚠️ Note: Ro Khanna SOLD NVDA $1K-15K on May 1 — minor bearish counter-signal but below threshold
+2. **Financials (JPM or GS)** — Q2 earnings BMO Jul 14 (same day as CPI); sector Neutral (Schwab); strong Q2 expected (+24% S&P EPS growth); XLF led past 5 days. Entry only on: beat + CPI dovish + live ask within 5% of prior close. Size: 15%.
+3. **AAPL (earnings strategy)** — NOT adding. Plan partial/full exit before Jul 28 if: (a) price reaches +25% ($390.52 — far away) OR (b) 2 weeks before earnings at +15%+ as risk mgmt rule.
+
+### Risk Factors
+- **US-Iran hostilities (ELEVATED)**: Trump struck Kharg Island Jul 8, declared ceasefire "over." Any re-escalation = oil spike + market selloff. This is the primary tail risk.
+- **CPI Jul 14 binary**: Forecast -0.1% MoM (deflationary) = very bullish if confirmed. BUT upside CPI surprise = rate hike narrative reignites, tech selloff.
+- **AAPL near 52wk high**: $317.40 resistance only $2.30 above current stop HWM $316.53. Risk of reversal at all-time high.
+- **AAPL earnings Jul 30**: Binary event 14 trading days away. Cannot add aggressively to AAPL position.
+- **Deployment 15.1%**: Far below 75-85% target. CPI + bank earnings next week are the deployment catalyst.
+- **Tim Cook succession September 2026**: Leadership transition risk for AAPL.
+- **NVDA AH spread**: $194.25 bid / $211.65 ask (massive $17 spread) — confirms AH illiquidity; use open price only for entry decision.
+
+### Decision
+**AAPL: HOLD** — Broadcom deal reinforces thesis; stop active $284.877; above -7% threshold; intact.
+**NO NEW ENTRIES TODAY** — FOMC-hawkish defensive hold continues.
+**CPI Monday Jul 14 is THE gate**:
+  - Deflation (-0.1%) confirmed + bank earnings beat → enter NVDA (live ask ≤$210) + 1 financial; target 45% deployed
+  - Hot CPI → extend defensive hold; defer all entries to Jul 22+ (next FOMC gap)
+**AAPL earnings plan**: If price ≥ +15% ($359.28) before Jul 28 → tighten trail to 7%. If approaching Jul 28 with unrealized gain → sell 1/3 to lock profit before binary event.
 **NO NEW ENTRIES** — FOMC hawkish outcome mandates deferral to Jul 14+ post-CPI
