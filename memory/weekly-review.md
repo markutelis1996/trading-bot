@@ -614,3 +614,70 @@ Stocks: 0 positions. 100% cash ($107,338.95). Crypto DCA sleeve: BTC+ETH+SOL+LIN
 - Phase P&L: +$10,129.20 (+10.13%) — still ahead of benchmark ✓
 
 ---
+
+## Week ending 2026-07-11
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $110,132 (Mon Jul 7 AM) |
+| Ending portfolio | $110,322.41 |
+| Week return | +$190.41 (+0.17%) |
+| S&P 500 week | ~+1.0% (closed 7,575.39 Jul 11; "more than 1% advance" per CNBC) |
+| Bot vs S&P | -0.83% underperformance |
+| Trades | 1 new entry (W:0 / L:0 / open:1) |
+| Win rate | N/A (no closed trades) |
+| Best trade | AAPL +0.93% unrealized |
+| Worst trade | N/A (single position) |
+| Profit factor | N/A (no closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| — | — | — | — | — | No trades closed this week |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| AAPL | 52 (52.877 total) | $312.42 | $315.32 | +$153.40 (+0.93%) | $285.22 (10% trail, fde3aa6a) | $316.91 |
+
+Crypto sleeve (untouched, DCA-managed): BTC $2,121 / ETH $1,068 / SOL $594 / LINK $556 = $4,339 total MV
+Stock deployment: 15.1% ($16,673 / $110,322) — severely below 75-85% target
+
+### What Worked
+- AAPL entry executed cleanly Jul 7 at $312.42 — both conditions met (ask ≤$315, NQ green on SpaceX Nasdaq-100 addition); first stock entry in 5 weeks
+- Integer-qty discipline correct: 52 shares protected by GTC stop, 0.877 fractional unprotected per rule
+- Trailing stop auto-trailing correctly: stop $281.22 → $285.22 as HWM advanced to $316.91; no manual action required
+- FOMC minutes blackout Jul 8 enforced correctly — Jul 9 market-open confirmed hawkish outcome → deferred new entries to CPI gate Jul 14
+- CPI gate identified and held: hawkish FOMC = macro uncertainty → disciplined wait for Jul 14 data before adding positions
+
+### What Didn't Work
+- 15.1% stock deployment all week — 6th consecutive week near-zero or minimal deployment; S&P +1.0% mostly missed
+- Only 1 of 7 weekly trade slots used; sequential macro gates (FOMC minutes Wed, hawkish outcome, CPI gate Jul 14) consumed the full week
+- S&P 500 +1.0% vs bot +0.17% = -0.83% underperformance; cash drag continues to narrow phase lead
+- Warsh hawkish FOMC minutes (Jul 8) blocked Jul 9-10 entries even though NQ recovered both days — 1-session pause may suffice going forward (noted last week, not yet implemented as rule)
+- Phase P&L lead narrowing: +10.32% vs benchmark eroding week by week with zero stock deployment
+
+### Key Lessons
+- **Sequential macro gates chain together into full-week lockouts**: FOMC minutes Wed → hawkish → CPI gate → 5-day blackout total. Need a tighter pause window: 1 trading session after hawkish FOMC minutes (not full week), unless CPI/NFP is within 2 days
+- **One entry is better than zero, but barely**: AAPL at 15% deployment is barely better than cash; needs 2-3 more positions by Jul 16 to matter
+- **CPI gate is the right next trigger**: Jul 14 CPI at 7:30 AM ET — cool print (≤3.2% core CPI) unlocks NVDA + 1-2 financials (JPM/BAC/GS BMO Jul 14); hot print extends blackout
+- **AAPL thesis intact**: Broadcom AI chip deal ($30B+ through 2031) + Q2 FY26 beat + mega-cap rotation safe harbor; stop protecting +0.93% gain; no action needed before Jul 14
+
+### Adjustments for Next Week
+- **Mon Jul 14 PRIMARY: CPI gate** — cool print (core ≤3.2%) → NVDA entry ≤$210 (15% equity, ~75 shares, 10% trail); financials secondary (JPM/BAC/GS BMO Jul 14 — buy on Q2 beat if gap ≤5%)
+- **Target 40-60% deployment by Thu Jul 17**: need 2-3 new entries; NVDA + 1 financial + 1 other (MRVL re-entry if thesis confirmed?)
+- **Warsh pause rule refinement**: After FOMC hawkish surprise, hold only 1 trading session (not full week) unless CPI/NFP within 2 days; implemented informally — consider formalizing in strategy
+- **AAPL management**: +15% trigger $359.28 (tighten to 7% trail); earnings Jul 30 — plan 1/3 partial or full exit before Jul 28 blackout; no action this week
+- **Sector cap check before NVDA**: AAPL alone ~15%; NVDA would add ~15% = 30% total tech; well below 60% cap; room for 2 more semis/tech names
+
+### Overall Grade: C
+- AAPL entry executed correctly on valid conditions ✓
+- All macro gates applied correctly (FOMC blackout, CPI gate) ✓
+- No rule violations ✓
+- +0.17% vs S&P +1.0% = -0.83% underperformance ✗
+- 15.1% deployment (6th consecutive week near-zero) ✗
+- 1 of 7 trade slots used ✗
+- Phase P&L: +$10,322.41 (+10.32%) — still ahead of benchmark ✓
+
+---
