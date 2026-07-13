@@ -30,3 +30,11 @@
 - ETH/USD: $350.00 @ ~$1758.5400 (7d high $1805.9000) -> order 47b0f166 pending_new
 - SOL/USD: $210.00 @ ~$80.6404 (7d high $83.8365) -> order 69d003b9 pending_new
 - LINK/USD: $140.00 @ ~$7.8919 (7d high $8.3111) -> order 7cf44cb9 pending_new
+
+### 2026-07-13 15:00 UTC — DCA session #4
+- Deployed so far: $4200.00 / $55000 target
+- Session spend: $1505.00
+- BTC/USD: $700.00 @ ~$62746.4000 (7d high $64682.1300) -> order 2c2331f8 pending_new
+- ETH/USD: $350.00 @ ~$1780.5000 (7d high $1842.6785) -> order 73dbee37 pending_new
+- SOL/USD: $315.00 @ ~$76.2507 (7d high $83.4900 DIP -8.7% x1.5) -> order 1c24bb7b pending_new
+- LINK/USD: $140.00 @ ~$7.9743 (7d high $8.1659) -> order 3f9e2d2c pending_new
