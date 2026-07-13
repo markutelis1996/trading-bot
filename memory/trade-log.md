@@ -5248,3 +5248,47 @@ Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per crypto guard — OFF-LIMITS. 
 - Tomorrow (Jul 14) plan: CPI ≤3.8% → NVDA (≤$215 ask) + 1 bank (JPM or GS, best beat) = +30% deployment
 
 ---
+
+## 2026-07-13 - Midday Scan
+
+**Portfolio:** ~$111,741 equity (est.) | **Cash:** $89,309.77 (79.9%) | **Stock Positions:** 1 | **Stock Deployed:** ~15.0% | **Phase P&L:** ~+$11,741 (+11.74%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Log Stop/HWM | Broker Stop/HWM | Match? |
+|--------|---------|------------|--------------|-----------------|--------|
+| AAPL | 52.877 | 52.877045 | $287.71 / $319.68 | $291.105 / $323.45 | ✓ (stop auto-trailed — AAPL hit intraday HWM $323.45) |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per crypto guard — OFF-LIMITS. No discrepancy.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|---------------|-----|--------|
+| AAPL | 52.877 | $312.42 | $316.61 | +1.341% | +0.41% | $291.105 (10% trail, fde3aa6a) | $323.45 | HOLD |
+
+### Step 3 — Cuts
+None. AAPL +1.341% — well above -7% cut threshold ($290.55).
+
+### Step 4 — Stop Tightening
+- AAPL: +1.341% from entry. +15% trigger = $359.28, +20% trigger = $374.90 — neither reached. No action.
+- Trailing stop auto-trailed: stop $287.71 → $291.105, HWM $319.68 → $323.45 (AAPL hit intraday high). Expected behavior.
+
+### Step 5 — Thesis Check
+- **AAPL**: Hit intraday HWM $323.45 (+3.53% from entry) before pulling back to $316.61. Broadcom AI chip deal ($30B+) + Q2 FY26 beat + mega-cap safe harbor + foldable iPhone demand. No adverse news. **INTACT. HOLD.**
+
+### Step 6 — Intraday Research
+No sharp unexplained moves. AAPL +0.41% consistent with mild market grind. Tomorrow's CPI + JPM/BAC/GS/WFC earnings are the primary events. No additional research needed.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL | 52.877 (52 protected) | $312.42 | $291.105 (10% trail, fde3aa6a) | $323.45 | $374.90 (+20%) |
+
+- Trailing stop auto-trailed: HWM $319.68 → $323.45 | Stop $287.71 → $291.105
+- Trades this week: 0/7 | Deployment: ~15.0% vs 75-85% target
+- Watch: AAPL +15% trigger $359.28 (tighten to 7% trail); earnings Jul 30 — plan exit before Jul 28
+- Tomorrow (Jul 14): CPI gate 8:30 AM ET; bank earnings BMO (JPM/BAC/GS/WFC)
+
+---
