@@ -5208,3 +5208,43 @@ None. No cuts, no stop changes, no new entries.
 - Watch: AAPL +15% trigger $359.28 (tighten to 7% trail); earnings Jul 30 — plan exit before Jul 28
 
 ---
+
+## 2026-07-13 - Market-Open Session
+
+**Portfolio:** $110,455.14 equity | **Cash:** $89,309.77 (80.9%) | **Positions:** 1 (AAPL) | **Deployed:** ~15.3% | **Phase P&L:** +$10,455.14 (+10.46%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL | 52.877 | 52.877045 | ✓ Match |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per crypto guard — OFF-LIMITS. No discrepancy.
+
+### Step 1b — Live Price Re-Verification (~9:31 AM ET)
+| Ticker | Research Plan | Live Ask | Delta | Stop | HWM | Status |
+|--------|---------------|----------|-------|------|-----|--------|
+| AAPL | HOLD | $319.98 | +2.42% from entry $312.42 | $287.71 (10% trail, fde3aa6a, HWM $319.68) | $319.68 (new ATH trail) | HOLD — above -7% cut threshold ($290.55) |
+
+### Step 3 — Hard Rule Checks
+- AAPL: +2.42% from entry → above -7% cut threshold → HOLD ✓
+- +15% tighten trigger ($359.28): not reached
+- +20% tighten trigger ($374.90): not reached
+- New entries: NO — pre-CPI caution; Fed Bowman 9:25 AM speech risk; research gate = tomorrow Jul 14 CPI
+- Daytrade count: 0/3 ✓
+- Trades this week (new week Jul 13): 0/7
+
+### Execution
+**NO TRADES** — research plan explicit: no new entries today. Gate is Jul 14 CPI (8:30 AM ET) + bank earnings (JPM/BAC/GS/WFC BMO).
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL | 52.877 (52 protected) | $312.42 | $287.71 (10% trail, fde3aa6a) | $319.68 | $374.90 (+20%) |
+
+- Thesis: Q2 FY26 beat + Broadcom AI chip deal ($30B+ through 2031) + mega-cap safe harbor + foldable iPhone demand. INTACT.
+- Trailing stop auto-trailed: HWM $316.91 → $319.68 | Stop $285.219 → $287.71
+- Earnings risk: Jul 30 — plan 1/3 partial or full exit before Jul 28
+- Trades this week: 0/7 | Deployment: ~15.3% vs 75-85% target
+- Tomorrow (Jul 14) plan: CPI ≤3.8% → NVDA (≤$215 ask) + 1 bank (JPM or GS, best beat) = +30% deployment
+
+---
