@@ -5292,3 +5292,14 @@ None. No cuts, no stop changes, no new entries.
 - Tomorrow (Jul 14): CPI gate 8:30 AM ET; bank earnings BMO (JPM/BAC/GS/WFC)
 
 ---
+
+### Jul 13 - EOD Snapshot (Day 60, Monday)
+**Portfolio:** $110,300 | **Cash:** $87,834.61 (79.6%) | **Day P&L:** -$8.92 (-0.01%) | **Phase P&L:** +$10,300 (+10.30%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 52.877 | $312.42 | $317.31 | +$1.99 (+0.63%) | +$258.63 (+1.57%) | $291.105 (10% trail, fde3aa6a, HWM $323.45) |
+
+**Notes:** No trades today (pre-CPI gate; explicit hold per market-open and midday plans). AAPL +0.63% intraday to $317.31; trailing stop auto-trailed to $291.105 (HWM $323.45 hit intraday, up from $287.71 stop). Unrealized +$258.63 (+1.57%) from entry $312.42. Crypto DCA sleeve ran today (Mon cadence) — cash decreased $89,309.77 → $87,834.61 (~$1,475 DCA deployed); crypto sleeve (BTC -1.86%, ETH -2.00%, SOL -2.05%, LINK -1.72%) dragged overall Day P&L to -$8.92 despite AAPL gains. Stocks only: 15.2% deployed vs 75-85% target — intentionally underdeployed for CPI gate. Tomorrow: CPI 8:30 AM ET (gate ≤3.8%) + JPM/BAC/GS/WFC Q2 BMO; if beat + cool CPI → NVDA (≤$215 ask) + 1 bank stock = target +30% additional deployment. Phase P&L: +$10,300 (+10.30%).
+
+---
