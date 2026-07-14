@@ -5303,3 +5303,56 @@ None. No cuts, no stop changes, no new entries.
 **Notes:** No trades today (pre-CPI gate; explicit hold per market-open and midday plans). AAPL +0.63% intraday to $317.31; trailing stop auto-trailed to $291.105 (HWM $323.45 hit intraday, up from $287.71 stop). Unrealized +$258.63 (+1.57%) from entry $312.42. Crypto DCA sleeve ran today (Mon cadence) — cash decreased $89,309.77 → $87,834.61 (~$1,475 DCA deployed); crypto sleeve (BTC -1.86%, ETH -2.00%, SOL -2.05%, LINK -1.72%) dragged overall Day P&L to -$8.92 despite AAPL gains. Stocks only: 15.2% deployed vs 75-85% target — intentionally underdeployed for CPI gate. Tomorrow: CPI 8:30 AM ET (gate ≤3.8%) + JPM/BAC/GS/WFC Q2 BMO; if beat + cool CPI → NVDA (≤$215 ask) + 1 bank stock = target +30% additional deployment. Phase P&L: +$10,300 (+10.30%).
 
 ---
+
+## 2026-07-14 - Market-Open Session
+
+**Portfolio:** $110,391.22 equity | **Cash:** $54,751.56 (49.6%) | **Positions:** 3 stocks | **Deployed:** ~45.1% stocks | **Phase P&L:** +$10,391.22 (+10.39%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL | 52.877 | 52.877045 | ✓ Match |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per crypto guard — OFF-LIMITS. No stock discrepancies.
+
+### Step 1b — Live Price Re-Verification (~9:31 AM ET)
+| Ticker | Research Plan | Live Ask | Delta | Status |
+|--------|---------------|----------|-------|--------|
+| AAPL | HOLD | $313.06 | +0.21% from entry $312.42 | HOLD ✓ |
+| NVDA | BUY ≤$215 | $207.16 | +1.8% from AH ref $203.53 | BUY ✓ (<5%) |
+| JPM | BUY ≤$351 | $344.79 | +3.1% from close $334.53 | BUY ✓ (<5%) |
+
+### Step 3 — Hard Rule Checks (all PASS)
+- CPI Jun 2026: 3.8% (gate ≤3.8% ✓)
+- NQ: NVDA ask above AH ref → green ✓
+- Stock positions after trades: 3 ≤ 6 ✓
+- Trades this week: 0+2 = 2 ≤ 7 ✓
+- Per-position notional: ~15% × $110,285 = $16,542 ✓
+- Daytrade count: 0/3 ✓
+- NVDA delta <5% ✓ | JPM delta <5% ✓
+
+### Trades Executed
+
+| # | Date | Ticker | Side | Shares | Entry | Stop | Target | R:R | Thesis |
+|---|------|--------|------|--------|-------|------|--------|-----|--------|
+| 1 | 2026-07-14 | NVDA | BUY | 80.433 | $205.67 | $184.878 (10% trail, a255b2fa) | $246.80 (+20%) | 2.0:1 | Korea Blackwell deal (260k chips to Samsung/SK Hyundai/Naver); Goldman "compelling" at 21.7x fwd PE (vs 72x 5yr avg); CPI 3.8% dovish removes rate drag; Vera Rubin H2 2026 ramp |
+| 2 | 2026-07-14 | JPM | BUY | 49.521 | $334.001 | $302.225 (10% trail, 1a5b3205) | $400.80 (+20%) | 2.1:1 | Q2 2026 beat (EPS $5.67 vs $5.58 est); investment banking fees +10%+; SpaceX IPO fees; NII guidance raise; CPI dovish = financial sector relief |
+
+### Stops Placed (GTC trailing)
+- NVDA: 80 shares, 10% trail, initial stop $184.878 (HWM $205.42) — order ID a255b2fa
+- JPM: 49 shares, 10% trail, initial stop $302.225 (HWM $335.81) — order ID 1a5b3205
+- Note: NVDA 0.433 fractional shares uncovered; JPM 0.521 fractional shares uncovered
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target | R:R |
+|---|--------|--------|-------|------|-----|--------|-----|
+| 1 | AAPL | 52.877 (52 stop) | $312.42 | $291.105 (10% trail, fde3aa6a) | $323.45 | $374.90 (+20%) | 2.0:1 |
+| 2 | NVDA | 80.433 (80 stop) | $205.67 | $184.878 (10% trail, a255b2fa) | $205.42 | $246.80 (+20%) | 2.0:1 |
+| 3 | JPM | 49.521 (49 stop) | $334.001 | $302.225 (10% trail, 1a5b3205) | $335.81 | $400.80 (+20%) | 2.1:1 |
+
+- Trades this week: 2/7 (new entries: NVDA + JPM Jul 14)
+- Deployment: ~45.1% stocks vs 75-85% target — room for 1-2 more positions
+- Next entry window: remain at 3 positions; evaluate 4th if NQ sustains and AAPL earnings approach
+- Watch: AAPL earnings Jul 30 — exit before Jul 28; NVDA +15% trigger $236.52 (tighten to 7%); JPM +15% trigger $384.10
+
+---
