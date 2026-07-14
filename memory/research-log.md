@@ -6370,3 +6370,101 @@ All quotes from Alpaca Jul 10 EOD/AH — stale; use open prints tomorrow:
   5. If CPI >3.9%: stay 100% in AAPL + cash; defer to Jul 22+
 **AAPL earnings plan**: Trailing stop provides floor; if price ≥ +15% ($359.28) before Jul 28 → tighten to 7%. Sell 1/3 before Jul 28 regardless if holding near earnings.
 **NO NEW ENTRIES** — FOMC hawkish outcome mandates deferral to Jul 14+ post-CPI
+
+## 2026-07-14 - Pre-market Research
+
+### Account
+- Equity: $110,255.05
+- Cash: $87,834.61
+- Buying power: $398,134.41
+- Daytrade count: 0/3
+- Deployed: 15.2% (AAPL $16,712.85 only)
+- Phase P&L: +$10,255.05 (+10.26%)
+- Trades this week: 0/7
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Stop/HWM | Match? |
+|--------|---------|------------|----------|--------|
+| AAPL | 52.877 | 52.877045 | $291.105 / $323.45 (fde3aa6a) | ✓ Match |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No stock discrepancies.
+
+### Market Context (pre-market Jul 14)
+- **WTI**: ~$74-78/bbl (+4-9% today) | **Brent**: ~$79-83/bbl (+9.62%) — SEVERE Iran escalation (continued US-Iran strikes; oil at multi-week highs)
+- **S&P 500 futures (ES)**: ~7,554-7,590 (-0.4 to -0.87% from Jul 10 settle) — risk-off
+- **VIX**: 16.38-17.15 (+9-14% from 15.03) — elevated; fear spike from Iran
+- **CPI Jun 2026** (8:30 AM ET release): **3.8% YoY actual** vs 4.2% May prior / ~3.96% Cleveland Fed nowcast → DOVISH SURPRISE; Scenario B (3.7-3.9%) = mild moderation
+- **Fed Chair Warsh**: Inaugural semi-annual Congressional testimony TODAY + tomorrow — tone uncertainty (hawkish risk; inflation 3.8% still above 2% target)
+- **Earnings BMO today**: JPM (est EPS $5.58-5.67, rev $49-51B), GS (est $14.47, rev $16.2B), WFC (est $1.72), BAC (est $1.13), C (est $2.74)
+  - Tavily AI summary (unconfirmed actuals): JPM EPS $5.67 beat, rev $50.54B; GS in-line $14.47
+  - Banks have strong beat history — await open prints for confirmation
+
+### AAPL Position (existing)
+| Ticker | Shares | Entry | Broker Price | Unrealized | Stop (GTC) | HWM | Status |
+|--------|--------|-------|-------------|------------|------------|-----|--------|
+| AAPL | 52.877 (52 stop) | $312.42 | $316.07 | +$193 (+1.17%) | $291.105 (fde3aa6a) | $323.45 | HOLD |
+
+- AH bid showed $293.43 (anomalous thin AH quote, no ask side) — disregard; position price $316.07 is reliable
+- Risk flag: TradingKey "Double Top at 52-Week High" technical + foldable iPhone delay reports
+- Thesis: Broadcom AI chip deal ($30B+ through 2031) + Q2 FY26 beat + mega-cap safe harbor — INTACT. HOLD.
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Days | Signal |
+|------------|--------|--------|------|------------|-----------|------|--------|
+| **Pelosi** | **INTC** | BUY | $1M-5M | May 29 | Jun 24 | 20d | ⚠️ WEAKENED — INTC down 21% in 7 days (BofA "bubble" warning) |
+| Gottheimer | MSFT | BUY | $500K-1M | May 19 | ~Jun 2026 | ~25d | Secondary only; sector Neutral |
+
+- INTC collapse: TradingKey headline "INTC Down 21% in 7 Days — BofA Says Bubble." Pelosi signal directionally valid but thesis under stress. Do NOT enter INTC.
+- No new whitelist politician buys in July 2026 found above $25K threshold.
+- Most-bought congressional stock this month: BIIB, MSFT, LLY — no momentum sector overlap
+- **Conclusion: NO politician signals actionable today**
+
+### Live Price Verification (STEP 3d — Alpaca AH quotes Jul 13 4PM close)
+| Ticker | Jul 13 Close (est) | Alpaca AH | Entry Zone | Stop (10%) | Target (+20%) | R:R |
+|--------|-------------------|-----------|------------|------------|---------------|-----|
+| NVDA | ~$203.53 | bp=$194.16/ap=$215.17 (AH wide) | ≤$215 live ask at open | ~$184 | ~$244 | 2:1 |
+| JPM | ~$334.53 | bp=$321.19/ap=0 (AH pre-earnings) | within 5% of close → ≤$351 | ~$301 | ~$401 | 2:1 |
+| GS | ~$1,045.91 | bp=$998/ap=$1,116 (AH wide) | within 5% → ≤$1,098 | ~$941 | ~$1,255 | 2:1 |
+
+⚠️ AH quotes unreliable (wide spreads, no asks on AAPL/JPM). Verify live at market open 9:30 AM ET.
+
+### Trade Ideas
+1. **NVDA — CONDITIONAL BUY** at open
+   - Catalyst: NVDA Korea deal (260,000 Blackwell AI chips to Samsung/SK/Hyundai/Naver); Goldman "compelling" at 21.7x fwd PE (5yr avg 72x); CPI dovish (3.8%) removes rate-cut drag on high-multiple tech
+   - Counter-risk: Korean AI chip selloff contagion (Kospi -8% Mon Jul 13); NVDA stuck in $198-203 resistance; Iran risk-off; VIX +14%
+   - Entry: ONLY IF CPI ≤3.8% confirmed + NQ futures green after 8:30 AM + live ask ≤$215
+   - Size: 15% × $110,255 = $16,538 → at $203.53 = 81 shares (integer, round down)
+   - Stop: 10% trail GTC; target +20% = ~$244; R:R 2:1
+   - SKIP if NVDA gaps down below $190 (stop would be too close to entry; wait for base)
+
+2. **JPM — CONDITIONAL BUY** (1 bank only, pick best setup)
+   - Catalyst: Q2 beat expected; investment banking fees +10%+; SpaceX IPO fees; NII guidance raise = key catalyst
+   - Entry: ONLY IF actual EPS > est ($5.58) AND opens within 5% of $334.53 (≤$351) AND VIX <17 at open
+   - Size: 15% × $110,255 = $16,538 → at $334 = 49 shares
+   - Stop: 10% trail GTC; target +20%; R:R 2:1
+   - SKIP GS today: in-line $14.47 vs Q1's massive $17.55 = risk of "beat but sequential disappointment"
+
+### Risk Factors
+- **Iran oil shock**: WTI +9% today — if escalates further → market selloff, risk-off; energy stocks short-term lift (we have no energy)
+- **VIX +14%** (17.15): elevated; suggests market anxiety beyond just CPI
+- **Fed Warsh testimony**: hawkish tone could offset CPI dovish signal; watch 10 AM ET
+- **Korean AI chip selloff (Jul 13)**: NVDA dragged -3.52%; narrative of "AI overextension" could persist
+- **AAPL double-top risk**: technical signal at 52-week high $323.45; foldable iPhone delays noted
+- **INTC collapse -21%**: Pelosi's $1M+ INTC signal is now deeply underwater; signals broader semi risk
+- **Deployment 15.2%**: Far below 75-85% target — but deploying into risk-off market on Iran spike = timing risk
+- **GS QoQ compression**: Q2 EPS $14.47 vs Q1's $17.55 = -17% sequential decline; could disappoint regardless of YoY growth
+
+### Decision
+**AAPL: HOLD** — stop active ($291.105), thesis intact, AH anomaly disregarded
+**NVDA: CONDITIONAL BUY** — gate: CPI ≤3.8% confirmed (8:30 AM) + NQ green + ask ≤$215 at open
+**JPM: CONDITIONAL BUY (1 bank only)** — gate: actual EPS beat + opens within 5% of prior close + VIX <17
+**GS: SKIP today** — in-line result + QoQ compression risk; revisit tomorrow if reaction positive
+**INTC: AVOID** — Pelosi signal undermined by -21% collapse; BofA "bubble" warning
+**Default: HOLD** — if CPI surprises hot OR Iran escalation worsens OR Warsh hawkish → no new entries; defer to Jul 22+
+
+**Execution gates (8:30 AM ET sequential checks):**
+1. Read CPI actual; if ≤3.8% → proceed; if >3.9% → abort all new entries
+2. Check NQ futures: if green → NVDA entry; if still red → hold
+3. At open: verify NVDA live ask ≤$215; if ≤$215 → buy 81 shares, place 10% GTC trail
+4. Check JPM open: if within 5% of $334.53 → buy 49 shares, place 10% GTC trail
+5. Total if both enter: AAPL 15% + NVDA 15% + JPM 15% = 45% deployed (within 75-85% target ramp)
