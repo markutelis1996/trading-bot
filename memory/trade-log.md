@@ -5356,3 +5356,16 @@ Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per crypto guard — OFF-LIMITS. 
 - Watch: AAPL earnings Jul 30 — exit before Jul 28; NVDA +15% trigger $236.52 (tighten to 7%); JPM +15% trigger $384.10
 
 ---
+
+### Jul 14 - EOD Snapshot (Day 61, Tuesday)
+**Portfolio:** $111,463.04 | **Cash:** $54,751.56 (49.1%) | **Day P&L:** +$1,133.36 (+1.03%) | **Phase P&L:** +$11,463.04 (+11.46%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 52.877 | $312.42 | $315.42 | +$0.56 (+0.18%) | +$158.69 (+0.96%) | $291.105 (10% trail, fde3aa6a, HWM $323.45) |
+| JPM | 49.521 | $334.00 | $343.13 | +$0.24 (+0.07%) | +$452.06 (+2.73%) | $310.23 (10% trail, 1a5b3205, HWM $344.70) |
+| NVDA | 80.433 | $205.67 | $212.83 | +$1.03 (+0.49%) | +$575.90 (+3.48%) | $191.295 (10% trail, a255b2fa, HWM $212.55) |
+
+**Notes:** Bought NVDA + JPM at market open on CPI 3.8% gate pass + bank earnings beats. NVDA +3.48% unrealized ($205.67→$212.83); trailing stop auto-trailed to $191.295 (HWM $212.55). JPM +2.73% unrealized ($334.00→$343.13); trailing stop auto-trailed to $310.23 (HWM $344.70). AAPL steady +0.18% intraday (+0.96% unrealized from entry); stop $291.105 (HWM $323.45). Portfolio 3 stock positions, ~45.6% deployed (stocks) vs 75-85% target. Phase P&L +$11,463.04 (+11.46%). Trades this week: 2/7. Watch: AAPL earnings Jul 30 — exit before Jul 28; NVDA +15% trigger $236.52; JPM +15% trigger $384.10.
+
+---
