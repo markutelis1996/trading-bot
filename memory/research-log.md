@@ -6468,3 +6468,72 @@ Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No stock discrepa
 3. At open: verify NVDA live ask ≤$215; if ≤$215 → buy 81 shares, place 10% GTC trail
 4. Check JPM open: if within 5% of $334.53 → buy 49 shares, place 10% GTC trail
 5. Total if both enter: AAPL 15% + NVDA 15% + JPM 15% = 45% deployed (within 75-85% target ramp)
+
+## 2026-07-15 - Pre-market Research
+
+### Account Snapshot
+- Equity: $111,473.49 | Cash: $54,751.56 | Buying power: $361,147.59
+- Daytrade count: 0/3 | Trades this week: 2/7
+- Stock deployed: ~45.5% ($50,768 in 3 positions) | Phase P&L: +$11,473.49 (+11.47%)
+
+### Reconciliation (Step 0)
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL | 52.877 | 52.877045 | ✓ Match |
+| NVDA | 80.433 | 80.433413 | ✓ Match |
+| JPM | 49.521 | 49.521674 | ✓ Match |
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD): OFF-LIMITS, filtered. Stops auto-trailed (expected).
+
+### Open Positions
+| Ticker | Entry | Current | P&L% | Stop | HWM | Thesis |
+|--------|-------|---------|------|------|-----|--------|
+| AAPL | $312.42 | $315.50 | +0.99% | $291.105 | $323.45 | INTACT (KeyBanc downgrade headwind; earnings Jul 30) |
+| NVDA | $205.67 | $212.52 | +3.33% | $191.295 | $212.55 | INTACT (Rubin delay + China crackdown manageable; BofA Buy) |
+| JPM | $334.001 | $343.13 | +2.73% | $310.23 | $344.70 | STRONGLY INTACT (record Q2 beat — Dimon: "close to as good as it gets") |
+
+### Macro Context
+- **WTI**: ~$79.85-80.44/bbl (+1.4-3%) | **Brent**: ~$84.73-86.19/bbl (+1.7-2%) — Iran escalation, US naval blockade of Hormuz reinstated
+- **S&P 500 futures**: ~7,548-7,559 (+0.2%) | **NQ futures**: ~29,571 (+0.35%) — mildly positive open
+- **VIX**: ~16.88-17.51 — elevated (Iran oil shock), moderating
+- **CPI Jun 2026** (Jul 14 release): 3.50% YoY vs 3.80% est (massive dovish surprise); Core MoM 0.00%, Core YoY 2.60%
+- **PPI Jun 2026** (today 8:30 AM ET): 6.2% actual vs 6.5% prior — slightly dovish
+
+### Today's Key Earnings (BMO)
+- ASML: Beat rev ($7.69B vs $7.52B est) + EPS beat, BUT warned "cannot confirm growth" for 2026 → stock dropped. Textbook beat-and-lower. Alpaca AH bid-only $1,537.25 (no ask) → NOT TRADEABLE
+- MS (Morgan Stanley): Est EPS $2.93; AH quote $228.01/$229.65 — evaluate at open IF beats
+- Also: JNJ, BLK, PGR, BNY, PNC, ELV, CTAS, MTB, FHN, CAG
+
+### Yesterday's Key Earnings (Jul 14)
+- JPM: EPS $7.70 vs $5.58 est (+38% beat); Rev $57.35B record ✓ (already in portfolio)
+- GS: EPS $20.98 vs $14.38 est (+46% beat) — skipped (in-line risk pre-announcement)
+- BAC/WFC/C: All beat
+- IBM: MISS — worst day since 1987 (-21.9%)
+
+### Capitol Trades (Whitelist Check)
+- Pelosi: Last trade May 29 (INTC + UBER calls); no new disclosures — not actionable
+- McCaul: ANET $15K-$50K May 6; below $25K threshold
+- Khanna: All recent trades $1K-$15K; below threshold
+- Gottheimer/Tuberville/Mast: No qualifying buys >$25K in last 45 days
+- **CONCLUSION: NO actionable politician signals**
+
+### Sector Momentum
+- MORE FAVORED: Communication Services, Healthcare, Industrials, Materials
+- NEUTRAL: IT (recovering), Financials, Energy, Consumer Staples
+- LEAST FAVORED: Consumer Discretionary, Real Estate
+
+### News on Holdings
+- **AAPL**: KeyBanc DOWNGRADE (demand risk) but BofA $380 PT maintains Buy; Broadcom deal "strategic positive" (Evercore). Earnings Jul 30. Hold.
+- **NVDA**: Barron's: Rubin chip slight delay (Jul 14); FT: NVDA halves Asia buyer list (China chip crackdown). BofA maintains Buy "Unique, Durable Growth Franchise". Hold.
+- **JPM**: "One of the strongest earnings in history." IB fees +30%, Markets rev +35%. All segments record. Hold, trail intact.
+
+### New Entry Assessment
+- ASML: Beat but warned → stock fell; bid-only AH quote → SKIP
+- MS: Evaluate at open if EPS > $2.93 and price within 5% of AH ~$229. Financials sector neutral.
+- Deployment 45.5% — room for 1-2 more; but Iran oil shock + ASML cautious 2026 tone = risk-off caution
+
+### Decision
+- HOLD all 3 positions (AAPL/NVDA/JPM) — theses intact, stops auto-trailing
+- WATCH MS at open: buy only if EPS beat confirmed AND price ≤$240 (within 5% of $229 AH); size ~$8K (34 shares @ ~$230)
+- Do NOT enter ASML or any energy play despite oil spike (no ask-side quote, beat-and-lower risk)
+- PPI dovish + CPI 3.5% supports staying deployed; Iran risk warrants no aggressive adds today
+- No stop adjustments needed (trailing stops auto-managing)
