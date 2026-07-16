@@ -5426,3 +5426,16 @@ None. No cuts, no stop changes, no new entries.
 - Watch: NVDA HWM $212.55 barely above current $212.52 — stop will trail up on any new high
 
 ---
+
+### Jul 16 - EOD Snapshot (Day 63, Thursday)
+**Portfolio:** $112,272.91 | **Cash:** $53,379.29 (47.5%) | **Day P&L:** +$914.20 (+0.82%) | **Phase P&L:** +$12,272.91 (+12.27%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 52.877 | $312.42 | $327.53 | +$0.03 (+0.01%) | +$798.97 (+4.84%) | $295.857 (10% trail, fde3aa6a, HWM $328.73) |
+| JPM | 49.521 | $334.00 | $347.99 | +$1.08 (+0.31%) | +$692.74 (+4.19%) | $316.116 (10% trail, 1a5b3205, HWM $351.24) |
+| NVDA | 80.433 | $205.67 | $211.06 | -$1.44 (-0.68%) | +$433.54 (+2.62%) | $192.429 (10% trail, a255b2fa, HWM $213.81) |
+
+**Notes:** No trades today. All 3 positions held; trailing stops auto-trailed to new HWMs since last log: AAPL $328.73 (from $323.45, stop $295.857), JPM $351.24 (from $344.70, stop $316.116), NVDA $213.81 (from $212.55, stop $192.429). Day P&L +$914.20 (+0.82%) driven by JPM +0.31% and crypto DCA appreciation; NVDA -0.68% minor pullback. No Jul 15 EOD snapshot was committed (daily-summary skipped); broker last_equity $111,358.71 used as base. Stocks 45.9% deployed vs 75-85% target — room for 1-2 more positions. Trades this week: 2/7 (NVDA + JPM Jul 14). Phase P&L: +$12,272.91 (+12.27%). Watch: AAPL earnings Jul 30 — exit 1/3 before Jul 28; NVDA +15% trigger $236.52; JPM +15% trigger $384.10.
+
+---
