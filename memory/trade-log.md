@@ -5427,6 +5427,65 @@ None. No cuts, no stop changes, no new entries.
 
 ---
 
+## 2026-07-16 - Midday Scan
+
+**Portfolio:** ~$113,659 equity (est.) | **Cash:** $54,751.56 (48.2%) | **Stock Positions:** 3 | **Stock Deployed:** ~45.3% | **Phase P&L:** ~+$13,659 (+13.66%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Log Stop/HWM | Broker Stop/HWM | Match? |
+|--------|---------|------------|--------------|-----------------|--------|
+| AAPL | 52.877 | 52.877045 | $291.105 / $323.45 | $295.857 / $328.73 | ✓ (stop auto-trailed) |
+| JPM | 49.521 | 49.521674 | $310.23 / $344.70 | $316.116 / $351.24 | ✓ (stop auto-trailed) |
+| NVDA | 80.433 | 80.433413 | $191.295 / $212.55 | $192.429 / $213.81 | ✓ (stop auto-trailed) |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per crypto guard — OFF-LIMITS. No discrepancies.
+All 3 GTC stops auto-trailed up overnight. No unexpected exits.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Today | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|------|-------|---------------|-----|--------|
+| AAPL | 52.877 | $312.42 | $327.98 | +4.98% | +0.15% | $295.857 (10% trail, fde3aa6a) | $328.73 | HOLD |
+| JPM | 49.521 | $334.00 | $347.54 | +4.05% | +0.18% | $316.116 (10% trail, 1a5b3205) | $351.24 | HOLD |
+| NVDA | 80.433 | $205.67 | $211.49 | +2.83% | -0.47% | $192.429 (10% trail, a255b2fa) | $213.81 | HOLD |
+
+### Step 3 — Cuts
+None. All positions above -7% rule.
+- AAPL: cut threshold $290.55; current $327.98 = $37.43 above ✓
+- JPM: cut threshold $310.62; current $347.54 = $36.92 above ✓
+- NVDA: cut threshold $191.27; current $211.49 = $20.22 above ✓
+
+### Step 4 — Stop Tightening
+- AAPL +4.98%: +15% trigger $359.28, +20% trigger $374.90 — not reached. No action.
+- JPM +4.05%: +15% trigger $384.10 — not reached. No action.
+- NVDA +2.83%: +15% trigger $236.52 — not reached. No action.
+All stops auto-trailing correctly (AAPL fde3aa6a, JPM 1a5b3205, NVDA a255b2fa).
+
+### Step 5 — Thesis Check
+- **AAPL**: +0.15% intraday. KeyBanc downgrade headwind (Jul 15 research); BofA $380 PT intact; Broadcom AI chip deal ($30B+ through 2031). Earnings Jul 30 — no new adverse news. **INTACT. HOLD.**
+- **JPM**: +0.18% intraday. Record Q2 beat (EPS $7.70 vs $5.58 est, +38%); IB fees +30%, Markets +35%. Quiet consolidation post-beat. **INTACT. HOLD.**
+- **NVDA**: -0.47% intraday. Rubin delay + FT China crackdown (known Jul 14) manageable; BofA Buy "Unique, Durable Growth Franchise"; Korea Blackwell deal (260k chips) intact. Minor pullback = normal digestion, not thesis break. **INTACT. HOLD.**
+
+### Step 6 — Intraday Research
+No sharp unexplained moves. All intraday changes 0.15-0.47% — all thesis-consistent. No research action needed.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL | 52.877 (52 stop) | $312.42 | $295.857 (10% trail, fde3aa6a) | $328.73 | $374.90 (+20%) |
+| 2 | JPM | 49.521 (49 stop) | $334.00 | $316.116 (10% trail, 1a5b3205) | $351.24 | $400.80 (+20%) |
+| 3 | NVDA | 80.433 (80 stop) | $205.67 | $192.429 (10% trail, a255b2fa) | $213.81 | $246.80 (+20%) |
+
+- Trades this week: 2/7 (NVDA + JPM entered Jul 14)
+- Deployment: ~45.3% stocks vs 75-85% target — room for 1-2 more positions
+- Watch: AAPL +15% trigger $359.28 (tighten to 7%); earnings Jul 30 — exit 1/3 before Jul 28
+- Watch: NVDA +15% trigger $236.52; JPM +15% trigger $384.10
+- No notification sent (no action taken)
+
+---
+
 ### Jul 16 - EOD Snapshot (Day 63, Thursday)
 **Portfolio:** $112,272.91 | **Cash:** $53,379.29 (47.5%) | **Day P&L:** +$914.20 (+0.82%) | **Phase P&L:** +$12,272.91 (+12.27%)
 
