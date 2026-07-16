@@ -5495,6 +5495,56 @@ None. No cuts, no stop changes, no new entries.
 | JPM | 49.521 | $334.00 | $347.99 | +$1.08 (+0.31%) | +$692.74 (+4.19%) | $316.116 (10% trail, 1a5b3205, HWM $351.24) |
 | NVDA | 80.433 | $205.67 | $211.06 | -$1.44 (-0.68%) | +$433.54 (+2.62%) | $192.429 (10% trail, a255b2fa, HWM $213.81) |
 
-**Notes:** No trades today. All 3 positions held; trailing stops auto-trailed to new HWMs since last log: AAPL $328.73 (from $323.45, stop $295.857), JPM $351.24 (from $344.70, stop $316.116), NVDA $213.81 (from $212.55, stop $192.429). Day P&L +$914.20 (+0.82%) driven by JPM +0.31% and crypto DCA appreciation; NVDA -0.68% minor pullback. No Jul 15 EOD snapshot was committed (daily-summary skipped); broker last_equity $111,358.71 used as base. Stocks 45.9% deployed vs 75-85% target — room for 1-2 more positions. Trades this week: 2/7 (NVDA + JPM Jul 14). Phase P&L: +$12,272.91 (+12.27%). Watch: AAPL earnings Jul 30 — exit 1/3 before Jul 28; NVDA +15% trigger $236.52; JPM +15% trigger $384.10.
+**Notes:** No trades today (pre-market-open session). All 3 positions held; trailing stops auto-trailed to new HWMs since last log: AAPL $328.73 (from $323.45, stop $295.857), JPM $351.24 (from $344.70, stop $316.116), NVDA $213.81 (from $212.55, stop $192.429). Day P&L +$914.20 (+0.82%) driven by JPM +0.31% and crypto DCA appreciation; NVDA -0.68% minor pullback. No Jul 15 EOD snapshot was committed (daily-summary skipped); broker last_equity $111,358.71 used as base. Stocks 45.9% deployed vs 75-85% target — room for 1-2 more positions. Trades this week: 2/7 (NVDA + JPM Jul 14). Phase P&L: +$12,272.91 (+12.27%). Watch: AAPL earnings Jul 30 — exit 1/3 before Jul 28; NVDA +15% trigger $236.52; JPM +15% trigger $384.10.
+
+---
+
+## 2026-07-16 - Market-Open Session
+
+**Portfolio:** $112,079.70 equity | **Cash:** $53,379.29 → $36,566.33 (post-fill) | **Positions:** 3 → 4 stocks | **Deployed:** ~61.0% stocks | **Phase P&L:** +$11,652.70 (+11.65%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL | 52.877 | 52.877045 | ✓ |
+| NVDA | 80.433 | 80.433413 | ✓ |
+| JPM | 49.521 | 49.521674 | ✓ |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per crypto guard — OFF-LIMITS. No stock discrepancies. Clean.
+
+### Step 1b — Live Price Re-Verification
+| Ticker | Research Gate | Live Ask | Status |
+|--------|--------------|----------|--------|
+| AAPL | HOLD | $327.65 | HOLD |
+| NVDA | HOLD | $210.16 | HOLD |
+| JPM | HOLD | $346.50 | HOLD |
+| TSM | BUY ≤$456 | $428.80 | ✓ PASS |
+| UNH | BUY ≤$445 | $459.20 | ✗ SKIP (>8% above est. close) |
+
+### Trades Executed
+
+| # | Date | Ticker | Side | Shares | Entry | Stop | Target | R:R | Thesis |
+|---|------|--------|------|--------|-------|------|--------|-----|--------|
+| 1 | 2026-07-16 | TSM | BUY | 40.739 | $412.702 | $369.49 (10% trail, e08c181a, HWM $410.545) | $495.24 (+20%) | 2.0:1 | Q2 2026 BMO beat (monthly rev $40B = upper guidance bound); sole fab for AAPL/NVDA/AMD chips; AI chip demand structural; full-year +33% YoY rev growth; Vera Rubin + Blackwell ramp synergy |
+
+- Stop order: e08c181a | 40 integer shares | 10% trail | GTC | expires 2026-10-14
+- Fractional 0.739 shares uncovered (integer-qty rule 14)
+
+### UNH — SKIPPED
+- Ask $459.20 > $445 gate (≤5% above ~$424 est. close). Gapped ~8.3% — too far. Do not chase.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target | R:R |
+|---|--------|--------|-------|------|-----|--------|-----|
+| 1 | AAPL | 52.877 (52 stop) | $312.42 | $295.857 (10% trail, fde3aa6a) | $328.73 | $374.90 (+20%) | 2.0:1 |
+| 2 | NVDA | 80.433 (80 stop) | $205.67 | $192.429 (10% trail, a255b2fa) | $213.81 | $246.80 (+20%) | 2.0:1 |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $316.116 (10% trail, 1a5b3205) | $351.24 | $400.80 (+20%) | 2.1:1 |
+| 4 | TSM | 40.739 (40 stop) | $412.702 | $369.49 (10% trail, e08c181a) | $410.545 | $495.24 (+20%) | 2.0:1 |
+
+- Trades this week: 3/7 (NVDA + JPM Jul 14; TSM Jul 16)
+- Sector: IT/Tech (AAPL+NVDA+TSM) ~45% < 60% cap ✓
+- Watch: AAPL earnings Jul 30 — exit 1/3 before Jul 28; AAPL +15% trigger $359.28 (tighten to 7%)
+- Watch: NVDA +15% trigger $236.52; JPM +15% trigger $384.10; TSM +15% trigger $474.61
+- Next candidate: GE (BMO today, evaluate if beat) or NFLX (AMC tonight, evaluate Jul 17 if beats EPS $0.79)
 
 ---
