@@ -6536,4 +6536,139 @@ Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD): OFF-LIMITS, filtered. Stops auto-trailed 
 - WATCH MS at open: buy only if EPS beat confirmed AND price ≤$240 (within 5% of $229 AH); size ~$8K (34 shares @ ~$230)
 - Do NOT enter ASML or any energy play despite oil spike (no ask-side quote, beat-and-lower risk)
 - PPI dovish + CPI 3.5% supports staying deployed; Iran risk warrants no aggressive adds today
+
+---
+
+## 2026-07-16 - Pre-market Research
+
+### Account Snapshot
+- Equity: $112,268.89 | Cash: $53,379.29 | Buying power: $357,784.70
+- Daytrade count: 0/3 | Trades this week: 2/7 (NVDA + JPM entered Jul 14)
+- Stock deployed: ~45.9% ($51,528 in 3 positions) | Phase P&L: +$12,268.89 (+12.27%)
+
+### Reconciliation (Step 0)
+| Ticker | Log Qty | Broker Qty | Log Stop/HWM | Broker Stop/HWM | Status |
+|--------|---------|------------|--------------|-----------------|--------|
+| AAPL | 52.877 | 52.877045 | $291.105 / $323.45 | $295.857 / $328.73 | ✓ Match — stops auto-trailed UP |
+| NVDA | 80.433 | 80.433413 | $191.295 / $212.55 | $192.429 / $213.81 | ✓ Match — stops auto-trailed UP |
+| JPM | 49.521 | 49.521674 | $310.23 / $344.70 | $316.116 / $351.24 | ✓ Match — stops auto-trailed UP |
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD): OFF-LIMITS, filtered. No stock discrepancies.
+
+All 3 trailing stops auto-trailed up overnight. No discrepancies. Clean.
+
+### Open Positions (updated stops)
+| Ticker | Entry | Current | P&L% | Stop (GTC, broker) | HWM | -7% Cut | Thesis |
+|--------|-------|---------|------|-------------------|-----|---------|--------|
+| AAPL | $312.42 | $327.53 | +4.84% | $295.857 (fde3aa6a) | $328.73 | $290.55 | INTACT — Citi PT $365; earnings Jul 30 |
+| NVDA | $205.67 | $211.06 | +2.62% | $192.429 (a255b2fa) | $213.81 | $191.27 | INTACT — JPMorgan PT $280; Rubin H2 2026 |
+| JPM | $334.00 | $347.99 | +4.19% | $316.116 (1a5b3205) | $351.24 | $310.62 | STRONGLY INTACT — IBD Stock of Day; record Q2 |
+
+### Stop Tightening Check
+- AAPL: +4.84% — trigger at +15% ($359.28). NOT reached. No action.
+- NVDA: +2.62% — trigger at +15% ($236.52). NOT reached. No action.
+- JPM: +4.19% — trigger at +15% ($384.10). NOT reached. No action.
+
+### Market Context (pre-market Jul 16)
+- **WTI**: ~$79.75/bbl (+2.05%) | **Brent**: ~$85.30-85.60/bbl (+0.68%) — Iran escalation; WTI 1-month high
+- **ES futures (Sep)**: ~7,603 (+0.15%) | **NQ**: ~29,448 (mixed; Mag7 up, chips down)
+- **VIX**: 16.31-16.50 (Jul 15 close 16.50; declining from 17+ spike on Iran). Risk-on tone intact.
+- **Mag7 intraday (Jul 16)**: AAPL +4.01% ($327.50), GOOGL +3.17%, AMZN +3.00%, META +3.07%, MSFT +2.78-3.22%, NVDA +0.33% — broad Mag7 rally
+- **Memory chip selloff (Jul 16)**: MU -8.34%, SNDK -8.59%, WDC -9.45%, AMD -4.02% — not directly relevant to holdings
+
+### Today's Key Economic Releases
+- **8:30 AM ET: Retail Sales June MoM** — Consensus +0.3%; Actual per investing.com: +0.2% (slight miss vs headline; core ex-auto/gas reportedly stronger ~+0.8%). Rate cut September pricing at 100% per swaps. BROADLY POSITIVE for equities.
+- **Philly Fed**: Expected 15.0 (prev 10.3)
+- **5:00 PM ET**: Fed Cook speech
+- **6:00 PM ET**: Fed Beige Book
+- **10:30 PM ET**: Fed Musalem speech
+
+### Today's BMO Earnings (Key)
+- **TSM (Taiwan Semiconductor)**: Q2 2026 BMO. Conference call 2:00 AM ET. Revenue est $39.0-40.2B. Pre-results: monthly revenue data hit $40B (upper bound of guidance); 8.34% avg beat history 4 quarters. AI chip demand read for entire sector. BEAT EXPECTED.
+- **UNH (UnitedHealth)**: Q2 2026 BMO. EPS est $4.85 (+18.6% YoY). Q1 2026: beat; stock +7% after Q1. Options market priced 6.27% swing. Yahoo sources indicate UNH up ~6% today post-report.
+- **GE Aerospace**: Q2 2026 BMO. EPS est $1.86.
+- **ABT (Abbott)**: Q2 2026 BMO. EPS est $1.28.
+- AMC tonight: NFLX (est EPS $0.79), ISRG (est EPS $2.50)
+
+### Holdings News
+- **AAPL**: Citi raised PT to $365 (from $315), maintains Buy. Record 25% smartphone share; gross margin guide 48-49%; Services revenue strong. AAPL +4.01% today. Earnings Jul 30 (exit plan: sell 1/3 before Jul 28). INTACT.
+- **NVDA**: JPMorgan raised PT to $280 (from $265), maintains Overweight. Hyperscaler capex >70% growth; Blackwell Ultra fastest ramp in NVDA history; Vera Rubin confirmed H2 2026; hyperscaler Q2 earnings (GOOGL Jul 22, MSFT/META Jul 29) as next read. INTACT.
+- **JPM**: IBD Stock of Day (Composite Rating 98/99). "One of the strongest earnings in history." Stop auto-trailed to $316.116 (HWM $351.24). STRONGLY INTACT.
+
+### Politician Signals (Capitol Trades — Step 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Days Ago | Signal |
+|------------|--------|--------|------|------------|-----------|----------|--------|
+| Pelosi | INTC | BUY (calls $50 Mar27) | $1M-5M | May 29 | Jun 24 | 48 days | EXPIRED — outside 45-day window |
+| Pelosi | UBER | BUY (calls $50 Mar27) | $500K-1M | May 29 | Jun 24 | 48 days | EXPIRED — outside 45-day window |
+
+- Tommy Tuberville: 434 sells vs 6 buys YTD — no qualifying single-stock buys
+- Ro Khanna: 345 buys but all $1K-$15K range; no qualifying buys >$25K found
+- Josh Gottheimer: 45 buys vs 85 sells; no qualifying buys in last 45 days found
+- Michael McCaul: No new qualifying buys
+- Brian Mast: Foreign Affairs Committee chair (Iran focus); no recent stock disclosures found
+- **CONCLUSION: NO actionable politician signals. Last Pelosi trade 48 days ago (outside window).**
+
+### Live Price Verification (Step 3d — Alpaca AH quotes Jul 15 20:00 ET)
+AH quotes unreliable (thin market). Use open prints at 9:30 AM ET for actual entry decisions.
+| Ticker | AH Quote (Jul 15) | Est. Prior Close | Entry Zone | Stop (10%) | Target (+20%) | R:R |
+|--------|-------------------|-----------------|------------|------------|---------------|-----|
+| TSM | bid $357.24 / ask n/a (thin AH, pre-earnings) | ~$434 | ≤5% above close (≤$456) | ~$392 | ~$521 | 2:1 |
+| UNH | bid $395.67 / ask $438.90 (wide, pre-earnings) | ~$420-424 | ≤5% above close (≤$445) | ~$385 | ~$504 | 2:1 |
+| GE | bid $336.34 / ask $375.40 (wide, pre-earnings) | ~$350 | ≤5% above close (≤$368) | ~$315 | ~$420 | 2:1 |
+
+⚠️ All AH quotes captured BEFORE earnings releases (calls at 2 AM ET). Verify LIVE at open.
+
+### Trade Ideas — Conditional Entries at Open
+**Deployment gap: 45.9% deployed vs 75-85% target → need ~$32-44K more ($30-40K = 2 more positions)**
+
+1. **TSM — CONDITIONAL BUY at open (HIGHEST PRIORITY)**
+   - Catalyst: Q2 revenue hit upper bound of guidance ($40B = +33% YoY); avg 8.34% beat history; AI chip demand read confirming NVDA/AI infra thesis; TSMC = sole manufacturer of Apple chips (AAPL synergy), NVDA chips, AMD chips. Full-year >30% growth guidance expected to hold/raise.
+   - Gate: Live ask ≤$456 (≤5% above prior close ~$434) AND Q2 actual beat confirmed (rev >$40B or guidance raised)
+   - Size: 15% × $112,268 = $16,840 → at ~$440 = **38 shares** (integer, round down). Stop GTC 10% trail.
+   - Entry stop: $10% trail | Target +20% = ~$528 | R:R 2:1
+   - Risk: "Slide in chips" narrative (MU -8.34%, WDC -9.45% today) could drag TSM. Geopolitical (Taiwan Strait) risk always present. IT sector = Neutral (not "More Favored").
+   - SKIP if: ask >$456 at open OR actual revenue missed $39B lower bound
+
+2. **UNH — CONDITIONAL BUY at open**
+   - Catalyst: Q2 EPS $4.85 in-line (+18.6% YoY); Healthcare sector = "More Favored" (Schwab); up ~6% today post-report per Yahoo sources; stock +7% after Q1 2026. Defensive+growth appeal.
+   - Gate: Live ask ≤$445 (≤5% above estimated $424 close) AND actual EPS ≥$4.85 confirmed
+   - Size: 15% × $112,268 = $16,840 → at ~$440 = **38 shares** (integer, round down). Stop GTC 10% trail.
+   - Entry stop: 10% trail | Target +20% | R:R 2:1
+   - Risk: Revenue declining YoY (-1.4%); medical cost ratio pressure; Medicare Advantage membership loss; optionality market expected 6.27% swing = elevated volatility. In-line result (not beat) limits upside surprise.
+   - SKIP if: ask >$445 OR EPS <$4.75 (actual miss)
+
+**Post-trade deployment check:** AAPL + NVDA + JPM + TSM + UNH = 75% deployed (hitting lower bound of target). Correct.
+
+### Sector Concentration Check
+| Sector | Current | After 2 Adds |
+|--------|---------|-------------|
+| IT (AAPL+NVDA+TSM) | 30.5% | 45.5% | ✓ (<60% cap) |
+| Financials (JPM) | 15.3% | 15.3% | ✓ |
+| Healthcare (UNH) | 0% | 15.0% | ✓ |
+
+### Risk Factors
+- **Iran oil shock**: WTI $79.75 (+2%), Brent $85.60. Hormuz blockade = supply shock = inflation risk. Ongoing.
+- **Memory chip selloff**: MU/SNDK/WDC all -8-9% today — narrative of AI infrastructure cooling. Does NOT directly affect AAPL/JPM/JPM, minor risk to NVDA (AI read-through).
+- **TSM execution gate**: AH quotes unreliable; wait for open print. Beat confirmed per monthly revenue data ($40B), but gap risk at open if AH enthusiasm misread.
+- **UNH in-line = limited surprise**: EPS $4.85 = consensus. Up 6% could be relief rally after prior selloff. Risk: results called "mixed" per Yahoo; Medicare Advantage pressure ongoing.
+- **AAPL earnings Jul 30**: Exit plan before Jul 28. 2 weeks away. Hold with trailing stop; no action today.
+- **Retail sales miss**: +0.2% vs +0.3% est. Slightly soft consumer. Core stronger. Non-material today.
+- **Fed Cook / Beige Book (5-6 PM)**: Monitor tone. No pre-open action needed.
+- **Iran conflict duration**: Now Day 12 of Hormuz disruption. Oil elevated. Defense stocks up (no exposure).
+
+### Decision
+**AAPL**: HOLD — stop auto-trailed ($295.857), thesis strengthened (+Citi $365 PT). Monitor HWM for next trail.
+**NVDA**: HOLD — stop auto-trailed ($192.429), thesis intact (+JPMorgan $280 PT). Hyperscaler earnings next 2 weeks = upcoming catalysts.
+**JPM**: HOLD — stop auto-trailed ($316.116, HWM $351.24), thesis STRONGLY intact.
+
+**New entries (conditional — verify live at open):**
+1. **TSM: CONDITIONAL BUY** — 38 shares if ask ≤$456 AND Q2 rev >$40B confirmed at open
+2. **UNH: CONDITIONAL BUY** — 38 shares if ask ≤$445 AND EPS ≥$4.85 confirmed at open
+3. **GE**: WATCHLIST ONLY — AH spread too wide to assess; no established catalyst vs TSM/UNH
+4. **NFLX (AMC tonight)**: Watch for tomorrow. Est EPS $0.79. If beats → evaluate Jul 17 open.
+
+**Execution gates (9:30 AM ET sequential):**
+1. Get live Alpaca quote for TSM: if ask ≤$456 → buy 38 shares, place 10% GTC trailing stop
+2. Get live Alpaca quote for UNH: if ask ≤$445 → buy 38 shares, place 10% GTC trailing stop
+3. If both execute: 5 positions, ~75% deployed — at target lower bound. Stop here.
+4. If only 1 executes: ~60% deployed — evaluate GE or NFLX tomorrow for final fill
 - No stop adjustments needed (trailing stops auto-managing)
