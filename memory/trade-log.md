@@ -5549,6 +5549,20 @@ Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per crypto guard — OFF-LIMITS. 
 
 ---
 
+### Jul 17 - EOD Snapshot (Day 64, Friday)
+**Portfolio:** $110,685.04 | **Cash:** $36,566.32 (33.0%) | **Day P&L:** -$1,044.77 (-0.93%) | **Phase P&L:** +$10,685.04 (+10.69%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 52.877 | $312.42 | $334.77 | +$1.51 (+0.45%) | +$1,181.86 (+7.15%) | $301.176 (10% trail, fde3aa6a, HWM $334.64) |
+| JPM | 49.521 | $334.00 | $341.58 | -$1.57 (-0.46%) | +$375.30 (+2.27%) | $316.116 (10% trail, 1a5b3205, HWM $351.24) |
+| NVDA | 80.433 | $205.67 | $201.84 | -$5.56 (-2.68%) | -$308.06 (-1.86%) | $192.429 (10% trail, a255b2fa, HWM $213.81) |
+| TSM | 40.739 | $412.70 | $396.82 | -$12.92 (-3.15%) | -$647.03 (-3.85%) | $374.346 (10% trail, e08c181a, HWM $415.94) |
+
+**Notes:** No trades today. TSM -3.15% and NVDA -2.68% dragged the portfolio on a broad tech/semis selloff; TSM hit intraday HWM $415.94 after Jul 16 entry before reversing. AAPL +0.45% partial offset. AAPL stop auto-trailed to $301.176 (HWM $334.64, up from $295.857/$328.73). All 4 trailing stops active. Deployment ~67% stocks vs 75-85% target — room for 1 more position. Trades this week: 3/7 (NVDA+JPM Jul 14, TSM Jul 16). Phase P&L +$10,685.04 (+10.69%). Watch: evaluate NFLX (AMC Jul 16 results) and GE (BMO Jul 16) for Mon Jul 20 entry; AAPL earnings Jul 30 — exit 1/3 before Jul 28.
+
+---
+
 ## 2026-07-17 - Midday Scan
 
 **Portfolio:** ~$112,300 equity est. | **Cash:** $36,566.33 (32.6%) | **Stock Positions:** 4 | **Stock Deployed:** ~61.0% | **Phase P&L:** ~+$12,300 (+12.30%)
