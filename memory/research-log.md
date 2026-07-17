@@ -6671,4 +6671,132 @@ AH quotes unreliable (thin market). Use open prints at 9:30 AM ET for actual ent
 2. Get live Alpaca quote for UNH: if ask ≤$445 → buy 38 shares, place 10% GTC trailing stop
 3. If both execute: 5 positions, ~75% deployed — at target lower bound. Stop here.
 4. If only 1 executes: ~60% deployed — evaluate GE or NFLX tomorrow for final fill
+
+---
+
+## 2026-07-17 - Pre-market Research
+
+### Account
+- Equity: $110,732.29
+- Cash: $36,566.33
+- Buying power: $334,057.52
+- Daytrade count: 0/3
+- Deployed (stocks): ~60.6% ($67,103 in 4 positions)
+- Phase P&L: +$10,732.29 (+10.73%)
+- Trades this week: 3/7 (NVDA + JPM Jul 14; TSM Jul 16)
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Log Stop/HWM | Broker Stop/HWM | Match? |
+|--------|---------|------------|--------------|-----------------|--------|
+| AAPL | 52.877 (52 stop) | 52.877045 | $295.857 / $328.73 | $301.176 / $334.64 | ✓ (stop auto-trailed UP) |
+| JPM | 49.521 (49 stop) | 49.521674 | $316.116 / $351.24 | $316.116 / $351.24 | ✓ (unchanged) |
+| NVDA | 80.433 (80 stop) | 80.433413 | $192.429 / $213.81 | $192.429 / $213.81 | ✓ (unchanged) |
+| TSM | 40.739 (40 stop) | 40.738706 | $369.49 / $410.545 | $374.346 / $415.94 | ✓ (stop auto-trailed UP) |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per crypto guard — OFF-LIMITS. No stock discrepancies.
+AAPL and TSM stops auto-trailed up overnight. No unexpected exits. Clean.
+
+### Open Positions (live prices from Alpaca positions endpoint)
+| Ticker | Shares | Entry | Current | P&L% | -7% Cut | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|---------|------------|-----|--------|
+| AAPL | 52.877 | $312.42 | $334.60 | +7.10% | $290.55 | $301.176 (10% trail, fde3aa6a) | $334.64 | HOLD |
+| JPM | 49.521 | $334.00 | $341.03 | +2.10% | $310.62 | $316.116 (10% trail, 1a5b3205) | $351.24 | HOLD |
+| NVDA | 80.433 | $205.67 | $202.25 | -1.66% | $191.27 | $192.429 (10% trail, a255b2fa) | $213.81 | HOLD ⚠️ chip weakness |
+| TSM | 40.739 | $412.702 | $399.00 | -3.32% | $383.81 | $374.346 (10% trail, e08c181a) | $415.94 | HOLD |
+
+⚠️ AH quotes (thin/unreliable): NVDA bid $195.57 (wide spread, AH); TSM bid $349 / ask $464 (extremely wide, AH). Use open prints for actual read.
+
+### Market Context (pre-market Jul 17)
+- **WTI**: ~$79.29-79.67/bbl (+0.4-0.9%) | **Brent**: ~$84.32-85.89/bbl (+0.1%) — Iran/Hormuz escalation ongoing; WTI at 1-month high; oil remains geopolitical risk-on
+- **ES futures (Sep)**: ~7,588.75 (-0.34% from prev close 7,614.75) — mildly negative
+- **NQ futures**: ~29,978.75 (+0.63%) — tech recovering modestly; chip stocks still lagging
+- **VIX**: 15.67 (Jul 15 close) → ~15.57-16.34 range; declining trend = risk-on backdrop
+- **Asian markets**: Nikkei -2.79%; Hang Seng +1.33%; mixed (Japan tech weak on chip narrative)
+
+### Today's Economic Calendar (Jul 17)
+- **8:30 AM ET**: Housing Starts June (est 1.31M, prev 1.177M); Building Permits (est 1.40M); Import Prices
+- **9:15 AM ET**: Industrial Production June (est +0.2%)
+- **10:00 AM ET**: Michigan Consumer Sentiment Prel July (est 51.0-51.5, prev 49.5) — improvement expected; inflation expectations key (prev 4.6%)
+- **5:00 PM ET**: Baker Hughes rig count
+- No FOMC, no CPI/PCE today — lighter macro day; Michigan sentiment is the key afternoon data point
+
+### BMO Earnings Today (Jul 17)
+- TRV (Travelers), TFC (Truist), RF (Regions) — regional banks/insurance; no holdings-relevant catalyst
+- No major S&P 500 holdings reporting today
+
+### NFLX Q2 2026 (AMC Jul 16 — reviewed)
+- EPS: $0.80 vs $0.79 est (+1.27% beat) — marginal
+- Revenue: $12.56B vs $12.58-12.59B est — **MISS**
+- Q3 guidance: $12.86B vs $13B est — **GUIDE DOWN**
+- Stock: **-9% AH** (52-week low, -21% YTD, -45% past year)
+- **SKIP** — revenue miss + guide down + stock at 52-week low = no setup
+
+### Holdings Thesis Check
+- **AAPL** +7.10% from entry: Citi PT $365 (from $315); Broadcom AI chip deal $30B+ through 2031; KeyBanc downgrade to Underweight (Jul 15) = headwind. NVDA set to surpass AAPL as TSMC's top customer — neutral for AAPL. Earnings Jul 30 → **MUST exit 1/3 before Jul 28**. Stop auto-trailed to $301.176. **INTACT. HOLD.**
+- **JPM** +2.10% from entry: IBD Stock of Day; "one of the strongest earnings in history" (Q2 EPS $7.70 vs $5.58 est, +38%); IB fees +30%, Markets +35%. Consolidating normally after big post-earnings gap. Stop $316.116. **STRONGLY INTACT. HOLD.**
+- **NVDA** -1.66% from entry: JPMorgan PT raised to $280 (Overweight); KeyBanc PT raised to $330; Blackwell Ultra fastest ramp in history; hyperscaler capex >70% growth YoY; Japan AI deal (Rubin chips, $5.1T AI build-out); GOOGL Jul 22 + MSFT/META Jul 29 = upcoming catalysts. Chip sector selloff narrative (MU -8.34%, SNDK -8.59% Jul 16) creating headwind. AH bid $195.57 shows overnight weakness — stop $192.429, cut threshold $191.27. Cushion is thin ($3-4 above stop). **INTACT BUT MONITOR AT OPEN. HOLD.**
+- **TSM** -3.32% from entry: Q2 2026 beat confirmed (monthly revenue $40B = upper bound of guidance, +33% YoY); TSMC adds $100B to US expansion; NVDA surpassing AAPL as TSMC's top customer = positive for TSM. Stock sold off despite beat (chip sector narrative drag). Stop auto-trailed to $374.346 (HWM $415.94). -7% cut threshold $383.81; current $399 = $15.19 cushion. **INTACT. HOLD — watch for stabilization.**
+
+### Politician Signals (Capitol Trades — STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal Level |
+|------------|--------|--------|------|------------|-----------|--------------|
+| Pelosi | INTC | BUY (calls $50 Mar27) | $1M–5M | May 29 | Jun 24 | **EXPIRED** — 49 days ago, outside 45-day window |
+| Pelosi | UBER | BUY (calls $50 Mar27) | $500K-1M | May 29 | Jun 24 | **EXPIRED** — 49 days ago, outside 45-day window |
+| McCaul | TER (Teradyne), INTU, SPGI, DHR, WDAY, MA | BUY | $1K-$50K | Apr 28-29 | — | Below $25K threshold — NOT actionable |
+| Gottheimer | LITE (Lumentum) | BUY | $1K-$15K | May 22 | Jun 3 | Below $25K threshold — NOT actionable |
+
+- Tommy Tuberville: 440 trades YTD; 6 buys vs 434 sells — overwhelming sells. No qualifying single-stock buys.
+- Ro Khanna: 4,788 trades (mostly small); no qualifying buys >$25K found in last 45 days.
+- Brian Mast: Foreign Affairs Committee focus (Iran conflict); no recent stock disclosures found.
+- **CONCLUSION: NO actionable politician signals. All Pelosi signals expired (>45 days). No new whitelist buys found.**
+
+### Sector Momentum (YTD 2026 context)
+- Best S&P 500 stock: SNDK +4,493% (memory chip, not a fresh entry point)
+- Chip sector narratives split: memory chips (MU, SNDK) volatile; foundry/equipment (TSM, AMAT) structural
+- Financials: JPM record quarter; sector broadly strong
+- Healthcare: "More Favored" (Schwab); potential next entry area
+
+### Trade Ideas
+**No new entries today.** Reasons:
+1. Friday — weekend risk on any new position
+2. Chip sector weakness ongoing (even NVDA -4% yesterday)
+3. No compelling BMO catalyst today
+4. Michigan sentiment at 2 PM = afternoon volatility
+5. Deployment already 60.6% — manageable gap; better to add Monday with full week ahead
+
+**Watchlist for next week:**
+| Ticker | Catalyst | Entry Gate | Stop | Target | R:R | Notes |
+|--------|----------|------------|------|--------|-----|-------|
+| GE | Aerospace AI/engine demand | live ask ≤$385 | ~$346 | ~$462 | 2:1 | Q2 BMO beat expected; verify live |
+| UNH | Healthcare "More Favored"; Q2 in-line beat | ≤$445 | ~$385 | ~$504 | 2:1 | Previous gate missed; re-evaluate Mon |
+| Healthcare sector | LLY (obesity drugs) | live quote Mon | — | — | — | Schwab "More Favored" |
+
+**AAPL exit plan (earnings Jul 30):**
+- Exit 1/3 of AAPL (17-18 shares) on or before Jul 28 (Monday)
+- Current AAPL: 52.877 shares; exit ~17 shares → 35-36 shares remaining
+- Reason: rule 13 partial profit at +25% trigger = $312.42 × 1.25 = $390.53; not reached yet (+7.1%)
+- BUT: earnings binary risk → must exit 1/3 per rule 13 BEFORE earnings regardless of partial profit trigger
+- Target: sell ~17 shares Mon Jul 20 or Tue Jul 21 pre-earnings prep
+
+**NVDA monitoring plan:**
+- Stop $192.429; cut threshold $191.27
+- If opens ≤$194 → watch intraday; if holds → keep stop; if breaks $191.27 threshold → manual cut per hard rule
+- GOOGL Jul 22 earnings: if strong AWS/AI capex guidance → expect NVDA re-rating
+
+### Risk Factors
+- **Chip sector selloff continuation**: Memory chip narrative may drag TSM/NVDA further despite different fundamentals
+- **NVDA AH weakness**: bid $195.57 AH suggests potential gap-down at open; stop $192.429 provides floor
+- **Iran/Hormuz**: WTI $79-80/bbl; oil elevated = inflation concern; impacts rate cut timing
+- **Michigan sentiment + inflation expectations (2 PM)**: if inflation expectations stay elevated (>4.6%) → equity headwind
+- **10-year yield 4.589%**: rising; equity risk premium thin; rate pressure on growth stocks
+- **AAPL earnings Jul 30**: exit plan needed Jul 28 at latest; binary risk
+- **Weekend gap risk**: holding 4 positions over 2-day weekend; all have stops in place
+
+### Decision
+**AAPL**: HOLD — stop $301.176 (auto-trailed), +7.1% unrealized. Plan 1/3 exit Jul 28 before Jul 30 earnings.
+**JPM**: HOLD — stop $316.116, +2.1% unrealized, STRONGLY intact.
+**NVDA**: HOLD with monitoring — stop $192.429, -1.66%. MONITOR at open; if breaks $191.27 → manual cut per rule. GOOGL Jul 22 is next catalyst.
+**TSM**: HOLD — stop $374.346 (auto-trailed), -3.32% from entry. Thesis intact despite chip narrative selloff.
+**New entries**: NONE today. Re-evaluate Monday for healthcare/GE/UNH slot.
+**Deployment**: 60.6% stocks — 1 position short of 75% target. Not urgent; Friday + chip weakness = wait.
 - No stop adjustments needed (trailing stops auto-managing)
