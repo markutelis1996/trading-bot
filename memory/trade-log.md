@@ -5633,3 +5633,65 @@ None. No cuts, no stop changes, no new entries.
 
 
 ---
+
+## 2026-07-17 - Market-Open Session
+
+**Portfolio:** $111,132.03 equity | **Cash:** $35,056.83 (31.5%) | **Positions:** 4 stocks | **Deployed:** ~60.7% stocks | **Phase P&L:** +$11,132.03 (+11.13%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Log Stop/HWM | Broker Stop/HWM | Match? |
+|--------|---------|------------|--------------|-----------------|--------|
+| AAPL | 52.877 (52 stop) | 52.877045 | $301.176 / $334.64 | $301.473 / $334.97 | ✓ (stop auto-trailed ↑) |
+| JPM | 49.521 (49 stop) | 49.521674 | $316.116 / $351.24 | $316.116 / $351.24 | ✓ |
+| NVDA | 80.433 (80 stop) | 80.433413 | $192.429 / $213.81 | $192.429 / $213.81 | ✓ |
+| TSM | 40.739 (40 stop) | 40.738706 | $374.346 / $415.94 | $374.346 / $415.94 | ✓ |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per crypto guard — OFF-LIMITS. No stock discrepancies. Clean.
+
+### Step 1b — Live Price Re-Verification
+| Ticker | Pre-mkt Gate | Live Price | Status |
+|--------|-------------|------------|--------|
+| AAPL | HOLD | $331.64 | HOLD |
+| JPM | HOLD | $344.16 | HOLD |
+| NVDA | HOLD (monitor) | $204.82 | HOLD |
+| TSM | HOLD | $401.91 | HOLD |
+| GE | watchlist (Mon) | — | DEFERRED to Mon Jul 20 |
+| UNH | watchlist (Mon) | — | DEFERRED to Mon Jul 20 |
+
+### Step 3 — Cuts & Stops
+| Ticker | P&L% | -7% Threshold | Current | Cushion | Action |
+|--------|------|---------------|---------|---------|--------|
+| AAPL | +6.15% | $290.55 | $331.64 | +$41.09 | HOLD |
+| JPM | +3.04% | $310.62 | $344.16 | +$33.54 | HOLD |
+| NVDA | -0.41% | $191.27 | $204.82 | +$13.55 | HOLD |
+| TSM | -2.62% | $383.81 | $401.91 | +$18.10 | HOLD |
+
+All 4 GTC trailing stops confirmed active and correct.
+
+### Trades Executed
+None. Pre-market research decision confirmed: no new entries on Friday.
+
+**Reasons:**
+- Friday — weekend gap risk on all 4 open positions
+- Chip sector weakness continues: NVDA -0.41% and TSM -2.62% from entry; sector narrative from TSMC capex guidance still active
+- No BMO catalyst today (TRV, TFC, RF — no holdings-relevant event)
+- Michigan Consumer Sentiment 2 PM = afternoon volatility risk
+- Deployment 60.7% — 1 position short of 75% target; not urgent, better to add Mon with full-week ahead
+- Trades this week: 3/7 (NVDA + JPM Jul 14; TSM Jul 16) — within limit but no quality setup today
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL | 52.877 (52 stop) | $312.42 | $301.473 (10% trail, fde3aa6a) | $334.97 | $374.90 (+20%) |
+| 2 | JPM | 49.521 (49 stop) | $334.00 | $316.116 (10% trail, 1a5b3205) | $351.24 | $400.80 (+20%) |
+| 3 | NVDA | 80.433 (80 stop) | $205.67 | $192.429 (10% trail, a255b2fa) | $213.81 | $246.80 (+20%) |
+| 4 | TSM | 40.739 (40 stop) | $412.702 | $374.346 (10% trail, e08c181a) | $415.94 | $495.24 (+20%) |
+
+- Trades this week: 3/7 (NVDA + JPM Jul 14; TSM Jul 16)
+- Deployment: ~60.7% stocks vs 75-85% target — room for 1 more position
+- Mon Jul 20 plan: evaluate GE (Q2 BMO Jul 16 beat, ask ≤$385) and UNH (re-gate ≤$445)
+- **AAPL exit plan**: sell ~17 shares before Jul 28 (pre-earnings); earnings Jul 30 binary risk
+- Watch: GOOGL Jul 22 earnings — if strong AI/cloud capex → NVDA re-rating catalyst
+- No notification sent (no trades)
+
+---
