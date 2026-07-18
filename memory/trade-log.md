@@ -5695,3 +5695,62 @@ None. Pre-market research decision confirmed: no new entries on Friday.
 - No notification sent (no trades)
 
 ---
+
+## 2026-07-18 - Midday Scan (Saturday — market closed)
+
+**Portfolio:** ~$112,400 equity est. | **Cash:** $36,566.33 (32.5%) | **Stock Positions:** 4 | **Stock Deployed:** ~59.8% | **Phase P&L:** ~+$12,400 (+12.40%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Log Stop/HWM | Broker Stop/HWM | Match? |
+|--------|---------|------------|--------------|-----------------|--------|
+| AAPL | 52.877 | 52.877045 | $301.473 / $334.97 | $301.473 / $334.97 | ✓ |
+| JPM | 49.521 | 49.521674 | $316.116 / $351.24 | $316.116 / $351.24 | ✓ |
+| NVDA | 80.433 | 80.433413 | $192.429 / $213.81 | $192.429 / $213.81 | ✓ |
+| TSM | 40.739 | 40.738706 | $374.346 / $415.94 | $374.346 / $415.94 | ✓ |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered per crypto guard — OFF-LIMITS. No stock discrepancies. Clean.
+
+### Position Status (Jul 17 close)
+| Ticker | Shares | Entry | Close | P&L% | -7% Threshold | Stop (GTC) | HWM | Status |
+|--------|--------|-------|-------|------|---------------|------------|-----|--------|
+| AAPL | 52.877 | $312.42 | $333.87 | +6.87% | $290.55 | $301.473 (10% trail, fde3aa6a) | $334.97 | HOLD |
+| JPM | 49.521 | $334.00 | $342.26 | +2.47% | $310.62 | $316.116 (10% trail, 1a5b3205) | $351.24 | HOLD |
+| NVDA | 80.433 | $205.67 | $202.63 | -1.48% | $191.27 | $192.429 (10% trail, a255b2fa) | $213.81 | HOLD |
+| TSM | 40.739 | $412.702 | $398.86 | -3.36% | $383.81 | $374.346 (10% trail, e08c181a) | $415.94 | HOLD |
+
+### Step 3 — Cuts
+None. No position at ≤-7%.
+- NVDA: cut threshold $191.27; current $202.63 = $11.36 cushion ✓
+- TSM: cut threshold $383.81; current $398.86 = $15.05 cushion ✓
+
+### Step 4 — Stop Tightening
+- AAPL +6.87%: +15% trigger $359.28 — not reached. No action.
+- JPM +2.47%: +15% trigger $384.10 — not reached. No action.
+- NVDA -1.48%: below threshold. No action.
+- TSM -3.36%: below threshold. No action.
+All 4 GTC trailing stops confirmed active and correct.
+
+### Step 5 — Thesis Check
+- **AAPL**: Broadcom AI chip deal $30B+ through 2031; Citi PT $365; stop $301.473 auto-trailed. Earnings Jul 30 — exit 1/3 on or before Jul 28. **INTACT. HOLD.**
+- **JPM**: Record Q2 (EPS $7.70 +38%); IBD Stock of Day; consolidating normally. Stop $316.116. **STRONGLY INTACT. HOLD.**
+- **NVDA**: AI GPU demand; Blackwell/Vera Rubin ramp intact; chip sector narrative from TSMC capex guidance is sentiment drag, not thesis break. GOOGL Jul 22 = next catalyst. Stop $192.429 (5.5% cushion). **INTACT. HOLD.**
+- **TSM**: Q2 beat (revenue $40B+ = +33% YoY, EPS +77%); "sell the news" capex/margin narrative; fundamentals remain exceptional. Stop $374.346. **INTACT. HOLD.**
+
+### Actions Taken
+None. Market closed (Saturday). No cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL | 52.877 (52 stop) | $312.42 | $301.473 (10% trail, fde3aa6a) | $334.97 | $374.90 (+20%) |
+| 2 | JPM | 49.521 (49 stop) | $334.00 | $316.116 (10% trail, 1a5b3205) | $351.24 | $400.80 (+20%) |
+| 3 | NVDA | 80.433 (80 stop) | $205.67 | $192.429 (10% trail, a255b2fa) | $213.81 | $246.80 (+20%) |
+| 4 | TSM | 40.739 (40 stop) | $412.702 | $374.346 (10% trail, e08c181a) | $415.94 | $495.24 (+20%) |
+
+- Trades this week: 3/7 (NVDA + JPM Jul 14; TSM Jul 16)
+- **AAPL exit plan**: sell ~17 shares Mon Jul 21 or Tue Jul 22 (pre-earnings; earnings Jul 30)
+- Watch: GOOGL earnings Jul 22 → NVDA re-rating catalyst
+- Watch: GE (ask ≤$385) and UNH (≤$445) for Mon Jul 21 entry
+- No notification sent (no action taken)
+
+---
