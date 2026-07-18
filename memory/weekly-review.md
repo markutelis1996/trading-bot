@@ -681,3 +681,76 @@ Stock deployment: 15.1% ($16,673 / $110,322) — severely below 75-85% target
 - Phase P&L: +$10,322.41 (+10.32%) — still ahead of benchmark ✓
 
 ---
+
+## Week ending 2026-07-18
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $110,322.41 (EOD Jul 11) |
+| Ending portfolio | $110,846.21 |
+| Week return | +$523.80 (+0.47%) |
+| S&P 500 week | ~-0.55% (7,575.39 -> ~7,533.77 Jul 17) |
+| Bot vs S&P | +1.02% outperformance |
+| Trades | 3 new entries (W:0 / L:0 / open:4) |
+| Win rate | N/A (no closed trades) |
+| Best trade | AAPL +6.82% unrealized |
+| Worst trade | TSM -3.47% unrealized |
+| Profit factor | N/A (no closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| -- | -- | -- | -- | -- | No trades closed this week |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| AAPL | 52.877 (52 stop) | $312.42 | $333.74 | +$1,127.39 (+6.82%) | $301.473 (10% trail, fde3aa6a) | $334.97 |
+| JPM | 49.521 (49 stop) | $334.00 | $341.10 | +$351.53 (+2.13%) | $316.116 (10% trail, 1a5b3205) | $351.24 |
+| NVDA | 80.433 (80 stop) | $205.67 | $202.81 | -$230.04 (-1.39%) | $192.429 (10% trail, a255b2fa) | $213.81 |
+| TSM | 40.739 (40 stop) | $412.70 | $398.37 | -$583.88 (-3.47%) | $374.346 (10% trail, e08c181a) | $415.94 |
+
+Deployment: ~60.5% stocks ($67,081 / $110,846) -- below 75-85% target; 4 positions open
+
+### What Worked
+- CPI gate executed perfectly: 3.50% YoY actual vs 3.80% est = massive dovish surprise Jul 14; all pre-planned entry conditions triggered cleanly
+- JPM entry quality: EPS $7.70 vs $5.58 est (+38% beat), Rev $57.35B record -- "one of the strongest earnings in history"; +2.13% unrealized; stop auto-trailing
+- AAPL continued appreciation: +6.82% unrealized (entered Jul 7); trailing stop auto-trailed to $301.473 / HWM $334.97; best open position
+- UNH skip discipline: correctly skipped when ask $459.20 > $445 gate (+8.3% gap); avoided chasing
+- Bot outperformed S&P +1.02% in a down week (-0.55%) -- first positive outperformance in 3 weeks
+
+### What Didn't Work
+- TSM -3.47% immediately post-entry: "sell the news" on Q2 capex guidance raise ($60-64B) despite +33% YoY revenue beat; entered into chip narrative headwind
+- NVDA -1.39% from entry: broad chip sector selloff dragged AI GPU stocks; AH bid $195.57 Jul 16 showed overnight weakness day after entry
+- Deployment 60.5% vs 75-85% target: ended week 1 position short; GE/UNH watchlisted but no clean Friday setup; below target for 7 consecutive weeks
+- TSM + NVDA both IT semis entered same week: concentration risk materialised when chip narrative sold off both simultaneously
+- No closed trades: 0 realized P&L this week; all performance tied up in unrealized
+
+### Key Lessons
+- "Sell the news" on earnings beats is real: TSM +33% revenue beat, yet sold off on capex guidance; fundamental strength does not prevent immediate post-entry drawdown; allow 1-2 days post-earnings stabilization before entry on beat-and-lower candidates
+- Chip sector correlation: NVDA and TSM move together on macro chip narratives; entering both same week doubles drawdown when narrative flips; prefer 1 semi position at a time
+- CPI gate is proven: 3.50% print = clearest macro green light of the challenge; entry within 1 hour of gate confirmation was correct; repeat this logic for all future CPI/PCE releases
+- JPM record earnings = highest-confidence entry pattern: EPS +38% vs est is exceptional; financials sector showing consistent outperformance; prioritize large earnings beat entries
+- Monday follow-through is mandatory: 60.5% = 1 slot short going into weekend; not adding on Fridays is correct but Monday execution must close the gap the next morning
+
+### Adjustments for Next Week
+- AAPL exit plan (earnings Jul 30): sell ~17 shares before Jul 28; current +6.82%; +15% trigger $359.28 -- tighten to 7% trail if hit first; exit 1/3 regardless before Jul 30 binary event
+- Mon Jul 20 entry (mandatory): evaluate GE (Q2 BMO Jul 16 beat, ask <=$ 385) or UNH (ask <=$445); must reach >=75% deployment; no more deferrals
+- GOOGL Jul 22 earnings: AI/cloud capex upside -> potential NVDA + TSM re-rating catalyst; hold both through this event; do NOT cut NVDA ahead of GOOGL print
+- NVDA stop watch: stop $192.429, cut threshold $191.27; current $202.81 = $10.54 cushion; chip weakness ongoing -- monitor but trust thesis through GOOGL catalyst Jul 22
+- TSM: stop $374.346 = 5.9% cushion; thesis intact (sole fab for AAPL/NVDA chips, AI chip demand structural); give 1 more week; cut only on thesis-break, not price weakness alone
+- MSFT/META Jul 29: hyperscaler capex guidance = biggest upcoming NVDA/TSM catalyst; plan position management before that binary event
+
+### Overall Grade: B
+- +0.47% vs S&P -0.55% = +1.02% outperformance (checkmark)
+- CPI gate execution flawless (checkmark)
+- JPM record-beat entry (EPS +38%) = high quality (checkmark)
+- AAPL +6.82% held correctly; trailing stop working (checkmark)
+- No rule violations (checkmark)
+- TSM -3.47% and NVDA -1.39% underwater immediately post-entry (x)
+- Deployment 60.5% (below 75-85% for 7th consecutive week) (x)
+- No closed trades = 0 realized P&L (x)
+- Phase P&L: +$10,846.21 (+10.85%) -- still ahead of benchmark (checkmark)
+
+---
