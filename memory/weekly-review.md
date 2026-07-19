@@ -690,8 +690,8 @@ Stock deployment: 15.1% ($16,673 / $110,322) — severely below 75-85% target
 | Starting portfolio | $110,322.41 (EOD Jul 11) |
 | Ending portfolio | $110,846.21 |
 | Week return | +$523.80 (+0.47%) |
-| S&P 500 week | ~-0.55% (7,575.39 -> ~7,533.77 Jul 17) |
-| Bot vs S&P | +1.02% outperformance |
+| S&P 500 week | -1.55% (7,575.39 → 7,457.69 Jul 17) |
+| Bot vs S&P | +2.02% outperformance |
 | Trades | 3 new entries (W:0 / L:0 / open:4) |
 | Win rate | N/A (no closed trades) |
 | Best trade | AAPL +6.82% unrealized |
@@ -718,7 +718,7 @@ Deployment: ~60.5% stocks ($67,081 / $110,846) -- below 75-85% target; 4 positio
 - JPM entry quality: EPS $7.70 vs $5.58 est (+38% beat), Rev $57.35B record -- "one of the strongest earnings in history"; +2.13% unrealized; stop auto-trailing
 - AAPL continued appreciation: +6.82% unrealized (entered Jul 7); trailing stop auto-trailed to $301.473 / HWM $334.97; best open position
 - UNH skip discipline: correctly skipped when ask $459.20 > $445 gate (+8.3% gap); avoided chasing
-- Bot outperformed S&P +1.02% in a down week (-0.55%) -- first positive outperformance in 3 weeks
+- Bot outperformed S&P +2.02% in a down week (-1.55%) -- first positive outperformance in 3 weeks
 
 ### What Didn't Work
 - TSM -3.47% immediately post-entry: "sell the news" on Q2 capex guidance raise ($60-64B) despite +33% YoY revenue beat; entered into chip narrative headwind
@@ -743,7 +743,7 @@ Deployment: ~60.5% stocks ($67,081 / $110,846) -- below 75-85% target; 4 positio
 - MSFT/META Jul 29: hyperscaler capex guidance = biggest upcoming NVDA/TSM catalyst; plan position management before that binary event
 
 ### Overall Grade: B
-- +0.47% vs S&P -0.55% = +1.02% outperformance (checkmark)
+- +0.47% vs S&P -1.55% = +2.02% outperformance (checkmark)
 - CPI gate execution flawless (checkmark)
 - JPM record-beat entry (EPS +38%) = high quality (checkmark)
 - AAPL +6.82% held correctly; trailing stop working (checkmark)
