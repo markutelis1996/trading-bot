@@ -5754,3 +5754,18 @@ None. Market closed (Saturday). No cuts, no stop changes, no new entries.
 - No notification sent (no action taken)
 
 ---
+
+## 2026-07-18 - EOD Snapshot (Day 65, Saturday)
+
+**Portfolio:** $110,844.56 | **Cash:** $35,056.83 (31.6%) | **Day P&L:** +$159.52 (+0.14%) | **Phase P&L:** +$10,844.56 (+10.84%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 52.877 | $312.42 | $333.74 | $0.00 (mkt closed) | +$1,127.39 (+6.83%) | $301.473 (10% trail, fde3aa6a, HWM $334.97) |
+| JPM | 49.521 | $334.00 | $341.10 | $0.00 (mkt closed) | +$351.53 (+2.13%) | $316.116 (10% trail, 1a5b3205, HWM $351.24) |
+| NVDA | 80.433 | $205.67 | $202.81 | $0.00 (mkt closed) | -$230.04 (-1.39%) | $192.429 (10% trail, a255b2fa, HWM $213.81) |
+| TSM | 40.739 | $412.70 | $398.37 | $0.00 (mkt closed) | -$583.88 (-3.47%) | $374.346 (10% trail, e08c181a, HWM $415.94) |
+
+**Notes:** Saturday — market closed. +$159.52 Day P&L is crypto overnight drift only. 4 stock positions intact, all GTC stops active. Deployment ~60.7%. Trades this week: 3/7. Mon Jul 21 plan: evaluate GE (≤$385) and UNH (≤$445) for 5th position; AAPL partial exit ~17 sh before Jul 28 earnings.
+
+---
