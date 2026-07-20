@@ -5769,3 +5769,59 @@ None. Market closed (Saturday). No cuts, no stop changes, no new entries.
 **Notes:** Saturday — market closed. +$159.52 Day P&L is crypto overnight drift only. 4 stock positions intact, all GTC stops active. Deployment ~60.7%. Trades this week: 3/7. Mon Jul 21 plan: evaluate GE (≤$385) and UNH (≤$445) for 5th position; AAPL partial exit ~17 sh before Jul 28 earnings.
 
 ---
+
+## 2026-07-20 - Market-Open Session
+
+**Portfolio:** $110,983.44 equity | **Cash:** $7,153.65 | **Positions:** 6 | **Deployed:** ~85.6% stocks
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 3 (AAPL partial sell + GE buy + UNH buy)
+
+### Step 0 — Reconciliation
+All 4 prior positions matched log exactly. Crypto filtered (BTCUSD/ETHUSD/SOLUSD/LINKUSD). No discrepancies.
+
+### Step 1b — Live Price Re-verification
+| Ticker | Jul 17 Close | Live | Delta | Status |
+|--------|-------------|------|-------|--------|
+| AAPL | $333.74 | $331.86 | -0.6% | HOLD → PARTIAL EXIT |
+| JPM | $341.10 | $343.78 | +0.8% | HOLD |
+| NVDA | $202.81 | $205.44 | +1.3% | HOLD |
+| TSM | $398.37 | $408.58 | +2.6% | HOLD |
+| GE | — | $357 ask | — | BUY (gate ≤$360 ✓) |
+| UNH | — | $445 ask | — | BUY (gate ≤$445 ✓) |
+
+### Trades Executed
+
+| # | Date | Ticker | Side | Shares | Entry | Stop | Target | R:R | Thesis |
+|---|------|--------|------|--------|-------|------|--------|-----|--------|
+| 1 | 2026-07-20 | AAPL | SELL (partial) | 17 | $328.38 | — | — | — | Pre-earnings rule 13 partial exit; earnings Jul 30 binary risk; remaining 35.877 sh held |
+| 2 | 2026-07-20 | GE | BUY | 47.98 | $348.94 | $313.956 (10% trail) | $418.73 (+20%) | 2.0:1 | Q2 2026 beat: Rev +31% YoY, EPS $2.02 vs $1.86 est (+8.6%), FCF +43%, guidance raised 7th time; $210B backlog; aerospace supercycle intact |
+| 3 | 2026-07-20 | UNH | BUY | 39.36 | $425.34 | $381.321 (10% trail) | $510.41 (+20%) | 2.0:1 | Q2 2026 beat: EPS $4.85 in-line, guidance raised; healthcare "More Favored" sector (Schwab); defensive + growth dual appeal; filled at $425.34 (below $445 gate) |
+
+### AAPL Stop Modification
+- Prior stop fde3aa6a (52 shares) PATCHED to 35 shares via Alpaca PATCH endpoint
+- HWM $334.97 and stop $301.473 preserved → new order ID: bbdb4df3
+- Sold 17 shares @ $328.38; remaining 35.877 sh (35 covered by stop, 0.877 fractional uncovered)
+
+### New Stops Placed (GTC trailing)
+- GE: 47 shares, 10% trail, stop $313.956, HWM $348.84 — order ID df184923
+- UNH: 39 shares, 10% trail, stop $381.321, HWM $423.69 — order ID ac627db0
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL | 35.877 (35 stop) | $312.42 | $301.473 (10% trail, bbdb4df3) | $334.97 | $374.90 (+20%) |
+| 2 | JPM | 49.521 (49 stop) | $334.00 | $316.116 (10% trail, 1a5b3205) | $351.24 | $400.80 (+20%) |
+| 3 | NVDA | 80.433 (80 stop) | $205.67 | $192.429 (10% trail, a255b2fa) | $213.81 | $246.80 (+20%) |
+| 4 | TSM | 40.739 (40 stop) | $412.702 | $374.346 (10% trail, e08c181a) | $415.94 | $495.24 (+20%) |
+| 5 | GE | 47.98 (47 stop) | $348.94 | $313.956 (10% trail, df184923) | $348.84 | $418.73 (+20%) |
+| 6 | UNH | 39.36 (39 stop) | $425.34 | $381.321 (10% trail, ac627db0) | $423.69 | $510.41 (+20%) |
+
+- Trades this week: 2 new entries (GE + UNH); AAPL partial exit not counted
+- Deployed: ~85.6% stocks post-trade (target 75-85% — at upper bound)
+- Watch: GOOGL AMC tonight → evaluate entry tomorrow morning if beats; gate ≤$364
+- Watch: AAPL earnings Jul 30 — no further action until then; stop protects downside
+- FOMC Jul 29: pre-FOMC caution window starts Wed Jul 23; no new entries Wed-Fri
+
+---
