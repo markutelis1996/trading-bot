@@ -5900,5 +5900,21 @@ None. No cuts, no stop changes, no new entries.
 - FOMC Jul 29: no new entries Wed Jul 23 through Fri Jul 25
 - No notification sent (no trades executed)
 
+---
+
+### Jul 20 - EOD Snapshot (Day 66, Monday)
+**Portfolio:** $110,330.22 | **Cash:** $5,781.21 (5.2%) | **Day P&L:** -$515.42 (-0.47%) | **Phase P&L:** +$10,330.22 (+10.33%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 35.877 | $312.42 | $326.79 | -$6.95 (-2.08%) | +$515.54 (+4.60%) | $301.473 (10% trail, bbdb4df3, HWM $334.97) |
+| GE | 47.98 | $348.94 | $341.30 | -$7.53 (-2.16%) | -$366.56 (-2.19%) | $314.141 (10% trail, df184923, HWM $349.05) |
+| JPM | 49.521 | $334.00 | $338.87 | -$2.23 (-0.65%) | +$241.10 (+1.46%) | $316.116 (10% trail, 1a5b3205, HWM $351.24) |
+| NVDA | 80.433 | $205.67 | $203.33 | +$0.52 (+0.26%) | -$188.21 (-1.14%) | $192.429 (10% trail, a255b2fa, HWM $213.81) |
+| TSM | 40.739 | $412.70 | $402.32 | +$3.95 (+0.99%) | -$422.87 (-2.52%) | $374.346 (10% trail, e08c181a, HWM $415.94) |
+| UNH | 39.363 | $425.34 | $421.55 | -$4.54 (-1.07%) | -$149.18 (-0.89%) | $382.878 (10% trail, ac627db0, HWM $425.42) |
+
+**Notes:** Active day — AAPL partial exit (17 sh @ $328.38 pre-earnings rule), GE buy (47.98 sh @ $348.94, Q2 beat aerospace supercycle), UNH buy (39.36 sh @ $425.34, defensive healthcare). Portfolio moved from ~60% to ~85.4% deployed. Down -0.47% as new GE (-2.19%) and AAPL (-2.08%) opened and pulled back intraday; NVDA +0.26% and TSM +0.99% partially offset. Reconciliation clean: all 6 broker positions match log; all 6 GTC trailing stops confirmed active. 2 of 3 weekly trade slots used. GOOGL reports AMC tonight — evaluate entry Tue if beats (gate ≤$364). FOMC Jul 29 + AAPL earnings Jul 30 ahead; pre-FOMC blackout starts Wed Jul 23 (no new entries Wed–Fri).
+
 
 ---
