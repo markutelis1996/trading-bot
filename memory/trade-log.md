@@ -5918,3 +5918,64 @@ None. No cuts, no stop changes, no new entries.
 
 
 ---
+
+## 2026-07-21 - Market-Open Session
+
+**Portfolio:** $111,629.91 equity | **Cash:** $5,781.19 (5.2%) | **Positions:** 6 | **Deployed:** ~94.8% (stocks + crypto)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL | 35.877 | 35.877045 | ✓ |
+| GE | 47.98 | 47.981945 | ✓ |
+| JPM | 49.521 | 49.521674 | ✓ |
+| NVDA | 80.433 | 80.433413 | ✓ |
+| TSM | 40.739 | 40.738706 | ✓ |
+| UNH | 39.363 | 39.363380 | ✓ |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies. All 6 GTC stops confirmed active. Clean.
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 0 (NO TRADES)
+
+### Live Price Re-verification (Step 1b — 9:32 AM EDT)
+| Ticker | Entry | Ask | P&L% | -7% Cut | +15% Trigger | Stop (GTC) | Status |
+|--------|-------|-----|------|---------|--------------|------------|--------|
+| AAPL | $312.42 | $325.16 | +4.08% | $290.55 | $359.28 | $301.473 (bbdb4df3) | HOLD ✓ |
+| GE | $348.94 | $362.81* | +3.97% | $324.51 | $401.28 | $314.141 (df184923) | HOLD ✓ |
+| JPM | $334.00 | $357.16* | +6.93% | $310.62 | $384.10 | $316.116 (1a5b3205) | HOLD ✓ |
+| NVDA | $205.67 | $212.00 | +3.08% | $191.27 | $236.52 | $192.429 (a255b2fa) | HOLD ✓ |
+| TSM | $412.70 | $415.89 | +0.77% | $383.81 | $474.61 | $374.346 (e08c181a) | HOLD ✓ |
+| UNH | $425.34 | $421.98 | -0.79% | $395.57 | $489.14 | $382.878 (ac627db0) | HOLD ✓ |
+
+*GE and JPM first-print spreads wide (GE bid/ask $335/$362.81; JPM $321.93/$357.16) — first-second open artifacts; positions are well above -7% thresholds regardless.
+
+### Rule Checks
+- Positions: 6 (at 5-6 cap) → no new entries
+- Cash: $5,781 → insufficient for 15% position (~$16.7K) → no new entries
+- No -7% cut thresholds breached
+- No +15%/+20% stop tightening triggers reached
+- Daytrade count: 0/3 ✓
+- Trades this week: 2/7 (GE + UNH, Jul 20)
+
+### No New Buys — Rationale
+- At position cap (6 stocks, 5-6 max) + cash insufficient
+- GOOGL reports AMC tonight → conditional Jul 22 entry only if beats + cash frees up
+- FOMC blackout starts Wed Jul 23 → final entry window is tomorrow (Jul 22)
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL | 35.877 (35 stop) | $312.42 | $301.473 (10% trail, bbdb4df3) | $334.97 | $374.90 (+20%) |
+| 2 | GE | 47.98 (47 stop) | $348.94 | $314.141 (10% trail, df184923) | $349.05 | $418.73 (+20%) |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $316.116 (10% trail, 1a5b3205) | $351.24 | $400.80 (+20%) |
+| 4 | NVDA | 80.433 (80 stop) | $205.67 | $192.429 (10% trail, a255b2fa) | $213.81 | $246.80 (+20%) |
+| 5 | TSM | 40.739 (40 stop) | $412.70 | $374.346 (10% trail, e08c181a) | $415.94 | $495.24 (+20%) |
+| 6 | UNH | 39.363 (39 stop) | $425.34 | $382.878 (10% trail, ac627db0) | $425.42 | $510.41 (+20%) |
+
+- Trades this week: 2/7 (GE + UNH Jul 20)
+- Watch: GOOGL AMC tonight → IF beats → evaluate Jul 22 open; gate ≤$364; only if position frees up
+- FOMC Jul 29: blackout starts Wed Jul 23; last entry window = tomorrow Jul 22 morning
+- AAPL earnings Jul 30: 1/3 already exited (17 sh Jul 20); 35 sh held with stop
+
