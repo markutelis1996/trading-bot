@@ -5979,3 +5979,19 @@ Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies.
 - FOMC Jul 29: blackout starts Wed Jul 23; last entry window = tomorrow Jul 22 morning
 - AAPL earnings Jul 30: 1/3 already exited (17 sh Jul 20); 35 sh held with stop
 
+---
+
+### Jul 21 - EOD Snapshot (Day 67, Tuesday)
+**Portfolio:** $112,494.38 | **Cash:** $5,781.19 (5.1%) | **Day P&L:** +$2,158.72 (+1.96%) | **Phase P&L:** +$12,494.38 (+12.49%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 35.877 | $312.42 | $325.90 | -$0.69 (-0.21%) | +$483.66 (+4.31%) | $301.473 (10% trail, bbdb4df3, HWM $334.97) |
+| GE | 47.98 | $348.94 | $340.70 | -$0.60 (-0.18%) | -$395.37 (-2.36%) | $314.141 (10% trail, df184923, HWM $349.05) |
+| JPM | 49.521 | $334.00 | $345.21 | +$6.34 (+1.87%) | +$555.07 (+3.36%) | $316.116 (10% trail, 1a5b3205, HWM $351.24) |
+| NVDA | 80.433 | $205.67 | $206.95 | +$3.67 (+1.81%) | +$102.95 (+0.62%) | $192.429 (10% trail, a255b2fa, HWM $213.81) |
+| TSM | 40.739 | $412.70 | $424.81 | +$22.51 (+5.59%) | +$493.05 (+2.93%) | $382.842 (10% trail, e08c181a, HWM $425.38) |
+| UNH | 39.363 | $425.34 | $436.35 | +$14.80 (+3.51%) | +$433.39 (+2.59%) | $393.251 (10% trail, ac627db0, HWM $436.945) |
+
+**Notes:** No trades today — at position cap (6/6) with only $5,781 cash. Strong session led by TSM +5.59% (TSMC earnings momentum), UNH +3.51% (healthcare rebound), JPM +1.87%, NVDA +1.81%. TSM and UNH trailing stops auto-advanced to new HWMs ($425.38, $436.95) as both made fresh highs. GE (-0.18%) and AAPL (-0.21%) were minor laggards but well above -7% cut thresholds. All 6 GTC stops confirmed active. 2/3 weekly trade slots used. Tomorrow (Jul 22) is the final entry window before FOMC blackout (Jul 23–) — no new entries possible at cap + minimal cash unless a stop fires.
+
