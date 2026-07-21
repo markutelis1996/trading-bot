@@ -5995,3 +5995,66 @@ Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies.
 
 **Notes:** No trades today — at position cap (6/6) with only $5,781 cash. Strong session led by TSM +5.59% (TSMC earnings momentum), UNH +3.51% (healthcare rebound), JPM +1.87%, NVDA +1.81%. TSM and UNH trailing stops auto-advanced to new HWMs ($425.38, $436.95) as both made fresh highs. GE (-0.18%) and AAPL (-0.21%) were minor laggards but well above -7% cut thresholds. All 6 GTC stops confirmed active. 2/3 weekly trade slots used. Tomorrow (Jul 22) is the final entry window before FOMC blackout (Jul 23–) — no new entries possible at cap + minimal cash unless a stop fires.
 
+
+---
+
+## 2026-07-21 - Midday Scan (Day 67, Tuesday)
+**Time:** ~12:00 CT (1:00 PM EDT) | **Portfolio:** $112,508.70 | **Cash:** $5,781.19 (5.1%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL | 35.877 (35 stop) | 35.877045 | ✓ |
+| GE | 47.98 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ |
+| NVDA | 80.433 (80 stop) | 80.433413 | ✓ |
+| TSM | 40.739 (40 stop) | 40.738706 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+No discrepancies. All 6 GTC trailing stops active.
+
+### Live Prices (Step 2)
+| Ticker | Entry | Current | P&L% | Stop (GTC) | HWM | Action |
+|--------|-------|---------|------|------------|-----|--------|
+| AAPL | $312.42 | $325.37 | +4.15% | $301.47 (bbdb4df3, 10%) | $334.97 | HOLD |
+| GE | $348.94 | $340.70 | -2.36% | $314.14 (df184923, 10%) | $349.05 | HOLD |
+| JPM | $334.00 | $345.23 | +3.36% | $316.12 (1a5b3205, 10%) | $351.24 | HOLD |
+| NVDA | $205.67 | $206.98 | +0.64% | $192.43 (a255b2fa, 10%) | $213.81 | HOLD |
+| TSM | $412.70 | $424.71 | +2.91% | $382.84 (e08c181a, 10%) | $425.38 ↑ | HOLD |
+| UNH | $425.34 | $437.00 | +2.74% | $393.25 (ac627db0, 10%) | $436.95 ↑ | HOLD |
+
+### Step 3 — Cut Losers
+- GE -2.36% → above -7% threshold. No cuts.
+
+### Step 4 — Tighten Stops
+- No position ≥ +15% from entry. No tightening needed.
+- TSM HWM auto-advanced: $415.94 → $425.38 (new high today +5.57% intraday). Stop $382.84 ✓
+- UNH HWM auto-advanced: $425.42 → $436.95 (new high today +3.67% intraday). Stop $393.25 ✓
+
+### Step 5 — Thesis Check
+- **AAPL** (+4.15%): Bounced from Mon weakness. Earnings Jul 30. 1/3 already exited. INTACT.
+- **GE** (-2.36%): Q2 beat confirmed; order decel concern remains. Stop $314.14 = 7.8% cushion. INTACT — watch for sustained selling.
+- **JPM** (+3.36%): Record Q2, record EPS. Strong. INTACT.
+- **NVDA** (+0.64%): Flat day. GOOGL AMC tonight is key AI capex read. INTACT.
+- **TSM** (+2.91%): +5.57% intraday — TSMC earnings momentum. New HWM. INTACT.
+- **UNH** (+2.74%): +3.67% intraday — healthcare rotation + Q2 MCR thesis confirmed. INTACT.
+
+### Step 6 — Intraday Research
+- No sharp unexplained moves. TSM and UNH moves are thesis-driven (earnings, sector rotation).
+- **Key tonight**: GOOGL AMC — AI capex commentary will drive NVDA/TSM overnight.
+
+### Step 7 — Notification
+No action taken → no ClickUp notification.
+
+### Open Positions (Updated)
+| # | Ticker | Shares | Entry | Stop | HWM | Target (+20%) |
+|---|--------|--------|-------|------|-----|---------------|
+| 1 | AAPL | 35.877 (35 stop) | $312.42 | $301.47 (10% trail, bbdb4df3) | $334.97 | $374.90 |
+| 2 | GE | 47.98 (47 stop) | $348.94 | $314.14 (10% trail, df184923) | $349.05 | $418.73 |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $316.12 (10% trail, 1a5b3205) | $351.24 | $400.80 |
+| 4 | NVDA | 80.433 (80 stop) | $205.67 | $192.43 (10% trail, a255b2fa) | $213.81 | $246.80 |
+| 5 | TSM | 40.739 (40 stop) | $412.70 | $382.84 (10% trail, e08c181a) | $425.38 | $495.24 |
+| 6 | UNH | 39.363 (39 stop) | $425.34 | $393.25 (10% trail, ac627db0) | $436.95 | $510.41 |
+
+- Trades this week: 2/3 max (GE + UNH Jul 20); 1 slot remaining
+- Tomorrow Jul 22: last entry window before FOMC blackout (Jul 23). No cash unless a stop fires.
+- GOOGL AMC tonight: IF beats → evaluate GOOGL at ≤$364 Jul 22 open (requires a position to stop out first)
