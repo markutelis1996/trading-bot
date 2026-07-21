@@ -6943,3 +6943,112 @@ Note: GOOGL pre-earnings AH spread is wide/unreliable. GOOGL entry only valid AF
 **GOOGL**: Conditional Jul 22 entry — gate ≤$364 at open IF earnings beat tonight.
 **UNH**: Evaluate at open — gate ≤$445. Execute in market-open session if gate met.
 **New entries cap**: 0/7 used this week. Can add GE + one of (GOOGL/UNH) within cap.
+
+---
+
+## 2026-07-21 - Pre-market Research (UPDATED — fresh run, post Jul 20 market-open)
+
+> Note: Prior Jul 21 entry above used stale Jul 17 balance data. GE + UNH were BOUGHT and AAPL partial exit was DONE on Jul 20. This entry reflects current state.
+
+### Account (Alpaca live — Jul 21 pre-market)
+- Equity: $111,040.90
+- Cash: $5,781.21 (5.2%)
+- Long market value: $105,259.69 (stocks + crypto)
+- Stock deployed: ~85.3% ($94.7K / $111.0K)
+- Phase P&L: +$11,040.90 (+11.04%)
+- Daytrade count: 0/3
+- Trades this week: 2/7 (GE + UNH, Jul 20)
+
+### STEP 0 — Reconciliation (vs EOD Jul 20 trade log)
+| Ticker | Log Qty | Broker Qty | Log Stop/HWM | Broker Stop/HWM | Match? |
+|--------|---------|------------|--------------|-----------------|--------|
+| AAPL | 35.877 (35 stop) | 35.877045 | $301.473 / $334.97 | $301.473 / $334.97 | ✓ |
+| GE | 47.98 (47 stop) | 47.981945 | $314.141 / $349.045 | $314.141 / $349.045 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | $316.116 / $351.24 | $316.116 / $351.24 | ✓ |
+| NVDA | 80.433 (80 stop) | 80.433413 | $192.429 / $213.81 | $192.429 / $213.81 | ✓ |
+| TSM | 40.739 (40 stop) | 40.738706 | $374.346 / $415.94 | $374.346 / $415.94 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | $382.878 / $425.42 | $382.878 / $425.42 | ✓ |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies. All 6 GTC trailing stops confirmed active. Clean.
+
+### Market Context (pre-market Jul 21)
+- **WTI**: ~$81/bbl (-2% from $83 Monday high); Brent ~$87-89 — mediation efforts emerging in Middle East reduce Hormuz fears; US completed 10th night of strikes on Iran; oil softening
+- **S&P 500 futures**: +0.53% at ~7,534; **NQ100 +1.03%** at ~29,063 — tech bounce after last week's chip selloff
+- **VIX**: 18.65 (Jul 20 close); declining in pre-market (~17-18 range); oil vol dominating at 3x VIX
+- **Today's catalysts (Jul 21)**: No major US economic releases (minor Leading Indicators 10 AM); no major earnings BMO
+- **Asia**: Nikkei +1.74% (caught up after Monday's -4.03% selloff); Hang Seng +2.36%; mediation narrative boosting risk assets
+- **Iran/Hormuz**: 10 consecutive days of US strikes on Iran; Tehran retaliating; mediation efforts emerging → WTI pulling back from $83.64 peak
+
+### Earnings Calendar Ahead
+- **Jul 22 AMC**: GOOGL (key AI capex read), TSLA, IBM (disaster Q2 — $17.2B warning, stock -25%)
+- **Jul 23**: RTX, Honeywell, American Airlines
+- **Jul 29**: ⚠️ FOMC rate decision (consensus: hold at 3.75%)
+- **Jul 30**: GDP Q2 advance; **AAPL earnings AMC** ← binary event; 1/3 already exited Jul 20
+
+### UNH Thesis Update (KEY — Q2 already reported Jul 16)
+- **EPS**: $6.38 vs $4.90 est = **+30% beat**
+- **MCR**: 86.7% vs 88.5% est (+270 bps better than prior year) — 2-year low; commercial segment concerns OVERBLOWN
+- **Guidance raised**: $19.50-$20.00 adj EPS 2026 (from >$18.25); Op cash flow ~$24B; $5B share buybacks
+- **Stock reaction**: +7% intraday on Jul 16 (earnings day); our entry Jul 20 at $425.34 reflects post-earnings level
+- **Current price**: $421.75 (Jul 20 close); AH quote stale
+- **Thesis**: STRONGLY INTACT. Trefis commercial segment concern was pre-earnings noise. MCR structural improvement confirmed.
+- **Action**: HOLD; stop $382.878 auto-trailing
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Dates | Disclosed | Signal Level |
+|------------|--------|--------|------|-------|-----------|--------------|
+| Ro Khanna | UBER | BUY (multiple) | ~$35K-$80K cumulative | Jun 15-30, 2026 | Jul 6, 2026 | Secondary — below $25K/trade |
+| Tuberville | MA/PFE/NEE/DUK/LMT/AWK/CSX | ALL SELLS | Various | Jun 8-9, 2026 | Jul 16 | N/A (sells) |
+| Pelosi | — | No qualifying buys | — | — | — | None |
+| McCaul | — | No qualifying buys | — | — | — | None |
+| Gottheimer | UNH | BUY | ~$15K | Jun 2026 | Jun 9 | Below $25K threshold |
+| Khanna | UNH | BUY | ~$15K | Jun 2026 | Jun 9 | Below $25K threshold |
+| Mast | — | No recent disclosures | — | — | — | None |
+
+- Khanna UBER: Multiple small buys ($1K-$15K each) with one $15K-$50K buy Jun 30. Cumulative signal meaningful but individual trades below $25K minimum. Sector = Consumer Discretionary (Least Favored) → **SKIP**
+- UNH politician buys: below threshold AND already own UNH → moot
+- **CONCLUSION**: No actionable new politician signals.
+
+### Holdings Thesis Check (live prices Jul 20 close)
+| Ticker | Shares | Entry | Jul 20 Close | P&L% | -7% Cut | Stop (GTC) | HWM | Status |
+|--------|--------|-------|-------------|------|---------|------------|-----|--------|
+| AAPL | 35.877 | $312.42 | $326.79 | +4.60% | $290.55 | $301.473 (bbdb4df3) | $334.97 | HOLD |
+| GE | 47.98 | $348.94 | $341.30 | -2.19% | $324.51 | $314.141 (df184923) | $349.045 | HOLD |
+| JPM | 49.521 | $334.00 | $338.87 | +1.46% | $310.62 | $316.116 (1a5b3205) | $351.24 | HOLD |
+| NVDA | 80.433 | $205.67 | $203.33 | -1.14% | $191.27 | $192.429 (a255b2fa) | $213.81 | HOLD |
+| TSM | 40.739 | $412.70 | $402.32 | -2.52% | $383.81 | $374.346 (e08c181a) | $415.94 | HOLD |
+| UNH | 39.363 | $425.34 | $421.55 | -0.89% | $395.57 | $382.878 (ac627db0) | $425.42 | HOLD |
+
+- **AAPL**: +4.60%; earnings Jul 30 = 9 days; partial exit (17 sh) done Jul 20; remaining 35 sh with stop. INTACT. Today +1% NQ = likely bounces back from -2.08% Monday.
+- **GE**: -2.19%; fresh entry Jul 20; Q2 beat (EPS +8.6%, Rev +31%, FCF +43%) but order decel (-17% vs +87% Q1). Stop $314.14 = 8% cushion. INTACT. HOLD.
+- **JPM**: +1.46%; record Q2 (EPS $7.70 +38%); thesis STRONGLY INTACT.
+- **NVDA**: -1.14%; AI GPU demand intact; GOOGL reports AMC tomorrow = key re-rating catalyst; stop $192.43 = 6.0% cushion from close. INTACT. Watch GOOGL outcome.
+- **TSM**: -2.52%; Q2 beat ($40.2B rev, GM 67.7%, guidance raised) but "sell the news"; fundamentals exceptional. Stop $374.35 = 6.7% cushion. INTACT. HOLD.
+- **UNH**: -0.89%; Q2 +30% EPS beat, MCR 86.7% best in 8 quarters; guidance raised. Entry AFTER earnings — current weakness is entry-day noise. STRONGLY INTACT.
+
+### Trade Ideas
+**No new entries today:**
+- Cash at 5.2% ($5.8K) — insufficient for any new 15% position (~$16.6K needed)
+- Stock deployed at 85.3% — at upper bound of 75-85% target
+- FOMC blackout starts Wed Jul 23 → today is technically still open but no room
+
+**GOOGL (Conditional Jul 22 morning only):**
+- Reports AMC tonight (Jul 22) — CANNOT enter before earnings
+- IF beats (consensus: Rev $116.9B +21% YoY, Cloud $22.2B +63% YoY, EPS ~$2.87): entry gate ≤$364 at Jul 22 open
+- Prerequisite: one position would need to be closed to free cash → only if NVDA or other position stops out overnight
+
+### Risk Factors
+- **GOOGL AMC tonight (Jul 22)**: NVDA/TSM/tech book at risk if disappoints on AI capex; NVDA stop $192.43 = 6.0% from close; TSM stop $374.35 = 6.7%
+- **Iran/Hormuz**: Active US-Iran strikes; mediation emerging today but fragile; oil spike reversal risk
+- **FOMC Jul 29**: Blackout starts Wed Jul 23; 8 days away; limiting new entry window
+- **AAPL Jul 30 earnings**: 1/3 already exited; remaining 35 shares with stop
+- **Cash constraint**: $5.8K cash = no room for new positions without a stop-out or manual exit
+- **NQ bounce sustainability**: +1.03% pre-market may fade if GOOGL disappoints tomorrow
+
+### Decision
+- **ALL POSITIONS**: HOLD — thesis intact, stops active, no -7% breaches
+- **NEW ENTRIES**: NONE — no cash, at deployment ceiling, FOMC blackout tomorrow
+- **GOOGL**: Monitor AMC tonight; IF beats → evaluate Jul 22 open at gate ≤$364 (but only if cash frees up)
+- **NVDA**: HOLD; if GOOGL disappoints AMC → monitor for stop proximity at open Jul 22
+- **UNH**: Thesis upgraded to STRONGLY INTACT post Q2 beat; stop will auto-trail as price recovers
+
