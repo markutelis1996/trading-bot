@@ -7052,3 +7052,108 @@ Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies.
 - **NVDA**: HOLD; if GOOGL disappoints AMC → monitor for stop proximity at open Jul 22
 - **UNH**: Thesis upgraded to STRONGLY INTACT post Q2 beat; stop will auto-trail as price recovers
 
+---
+
+## 2026-07-22 - Pre-market Research
+
+### Account (live — session start)
+- Equity: $112,172.30
+- Cash: $5,781.19 (5.1%)
+- Long market value: $106,391.11 (stocks + crypto)
+- Stock deployed: ~84.3% ($94.6K stocks / $112.2K equity)
+- Phase P&L: +$12,172.30 (+12.17%)
+- Daytrade count: 0/3
+- Trades this week: 2/7 (GE + UNH, Jul 20)
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL | 35.877 (35 stop) | 35.877044719 | ✓ Match |
+| GE | 47.98 (47 stop) | 47.98194532 | ✓ Match |
+| JPM | 49.521 (49 stop) | 49.521674318 | ✓ Match |
+| NVDA | 80.433 (80 stop) | 80.433412748 | ✓ Match |
+| TSM | 40.739 (40 stop) | 40.738705531 | ✓ Match |
+| UNH | 39.363 (39 stop) | 39.363379884 | ✓ Match |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies. All 6 GTC stops confirmed active and intact. Clean.
+
+### Market Context (pre-market Jul 22)
+- **WTI**: ~$82-84/bbl (+2.2%) | **Brent**: ~$88-91/bbl (+2%) — RISING on Hormuz escalation; Houthi attacks expanding to Red Sea; Kuwaiti tanker hit in Strait; oil at 5-week high; ceasefire proposal emerging (fragile)
+- **ES futures**: $7,520 (+0.48%) | **NQ futures**: $29,119 (+1.17%) — tech/chip bounce pre-market
+- **VIX**: 17.54 (open 17.48), down from 18.65 prior close (-5.95%) — risk-on, declining fear
+- **10Y yield**: 4.587% — stable, no surprise
+- **Today's macro releases**: State Job Openings 10 AM (minor, annual data) — **CLEAN macro day; no CPI/PPI/FOMC**
+- **FOMC**: Jul 29 (next week); **BLACKOUT STARTS TOMORROW Jul 23 → TODAY IS LAST POSSIBLE ENTRY WINDOW**
+
+### Earnings Today (Jul 22)
+| Time | Company | Est EPS | Est Rev | Notes |
+|------|---------|---------|---------|-------|
+| BMO | AT&T (T) | $0.59 | $31.81B | Telecom; no impact on book |
+| BMO | GE Vernova (GEV) | — | $9.16B | Power/wind, distinct from GE Aerospace we hold |
+| BMO | Philip Morris (PM) | $2.02 | $10.62B | No impact |
+| BMO | CME Group | — | — | No impact |
+| AMC | **GOOGL** | **$2.88** | **$116.96B** | KEY — Cloud $22.2B est (+63% YoY); AI capex read for NVDA/TSM |
+| AMC | **TSLA** | $0.52 | $25.99B | Binary; -2.95% pre-market; no direct impact on book |
+| AMC | **TXN** | $1.91 | $5.24B | Analog semi; options pricing ±11.2%; read-through for industrial/data center |
+| AMC | IBM | — | — | Already warned ($17.2B charge); no impact |
+| AMC | NOW (ServiceNow) | — | — | AI enterprise read |
+
+**GOOGL context**: Q1 FY26 EPS $5.11 vs $2.66 est (+92%); Cloud +63% ($20B) — MASSIVE beat. Q2 est $2.88 EPS, Cloud $22.2B. 43/53 analysts Strong Buy; avg PT +22% upside. GOOGL +1.51% today (pre-report positive drift). This is the KEY read for AI infrastructure spend and NVDA/TSM thesis.
+
+### Live Price Verification — STEP 3d (Alpaca positions endpoint, session start)
+| Ticker | Live Price | Entry | P&L% | -7% Cut | Stop (GTC) | HWM | Status |
+|--------|-----------|-------|------|---------|------------|-----|--------|
+| AAPL | $325.97 | $312.42 | +4.33% | $290.55 | $301.47 (bbdb4df3) | $334.97 | HOLD |
+| GE | $341.60 | $348.94 | -2.10% | $324.51 | $314.14 (df184923) | $349.05 | HOLD |
+| JPM | $344.27 | $334.00 | +3.07% | $310.62 | $316.12 (1a5b3205) | $351.24 | HOLD |
+| NVDA | $205.90 | $205.67 | +0.11% | $191.27 | $192.43 (a255b2fa) | $213.81 | HOLD |
+| TSM | $418.64 | $412.70 | +1.44% | $383.81 | $382.84 (e08c181a) | $425.38 | HOLD |
+| UNH | $436.29 | $425.34 | +2.57% | $395.57 | $393.25 (ac627db0) | $436.95 | HOLD |
+
+Note: Alpaca AH quote endpoint returns stale Jul 21 20:00 ET spreads (very wide, unreliable). Using positions endpoint current_price instead.
+
+### Holdings Thesis Check
+- **AAPL** (+4.33%): Earnings Jul 30 (8 days). 1/3 already exited Jul 20. 35 shares held with stop $301.47. -0.54% in early PM; normal pre-earnings drift. INTACT. No action.
+- **GE** (-2.10%): GE Aerospace Q2 beat confirmed Jul 20 (entry day). GE Vernova (separate co) reports BMO today — could affect GE Aerospace sentiment mildly. Order decel concern (-17%) remains known risk. Stop $314.14 = 7.8% cushion from current. HOLD.
+- **JPM** (+3.07%): Record Q2 EPS $7.70 +38%. Thesis STRONGLY INTACT. Stop $316.12 = 8.2% from current. HOLD.
+- **NVDA** (+0.11%): Nearly flat at entry. GOOGL AMC tonight = key AI capex re-rating event. Stop $192.43 = 6.5% cushion. NQ +1.17% pre-market = positive. INTACT. Critical tonight.
+- **TSM** (+1.44%): Q2 beat ($40.2B rev, GM 67.7%, guidance raised). "Sell the news" faded last 2 days (-1.41% pre-market today). Fundamentals exceptional. Stop $382.84 = 8.6% from current. INTACT. HOLD.
+- **UNH** (+2.57%): Q2 +30% EPS beat confirmed Jul 16 (MCR 86.7% = 2-yr low); entry post-earnings Jul 20. HWM $436.95 = essentially at current level. Stop auto-trails. STRONGLY INTACT.
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal Level |
+|------------|--------|--------|------|------------|-----------|--------------|
+| Pelosi | INTC | BUY | $1M-5M | May 29 | Jun 24 | ⚠️ STALE (54 days) — already tracked, no cash to act |
+| Pelosi | UBER | BUY | $500K-1M | May 29 | Jun 24 | ⚠️ STALE — already tracked |
+| McCaul | Municipal bonds | BUY | Various | May-Jun | Jun 11 | NOT actionable (non-stock) |
+| Jim Himes (not whitelist) | BAC/XOM/HD | SELL | $15-50K | Jul 20 | Jul 21 | N/A — sells, not whitelist |
+
+- **No new qualifying whitelist signals in last 30 days.** Pelosi INTC/UBER are 54+ days old and previously tracked. No new disclosures from any whitelist politician.
+- **CONCLUSION**: No actionable politician signals today.
+
+### Trade Ideas
+**NO NEW ENTRIES POSSIBLE:**
+- Cash: $5,781 — insufficient for any 15% position (~$16.8K required)
+- Position cap: 6/6 at max
+- FOMC blackout starts TOMORROW Jul 23 → even if cash freed up, we'd only have today's open
+- Only scenario: a stop fires at market open today → would free ~$16K → evaluate entering one position before blackout
+
+**Conditional watch (only if a stop fires at open):**
+- **GOOGL** (IF FOMC blackout not yet in effect, IF position frees up): Beat expected ($2.87-2.88 EPS, Cloud +63%); entry gate ≤$364; only 1-day window before blackout
+- No other setups — no valid catalyst + live quote + cash simultaneously available
+
+### Risk Factors
+- **Triple AMC binary tonight (GOOGL + TSLA + TXN)**: Most critical; NVDA stop $192.43 only 6.5% from current; TSM stop $382.84 only 8.6% from current; a GOOGL AI capex disappointment could flush AI semis
+- **GE Vernova BMO today**: Different company but shared heritage; miss could add GE Aerospace headwind
+- **Hormuz/Iran escalation**: Houthis now attacking Red Sea tankers + Kuwaiti vessel hit; oil at $84 WTI, $91 Brent; energy sector surging but risk premium = tail risk for market selloff if worsens sharply
+- **FOMC blackout from Jul 23**: No new entries through Jul 29; book locked in unless stops trigger
+- **AAPL Jul 30 earnings**: 8 days away; 35 shares held; could create volatility approaching earnings
+- **TSM -1.41% pre-market**: Slight softening post-earnings; stop $382.84 provides floor; 3-day "sell the news" pattern continuing
+
+### Decision
+- **ALL 6 POSITIONS**: HOLD — thesis intact, all stops active, no -7% breaches
+- **NEW ENTRIES**: IMPOSSIBLE today (no cash, at position cap)
+- **STOP TIGHTENING**: None triggered (no position ≥ +15% from entry)
+- **POST-MARKET WATCH**: GOOGL, TSLA, TXN reporting AMC — results will determine if any stops trigger overnight; NVDA and TSM most exposed to GOOGL result
+- **TOMORROW (Jul 23)**: FOMC blackout begins; market-open session evaluates any overnight stop triggers only; no new entries
+
