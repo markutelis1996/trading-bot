@@ -6120,3 +6120,72 @@ Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies.
 - AAPL earnings Jul 30: 35 shares held, stop $301.47
 - Watch: GOOGL/TSLA/TXN AMC results → NVDA/TSM overnight impact
 - GOOGL AMC tonight: IF beats → evaluate GOOGL at ≤$364 Jul 22 open (requires a position to stop out first)
+
+---
+
+## 2026-07-22 - Midday Scan (Day 68, Wednesday)
+**Time:** ~12:00 CT (1:00 PM EDT) | **Portfolio:** ~$114,500 est | **Cash:** $5,781.19 (5.1%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL | 35.877 (35 stop) | 35.877045 | ✓ |
+| GE | 47.98 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ |
+| NVDA | 80.433 (80 stop) | 80.433413 | ✓ |
+| TSM | 40.739 (40 stop) | 40.738706 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies. All 6 GTC stops active. Clean.
+Note: NVDA trailing stop HWM auto-advanced to $214.32 (was $213.81) — new intraday high. Stop updated to $192.888 (confirmed via orders endpoint).
+
+### Position Status
+| Ticker | Shares | Entry | Price | P&L% | Intraday | Stop (GTC) | HWM | Status |
+|--------|--------|-------|-------|------|----------|------------|-----|--------|
+| AAPL | 35.877 | $312.42 | $324.26 | +3.79% | -1.06% | $301.473 (bbdb4df3, 10%) | $334.97 | HOLD |
+| GE | 47.98 | $348.94 | $343.79 | -1.48% | +0.91% | $314.141 (df184923, 10%) | $349.05 | HOLD |
+| JPM | 49.521 | $334.00 | $348.35 | +4.30% | +0.90% | $316.116 (1a5b3205, 10%) | $351.24 | HOLD |
+| NVDA | 80.433 | $205.67 | $214.12 | +4.11% | +3.30% | $192.888 (a255b2fa, 10%) | $214.32 ↑ | HOLD |
+| TSM | 40.739 | $412.70 | $422.82 | +2.45% | -0.42% | $382.842 (e08c181a, 10%) | $425.38 | HOLD |
+| UNH | 39.363 | $425.34 | $432.91 | +1.78% | -0.79% | $393.251 (ac627db0, 10%) | $436.945 | HOLD |
+
+### Step 3 — Cut Losers
+None. GE worst at -1.48% (threshold -7% = $324.51; current $343.79 = $19.28 cushion).
+
+### Step 4 — Stop Tightening
+- NVDA +4.11%: +15% trigger = $236.52 — NOT reached. No action.
+- All others below +15% threshold. No changes.
+- NVDA trailing stop auto-updated to $192.888 (HWM $214.32) — broker-managed, no manual action needed.
+
+### Step 5 — Thesis Check
+- **AAPL** (-1.06% intraday): Normal drift ahead of Jul 30 earnings. 1/3 already exited. Stop $301.47 = 7.1% cushion. **INTACT. HOLD.**
+- **GE** (+0.91% intraday): Recovering from Mon entry pullback. Aerospace supercycle + Q2 beat thesis intact. Stop $314.14 = 8.6% cushion. **INTACT. HOLD.**
+- **JPM** (+0.90% intraday): Record Q2 EPS $7.70 thesis strongly intact. Stop $316.12 = 9.2% cushion. **INTACT. HOLD.**
+- **NVDA** (+3.30% intraday): Strong move — AI sector optimism ahead of GOOGL AMC tonight + NQ strength. HWM touched $214.32. Stop auto-trailed. Thesis INTACT/STRENGTHENING. **HOLD.**
+- **TSM** (-0.42% intraday): Minor pullback from yesterday's highs. Q2 fundamentals exceptional ($40.2B rev, GM 67.7%); sell-the-news fading. Stop $382.84 = 9.5% cushion. **INTACT. HOLD.**
+- **UNH** (-0.79% intraday): Small profit-taking near HWM. MCR 86.7% (2-yr low) thesis intact. Stop $393.25 = 9.2% cushion. **INTACT. HOLD.**
+
+### Step 6 — Research
+- NVDA +3.30% intraday: cause identified — NQ futures +1.17% pre-market + AI sentiment/GOOGL AMC expectations. No unexpected catalyst; thesis-consistent move.
+- No other sharp unexplained moves requiring Perplexity research.
+- Key tonight: GOOGL AMC (cloud $22.2B est, AI capex read) → will set tone for NVDA/TSM overnight.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries (no cash, at position cap, FOMC blackout starts tomorrow).
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target (+20%) |
+|---|--------|--------|-------|------|-----|---------------|
+| 1 | AAPL | 35.877 (35 stop) | $312.42 | $301.473 (10% trail, bbdb4df3) | $334.97 | $374.90 |
+| 2 | GE | 47.98 (47 stop) | $348.94 | $314.141 (10% trail, df184923) | $349.05 | $418.73 |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $316.116 (10% trail, 1a5b3205) | $351.24 | $400.80 |
+| 4 | NVDA | 80.433 (80 stop) | $205.67 | $192.888 (10% trail, a255b2fa) | $214.32 | $246.80 |
+| 5 | TSM | 40.739 (40 stop) | $412.70 | $382.842 (10% trail, e08c181a) | $425.38 | $495.24 |
+| 6 | UNH | 39.363 (39 stop) | $425.34 | $393.251 (10% trail, ac627db0) | $436.945 | $510.41 |
+
+- Trades this week: 2/3 max (GE + UNH Jul 20)
+- FOMC blackout starts tomorrow Jul 23 — no new entries through Jul 29
+- AAPL earnings Jul 30: 35 shares held, stop $301.47
+- GOOGL AMC tonight: AI capex read for NVDA/TSM
+- No ClickUp notification (no action taken)
+
