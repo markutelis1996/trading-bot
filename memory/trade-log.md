@@ -6189,3 +6189,19 @@ None. No cuts, no stop changes, no new entries (no cash, at position cap, FOMC b
 - GOOGL AMC tonight: AI capex read for NVDA/TSM
 - No ClickUp notification (no action taken)
 
+---
+
+### Jul 22 - EOD Snapshot (Day 68, Wednesday)
+**Portfolio:** $112,762.09 | **Cash:** $4,409.21 (3.9%) | **Day P&L:** +$134.71 (+0.12%) | **Phase P&L:** +$12,762.09 (+12.76%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 35.877 | $312.42 | $325.58 | -$2.16 (-0.66%) | +$472.22 (+4.21%) | $301.473 (10% trail, HWM $334.97) |
+| GE | 47.98 | $348.94 | $341.08 | +$0.38 (+0.11%) | -$377.02 (-2.25%) | $314.141 (10% trail, HWM $349.05) |
+| JPM | 49.521 | $334.00 | $348.88 | +$3.65 (+1.06%) | +$736.81 (+4.46%) | $316.116 (10% trail, HWM $351.24) |
+| NVDA | 80.433 | $205.67 | $211.85 | +$4.56 (+2.20%) | +$497.35 (+3.01%) | $192.951 (10% trail, HWM $214.39) |
+| TSM | 40.739 | $412.70 | $422.75 | -$1.86 (-0.44%) | +$409.33 (+2.44%) | $382.842 (10% trail, HWM $425.38) |
+| UNH | 39.363 | $425.34 | $431.00 | -$5.35 (-1.23%) | +$222.80 (+1.33%) | $393.251 (10% trail, HWM $436.95) |
+
+**Notes:** Mixed session; effectively flat (+0.12%). NVDA led +2.20% on AI sentiment ahead of GOOGL AMC (HWM auto-advanced to $214.39, stop tightened to $192.951). JPM held gains +1.06%. AAPL drifted -0.66% ahead of Jul 30 earnings. TSM -0.44% minor profit-taking after yesterday's +5.59% spike. UNH -1.23% pullback from near HWM. GE +0.11% stabilizing. All 6 GTC trailing stops active and intact. Cash dropped from $5,781 to $4,409 (~$1,372 likely crypto DCA sleeve); stock reconciliation clean (all 6 positions match broker exactly). FOMC blackout begins Jul 23 — no new entries through Jul 29. Trades today: 0. Trades this week: 2/3 (GE + UNH, Jul 20).
+
