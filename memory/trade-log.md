@@ -6333,3 +6333,19 @@ None. No cuts, no stop changes, no new entries.
 - FOMC blackout Jul 23-29 — no new entries
 - AAPL earnings Jul 30: 35 shares held with stop $301.47
 - No ClickUp notification (no action taken)
+
+---
+
+### Jul 23 - EOD Snapshot (Day 69, Thursday)
+**Portfolio:** $112,023.19 | **Cash:** $4,409.21 (3.9%) | **Day P&L:** -$738.90 (-0.66%) | **Phase P&L:** +$12,023.19 (+12.02%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 35.877 | $312.42 | $321.60 | -$4.29 (-1.32%) | +$329.39 (+2.94%) | $301.473 (10% trail, HWM $334.97) |
+| GE | 47.98 | $348.94 | $349.00 | +$7.81 (+2.29%) | +$2.88 (+0.02%) | $314.748 (10% trail, HWM $349.72) |
+| JPM | 49.521 | $334.00 | $349.90 | +$1.69 (+0.49%) | +$787.32 (+4.76%) | $316.116 (10% trail, HWM $351.24) |
+| NVDA | 80.433 | $205.67 | $209.40 | -$2.66 (-1.25%) | +$300.02 (+1.81%) | $192.951 (10% trail, HWM $214.39) |
+| TSM | 40.739 | $412.70 | $416.08 | -$5.13 (-1.22%) | +$137.60 (+0.82%) | $382.842 (10% trail, HWM $425.38) |
+| UNH | 39.363 | $425.34 | $423.59 | -$7.72 (-1.79%) | -$68.89 (-0.41%) | $393.251 (10% trail, HWM $436.95) |
+
+**Notes:** Mixed-to-soft session. GE led +2.29% intraday (new HWM $349.72; stop auto-trailed to $314.748); JPM +0.49% holding gains. Five of six stocks declined — AAPL -1.32%, NVDA -1.25%, TSM -1.22% (profit-taking after Jul 21 surge), UNH -1.79% (sector healthcare/budget noise, not thesis break). Crypto sleeve (BTC -1.79%, ETH -2.97%, SOL -2.70%, LINK -1.64%) contributed to overall portfolio decline. Reconciliation clean: all 6 stock positions match broker exactly; all 6 GTC trailing stops active and intact. No cuts triggered (UNH worst at -0.41% unrealized, well above -7% cut rule). FOMC blackout day 1 (Jul 23-29) + no cash ($4,409) + position cap (6/6): triple lock on entries. Trades today: 0; week total: 2/7 (GE + UNH, Jul 20). Next action window: Jul 30 post-FOMC + AAPL earnings.
