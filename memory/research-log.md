@@ -7157,3 +7157,116 @@ Note: Alpaca AH quote endpoint returns stale Jul 21 20:00 ET spreads (very wide,
 - **POST-MARKET WATCH**: GOOGL, TSLA, TXN reporting AMC — results will determine if any stops trigger overnight; NVDA and TSM most exposed to GOOGL result
 - **TOMORROW (Jul 23)**: FOMC blackout begins; market-open session evaluates any overnight stop triggers only; no new entries
 
+---
+
+## 2026-07-23 - Pre-market Research
+
+### Account
+- Equity: $112,850.03
+- Cash: $4,409.21
+- Long market value: $108,440.82 (stocks + crypto)
+- Deployed (stocks only): ~$96,672 / $112,850 = ~85.7%; total w/ crypto ~96.1%
+- Phase P&L: +$12,850.03 (+12.85%)
+- Daytrade count: 0/3
+- Trades this week: 2/7 (GE + UNH Jul 20)
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL | 35.877 (35 stop) | 35.877044719 | ✓ Match |
+| GE | 47.98 (47 stop) | 47.98194532 | ✓ Match |
+| JPM | 49.521 (49 stop) | 49.521674318 | ✓ Match |
+| NVDA | 80.433 (80 stop) | 80.433412748 | ✓ Match |
+| TSM | 40.739 (40 stop) | 40.738705531 | ✓ Match |
+| UNH | 39.363 (39 stop) | 39.363379884 | ✓ Match |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies. All 6 GTC trailing stops confirmed active (AAPL bbdb4df3, GE df184923, JPM 1a5b3205, NVDA a255b2fa, TSM e08c181a, UNH ac627db0). Clean.
+
+### Market Context (pre-market Jul 23)
+- **WTI**: ~$87/bbl (+3.3%) | **Brent**: ~$93-95/bbl (+3-5%) — SURGING; Iran/Hormuz escalation continues; Houthis attacking Red Sea tankers; Kuwaiti tanker hit; oil 5-week high and climbing
+- **ES**: ~7,511-7,540 (S&P relatively flat, ~+0.04%) | **NQ**: ~29,150 (-0.02%) — tech flat/slightly negative
+- **VIX**: 17.23 (+1.06%), day range 16.72-17.75 — slightly elevated but moderate (below 20 = not fearful)
+- **10Y yield**: 4.644% (+1bp) — stable
+- **Gold**: $4,120 (+1%) — geopolitical safe haven bid
+- **Today's releases**: Initial Jobless Claims 8:30 AM (est 212K, prev 208K) — minor, in-line expected; Chicago Fed NFAI; **NO CPI/PPI/FOMC/PCE** = CLEAN macro day
+- **FOMC blackout**: BEGINS TODAY Jul 23 → no new entries through Jul 29
+
+### Post-AMC Earnings Results (Jul 22 AMC)
+| Company | Revenue | Est | EPS (adj) | Est | Result | AH Move |
+|---------|---------|-----|-----------|-----|--------|---------|
+| GOOGL | $119.8B (+24% YoY) | $116.93B | $2.85 | $2.89 | Rev BEAT / EPS slight miss | -1.38% (capex raise) |
+| TSLA | $28.24B | $26.43B | $0.33 | $0.54 | Rev BEAT / EPS -38% miss | -4.13% AH |
+
+**GOOGL detail**: Cloud $24.8B (+82% YoY vs $22.2B est) — MASSIVE BEAT. Capex raised to $195-205B (from $180-190B). Stock sank AH on capex raise concern, but AI infrastructure spend continuing at record pace = BULLISH for NVDA/TSM thesis.
+
+### Position Thesis Check (live prices from broker)
+| Ticker | Shares | Entry | Price | P&L% | -7% Cut | Stop (GTC) | HWM | Status |
+|--------|--------|-------|-------|------|---------|------------|-----|--------|
+| AAPL | 35.877 | $312.42 | $325.57 | +4.21% | $290.55 | $301.473 (bbdb4df3) | $334.97 | HOLD |
+| GE | 47.98 | $348.94 | $342.00 | -1.99% | $324.51 | $314.141 (df184923) | $349.05 | HOLD |
+| JPM | 49.521 | $334.00 | $349.58 | +4.66% | $310.62 | $316.116 (1a5b3205) | $351.24 | HOLD |
+| NVDA | 80.433 | $205.67 | $212.28 | +3.21% | $191.27 | $192.951 (a255b2fa) | $214.39 | HOLD |
+| TSM | 40.739 | $412.70 | $422.93 | +2.48% | $383.81 | $382.842 (e08c181a) | $425.38 | HOLD |
+| UNH | 39.363 | $425.34 | $431.02 | +1.33% | $395.57 | $393.251 (ac627db0) | $436.95 | HOLD |
+
+- No -7% breach → no cuts
+- No +15% threshold reached → no stop tightening
+- NVDA HWM auto-advanced to $214.39 (was $213.81 midday Jul 22) during trading
+- All stops confirmed active; no overnight stop triggers
+
+### Thesis Updates
+- **AAPL** (+4.21%): Earnings Jul 30 in 7 days — Tim Cook's final earnings call (CEO transition to John Ternus Sept 1). Stock at 52-week high. 1/3 already exited Jul 20. Stop $301.47 = 7.5% cushion. INTACT. Approach with care into earnings.
+- **GE** (-1.99%): GE Vernova (separate co) reported BMO Jul 22 — raised outlook despite wind weakness. GE Aerospace thesis unaffected. Order decel concern (-17%) still a known risk. Stop $314.14 = 8.2% cushion. HOLD.
+- **JPM** (+4.66%): Record Q2 EPS $7.70 +38% thesis strongly intact. Financials sector Neutral (Schwab) but company fundamentals exceptional. Stop $316.12 = 9.6% below current. INTACT/STRONG.
+- **NVDA** (+3.21%): GOOGL cloud +82% = AI capex super-cycle confirmation. More GOOGL spend = more NVDA GPU demand. Stock +1.97% live today. Stop $192.95 = 9.1% cushion. INTACT/STRENGTHENING. HWM $214.39; +15% trigger $236.52 — not reached.
+- **TSM** (+2.48%): Q2 beat ($40.2B rev, GM 67.7%, guidance raised). GOOGL capex raise ($195-205B) is bullish for TSM wafer demand. "Sell the news" fading; fundamentals exceptional. Stop $382.84 = 9.5% cushion. INTACT.
+- **UNH** (+1.33%): 52-week high hit recently. Raised 2026 EPS guidance $19.50-20.00 (from $18.25+). Q2 beat confirmed. Stop $393.25 = 8.8% cushion. INTACT/STRONG. Barclays raised PT to $441 Jul 20.
+
+### Politician Signals (STEP 3b — Capitol Trades)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal Level |
+|------------|--------|--------|------|------------|-----------|--------------|
+| N/A | — | — | — | — | — | No new whitelist buys found in last 30 days |
+
+- Nancy Pelosi INTC/UBER (May 29, disclosed Jun 24) = now 55+ days old — stale, no cash to act
+- Pelosi not re-running 2026; disclosures may continue through year-end
+- Tommy Tuberville: predominantly selling; ran for AL governor; low signal value
+- Ro Khanna: high volume but mostly sales; no qualifying buys found
+- Josh Gottheimer: mostly Microsoft options (pre-existing position); no new stocks
+- John Boozman (NOT whitelist): recently disclosed UNH purchase — confirms thesis but not actionable (non-whitelist)
+- **Conclusion**: No actionable politician signals. No new entries needed.
+
+### Sector Momentum YTD 2026 (Schwab)
+| Sector | Rating | Our Exposure | Notes |
+|--------|--------|-------------|-------|
+| Industrials | More Favored | GE | AI capex infrastructure, aerospace supercycle |
+| Healthcare | More Favored | UNH | Defensive + MCR improvement thesis |
+| Financials | Neutral | JPM | Record EPS but sector neutral |
+| Technology/IT | Neutral | AAPL, NVDA | AI demand strong but sector neutral |
+| Communication Services | Neutral | — | None held |
+| Consumer Discretionary | Least Favored | — | None held |
+
+### Trade Ideas
+**NO NEW ENTRIES:**
+1. FOMC blackout begins today — no entries through Jul 29
+2. Cash: $4,409 — insufficient for any position (~$16.9K min required)
+3. Position cap: 6/6
+
+**Conditional (post-blackout, post-AAPL earnings):**
+- If AAPL stop triggers (≤$301.47): would free ~$11.4K cash — still insufficient for full 15% position. Watch for NVDA or TSM stop as secondary liberation.
+- Post-Jul 29 FOMC: re-evaluate sector rotation. If Warsh hawkish → sit tight. If neutral/hold → evaluate adding 7th position if stop fires.
+
+### Risk Factors
+- **Iran/Hormuz escalation**: Oil at $87-95/bbl — macro risk-off tail risk; could pressure market if Strait closes or military escalation broadens. JPM and energy-sensitive sectors at risk.
+- **FOMC Jul 29**: Warsh = hawkish bias. Rate hike risk nonzero (PCE June est 4.1% YoY Jul 30). Could reprice all equity multiples.
+- **AAPL earnings Jul 30**: Binary event; 35 shares exposed; stop $301.47 protects downside but -7% from current = -$24 below stop = gap risk if miss catastrophic.
+- **GOOGL capex raise**: -1.38% AH reflects investor concern about FCF burn; could drag tech sector tone.
+- **TSLA EPS -38% miss**: No book impact but negative TSLA sentiment can bleed into consumer/tech broadly.
+- **GE -1.99% from entry**: Not a -7% risk but bear in mind thesis depends on aerospace delivery cadence; watch for continued selling.
+
+### Decision
+- **ALL 6 POSITIONS**: HOLD — all theses intact, all stops active, no rule violations
+- **NEW ENTRIES**: BLOCKED — FOMC blackout + no cash + at position cap
+- **STOP TIGHTENING**: None triggered (no position ≥ +15% from entry)
+- **NEXT ACTION**: Jul 29 FOMC decision + Warsh press conference → determines post-blackout posture
+- **AAPL Jul 30**: Earnings + FOMC + GDP + PCE all on same week → highest risk week of Q3; positions protected by stops
+
