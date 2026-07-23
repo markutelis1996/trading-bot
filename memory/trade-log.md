@@ -6261,3 +6261,75 @@ Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies.
 - Trades this week: 2/7 (GE + UNH Jul 20)
 - FOMC blackout: Jul 23-29 — no new entries
 - Next opportunity: Jul 30 (post-FOMC, AAPL earnings day)
+
+---
+
+## 2026-07-23 - Midday Scan (Day 69, Thursday)
+**Time:** ~12:00 CT (1:00 PM EDT) | **Portfolio:** ~$111,900 est | **Cash:** $4,409.21 (3.9%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL | 35.877 (35 stop) | 35.877045 | ✓ |
+| GE | 47.98 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ |
+| NVDA | 80.433 (80 stop) | 80.433413 | ✓ |
+| TSM | 40.739 (40 stop) | 40.738706 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies. Note: GE trailing stop HWM auto-advanced to $349.72 (was $349.05), stop updated to $314.748 (was $314.141) — new intraday high this morning.
+
+### Position Status
+| Ticker | Shares | Entry | Price | P&L% | Intraday | Stop (GTC) | HWM | Status |
+|--------|--------|-------|-------|------|----------|------------|-----|--------|
+| AAPL | 35.877 | $312.42 | $320.73 | +2.66% | -1.59% | $301.473 (bbdb4df3, 10%) | $334.97 | HOLD |
+| GE | 47.98 | $348.94 | $349.00 | +0.02% | +2.29% | $314.748 (df184923, 10%) | $349.72 ↑ | HOLD |
+| JPM | 49.521 | $334.00 | $348.09 | +4.22% | -0.03% | $316.116 (1a5b3205, 10%) | $351.24 | HOLD |
+| NVDA | 80.433 | $205.67 | $209.86 | +2.04% | -1.04% | $192.951 (a255b2fa, 10%) | $214.39 | HOLD |
+| TSM | 40.739 | $412.70 | $417.29 | +1.11% | -0.93% | $382.842 (e08c181a, 10%) | $425.38 | HOLD |
+| UNH | 39.363 | $425.34 | $421.67 | -0.86% | -2.24% | $393.251 (ac627db0, 10%) | $436.95 | HOLD ⚠️ |
+
+### Step 3 — Cut Losers
+None. UNH worst at -0.86% from entry (threshold -7% = $395.57; current $421.67 = $26.10 cushion).
+
+### Step 4 — Stop Tightening
+- All positions below +15% trigger. No changes.
+  - AAPL +15% trigger: $359.28 (current $320.73)
+  - GE +15% trigger: $401.28 (current $349.00)
+  - JPM +15% trigger: $384.10 (current $348.09)
+  - NVDA +15% trigger: $236.52 (current $209.86)
+  - TSM +15% trigger: $474.61 (current $417.29)
+  - UNH +15% trigger: $489.14 (current $421.67)
+- GE stop auto-advanced by broker: $314.141 → $314.748 (HWM $349.72). No manual action needed.
+
+### Step 5 — Thesis Check
+- **AAPL** (-1.59% intraday): Normal drift ahead of Jul 30 earnings. 1/3 already exited (17 sh Jul 20). Stop $301.47 intact. **INTACT. HOLD.**
+- **GE** (+2.29% intraday): New HWM $349.72 — Q2 aerospace supercycle beat playing out. Stop auto-advanced. **STRENGTHENING. HOLD.**
+- **JPM** (-0.03% intraday): Essentially flat; record Q2 EPS thesis unchanged. **INTACT. HOLD.**
+- **NVDA** (-1.04% intraday): Minor pullback; AI inference demand thesis unchanged. FOMC expectations weighing on rate-sensitive tech. **INTACT. HOLD.**
+- **TSM** (-0.93% intraday): Mild profit-taking after Jul 21 +5.59% surge. Q2 fundamentals exceptional ($40.2B rev, GM 67.7%). **INTACT. HOLD.**
+- **UNH** (-2.24% intraday): Largest mover today. Healthcare sector pressure — likely political/Medicare noise. Entry -0.86% from entry; stop $393.25 provides 6.7% cushion. Not a thesis break (MCR 86.7% 2-yr low thesis intact). **WATCH. HOLD.**
+
+### Step 6 — Research
+- No sharp unexplained moves requiring Perplexity research.
+- UNH -2.24% intraday: sector-wide healthcare selling (political/budget noise); not UNH-specific thesis break. MCR improvement thesis intact.
+- GE new HWM $349.72 (+0.22% above entry) confirms aerospace Q2 beat thesis playing out.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+- FOMC blackout (Jul 23-29) + no cash + position cap: triple lock.
+
+### Open Positions (Updated)
+| # | Ticker | Shares | Entry | Stop | HWM | Target (+20%) |
+|---|--------|--------|-------|------|-----|---------------|
+| 1 | AAPL | 35.877 (35 stop) | $312.42 | $301.473 (10% trail, bbdb4df3) | $334.97 | $374.90 |
+| 2 | GE | 47.98 (47 stop) | $348.94 | $314.748 (10% trail, df184923) | $349.72 | $418.73 |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $316.116 (10% trail, 1a5b3205) | $351.24 | $400.80 |
+| 4 | NVDA | 80.433 (80 stop) | $205.67 | $192.951 (10% trail, a255b2fa) | $214.39 | $246.80 |
+| 5 | TSM | 40.739 (40 stop) | $412.70 | $382.842 (10% trail, e08c181a) | $425.38 | $495.24 |
+| 6 | UNH | 39.363 (39 stop) | $425.34 | $393.251 (10% trail, ac627db0) | $436.95 | $510.41 |
+
+- Trades this week: 2/3 max (GE + UNH Jul 20)
+- FOMC blackout Jul 23-29 — no new entries
+- AAPL earnings Jul 30: 35 shares held with stop $301.47
+- No ClickUp notification (no action taken)
