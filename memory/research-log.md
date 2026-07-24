@@ -7270,3 +7270,121 @@ Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies.
 - **NEXT ACTION**: Jul 29 FOMC decision + Warsh press conference → determines post-blackout posture
 - **AAPL Jul 30**: Earnings + FOMC + GDP + PCE all on same week → highest risk week of Q3; positions protected by stops
 
+---
+
+## 2026-07-24 - Pre-market Research
+
+### Account
+- Equity: $111,880.27
+- Cash: $4,409.21 (3.9%)
+- Long market value: $107,471.06 (stocks + crypto)
+- Deployed (stocks only): ~$91,814 / $111,880 = ~82.1%; total w/ crypto ~96.1%
+- Phase P&L: +$11,880.27 (+11.88%)
+- Daytrade count: 0/3
+- Trades this week: 2/7 (GE + UNH Jul 20)
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL | 35.877 (35 stop) | 35.877045 | ✓ Match |
+| GE | 47.98 (47 stop) | 47.981945 | ✓ Match |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ Match |
+| NVDA | 80.433 (80 stop) | 80.433413 | ✓ Match |
+| TSM | 40.739 (40 stop) | 40.738706 | ✓ Match |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ Match |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies. All 6 GTC trailing stops confirmed active (AAPL bbdb4df3 $301.473 HWM $334.97, GE df184923 $314.748 HWM $349.72, JPM 1a5b3205 $316.116 HWM $351.24, NVDA a255b2fa $192.951 HWM $214.39, TSM e08c181a $382.842 HWM $425.38, UNH ac627db0 $393.251 HWM $436.945). Clean.
+
+### Market Context (pre-market Jul 24)
+- **WTI**: ~$87-93/bbl (+6% surge) | **Brent**: ~$94-100/bbl (touching $100) — Houthis launched missile and drone attack on two Saudi oil tankers in Red Sea (overnight), expanding disruptions beyond Strait of Hormuz; second consecutive major oil escalation event
+- **ES futures**: ~7,480-7,517 (-0.4% to -0.8%) | **NQ futures**: ~28,890 (-1.0%) — tech under pressure
+- **VIX**: 18.52 (prev close 16.64, +11% spike) — risk aversion rising; still below 20 but elevated
+- **10Y yield**: 4.644% (+0.016) — yield creeping up; pressure on rate-sensitive equity multiples
+- **Gold**: ~$4,055-4,120 — geopolitical safe-haven bid
+- **INTC Q2 2026 (AMC Jul 23 — MASSIVE BEAT)**:
+  - Revenue: $16.1B vs $14.4B est (+$1.8B above guidance midpoint)
+  - Non-GAAP EPS: $0.42 vs $0.21 est (100% beat)
+  - Non-GAAP GM: 41.8%, 280bp above guidance
+  - DCAI (Data Center AI): $6.3B, +24% QoQ, +59% YoY
+  - Intel Foundry: $5.8B, +6% QoQ
+  - Q3 guide: $15.8-16.8B rev, 42% GM, $0.38 EPS
+  - 7th consecutive quarter of beat vs guidance
+  - INTC trading ~-2.33% today (sell-the-news after 150%+ YTD run); INTC not in book
+- **Earnings BMO today (Jul 24)**: AXP (American Express), SLB (oilfield services), VZ (Verizon), LMT (Lockheed Martin)
+  - LMT defense/aerospace: bullish for GE Aerospace thesis
+  - SLB: rising oil prices direct tailwind for oilfield services
+- **Economic calendar**: Flash US PMI Mfg 9:45 AM ET (est 54.5 — expansion); New Home Sales 10:00 AM ET; Baker Hughes rig count 5 PM ET; **No CPI/PPI/FOMC/PCE today**
+- **FOMC blackout**: Day 2 of Jul 23–29 window — no new entries
+
+### Position Thesis Check (live broker prices)
+| Ticker | Shares | Entry | Price | P&L% | -7% Cut | Stop (GTC) | HWM | Status |
+|--------|--------|-------|-------|------|---------|------------|-----|--------|
+| AAPL | 35.877 | $312.42 | $321.71 | +2.97% | $290.55 | $301.473 (bbdb4df3) | $334.97 | HOLD |
+| GE | 47.98 | $348.94 | $348.50 | -0.13% | $324.51 | $314.748 (df184923) | $349.72 | HOLD |
+| JPM | 49.521 | $334.00 | $350.50 | +4.94% | $310.62 | $316.116 (1a5b3205) | $351.24 | HOLD |
+| NVDA | 80.433 | $205.67 | $207.55 | +0.91% | $191.27 | $192.951 (a255b2fa) | $214.39 | HOLD |
+| TSM | 40.739 | $412.70 | $413.40 | +0.17% | $383.81 | $382.842 (e08c181a) | $425.38 | HOLD |
+| UNH | 39.363 | $425.34 | $423.26 | -0.49% | $395.57 | $393.251 (ac627db0) | $436.95 | HOLD |
+
+- No -7% breach (UNH worst at -0.49%; threshold -7% = $395.57 vs current $423.26)
+- No +15% trigger reached (all positions below their +15% threshold)
+- No HWM auto-advances today (all current prices below existing HWM)
+
+### Stop Tightening Check
+| Ticker | +15% Trigger | Current | Status |
+|--------|-------------|---------|--------|
+| AAPL | $359.28 | $321.71 | No |
+| GE | $401.28 | $348.50 | No |
+| JPM | $384.10 | $350.50 | No |
+| NVDA | $236.52 | $207.55 | No |
+| TSM | $474.61 | $413.40 | No |
+| UNH | $489.14 | $423.26 | No |
+
+No stop tightening actions required.
+
+### Thesis Updates
+- **AAPL** (+2.97%): Pre-earnings drift — earnings Jul 30 (Tim Cook's final call). Stock pulling back from $334.97 HWM as market hedges binary. Stop $301.47 = 6.3% cushion below current. INTACT. Watchful.
+- **GE** (-0.13%): Minor pre-market slip. LMT earnings BMO today (defense/aerospace peer) — any beat would confirm aerospace supercycle. GE HWM $349.72 barely above entry; stop $314.748 = 9.7% cushion. INTACT.
+- **JPM** (+4.94%): JPM itself raised UNH PT $466→$516 (Jul 21); confirms fundamental rigor. JPM record Q2 EPS $7.70 (+38%) thesis intact. Rising 10Y yield = mild headwind but manageable at 4.644%. INTACT/STRONG.
+- **NVDA** (+0.91%): INTC Q2 beat (DCAI +59% YoY) = independent confirmation of AI infrastructure demand; NVDA chips fuel the demand INTC CPUs run alongside. GOOGL capex raise ($195-205B confirmed) = sustained GPU demand. INTACT/STRENGTHENING.
+- **TSM** (+0.17%): INTC foundry revenue $5.8B + external orders $293M → INTC capacity tight = outsource to TSM incremental tailwind. GOOGL/hyperscaler capex raising = wafer demand sustained. INTACT.
+- **UNH** (-0.49%): JPM raised PT $466→$516 Jul 21 (most recent action). Q2 beat + raised FY2026 EPS guidance $19.50-20.00. MCR improvement thesis intact. 52-week high at $461.62; current well below high but recovering. INTACT.
+
+### Politician Signals (STEP 3b — Capitol Trades)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal Level |
+|------------|--------|--------|------|------------|-----------|--------------|
+| N/A | — | — | — | — | — | No new whitelist buys in last 30 days |
+
+- Josh Gottheimer: most recent filing Jun 17, 2026 (37 days ago — MSFT trades); no qualifying new buys
+- Nancy Pelosi: last activity was INTC/UBER May 29 (56+ days ago); no new disclosures found
+- Tommy Tuberville: no single-stock buys in window; ran for AL governor
+- Ro Khanna: high volume, predominantly sales; no qualifying buys
+- Michael McCaul: MSFT sells (Jun 11); no qualifying buys
+- **Conclusion**: No actionable politician signals. Existing positions not connected to any stale signals.
+
+### Trade Ideas
+**NO NEW ENTRIES — triple lock:**
+1. FOMC blackout (Jul 23–29)
+2. Cash $4,409 → insufficient for any 15%-of-portfolio position (~$16.8K minimum)
+3. Position cap: 6/6
+
+**Post-blackout pipeline (evaluate Jul 30+):**
+- If AAPL stop triggers (≤$301.47) after earnings Jul 30: frees ~$11.2K — still insufficient alone for a full position. Watch for any second stop trigger to combine.
+- INTC: massive Q2 beat; current ~$102; but up 150%+ YTD and no cash to deploy. Note for evaluation after FOMC and AAPL earnings.
+- No crypto. Separate DCA sleeve untouched.
+
+### Risk Factors
+- **Oil surge**: WTI +6%, Brent ~$100 — Houthi Red Sea escalation raises macro risk-off probability. Airlines, consumer-facing names hit hardest. Our book not directly exposed (no energy consumer names).
+- **VIX +11% to 18.52**: Fear creeping up but below 20 (panic threshold). Elevated stops more likely to be tested on gap-down opens.
+- **FOMC Jul 29**: Warsh hawkish bias — rate hike nonzero risk. PCE Jun 30 est 3.8-4.1% YoY releases Jul 30 (same day as GDP and AAPL earnings). Highest macro-risk day of Q3.
+- **AAPL earnings Jul 30**: Binary event with $11.2K at risk (35 shares × $321.71). Stop $301.47 protects but gap-risk if catastrophic miss. AAPL is already near 52-week highs — potential "sell the news" risk even on a beat.
+- **GE -0.13% from entry**: Approaching 10% trail trigger territory; new HWM $349.72 barely above entry. No -7% breach but bear in mind.
+- **NQ -1.0% premarket**: Tech sector under pressure from AI spending concern narrative (GOOGL capex raise, TSLA miss); NVDA and AAPL most exposed.
+
+### Decision
+- **ALL 6 POSITIONS**: HOLD — all theses intact, stops active, no rule violations
+- **NEW ENTRIES**: BLOCKED — FOMC blackout + no cash + 6/6 cap
+- **STOP TIGHTENING**: None triggered
+- **CUTS**: None needed (no -7% breach)
+- **NEXT ACTION**: Jul 29 FOMC (Warsh) → determines post-blackout posture; Jul 30 = AAPL earnings + GDP advance + PCE + potential first open cash slot
+
