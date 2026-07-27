@@ -7489,3 +7489,18 @@ Even post-blackout on Wed afternoon, no cash to deploy without closing a positio
   - Thu Jul 30 AMC: AAPL earnings — hold through, stops active
   - Partial profit rule: AAPL +25% trigger = $390.53 (not close); GE +25% = $436.18; JPM +25% = $417.50
 
+### Midday Addendum (Jul 27, ~12:00 CT)
+**NVDA -5.14% intraday — CAUSE IDENTIFIED:**
+- OpenAI financing deal announced over weekend: NVDA in discussions to guarantee $250-350B of OpenAI's chip purchases / Ohio 10GW AI data center financing
+- Market concern: credit risk / balance sheet exposure — NVDA shifting from hardware seller to financier
+- AI demand thesis INTACT. No demand impairment. New risk: credit exposure beyond core business model
+- Stop at $192.951 now 1.67% from current $196.20 — GTC auto-executes if breached. -7% manual cut at $191.27 not yet triggered. HOLD.
+
+**TSM -2.57% intraday — CAUSE:**
+- Broad semiconductor sector rotation / valuation reset (41.5x trailing P/E)
+- TSM down ~15% in July despite record Q2 (net profit +77% YoY). Capital expenditure concern ($52-56B guided CapEx)
+- No TSM-specific negative catalyst. Thesis intact. Stop $382.842 = 2.60% below current $393.05.
+
+**Portfolio mid-session est: ~$113,800 (+0.56% today)** — AAPL/GE/JPM gains offset NVDA/TSM losses.
+**Actions midday: NONE.** All 6 stops confirmed active.
+
