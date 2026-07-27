@@ -6349,3 +6349,44 @@ None. No cuts, no stop changes, no new entries.
 | UNH | 39.363 | $425.34 | $423.59 | -$7.72 (-1.79%) | -$68.89 (-0.41%) | $393.251 (10% trail, HWM $436.95) |
 
 **Notes:** Mixed-to-soft session. GE led +2.29% intraday (new HWM $349.72; stop auto-trailed to $314.748); JPM +0.49% holding gains. Five of six stocks declined — AAPL -1.32%, NVDA -1.25%, TSM -1.22% (profit-taking after Jul 21 surge), UNH -1.79% (sector healthcare/budget noise, not thesis break). Crypto sleeve (BTC -1.79%, ETH -2.97%, SOL -2.70%, LINK -1.64%) contributed to overall portfolio decline. Reconciliation clean: all 6 stock positions match broker exactly; all 6 GTC trailing stops active and intact. No cuts triggered (UNH worst at -0.41% unrealized, well above -7% cut rule). FOMC blackout day 1 (Jul 23-29) + no cash ($4,409) + position cap (6/6): triple lock on entries. Trades today: 0; week total: 2/7 (GE + UNH, Jul 20). Next action window: Jul 30 post-FOMC + AAPL earnings.
+
+---
+
+## 2026-07-27 - Market-Open (Day 70, Monday)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL | 35.877 | 35.877045 | ✓ |
+| GE | 47.98 | 47.981945 | ✓ |
+| JPM | 49.521 | 49.521674 | ✓ |
+| NVDA | 80.433 | 80.433413 | ✓ |
+| TSM | 40.739 | 40.738706 | ✓ |
+| UNH | 39.363 | 39.363380 | ✓ |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies. All positions intact.
+
+### Step 1b — Live Prices
+| Ticker | Entry | Live Price | P&L% | Stop | Status |
+|--------|-------|------------|------|------|--------|
+| AAPL | $312.42 | $336.04 | +7.56% | $301.473 (bbdb4df3, 10%) | HOLD |
+| GE | $348.94 | $361.27 | +3.53% | $323.991 (df184923, 10%) | HOLD |
+| JPM | $334.00 | $357.34 | +6.99% | $318.033 (1a5b3205, 10%) | HOLD |
+| NVDA | $205.67 | $207.39 | +0.83% | $192.951 (a255b2fa, 10%) | HOLD |
+| TSM | $412.70 | $406.36 | -1.54% | $382.842 (e08c181a, 10%) | HOLD |
+| UNH | $425.34 | $419.25 | -1.43% | $393.251 (ac627db0, 10%) | HOLD ⚠️ |
+
+Account: $112,877.04 equity | $4,409.21 cash (3.9%)
+
+### Step 3 — Rule Checks
+- Cut at -7%: TSM -1.54% (floor $383.81, cushion $22.55); UNH -1.43% (floor $395.57, cushion $23.68). None cut.
+- Stop tighten at +15%: No triggers (AAPL needs $359.28, GE $401.28, JPM $384.10).
+- +25% partial: None triggered.
+
+### Actions Taken
+None. Triple block:
+1. 6/6 position cap hit
+2. Cash $4,409 < $16,932 needed for 15% position
+3. FOMC blackout active (decision Jul 29 2:00 PM)
+
+Trades today: 0; week total: 0/7 (new week Jul 27-31). No ClickUp notification.
