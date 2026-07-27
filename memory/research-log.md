@@ -7388,3 +7388,104 @@ No stop tightening actions required.
 - **CUTS**: None needed (no -7% breach)
 - **NEXT ACTION**: Jul 29 FOMC (Warsh) → determines post-blackout posture; Jul 30 = AAPL earnings + GDP advance + PCE + potential first open cash slot
 
+---
+
+## 2026-07-27 - Pre-market Research
+
+### Account
+- Equity: $113,169.67
+- Cash: $4,409.21 (3.9%)
+- Buying power: $289,003.19 (4x margin)
+- Daytrade count: 0/3
+- Deployed: ~96.1% (6 positions, ~$108,760 long MV)
+- Phase P&L: +$13,169.67 (+13.17%)
+- Trades this week (Jul 27-31): 0/3 new entry slots (reset)
+
+### STEP 0 — Reconciliation (vs Jul 23 EOD log)
+| Ticker | Log Qty | Broker Qty | Log Stop / HWM | Broker Stop / HWM | Status |
+|--------|---------|------------|----------------|-------------------|--------|
+| AAPL | 35.877 | 35.877045 | $301.473 / $334.97 | $301.473 / $334.97 | ✓ |
+| GE | 47.98 | 47.98195 | $314.748 / $349.72 | $323.991 / $359.99 | ✓ auto-trail ↑ |
+| JPM | 49.521 | 49.52167 | $316.116 / $351.24 | $318.033 / $353.37 | ✓ auto-trail ↑ |
+| NVDA | 80.433 | 80.43341 | $192.951 / $214.39 | $192.951 / $214.39 | ✓ |
+| TSM | 40.739 | 40.73871 | $382.842 / $425.38 | $382.842 / $425.38 | ✓ |
+| UNH | 39.363 | 39.36338 | $393.251 / $436.95 | $393.251 / $436.95 | ✓ |
+
+All 6 match. No overnight stop triggers Jul 23-27 (Jul 24 was last trading day). GE and JPM stops auto-advanced on Jul 24 price action (GE hit new HWM $359.99, JPM hit $353.37). Clean.
+
+### Open Positions (live broker)
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | +15% Trigger |
+|--------|--------|-------|---------|------|------------|-----|--------------|
+| AAPL | 35.877 (35 stop) | $312.42 | $334.21 | +6.97% | $301.473 (bbdb4df3, 10%) | $334.97 | $359.28 |
+| GE | 47.98 (47 stop) | $348.94 | $357.33 | +2.40% | $323.991 (df184923, 10%) | $359.99 ↑ | $401.28 |
+| JPM | 49.521 (49 stop) | $334.00 | $355.11 | +6.32% | $318.033 (1a5b3205, 10%) | $353.37 ↑ | $384.10 |
+| NVDA | 80.433 (80 stop) | $205.67 | $209.50 | +1.86% | $192.951 (a255b2fa, 10%) | $214.39 | $236.52 |
+| TSM | 40.739 (40 stop) | $412.70 | $410.90 | -0.44% | $382.842 (e08c181a, 10%) | $425.38 | $474.61 |
+| UNH | 39.363 (39 stop) | $425.34 | $421.75 | -0.84% | $393.251 (ac627db0, 10%) | $436.95 | $489.14 |
+
+No +15% triggers reached. No -7% cuts needed. All stops intact.
+
+### Market Context
+- **ES futures**: +0.82% (7,508.75) — strong bullish open
+- **NQ futures**: +1.35% (28,664.75) — tech leading
+- **DOW futures**: +0.69%
+- **VIX**: ~18.57 (Jul 24 close 18.70) — elevated but stable; week of 7/20 saw SMH implied vol at 1-yr high 59%
+- **WTI Sep**: ~$84.34 (-5.6% premarket) | Brent Oct: ~$87.48 (-4.6%)
+  - **CATALYST**: US-Iran military pause (Sunday Jul 27) — both sides refrained from strikes for 2nd straight day
+  - Pattern warning: Apr 8 ceasefire broke Jul 8; this may be temporary. Oil has been $84-$93 range
+- **Sector**: Oil drop = positive for CPI/inflation outlook → supports Fed hold narrative → bullish for tech/growth
+- **Today (Jul 27)**: Durable Orders preliminary 8:30 AM (June)
+- **FOMC WEEK**:
+  - Tue Jul 28: ADP, Consumer Confidence; FOMC meeting starts
+  - Wed Jul 29: **FOMC Decision 2:00 PM** — HOLD expected; but Warsh hawkish; 9/18 officials eyeing hike; 92% probability of hike somewhere in 2026
+  - Thu Jul 30: **GDP Q2 Advance + PCE June 8:30 AM** (double binary) + **AAPL earnings AMC** + **AMZN earnings AMC**
+  - Fri Jul 31: ECI Q2, Chicago PMI, Michigan Sentiment final
+- **Earnings today (Jul 27 before open)**: Cadence Design Systems (CDNS), Nucor (NUE), F5 Networks, Amkor — none held
+- **Earnings this week affecting held positions**: AAPL Jul 30 AMC (35 shares held, est EPS $1.89, Rev $108.8B; guidance $107.2-110B)
+
+### Thesis Check on Held Positions
+- **AAPL** (+6.97%): Q3 earnings Jul 30 AMC. Est EPS $1.89 vs prior quarter beat ($2.01 vs $1.94 est). MacBook/iMac AI overhaul planned fall 2026. Klarna device leasing program. Services segment strong. Analyst avg PT $327.34. Stop $301.47 (10.2% below current) = hard protection. **INTACT. HOLD through earnings.**
+- **GE** (+2.40%): New HWM $359.99 on Jul 24 (auto-trailed from $349.72). Q2 aerospace supercycle beat thesis playing out. Shop visit demand "well-oversubscribed." **STRENGTHENING. HOLD.**
+- **JPM** (+6.32%): Record Q2 EPS $7.70 thesis intact. JPMorgan analyst raised UNH PT to $466 (tangential read-through: financial sector bullish). Financials holding. **INTACT. HOLD.**
+- **NVDA** (+1.86%): Vera Rubin ramping globally at multiple partners (confirmed Jul 22). Mag7 AI CapEx $500B+ in 2026 (NVDA collects huge share). Earnings Aug 26. "Firing on all cylinders but not getting credit" — potential catalyst once capex reads confirm this week. Stop $192.95 (8.4% below current). **INTACT. HOLD.**
+- **TSM** (-0.44%): Q2 fundamentals exceptional ($40.2B rev, GM 67.7%). Profit-taking after Jul 21 +5.59% surge. TSMC preparing 5-10% price hike for 2027 = pricing power. Stop $382.84 (6.8% below current). **INTACT. HOLD.**
+- **UNH** (-0.84%): MCR 86.7% (2-yr low) thesis intact. JPMorgan PT raised to $466 ($446 Mizuho). DOJ Medicare review still unresolved (tail risk). Medical cost improvement sustained Q1 2026. -7% cut = $395.57; current $421.75 = $26.18 cushion. **INTACT. HOLD with DOJ watch.**
+
+### Politician Signals (Whitelist)
+- **Pelosi**: Last disclosures Jun 24 (INTC $1M-5M + UBER $500K-1M, traded May 29). Now 59 days old — OUTSIDE 45-day window. STALE.
+- **Ro Khanna**: Trades $1K-15K range (GEHC, LNC, BMO, UBER, AMZN, ETN, NVDA Jun 2026) — ALL below $25K minimum. Ignore.
+- **McCaul**: Jul 13 disclosures = mostly bonds/funds; Mastercard buys small ($1K-15K). Below threshold. Ignore.
+- **Tuberville**: MA sell (Jun 8, $15K-50K) — sell signal, not buy. Ignore.
+- **Gottheimer**: MA buys Jun 2026 ($1K-15K, $15K-50K) — MA qualifying size uncertain but note multiple buys. Below $25K clear minimum.
+- **Summary: No qualifying politician buy signals this session** (all either outside 45-day window or below $25K minimum).
+
+### Crypto (STEP 3c — SKIP)
+Crypto sleeve managed separately by tools/crypto_dca.py. UNTOUCHABLE. Not researched here.
+
+### Trade Ideas
+**None.** Triple block:
+1. Cash $4,409 — insufficient for any 15% position (~$17K required)
+2. 6/6 position cap hit
+3. FOMC blackout (ends after Jul 29 decision)
+
+Even post-blackout on Wed afternoon, no cash to deploy without closing a position. After AAPL earnings Thursday (if gap-up continuation), consider partial profit rules (+25% trigger = $374.90; current $334 = needs +12% more move).
+
+### Risk Factors
+- **FOMC Wed Jul 29**: Hawkish surprise (rate hike signal) → tech/rate-sensitive growth selloff → NVDA and TSM most exposed
+- **GDP Q2 + PCE Thu Jul 30 8:30 AM**: Double binary. Core PCE tracking 3.33% YoY (Cleveland Fed). Hot print = stagflation narrative resumes → broad selloff risk
+- **AAPL earnings Thu Jul 30 AMC**: Binary. Implied 1d move 3.64%. "Sell the news" risk near 52-week highs. But stop $301.47 protects
+- **Iran ceasefire durability**: Apr 8 ceasefire broke Jul 8; second attempt; oil may spike again if deal collapses
+- **NVDA thin cushion**: Current $209.50 vs stop $192.95 = 7.9% above stop. FOMC-driven tech selloff could test
+- **UNH DOJ Medicare review**: Unresolved. Adverse ruling → sharp drop through stop
+
+### Decision
+- **ALL 6 POSITIONS**: HOLD — all theses intact, stops active, no rule violations
+- **NEW ENTRIES**: BLOCKED — no cash, 6/6 cap, FOMC blackout through Jul 29
+- **STOP TIGHTENING**: None triggered (no +15% breaches)
+- **CUTS**: None needed (no -7% breach; UNH worst at -0.84%)
+- **NEXT ACTION**:
+  - Wed Jul 29 2:00 PM: FOMC decision → assess Warsh tone
+  - Thu Jul 30 8:30 AM: GDP + PCE (pre-market) → if benign, post-earnings may free slot (AAPL gap-up partial take)
+  - Thu Jul 30 AMC: AAPL earnings — hold through, stops active
+  - Partial profit rule: AAPL +25% trigger = $390.53 (not close); GE +25% = $436.18; JPM +25% = $417.50
+
