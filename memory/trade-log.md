@@ -6559,3 +6559,66 @@ None. No manual cuts, no stop changes, no new entries.
 - Trades this week: 0/3 new entries (week Jul 27–31)
 - FOMC blackout ends Jul 29 2:00 PM — re-evaluate then
 - No ClickUp notification (no action taken)
+
+---
+
+## 2026-07-28 - Midday Scan (Day 71, Tuesday)
+**Time:** ~12:00 CT (1:00 PM EDT) | **Cash:** $35,155.95 | **FOMC blackout ends:** Jul 29 2:00 PM
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL | 35.877 (35 stop) | 35.877045 | ✓ |
+| GE | 47.98 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+| NVDA | 0.433 frac remnant | 0.433413 | ✓ |
+| TSM | 0.739 frac remnant | 0.738706 | ✓ |
+
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies. Clean.
+
+### Position Status
+| Ticker | Shares | Entry | Price | P&L% | Day Chg | Stop (GTC) | HWM | Status |
+|--------|--------|-------|-------|------|---------|------------|-----|--------|
+| AAPL | 35.877 | $312.42 | $340.18 | +8.89% | +0.97% | $308.601 (bbdb4df3, 10%) | $342.89 | HOLD |
+| GE | 47.98 | $348.94 | $363.59 | +4.20% | +0.55% | $330.093 (df184923, 10%) | $366.77 | HOLD |
+| JPM | 49.521 | $334.00 | $357.53 | +7.04% | +0.37% | $323.307 (1a5b3205, 10%) | $359.23 | HOLD |
+| UNH | 39.363 | $425.34 | $425.70 | +0.09% | +1.93% | $393.2505 (ac627db0, 10%) | $436.945 | HOLD ↑ |
+
+### Step 3 — Cut Losers
+None triggered. All 4 stocks positive.
+
+### Step 4 — Stop Tightening
+No +15% triggers (AAPL needs $359.28; GE $401.28; JPM $384.10). Current prices all below HWMs — no auto-advances today.
+
+### Step 5 — Thesis Check
+- **AAPL** (+8.89%): Up +0.97% today. Earnings Jul 30 AMC ($1.89 EPS est). Building into report. Stop $308.601. **INTACT. HOLD.**
+- **GE** (+4.20%): Up +0.55%. Aerospace supercycle intact. Stop $330.093. **INTACT. HOLD.**
+- **JPM** (+7.04%): Up +0.37%. Record Q2 EPS thesis intact. Dow stable. Stop $323.307. **INTACT. HOLD.**
+- **UNH** (+0.09%): Strong recovery +1.93% today ($417.64 → $425.70). No specific catalyst — general healthcare strength / DOJ concern fading. MCR improvement thesis intact. Stop $393.2505 (7.6% below current). **RECOVERING. HOLD.**
+
+### Step 6 — Research
+- **FOMC blackout** ends tomorrow Jul 29 2:00 PM ET (Warsh decision). No new entries until then.
+- **MSFT Q4 2026 AMC tonight** — critical read for AI infrastructure demand (NVDA re-entry thesis). If CapEx raises → bullish for NVDA re-entry. If cuts → avoid.
+- **KLA Q4 FY26 AMC tonight** — semi equipment demand signal. Beat + raise required before considering KLAC entry post-FOMC.
+- No intraday sharp moves requiring Perplexity research. All positions moving modestly with the market.
+
+### Actions Taken
+NONE. Triple lock:
+1. FOMC blackout active (Jul 23–29)
+2. Position cap: 4/6 (room for 2 more post-blackout if cash deployed)
+3. No rule-triggered cuts or stops to tighten
+
+### Open Positions (Updated)
+| # | Ticker | Shares | Entry | Stop | HWM | Target (+20%) |
+|---|--------|--------|-------|------|-----|---------------|
+| 1 | AAPL | 35.877 (35 stop) | $312.42 | $308.601 (10% trail, bbdb4df3) | $342.89 | $374.90 |
+| 2 | GE | 47.98 (47 stop) | $348.94 | $330.093 (10% trail, df184923) | $366.77 | $418.73 |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $323.307 (10% trail, 1a5b3205) | $359.23 | $400.80 |
+| 4 | UNH | 39.363 (39 stop) | $425.34 | $393.2505 (10% trail, ac627db0) | $436.945 | $510.41 |
+
+- Trades this week: 0/3 new entries (week Jul 27–31)
+- FOMC blackout ends Jul 29 2:00 PM — $35,156 cash ready for 2 new entries
+- **Tonight watch**: MSFT AMC (CapEx = NVDA re-entry signal); KLA AMC (semi demand)
+- **Tomorrow watch**: FOMC 2PM → NVDA re-entry evaluation; GDP Q2 + PCE Jul 30; AAPL earnings Jul 30 AMC
+- No ClickUp notification (no action taken)
