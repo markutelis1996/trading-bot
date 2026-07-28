@@ -6469,3 +6469,19 @@ None. No manual cuts, no stop changes, no new entries.
 - NVDA stop ⚠️ 1.67% from current price — auto-executes if breached
 - TSM stop ⚠️ 2.60% from current price
 - No ClickUp notification (no action taken)
+
+---
+
+### Jul 28 - EOD Snapshot (Day 71, Tuesday)
+**Portfolio:** $110,942.11 | **Cash:** $4,409.21 (3.97%) | **Day P&L:** -$384.95 (-0.35%) | **Phase P&L:** +$10,942.11 (+10.94%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 35.877 | $312.42 | $338.37 | +$1.46 (+0.43%) | +$931.05 (+8.31%) | $305.613 (10% trail, HWM $339.57) |
+| GE | 47.982 | $348.94 | $363.00 | +$1.39 (+0.38%) | +$674.63 (+4.03%) | $328.95 (10% trail, HWM $365.50) |
+| JPM | 49.522 | $334.00 | $357.17 | +$0.97 (+0.27%) | +$1,147.35 (+6.94%) | $323.145 (10% trail, HWM $359.05) |
+| NVDA | 80.433 | $205.67 | $194.43 | -$2.08 (-1.06%) | -$904.07 (-5.47%) | $192.951 (10% trail, HWM $214.39) ⚠️ |
+| TSM | 40.739 | $412.70 | $389.13 | -$9.96 (-2.50%) | -$960.31 (-5.71%) | $382.842 (10% trail, HWM $425.38) ⚠️ |
+| UNH | 39.363 | $425.34 | $417.02 | -$0.62 (-0.15%) | -$327.50 (-1.96%) | $393.251 (10% trail, HWM $436.95) |
+
+**Notes:** Mixed session; semiconductors dragged the portfolio. TSM -2.50% on continued valuation reset pressure (down ~15% in July despite record Q2); NVDA -1.06% extending the OpenAI financing concern from yesterday — stop now only $1.49 away ($192.95 vs $194.43 = 0.77% cushion, critical). AAPL, GE, JPM held small gains. Reconciliation clean: all 6 stock positions match broker exactly. FOMC decision tomorrow Jul 29 2:00 PM EDT — blackout ends. AAPL earnings Jul 30 AMC. No new entries possible today: 6/6 cap + $4,409 cash + FOMC blackout. Trades today: 0; week total: 0/3.
