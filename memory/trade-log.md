@@ -6622,3 +6622,21 @@ NONE. Triple lock:
 - **Tonight watch**: MSFT AMC (CapEx = NVDA re-entry signal); KLA AMC (semi demand)
 - **Tomorrow watch**: FOMC 2PM → NVDA re-entry evaluation; GDP Q2 + PCE Jul 30; AAPL earnings Jul 30 AMC
 - No ClickUp notification (no action taken)
+
+### Jul 28 - EOD Snapshot (Day 71, Tuesday) — CORRECTED
+> Note: An earlier snapshot with this heading (above) was written prematurely by the Jul 27 midday cron using pre-stop data. NVDA (80sh) and TSM (40sh) trailing stops both triggered today. This reflects actual Jul 28 market-close data.
+
+**Portfolio:** $111,112.40 | **Cash:** $35,155.95 (31.6%) | **Day P&L:** −$214.66 (−0.19%) | **Phase P&L:** +$11,112.40 (+11.11%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 35.877 | $312.42 | $340.18 | +$3.27 (+0.97%) | +$995.98 (+8.89%) | $308.601 (10% trail, HWM $342.89) |
+| GE | 47.982 | $348.94 | $363.59 | +$1.98 (+0.55%) | +$702.94 (+4.20%) | $330.093 (10% trail, HWM $366.77) |
+| JPM | 49.522 | $334.00 | $357.53 | +$1.33 (+0.37%) | +$1,165.17 (+7.04%) | $323.307 (10% trail, HWM $359.23) |
+| UNH | 39.363 | $425.34 | $425.70 | +$8.06 (+1.93%) | +$14.17 (+0.08%) | $393.2505 (10% trail, HWM $436.945) |
+| NVDA | 0.433 (frac) | $205.67 | $197.49 | +$0.98 (+0.50%) | −$3.55 (−3.98%) | none |
+| TSM | 0.739 (frac) | $412.70 | $394.99 | −$4.10 (−1.03%) | −$13.08 (−4.29%) | none |
+
+**Notes:** NVDA (80 shares) and TSM (40 shares) trailing stops both triggered overnight/pre-market at $192.951 and $382.842 respectively; combined realized loss −$2,211.84; cash rose from $4,409 to $35,156 post-fill. Four full positions remain — AAPL, GE, JPM, UNH — all closed green today (UNH leading +1.93%). Day P&L −$214.66 (−0.19%) reflects the realized stop-out losses partially offset by unrealized mark-to-market gains on remaining positions. Phase P&L +$11,112.40 (+11.11%) — tracking well above challenge baseline. Portfolio now 31.6% deployed vs 75-85% target; 3 trade slots available. FOMC decision tomorrow Jul 29 2:00 PM (Warsh, expected HOLD); AAPL earnings Jul 30 AMC. Post-FOMC window will evaluate NVDA re-entry (~$190–197 zone) and KLAC (reported tonight AMC). New entries: 0 today; 0 this week.
+
+---
