@@ -7504,3 +7504,145 @@ Even post-blackout on Wed afternoon, no cash to deploy without closing a positio
 **Portfolio mid-session est: ~$113,800 (+0.56% today)** — AAPL/GE/JPM gains offset NVDA/TSM losses.
 **Actions midday: NONE.** All 6 stops confirmed active.
 
+
+---
+
+## 2026-07-28 - Pre-market Research
+
+### Account
+- Equity: $110,915.74
+- Cash: $4,409.21 (3.9%)
+- Buying power: $284,116.04
+- Daytrade count: 0/3
+- Deployed: ~96.1% (6 positions, ~$106,507 long MV)
+- Phase P&L: +$10,915.74 (+10.92%)
+- Trades this week (Jul 27-31): 0/3 new entry slots
+
+### STEP 0 — Reconciliation (vs Jul 27 midday log)
+| Ticker | Log Qty | Broker Qty | Log Stop / HWM | Broker Stop / HWM | Status |
+|--------|---------|------------|----------------|-------------------|--------|
+| AAPL | 35.877 (35 stop) | 35.877045 | $305.613 / $339.57 | $305.613 / $339.57 | ✓ |
+| GE | 47.98 (47 stop) | 47.981945 | $328.95 / $365.50 | $328.95 / $365.50 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | $323.145 / $359.05 | $323.145 / $359.05 | ✓ |
+| NVDA | 80.433 (80 stop) | 80.433413 | $192.951 / $214.39 | $192.951 / $214.39 | ✓ ⚠️ STOP IMMINENT |
+| TSM | 40.739 (40 stop) | 40.738706 | $382.842 / $425.38 | $382.842 / $425.38 | ✓ ⚠️ MONITOR |
+| UNH | 39.363 (39 stop) | 39.363380 | $393.251 / $436.95 | $393.251 / $436.95 | ✓ |
+
+No overnight stop triggers. Clean match. Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) OFF-LIMITS.
+
+### Market Context (pre-market Jul 28)
+- **WTI**: ~$79.85 (-7.5% from Jul 27 close of $89.31) | **Brent**: ~$82.89 (-10.74%)
+  - **Catalyst**: US-Iran military pause for 2nd consecutive day; China joining ceasefire negotiations → massive oil dump
+  - Positive for inflation/rate outlook; deflationary pressure supports Fed hold narrative
+- **ES Sep futures**: $7,441.50 (-0.09%) — essentially flat
+- **NQ futures**: ~$27,996 (-0.69%) — **CHIP SELLOFF RAGING** (Barron's: "Nasdaq Set to Open Down as Chip-Stocks Selloff Rages On")
+- **Dow futures**: +0.19-0.27%
+- **VIX**: 18.67 (Jul 27 close; CBOE Jul 28 open ~18.57) — elevated but stable
+- **10Y yield**: 4.621% (falling = bullish for rate-sensitive equity multiples)
+- **European stocks**: +0.3-1.7% (oil drop boosting sentiment)
+
+### Today's Catalysts (Jul 28)
+- **ADP employment** and **Consumer Confidence** data (morning releases)
+- **FOMC meeting starts** — decision tomorrow Jul 29 2:00 PM ET; 63.7% hold probability (FedWatch)
+- **Earnings BMO today**: KLA Corp (Q4 FY2026 semi equipment — key TSM/NVDA sector read); UPS; Boeing; Teradyne; NXP Semiconductors; Centene (CNC)
+- **Earnings AMC today**: Seagate (STX Q4 FY2026 — storage/AI read-through); **MSFT (Q4 2026, EPS est $4.24 — CRITICAL NVDA CATALYST via CapEx commentary)**; PayPal
+- **KLA AMC**: Results at 2PM PT/5PM ET — semi equipment beat/miss affects sector sentiment tomorrow
+
+### This Week Critical Events
+| Date | Event | Our Exposure |
+|------|-------|-------------|
+| Jul 29 2PM ET | FOMC decision (Warsh) | All positions; rate hike risk |
+| Jul 29 AMC | META ($7.23 EPS est) | Indirect (ad spend → AI demand) |
+| Jul 30 8:30 AM | GDP Q2 Advance + PCE Jun | Double binary — all positions |
+| Jul 30 AMC | AAPL ($1.89 EPS est) | 35 shares held ⚠️ |
+| Jul 30 AMC | AMZN ($1.82 EPS est) | Watch for NVDA cloud demand read |
+
+### Position Thesis Check (live Alpaca prices)
+| Ticker | Entry | Live Price | P&L% | -7% Cut | Stop (GTC) | HWM | Status |
+|--------|-------|------------|------|---------|------------|-----|--------|
+| AAPL | $312.42 | $337.76 | +8.11% | $290.55 | $305.613 (bbdb4df3) | $339.57 | HOLD |
+| GE | $348.94 | $363.00 | +4.03% | $324.51 | $328.95 (df184923) | $365.50 | HOLD |
+| JPM | $334.00 | $357.17 | +6.94% | $310.62 | $323.145 (1a5b3205) | $359.05 | HOLD |
+| NVDA | $205.67 | $193.70 | -5.82% | $191.27 | $192.951 (a255b2fa) | $214.39 | ⚠️ STOP LIKELY TODAY |
+| TSM | $412.70 | $388.00 | -5.99% | $383.81 | $382.842 (e08c181a) | $425.38 | ⚠️ MONITOR CLOSELY |
+| UNH | $425.34 | $417.76 | -1.78% | $395.57 | $393.251 (ac627db0) | $436.95 | HOLD |
+
+### ⚠️ NVDA — STOP LIKELY FIRES TODAY
+- Live price (Alpaca positions): $193.70 | AH bid at Jul 27 close: **$189.51** (already below stop!)
+- Stop: $192.951 | Cushion from live price: **$0.75 (0.39%)**
+- NQ -0.69% premarket + "chip selloff rages on" headline = NVDA opens below $192.951 highly probable
+- Stop order (a255b2fa) will auto-execute on 80 shares at ~$192.95 fill
+- Estimated realized P&L: 80 × ($192.951 - $205.67) = **~-$1,018 realized loss**
+- Cash freed: 80 × ~$192.95 ≈ **~$15,436**
+- New cash if triggered: $4,409 + $15,436 = **~$19,845**
+- **ACTION: NONE — let GTC stop auto-execute. Do NOT interfere.**
+- Thesis note: NVDA AI demand INTACT (Vera Rubin ramp, $500B+ Mag7 CapEx). Loss is from credit-risk concern (NVDA guaranteeing OpenAI financing) + general chip selloff. Not thesis break. May re-enter post-FOMC if setup emerges.
+
+### ⚠️ TSM — ELEVATED RISK
+- Live price: $388 | Stop: $382.842 | Cushion: **$5.16 (1.33%)**
+- -7% cut threshold: $383.81 (entry $412.70 × 0.93)
+- **Note**: Stop at $382.842 is $0.97 BELOW the -7% cut threshold. Rule logic: if TSM falls to $383.81, should monitor; but GTC stop fires first at $382.842.
+- NQ chip selloff = elevated risk. If TSM opens below $383.81 → stop fires automatically at $382.842.
+- Realized P&L if triggered: 40 × ($382.842 - $412.70) = **~-$1,194**
+- **ACTION: Let GTC stop handle. Stop is effectively the -7% protection here (one tick below cut rule).**
+
+### Thesis Check (non-NVDA/TSM)
+- **AAPL** (+8.11%): Earnings Jul 30 AMC ($1.89 EPS est). Tim Cook final call. Stop $305.61 = 9.5% below current. TradingEconomics: "Apple up premarket" Mon Jul 27. CEO succession (Ternus from Sep 1) known. INTACT. HOLD.
+- **GE** (+4.03%): HWM $365.50. Aerospace supercycle playing out. Stop $328.95 = 9.4% below. Thesis INTACT/STRENGTHENING. HOLD.
+- **JPM** (+6.94%): Record Q2 EPS $7.70 thesis intact. Stop $323.15 = 9.5% below. Dow +0.2% premarket = banks holding. Thesis INTACT. HOLD.
+- **UNH** (-1.78%): Q2 MASSIVE beat (EPS $6.38 vs $4.86 est; guidance raised $19.50-20.00). Hit 52-week high $461.62 post-Q2. MCR improvement thesis INTACT. DOJ review still unresolved (tail risk). Stop $393.25 = 5.9% below. HOLD.
+
+### Politician Signals (STEP 3b — Whitelist Scan)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal Level |
+|------------|--------|--------|------|------------|-----------|--------------|
+| Ro Khanna | MSFT | BUY | $250K-500K | Jun 16 | Jul 6 | Secondary — 42 days old (inside 45d window); MSFT not in book |
+| Josh Gottheimer | Multiple | SELL (BABA, ADC, BKNG, NSRGY, NTDOY) | $1K-15K each | Jun 1-17 | Jul 8 | Sells only — ignore |
+| Nancy Pelosi | — | Last activity May 29 (INTC/UBER options, disclosed Jun 24) | — | — | **STALE — 59 days old, outside 45-day window** |
+| McCaul/Tuberville/Green/Mast | — | No qualifying buys found | — | — | — |
+
+**Summary: No actionable politician buy signals this session.**
+
+### Sector Momentum YTD 2026 (per available data)
+- Energy: +57% YTD (oil peaked $138 Apr, now $80 — significant reversal underway)
+- AI/Semis: Mixed — NVDA +11% YTD but -18% from May peak; AMD +2x; MU +3x
+- Financials: Strong — JPM record Q2; banking sector leading
+- Healthcare: UNH +20%+ YTD; LLY strong
+- Technology/AAPL: +23% YTD; earnings ahead
+
+### Trade Ideas
+**NONE.** Triple lock:
+1. FOMC blackout (Jul 23-29, lifts post-decision ~2PM ET Jul 29)
+2. Cash $4,409 → insufficient for any 15% position (~$16.5K minimum at current equity)
+3. Position cap: 6/6
+
+**Post-blackout pipeline (evaluate Jul 29 2PM+ and Jul 30):**
+| Ticker | Potential Thesis | Entry Zone | Stop | Target | Notes |
+|--------|-----------------|------------|------|--------|-------|
+| NVDA (re-entry) | AI demand intact; Vera Rubin ramp; stop fires today at ~$192.95 | $190-195 (live quote at open) | $171-176 (10% trail) | $228-234 (+20%) | Only if Warsh HOLD + NQ stable; requires live quote Jul 29 |
+| KLA Corp (KLAC) | Semi equipment AI; Q4 FY26 results tonight; TSM/NVDA ecosystem | Monitor AMC result first | ~$900+ (10% trail) | ~$1,080 (+20%) | Beat + raise required; FOMC risk first |
+| INTC | Q2 FY26 massive beat; AI data center +59% YoY; $91-102 level | Monitor post-FOMC | ~$82-92 (10% trail) | ~$110-120 (+20%) | 152% YTD — very extended; only on pullback |
+
+### Risk Factors
+1. **NVDA stop fires today**: probable; 80 shares auto-exit at ~$192.95; realized ~-$1,018
+2. **TSM approaching stop**: $388 → stop $382.842; chip selloff; auto-exits if breached
+3. **FOMC Jul 29 Warsh**: hawkish surprise (rate hike signal) → broad tech/growth selloff; remaining positions at risk
+4. **GDP Q2 + PCE Jul 30**: hot PCE resumes stagflation narrative → selloff risk; GDP miss compounds
+5. **AAPL earnings Jul 30 AMC**: binary; "sell the news" risk near 52-week highs; stop $305.61 protects
+6. **Chip sector**: NQ -0.69% premarket; SNDK -10.79%, ALAB -10.82%, CRWV -11.37% Jul 24 — contagion spreading
+7. **Iran ceasefire durability**: 3rd attempt; Apr 8 deal broke Jul 8; if breaks again → oil spikes → inflation concern resumes
+8. **MSFT AMC tonight**: if MSFT cuts CapEx guidance → bearish for NVDA/AI demand thesis; if raises → bullish (but NVDA stop likely fires before market opens tomorrow)
+
+### Decision
+- **ALL 6 POSITIONS**: HOLD — let GTC stops auto-execute per rules
+- **NVDA**: GTC stop ($192.951) will likely fire today; no manual intervention
+- **TSM**: GTC stop ($382.842) is the effective -7% protection; let auto-execute if triggered
+- **NEW ENTRIES**: BLOCKED (FOMC blackout + no cash + 6/6 cap)
+- **STOP TIGHTENING**: None triggered (no +15% breaches)
+- **CUTS**: None needed via manual rule; GTC stops handle NVDA and TSM
+- **NEXT ACTION**:
+  - Jul 28 AMC: Check MSFT CapEx commentary → NVDA thesis update
+  - Jul 28 AMC: KLA Q4 results → semi sector sentiment read
+  - Jul 29 2:00 PM: FOMC decision → assess Warsh tone
+  - Jul 29 afternoon: If NVDA freed cash (~$19.8K) + neutral/dovish Warsh → evaluate one new entry
+  - Jul 30: GDP + PCE + AAPL earnings — highest risk day of Q3
+
