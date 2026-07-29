@@ -6640,3 +6640,57 @@ NONE. Triple lock:
 **Notes:** NVDA (80 shares) and TSM (40 shares) trailing stops both triggered overnight/pre-market at $192.951 and $382.842 respectively; combined realized loss −$2,211.84; cash rose from $4,409 to $35,156 post-fill. Four full positions remain — AAPL, GE, JPM, UNH — all closed green today (UNH leading +1.93%). Day P&L −$214.66 (−0.19%) reflects the realized stop-out losses partially offset by unrealized mark-to-market gains on remaining positions. Phase P&L +$11,112.40 (+11.11%) — tracking well above challenge baseline. Portfolio now 31.6% deployed vs 75-85% target; 3 trade slots available. FOMC decision tomorrow Jul 29 2:00 PM (Warsh, expected HOLD); AAPL earnings Jul 30 AMC. Post-FOMC window will evaluate NVDA re-entry (~$190–197 zone) and KLAC (reported tonight AMC). New entries: 0 today; 0 this week.
 
 ---
+
+## 2026-07-29 - Market-Open Session (Day 72)
+
+**Portfolio:** $110,965.18 equity | **Cash:** $35,155.92 (31.7%) | **Time:** 9:32 AM EDT
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL | 35.877 (35 stop) | 35.877045 | ✓ |
+| GE | 47.98 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+| NVDA frac | 0.433 | 0.433413 | ✓ |
+| TSM frac | 0.739 | 0.738706 | ✓ |
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies. Clean.
+
+### Step 1b — Live Price Re-verification
+| Ticker | Entry | Live Price | P&L% | -7% Floor | Stop (GTC) | HWM | Status |
+|--------|-------|------------|------|-----------|------------|-----|--------|
+| AAPL | $312.42 | $340.78 (ask) | +9.0% | $290.55 | $308.601 (bbdb4df3, 10%) | $342.89 | HOLD |
+| GE | $348.94 | $359.62 | +3.1% | $324.51 | $330.093 (df184923, 10%) | $366.77 | HOLD |
+| JPM | $334.00 | $355.04 | +6.3% | $310.62 | $323.307 (1a5b3205, 10%) | $359.23 | HOLD |
+| UNH | $425.34 | $428.03 | +0.6% | $395.57 | $393.2505 (ac627db0, 10%) | $436.945 | HOLD |
+| NVDA frac | $205.67 | $195.55 | -4.9% | — | none | — | remnant |
+| TSM frac | $412.70 | $387.34 | -6.1% | $383.81 | none | — | ⚠ $3.53 above floor |
+| KLAC (watch) | — | $193.99 (ask) | — | — | — | — | +11.5% from AH $173.98 |
+
+### Rule Checks
+- **Cut at −7%**: None. TSM frac -6.1% → approaching $383.81 floor ($387.34 current, $3.53 cushion). Tiny remnant ($286 value) — monitor.
+- **Stop tighten at +15%**: None. AAPL +9.0% closest (needs $359.28).
+- **+25% partial**: None.
+- **FOMC blackout**: **ACTIVE until 2:00 PM ET** → hard block on ALL new entries.
+- **Daytrade count**: 0/3 ✓
+- **Trades this week**: 0/7 ✓
+- **KLAC 5% rule**: Opened $193.99 vs AH $173.98 = +11.5% gap. Reconsideration required at open. Entry zone recalculated if buying post-FOMC: stop ~$174.60 (10% trail), target ~$232.80 (+20%), size ~85 shares at $194 (~$16,490).
+
+### Decision
+**NO TRADES** — FOMC blackout hard rule (ends 2:00 PM ET). All 4 full positions HOLD; GTC stops intact.
+- **Post-2PM ET (if Warsh HOLD + NQ stable)**: Evaluate KLAC at live price; recalc stop/target at actual open. KLAC gap-up (+11.5%) still consistent with beat+raise thesis.
+- **NVDA re-entry**: Defer to Jul 30 pre-market after MSFT CapEx read.
+- **TSM frac**: If drops to $383.81, manual cut (no stop on fractional).
+
+### Open Positions (Unchanged)
+| # | Ticker | Shares | Entry | Stop | HWM | Target (+20%) |
+|---|--------|--------|-------|------|-----|---------------|
+| 1 | AAPL | 35.877 (35 stop) | $312.42 | $308.601 (10% trail, bbdb4df3) | $342.89 | $374.90 |
+| 2 | GE | 47.98 (47 stop) | $348.94 | $330.093 (10% trail, df184923) | $366.77 | $418.73 |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $323.307 (10% trail, 1a5b3205) | $359.23 | $400.80 |
+| 4 | UNH | 39.363 (39 stop) | $425.34 | $393.2505 (10% trail, ac627db0) | $436.945 | $510.41 |
+
+- Trades this week: 0/7 (week Jul 27–31)
+- No ClickUp notification (no action taken)
+
+---
