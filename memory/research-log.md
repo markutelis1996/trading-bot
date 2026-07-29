@@ -7646,3 +7646,125 @@ No overnight stop triggers. Clean match. Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) O
   - Jul 29 afternoon: If NVDA freed cash (~$19.8K) + neutral/dovish Warsh → evaluate one new entry
   - Jul 30: GDP + PCE + AAPL earnings — highest risk day of Q3
 
+## 2026-07-29 - Pre-market Research
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL | 35.877 (35 stop) | 35.877045 | ✓ |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+| NVDA frac | 0.433 | 0.433413 | ✓ |
+| TSM frac | 0.739 | 0.738706 | ✓ |
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies. Clean.
+
+### Account Snapshot
+- Equity: $111,187.47
+- Cash: $35,155.92 (31.6%)
+- Buying power: $321,244.95
+- Daytrade count: 0/3
+- Stock deployed: ~58% ($64,506 stock market value)
+- Phase P&L: +$11,187 (+11.19%)
+- Trades this week: 0/7 | New entries: 0/7 (week Jul 27–31)
+
+### Open Positions (live Alpaca prices, Jul 28 close)
+| Ticker | Entry | Last Close | P&L% | -7% Cut | Stop (GTC) | HWM | Status |
+|--------|-------|------------|------|---------|------------|-----|--------|
+| AAPL | $312.42 | $341.24 | +9.2% | $290.55 | $308.601 (bbdb4df3, 10%) | $342.89 | HOLD |
+| GE | $348.94 | $362.52 | +3.9% | $324.51 | $330.093 (df184923, 10%) | $366.77 | HOLD |
+| JPM | $334.00 | $357.68 | +7.1% | $310.62 | $323.307 (1a5b3205, 10%) | $359.23 | HOLD |
+| UNH | $425.34 | $426.44 | +0.3% | $395.57 | $393.2505 (ac627db0, 10%) | $436.945 | HOLD |
+| NVDA frac | $205.67 | $196.86 | -4.3% | — | none | — | remnant |
+| TSM frac | $412.70 | $387.36 | -6.1% | — | none | — | remnant |
+
+### Market Context (pre-market Jul 29)
+- **WTI crude**: ~$81.95 (+2.8% today); Brent ~$86.80 (+3.2%). US crude inventories -3.3M barrels (bullish). Oil fell hard yesterday (-4.06%) on Iran peace pause; rebounding this morning on draw data. Iran situation volatile.
+- **S&P 500 futures (Sep)**: ~$7,443 (-0.07%) — essentially flat. Dow futures +0.32%.
+- **NQ futures**: ~$27,968 (-0.79%) — chips still weighing on tech.
+- **VIX**: 18.21 (closed Jul 28, -2.46%). Moderate fear; down on the week.
+- **10yr Treasury**: +0.16-0.22% (yields falling slightly = slight risk-on).
+- **Sector performance YTD**: Industrials +43.9% | Energy +27.2% | Tech +13.2% | Healthcare +12.3% | Financials +4.9%
+
+### Economic Calendar Today
+- **2:00 PM ET — FOMC decision** (Warsh): Expected HOLD at 3.5-3.75% (5th consecutive hold). CME FedWatch ~38% probability of hike priced — elevated but base case is HOLD. No dot plot at this meeting. Warsh press conference 2:30PM — uses "framework guidance" not forward guidance; minimal forward signals.
+- **BMO earnings today**: PG, BSX, GD, VRT (none in our book)
+- **AMC earnings tonight**: MSFT ($4.24 EPS est, $87.71B rev) ★★ CRITICAL — Azure growth + CapEx = NVDA thesis read; META ($7.23 EPS est), QCOM, ARM, LRCX, SBUX
+
+### Overnight Earnings Results (Jul 28 AMC)
+**KLAC Q4 FY26 — BEAT + RAISE:**
+- Revenue: $3.66B vs $3.575B guided (beat by 2.4%)
+- GAAP EPS: $1.04 (post 10:1 split); non-GAAP $1.05
+- Q1 FY27 guide: $4.0B ± $200M (vs prior Q4 guide $3.575B = +12% sequential step-up)
+- GAAP EPS guide Q1 FY27: $1.14 ± $0.10
+- Note: 10-for-1 stock split effective June 11, 2026. KLAC has beaten estimates 7 consecutive quarters.
+- Full FY26 revenue: $13.58B. Semi equipment demand cycle firmly intact.
+
+### Politician Signals (Step 3b — Whitelist Scan)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal Level |
+|------------|--------|--------|------|------------|-----------|--------------|
+| Ro Khanna | PANW | BUY | $1K-15K | Jun 16 | Jul 8 | Too small (<$25K threshold) |
+| Ro Khanna | BMO (Canadian bank) | BUY | $15K-50K | Jun 24 | Jul 8 | Non-actionable sector |
+| Ro Khanna | Latest trade | — | — | Jun 30 | — | Specific stock not identified in search |
+| McCaul/Tuberville/Mast/Pelosi/Gottheimer | — | No qualifying buys found in 45d window | — | — | — |
+
+**Summary: No actionable politician buy signals this session.** Ro Khanna PANW buy too small; BMO not in equity universe.
+
+### Live Price Verification (MANDATORY — Step 3d)
+Live Alpaca quotes (Jul 28 AH, ~20:55 ET):
+| Ticker | AH Ask | AH Bid | Last Close | Stop | Action |
+|--------|--------|--------|------------|------|--------|
+| AAPL | $339.87 | $0.01 | $341.24 | $308.601 | HOLD |
+| GE | — (0) | $344.23 | $362.52 | $330.093 | HOLD — AH bid thin |
+| JPM | $376.30 | $339.43 | $357.68 | $323.307 | HOLD |
+| UNH | $450.56 | $406.70 | $426.44 | $393.2505 | HOLD — AH spread wide |
+| KLAC | $173.98 (ask) | $172.91 | — | $156.58 | Watchlist — post 10:1 split |
+| NVDA | $208.26 (ask) | $188.72 | $196.86 | — | Wait for MSFT |
+
+Note: All AH quotes are low-volume; GE/JPM/UNH AH spreads very wide — use regular session open prices for any actual entries.
+
+### Trade Ideas
+
+**1. KLAC — Conditional BUY (post-FOMC HOLD)**
+- Live ask (AH): $173.98 (post 10:1 split). Use regular session open price for actual entry.
+- Entry zone: $170-178 (live open quote); Stop: $170 × 0.90 = $153 (use live price × 0.90); Target: $170 × 1.20 = $204 (+20%)
+- Catalyst: Q4 beat + Q1 FY27 guide raised 12% sequentially ($4.0B); 7-consecutive-beat track record; AI semi equipment demand intact; sector (Industrials/Semis) +43.9% YTD
+- Size: 15% of $111,187 = ~$16,678. At $173.98 → floor 95 shares (INTEGER rule: 96 × $173.98 = $16,702 → round down to 95 = $16,528). Using live market price at open.
+- Sector check: GE is Industrials (15.6% of portfolio) + KLAC would be Tech/Semi (15%). No overlap conflict.
+- Sector cap: Industrials ~15.6% + adding KLAC (Tech/Semis, different sector) → no concentration issue
+- Condition: FOMC HOLD + NQ stable post-2PM ET + KLAC opens > $160 (no gap-down)
+- **R:R: 2:1 minimum**
+
+**2. NVDA re-entry — DEFER to tomorrow**
+- Cannot assess NVDA thesis until MSFT reports CapEx guidance tonight AMC
+- If MSFT raises CapEx: NVDA bull case strengthens → re-evaluate Jul 30 pre-market
+- If MSFT cuts CapEx: NVDA thesis weakened → skip or small position
+- Current AH ask $208.26 (thin, stale); use live market quote if entering
+
+**3. UNH — Stop tightening check**
+- Entry: $425.34, AH ask $450.56 (unreliable) / last close $426.44. Still +0.3% from entry.
+- HWM: $436.945. +15% trigger: $489.14. Not reached. No tightening today.
+
+### Risk Factors
+1. **FOMC hike surprise**: ~38% market probability. If Warsh signals rate hike → broad selloff, all 4 positions at risk; KLAC entry aborted
+2. **MSFT CapEx disappointment tonight**: NVDA/semi thesis weakened if CapEx cut
+3. **AAPL earnings Jul 30 AMC**: Binary. Hold with stop $308.601. Options pricing ±15pts (~±4.5%). Risk: "sell the news" at all-time highs
+4. **GDP + PCE tomorrow Jul 30**: Double binary — hot PCE resumes inflation narrative → selloff risk
+5. **Iran durability**: Oil +3% today on pause uncertainty; re-escalation → inflation resumes
+6. **NQ chips still weak (-0.79%)**: KLAC entry requires NQ stable post-FOMC
+7. **Deployment constraint**: Only $35,156 cash. KLAC (~$16.5K) uses half; 1 entry possible pre-AAPL
+
+### Thesis Check
+- **AAPL** (+9.2%): Best Mag7 YTD (+22-25%); low CapEx ratio (~1.8% revenue = hedge vs hyperscaler anxiety); iPhone 17 demand strong; Services record $31B. Tim Cook final call Jul 30 AMC. Stop $308.601 = 9.5% below current. **INTACT. HOLD.**
+- **GE** (+3.9%): Raised full-year guidance Q2 (7th raise since Jan 2024); Aerospace supercycle; travel demand robust. Stop $330.093 = 8.7% below current. **INTACT. HOLD.**
+- **JPM** (+7.1%): Record Q2 EPS $7.70; banking sector stable; Dow +0.32% futures. Stop $323.307 = 9.6% below current. **INTACT. HOLD.**
+- **UNH** (+0.3%): Q2 massive beat (EPS $6.38 vs $4.86 est); guidance raised $19.50-20.00; analyst PTs $441-$529 (Morgan Stanley $529). DOJ review unresolved tail risk. MCR improvement thesis intact. Stop $393.2505 = 7.7% below current. **RECOVERING. HOLD.**
+
+### Decision
+- **PRE-2PM ET**: HOLD ALL — no new entries before FOMC
+- **POST-2PM ET (if HOLD + NQ stable)**: Execute KLAC buy at market. Target ~95 shares at live open price.
+- **NVDA**: Defer to Jul 30 pre-market after MSFT CapEx read tonight
+- **STOP TIGHTENING**: None triggered (no position at +15%; AAPL at +9.2% closest)
+- **CUTS**: None — all above -7% rule; fractional remnants NVDA/TSM monitored but no action
+- **Tonight**: MSFT CapEx guidance = NVDA re-entry go/no-go; META for broader ad/AI demand
+
