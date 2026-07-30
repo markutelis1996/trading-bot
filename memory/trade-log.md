@@ -6722,3 +6722,71 @@ No exits. Qty matches clean. **Flags**: NVDA frac −7.63% ($189.98 vs $205.67 e
 **Notes:** FOMC decision today at 2:00 PM ET (Warsh). Broad market selloff post-decision: GE −3.56%, JPM −3.39%, UNH −1.82% — hawkish reaction. AAPL −0.49% (modest) ahead of earnings AMC tonight. AAPL stop auto-advanced to $310.11 (HWM hit $344.57 during session, from prior $342.89). No new entries — FOMC blackout active through 2 PM, post-decision market sold off making new entry evaluation moot. All 4 main positions hold safely above GTC stops (smallest cushion: GE 5.9%, JPM 6.4%). NVDA frac −7.63% and TSM frac −9.91% both breached −7% rule; both tiny remnants ($82 and $275 value); no stops possible on Alpaca fractionals → manual sell at Jul 30 open. Post-FOMC entry window is now open; 3 trade slots available, $33.6k cash. Tomorrow: AAPL gap at open + GDP/PCE 8:30 AM + evaluate KLAC/NVDA re-entry if macro benign.
 
 ---
+
+---
+
+## 2026-07-30 - Midday Scan (Day 73)
+**Time:** Pre-market (01:07 AM EDT) | **Cash:** ~$35,156 + pending TSM fill
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL | 35.877 (35 stop) | 35.877045 | ✓ |
+| GE | 47.98 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+| NVDA frac | 0.433 | 0.433413 | ✓ |
+| TSM frac | 0.739 | 0.738706 | ✓ |
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies. Clean.
+
+### Position Status (pre-market Jul 30, post-FOMC)
+| Ticker | Shares | Entry | Price | P&L% | Day Chg | Stop (GTC) | HWM | Status |
+|--------|--------|-------|-------|------|---------|------------|-----|--------|
+| AAPL | 35.877 | $312.42 | $338.00 | +8.19% | -0.06% | $309.303 (bbdb4df3, 10%) | $343.67 | HOLD |
+| GE | 47.98 | $348.94 | $352.40 | +0.99% | +0.51% | $330.093 (df184923, 10%) | $366.77 | HOLD |
+| JPM | 49.521 | $334.00 | $345.43 | +3.42% | +0.21% | $323.307 (1a5b3205, 10%) | $359.23 | HOLD |
+| UNH | 39.363 | $425.34 | $418.26 | -1.67% | -0.55% | $393.2505 (ac627db0, 10%) | $436.945 | HOLD |
+| NVDA frac | 0.433 | $205.67 | $191.64 | -6.82% | +0.86% | none | — | ⚠️ monitor (-7% floor=$191.27) |
+| TSM frac | 0.739 | $412.70 | $378.76 | -8.22% | +1.09% | none | — | **CUT — order submitted** |
+
+### Step 3 — Cut Losers
+- **TSM frac**: -8.22% ≤ -7% rule → close order 261fda6a submitted (market, DAY, qty 0.738705531). Estimated fill ~$378-381 at open. Estimated realized P&L: ~-$25 (tiny position ~$281 market value). No trailing stop to cancel (fractional remnant).
+- **NVDA frac**: -6.82% — above -7% threshold ($191.27); bouncing +0.86% today. HOLD. Monitor: only $0.37 cushion.
+
+### Step 4 — Stop Tightening
+- AAPL +8.19% — below +15% tightening threshold ($359.28). No action.
+- GE +0.99% — below threshold. No action.
+- JPM +3.42% — below threshold. No action.
+- UNH -1.67% — below threshold. No action.
+
+### Step 5 — Thesis Check
+- **AAPL** (+8.19%): Earnings tonight AMC. Est EPS $1.89 (4-quarter beat streak); Rev $108.8-110B (+14-17% YoY); options pricing ±3.8% move. Tim Cook's final earnings call. Stop $309.303 = 8.5% below current. Thesis INTACT. HOLD into earnings.
+- **GE** (+0.99%): Aerospace supercycle intact. No specific FOMC impact. INTACT. HOLD.
+- **JPM** (+3.42%): Record Q2 EPS; banking stable; rate HOLD neutral for financials. INTACT. HOLD.
+- **UNH** (-1.67%): MCR improvement thesis intact; still above -7% threshold ($395.57); stop $393.25. INTACT. HOLD.
+- **NVDA frac**: AI demand thesis intact (MSFT confirmed Azure/CapEx strength AMC Jul 28). Fractional remnant ($83 value). No stop. Monitor.
+
+### Step 6 — Intraday Research
+**FOMC Jul 29 result**: Fed HELD at 3.50-3.75% (5th consecutive hold). Vote 9-3 — three dissenters (Hammack/Kashkari/Logan) wanted +25bp hike. Warsh used framework guidance, not forward guidance. Market reacted negatively: S&P -1%, Nasdaq -0.9%, Dow -840pts. 10yr yield rose to 4.657%. Market recovering today. No thesis breaks on our positions — macro headwind only.
+
+**AAPL earnings tonight**: Consensus $1.89 EPS / $108.8-110B revenue. 4-consecutive-beat track record. Tim Cook final call. Binary event — stop at $309.303 provides downside protection but gap risk exists.
+
+**NVDA frac**: Post-FOMC, NVDA bouncing +0.86% today. No re-entry evaluated (cash still needed for post-FOMC new entry window). KLAC entry (from pre-market plan) deferred pending FOMC clarity and AAPL earnings.
+
+### Actions Taken
+- **TSM frac CLOSED**: Order 261fda6a (market, qty 0.738705531, DAY) — reason: -8.22% cut rule (-7% hard rule). Estimated P&L ~-$25.
+- No other changes.
+
+### Open Positions (Updated)
+| # | Ticker | Shares | Entry | Stop | HWM | Target (+20%) |
+|---|--------|--------|-------|------|-----|---------------|
+| 1 | AAPL | 35.877 (35 stop) | $312.42 | $309.303 (10% trail, bbdb4df3) | $343.67 | $374.90 |
+| 2 | GE | 47.98 (47 stop) | $348.94 | $330.093 (10% trail, df184923) | $366.77 | $418.73 |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $323.307 (10% trail, 1a5b3205) | $359.23 | $400.80 |
+| 4 | UNH | 39.363 (39 stop) | $425.34 | $393.2505 (10% trail, ac627db0) | $436.945 | $510.41 |
+
+- Trades this week: 0/7 new entries (week Jul 27–31)
+- NVDA frac: 0.433 shares, no stop, -6.82% — monitor for -7% breach ($191.27 floor)
+- TSM frac: pending fill at open; will be removed from log once confirmed
+- **Tonight**: AAPL earnings AMC — binary event; stop $309.303 active
+- **Tomorrow**: GDP Q2 + PCE; evaluate KLAC/NVDA re-entry post-AAPL result
