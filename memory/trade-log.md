@@ -6790,3 +6790,74 @@ Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies.
 - TSM frac: pending fill at open; will be removed from log once confirmed
 - **Tonight**: AAPL earnings AMC — binary event; stop $309.303 active
 - **Tomorrow**: GDP Q2 + PCE; evaluate KLAC/NVDA re-entry post-AAPL result
+
+---
+
+## 2026-07-30 - Market-Open Session (Day 73)
+**Portfolio:** $109,406.02 equity | **Cash:** $33,902.48 | **Positions:** 4 stocks + NVDA frac
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Delta | Notes |
+|--------|---------|------------|-------|-------|
+| AAPL | 35.877 (35 stop) | 35.877045 | ✓ | Stop $310.113 / HWM $344.57 |
+| GE | 47.98 (47 stop) | 47.981945 | ✓ | Stop $330.093 / HWM $366.77 |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ | Stop $323.307 / HWM $359.23 |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ | Stop $393.2505 / HWM $436.945 |
+| NVDA frac | 0.433 | 0.433413 | ✓ | No stop; -6.66% @ $191.97 |
+| **TSM frac** | **0.739** | **0** | **EXITED** | Pre-market market order filled 09:30:01 ET @ $392.98 |
+
+### TSM Frac Exit (Confirmed)
+- **Ticker**: TSM | **Side**: SELL | **Qty**: 0.739 | **Fill price**: $392.98
+- **Entry**: $412.70 | **Realized P&L**: -$14.38 (-4.78%)
+- **Reason**: Manual cut — -7% rule triggered in prior session (-8.22%); pre-market sell order submitted 05:07 AM, filled at open
+
+### Execution Status
+- Alpaca API: LIVE
+- **Orders placed this session: 0** — no new trades
+- GTC trailing stops confirmed: AAPL (bbdb4df3), GE (df184923), JPM (1a5b3205), UNH (ac627db0) — all status: new (active)
+
+### Step 1b — Price Verification (9:31–9:33 AM ET)
+| Ticker | Last Close | Live Ask | Δ Today | Action |
+|--------|-----------|----------|---------|--------|
+| AAPL | $338.19 | $333.94 | -1.3% | HOLD |
+| GE | $350.63 | ~$351 | +0.1% | HOLD |
+| JPM | $344.71 | ~$348 | +1.0% | HOLD |
+| UNH | $420.57 | ~$412 | -2.0% | HOLD (above -7% floor $395.57) |
+| NVDA frac | $190.01 | $191.97 | +1.0% | MONITOR (-6.66%, floor $191.27) |
+
+### Macro Data (8:30 AM ET — released before open)
+| Release | Estimate | Actual | Signal |
+|---------|----------|--------|--------|
+| Q2 GDP Advance | +2.3% | **+2.1%** | Slight miss |
+| Core PCE YoY June | +3.3% | **+3.4%** | Slightly above est |
+| Initial Jobless Claims | — | 231K | Stable |
+
+**NVDA re-entry condition check**: GDP MISSED (2.1 < 2.3), Core PCE above estimate (3.4% > 3.3% est) → conditions NOT met. No re-entry.
+
+### Step 3 — Hard-check Results
+- Daytrade count: 0/3 ✓
+- Trades this week (new entries): 0/7 ✓
+- FOMC blackout: lifted ✓
+- AAPL binary (AMC tonight): HOLD existing position; no new entry on binary day
+- AMZN binary (AMC tonight): sentiment risk; no new entries
+- Oil: WTI ~$84/bbl (elevated); 10Y yield 4.707% — macro headwind for growth stocks
+- NQ: DOWN post-GDP/PCE on NVDA drop — no new tech entries
+
+### Decision: NO TRADES
+**All 4 positions HOLD.** Stops active. NVDA frac: let ride (MSFT AI confirmation, $83 position, approaching floor).
+- NVDA re-entry deferred to Jul 31 pre-market (post AAPL + AMZN results, fresh macro)
+- KLAC: deferred (insufficient cash for both KLAC + NVDA; NVDA has higher conviction)
+- **Tonight**: AAPL earnings AMC — binary; stop $310.113 active; AMZN AMC = AI demand read
+
+### Open Positions (Updated — TSM frac removed)
+| # | Ticker | Shares | Entry | Stop | HWM | Target (+20%) |
+|---|--------|--------|-------|------|-----|---------------|
+| 1 | AAPL | 35.877 (35 stop) | $312.42 | $310.113 (10% trail, bbdb4df3) | $344.57 | $374.90 |
+| 2 | GE | 47.98 (47 stop) | $348.94 | $330.093 (10% trail, df184923) | $366.77 | $418.73 |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $323.307 (10% trail, 1a5b3205) | $359.23 | $400.80 |
+| 4 | UNH | 39.363 (39 stop) | $425.34 | $393.2505 (10% trail, ac627db0) | $436.945 | $510.41 |
+
+- Trades this week: 0/7 new entries (week Jul 27–31)
+- NVDA frac: 0.433 shares, no stop, -6.66% — floor $191.27 (cut if breached)
+- TSM frac: CLOSED @ $392.98 | Realized P&L -$14.38
+- **Tomorrow (Jul 31)**: Post-AAPL+AMZN — evaluate NVDA re-entry; KLAC secondary if cash allows
