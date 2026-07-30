@@ -7768,3 +7768,149 @@ Note: All AH quotes are low-volume; GE/JPM/UNH AH spreads very wide — use regu
 - **CUTS**: None — all above -7% rule; fractional remnants NVDA/TSM monitored but no action
 - **Tonight**: MSFT CapEx guidance = NVDA re-entry go/no-go; META for broader ad/AI demand
 
+---
+
+## 2026-07-30 - Pre-market Research
+
+### Account (Jul 28 EOD — broker)
+- Equity: $109,603.18
+- Cash: $33,612.18 (broker balance_asof 2026-07-28; log shows ~$35,156 pre-TSM-sell)
+- Buying power: $310,809.55
+- Daytrade count: 0/3
+- Deployed (stocks): ~69% (AAPL $12,145 + GE $16,909 + JPM $17,106 + UNH $16,464 + tiny frac remnants)
+- Phase P&L: +$9,603.18 (+9.60%)
+- Trades this week: 0/7 new entries (week Jul 27–31)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? | Notes |
+|--------|---------|------------|--------|-------|
+| AAPL | 35.877 (35 stop) | 35.877045 | ✓ | Stop auto-advanced: $310.11 / HWM $344.57 (was $308.601/$342.89) |
+| GE | 47.98 (47 stop) | 47.981945 | ✓ | Stop $330.093 / HWM $366.77 unchanged |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ | Stop $323.307 / HWM $359.23 unchanged |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ | Stop $393.2505 / HWM $436.945 unchanged |
+| NVDA frac | 0.433 | 0.433413 | ✓ | Remnant, no stop; -7.01% from entry |
+| TSM frac | 0.739 | 0.738706 | ✓ | PRE-MARKET SELL ORDER submitted 05:07 AM (market DAY order, all 0.739 shares) |
+
+Crypto (BTC/ETH/SOL/LINK) filtered — UNTOUCHABLE.
+No discrepancies. TSM fractional will close at market open today per pre-market sell order.
+
+### Market Context (pre-market Jul 30)
+- **WTI**: ~$84.20–84.47/bbl (+5–6.4% overnight) — Houthi naval blockade adding second chokepoint to Hormuz; Iran tensions re-escalating
+- **Brent**: ~$87.66–89.43/bbl (+4.8–6.9%) — Brent broke $100 briefly earlier this week (Jul 23); now ~$88-89
+- **ES futures**: ~7,431–7,485 (slight positive; data from late Jul 29)
+- **NQ futures**: ~27,774 (-338 from prior; chip selloff deepening)
+- **VIX**: 18.21 (Jul 28 close) — elevated; chip volatility at record highs (SMH 1M implied vol 59%, 1-year high)
+- **10Y yield**: 4.707% (+1.84%) — rising yields = tech headwind
+
+### Today's CRITICAL Data Releases (ALL at 8:30 AM ET)
+| Release | Estimate | Prior | Direction |
+|---------|----------|-------|-----------|
+| Q2 GDP Advance | +2.3% | +2.1% | Consensus OK; Atlanta GDPNow ~1.6% (downside risk) |
+| June PCE MoM | -0.1% | +0.4% | DISINFLATIONARY if correct |
+| June PCE YoY | +3.6% | +4.1% | Declining — bullish |
+| June Core PCE MoM | +0.1% | +0.3% | Declining — bullish |
+| June Core PCE YoY | +3.3% | +3.4% | Declining — bullish |
+| Personal Spending | +0.4% | +0.7% | Slowing but positive |
+| Initial Jobless Claims | — | 187K | — |
+
+**Binary gating event**: If PCE comes in below estimates → NQ rally, entry window opens. If hot → HOLD, all new entries blocked.
+
+### Today's Earnings (AMC — all after close)
+- **AAPL Q3 FY2026**: EPS est $1.89 (range $1.82–1.99); Rev est $108.96B. **WE HOLD 35.877 SHARES.** Tim Cook's last earnings call as CEO. Q2 beat: EPS $2.01 vs $1.94. Historical: 4 consecutive beats (+3.6–10.6%).
+- **AMZN Q2 2026**: Reports AMC. AWS beat = macro positive for AI demand.
+- Mastercard, Shell, Bristol-Myers, Stryker also AMC.
+
+### MSFT Beat Confirmation (Jul 29 AMC — completed)
+- Azure growth: +43% vs 39.98% estimate — **MASSIVE BEAT**
+- CapEx $190B calendar 2026 plan confirmed
+- Combined hyperscaler AI capex 2026: ~$650B (+60% YoY)
+- NVDA thesis STRONGLY CONFIRMED: MSFT Azure acceleration = direct NVDA GPU demand
+
+### Live Price Verification (Alpaca AH quotes, Jul 29 close)
+| Ticker | AH Bid | AH Ask | AH Mid Est | Entry | P&L% | Stop | Target | Status |
+|--------|--------|--------|------------|-------|------|------|--------|--------|
+| AAPL | $322.31 | $356.81 | ~$338 | $312.42 | +8.2% | $310.11 | $374.90 | HOLD — binary tonight |
+| GE | $336.77 | $378.00 | ~$352 | $348.94 | +0.9% | $330.09 | $418.73 | HOLD |
+| JPM | $331.67 | — | ~$345 | $334.00 | +3.3% | $323.31 | $400.80 | HOLD |
+| UNH | $405.65 | $442.74 | ~$418 | $425.34 | -1.7% | $393.25 | $510.41 | HOLD |
+| NVDA (watch) | $189.32 | $189.82 | $189.57 | — | — | — | — | Re-entry candidate |
+| KLAC (watch) | $162.21 | $180.16 | ~$171 | — | — | — | — | Pulled back from $193 open |
+
+Note: AAPL AH spread wide (wide is normal pre-earnings). Regular close ~$338.
+
+### Stop Tightening Check
+- AAPL +8.2%: tighten at +15% = $359.28; HWM $344.57. Not reached.
+- GE +0.9%: tighten at +15% = $401.28. Not reached.
+- JPM +3.3%: tighten at +15% = $384.10. Not reached.
+- UNH -1.7%: N/A.
+- **No tightening actions today.**
+
+### Politician Signals (Capitol Trades — STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal Level | Notes |
+|------------|--------|--------|------|------------|-----------|--------------|-------|
+| **Nancy Pelosi** | **INTC** | BUY (calls $50 strike Mar 2027) | $1M–5M | May 29 | Jun 24 | ~~PRIMARY~~ → **CANCELLED** | INTC collapsed: $131 (late Jun) → ~$86 (Jul 29) = -34%; far below $93.93 analyst PT. Thesis broken. REMOVE from watchlist. |
+| **Nancy Pelosi** | **UBER** | BUY (calls $50 strike Mar 2027) | $500K–1M | May 29 | Jun 24 | Watchlist only | No sector momentum; Cons. Disc. Least Favored |
+| McCaul BJ/LPX | — | BUY | $50K–100K | May 4-5 | Jun 11 | Watchlist only — stale; >45 days lag now |
+
+No new whitelist politician buys found in last 30 days. Pelosi not running for re-election → final disclosures before Jan 2027. No actionable signals.
+
+- Tommy Tuberville: high-frequency seller; no qualifying single-stock buys
+- Ro Khanna: 4,588 trades YTD; $62.8M volume — mostly micro size (<$15K); no qualifying buys found
+- Josh Gottheimer: mostly sells; no qualifying buys
+- Brian Mast / Michael McCaul: no new disclosures found in window
+
+### Chip Sector Context (Broad Selloff Ongoing)
+- MU: -8.86% Jul 29 (massive; AI financing sustainability concerns)
+- AMD: -8.10% Jul 29
+- INTC: -5.86% Jul 29 (from $131 → ~$86 over 3 weeks; also NVDA credit risk / circular financing fears)
+- KLAC: Opened +11.5% post-earnings ($193.99 Jul 29), but pulled back to ~$171 AH (gave back most of gap)
+- NVDA: -3.55% Jul 29 ($190.01); AH ~$189.57 (stable)
+- Concern: AI capex financing sustainability — hyperscalers borrowing to fund CapEx (aggregate FCF turning negative Q3 2026). MSFT beat partly offsets this narrative for now.
+
+### Trade Ideas
+**NO NEW ENTRIES TODAY** — triple binary event day:
+1. GDP + PCE at 8:30 AM (macro gating)
+2. AAPL earnings AMC (position binary)
+3. AMZN earnings AMC (sentiment binary)
+
+**Deferred to Jul 31 morning (post full picture):**
+1. **NVDA re-entry** — MSFT Azure +43% STRONGLY confirms AI demand; NVDA AH $189.57
+   - Entry (live quote Jul 31): stop 10% trail (~$170.6 from $189.57); target +20% (~$227.5); ~87 integer shares at $189 ($16,443)
+   - Required conditions: AAPL/AMZN didn't crash markets; GDP inline; Core PCE declining; NQ stable
+   - NVDA earnings Aug 26 = upcoming hard catalyst
+2. **KLAC** — Beat+raise confirmed (Q4 FY26); but AH pulled back to ~$171 from $193 open
+   - Need fresh Jul 31 quote; check if chip sector stabilizes overnight
+   - If opens ≤$185 AND NQ green → evaluate entry; stop 10% trail; target +20%
+   - Cash constraint: only ~$35K after TSM sell; NVDA takes ~$16.5K → ~$18.5K left = insufficient for KLAC (~$16.5K) + buffer. Choose one.
+
+### Risk Factors
+1. **GDP miss (<2.0%)**: Recession concern revived → broad selloff
+2. **PCE hot surprise**: Stagflation narrative resumes → NQ selloff (-2% to -4% intraday)
+3. **AAPL earnings miss/soft guide**: We hold 35.877 shares. -5% gap = -$592; -10% gap = -$1,184. Stop $310.11 = -8.4% from current; could gap below stop.
+4. **Oil +6% today**: WTI $84/bbl; Houthi blockade risk. Stagflation signal = FOMC hawkish pressure
+5. **10Y yield +1.84% to 4.707%**: Growth stock valuation pressure; NQ headwind
+6. **Chip sector broad selloff**: AI financing sustainability doubts circulating; NVDA CDS rising (per Wall St Journal)
+7. **AMZN earnings**: AWS cloud = AI demand read; weak guidance would dampen sector
+8. **TSM fractional sell**: Confirms -8.61% realized loss on that remnant (tiny: ~$278 position)
+
+### Position Thesis Check
+- **AAPL**: Services growth (+16% YoY Q2); iPhone installed base 2.5B; gross margin 49.3%. Company's own Q3 guide $107.2-110B vs consensus $108.96B — inline. Risk: Tim Cook's final earnings call (transition) + potential "sell the news" on high expectations. Trail stop provides floor. **INTACT. HOLD through earnings.**
+- **GE**: Aerospace supercycle; 7th guidance raise; airlines keeping engines. **INTACT. HOLD.**
+- **JPM**: Record Q2 EPS; banking stable; yield curve widening (10-2 spread +15.27% today). **INTACT. HOLD.**
+- **UNH**: Q2 massive beat ($6.38 vs $4.86 est); MCR improvement; stop 7.6% below current. **RECOVERING. HOLD.**
+- **NVDA frac (0.433, $82 value)**: -7.01% from entry. Below -7% cut rule. BUT this is a $82 remnant with no stop. With MSFT AI capex confirmation and Aug 26 earnings catalyst, let ride.
+- **TSM frac (0.739)**: Sell order submitted pre-market. Will close at open today.
+
+### Decision
+**NO TRADES TODAY (pre-market).**
+- GDP + PCE binary at 8:30 AM = gating event for any market action
+- AAPL binary AMC = existing position risk; no new entries when holding binary position same day
+- AMZN binary AMC = sector sentiment risk
+- Oil spike ($84/bbl) + 10Y yield rising = macro headwinds
+- **All 4 full positions HOLD** — stops active, theses intact
+- **TSM fractional**: closes at market open (pre-market sell order already accepted)
+- **Post 8:30 AM**: if GDP inline AND PCE declining → evaluate NVDA re-entry at open price
+- **Jul 31 morning**: Full picture post-AAPL+AMZN; evaluate NVDA re-entry + KLAC
+- **Sector priority**: NVDA (AI confirmed by MSFT) > KLAC (semi equipment, cash permitting)
+- **Cash**: ~$35K available → 1 new position max (NVDA preferred)
+
