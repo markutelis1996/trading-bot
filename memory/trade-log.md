@@ -6694,3 +6694,31 @@ Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies.
 - No ClickUp notification (no action taken)
 
 ---
+
+## 2026-07-29 - Reconciliation (EOD check)
+| Ticker | Log Qty | Broker Qty | Delta |
+|--------|---------|------------|-------|
+| AAPL | 35.877 (35 stop) | 35.877045 | ✓ |
+| GE | 47.98 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+| NVDA frac | 0.433 | 0.433413 | ✓ |
+| TSM frac | 0.739 | 0.738706 | ✓ |
+
+No exits. Qty matches clean. **Flags**: NVDA frac −7.63% ($189.98 vs $205.67 entry) and TSM frac −9.91% ($371.78 vs $412.70 entry) — both below −7% rule; no stops available on fractionals. Queued for manual cleanup at Jul 30 open.
+
+### Jul 29 - EOD Snapshot (Day 72, Wednesday)
+**Portfolio:** $109,673.66 | **Cash:** $33,612.18 (30.6%) | **Day P&L:** −$1,438.74 (−1.30%) | **Phase P&L:** +$9,673.66 (+9.67%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 35.877 | $312.42 | $338.41 | −$1.67 (−0.49%) | +$932.48 (+8.32%) | $310.11 (10% trail, HWM $344.57) |
+| GE | 47.982 | $348.94 | $350.66 | −$12.93 (−3.56%) | +$82.49 (+0.49%) | $330.09 (10% trail, HWM $366.77) |
+| JPM | 49.522 | $334.00 | $345.19 | −$12.12 (−3.39%) | +$554.08 (+3.35%) | $323.31 (10% trail, HWM $359.23) |
+| UNH | 39.363 | $425.34 | $420.99 | −$7.80 (−1.82%) | −$171.23 (−1.02%) | $393.25 (10% trail, HWM $436.95) |
+| NVDA | 0.433 (frac) | $205.67 | $189.98 | −$7.03 (−3.57%) | −$6.80 (−7.63%) | none |
+| TSM | 0.739 (frac) | $412.70 | $371.78 | −$20.53 (−5.23%) | −$30.23 (−9.91%) | none |
+
+**Notes:** FOMC decision today at 2:00 PM ET (Warsh). Broad market selloff post-decision: GE −3.56%, JPM −3.39%, UNH −1.82% — hawkish reaction. AAPL −0.49% (modest) ahead of earnings AMC tonight. AAPL stop auto-advanced to $310.11 (HWM hit $344.57 during session, from prior $342.89). No new entries — FOMC blackout active through 2 PM, post-decision market sold off making new entry evaluation moot. All 4 main positions hold safely above GTC stops (smallest cushion: GE 5.9%, JPM 6.4%). NVDA frac −7.63% and TSM frac −9.91% both breached −7% rule; both tiny remnants ($82 and $275 value); no stops possible on Alpaca fractionals → manual sell at Jul 30 open. Post-FOMC entry window is now open; 3 trade slots available, $33.6k cash. Tomorrow: AAPL gap at open + GDP/PCE 8:30 AM + evaluate KLAC/NVDA re-entry if macro benign.
+
+---
