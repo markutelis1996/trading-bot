@@ -7010,3 +7010,55 @@ No exits. All quantities match. Clean.
 - Deployed: ~62.2% stocks ($67,740 / $108,846) — below 75-85% target; 4 full positions
 - Stop tightening triggers: GE +15% = $401.28; JPM +15% = $384.10; NVDA +15% = $229.81; UNH +15% = $489.14 — none reached
 - Watch: NVDA Aug 26 earnings — key upcoming catalyst; stop protects downside
+
+---
+
+## 2026-07-31 - Midday Scan (Day 74, Thursday)
+
+**Portfolio:** ~$68,010 stock MV | **Cash:** ~$28,129 | **Positions:** 4 stocks + AAPL frac | **Deployed:** ~62.4% stocks
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| GE | 47.982 (47 stop) | 47.982 | ✓ |
+| JPM | 49.521 (49 stop) | 49.522 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.192 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363 | ✓ |
+| BTC/ETH/SOL/LINK | CRYPTO — filtered | — | OFF-LIMITS |
+
+GTC stops confirmed: NVDA 30f07262 ($179.973, HWM $199.97) ✓ | GE df184923 ($330.093, HWM $366.77) ✓ | JPM 1a5b3205 ($323.307, HWM $359.23) ✓ | UNH ac627db0 ($393.2505, HWM $436.945) ✓
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Day Chg | Stop | Status |
+|--------|--------|-------|---------|------|---------|------|--------|
+| AAPL frac | 0.877 | $312.42 | $301.26 | -3.57% | -9.65% | none (frac) | HOLD — post-earnings gap continuation; tiny remnant |
+| GE | 47.982 | $348.94 | $361.06 | +3.47% | +1.70% | $330.093 (10% trail, df184923, HWM $366.77) | HOLD |
+| JPM | 49.522 | $334.00 | $353.67 | +5.89% | +0.80% | $323.307 (10% trail, 1a5b3205, HWM $359.23) | HOLD |
+| NVDA | 82.192 | $199.864 | $199.51 | -0.18% | +2.29% | $179.973 (10% trail, 30f07262, HWM $199.97) | HOLD — entered this AM; recovering from low |
+| UNH | 39.363 | $425.34 | $419.41 | -1.39% | -0.49% | $393.2505 (10% trail, ac627db0, HWM $436.945) | HOLD |
+
+### Step 3 — Cuts
+None. All positions above -7% threshold.
+- AAPL frac -3.57% > -7% floor (-$21.87); no stop, letting ride (plan)
+- UNH -1.39% >> -7% floor ($395.57); safe
+
+### Step 4 — Stop Tightening
+None. No position at +15%:
+- GE +3.47% (trigger $401.28); JPM +5.89% (trigger $384.10); NVDA -0.18%; UNH -1.39%
+
+### Step 5 — Thesis Check
+- **AAPL frac**: Post-earnings gap-down ongoing (-9.65% today). Per plan, let 0.877 frac ride; no stop. Immaterial impact.
+- **GE**: Aerospace supercycle intact. +1.70% intraday. INTACT.
+- **JPM**: Record Q2 EPS; banking recovery. +0.80% intraday. INTACT.
+- **NVDA**: Entered this morning — MSFT Azure +43% / AMZN AWS +37% dual hyperscaler AI demand confirmation. Opened lower (~$195), recovered to $199.51. HWM $199.97. Thesis INTACT.
+- **UNH**: Q2 MCR improvement beat. -0.49% intraday; well above -7% floor. INTACT.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Notes
+- Trades this week: 1/7 (NVDA Jul 31 AM)
+- AAPL intraday -9.65% (post-earnings selloff) — already reconciled; stop fired on 35 shares AM Jul 31; 0.877 frac OK
+- Deployment 62.4% — below 75-85% target; NVDA entry this morning partially filled the gap (was 25.8% cash AM)
+- Next catalyst: NVDA Aug 26 earnings (hard catalyst for position)
