@@ -6860,4 +6860,54 @@ Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) filtered — OFF-LIMITS. No discrepancies.
 - Trades this week: 0/7 new entries (week Jul 27–31)
 - NVDA frac: 0.433 shares, no stop, -6.66% — floor $191.27 (cut if breached)
 - TSM frac: CLOSED @ $392.98 | Realized P&L -$14.38
+
+---
+
+## 2026-07-30 - Midday Scan (Day 73 — Post-Market Check)
+
+**Portfolio:** ~$58,190 long MV | **Cash:** ~$33,902 | **Positions:** 4 stocks + NVDA frac | **Deployed:** ~63%
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL | 35.877 (35 stop) | 35.877045 | ✓ |
+| GE | 47.98 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+| NVDA frac | 0.433 | 0.433413 | ✓ |
+| TSM frac | CLOSED | 0 | ✓ confirmed |
+| BTC/ETH/SOL/LINK | CRYPTO — filtered | — | OFF-LIMITS |
+
+GTC stops: AAPL bbdb4df3 ($310.113) ✓ | GE df184923 ($330.093) ✓ | JPM 1a5b3205 ($323.307) ✓ | UNH ac627db0 ($393.2505) ✓ — all active, no discrepancies.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Day Chg | Stop | HWM | Status |
+|--------|--------|-------|---------|------|---------|------|-----|--------|
+| AAPL | 35.877 | $312.42 | $332.95 | +6.57% | -1.55% | $310.113 (10% trail, bbdb4df3) | $344.57 | HOLD — earnings AMC tonight |
+| GE | 47.98 | $348.94 | $353.73 | +1.37% | +0.88% | $330.093 (10% trail, df184923) | $366.77 | HOLD |
+| JPM | 49.521 | $334.00 | $351.37 | +5.20% | +1.93% | $323.307 (10% trail, 1a5b3205) | $359.23 | HOLD |
+| UNH | 39.363 | $425.34 | $426.49 | +0.27% | +1.41% | $393.2505 (10% trail, ac627db0) | $436.945 | HOLD |
+| NVDA frac | 0.433 | $205.67 | $193.705 | -5.82% | +1.94% | none | — | HOLD — above -7% floor $191.27 |
+
+### Step 3 — Cuts
+None. All positions above -7% threshold. NVDA frac $193.705 > $191.27 floor.
+
+### Step 4 — Stop Tightening
+No position at +15% (AAPL closest at +6.57%; trigger $359.28). No action.
+
+### Step 5 — Thesis Check
+- **AAPL**: -1.55% today = pre-earnings jitter (AMC tonight). Est EPS $1.89 / Rev $108.96B. Stop $310.113 active. INTACT. HOLD through earnings.
+- **GE**: Aerospace supercycle intact. +0.88% intraday. INTACT. HOLD.
+- **JPM**: Record Q2 EPS; post-FOMC banking recovery +1.93% today. INTACT. HOLD.
+- **UNH**: Q2 massive beat intact; +1.41% recovery. MCR improvement thesis intact. INTACT. HOLD.
+- **NVDA frac**: +1.94% intraday recovery (MSFT Azure +43% confirmed AI demand). -5.82% from entry, above floor. HOLD.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries. Markets closed (post-session check).
+
+### Notes
+- AAPL earnings AMC tonight (Jul 30) — binary; stop $310.113 provides downside protection
+- AMZN reports AMC tonight — AI demand read; relevant to Jul 31 new entry evaluation
+- Jul 31 morning: post-AAPL + AMZN results → evaluate NVDA re-entry (~87 shares at live quote, 10% trail)
+- Trades this week: 0/7 (week Jul 27–31)
 - **Tomorrow (Jul 31)**: Post-AAPL+AMZN — evaluate NVDA re-entry; KLAC secondary if cash allows
