@@ -7062,3 +7062,29 @@ None. No cuts, no stop changes, no new entries.
 - AAPL intraday -9.65% (post-earnings selloff) — already reconciled; stop fired on 35 shares AM Jul 31; 0.877 frac OK
 - Deployment 62.4% — below 75-85% target; NVDA entry this morning partially filled the gap (was 25.8% cash AM)
 - Next catalyst: NVDA Aug 26 earnings (hard catalyst for position)
+
+---
+
+## 2026-07-31 - Reconciliation (EOD check)
+| Ticker | Log Qty | Broker Qty | Delta |
+|--------|---------|------------|-------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+
+No exits. All quantities match. Clean.
+
+### Jul 31 - EOD Snapshot (Day 74, Thursday)
+**Portfolio:** $108,729.94 | **Cash:** $26,688.24 (24.5%) | **Day P&L:** −$1,335.31 (−1.21%) | **Phase P&L:** +$8,729.94 (+8.73%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $309.12 | −$24.31 (−7.29%) | −$2.89 (−1.05%) | none |
+| GE | 47.982 | $348.94 | $360.07 | +$5.03 (+1.42%) | +$534.13 (+3.19%) | $330.09 (10% trail, HWM $366.77) |
+| JPM | 49.522 | $334.00 | $351.79 | +$0.94 (+0.27%) | +$880.99 (+5.33%) | $323.31 (10% trail, HWM $359.23) |
+| NVDA | 82.192 | $199.86 | $200.40 | +$5.36 (+2.75%) | +$44.05 (+0.27%) | $181.76 (10% trail, HWM $201.95) |
+| UNH | 39.363 | $425.34 | $415.58 | −$5.89 (−1.40%) | −$384.19 (−2.29%) | $393.25 (10% trail, HWM $436.95) |
+
+**Notes:** AAPL trailing stop (35 shares) fired at open on post-earnings gap-down; filled $301.85 (realized −$369.95); 0.877 frac remnant held, no stop. NVDA re-entered this morning at $199.83 (81 shares, 10% trail; MSFT Azure +43% / AMZN AWS +37% dual hyperscaler AI demand confirmation; order 30f07262). Day P&L −$1,335.31 driven by AAPL stop execution + broad crypto weakness (BTC −2.52%, ETH −2.04%, SOL −1.37%). Stock-only positions mixed: GE +1.42%, NVDA +2.75%, JPM +0.27%, UNH −1.40%. Portfolio 62.3% stock-deployed (4 full + 1 frac); 6 of 7 week trade slots remain. All stops intact. Tomorrow: watch NVDA HWM progression (stop $181.76 → trails up); evaluate new entry if quality setup materializes (2 of max 5-6 positions open).
