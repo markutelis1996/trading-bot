@@ -6911,3 +6911,29 @@ None. No cuts, no stop changes, no new entries. Markets closed (post-session che
 - Jul 31 morning: post-AAPL + AMZN results → evaluate NVDA re-entry (~87 shares at live quote, 10% trail)
 - Trades this week: 0/7 (week Jul 27–31)
 - **Tomorrow (Jul 31)**: Post-AAPL+AMZN — evaluate NVDA re-entry; KLAC secondary if cash allows
+
+---
+
+## 2026-07-30 - Reconciliation (EOD check)
+| Ticker | Log Qty | Broker Qty | Delta |
+|--------|---------|------------|-------|
+| AAPL | 35.877 (35 stop) | 35.877045 | ✓ |
+| GE | 47.98 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+| NVDA frac | 0.433 | 0.433413 | ✓ |
+
+No exits. All quantities match. Clean.
+
+### Jul 30 - EOD Snapshot (Day 73, Thursday)
+**Portfolio:** $109,328.76 | **Cash:** $33,902.48 (31.0%) | **Day P&L:** −$1,929.56 (−1.73%) | **Phase P&L:** +$9,328.76 (+9.33%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL | 35.877 | $312.42 | $314.21 | −$23.98 (−7.09%) | +$64.26 (+0.57%) | $310.113 (10% trail, HWM $344.57) |
+| GE | 47.982 | $348.94 | $354.85 | +$4.22 (+1.20%) | +$283.57 (+1.69%) | $330.093 (10% trail, HWM $366.77) |
+| JPM | 49.522 | $334.00 | $350.80 | +$6.09 (+1.77%) | +$831.89 (+5.03%) | $323.307 (10% trail, HWM $359.23) |
+| UNH | 39.363 | $425.34 | $422.50 | +$1.93 (+0.46%) | −$111.79 (−0.67%) | $393.2505 (10% trail, HWM $436.945) |
+| NVDA | 0.433 (frac) | $205.67 | $197.39 | +$7.38 (+3.88%) | −$3.59 (−4.03%) | none |
+
+**Notes:** AAPL earnings AMC Jul 29 triggered −7.09% gap down today ($338.19 → $314.21); GTC trailing stop at $310.113 survived (1.3% cushion). GE, JPM, UNH all green (+1.20%, +1.77%, +0.46%). NVDA frac bounced +3.88% to $197.39, now −4.03% from entry (safely above −7% floor $191.27). No new trades; 0/3 entries this week. Portfolio 31% cash vs 75-85% target — dry powder available. Tonight: AMZN AMC earnings (AI demand read). Tomorrow: evaluate NVDA re-entry if AMZN beats + macro benign; watch AAPL stop $310.113 closely.
