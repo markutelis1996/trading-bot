@@ -7914,3 +7914,173 @@ No new whitelist politician buys found in last 30 days. Pelosi not running for r
 - **Sector priority**: NVDA (AI confirmed by MSFT) > KLAC (semi equipment, cash permitting)
 - **Cash**: ~$35K available → 1 new position max (NVDA preferred)
 
+---
+
+## 2026-07-31 - Pre-market Research
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? | Notes |
+|--------|---------|------------|--------|-------|
+| AAPL | 35.877 (35 stop) | 35.877045 | ✓ | Stop $310.113 / HWM $344.57 |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ | Stop $330.093 / HWM $366.77 |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ | Stop $323.307 / HWM $359.23 |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ | Stop $393.2505 / HWM $436.945 |
+| NVDA frac | 0.433 | 0.433413 | ✓ | No stop; floor $191.27 |
+| Crypto (BTC/ETH/SOL/LINK) | — | present | FILTERED | Off-limits — DCA sleeve |
+
+Clean. No overnight stop-outs. All GTC trailing stops confirmed active (AAPL bbdb4df3, GE df184923, JPM 1a5b3205, UNH ac627db0).
+
+### Account (live — Alpaca Jul 31 pre-market)
+- Equity: $109,317.17
+- Cash: $33,902.48
+- Buying power: $310,262.76 (4x margin)
+- Non-marginable buying power: $64,945.33
+- Daytrade count: 0/3
+- Long market value: $75,414.69 (incl. crypto ~$13,032; stocks only ~$62,382)
+- Stock deployed: ~57.1% ($62,382 / $109,317) — below 75-85% target
+- Phase P&L: +$9,317 (+9.32% from $100K baseline)
+- Day P&L vs Jul 30 EOD ($111,258.32): -$1,941.15 (-1.75%) — AAPL gap-down driving
+
+### Market Context (pre-market Jul 31)
+- **WTI**: ~$82-84/bbl (front month; -0.85% pre-mkt). Brent ~$85 (-1.12%). Oil easing on US-Iran negotiation signals.
+- **ES futures** (Sep 2026): ~7,373-7,393 (+0.30% from Jul 30 settlement). AMZN +6-8% AH lifting tech; AAPL -6% dragging.
+- **NQ**: Mixed — AMZN beat offsetting AAPL drag; net neutral to slight negative
+- **VIX**: ~18.67 (Jul avg). Elevated but not spiking.
+- **10Y yield**: 4.707% — elevated; headwind for high-multiple tech
+
+### Yesterday's Data (Jul 30 — already released)
+| Release | Estimate | Actual | Signal |
+|---------|----------|--------|--------|
+| Q2 GDP Advance | +2.3% | **+1.5%** | MISS — growth slowdown |
+| GDP Price Index | +3.6% | **+6.3%** | HOT — stagflation signal |
+| Core PCE MoM Jun | +0.2% | **+0.1%** | BEAT — disinflation |
+| Personal Income MoM | +0.3% | +0.2% | slight miss |
+| Personal Spending MoM | +0.3% | +0.3% | in-line |
+
+⚠ **STAGFLATION SIGNAL**: GDP 1.5% (far below 2.3% est) + GDP Deflator 6.3% (far above 3.6% est). Core PCE disinflating (0.1% MoM) is a partial offset. Net: growth weakening while embedded inflation remains sticky.
+
+### Today's Releases (Jul 31)
+| Time ET | Release | Prior | Est | Direction |
+|---------|---------|-------|-----|-----------|
+| 8:30 AM | **Employment Cost Index Q2** | 1.2% | 1.1% | **GATING EVENT** — if hot (>1.2%), NVDA entry blocked |
+| 9:45 AM | Chicago Business Barometer Jul | — | — | secondary |
+| 10:00 AM | UMich Consumer Sentiment (revised) Jul | — | — | secondary |
+
+**Next major: Nonfarm Payrolls Aug 7 (post-close this week).**
+
+### Earnings Reactions (AMC Jul 30 — now resolved)
+**AAPL Q3 FY2026** — MIXED BEAT:
+- Revenue: $109.4B vs $108.8B est → BEAT (+0.6%)
+- EPS: $2.02 vs $1.89 est → BEAT (+6.9%); BUT includes $0.11/sh tariff refund tailwind (normalized EPS: ~$1.91 = barely beat)
+- Gross Margin: 50.1% vs 48.1% → BEAT; but +2pp from tariff refund (normalized: ~48% = in-line)
+- **Services: $30.7B vs $31.4B est → MISS** (highest-margin segment)
+- **Greater China: $18.8B vs $19.5B est → MISS**
+- **Q4 guidance: Soft/disappointing** vs elevated $5T market cap expectations
+- Stock reaction: pre-market -6.34% ($333.43 → $312.29)
+- Thesis impact: **PARTIALLY BROKEN** (Services miss + China miss + soft guide)
+
+**AMZN Q2 2026** — STRONG BEAT:
+- Revenue: $200.6B vs $197B est (+20% YoY) → BEAT
+- AWS: $42.2B (+37% YoY, fastest growth in 18 quarters) — MASSIVE AI demand confirmation
+- EPS: $5.75 vs $1.82 est (includes $53.4B Anthropic investment gains — one-time)
+- Q3 guidance: $197-202B vs $204.1B est → MISS on guidance (Prime Day calendar timing effect)
+- Stock reaction: AH +6-8% (~$240 from ~$226 close)
+- Thesis impact: AI cloud demand STRONGLY CONFIRMED
+
+### Open Position Status (pre-market Jul 31)
+| Ticker | Shares | Entry | Pre-mkt | P&L% | -7% Floor | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|-----------|------------|-----|--------|
+| AAPL | 35.877 | $312.42 | $312.29 | -0.04% | $290.55 | $310.113 (bbdb4df3, 10%) | $344.57 | ⚠️ NEAR STOP — $2.18 above |
+| GE | 47.982 | $348.94 | $356.50 | +2.17% | $324.51 | $330.093 (df184923, 10%) | $366.77 | HOLD |
+| JPM | 49.522 | $334.00 | $351.65 | +5.28% | $310.62 | $323.307 (1a5b3205, 10%) | $359.23 | HOLD |
+| UNH | 39.363 | $425.34 | $420.86 | -1.05% | $395.57 | $393.2505 (ac627db0, 10%) | $436.945 | HOLD |
+| NVDA frac | 0.433 | $205.67 | $197.55 | -3.95% | $191.27 | none | — | HOLD — improving |
+
+### AAPL Stop Tightening / Cut Check
+- Pre-mkt $312.29; stop $310.113; cushion = $2.18 (0.7%)
+- Trailing HWM $344.57 × 0.90 = $310.11 — stop is set correctly
+- -7% cut threshold from ENTRY: $312.42 × 0.93 = $290.55 — NOT triggered
+- Thesis partially broken (Services miss, China miss, soft guide) but headline beat
+- Decision: **LET STOP HANDLE IT**. If gaps below $310.11 at open → exits with minimal loss from entry. No manual cut unless price breaks $290.55 (hard rule).
+- Note: Gap risk — if AAPL opens at $305, stop fills at ~$305 (below the $310.11 trigger), realizing small loss from entry.
+
+### Stop Tightening Check
+- GE +2.17%: tighten at +15% = $401.28; HWM $366.77. Not triggered.
+- JPM +5.28%: tighten at +15% = $384.10; HWM $359.23. Not triggered.
+- UNH -1.05%: N/A.
+- AAPL +8.19% from entry (HWM was $344.57) → tighten at +15% = $359.28; HWM $344.57 = below trigger. No action.
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal Level |
+|------------|--------|--------|------|------------|-----------|--------------|
+| **Nancy Pelosi** | **INTC** | BUY (calls $50 strike Mar 2027) | $1M–5M | May 29 | Jun 24 | **CANCELLED** — INTC ~$86 (-34% from Jun); thesis broken |
+| **Nancy Pelosi** | **UBER** | BUY (calls $50 strike Mar 2027) | $500K–1M | May 29 | Jun 24 | Watchlist only — Cons. Disc = Least Favored; no momentum |
+
+No new whitelist politician buys found in last 30 days. All other whitelisted politicians: no qualifying trades. Pelosi not running for re-election — final disclosures window.
+
+### Live Price Verification (STEP 3d — Alpaca quotes)
+| Ticker | Source | Price | Entry | Stop (10%) | Target (+20%) | R:R | Status |
+|--------|--------|-------|-------|------------|---------------|-----|--------|
+| AAPL | position API | $312.29 | $312.42 | stop $310.11 GTC | $374.90 | — | HOLD / stop near |
+| NVDA | position API | $197.55 | $205.67 (frac) | $177.80 (entry -10%) | — | — | HOLD frac |
+| NVDA (new) | position $197.55 | **~$197-200** | — | ~$178 (10% below ~$198) | ~$237 | 2:1 | CONDITIONAL BUY |
+| AMZN | AH quote 8PM | $240.32 (mid) | prior close ~$226.65 | — | — | SKIP — +6% gap |
+| GE | position API | $356.50 | $348.94 | $330.09 | $418.73 | — | HOLD |
+| JPM | position API | $351.65 | $334.00 | $323.31 | $400.80 | — | HOLD |
+| UNH | position API | $420.86 | $425.34 | $393.25 | $510.41 | — | HOLD |
+
+### Trade Ideas
+1. **NVDA — CONDITIONAL BUY at market open** (Gate: ECI ≤ 1.2% at 8:30 AM)
+   - Catalyst: MSFT Azure +43% (AMC Jul 28) + AMZN AWS +37% (AMC Jul 30) = dual hyperscaler AI demand confirmation. Strongest signal in months. NVDA Aug 26 earnings = upcoming hard catalyst.
+   - **ECI gate**: If Employment Cost Index Q2 > 1.2% (wage inflation accelerating) → DEFER to Monday; stagflation risk dominates
+   - If ECI ≤ 1.2% (benign) → BUY at 9:31 AM open. Verify live ask before sizing.
+   - Sizing: 15% of equity = $16,397 → at $198 = **82 shares** (integer); at $200 = **81 shares**
+   - Stop: 10% GTC trailing on 81-82 integer shares
+   - Target: +20% = ~$237-240; R:R 2:1
+   - Live price to use: verify ask at open (not $197.55 pre-market estimate)
+   - Post-entry deployment: ~71.7% (within 75-85% target range)
+   - Sector: IT. Portfolio IT allocation post-entry: ~$27,300/~$109K = 25% — well under 60% cap ✓
+   - Trade slots: 0/7 used this week; adding 1 → 1/7 ✓
+
+2. **AMZN — SKIP** (gap rule)
+   - AH quote ~$240 vs prior close ~$226.65 = +5.9% gap → exceeds 5% threshold → SKIP
+   - Q3 guidance miss also limits near-term upside. Watchlist for pullback week of Aug 3.
+
+3. **AAPL — No action** (let stop handle exit if price falls)
+   - Partial thesis break noted but headline beat limits conviction in manual cut
+   - Stop at $310.11 = correct protective mechanism; $2.18 above current
+
+### Sector Momentum (YTD Jul 24, 2026)
+| Sector | YTD% | Schwab View |
+|--------|------|-------------|
+| Energy | +35.3% | Neutral |
+| Industrials | +18.3% | More Favored ✓ |
+| Real Estate | +17.4% | Least Favored |
+| IT/Technology | +16.5% | Neutral |
+| Materials | +10.9% | More Favored |
+| Consumer Staples | +9.2% | Neutral |
+| Healthcare | +6.8% | More Favored ✓ |
+| Financials | +4.4% | Neutral |
+| Communications | -3.6% | More Favored |
+| Consumer Disc | -6.5% | Least Favored |
+
+Portfolio alignment: GE (Industrials ✓), UNH (Healthcare ✓), JPM (Financials neutral), AAPL/NVDA (IT neutral).
+
+### Risk Factors
+1. **ECI hot print (>1.2%)**: Stagflation confirmed → NQ selloff → NVDA entry blocked; all tech positions under pressure
+2. **AAPL gap-down below stop ($310.11)**: Position exits with minimal loss; reduces tech weight
+3. **GDP Price Deflator 6.3%**: Fed dissenters (3 of 12) already wanted to hike; any more hot data → hike risk rises → growth stocks re-rate
+4. **10Y yield 4.707%**: Compressing multiples on high-PE tech (NVDA P/E ~35x, AAPL ~32x)
+5. **AMZN Q3 guidance miss ($197-202B vs $204B)**: Partial cloud growth deceleration narrative; may cap AMZN AH gains
+6. **Oil $83-84/bbl + Iran**: Elevated energy costs = margin pressure for consumer/airlines; secondary risk
+7. **Monthly crypto/BTC options expiry today (Jul 31 8AM UTC)**: Pre-expiry volatility in crypto — no impact on our stock book but macro noise
+
+### Decision
+**HOLD**: GE, JPM, UNH — theses intact, stops active
+**MONITOR**: AAPL — let GTC stop $310.11 handle exit decision; no manual cut
+**HOLD**: NVDA frac — above -7% floor, improving
+**CONDITIONAL BUY: NVDA** at open IF ECI ≤ 1.2% at 8:30 AM ET
+- 81-82 integer shares, live price at open, 10% GTC trailing stop, target +20%
+**SKIP**: AMZN — gap rule (>5%)
+**Default: HOLD if ECI hot**
+
