@@ -6937,3 +6937,76 @@ No exits. All quantities match. Clean.
 | NVDA | 0.433 (frac) | $205.67 | $197.39 | +$7.38 (+3.88%) | −$3.59 (−4.03%) | none |
 
 **Notes:** AAPL earnings AMC Jul 29 triggered −7.09% gap down today ($338.19 → $314.21); GTC trailing stop at $310.113 survived (1.3% cushion). GE, JPM, UNH all green (+1.20%, +1.77%, +0.46%). NVDA frac bounced +3.88% to $197.39, now −4.03% from entry (safely above −7% floor $191.27). No new trades; 0/3 entries this week. Portfolio 31% cash vs 75-85% target — dry powder available. Tonight: AMZN AMC earnings (AI demand read). Tomorrow: evaluate NVDA re-entry if AMZN beats + macro benign; watch AAPL stop $310.113 closely.
+
+---
+
+## 2026-07-31 - Reconciliation (Market-Open)
+
+| Ticker | Log Qty | Broker Qty | Cause | Realized P&L |
+|--------|---------|------------|-------|--------------|
+| AAPL | 35.877 (35 stop) | 0.877 | Trailing stop bbdb4df3 fired @ $301.85 (gap-down below $310.113 trigger; paper fill 2m57s after open) | 35 × ($301.85 − $312.42) = **−$369.95** |
+| TSM frac | 0.739 | 0 | Pre-market sell order (Jul 30 open) confirmed — per Jul 31 pre-market log | 0.739 × ($392.98 − $412.70) = **−$14.58** (per prior log) |
+| GE | 47.982 | 47.982 | ✓ Match | — |
+| JPM | 49.521 | 49.521 | ✓ Match | — |
+| UNH | 39.363 | 39.363 | ✓ Match | — |
+| NVDA frac | 0.433 | 0.433 | ✓ Match | — |
+
+- AAPL total realized P&L: Jul 20 partial +$271.32 + Jul 31 stop −$369.95 = **−$98.63 net on AAPL**
+- Crypto (BTC/ETH/SOL/LINK) filtered — OFF-LIMITS. No stock discrepancies.
+
+---
+
+## 2026-07-31 - Market-Open Session (Day 74, Thursday)
+
+**Portfolio:** $108,846.37 equity | **Cash:** $28,129.20 (25.8%) | **Positions:** 4 stocks | **Deployed:** ~62.2% stocks | **Phase P&L:** +$8,846.37 (+8.85%)
+
+### Step 0 — Reconciliation
+(See reconciliation section above — AAPL stop fired, TSM frac confirmed sold Jul 30.)
+
+### Step 1b — Live Price Re-Verification (~9:31 AM ET)
+| Ticker | Entry | Live Ask | P&L% | -7% Floor | Stop (GTC) | Status |
+|--------|-------|----------|------|-----------|------------|--------|
+| AAPL frac | $312.42 | $302.00 | −3.4% | $290.55 | none (frac) | HOLD — tiny remnant |
+| GE | $348.94 | $358.50 | +2.7% | $324.51 | $330.093 (df184923) | HOLD ✓ |
+| JPM | $334.00 | $350.71 | +5.0% | $310.62 | $323.307 (1a5b3205) | HOLD ✓ |
+| UNH | $425.34 | $419.76 | −1.3% | $395.57 | $393.2505 (ac627db0) | HOLD ✓ |
+| NVDA (new) | — | $199.84 | — | — | — | BUY — ECI gate cleared |
+
+**ECI gate**: Q2 2026 = **0.9% QoQ** (Haver/BLS, released 8:30 AM) — below 1.2% threshold → NVDA entry CLEARED ✓
+
+### Step 3 — Hard Rule Checks (NVDA new entry)
+- Positions after trade: 4 full + 1 frac (AAPL) = effectively 4 full ≤ 6 ✓
+- Trades this week: 0 prior + 1 (NVDA) = 1/7 ✓
+- Position notional: 15% × $108,920 = $16,338 ✓
+- Catalyst: MSFT Azure +43% (Jul 28 AMC) + AMZN AWS +37% (Jul 30 AMC) = dual hyperscaler AI demand confirmation ✓
+- NVDA delta from planned entry ($197-200): $199.84 = within range (<5%) ✓
+- IT sector concentration: NVDA $16,338 / $108,846 = 15.0% → well under 60% cap ✓
+- Daytrade count: 0/3 ✓
+
+### Trades Executed
+
+| # | Date | Ticker | Side | Shares | Entry | Stop | Target | R:R | Thesis |
+|---|------|--------|------|--------|-------|------|--------|-----|--------|
+| 1 | 2026-07-31 | NVDA | BUY | 81.758 | $199.833 | $179.163 (10% trail, 30f07262) | $239.80 (+20%) | 2:1 | MSFT Azure +43% + AMZN AWS +37% = dual hyperscaler AI demand confirmation; ECI 0.9% benign; NVDA Aug 26 earnings hard catalyst; Blackwell/Vera Rubin ramp ongoing |
+
+### Stops Placed (GTC trailing)
+- NVDA: **81 integer shares**, 10% trail, initial stop **$179.163** (HWM $199.07) — order ID **30f07262**
+- Note: 0.758 fractional + 0.433 existing frac = 1.191 fractional shares uncovered by stop
+
+### AAPL Stop Execution (reconciled above)
+- 35 shares sold @ $301.85 (gap-down fill; stop trigger was $310.113)
+- Realized P&L: **−$369.95** | Remaining: 0.877 frac (no stop, tiny; will let ride)
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL frac | 0.877 | $312.42 | none | — | — |
+| 2 | GE | 47.982 (47 stop) | $348.94 | $330.093 (10% trail, df184923) | $366.77 | $418.73 (+20%) |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $323.307 (10% trail, 1a5b3205) | $359.23 | $400.80 (+20%) |
+| 4 | NVDA | 82.192 (81 stop) | $199.864 blended | $179.163 (10% trail, 30f07262) | $199.07 | $239.80 (+20%) |
+| 5 | UNH | 39.363 (39 stop) | $425.34 | $393.2505 (10% trail, ac627db0) | $436.945 | $510.41 (+20%) |
+
+- Trades this week: 1/7 (NVDA Jul 31)
+- Deployed: ~62.2% stocks ($67,740 / $108,846) — below 75-85% target; 4 full positions
+- Stop tightening triggers: GE +15% = $401.28; JPM +15% = $384.10; NVDA +15% = $229.81; UNH +15% = $489.14 — none reached
+- Watch: NVDA Aug 26 earnings — key upcoming catalyst; stop protects downside
