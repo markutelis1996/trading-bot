@@ -754,3 +754,80 @@ Deployment: ~60.5% stocks ($67,081 / $110,846) -- below 75-85% target; 4 positio
 - Phase P&L: +$10,846.21 (+10.85%) -- still ahead of benchmark (checkmark)
 
 ---
+
+## Week ending 2026-08-01
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $112,877 (Mon Jul 27 AM equity) |
+| Ending portfolio | $108,730 (Fri Jul 31 EOD) |
+| Week return | -$4,147 (-3.67%) |
+| S&P 500 week | +~1.0% |
+| Bot vs S&P | -4.67% underperformance |
+| Trades | 1 new entry (W:0 / L:4 closed / open:5) |
+| Win rate | 0% (0/4 closed trades) |
+| Best open position | JPM +5.3% unrealized |
+| Worst closed trade | TSM -7.24% (stop-out) |
+| Profit factor | N/A (no realized winners this week) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| NVDA (80sh) | $205.67 (Jul 14) | $192.951 (Jul 28 trail) | -$1,017.52 | -6.22% | 10% trail fired overnight; OpenAI financing concern ($250-350B credit guarantee) + macro chip selloff |
+| TSM (40sh) | $412.70 (Jul 17) | $382.842 (Jul 28 trail) | -$1,194.32 | -7.24% | 10% trail fired overnight; July valuation reset despite record Q2 ($40.2B rev, GM 67.7%) |
+| TSM frac (0.739sh) | $412.70 (Jul 17) | $392.98 (Jul 30 manual) | -$14.58 | -4.79% | Manual cut; -7% rule breached on fractional remnant (no stop on Alpaca fracs) |
+| AAPL (35sh) | $312.42 (Jul 7) | $301.85 (Jul 31 trail) | -$369.95 | -3.38% | 10% trail fired at open Jul 31; earnings gap-down -7.09% filled below $310.11 trigger; gap slippage $8.26 |
+| **Total** | | | **-$2,596.37** | | All 4 closed trades were losses |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close (Jul 31) | Unrealized | Stop | HWM |
+|--------|--------|-------|----------------|------------|------|-----|
+| AAPL frac | 0.877 | $312.42 | $309.12 | -$2.89 (-1.05%) | none (frac) | — |
+| GE | 47.982 (47 stop) | $348.94 | $360.07 | +$534.13 (+3.19%) | $330.09 (10% trail, df184923) | $366.77 |
+| JPM | 49.522 (49 stop) | $334.00 | $351.79 | +$880.99 (+5.33%) | $323.31 (10% trail, 1a5b3205) | $359.23 |
+| NVDA | 82.192 (81 stop) | $199.86 blended | $200.40 | +$44.05 (+0.27%) | $181.76 (10% trail, 30f07262) | $201.95 |
+| UNH | 39.363 (39 stop) | $425.34 | $415.58 | -$384.19 (-2.29%) | $393.25 (10% trail, ac627db0) | $436.95 |
+
+Deployment: 62.3% stocks ($67,511 / $108,730) — below 75-85% target; 24.5% cash
+
+### What Worked
+- FOMC blackout (Jul 23-29) correctly prevented new entries during hawkish Warsh HOLD (9-3 vote with 3 dissenters wanting hike); market sold off post-decision; no capital wasted chasing
+- GTC trailing stops functioned exactly as designed: NVDA and TSM fired overnight without manual intervention; AAPL stop fired at open post-earnings; all exits were automatic
+- NVDA re-entry Jul 31 was disciplined: waited for ECI gate (0.9% QoQ, benign), dual hyperscaler confirmation (MSFT Azure +43%, AMZN AWS +37%), and clear catalyst thesis before re-entering
+- TSM frac manual cut applied correctly: -8.22% fractional remnant triggered -7% rule; manual sell order submitted pre-market, filled at open — discipline maintained even on tiny positions
+- JPM and GE theses intact all week: JPM +5.3% unrealized, GE +3.2% — financials/industrials holding while semis corrected
+
+### What Didn't Work
+- Stop cascade Tuesday morning: NVDA and TSM both trailed out overnight Jul 27-28 for combined -$2,211.84; both were at 1-2% cushion at Jul 27 close — no room to breathe through pre-market weakness
+- AAPL earnings gap slippage: stop trigger $310.11 but filled $301.85 (-2.66% slippage); earnings gap risk cannot be avoided with standard trailing stops; gap-down costs are structurally larger than the stop implies
+- Week return -3.67% vs S&P +1.0% = -4.67% underperformance — worst weekly performance of the challenge
+- FOMC hawkish surprise (Warsh, 3 dissenters hawkish) amplified the selloff that triggered NVDA/TSM stops; could not deploy replacement positions during blackout
+- UNH -2.29% unrealized; MCR thesis intact but DOJ Medicare review uncertainty continues to overhang; position has not worked since entry Jul 20
+
+### Key Lessons
+- **Earnings gap risk is structural**: Trailing stop triggers don't protect against gap fills. AAPL stop $310.11 filled at $301.85 (-2.66% below trigger). On binary earnings events, the stop is the floor but the actual exit price can be significantly worse. Consider pre-earnings partial exits when +15%+ unrealized (AAPL was +8.9% and the rule to take 1/3 at +25% wasn't triggered — that's the right standard, but earnings proximity adds hidden tail risk).
+- **NVDA/TSM stop cascade was sequencing + timing**: Both positions were at 1-2% cushion to stops at Jul 27 close (NVDA $192.95 stop vs $194.43 close; TSM $382.84 stop vs $389.13 close). Pre-market FOMC expectations moved them overnight. When two semiconductor positions share the same macro narrative, they stop out together. Avoid holding two semis simultaneously (confirmed lesson from Week Jul 18 review).
+- **FOMC hawkish blackout amplification**: Jul 23-29 blackout prevented both entering and defending the book. The combination of hawkish FOMC + earnings binary + stop cascade in a single week created maximum portfolio damage with no ability to redeploy. This is the nature of the 6-day blackout window.
+- **NVDA re-entry timing was correct**: Waiting for ECI + dual hyperscaler confirmation before re-entering NVDA (despite the temptation to re-enter earlier) produced a disciplined entry at $199.83 vs the stop-out at $192.95. Context was substantially cleaner after MSFT/AMZN confirmed AI CapEx.
+- **TSM sell-the-news is now 2x confirmed**: Both Jul 17 entry and subsequent stop-out confirm that TSM reacts poorly to beat-and-capex-guidance despite strong fundamentals. AVOID TSM entries immediately post-earnings beat in near-term valuation-reset environment.
+
+### Adjustments for Next Week
+- **NVDA**: Fresh entry at $199.83; 10% trail (30f07262, $181.76 stop, HWM $201.95). Aug 26 earnings is key catalyst. Target +20% = $239.80. Monitor but no action needed unless +15% trigger $229.81 reached.
+- **UNH**: -2.29% unrealized; stop $393.25 (7.6% cushion). DOJ Medicare overhang persists. If drops below -7% floor $395.57, manual cut. Watch for DOJ resolution news.
+- **GE + JPM**: Both performing. GE +3.19% (target $418.73 +20%); JPM +5.33% (target $400.80 +20%). No action; let trailing stops run.
+- **Deployment target 75-85% by week end**: Currently 62.3%; $26,688 cash available. Priority: one additional quality entry Mon/Tue if macro benign. KLAC was identified as candidate (beat+raise Jul 28); re-evaluate. Avoid: TSM (sell-the-news pattern confirmed x2).
+- **Semi sector cap**: NVDA now 15.2% of portfolio. Adding another semiconductor (KLAC, AMD) would reach ~30%; within 60% cap but watch sector correlation.
+- **AAPL frac ($271 value)**: Holding 0.877 shares post-stop; negligible; let ride to zero stop.
+
+### Overall Grade: D+
+- All rule violations caught and executed correctly (FOMC blackout, -7% cuts, stop discipline) ✓
+- NVDA re-entry thesis quality was high ✓
+- GE and JPM theses intact ✓
+- -3.67% vs S&P +1.0% = -4.67% underperformance ✗ (worst week of challenge)
+- 0% win rate on 4 closed trades ✗
+- Stop cascade + earnings gap cost $2,596 in realized losses ✗
+- Deployment 62.3% (below 75-85% target for 9th consecutive week end) ✗
+- Phase P&L: +$8,730 (+8.73%) — lead over benchmark narrowing ✗
+
+---
