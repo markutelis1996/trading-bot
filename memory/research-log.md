@@ -499,6 +499,109 @@ Note: AH spreads are wide/unreliable. Use open prints at market open for actual 
 
 ---
 
+## 2026-08-04 - Pre-market Research
+
+### Account
+- Equity: $109,024.18
+- Cash: $26,688.22 (24.5%)
+- Buying power: $297,504.62 (margin) / $121,502.06 (RegT)
+- Daytrade count: 0/3
+- Stock deployed: ~$68,124 (62.5%) — below 75-85% target
+- Crypto sleeve: ~$14,212 (BTC/ETH/SOL/LINK — UNTOUCHABLE)
+- Phase P&L: +$9,024 (+9.02%)
+- Trades this week: 1/7 (NVDA Jul 31)
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| GE | 47.982 (47 stop) | 47.982 | ✓ |
+| JPM | 49.521 (49 stop) | 49.522 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.192 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363 | ✓ |
+| Crypto | FILTERED | — | OFF-LIMITS (DCA sleeve) |
+
+Clean. No discrepancies. GTC stops active:
+- NVDA 30f07262: $181.755, HWM $201.95 (updated from $199.07 in log)
+- GE df184923: $330.093, HWM $366.77
+- JPM 1a5b3205: $323.307, HWM $359.23
+- UNH ac627db0: $393.2505, HWM $436.945
+
+### Position Status
+| Ticker | Entry | Current | P&L% | -7% Floor | Stop | Status |
+|--------|-------|---------|------|-----------|------|--------|
+| AAPL frac | $312.42 | $308.62 | -1.2% | $290.55 | none (frac) | HOLD — letting ride |
+| GE | $348.94 | $363.08 | +4.05% | $324.51 | $330.093 (10% trail) | HOLD |
+| JPM | $334.00 | $353.74 | +5.91% | $310.62 | $323.307 (10% trail) | HOLD |
+| NVDA | $199.864 | $201.97 | +1.05% | $185.87 | $181.755 (10% trail) | HOLD |
+| UNH | $425.34 | $414.44 | -2.56% | $395.57 | $393.2505 (10% trail) | HOLD — watch |
+
+No -7% cuts triggered. No +15% tightening triggers reached.
+
+### Market Context (pre-market Aug 4)
+- **WTI Sep 2026**: ~$84-87 (+1-2.5%) — elevated on Houthi attacks on Saudi tankers; Middle East tensions (US-Iran frictions); WTI day range $81.06-$86.45
+- **Brent**: ~$87-88 (+1.19%)
+- **ES Sep (Jul 31 close)**: $7,519 (+0.69% on day); premarket Aug 4 ~$7,503 (-0.21%)
+- **NQ Sep (Jul 31 close)**: $28,404 (+0.59% on day); premarket ~$28,287 (-0.41%)
+- **VIX (Jul 31 close)**: 15.99 (-6.44% on day); prior 17.09 — LOW/calm; 52w range 13.38-35.30
+- **S&P 500 (Jul 31)**: 7,489.72 (+0.70%) — AMZN led megacaps; index back above 20/50d MA
+- **ISM Manufacturing Jul (released Aug 3)**: **54.0** (vs prior 53.3, est 54.0) — BEAT; 6th consecutive month expansion
+
+### Economic Calendar (Aug 4)
+- 8:30 AM: Trade Balance (Jun) — neutral
+- 10:00 AM: JOLTS Job Openings (Jun) — consensus 3.05M, prior 3.065M; slight miss expected; neutral
+- **AMC TODAY: SPCX Q2 earnings** — SpaceX first public earnings ($1.5T mkt cap); triggers $109B insider lockup unlock starting Aug 6 (911.5M shares). Est EPS -$0.20. NOT a trade — binary + lockup selling pressure
+- **Fri Aug 7: NFP** — major binary event this week
+- Aug 12: CPI | Aug 26: NVDA earnings + GDP
+
+### Earnings BMO
+None major (S&P 500 companies)
+
+### Thesis Checks
+- **GE**: Q2 beat; FCF guide raised to $8.9-9.2B (7th raise since Jan 2024); 32% commercial services H1; AI supply chain automation. IBD Aug 1: "near buy points, relative strength." **INTACT**
+- **JPM**: Record Q2 EPS; banking recovery; rate environment favorable. **INTACT**
+- **NVDA**: MSFT Azure +43% + AMZN AWS +37% dual hyperscaler confirmation. Aug 26 earnings upcoming. Vera Rubin ramp H2 2026. FY2027 revenue consensus $388-394B (+80% YoY). **INTACT**
+- **UNH**: Q2 raised FY adj EPS guide to $19.50-20.00 (vs prior >$18.25). Management revamp paying off. -2.56% from entry. Stop $393.25 (HWM $436.945). -7% floor $395.57 — 5.1% cushion above stop. **INTACT — monitoring**
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal |
+|------------|--------|--------|------|------------|-----------|--------|
+| Pelosi | INTC | BUY | $1M-5M | May 29 | Jun 24 | 41 days since disclosure — INTC bid $85.98 AH (crashed -38% from ~$138 signal zone); thesis broken; SKIP |
+| Pelosi | UBER | BUY | $500K-1M | May 29 | Jun 24 | 41 days since disclosure — AH bid $66.26/ask $73.77 (illiquid); Cons. Disc. = Least Favored sector; watchlist only |
+| McCaul | Fixed income/bonds | BUY | $500K-1M | Jun 2026 | Jul 13 | No qualifying single-stock equity buys |
+| Crenshaw | META buy, multiple sells | tiny | Apr-Jun | Jul 17 | Below $25K threshold; trades < $15K each |
+| Khanna | AMZN, NVDA, META | $1K-15K | Jun | Jul | Below $25K threshold |
+
+No new whitelist signals since Jul 1 research.
+
+### Live Price Verification (STEP 3d)
+| Ticker | Alpaca Quote | Notes |
+|--------|-------------|-------|
+| INTC | bid $85.98 (AH illiquid, ask $0) | Crashed ~-38% from Jun signal zone ~$138. SKIP. |
+| AVGO | bid $367.46 / ask $407.14 (AH) | 10% spread — illiquid. Not priceable today. Watchlist. |
+| UBER | bid $66.26 / ask $73.77 (AH) | 10% spread — illiquid. Cons. Disc. = Least Favored. Watchlist. |
+
+AH quotes unreliable for all candidates. No actionable entry prices.
+
+### Trade Ideas
+**None today.** Deployment gap (62.5% vs 75-85% target) acknowledged but risk/reward favors waiting:
+- SPCX lockup starts Aug 6 → could pressure tech Wed-Thu
+- NFP Friday Aug 7 → entering today = 2 binary risks in 3 days
+- AH quotes illiquid; need day-session prices for clean entry
+
+### Risk Factors
+- **SPCX lockup**: $109B insider shares unlock Aug 6 — potential tech/growth sector headwind
+- **NFP Aug 7**: Binary event; could gap positions on Monday open
+- **Oil $85-87**: Middle East Houthi tanker attacks; positive for Energy, neutral for our positions
+- **NQ premarket -0.41%**: Mild tech headwind today
+- **UNH -2.56%**: Above -7% floor but worth monitoring; stop $393.25 active
+
+### Decision
+**HOLD ALL. NO NEW ENTRIES TODAY.**
+- Strategy: maintain 4 stock positions; let stops manage risk through SPCX/NFP binary events
+- Review Monday Aug 10 post-NFP: evaluate AVGO or UBER with day-session quotes if sector momentum holds
+- AVGO watchlist: AI chip/networking; 70-72% EPS growth FY2026; no politician signal but strong sector momentum
+
 ## YYYY-MM-DD - Pre-market Research
 
 ### Account
