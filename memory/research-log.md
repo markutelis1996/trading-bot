@@ -8187,3 +8187,95 @@ Portfolio alignment: GE (Industrials ✓), UNH (Healthcare ✓), JPM (Financials
 **SKIP**: AMZN — gap rule (>5%)
 **Default: HOLD if ECI hot**
 
+## 2026-08-04 - Pre-market Research
+
+### Account
+- Equity: $109,941 | Cash: $25,247 (23%) | Long MV: $84,694
+- Buying power: $293,896 | Daytrade count: 0/3
+- Deployed: ~77% (within 75-85% target ✓)
+- Phase P&L: +$9,941 (+9.94%)
+- Trades this week: 0/7
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Status | Notes |
+|--------|---------|------------|--------|-------|
+| AAPL frac | 0.877 | 0.877045 | ✓ Match | |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ Match | HWM trailed $366.77→$369.935; stop auto-updated $330.093→$332.941 |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ Match | Stop unchanged $323.307 |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ Match | HWM trailed $201.95→$208.74; stop auto-updated $181.755→$187.866 |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ Match | Stop unchanged $393.2505 |
+| Crypto | FILTERED | — | OFF-LIMITS (DCA sleeve) |
+
+No exits. All GTC stops active and correctly ratcheted. Clean.
+
+### Market Context (pre-market Aug 4)
+- **WTI**: ~$79-80/bbl (−5-7% on Iran ceasefire news) | **Brent**: ~$83-84/bbl
+  - Trump cancelled planned Iran attack weekend Aug 2-3; negotiations started; Hormuz to reopen
+- **S&P 500**: Closed +1.50% at 7,602 on Aug 3 (Iran peace rally); futures mildly positive +0.2%
+- **NQ100**: Closed +2.13% Aug 3; futures modest
+- **VIX**: 15.81 (−1.13%) — low, risk-on, declining from ~19-20 during Iran escalation
+- **ISM Manufacturing July (Aug 3)**: 55.6 vs 54.0 est → BEAT; strong expansion signal
+- **Today's releases (Aug 4)**: Trade Balance June 8:30 AM (est −$76.5B); Factory Orders 10:00 AM — both minor
+- **Key risk this week**:
+  - **AMD Q2 earnings AMC tonight (Aug 4)** — major semi binary; 47% rev growth est ($11.3B); AMD up +130% YTD at 75x forward P/E = elevated expectations
+  - **SPCX (SpaceX) earnings AMC Wed Aug 5** — lockup risk, stock −20% from $135 IPO
+  - **NFP Friday Aug 7 8:30 AM** — est 110K vs prior 57K; FOMC rate hike risk if hot
+- **Earnings BMO today**: None major
+- **Sector momentum (Jul 24 YTD)**: Industrials +18.3% (More Favored ✓), Healthcare +6.8% (More Favored ✓), IT +16.5% (Neutral), Financials +4.4% (Neutral), Consumer Disc −6.5% (Least Favored). Iran ceasefire: positive for Industrials (airlines, aerospace); negative for Energy.
+
+### Position Status (using Aug 3 regular session closes)
+| Ticker | Shares | Entry | Last Close | P&L% | −7% Floor | Stop (GTC) | HWM | Status |
+|--------|--------|-------|-----------|------|-----------|------------|-----|--------|
+| AAPL frac | 0.877 | $312.42 | $304.65 | −2.49% | $290.55 | none (frac) | — | HOLD |
+| GE | 47.982 | $348.94 | $369.20 | +5.80% | $324.51 | $332.941 (10% trail, df184923) | $369.935 | HOLD |
+| JPM | 49.521 | $334.00 | $353.60 | +5.87% | $310.62 | $323.307 (10% trail, 1a5b3205) | $359.23 | HOLD |
+| NVDA | 82.192 | $199.864 | $207.22 | +3.68% | $185.87 | $187.866 (10% trail, 30f07262) | $208.74 | HOLD — AMD binary tonight |
+| UNH | 39.363 | $425.34 | $415.89 | −2.22% | $395.57 | $393.2505 (10% trail, ac627db0) | $436.945 | HOLD |
+
+Stop tightening check:
+- GE +5.80% → trigger at +15% ($401.28). Not triggered.
+- JPM +5.87% → trigger at +15% ($384.10). Not triggered.
+- NVDA +3.68% → trigger at +15% ($229.84). Not triggered.
+- UNH −2.22% → N/A (loss position). Above −7% floor ✓.
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal Level |
+|------------|--------|--------|------|------------|-----------|--------------|
+| Nancy Pelosi | INTC | BUY (calls) | $1M-5M | May 29 | Jun 24 | CANCELLED — INTC broken −34% from Jun highs; thesis invalidated |
+| Nancy Pelosi | UBER | BUY (calls) | $500K-1M | May 29 | Jun 24 | Watchlist — Cons. Disc = Least Favored; no momentum |
+
+No new whitelist politician buys found in last 45 days above $25K threshold in momentum sectors. No actionable signals.
+- McCaul: Last buy Feb 2026 (AAPL, $50-100K) — too old (>45 days)
+- Tuberville: Last trades Jan 2026 (NVDA, $15-50K) — too old + below $25K
+- Ro Khanna: Small trades ($1-15K) — below $25K minimum threshold
+- Gottheimer, Mast: No qualifying recent disclosures
+
+### Trade Ideas
+No new entries today. Two major binaries in next 3 days:
+1. **AMD earnings AMC tonight** → direct read on AI chip demand; impacts NVDA, entire semis. Cannot enter NVDA add or any new semi before result.
+2. **NFP Friday Aug 7** → if hot print, rate hike risk re-emerges; all high-PE growth positions under pressure.
+
+**If AMD beats strongly (Thu morning)**:
+- NVDA could gap up — sector thesis strengthening
+- Deployment at 77% = 1 slot possible if right setup
+- Candidate: evaluate if any quality setup exists Thu morning; no specific ticker pre-committed
+- Must stay under 85% deployed
+
+**STEP 3d price verification**: Held positions only; AH quotes from Aug 3 (wide spreads, not actionable). Using regular session closes above. No new entries = no new quotes required.
+
+### Risk Factors
+1. **AMD miss tonight** — AMD at 75x forward P/E, up +130% YTD; if miss → semis selloff → NVDA stop at $187.866 could be tested; current $207.22 = 9.3% above stop
+2. **NFP Friday (est 110K vs prior 57K)** — if hot (+150K+) + AHE elevated → Fed hike repricing → growth stock re-rate
+3. **SPCX lockup/earnings Wed** — IPO lockup unlock = potential selling pressure on SpaceX; ripple to aerospace sector (GE exposure)
+4. **UNH at −2.22%** — approaching but well above −7% floor ($395.57); stop $393.25 provides automatic floor; no manual action needed
+5. **Iran deal reversal risk** — Trump has cancelled deals before; any re-escalation → oil spikes → S&P selloff. Markets have "cried wolf" on this multiple times (per CNBC article).
+6. **Oil down −6%** — negative for Energy sector; no energy exposure in our book. Positive for consumer discretionary (lower fuel costs) and airlines.
+
+### Decision
+**HOLD ALL** — GE, JPM, NVDA, UNH, AAPL frac
+**NO NEW ENTRIES TODAY** — AMD binary tonight; NFP Friday = two binaries in 3 days
+**Thursday AM**: Re-evaluate after AMD result:
+  - AMD beat + NVDA positive reaction → potential 1 new entry (need live quote + specific catalyst)
+  - AMD miss → defend existing book; check if UNH or NVDA approach cut thresholds
+**Friday after NFP**: Full re-evaluation
+
