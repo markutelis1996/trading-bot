@@ -7208,3 +7208,71 @@ None. No cuts, no stop changes, no new entries.
 
 **Notes:** Quiet Tuesday, no trades. Portfolio +$1,240.85 (+1.14%) on the day; all positions positive intraday. NVDA and GE trailing stops ratcheted up since last log (NVDA HWM $201.95→$208.74, stop $181.76→$187.87; GE HWM $366.77→$369.94, stop $330.09→$332.94). JPM and UNH stops unchanged. UNH still underwater (−2.22%) but well above −7% cut threshold. Capital deployed 77.0% — within 75-85% target band. Trades this week: 0/3. Watch: NFP Aug 7 (binary macro), NVDA Aug 26 earnings.
 
+
+## 2026-08-04 - Midday Scan (2nd pass — afternoon)
+
+**Portfolio:** ~$111,200 est equity | **Cash:** $25,247 | **Positions:** 4 stocks + AAPL frac | **Deployed:** ~78% stocks
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ Match |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ Match |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ Match |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ Match |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ Match |
+| Crypto | FILTERED | — | OFF-LIMITS (DCA sleeve) |
+
+No discrepancies. GTC stops auto-trailed to new HWMs since prior midday log (all broker-managed):
+- NVDA 30f07262: stop $187.866 → **$190.954**, HWM $208.74 → **$212.171**
+- GE df184923: stop $332.941 → **$339.633**, HWM $369.935 → **$377.37**
+- JPM 1a5b3205: stop $323.307 → **$326.70**, HWM $359.23 → **$363.00**
+- UNH ac627db0: stop/HWM unchanged ($393.2505 / $436.945) — price retreating
+
+### Position Status (live afternoon prices)
+| Ticker | Shares | Entry | Current | P&L% | −7% Floor | Stop (live) | HWM (live) | Status |
+|--------|--------|-------|---------|------|-----------|-------------|------------|--------|
+| AAPL frac | 0.877 | $312.42 | $309.985 | −0.78% | $290.55 | none (frac) | — | HOLD |
+| GE | 47.982 | $348.94 | $376.575 | +7.92% | $324.51 | $339.633 (df184923) | $377.37 | HOLD |
+| JPM | 49.522 | $334.00 | $360.455 | +7.92% | $310.62 | $326.70 (1a5b3205) | $363.00 | HOLD |
+| NVDA | 82.192 | $199.864 | $211.24 | +5.69% | $185.87 | $190.954 (30f07262) | $212.171 | HOLD |
+| UNH | 39.363 | $425.34 | $410.73 | −3.44% | $395.57 | $393.2505 (ac627db0) | $436.945 | HOLD — monitoring |
+
+### Step 3 — Cuts
+None. All positions above −7% rule. UNH worst at −3.44% ($15.16 cushion to −7% floor).
+
+### Step 4 — Stop Tightening
+- GE +7.92%: trigger at +15% = $401.28. Not reached.
+- JPM +7.92%: trigger at +15% = $384.10. Not reached.
+- NVDA +5.69%: trigger at +15% = $229.84. Not reached.
+- UNH: loss position → N/A.
+No manual action. Broker trailing system updated NVDA/GE/JPM stops automatically.
+
+### Step 5 — Thesis Check
+- **GE**: New HWM $377.37. Aerospace supercycle. +7.92% unrealized. **INTACT.**
+- **JPM**: New HWM $363.00. Record Q2 EPS; banking recovery. +7.92% unrealized. **INTACT.**
+- **NVDA**: New HWM $212.17. BofA Buy/$220 PT. AMD reports AMC tonight — binary for semis. +5.69% unrealized. **INTACT.**
+- **UNH**: −3.44% from entry, −1.12% intraday (prior close $415.36 → now $410.73). Near technical support $411.16. Q2 2026 beat + FY2026 guidance raised (Jul 16 earnings call); 22/22 analyst Buy consensus, avg PT $454. No fundamental thesis break — pullback appears macro/rotation-driven post-52wk-high. Stop $393.25 provides floor (4.3% below current). **INTACT — monitoring.**
+- **AAPL frac**: −0.78%; immaterial. No stop.
+
+### Step 6 — Intraday Research
+- **AMD (AMC tonight)**: Consensus Rev $11.3B (+47% YoY), EPS $1.61 (+235% YoY). AMD stock up +6.71% today to $517 pre-print — market pricing in beat. Partners: META, MSFT, OpenAI, Anthropic, ORCL, AWS, Tencent. If AMD beats + strong Q3 guide → NVDA thesis strengthened; sector rally Wed morning. If AMD misses/disappoints guide → semis pressure; NVDA stop $190.95 provides backstop (11% below current $211.24). Strategy: hold NVDA through binary; stop manages downside.
+- **UNH**: Researched — no negative news catalyst. Technical support $411.16; break below → could test $398.48. Our stop $393.25 below that level. Normal sector rotation/profit-taking after recent 52wk highs. Thesis intact.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries. All trailing stops auto-managed by broker.
+- No ClickUp notification (no action taken).
+
+### Open Positions (unchanged from 1st midday; stops updated by broker)
+| # | Ticker | Shares | Entry | Stop (live) | HWM (live) | Target |
+|---|--------|--------|-------|-------------|------------|--------|
+| 1 | AAPL frac | 0.877 | $312.42 | none | — | — |
+| 2 | GE | 47.982 (47 stop) | $348.94 | $339.633 (10% trail, df184923) | $377.37 | $418.73 (+20%) |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $326.70 (10% trail, 1a5b3205) | $363.00 | $400.80 (+20%) |
+| 4 | NVDA | 82.192 (81 stop) | $199.864 | $190.954 (10% trail, 30f07262) | $212.171 | $239.84 (+20%) |
+| 5 | UNH | 39.363 (39 stop) | $425.34 | $393.2505 (10% trail, ac627db0) | $436.945 | $510.41 (+20%) |
+
+- Trades this week: 0/7
+- Watch: AMD AMC tonight 5 PM ET (NVDA read-through); NFP Friday Aug 7; UNH support $411.16
+
+---

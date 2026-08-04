@@ -8279,3 +8279,30 @@ No new entries today. Two major binaries in next 3 days:
   - AMD miss → defend existing book; check if UNH or NVDA approach cut thresholds
 **Friday after NFP**: Full re-evaluation
 
+
+## 2026-08-04 - Afternoon Addendum (Midday 2nd Pass)
+
+### AMD Q2 2026 Pre-Earnings Context (AMC tonight)
+- **Report date**: Aug 4 AMC, call at 5:00 PM ET
+- **Consensus**: Rev ~$11.3B (+47% YoY), Non-GAAP EPS ~$1.61 (+235% YoY), Gross Margin ~56%
+- **AMD price today**: +6.71% to $517 (prior close $484.64) — market pre-pricing a beat
+- **Key watch**: Data Center ~$6.5B est (+100% YoY); Q3 guidance vs FY2026 consensus $49B; EPYC server CPU growth >70% YoY guided
+- **Partners confirmed**: META, MSFT, OpenAI, Anthropic, ORCL, AWS, Tencent, Softbank — broad hyperscaler validation
+- **NVDA read-through**: AMD beat + strong Q3 guide = positive for AI chip demand thesis (NVDA HOLD); AMD miss = semis headwind, NVDA stop $190.95 backstop
+- **Risk**: AMD at 75x forward P/E, up +130% YTD — elevated expectations; any guidance "in-line" could disappoint
+
+### UNH Afternoon Check
+- Prior close $415.36; current $410.73 (−1.12% intraday); prior session high: $462.32 (52wk high, per technical analysis source)
+- Technical support: $411.16 (daily key level); break below → $398.48 next support
+- Current $410.73 is right at $411.16 support — monitoring
+- Fundamental catalyst: Q2 2026 beat + raised guidance (Jul 16); Baird upgraded to Neutral, PT $453; 22 analyst Buy consensus, avg PT $454; AI $3B investment plan 2026-2027
+- No negative news catalyst found. Pullback = post-52wk-high rotation/profit-taking
+- Our stop: $393.25 (HWM $436.945); currently 4.3% above stop; −7% cut threshold $395.57
+
+### Market Context
+- All stock positions rallied strongly today (GE +2.07%, JPM +2.22%, NVDA +2.23%, AAPL +2.16% intraday vs prior close)
+- UNH only decliner (−1.12%)
+- AMD +6.71% pre-earnings = AI/semi sector confidence high
+- NFP Friday Aug 7 remains the macro binary for the week
+
+---
