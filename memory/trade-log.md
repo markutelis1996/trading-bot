@@ -7138,3 +7138,19 @@ No discrepancies. All GTC stops active:
 
 - Trades this week: 0/7
 - Watch: NFP Aug 7; NVDA Aug 26 earnings; AVGO/UBER post-NFP if sector holds
+
+---
+
+### Aug 04 - EOD Snapshot (Day 76, Tuesday)
+**Portfolio:** $109,941.00 | **Cash:** $25,247.10 (23.0%) | **Day P&L:** +$1,240.85 (+1.14%) | **Phase P&L:** +$9,941.00 (+9.94%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $304.65 | +$1.23 (+0.41%) | −$6.81 (−2.49%) | none |
+| GE | 47.982 | $348.94 | $369.20 | +$0.27 (+0.07%) | +$972.11 (+5.81%) | $332.94 (10% trail, HWM $369.94) |
+| JPM | 49.522 | $334.00 | $353.60 | +$0.96 (+0.27%) | +$970.55 (+5.87%) | $323.31 (10% trail, HWM $359.23) |
+| NVDA | 82.192 | $199.86 | $207.22 | +$0.58 (+0.28%) | +$604.60 (+3.68%) | $187.87 (10% trail, HWM $208.74) |
+| UNH | 39.363 | $425.34 | $415.89 | +$0.53 (+0.13%) | −$371.98 (−2.22%) | $393.25 (10% trail, HWM $436.95) |
+
+**Notes:** Quiet Tuesday, no trades. Portfolio +$1,240.85 (+1.14%) on the day; all positions positive intraday. NVDA and GE trailing stops ratcheted up since last log (NVDA HWM $201.95→$208.74, stop $181.76→$187.87; GE HWM $366.77→$369.94, stop $330.09→$332.94). JPM and UNH stops unchanged. UNH still underwater (−2.22%) but well above −7% cut threshold. Capital deployed 77.0% — within 75-85% target band. Trades this week: 0/3. Watch: NFP Aug 7 (binary macro), NVDA Aug 26 earnings.
+
