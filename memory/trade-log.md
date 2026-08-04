@@ -7276,3 +7276,20 @@ None. No cuts, no stop changes, no new entries. All trailing stops auto-managed 
 - Watch: AMD AMC tonight 5 PM ET (NVDA read-through); NFP Friday Aug 7; UNH support $411.16
 
 ---
+
+### Aug 04 - EOD Snapshot (Day 76, Tuesday) — CORRECTED
+> Note: An earlier snapshot with this heading was written by the local cron with intraday prices. This entry reflects actual Aug 4 market-close data.
+
+**Portfolio:** $110,688.24 | **Cash:** $25,247.10 (22.8%) | **Day P&L:** +$876.49 (+0.80%) | **Phase P&L:** +$10,688.24 (+10.69%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $309.35 | +$5.93 (+1.95%) | −$2.69 (−0.98%) | none |
+| GE | 47.982 | $348.94 | $377.28 | +$8.35 (+2.26%) | +$1,359.81 (+8.12%) | $340.97 (10% trail, HWM $378.85) |
+| JPM | 49.522 | $334.00 | $357.52 | +$4.88 (+1.38%) | +$1,164.68 (+7.04%) | $326.70 (10% trail, HWM $363.00) |
+| NVDA | 82.192 | $199.86 | $211.89 | +$5.25 (+2.54%) | +$988.44 (+6.02%) | $191.75 (10% trail, HWM $213.06) |
+| UNH | 39.363 | $425.34 | $407.55 | −$7.81 (−1.88%) | −$700.27 (−4.18%) | $393.25 (10% trail, HWM $436.95) |
+
+**Notes:** No trades today (0/3 this week). Portfolio +$876.49 (+0.80%) — broad rally led by NVDA +2.54% (BofA Buy/$220 PT reiterated this morning), GE +2.26% (aerospace supercycle intact), JPM +1.38% (banking recovery), partially offset by UNH −1.88% (now −4.18% unrealized; stop $393.25 provides 3.5% cushion above −7% cut line $395.57). Trailing stops auto-ratcheted: NVDA stop $191.75 (HWM $213.06), GE stop $340.97 (HWM $378.85). AMD reports AMC tonight — beat would strengthen NVDA thesis; stop $191.75 backstops downside. Deployment 77.2% (on-target). No stop tightening triggers reached (+15% = GE $401.28, JPM $384.10, NVDA $229.84). NFP Aug 7 = next binary macro event. Phase P&L +$10,688.24 (+10.69%).
+
+---
