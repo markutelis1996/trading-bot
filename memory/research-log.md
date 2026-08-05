@@ -8306,3 +8306,103 @@ No new entries today. Two major binaries in next 3 days:
 - NFP Friday Aug 7 remains the macro binary for the week
 
 ---
+
+## 2026-08-05 - Pre-market Research
+
+### Account
+- Equity: $111,108.93 | Cash: $25,247.10 (22.7%) | Long MV: $85,861.83
+- Buying power: $297,150.64 | Daytrade count: 0/3
+- Deployed: ~77.3% (within 75-85% target ✓)
+- Phase P&L: +$11,108.93 (+11.11%) vs prior EOD +$10,688.24
+- Trades this week: 0/7
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ Match |
+| GE | 47.982 (47 stop) | 47.98195 | ✓ Match |
+| JPM | 49.521 (49 stop) | 49.52167 | ✓ Match |
+| NVDA | 82.192 (81 stop) | 82.19164 | ✓ Match |
+| UNH | 39.363 (39 stop) | 39.36338 | ✓ Match |
+| Crypto | FILTERED | — | OFF-LIMITS (DCA sleeve) |
+
+No discrepancies. All GTC stops active (from orders API):
+- NVDA 30f07262: stop $191.754, HWM $213.06 → auto-updating as price rises to $216.33
+- GE df184923: stop $340.965, HWM $378.85
+- JPM 1a5b3205: stop $326.70, HWM $363.00
+- UNH ac627db0: stop $393.2505, HWM $436.945
+
+### Market Context (pre-market Aug 5)
+- **WTI**: ~$76-80/bbl (−5-7% today) | **Brent**: ~$79-83/bbl — Iran ceasefire holding; oil risk premium evaporating
+- **S&P 500**: ~7,716 (+1.52% yesterday); futures ~$7,633-7,766 today — broad risk-on; IT/Tech leading
+- **VIX**: ~16.20 (low, risk-on; −0.57% to flat). Up slightly from 15.77 yesterday.
+- **ISM Services PMI**: Due 9:00 AM ET today — key read on economy; prior week ISM Manufacturing 55.6 (strong beat)
+- **NFP Aug 7**: Binary macro event Friday — est 110K vs prior 57K
+- **AMD Q2 2026 (AMC Aug 4)**: Rev $11.54B vs $11.31B est BEAT; EPS $1.66 BEAT; Q3 guidance $13B midpoint (vs $12.5B est) BEAT. BUT: Gross margin 54% vs 56% consensus MISS — near-term Helios AI ramp costs. Stock fell 8-9% AH from $518 close. AMD-specific margin issue, NOT demand weakness. AI demand thesis intact.
+- **PLTR Q2 2026 (AMC Aug 3)**: MASSIVE BEAT — Rev $1.935B vs $1.80B est (+7.5%); EPS $0.41 vs $0.35 (+17%); guidance raised from $7.65B to $8.15B (82% growth, largest-ever guidance raise). US commercial +149% YoY. Stock up +25-29% today to ~$157-163 from $125.65 prior close.
+- **SPCX**: Reports AMC today — lockup/earnings risk (IPO down from $135); no portfolio exposure.
+- **Sector momentum (Aug 4 intraday, Bloomberg)**: IT +4.14% ★ | Industrials +1.76% ★ | Financials +0.97% | Healthcare −0.17% | Energy −0.35% (oil decline)
+
+### Position Status (pre-market Aug 5 — live broker prices)
+| Ticker | Shares | Entry | Pre-mkt | P&L% | −7% Floor | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|-----------|------------|-----|--------|
+| AAPL frac | 0.877 | $312.42 | $311.35 | −0.34% | $290.55 | none (frac) | — | HOLD |
+| GE | 47.982 | $348.94 | $377.28 | +8.12% | $324.51 | $340.965 (df184923) | $378.85 | HOLD |
+| JPM | 49.521 | $334.00 | $358.98 | +7.48% | $310.62 | $326.70 (1a5b3205) | $363.00 | HOLD |
+| NVDA | 82.192 | $199.864 | $216.33 | +8.24% | $185.87 | $191.754→~$194.70 (auto) | $213.06→$216.33 | HOLD — AMD margin miss not thesis-breaking |
+| UNH | 39.363 | $425.34 | $408.45 | −3.97% | $395.57 | $393.2505 (ac627db0) | $436.945 | HOLD — monitor; 3.5% above stop |
+
+**Stop tightening check:**
+- GE +8.12% → trigger +15% = $401.28. NOT reached.
+- JPM +7.48% → trigger +15% = $384.10. NOT reached.
+- NVDA +8.24% → trigger +15% = $229.84. NOT reached.
+- UNH: loss position → N/A.
+
+### Politician Signals (STEP 3b — last 45 days)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal |
+|------------|--------|--------|------|------------|-----------|--------|
+| Nancy Pelosi | BAC | SWAP (option) | $100K-250K | Jul 28 | Aug 4 | Not directional buy |
+| Michael McCaul | NVDA | ETF SELL | $15K-50K | Jul 26 | Aug 4 | SELL; below $25K threshold |
+| Michael McCaul | RTX | SWAP (option) | $250K-500K | Jul 25 | Aug 7 | Not directional buy |
+| Dan Crenshaw | BAC | ETF SELL | $1M-5M | Jul 29 | Aug 5 | SELL signal |
+| Tommy Tuberville | GS | Stock SELL | $100K-250K | Jul 21 | Aug 4 | SELL signal |
+| Tommy Tuberville | XOM | Stock SELL | $15K-50K | Jul 22 | Aug 4 | SELL; below threshold |
+| Ro Khanna | GOOGL | Bond BUY | $1K-15K | Jul 22 | Aug 5 | Below $25K threshold |
+| Josh Gottheimer | BA | Option SELL | $250K-500K | Aug 2 | Aug 6 | SELL signal |
+
+**Assessment**: NO qualifying whitelist politician BUY signals. All actions are SELLS, SWAPs, or below $25K threshold. McCaul's NVDA ETF SELL ($15-50K) is minor and below threshold — no action warranted. Tuberville selling GS/XOM, Crenshaw selling BAC = risk-off positioning from politicians. Slight bearish signal but all below threshold.
+
+### NVDA Thesis Re-check (AMD Q2 Read-through)
+AMD gross margin miss (54% vs 56%) = Helios AI infrastructure ramp costs. This is AMD-specific:
+- Demand side INTACT: AMD Q3 guidance $13B midpoint BEAT consensus $12.5B; hyperscaler partners confirmed (META, MSFT, OpenAI, Anthropic, ORCL, AWS)
+- NVDA AI demand thesis unchanged: NVDA's margin structure (74%+ gross margin) is structurally different from AMD; Blackwell/Vera Rubin H2 on track
+- NVDA pre-market +2.07% to $216.33 confirms market reads AMD miss as AMD-specific, not sector-wide
+- NVDA earnings: Aug 27. Catalyst ahead.
+
+### Trade Ideas
+**No new entries today.** Rationale:
+1. **PLTR**: Massive beat — but +25-29% gap from prior close = FAR exceeds 5% gap rule. Cannot enter. Add to watchlist for pullback to $135-145.
+2. **AMD**: Margin uncertainty post-miss. Not a clean setup; wait for clarity.
+3. **AVGO**: Strong Aug 4 (+6.61% to $418). Today's gap unknown. Could be post-earnings continuation (AVGO has Q3 results AMC Aug 6). Watch for earnings setup — do NOT enter before AVGO AMC tomorrow.
+4. **Deployment at 77%** = within target band; no urgency to add.
+5. **ISM Services 9 AM ET** — if strongly beats, reassess for one slot; but NFP Friday argues for caution.
+
+**Watchlist for post-NFP (Aug 8+):**
+- **PLTR**: If pulls back to $135-145 support → valid setup with massive AI catalyst
+- **AVGO**: AMC Aug 6; if beat + raised guidance → evaluate Aug 7 morning (pre-NFP caution)
+- **GE**: Continue holding; aerospace supercycle intact; stop at $340.97
+
+### Risk Factors
+1. **AMD margin miss ripple**: If investors re-rate entire semis sector → NVDA pressure; stop $191.75 (~11.4% below current $216.33) provides backstop
+2. **ISM Services hot print** (>56 = inflationary signal): Could trigger hawkish repricing; growth stocks pressure
+3. **NFP Friday Aug 7**: If +150K+ AND AHE elevated → rate hike risk re-emerges; all high-PE positions at risk
+4. **SPCX AMC today**: SpaceX IPO lockup + earnings; potential ripple into aerospace (GE)
+5. **UNH −3.97%** from entry: Approaching but well above −7% floor ($395.57); stop $393.25 provides floor at 3.5% below current $408.45
+6. **Iran deal reversal**: Trump has reversed deals before; any re-escalation → oil spike → S&P selloff
+
+### Decision
+**HOLD ALL** — AAPL frac, GE, JPM, NVDA, UNH
+**NO NEW ENTRIES TODAY** — ISM Services pending; NFP Friday; no clean gap-rule-compliant setup
+**Watch at open**: UNH momentum (if breaks $395 = stop territory; let GTC handle it)
+**Post-ISM (9 AM)**: If ISM Services ≥ 56 and market absorbs well → 1 potential slot open; no specific ticker pre-committed
+**Thu/Fri evaluation**: AVGO AMC Aug 6 + NFP Aug 7 → re-evaluate for week's 1st trade if setup emerges
