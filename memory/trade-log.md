@@ -7354,6 +7354,19 @@ No discrepancies. All GTC stops active (auto-trailed since last log):
 
 ---
 
+### Aug 06 - EOD Snapshot (Day 78, Thursday)
+**Portfolio:** $111,971.45 | **Cash:** $23,875.19 (21.3%) | **Day P&L:** +$165.44 (+0.15%) | **Phase P&L:** +$11,971.45 (+11.97%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $313.36 | +$2.36 (+0.76%) | +$0.82 (+0.30%) | none |
+| GE | 47.982 | $348.94 | $381.07 | -$0.15 (-0.04%) | +$1,541.66 (+9.21%) | $346.06 (10% trail, HWM $384.51) |
+| JPM | 49.522 | $334.00 | $360.55 | +$1.31 (+0.36%) | +$1,314.73 (+7.95%) | $326.70 (10% trail, HWM $363.00) |
+| NVDA | 82.192 | $199.86 | $219.35 | +$0.13 (+0.06%) | +$1,601.59 (+9.75%) | $199.99 (10% trail, HWM $222.21) |
+| UNH | 39.363 | $425.34 | $414.09 | +$1.34 (+0.32%) | -$442.84 (-2.65%) | $393.25 (10% trail, HWM $436.95) |
+
+**Notes:** Ultra-quiet session, no trades (0/3 this week). Portfolio +$165.44 (+0.15%) on thin broad drift — JPM +0.36%, UNH +0.32%, AAPL frac +0.76%, NVDA +0.06%, GE -0.04%. AVGO reports AMC tonight; binary event — no new entry before result. NFP tomorrow (Aug 7, 8:30 AM ET) = major macro binary; holding cash prudent. NVDA at $219.35, approaching +15% tightening trigger at $229.84 (4.8% away); GE approaching +15% trigger at $401.28 (+5.3% away). UNH -2.65% unrealized ($414.09); stop $393.25 is technically below manual cut floor $395.57 (-7% from $425.34) — manual cut rule takes priority; effective floor is $395.57. Trailing stops auto-managed by broker. Deployment 78.7% of equity (21.3% cash; crypto DCA sleeve included). Phase P&L +$11,971.45 (+11.97%).
+
 ## 2026-08-06 - Midday Scan
 
 **Portfolio:** $111,964.21 equity | **Cash:** $23,875.19 (21.3%) | **Positions:** 5 stocks | **Deployed:** ~74.8% (stocks vs non-crypto equity) | **Phase P&L:** +$11,964.21 (+11.96%)
