@@ -7431,3 +7431,64 @@ None. No cuts, no stop changes, no new entries.
 - No notification sent (no action taken)
 
 ---
+
+## 2026-08-06 - Market-Open Session
+
+**Portfolio:** $112,211.13 equity | **Cash:** $23,875.19 | **Positions:** 5 stocks | **Deployed:** ~78.7%
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 0 (NO TRADES — NFP binary tomorrow Aug 7)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ Match |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ Match |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ Match |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ Match |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ Match |
+| Crypto | FILTERED | — | OFF-LIMITS (DCA sleeve) |
+
+Clean. All 4 GTC trailing stops active (NVDA 30f07262, GE df184923, JPM 1a5b3205, UNH ac627db0).
+
+### Step 1b — Live Price Re-verification
+| Ticker | Research | Live (positions) | Delta | −7% Floor | Stop | +15% Trigger | Status |
+|--------|----------|------------------|-------|-----------|------|--------------|--------|
+| AAPL frac | $313.27 | $315.73 | +0.78% | $290.55 | none | — | HOLD |
+| GE | $381.07 | $383.80 | +0.72% | $324.51 | $346.059 (df184923) | $401.28 | HOLD |
+| JPM | $360.55 | $361.23 | +0.19% | $310.62 | $326.70 (1a5b3205) | $384.10 | HOLD |
+| NVDA | $220.02 | $221.43 | +0.64% | $185.87 | $199.989 (30f07262) | $229.84 | HOLD |
+| UNH | $414.09 | $415.40 | +0.32% | $395.57 | $393.2505 (ac627db0) | N/A | HOLD |
+
+No ticker moved >5% from research. All theses intact.
+
+### Step 3 — Rule Checks
+- No −7% cuts triggered (UNH worst at −2.34% from entry; floor $395.57 not breached)
+- No +15% tightening triggers (NVDA +10.79% closest; trigger at $229.84)
+- Daytrade count: 0/3 ✓
+- Trades this week: 0/7 ✓
+- Deployment 78.7% — within 75-85% target ✓
+
+### Step 4 — No New Entries
+- **NFP tomorrow Aug 7 8:30 AM ET** — major binary event (est 88K vs 57K prior); no new risk pre-print
+- **Deployment 78.7%** — within target band; no urgency
+- **No qualifying setups**: no earnings catalysts today, no politician signals, no gap-rule-compliant entries
+- AVGO reports Sept 2 (not today per research correction)
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | HWM | Target |
+|---|--------|--------|-------|---------|------|------|-----|--------|
+| 1 | AAPL frac | 0.877 | $312.42 | $315.73 | +1.06% | none | — | — |
+| 2 | GE | 47.982 (47 stop) | $348.94 | $383.80 | +9.99% | $346.059 (10% trail, df184923) | $384.51 | $401.28 (+15% → tighten) |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $361.23 | +8.15% | $326.70 (10% trail, 1a5b3205) | $363.00 | $384.10 (+15% → tighten) |
+| 4 | NVDA | 82.192 (81 stop) | $199.864 | $221.43 | +10.79% | $199.989 (10% trail, 30f07262) | $222.21 | $229.84 (+15% → tighten) |
+| 5 | UNH | 39.363 (39 stop) | $425.34 | $415.40 | −2.34% | $393.2505 (10% trail, ac627db0) | $436.945 | $510.41 (+20%) |
+
+- Trades this week: 0/7
+- Watch: NFP Aug 7 → if cool (60-90K) re-evaluate 1 slot; if hot (150K+) hold tight
+- Watch: NVDA $229.84 (+15%) → tighten trail to 7% when hit
+- Watch: GE $401.28 (+15%) → tighten trail to 7% when hit
+- Post-NFP watchlist: PLTR ($135-145 support), AVGO (Sept 2 earnings thesis intact)
+
+---
