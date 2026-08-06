@@ -8405,4 +8405,103 @@ AMD gross margin miss (54% vs 56%) = Helios AI infrastructure ramp costs. This i
 **NO NEW ENTRIES TODAY** — ISM Services pending; NFP Friday; no clean gap-rule-compliant setup
 **Watch at open**: UNH momentum (if breaks $395 = stop territory; let GTC handle it)
 **Post-ISM (9 AM)**: If ISM Services ≥ 56 and market absorbs well → 1 potential slot open; no specific ticker pre-committed
+
+## 2026-08-06 - Pre-market Research
+
+### Account Snapshot
+- Equity: $111,971.45
+- Cash: $23,875.19
+- Long market value: $88,096.26
+- Buying power: $293,581.35
+- Daytrade count: 0/3
+- Deployed: ~78.7%
+- Phase P&L: +$11,971.45 (+11.97%)
+- Trades this week: 0/7
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ Match |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ Match |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ Match |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ Match |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ Match |
+| Crypto | FILTERED | — | OFF-LIMITS (DCA sleeve) |
+
+No discrepancies. All GTC stops active (verified via orders API):
+- NVDA 30f07262: stop $199.989, HWM $222.21
+- GE df184923: stop $346.059, HWM $384.51
+- JPM 1a5b3205: stop $326.70, HWM $363.00
+- UNH ac627db0: stop $393.2505, HWM $436.945
+
+### Market Context (pre-market Aug 6)
+- **WTI**: ~$75.07 (-0.89%) | **Brent**: ~$79.15 (+0.07%) — oil moderating
+- **S&P 500 Sep futures**: ~$7,763 (+0.17%) — mildly positive open
+- **NQ100 futures**: ~$29,088-29,562 (flat to +0.68%) — mixed signals
+- **VIX**: 15.51 (Aug 5 close, -6.00% on the day) — VERY LOW, multi-month low. Risk-on.
+- **Gold**: $4,253-4,334/oz (+4.31% on Aug 5, +0.68% pre-market today) — massive surge on geopolitical risk (US-Iran tensions renewing, central bank buying, fiscal fears). JPM targets $6,000. Gold surge as insurance even as equities hold → unusual divergence.
+- **AVGO correction**: Prior log said "AVGO AMC Aug 6" — WRONG. Broadcom confirmed Sept 2, 2026 for Q3 FY26 results. No earnings catalyst today.
+- **SPCX**: Reported AMC Aug 5 — MISS ($-0.26 vs $-0.09 est); down -13.61%. No portfolio exposure, GE aerospace impact: minimal (different segment).
+- **Today's releases**: 8:30 AM Productivity & Costs Q2 Prelim (est +0.7% vs +0.3% prior) + Initial Jobless Claims (prev 197K)
+- **TOMORROW Aug 7 8:30 AM**: NFP July (est 88K vs 57K prior — prior was big miss vs 114K estimate). MAJOR BINARY EVENT.
+- **Sector momentum (Schwab Jun 26 — most recent)**: Comm Services/Healthcare/Industrials/Materials = More Favored | IT/Financials/Energy = Neutral | Consumer Disc/Real Estate = Least Favored
+- **H1 2026 best sectors**: Industrials #1, IT #2 (AI-driven) — consistent with our book (GE Industrials, NVDA IT, JPM Financials)
+
+### Position Status (live prices)
+| Ticker | Shares | Entry | Broker Live | P&L% | −7% Floor | Stop (GTC) | HWM | +15% Trigger | Status |
+|--------|--------|-------|-------------|------|-----------|------------|-----|--------------|--------|
+| AAPL frac | 0.877 | $312.42 | $313.27 | +0.27% | $290.55 | none | — | — | HOLD |
+| GE | 47.982 | $348.94 | $381.07 | +9.21% | $324.51 | $346.059 (df184923) | $384.51 | $401.28 | HOLD — at 52-wk high |
+| JPM | 49.521 | $334.00 | $360.55 | +7.94% | $310.62 | $326.70 (1a5b3205) | $363.00 | $384.10 | HOLD |
+| NVDA | 82.192 | $199.864 | $220.02 (ask/bid ~$220) | +10.09% | $185.87 | $199.989 (30f07262) | $222.21 | $229.84 | HOLD — approaching +15% |
+| UNH | 39.363 | $425.34 | $414.09 | −2.64% | $395.57 | $393.2505 (ac627db0) | $436.945 | N/A | HOLD — monitor |
+
+**NVDA live quote** (Alpaca, 8:52 PM Aug 5 AH): bid $219.99 / ask $220.05 — confirms overnight ~$220 level.
+
+**Stop tightening checks:**
+- NVDA: +10.09% → trigger at $229.84. NOT reached. ATR context: NVDA high-vol (beta 2.12, ATR historically >4% of price) → if/when $229.84 hit, tighten to 7% trail (per rule: stay at 7% for high-vol stocks, not 5%).
+- GE: +9.21% → trigger at $401.28. NOT reached. GE at 52-week high ($384.50); if new high today, stop auto-ratchets.
+- JPM: +7.94% → trigger at $384.10. NOT reached.
+- UNH: loss position, N/A.
+
+**UNH -7% cut check**: current $414.09 vs floor $395.57 — $18.52 cushion (4.5%). Stop at $393.25 below that. HOLD; stop handles downside.
+
+### Politician Signals (Step 3b — last 45 days)
+| Politician | Ticker | Action | Size | Trade Date | Days Since | Signal |
+|------------|--------|--------|------|------------|------------|--------|
+| **Nancy Pelosi** | INTC | BUY | $1M-5M | May 29 | 69 days | EXPIRED (>45 days) |
+| **Nancy Pelosi** | UBER | BUY | $500K-1M | May 29 | 69 days | EXPIRED (>45 days) |
+
+**No new whitelist politician buys in the last 45 days.** Pelosi's last disclosures (INTC/UBER May 29) are now 69 days old — outside the 45-day window. McCaul, Tuberville, Khanna, Gottheimer: no qualifying new buys found.
+
+**No politician-driven trade ideas today.**
+
+### Trade Ideas
+**No new entries.** Rationale:
+1. **NFP tomorrow Aug 7** — major binary event. Strategy: don't add new risk the day before.
+2. **Deployment 78.7%** — within 75-85% target band; no urgency.
+3. **VIX extremely low (15.51)** — good for existing positions but dangerous time to add (limited downside buffer in volatility terms).
+4. **Gold surge** — unusual divergence from VIX signals; macro insurance being bought → uncertainty ahead.
+5. **No clean setups**: No qualifying politician signals, no today's earnings catalysts, gap rule would preclude any overnight gappers.
+
+**Post-NFP watchlist (Aug 8+):**
+- **PLTR**: Massive Q2 beat (+29% gap reaction); pullback to $135-145 support = valid setup. AI software thesis.
+- **NVDA** at +15% (target ~$229.84): Tighten trailing stop to 7% when hit. Earnings Aug 26 = major catalyst ahead.
+- **GE** at +15% (target ~$401.28): Same tightening protocol. Aerospace supercycle intact.
+- **AVGO**: Watch for post-NFP momentum. Reports Sept 2. Q3 guidance ~$29.4B revenue (+84% YoY). Strong AI custom chip thesis (Alphabet, Amazon, Meta, OpenAI all use AVGO).
+
+### Risk Factors
+1. **NFP Aug 7 binary**: Prior month was a big miss (57K vs 114K est). If July beats strongly (+150K+) AND AHE elevated → rate hike fears, tech selloff
+2. **Gold surge (+4.31% Aug 5)**: Safe-haven demand reflects geopolitical/fiscal anxiety that could spill into equities
+3. **US-Iran tensions**: COMEX August delivery dates and ceasefire expiry timing creating oil risk premium
+4. **NVDA earnings Aug 26**: 81 shares protected by stop; upside catalyst 3 weeks out
+5. **UNH ongoing weakness**: Still facing DOJ/regulatory headwinds despite CEO turnaround narrative; stop $393.25 is the floor
+6. **GE at 52-week high**: Resistance at $384.50-385; may need to consolidate before further upside
+
+### Decision
+**HOLD ALL** — AAPL frac, GE, JPM, NVDA, UNH
+**NO NEW ENTRIES TODAY** — NFP binary tomorrow; gold macro signal; no clean setups
+**Watch intraday**: GE near 52-week high — any new HWM auto-ratchets stop up
+**Watch intraday**: NVDA approaching +15% trigger ($229.84) — if hit, tighten trail to 7%
+**Aug 7 post-NFP**: If cool reading (60-90K) → risk-on, evaluate 1 new slot; if hot (150K+) → hold tight, let stops work
 **Thu/Fri evaluation**: AVGO AMC Aug 6 + NFP Aug 7 → re-evaluate for week's 1st trade if setup emerges
