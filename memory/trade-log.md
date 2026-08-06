@@ -7353,3 +7353,68 @@ No discrepancies. All GTC stops active (auto-trailed since last log):
 - Watch: AVGO AMC Aug 6 (evaluate Aug 7 morning); NFP Aug 7 binary; NVDA approaching +15% tightening trigger ($229.84); GE approaching +15% trigger ($401.28)
 
 ---
+
+## 2026-08-06 - Midday Scan
+
+**Portfolio:** $111,964.21 equity | **Cash:** $23,875.19 (21.3%) | **Positions:** 5 stocks | **Deployed:** ~74.8% (stocks vs non-crypto equity) | **Phase P&L:** +$11,964.21 (+11.96%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ Match |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ Match |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ Match |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ Match |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ Match |
+| Crypto | FILTERED | — | OFF-LIMITS (DCA sleeve) |
+
+Clean. All 4 GTC trailing stops active (NVDA 30f07262, GE df184923, JPM 1a5b3205, UNH ac627db0). No overnight or intraday stop-outs since Aug 05 market-open.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|------|----------|------|-----|--------|
+| AAPL frac | 0.877 | $312.42 | $313.27 | +0.27% | +0.73% | none (frac) | — | HOLD |
+| GE | 47.982 | $348.94 | $381.07 | +9.21% | -0.04% | $346.059 (10% trail, df184923) | $384.51 | HOLD |
+| JPM | 49.522 | $334.00 | $360.55 | +7.95% | +0.37% | $326.70 (10% trail, 1a5b3205) | $363.00 | HOLD |
+| NVDA | 82.192 | $199.864 | $219.35 | +9.75% | +0.06% | $199.989 (10% trail, 30f07262) | $222.21 | HOLD |
+| UNH | 39.363 | $425.34 | $414.09 | -2.64% | +0.32% | $393.2505 (10% trail, ac627db0) | $436.945 | HOLD |
+
+### Step 3 — Cuts
+None. No position at ≤-7%.
+- UNH worst: -2.64%; -7% floor = $395.57; current $414.09 = $18.52 above cut line ✓
+
+### Step 4 — Stop Tightening
+- NVDA +9.75%: +15% trigger = $229.84 — not reached (gap: $10.49)
+- GE +9.21%: +15% trigger = $401.28 — not reached
+- JPM +7.95%: +15% trigger = $384.10 — not reached
+- UNH: loss position → N/A
+No tightening actions. All stops auto-trailing correctly at broker.
+
+### Step 5 — Thesis Check
+- **GE**: -0.04% intraday; flat. Aerospace supercycle intact. HWM $384.51 set Aug 05. INTACT.
+- **JPM**: +0.37% intraday. Record Q2 EPS; banking recovery thesis unchanged. INTACT.
+- **NVDA**: +0.06% intraday; quiet session. AMD margin miss (Aug 4) confirmed as AMD-specific, not demand weakness. NVDA earnings Aug 27 — key catalyst ahead. INTACT.
+- **UNH**: +0.32% intraday (recovering). -2.64% from entry; still well above -7% floor and stop $393.25. FY2026 guidance raised; 22/22 Buy consensus avg PT $454. INTACT — monitoring.
+- **AAPL frac**: Immaterial. No stop.
+
+### Step 6 — Intraday Research
+Quiet session. No sharp unexplained moves in any position.
+- **AVGO AMC tonight (Aug 6)**: Q3 FY2026 earnings; no portfolio exposure. If beat + raise → evaluate entry tomorrow morning (pre-NFP caution). AI ASIC/hyperscaler thesis check for sector.
+- **NFP tomorrow Aug 7 8:30 AM ET**: Major binary. Est 110K vs prior 57K. If hot → rate hike risk repricing; hold existing, no new entries pre-print.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL frac | 0.877 | $312.42 | none | — | — |
+| 2 | GE | 47.982 (47 stop) | $348.94 | $346.059 (10% trail, df184923) | $384.51 | $401.28 (+15% → tighten) |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $326.70 (10% trail, 1a5b3205) | $363.00 | $384.10 (+15% → tighten) |
+| 4 | NVDA | 82.192 (81 stop) | $199.864 | $199.989 (10% trail, 30f07262) | $222.21 | $229.84 (+15% → tighten) |
+| 5 | UNH | 39.363 (39 stop) | $425.34 | $393.2505 (10% trail, ac627db0) | $436.945 | $510.41 (+20%) |
+
+- Trades this week: 0/3
+- No notification sent (no action taken)
+
+---
