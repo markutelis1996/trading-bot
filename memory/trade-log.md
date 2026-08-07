@@ -7573,3 +7573,69 @@ None. No cuts, no stop changes, no new entries.
 **Notes:** NFP day (Aug 7) — stocks barely moved (<0.1% each), entirely quiet session. Total equity fell -$1,101.43 (-0.98%) largely from crypto DCA sleeve drawdown (BTC/ETH/LINK/SOL net -$51 intraday); stock sleeve intraday contribution was approximately +$9. HWM updates confirmed via broker orders: NVDA made new HWM $223.63 (was $222.21), GE made new HWM $388.84 (was $384.51) — both hit intraday highs before settling back. UNH -5.11% unrealized ($403.60); manual -7% cut floor $395.57 remains above trailing stop $393.25 — effective floor is the manual cut at $395.57; $8.03 of cushion. No trades today; 0/3 used this week. Phase P&L +$10,870.02 (+10.87%). All 4 GTC stops active and correctly auto-trailing (NVDA 30f07262, GE df184923, JPM 1a5b3205, UNH ac627db0). Week reset Mon Aug 10: 3 fresh slots; evaluate 1 new entry post-NFP if macro benign; NVDA $229.84 and GE $401.28 are +15% tightening triggers to watch.
 
 ---
+
+## 2026-08-07 - Market-Open Session
+
+**Portfolio:** $111,243.04 equity | **Cash:** $23,875.19 (21.5%) | **Positions:** 4 stocks + AAPL frac | **Deployed:** ~78.5% (within 75-85%) | **Phase P&L:** +$11,243.04 (+11.24%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+| Crypto | FILTERED | — | OFF-LIMITS (DCA sleeve) |
+
+No discrepancies. All 4 GTC trailing stops confirmed active (NVDA 30f07262, GE df184923, JPM 1a5b3205, UNH ac627db0). Clean.
+
+### Step 1b — Live Price Re-verification (9:32 AM EDT)
+| Ticker | Research Gate | Live Ask | Delta vs Yesterday | Status |
+|--------|--------------|----------|--------------------|--------|
+| AAPL frac | IGNORE | $313.14 | — | IGNORE |
+| GE | HOLD | $377.22 | +0.7% | HOLD ✓ |
+| JPM | HOLD | $354.83 | -0.5% | HOLD ✓ |
+| NVDA | HOLD | $221.68 | +1.2% | HOLD ✓ |
+| UNH | HOLD / monitor | $402.05 | -0.4% | HOLD ✓ |
+
+No ticker moved >5%. Research gates hold.
+
+### Step 3 — Rule Checks
+| Ticker | P&L% | -7% Floor | Cushion | +15% Trigger | Stop (GTC) | Action |
+|--------|------|-----------|---------|--------------|------------|--------|
+| GE | +8.1% | $324.51 | $52.70 | $401.28 (-6.0%) | $349.956 (df184923) | HOLD |
+| JPM | +6.2% | $310.62 | $44.21 | $384.10 (-7.6%) | $326.70 (1a5b3205) | HOLD |
+| NVDA | +10.9% | $185.87 | $35.81 | $229.84 (-3.6%) ⚠️ | $201.265 (30f07262) | HOLD |
+| UNH | -5.5% | $395.57 | $6.48 ⚠️ | N/A | $393.2505 (ac627db0) | HOLD |
+
+- No -7% cut thresholds breached ✓
+- No +15% tightening triggers hit ✓ (NVDA closest at 3.6% away)
+- UNH: -5.5% unrealized; -7% floor = $395.57; current $402.05 = only $6.48 cushion — MONITOR
+- Daytrade count: 0/3 ✓ | Trades this week: 0/7 ✓
+
+### Trades Executed
+None.
+
+**Reasons:**
+- Friday = weekend gap risk on all 4 open positions
+- PLTR and AVGO candidates: AH quotes illiquid ($148 bid/0 ask PLTR; $10.9% spread AVGO) — require day-session prices per Step 3d
+- Deployment 78.5% = within 75-85% target band; no urgency to add
+- No qualifying catalyst + live quote + gate combination available today
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL frac | 0.877 | $312.42 | none | — | — |
+| 2 | GE | 47.982 (47 stop) | $348.94 | $349.956 (10% trail, df184923) | $388.84 | $401.28 (+15% → tighten to 7%) |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $326.70 (10% trail, 1a5b3205) | $363.00 | $384.10 (+15% → tighten to 7%) |
+| 4 | NVDA | 82.192 (81 stop) | $199.864 | $201.265 (10% trail, 30f07262) | $223.63 | $229.84 (+15% → tighten to 7%) |
+| 5 | UNH | 39.363 (39 stop) | $425.34 | $393.2505 (10% trail, ac627db0) | $436.945 | $510.41 (+20%) |
+
+- Trades this week: 0/7
+- **Watch**: NVDA $229.84 (+15% trigger, 3.6% away) → tighten to 7% trail when hit (high-vol rule: beta >2)
+- **Watch**: UNH -7% floor $395.57 → manual cut if breached intraday
+- **Mon Aug 10 plan**: Evaluate PLTR (pullback to $135-145 support) and AVGO (AI ASIC thesis, earnings Sept 2) with day-session quotes; 2 slots available (cap 6, have 4 real positions)
+- No notification sent (no trades)
+
+---
