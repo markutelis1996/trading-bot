@@ -8504,4 +8504,103 @@ No discrepancies. All GTC stops active (verified via orders API):
 **Watch intraday**: GE near 52-week high — any new HWM auto-ratchets stop up
 **Watch intraday**: NVDA approaching +15% trigger ($229.84) — if hit, tighten trail to 7%
 **Aug 7 post-NFP**: If cool reading (60-90K) → risk-on, evaluate 1 new slot; if hot (150K+) → hold tight, let stops work
+
+## 2026-08-07 - Pre-market Research
+
+### Account
+- Equity: $110,870.02
+- Cash: $23,875.19
+- Buying power: $290,940.07 (effective)
+- Long market value: $86,994.83 (stocks + crypto)
+- Deployed (stocks only): ~63% ($59,526 in 4 real stock positions)
+- Deployed (total incl. crypto): ~78.5% (within 75-85% target ✓)
+- Daytrade count: 0/3
+- Phase P&L: +$10,870.02 (+10.87% vs ~$100k baseline)
+- Trades this week (resets Mon): 0/7
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ Match |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ Match |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ Match |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ Match |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ Match |
+| Crypto | FILTERED | — | OFF-LIMITS (DCA sleeve) |
+
+Clean. No discrepancies. GTC stops confirmed active via orders API:
+- NVDA 30f07262: stop $201.265, HWM $223.628 (auto-ratcheted; +0.67% from Aug 6 pre-mkt HWM)
+- GE df184923: stop $349.956, HWM $388.84 (**NEW HIGH** — GE traded to $388.84 intraday Aug 6, up from $384.51 prior HWM; stop auto-ratcheted from $346.059 to $349.956)
+- JPM 1a5b3205: stop $326.70, HWM $363.00 (unchanged)
+- UNH ac627db0: stop $393.2505, HWM $436.945 (unchanged)
+
+### Market Context (pre-market Aug 7)
+- **WTI**: ~$78.02/bbl (+1.07% today, +6.2% month) | **Brent**: ~$83.38 (+1.08% today) — oil elevated; Iran deal delays pushing risk premium; Aug 6 saw +4.87% surge in Brent
+- **S&P 500 futures (ESU26)**: ~7,768 (+0.03%) — near flat pre-NFP/post-NFP
+- **NQ futures (NQU26)**: ~29,761 (−102.50, −0.34%) — slight NQ headwind
+- **VIX**: ~15.15–15.57 (↓ from 15.81 prior close) — very low, falling = risk-on
+- **NFP July 2026 (8:30 AM ET today)**: ACTUAL **+88K** (vs 85K forecast; vs 57K prior — prior was big miss)
+  - Result: SOFT/IN-LINE. Not hot. Rate cut odds tick up slightly. Mildly equity-positive but market reaction muted (SPX -0.18%, NQ -0.06% per post-NFP session data)
+  - Unemployment est: 4.2% (prior 4.2%) — market watching AHE for inflation signal
+- **Gold**: ~$4,241 (−0.14%) — slight pullback from $4,334 Aug 5 surge
+- **Today's earnings (BMO)**: Eli Lilly (LLY) — healthcare; AXON, Spotify, DuPont. No portfolio exposure.
+- **Next major event**: NVDA earnings Aug 26 AMC (19 days). Q2 FY27 consensus: +96% revenue growth.
+- **Sector momentum**: Industrials #1 YTD, IT #2 (AI). Financials Neutral. Healthcare More Favored. Consumer Disc Least Favored.
+
+### Position Thesis Checks
+| Ticker | Qty | Entry | Current | P&L% | −7% Floor | Stop (GTC) | HWM | +15% Trigger | Status |
+|--------|-----|-------|---------|------|-----------|------------|-----|--------------|--------|
+| AAPL frac | 0.877 | $312.42 | $312.13 | −0.09% | none | none | — | — | IGNORE (remnant) |
+| GE | 47.982 | $348.94 | $374.67 | +7.37% | $324.51 | $349.956 (df184923) | **$388.84** | $401.28 | HOLD |
+| JPM | 49.521 | $334.00 | $356.66 | +6.78% | $310.62 | $326.70 (1a5b3205) | $363.00 | $384.10 | HOLD |
+| NVDA | 82.192 | $199.864 | $218.99 | +9.57% | $185.87 | $201.265 (30f07262) | $223.628 | **$229.84** | HOLD — approaching +15% |
+| UNH | 39.363 | $425.34 | $403.60 | **−5.11%** | **$395.57** | $393.2505 (ac627db0) | $436.945 | N/A | HOLD — monitor |
+
+**GE**: Q2 2026 BEAT — Rev +31% to $13.35B (beat by $1.44B), adj EPS $2.02 (+22% YoY, 8.6% beat), FCF $3.03B (+43%). FY2026 raised: EPS $7.65–$7.85 (was $7.10–$7.40). Order deceleration (17% Q2 vs 87% Q1) created post-earnings dip then recovered. $210B backlog. Deutsche Bank PT $450 (Jul 27). 17 Strong Buys. Stop auto-ratcheted to $349.96 on new intraday HWM $388.84 Aug 6. **INTACT**.
+
+**JPM**: Q2 2026 MASSIVE BEAT — EPS $6.14 vs $5.59 est (+9.84%), Rev $57.3B vs $50.7B (+13.1%). Record net income $16.9B, ROTCE 23%. Investment banking fees +27%, AWM +19%. NFP 88K = mildly positive for credit quality outlook. No adverse news. **INTACT**.
+
+**NVDA**: Earnings Aug 26 confirmed (Q2 FY27 AMC). Analysts expect +96% revenue growth. AI hyperscalers raised capex: GOOGL $195–205B, AMZN, MSFT. H200 limited China shipments resumed. Approaching +15% trigger ($229.84) → when hit, tighten trail to 7% (high-vol rule: beta >2, ATR >4%, stay at 7% not 5%). NQ headwind today is mild. **INTACT, STRONG**.
+
+**UNH**: Q2 2026 beat (EPS $6.38 adj, raised FY to $19.50–$20.00). However stock -3.4% since earnings (Jul 16) on MCR pressure from No Surprises Act IDR process + membership attrition (-965K MA members). Position now −5.11% from entry. -7% manual cut floor = $395.57 (current $403.60 = $8.03 cushion above floor). Stop $393.25 = 1.06% below cut floor. Commercial margin recovery pushed past 2027. Analyst PT avg $475.23 (86% buy). Long-term thesis intact but near-term headwinds persist. **MONITORING — cut if ≤ $395.57**.
+
+### Politician Signals (Step 3b — last 45 days)
+| Politician | Ticker | Action | Size | Trade Date | Days Since | Signal |
+|------------|--------|--------|------|------------|------------|--------|
+| Nancy Pelosi | INTC | BUY | $1M–5M | May 29 | **70 days** | EXPIRED (>45 day window) |
+| Nancy Pelosi | UBER | BUY | $500K–1M | May 29 | **70 days** | EXPIRED (>45 day window) |
+| McCaul, Tuberville, Khanna, Gottheimer, Mast | — | — | — | — | — | No qualifying buys found |
+
+**No actionable politician signals.** Pelosi's last disclosures (INTC/UBER) are outside the 45-day window. Note: Pelosi not running for re-election 2026; starting Jan 2027 she won't have to disclose. This may be among her last disclosures.
+
+### Live Price Verification (Step 3d — trade ideas)
+- **PLTR**: Alpaca AH quote bid $148.26 / ask $0 — ask side empty, ILLIQUID. Cannot price entry. SKIP per rules.
+- **AVGO**: Alpaca AH quote bid $398.42 / ask $442.19 — 10.9% spread, ILLIQUID. Cannot price entry. SKIP per rules.
+- **JPM (existing)**: AH bid $337.63 / ask $374.01 — AH illiquid; existing position only, no additional needed.
+
+No priceable new entries from AH quotes. Both watchlist names require day-session quotes.
+
+### Trade Ideas
+**None today.**
+- NFP 88K = in-line soft print → risk-on signal, but market already processing it; no urgent new-entry catalyst
+- Deployment 78.5% = within 75–85% target; no urgency
+- PLTR and AVGO: AH quotes illiquid per Step 3d rules; evaluate next week (Aug 10+) with day-session prices
+- PLTR thesis: Q2 massive beat, AI software momentum, $135–145 prior support (now bid $148 = above support zone; wait for day-session confirmation and pullback setup)
+- AVGO thesis: AI ASIC custom chips (GOOGL, AMZN, META, OpenAI); earnings Sept 2; 70-72% EPS growth FY2026; strong sector
+
+### Risk Factors
+1. **UNH ongoing weakness**: -5.11% from entry; floor $395.57 is $8 away. If DOJ/IDR costs escalate, could breach cut threshold rapidly
+2. **GE order deceleration**: Q2 orders +17% vs Q1 +87%; investors will scrutinize Q3 orders in Oct earnings. Not a thesis-breaker today but a watchpoint
+3. **Oil elevated ($78 WTI, $83 Brent)**: Iran deal delays = persistent risk premium. GE not directly exposed (aerospace fuel hedges exist). JPM/financials neutral.
+4. **NVDA earnings Aug 26**: 19 days out. Any pre-earnings drift could trigger +15% stop-tightening rule. Must tighten to 7% at $229.84.
+5. **NFP ambiguous market reaction**: SPX −0.18% despite soft NFP suggests some other factor (possible Dow/financials rotation or Iran geopolitics)
+6. **NQ headwind**: −0.34% futures pre-open; tech mildly weaker
+
+### Decision
+**HOLD ALL** — GE, JPM, NVDA, UNH (AAPL frac ignored)
+**NO NEW ENTRIES TODAY** — AH quotes illiquid; no day-session data yet; deployment within target band
+**Watch**: NVDA $229.84 (+15% trigger) → tighten trail to **7%** when hit (high-vol rule)
+**Watch**: GE auto-ratchet — new intraday high above $388.84 will auto-update stop
+**Watch**: UNH $395.57 (-7% cut floor) → if breached intraday, manual cut per hard rule
+**Next entry window**: Aug 10 (Mon) — evaluate PLTR and AVGO with day-session quotes post-NFP clarity
 **Thu/Fri evaluation**: AVGO AMC Aug 6 + NFP Aug 7 → re-evaluate for week's 1st trade if setup emerges
