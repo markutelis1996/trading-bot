@@ -7493,6 +7493,72 @@ No ticker moved >5% from research. All theses intact.
 
 ---
 
+## 2026-08-07 - Midday Scan
+
+**Portfolio:** ~$111,929 equity | **Cash:** $23,875.19 (21.4%) | **Positions:** 5 stocks | **Deployed:** ~78.6% | **Phase P&L:** ~+$11,929 (+11.93%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ Match |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ Match |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ Match |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ Match |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ Match |
+| Crypto | FILTERED | — | OFF-LIMITS (DCA sleeve) |
+
+Clean. No stop-outs. Stop auto-trail updates since Aug 6 log:
+- **NVDA**: HWM $222.21 → $223.63, stop $199.989 → $201.265 (new intraday high set)
+- **GE**: HWM $384.51 → $388.84, stop $346.059 → $349.956 (new intraday high set)
+- JPM HWM $363.00 (unchanged) | UNH HWM $436.945 (unchanged)
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Day Chg | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|------|---------|---------------|-----|--------|
+| AAPL frac | 0.877 | $312.42 | $312.13 | -0.09% | -0.09% | none | — | HOLD |
+| GE | 47.982 | $348.94 | $374.67 | +7.37% | +0.03% | $349.956 (10% trail, df184923) | $388.84 | HOLD |
+| JPM | 49.522 | $334.00 | $356.66 | +6.78% | +0.10% | $326.70 (10% trail, 1a5b3205) | $363.00 | HOLD |
+| NVDA | 82.192 | $199.864 | $218.99 | +9.57% | 0.00% | $201.265 (10% trail, 30f07262) | $223.63 | HOLD |
+| UNH | 39.363 | $425.34 | $403.60 | -5.11% | -0.09% | $393.2505 (10% trail, ac627db0) | $436.945 | HOLD |
+
+### Step 3 — Cuts
+None. No position at ≤-7%.
+- UNH worst: -5.11%; -7% floor = $395.57; current $403.60 = $8.03 above cut line ✓
+
+### Step 4 — Stop Tightening
+- NVDA +9.57%: +15% trigger = $229.84 — not reached. 4.96% away.
+- GE +7.37%: +15% trigger = $401.28 — not reached. 7.12% away.
+- JPM +6.78%: +15% trigger = $384.10 — not reached. 7.70% away.
+- UNH: loss → N/A.
+No stop tightening. All stops auto-trailing correctly.
+
+### Step 5 — Thesis Check
+- **GE**: +0.03% intraday; quiet NFP-day session. Aerospace supercycle intact. INTACT.
+- **JPM**: +0.10% intraday. Record Q2 EPS; banking recovery thesis unchanged. INTACT.
+- **NVDA**: Flat intraday. AI GPU demand; Vera Rubin H2 2026 ramp; Aug 27 earnings next catalyst. INTACT.
+- **UNH**: -0.09% intraday. FY2026 guidance raised; management revamp. -5.11% from entry; floor $395.57 = $8.03 cushion. INTACT — monitoring.
+- **AAPL frac**: Immaterial. No stop.
+
+### Step 6 — Intraday Research
+NFP July released 8:30 AM ET. All stock positions flat to minimal intraday change — consistent with in-line print. No sharp unexplained moves in any position. No research needed.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL frac | 0.877 | $312.42 | none | — | — |
+| 2 | GE | 47.982 (47 stop) | $348.94 | $349.956 (10% trail, df184923) | $388.84 | $401.28 (+15% → tighten) |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $326.70 (10% trail, 1a5b3205) | $363.00 | $384.10 (+15% → tighten) |
+| 4 | NVDA | 82.192 (81 stop) | $199.864 | $201.265 (10% trail, 30f07262) | $223.63 | $229.84 (+15% → tighten) |
+| 5 | UNH | 39.363 (39 stop) | $425.34 | $393.2505 (10% trail, ac627db0) | $436.945 | $510.41 (+20%) |
+
+- Trades this week: 0/7
+- No notification sent (no action taken)
+
+---
+
 ### Aug 07 - EOD Snapshot (Day 79, Friday)
 **Portfolio:** $110,870.02 | **Cash:** $23,875.19 (21.5%) | **Day P&L:** -$1,101.43 (-0.98%) | **Phase P&L:** +$10,870.02 (+10.87%)
 
