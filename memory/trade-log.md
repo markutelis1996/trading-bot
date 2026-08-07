@@ -7492,3 +7492,18 @@ No ticker moved >5% from research. All theses intact.
 - Post-NFP watchlist: PLTR ($135-145 support), AVGO (Sept 2 earnings thesis intact)
 
 ---
+
+### Aug 07 - EOD Snapshot (Day 79, Friday)
+**Portfolio:** $110,870.02 | **Cash:** $23,875.19 (21.5%) | **Day P&L:** -$1,101.43 (-0.98%) | **Phase P&L:** +$10,870.02 (+10.87%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $312.13 | -$0.28 (-0.09%) | -$0.25 (-0.09%) | none |
+| GE | 47.982 | $348.94 | $374.67 | +$0.12 (+0.03%) | +$1,234.58 (+7.37%) | $349.96 (10% trail, HWM $388.84) |
+| JPM | 49.522 | $334.00 | $356.66 | +$0.36 (+0.10%) | +$1,122.09 (+6.78%) | $326.70 (10% trail, HWM $363.00) |
+| NVDA | 82.192 | $199.86 | $218.99 | $0.00 (0%) | +$1,572.00 (+9.57%) | $201.26 (10% trail, HWM $223.63) |
+| UNH | 39.363 | $425.34 | $403.60 | -$0.37 (-0.09%) | -$855.76 (-5.11%) | $393.25 (10% trail, HWM $436.95) |
+
+**Notes:** NFP day (Aug 7) — stocks barely moved (<0.1% each), entirely quiet session. Total equity fell -$1,101.43 (-0.98%) largely from crypto DCA sleeve drawdown (BTC/ETH/LINK/SOL net -$51 intraday); stock sleeve intraday contribution was approximately +$9. HWM updates confirmed via broker orders: NVDA made new HWM $223.63 (was $222.21), GE made new HWM $388.84 (was $384.51) — both hit intraday highs before settling back. UNH -5.11% unrealized ($403.60); manual -7% cut floor $395.57 remains above trailing stop $393.25 — effective floor is the manual cut at $395.57; $8.03 of cushion. No trades today; 0/3 used this week. Phase P&L +$10,870.02 (+10.87%). All 4 GTC stops active and correctly auto-trailing (NVDA 30f07262, GE df184923, JPM 1a5b3205, UNH ac627db0). Week reset Mon Aug 10: 3 fresh slots; evaluate 1 new entry post-NFP if macro benign; NVDA $229.84 and GE $401.28 are +15% tightening triggers to watch.
+
+---
