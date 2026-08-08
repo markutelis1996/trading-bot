@@ -7692,3 +7692,18 @@ Market closed (Saturday). No intraday moves or adverse news to assess.
 - No notification sent (no action taken)
 
 ---
+
+### Aug 08 - EOD Snapshot (Day 80, Saturday)
+**Portfolio:** $111,496.31 | **Cash:** $23,875.19 (21.4%) | **Day P&L:** +$589.39 (+0.53%) | **Phase P&L:** +$11,496.31 (+11.50%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $313.33 | +0.00% (Sat) | +$0.80 (+0.29%) | none |
+| GE | 47.982 | $348.94 | $370.08 | +0.00% (Sat) | +$1,014.34 (+6.06%) | $349.96 (10% trail, HWM $388.84) |
+| JPM | 49.522 | $334.00 | $357.52 | +0.00% (Sat) | +$1,164.68 (+7.04%) | $326.70 (10% trail, HWM $363.00) |
+| NVDA | 82.192 | $199.86 | $223.96 | +0.00% (Sat) | +$1,980.49 (+12.06%) | $202.28 (10% trail, HWM $224.76 ↑) |
+| UNH | 39.363 | $425.34 | $407.08 | +0.00% (Sat) | -$718.78 (-4.29%) | $393.25 (10% trail, HWM $436.95) |
+
+**Notes:** Weekend snapshot — stocks closed Friday; day P&L entirely from crypto DCA sleeve drift (+0.53%). All 4 GTC trailing stops active and correct. NVDA made a new intraday HWM $224.76 on Friday (was $223.63) — stop auto-tightened to $202.28; +15% tightening trigger ($229.84) is now 2.6% away. UNH at -4.29% unrealized; -7% manual cut floor $395.57, $13.83 of cushion above stop $393.25 — still safe. No trades this week (0/3 cap). Phase P&L +$11,496.31 (+11.50%). Mon Aug 10: 3 fresh trade slots; evaluate PLTR ($135-145 support) and AVGO (AI ASIC thesis) with live day-session quotes; max 2 new positions (cap-6, 4 real positions held).
+
+---
