@@ -831,3 +831,75 @@ Deployment: 62.3% stocks ($67,511 / $108,730) — below 75-85% target; 24.5% cas
 - Phase P&L: +$8,730 (+8.73%) — lead over benchmark narrowing ✗
 
 ---
+
+## Week ending 2026-08-08
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $108,823.07 (Mon Aug 3 AM open) |
+| Ending portfolio | $110,906.92 (Fri Aug 7 close) |
+| Week return | +$2,083.85 (+1.91%) |
+| S&P 500 week | ~+1.3% (estimated; Perplexity unavailable; SPX ~7,757 Aug 7 close vs ~7,660 Aug 1 close) |
+| Bot vs S&P | ~+0.6% outperformance |
+| Trades | 0 new (W:0 / L:0 / open:4 stocks + AAPL frac) |
+| Win rate | N/A (no closed trades) |
+| Best trade | NVDA +12.06% unrealized |
+| Worst trade | UNH -4.29% unrealized |
+| Profit factor | N/A (no closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| — | — | — | — | — | No trades closed this week |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| AAPL frac | 0.877 | $312.42 | $313.33 | +$0.80 (+0.29%) | none | — |
+| GE | 47.982 (47 stop) | $348.94 | $370.08 | +$1,014.34 (+6.06%) | $349.96 (10% trail, df184923) | $388.84 |
+| JPM | 49.521 (49 stop) | $334.00 | $357.52 | +$1,164.68 (+7.04%) | $326.70 (10% trail, 1a5b3205) | $363.00 |
+| NVDA | 82.192 (81 stop) | $199.864 | $223.96 | +$1,980.49 (+12.06%) | $201.265 (10% trail, 30f07262) | $223.63 |
+| UNH | 39.363 (39 stop) | $425.34 | $407.08 | -$718.78 (-4.29%) | $393.25 (10% trail, ac627db0) | $436.945 |
+
+Deployment: ~78.5% stocks + crypto within 75-85% target band ✓
+
+### What Worked
+- NVDA re-entry thesis validating — entered Jul 31 at $199.86 post ECI-gate + dual hyperscaler (MSFT Azure +43%, AMZN AWS +37%); closed the week +12.06% unrealized; GTC stop auto-ratcheting (HWM $223.63, stop $201.27)
+- AMD margin miss read-through correct — AMD gross margin miss (54% vs 56%) correctly identified as AMD-specific; NVDA held strong and continued higher while AMD fell -8-9% AH; no panic sell
+- GE aerospace supercycle continuing — new intraday HWM $388.84 set Aug 6 (52-week high territory); stop auto-ratcheted to $349.96; thesis intact
+- NFP Aug 7 binary managed cleanly — 88K soft/in-line print; no stops triggered; all positions held; pre-NFP no-entry discipline was correct given illiquid AH quotes
+- Full week deployed at target — 78.5-78.7% all week, first consistent week at 75-85% target band; no urgency to overextend
+
+### What Didn't Work
+- 0 new trades all week — 3 slots available but no qualifying entries executed; PLTR and AVGO both had illiquid AH quotes blocking execution; missed post-NFP risk-on window Aug 7
+- UNH -4.29% unrealized and worsening — MCR headwinds persist (No Surprises Act IDR costs + membership attrition -965K); floor $395.57 is only $13.51 away (3.3%); position dragging portfolio
+- EOD snapshot timing error — Aug 7 EOD logged mid-session prices (GE $374.67, NVDA $218.99) rather than actual closing prices (GE $370.08, NVDA $223.96); reconciliation via API at week-end revealed discrepancy
+- PLTR and AVGO watchlist not entered — both identified as strong setups but both blocked by AH illiquidity every session; need day-session execution on Mon Aug 10
+
+### Key Lessons
+- Post-NFP soft print (88K) is a risk-on entry signal; both PLTR and AVGO should be priced with live day-session quotes on Mon Aug 10 before missing another week
+- NVDA $229.84 (+15% trigger) is now 2.6% away at week-end close ($223.96); when hit, cancel order 30f07262 and replace with 7% trailing stop (high-vol rule: NVDA beta >2, ATR >4%)
+- GE $401.28 (+15% trigger) is 8.4% away; ATR check needed at tightening time — GE aerospace is lower-vol than NVDA; may qualify for 5% trail if ATR <4% of price
+- UNH holding below -4%: at -4.29% with only $13.51 cushion above $395.57 cut floor; MCR commercial recovery pushed to 2027; consider cutting proactively if UNH closes below $400
+
+### Adjustments for Next Week
+- **Mon Aug 10 priority**: Evaluate PLTR (day-session quote; Q2 massive beat, AI software, prior support $135-145 now broken above; bid $148 AH) and AVGO (day-session quote; AI ASIC demand, earnings Sept 2); fill 1-2 slots
+- **NVDA $229.84 trigger**: Prepare cancel-and-replace order in advance; when hit, replace 10% trail (30f07262) with 7% trail immediately
+- **UNH**: Monitor daily; if drops below $395.57 intraday, manual cut per hard rule; do not wait for stop $393.25
+- **Deployment**: At 78.5%; adding 1-2 positions would reach ~90%; add only 1 first, reassess before second to stay under 85%
+- **NVDA earnings blackout**: Aug 27 earnings → no new semi adds after Aug 20 (5-day pre-earnings window)
+
+### Overall Grade: B
+- +1.91% vs S&P ~+1.3% = ~+0.6% outperformance ✓
+- First full week at 75-85% deployment target ✓
+- NVDA +12.06% re-entry thesis strongly validating ✓
+- GE at 52-week highs, new HWM this week ✓
+- AMD read-through correctly handled (no panic) ✓
+- NFP binary cleanly managed ✓
+- 0 new trades — position count unchanged ✗
+- UNH -4.29% worsening with limited cushion ✗
+- PLTR/AVGO watchlist not executed ✗
+- Phase P&L: +$10,906.92 (+10.91%) — recovering lead over benchmark ✓
+
+---
