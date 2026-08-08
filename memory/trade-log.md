@@ -7639,3 +7639,56 @@ None.
 - No notification sent (no trades)
 
 ---
+
+## 2026-08-08 - Midday Scan (Weekend — markets closed)
+
+**Portfolio:** ~$110,870 equity (Friday close) | **Cash:** $23,875.19 (21.5%) | **Deployed:** ~78.5% | **Phase P&L:** +$10,870 (+10.87%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| GE | 47.982 (47 stop) | 47.982 | ✓ |
+| JPM | 49.521 (49 stop) | 49.522 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.192 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363 | ✓ |
+| Crypto | filtered | — | OFF-LIMITS (DCA sleeve) |
+
+No position discrepancies. HWM note: NVDA HWM auto-updated by broker to $224.76 (log had $223.63 from Fri market-open); stop auto-trailed to $202.284. Normal trailing stop mechanics. All 4 GTC stops confirmed active.
+
+### Position Status (prices as of Fri Aug 7 close — market closed Saturday)
+| Ticker | Shares | Entry | Current | P&L% | Stop | HWM | Status |
+|--------|--------|-------|---------|------|------|-----|--------|
+| AAPL frac | 0.877 | $312.42 | $313.33 | +0.29% | none | — | HOLD |
+| GE | 47.982 | $348.94 | $370.08 | +6.06% | $349.956 (10% trail, df184923) | $388.84 | HOLD |
+| JPM | 49.521 | $334.00 | $357.52 | +7.04% | $326.70 (10% trail, 1a5b3205) | $363.00 | HOLD |
+| NVDA | 82.192 | $199.864 | $223.96 | +12.06% | $202.284 (10% trail, 30f07262) | $224.76 | HOLD |
+| UNH | 39.363 | $425.34 | $407.08 | -4.29% | $393.2505 (10% trail, ac627db0) | $436.945 | HOLD |
+
+### Step 3 — Cuts
+None. All positions above -7% rule.
+
+### Step 4 — Stop Tightening
+- NVDA +12.06% — +15% trigger $229.84; current $223.96; **2.6% away**. Not triggered.
+- GE +6.06% — +15% trigger $401.28. Not triggered.
+- JPM +7.04% — +15% trigger $384.10. Not triggered.
+- UNH -4.29% — not applicable.
+
+No stop changes.
+
+### Step 5 — Thesis Check
+Market closed (Saturday). No intraday moves or adverse news to assess.
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL frac | 0.877 | $312.42 | none | — | — |
+| 2 | GE | 47.982 (47 stop) | $348.94 | $349.956 (10% trail, df184923) | $388.84 | $401.28 (+15% → tighten to 7%) |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $326.70 (10% trail, 1a5b3205) | $363.00 | $384.10 (+15% → tighten to 7%) |
+| 4 | NVDA | 82.192 (81 stop) | $199.864 | $202.284 (10% trail, 30f07262) | $224.76 | $229.84 (+15% → tighten to 7%) |
+| 5 | UNH | 39.363 (39 stop) | $425.34 | $393.2505 (10% trail, ac627db0) | $436.945 | $510.41 (+20%) |
+
+- Trades this week: 0/3 (week resets Mon Aug 10)
+- No notification sent (no action taken)
+
+---
