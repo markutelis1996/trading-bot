@@ -7707,3 +7707,52 @@ Market closed (Saturday). No intraday moves or adverse news to assess.
 **Notes:** Weekend snapshot — stocks closed Friday; day P&L entirely from crypto DCA sleeve drift (+0.53%). All 4 GTC trailing stops active and correct. NVDA made a new intraday HWM $224.76 on Friday (was $223.63) — stop auto-tightened to $202.28; +15% tightening trigger ($229.84) is now 2.6% away. UNH at -4.29% unrealized; -7% manual cut floor $395.57, $13.83 of cushion above stop $393.25 — still safe. No trades this week (0/3 cap). Phase P&L +$11,496.31 (+11.50%). Mon Aug 10: 3 fresh trade slots; evaluate PLTR ($135-145 support) and AVGO (AI ASIC thesis) with live day-session quotes; max 2 new positions (cap-6, 4 real positions held).
 
 ---
+
+## 2026-08-10 - Market-Open Session
+
+**Portfolio:** $111,705 equity | **Cash:** $7,119 (after trade) | **Positions:** 5 stocks → 6 after AVGO | **Stock deployed:** ~77.8% ✓ | **Phase P&L:** +$11,705 (+11.71%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+| Crypto | FILTERED | — | OFF-LIMITS (DCA sleeve) |
+
+Clean. All GTC stops confirmed active: NVDA 30f07262 ($202.284), GE df184923 ($349.956), JPM 1a5b3205 ($326.70), UNH ac627db0 ($393.2505).
+
+### Step 1b — Live Price Re-verification
+| Ticker | Last Price | P&L% | Key Level | Status |
+|--------|-----------|------|-----------|--------|
+| NVDA | $223.08 | +11.6% | +15% trigger $229.84 (3.0% away) | HOLD |
+| GE | $372.14 | +6.65% | +15% trigger $401.28 | HOLD |
+| JPM | $358.80 | +7.43% | +15% trigger $384.10 | HOLD |
+| UNH | $411.81 | −3.18% | −7% floor $395.57 ($16.24 cushion) | HOLD — safe |
+| AVGO | ask $432 | new entry | zone $412–435 ✓ | BUY |
+| PLTR | ask $176.15 | — | target zone $135–145 | SKIP — too extended |
+
+### Trades Executed
+
+| # | Date | Ticker | Side | Shares | Entry | Stop | Target | R:R | Thesis |
+|---|------|--------|------|--------|-------|------|--------|-----|--------|
+| 1 | 2026-08-10 | AVGO | BUY | 39.148 | $428.01 | $384.79 (10% trail, 91653001, HWM $427.54) | $513.61 (+20%) | 2:1 | AI ASIC custom chip (XPU) demand from Google/Meta/ByteDance; FY2026 EPS +87% YoY ($3.16 est vs $1.69 prior); analyst avg PT $513.68; Sept 2 earnings catalyst (pre-event accumulation); NQ +1.16% green at entry; ask $432 within $412–435 gate |
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL frac | 0.877 | $312.42 | none | — | — |
+| 2 | GE | 47.982 (47 stop) | $348.94 | $349.956 (10% trail, df184923) | $388.84 | $401.28 (+15% → tighten to 7%) |
+| 3 | JPM | 49.521 (49 stop) | $334.00 | $326.70 (10% trail, 1a5b3205) | $363.00 | $384.10 (+15% → tighten to 7%) |
+| 4 | NVDA | 82.192 (81 stop) | $199.864 | $202.284 (10% trail, 30f07262) | $224.76 | $229.84 (+15% → tighten to 7%) |
+| 5 | UNH | 39.363 (39 stop) | $425.34 | $393.2505 (10% trail, ac627db0) | $436.945 | $510.41 (+20%) |
+| 6 | AVGO | 39.148 (39 stop) | $428.01 | $384.79 (10% trail, 91653001) | $427.54 | $513.61 (+20%) / $492.21 (+15% → tighten to 7%) |
+
+- Trades this week: 1/7 | New entries this week: 1/3
+- **Watch**: NVDA $229.84 (+15% trigger, 3.0% away) → cancel 30f07262, place 7% trail GTC on 81 shares (high-vol rule)
+- **Watch**: UNH $395.57 (−7% floor) → manual cut if breached intraday
+- **Watch**: AVGO $492.21 (+15% trigger) → tighten to 7% trail (high-vol: AVGO beta >2)
+- **Watch**: CPI Wednesday Aug 12 (8:30 AM ET) — major binary for all positions
+
