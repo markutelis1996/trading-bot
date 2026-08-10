@@ -7817,3 +7817,19 @@ Semi pullback confirmed: Seeking Alpha "Tech Selloff Creates An Opportunity" (Au
 
 - Trades this week: 1/7 | New entries this week: 1/3
 - No action taken — no notification sent
+
+---
+
+### Aug 10 - EOD Snapshot (Day 81, Monday)
+**Portfolio:** $110,748.89 | **Cash:** $5,747.48 (5.2%) | **Day P&L:** -$687.61 (-0.62%) | **Phase P&L:** +$10,748.89 (+10.75%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $307.42 | -$5.91 (-1.89%) | -$4.39 (-1.60%) | none |
+| AVGO | 39.148 | $428.01 | $422.00 | -$5.76 (-1.35%) | -$235.43 (-1.40%) | $389.46 (10% trail, HWM $432.73) |
+| GE | 47.982 | $348.94 | $366.52 | -$3.56 (-0.96%) | +$843.52 (+5.04%) | $349.96 (10% trail, HWM $388.84) |
+| JPM | 49.521 | $334.00 | $359.50 | +$1.98 (+0.55%) | +$1,262.79 (+7.63%) | $326.70 (10% trail, HWM $363.00) |
+| NVDA | 82.192 | $199.864 | $219.39 | -$4.57 (-2.04%) | +$1,605.13 (+9.77%) | $202.28 (10% trail, HWM $224.76) |
+| UNH | 39.363 | $425.34 | $408.75 | +$1.67 (+0.41%) | -$652.98 (-3.90%) | $393.25 (10% trail, HWM $436.945) |
+
+**Notes:** Broad semi/tech pullback drove portfolio -0.62% on the day. AVGO initiated today at $428.01 (AI ASIC / custom XPU thesis; Sept 2 earnings catalyst); fell -1.35% by close to $422.00 — within normal range, stop $389.46 provides 7.7% buffer from close. NVDA -2.04% intraday on China chipmaking concerns + pre-CPI profit-taking; thesis intact per Citi and TSMC capex raise; +9.77% unrealized, stop $202.28 cushion 7.8%. JPM +0.55% and UNH +0.41% provided defensive offset. GE -0.96%, still +5.04% unrealized. All 5 GTC trailing stops confirmed active and intact. Stock deployed ~77.9% (within 75-85% target). CPI Wednesday Aug 12 (8:30 AM ET) is key near-term binary — no new entries until post-CPI clarity; week cap 1/3 used.
