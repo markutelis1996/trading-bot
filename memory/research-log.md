@@ -8723,3 +8723,18 @@ Day-session quotes not yet available (pre-market). AH quotes from Aug 7 are illi
 **NVDA tightening alert**: If NVDA hits $229.84 (intraday) → immediately cancel GTC 30f07262 + replace with 7% trail GTC on 81 shares (high-vol rule: stay at 7%, not 5%).
 **UNH watch**: Cut manually if price ≤ $395.57 intraday per hard -7% rule.
 **Trades this week**: 0/7 (fresh slots; 1 potential for AVGO today)
+
+## 2026-08-10 - Afternoon Addendum (Midday Scan)
+
+### Intraday Research — Semi Sector Pullback
+**Context**: NVDA -2.8%, AVGO -1.4% intraday as of midday. No position-specific negative news found.
+
+**Cause**: Broad semi sector selloff. Seeking Alpha Aug 10: "Tech Selloff Creates An Opportunity." Bloomberg late Jul: China chipmaking progress (SMEE lithography advances) sparked AI spending sustainability concerns; SOX pulled back ~20% from highs through July. Pre-CPI positioning (Wed Aug 12) adding to intraday volatility.
+
+**Bull case intact**: TSMC Q3 capex raised to $60-64B ($100B more AZ investment) = AI demand structurally strong. Citi Aug 10: "Pullback in chip stocks is a buying opportunity." NVDA Aug 26 earnings: EPS est $2.06 vs $1.04 prior (+98% YoY); revenue est $91.7B vs $46.7B prior (+96%).
+
+**Conclusions**:
+- NVDA: thesis INTACT. Stop $202.284 = 7.2% buffer from $217.69. Hold.
+- AVGO: thesis INTACT. Sept 2 earnings catalyst unchanged. Stop $389.457 = 7.7% buffer from $421.78. Hold.
+- No cuts, no stop changes.
+- **CPI Wednesday**: if hot (≥3.6%) → expect additional 3-5% semi drawdown; stops provide cover. If in-line/cool → relief rally likely.

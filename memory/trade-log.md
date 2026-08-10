@@ -7756,3 +7756,64 @@ Clean. All GTC stops confirmed active: NVDA 30f07262 ($202.284), GE df184923 ($3
 - **Watch**: AVGO $492.21 (+15% trigger) → tighten to 7% trail (high-vol: AVGO beta >2)
 - **Watch**: CPI Wednesday Aug 12 (8:30 AM ET) — major binary for all positions
 
+
+---
+
+## 2026-08-10 - Midday Scan
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| AVGO | 39.148 (39 stop) | 39.148 | ✓ |
+| GE | 47.982 (47 stop) | 47.982 | ✓ |
+| JPM | 49.521 (49 stop) | 49.522 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.192 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363 | ✓ |
+| Crypto | FILTERED | — | OFF-LIMITS (DCA sleeve) |
+
+Clean. GTC stops confirmed: AVGO 91653001 ($389.457, HWM $432.73), NVDA 30f07262 ($202.284, HWM $224.76), GE df184923 ($349.956, HWM $388.84), UNH ac627db0 ($393.2505, HWM $436.945), JPM 1a5b3205 ($326.70, HWM $363.00).
+
+### Step 2 — Live Prices (midday Aug 10)
+| Ticker | Current | Entry | P&L% | Stop | Status |
+|--------|---------|-------|------|------|--------|
+| AAPL frac | $306.28 | $312.42 | -1.97% | none | HOLD |
+| AVGO | $421.78 | $428.01 | -1.46% | $389.457 (10% trail) | HOLD |
+| GE | $366.61 | $348.94 | +5.07% | $349.956 (10% trail) | HOLD |
+| JPM | $357.63 | $334.00 | +7.07% | $326.70 (10% trail) | HOLD |
+| NVDA | $217.69 | $199.864 | +8.92% | $202.284 (10% trail) | HOLD |
+| UNH | $411.33 | $425.34 | -3.29% | $393.2505 (10% trail) | HOLD |
+
+### Step 3 — Cuts
+None. All positions above -7% floor.
+
+### Step 4 — Stop Tightening
+- NVDA +8.92% → +15% trigger $229.84 (current $217.69 = 5.6% away). Not triggered.
+- GE +5.07% → +15% trigger $401.28. Not triggered.
+- JPM +7.07% → +15% trigger $384.10. Not triggered.
+- AVGO -1.46% → N/A.
+- UNH -3.29% → N/A.
+
+No stop changes.
+
+### Step 5 — Thesis Check
+- **NVDA -2.8% today**: Sector-wide semi pullback (China chipmaking progress concerns + pre-CPI profit-taking). Not thesis-specific. TSMC capex guidance raised to $60-64B confirms AI demand intact. Citi: "pullback is a buying opportunity." Thesis INTACT. Stop $202.284 provides 7.2% buffer from current $217.69.
+- **AVGO -1.4% today**: Same sector rotation. Sept 2 earnings thesis unchanged. INTACT.
+- **UNH -3.29%**: $395.57 floor = $15.76 cushion above floor. HOLD — monitor.
+- **GE, JPM**: Holding gains. No adverse news.
+
+### Step 6 — Intraday Research (Tavily)
+Semi pullback confirmed: Seeking Alpha "Tech Selloff Creates An Opportunity" (Aug 10). Citi: chip pullback is buying opp. Bloomberg (Jul 28): China chipmaking concerns dragged Nasdaq near correction in late July. Pre-CPI repositioning amplifying normal volatility. No fundamental thesis breaks.
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL frac | 0.877 | $312.42 | none | — | — |
+| 2 | AVGO | 39.148 (39 stop) | $428.01 | $389.457 (10% trail, 91653001) | $432.73 | $492.21 (+15% → tighten to 7%) |
+| 3 | GE | 47.982 (47 stop) | $348.94 | $349.956 (10% trail, df184923) | $388.84 | $401.28 (+15% → tighten to 7%) |
+| 4 | JPM | 49.521 (49 stop) | $334.00 | $326.70 (10% trail, 1a5b3205) | $363.00 | $384.10 (+15% → tighten to 7%) |
+| 5 | NVDA | 82.192 (81 stop) | $199.864 | $202.284 (10% trail, 30f07262) | $224.76 | $229.84 (+15% → tighten to 7%) |
+| 6 | UNH | 39.363 (39 stop) | $425.34 | $393.2505 (10% trail, ac627db0) | $436.945 | $510.41 (+20%) |
+
+- Trades this week: 1/7 | New entries this week: 1/3
+- No action taken — no notification sent
