@@ -7833,3 +7833,67 @@ Semi pullback confirmed: Seeking Alpha "Tech Selloff Creates An Opportunity" (Au
 | UNH | 39.363 | $425.34 | $408.75 | +$1.67 (+0.41%) | -$652.98 (-3.90%) | $393.25 (10% trail, HWM $436.945) |
 
 **Notes:** Broad semi/tech pullback drove portfolio -0.62% on the day. AVGO initiated today at $428.01 (AI ASIC / custom XPU thesis; Sept 2 earnings catalyst); fell -1.35% by close to $422.00 — within normal range, stop $389.46 provides 7.7% buffer from close. NVDA -2.04% intraday on China chipmaking concerns + pre-CPI profit-taking; thesis intact per Citi and TSMC capex raise; +9.77% unrealized, stop $202.28 cushion 7.8%. JPM +0.55% and UNH +0.41% provided defensive offset. GE -0.96%, still +5.04% unrealized. All 5 GTC trailing stops confirmed active and intact. Stock deployed ~77.9% (within 75-85% target). CPI Wednesday Aug 12 (8:30 AM ET) is key near-term binary — no new entries until post-CPI clarity; week cap 1/3 used.
+
+## 2026-08-11 - Midday Scan
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| AVGO | 39.148 (39 stop) | 39.147751 | ✓ |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+| Crypto | FILTERED | — | OFF-LIMITS (DCA sleeve) |
+
+Clean. All 5 GTC trailing stops confirmed active: AVGO 91653001 ($389.457, HWM $432.73), NVDA 30f07262 ($202.284, HWM $224.76), GE df184923 ($349.956, HWM $388.84), JPM 1a5b3205 ($326.70, HWM $363.00), UNH ac627db0 ($393.2505, HWM $436.945).
+
+### Step 2 — Live Prices (midday Aug 11)
+| Ticker | Current | Entry | P&L% | Stop | Intraday | Status |
+|--------|---------|-------|------|------|----------|--------|
+| AAPL frac | $306.11 | $312.42 | -2.02% | none | -0.70% | HOLD (remnant) |
+| AVGO | $418.51 | $428.01 | -2.22% | $389.457 (10% trail) | -0.92% | HOLD |
+| GE | $368.26 | $348.94 | +5.54% | $349.956 (10% trail) | +0.42% | HOLD |
+| JPM | $362.71 | $334.00 | +8.60% | $326.70 (10% trail) | +0.81% | HOLD |
+| NVDA | $217.62 | $199.864 | +8.88% | $202.284 (10% trail) | +0.03% | HOLD |
+| UNH | $403.47 | $425.34 | -5.14% | $393.2505 (10% trail) | -1.29% | ⚠️ HOLD — $7.90 above -7% floor |
+
+### Step 3 — Cuts
+None. All above -7% manual cut floor.
+- UNH floor: $395.57 (-7% from entry). Current $403.47 = $7.90 buffer. MONITOR.
+
+### Step 4 — Stop Tightening
+- NVDA +8.88% → +15% trigger $229.84 (5.6% away). NOT triggered.
+- GE +5.54% → +15% trigger $401.28. NOT triggered.
+- JPM +8.60% → +15% trigger $384.10. NOT triggered.
+- AVGO -2.22% / UNH -5.14% → N/A.
+
+No stop changes.
+
+### Step 5 — Thesis Check
+- **AVGO** ($418.51, -2.22%): Cathie Wood bought AVGO dip today (TipRanks, ~4h ago). Hock Tan reaffirmed $100B AI customer forecast. No new negatives. Sept 2 earnings thesis intact. Stop $389.46 = 6.9% buffer. INTACT.
+- **GE** ($368.26, +5.54%): No adverse news. Q2 backlog >$210B, FY guidance on track. INTACT.
+- **JPM** ($362.71, +8.60%): NVDA $500B AI consortium member confirmed. INTACT.
+- **NVDA** ($217.62, +8.88%): Essentially flat intraday. +15% trigger ($229.84) is 5.6% away. No new negatives. INTACT.
+- **UNH** ($403.47, -5.14%): DOJ Medicare + Optum Rx investigation ongoing (pre-existing). 2026 guidance revenue decline already known/priced. No new escalation headline today. Floor $395.57 = $7.90 away. HOLD — any DOJ headline escalation → manual cut.
+
+### Step 6 — Intraday Research
+- AVGO: Cathie Wood buying dip; Hock Tan $100B AI reaffirmation → no thesis break, pullback is sector-level pre-CPI caution.
+- UNH: No new DOJ headlines found. 2026 guidance weakness pre-existing; stock stabilizing at -5.14%.
+- Pre-CPI positioning continues across all sectors. No position-specific catalysts.
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL frac | 0.877 | $312.42 | none | — | — |
+| 2 | AVGO | 39.148 (39 stop) | $428.01 | $389.457 (10% trail, 91653001) | $432.73 | $492.21 (+15% → tighten to 7%) |
+| 3 | GE | 47.982 (47 stop) | $348.94 | $349.956 (10% trail, df184923) | $388.84 | $401.28 (+15% → tighten to 7%) |
+| 4 | JPM | 49.521 (49 stop) | $334.00 | $326.70 (10% trail, 1a5b3205) | $363.00 | $384.10 (+15% → tighten to 7%) |
+| 5 | NVDA | 82.192 (81 stop) | $199.864 | $202.284 (10% trail, 30f07262) | $224.76 | $229.84 (+15% → tighten to 7%) |
+| 6 | UNH | 39.363 (39 stop) | $425.34 | $393.2505 (10% trail, ac627db0) | $436.945 | $510.41 (+20%) |
+
+- Trades this week: 1/7 | New entries: 1/3
+- No action taken — no notification sent
+
+---
