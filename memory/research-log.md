@@ -8738,3 +8738,103 @@ Day-session quotes not yet available (pre-market). AH quotes from Aug 7 are illi
 - AVGO: thesis INTACT. Sept 2 earnings catalyst unchanged. Stop $389.457 = 7.7% buffer from $421.78. Hold.
 - No cuts, no stop changes.
 - **CPI Wednesday**: if hot (≥3.6%) → expect additional 3-5% semi drawdown; stops provide cover. If in-line/cool → relief rally likely.
+
+## 2026-08-11 - Pre-market Research
+
+### Account (live)
+- Equity: $110,902.44
+- Cash: $5,747.48 (5.2%)
+- Long MV: $105,154.96 (stocks + crypto)
+- Buying power: $265,064.83 (4x margin)
+- Daytrade count: 0/3
+- Deployed (stock sleeve): ~78% ✓ within 75–85% target
+- Phase P&L: +$10,902 (+10.90%)
+- Trades this week: 1/7 | New entries: 1/3
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| AVGO | 39.148 (39 stop) | 39.147751 | ✓ |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.521 (49 stop) | 49.521674 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+| Crypto | FILTERED | — | OFF-LIMITS (DCA sleeve) |
+
+Clean. All 5 GTC trailing stops confirmed active: AVGO 91653001 ($389.457, HWM $432.73), NVDA 30f07262 ($202.284, HWM $224.76), GE df184923 ($349.956, HWM $388.84), JPM 1a5b3205 ($326.70, HWM $363.00), UNH ac627db0 ($393.2505, HWM $436.945).
+
+### Market Context (pre-market Aug 11)
+- **ES futures**: 7,779.75 (+45 pts vs Friday; SPX closed Mon Aug 10 at 7,753.11) → implies +0.35% open
+- **NQ futures**: 29,834.75 (+346.5 pts) → tech positive pre-market; recovery from Monday's -0.32% session
+- **VIX**: 15.31 (prev close 14.90; slight uptick pre-CPI caution; futures Aug 19 at 17.01)
+- **WTI**: ~$82.15/bbl; **Brent**: ~$83.57/bbl — oil elevated, surged +5% Mon Aug 10 on Iran Hormuz deal collapse
+- **Gold**: $4,411 (+0.27%) — elevated geopolitical hedge demand
+- **10Y yield**: 4.649% (-0.009) — yields drifting lower; mild equity positive
+- **Iran/Hormuz**: Deal optimism dimming; "Stock Market Limps On Dimming Optimism For U.S.-Iran Deal" (IBD Aug 10 EOD). Ongoing risk premium in oil.
+
+### Economic Calendar This Week
+| Date | Release | Consensus | Notes |
+|------|---------|-----------|-------|
+| Tue Aug 11 | No major US releases | — | Light day; positioning for CPI |
+| **Wed Aug 12** | **CPI July (8:30 AM ET)** | **+3.42% YoY / +0.21% MoM core** | **BIG BINARY — Cleveland Fed nowcast** |
+| Thu Aug 13 | PPI July; Fed Hammack speech 7 PM | — | Secondary to CPI |
+| Fri Aug 14 | Retail Sales; Michigan Sentiment | — | Consumer read |
+
+**CPI read**: Cleveland Fed nowcast: CPI July +3.42% YoY (+0.09% MoM), Core CPI +2.52% YoY (+0.21% MoM). Polymarket: +0.2% MoM at 50%, +0.1% at 35%. June printed 0.0% MoM (surprise low); July likely bounce to +0.2%. NY Fed Jul consumer expectations 3.6% (down from 3.7%). If in-line/cool → relief rally, rate-cut expectations rise; if hot (≥+0.3%) → selloff, all positions hit.
+
+### Earnings BMO Aug 11
+No market-moving names before open. Small caps only (Amcor AMCR, Brinker EAT, Kontoor Brands KTB, Performance Food Group PFGC, etc.). CAVA Group reports AMC tonight. No portfolio exposure to any Aug 11 earnings.
+
+### Position Status (live Alpaca prices, pre-market Aug 11)
+| Ticker | Qty | Entry | Current | P&L% | Stop (GTC) | HWM | +15% Trigger | Status |
+|--------|-----|-------|---------|------|------------|-----|--------------|--------|
+| AAPL frac | 0.877 | $312.42 | $308.76 | -1.17% | none | — | — | IGNORE (remnant) |
+| AVGO | 39.148 | $428.01 | $424.60 | -0.80% | $389.457 (91653001) | $432.73 | $492.21 | HOLD |
+| GE | 47.982 | $348.94 | $366.70 | +5.09% | $349.956 (df184923) | $388.84 | $401.28 | HOLD |
+| JPM | 49.521 | $334.00 | $360.00 | +7.78% | $326.70 (1a5b3205) | $363.00 | $384.10 | HOLD |
+| NVDA | 82.192 | $199.864 | $219.53 | +9.84% | $202.284 (30f07262) | $224.76 | **$229.84** | ⚠️ HOLD — 4.7% from +15% trigger |
+| UNH | 39.363 | $425.34 | $408.91 | -3.86% | $393.2505 (ac627db0) | $436.945 | N/A | ⚠️ HOLD — monitor |
+
+### Position Thesis Checks
+
+**AVGO** ($424.60, -0.80%): Q2 AI semiconductor revenue +143% YoY. JPMorgan "aggressive buyers at current levels" with $580 PT (38% upside); TPU v9 2nm program with Google confirmed ON TRACK; Sept 2 earnings catalyst intact. AI ASIC / custom XPU secular thesis INTACT. Stop $389.457 = 8.3% buffer from current.
+
+**GE** ($366.70, +5.09%): 2Q26 recap confirms on track for high-end of FY guidance; backlog >$210B (>$170B commercial services); ISV revenue +30% in last 12 months, spare parts +25%; defense showcase confirmed Lynn engine output +30% with no extra headcount. INTACT. Earnings Oct 20.
+
+**JPM** ($360.00, +7.78%): Financial stocks jumped Mon AMC on NVDA $500B AI deal (JPMorgan is one of the six consortium members — Apollo, Blackstone, BlackRock, Brookfield, Goldman, KKR). JPM directly benefits from AI infrastructure financing deal. INTACT, UPGRADED (AI deal adds direct catalyst).
+
+**NVDA** ($219.53, +9.84%): Nvidia confirmed $500B AI infrastructure financing deal with Wall Street consortium (Apollo, Blackstone, BlackRock, Brookfield, Goldman, KKR) after Mon close. Ironically, NVDA fell -2.18% Mon on oil/Iran concerns, but "buy the rumor, sell the news" dynamics may mean today's session is a recovery. Aug 26 AMC earnings: consensus +96% revenue YoY. Mark Cuban warned of systemic risk from AI financing complexity — minor headwind vs massive AI demand tailwind. INTACT. **+15% trigger ($229.84) is only 4.7% away.** If hit → immediately cancel 30f07262, place new 7% trail GTC on 81 shares (high-vol rule).
+
+**UNH** ($408.91, -3.86%): DOJ criminal investigation into Medicare billing (active since at least Jul 2025); DOJ expanded probe to Optum Rx prescription management (Reuters). Ongoing headwind. Q2 beat (EPS $6.38 vs $4.85 est) provided temporary relief. Stock down 55% from highs. -7% manual cut floor = $395.57 (current = $13.34 above floor). Stop $393.2505 = $15.66 below current. HOLD but high-alert status. Any DOJ escalation headline → manual cut.
+
+### Politician Signals (Step 3b — last 45 days, as of Aug 11)
+| Politician | Ticker | Action | Size | Trade Date | Days Since | Signal |
+|------------|--------|--------|------|------------|------------|--------|
+| Ro Khanna | UBER | BUY | $1K-15K | Jun 30 | 42 days | Sub-$25K threshold → IGNORE |
+| Tommy Tuberville | Multiple | SELLS | $15K-50K ea | Jun 8-9 | 64 days | EXPIRED (>45 days) |
+| Nancy Pelosi | — | No qualifying buys | — | — | — | — |
+| McCaul, Crenshaw, Gottheimer, Green, Mast | — | No qualifying buys found | — | — | — | — |
+
+**No actionable whitelist politician signals in the 45-day window.** Only Khanna had a recent trade but sub-threshold.
+
+### Trade Ideas
+None today.
+- Cash $5,747 (5.2%) — insufficient for a full position (15% × $110,902 = $16,635)
+- At 6 positions (cap 6-8 in learning mode) — no urgent slot needed
+- CPI tomorrow is a binary event; no new entries within 24h of a major macro release
+
+### Risk Factors
+1. **CPI Wed Aug 12 (8:30 AM ET)**: Cleveland Fed nowcast +3.42% YoY / +0.21% core MoM. If hot (≥+0.3% MoM) → tech/semi selloff 3-5%; stops provide cover. If in-line/cool → relief rally; NVDA may hit +15% trigger.
+2. **Iran/Hormuz ongoing**: WTI $82 (+5% Monday). Sustained oil spike = headwind for airlines (GE indirect), financials neutral.
+3. **UNH DOJ escalation risk**: Any new WSJ/Reuters headline on Medicare fraud investigation could push UNH through $395.57 floor. Monitor.
+4. **NVDA +15% trigger ($229.84)**: Only 4.7% away. Pre-CPI volatility could spike through this level. Confirm real-time before acting. If triggered → cancel 30f07262 + place 7% trail GTC on 81 shares.
+5. **Mark Cuban systemic warning**: AI financing complexity could propagate stress across private credit/securitization. Minor long-term risk; not a near-term catalyst.
+6. **JPM GTC stop lagging**: HWM still at $363.00 (Aug 4 level); JPM now at $360.00. Stop auto-trails with new HWMs. Current stop $326.70 = 9.25% below current — wide but within 10% trail design.
+
+### Decision
+**HOLD ALL** — AVGO, GE, JPM, NVDA, UNH (AAPL frac ignore)
+**NO NEW ENTRIES** — insufficient cash; CPI binary tomorrow; no clean setup
+**NVDA watch**: Hit $229.84 → cancel 30f07262, immediately place new 7% trail GTC on 81 shares (high-vol rule: stay at 7%, not 5%)
+**UNH watch**: Breach $395.57 intraday → manual cut per hard -7% rule
+**JPM note**: Confirmed NVDA $500B deal consortium member → thesis upgraded; hold with confidence
