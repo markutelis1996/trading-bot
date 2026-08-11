@@ -7897,3 +7897,19 @@ No stop changes.
 - No action taken — no notification sent
 
 ---
+
+### Aug 12 - EOD Snapshot (Day 83, Wednesday)
+**Portfolio:** $110,448.81 | **Cash:** $5,747.47 (5.2%) | **Day P&L:** -$180.28 (-0.16%) | **Phase P&L:** +$10,448.81 (+10.45%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $304.93 | -$3.33 (-1.08%) | -$6.57 (-2.40%) | none |
+| AVGO | 39.148 | $428.01 | $416.05 | -$6.35 (-1.50%) | -$468.36 (-2.80%) | $389.46 (10% trail, HWM $432.73) |
+| GE | 47.982 | $348.94 | $368.06 | +$1.36 (+0.37%) | +$917.41 (+5.48%) | $349.96 (10% trail, HWM $388.84) |
+| JPM | 49.522 | $334.00 | $362.28 | +$2.49 (+0.69%) | +$1,400.40 (+8.47%) | $326.81 (10% trail, HWM $363.12) |
+| NVDA | 82.192 | $199.864 | $217.95 | +$0.40 (+0.18%) | +$1,486.34 (+9.05%) | $202.28 (10% trail, HWM $224.76) |
+| UNH | 39.363 | $425.34 | $402.60 | -$6.14 (-1.50%) | -$895.12 (-5.35%) | $393.25 (10% trail, HWM $436.945) |
+
+**Notes:** CPI day (Aug 12). Portfolio -$180.28 (-0.16%), essentially flat. AVGO and UNH both -1.50% on the day; UNH now -5.35% unrealized with only $7.03 cushion above the -7% manual cut floor ($395.57) — any DOJ/Optum escalation headline triggers immediate cut. JPM auto-trailed to new HWM $363.12 (stop $326.81). NVDA +0.18% quiet; +15% tightening trigger ($229.84) is 5.5% away. GE and JPM remain solid winners. All 5 GTC trailing stops active and intact. No trades today; week cap 1/3 used (AVGO Aug 10). Stock deployed ~77.9% (target 75-85%) ✓. Crypto DCA sleeve: BTC $63,662, ETH $1,884, LINK $8.76, SOL $76.64 — read-only, no action.
+
+---
