@@ -7913,3 +7913,66 @@ No stop changes.
 **Notes:** CPI day (Aug 12). Portfolio -$180.28 (-0.16%), essentially flat. AVGO and UNH both -1.50% on the day; UNH now -5.35% unrealized with only $7.03 cushion above the -7% manual cut floor ($395.57) — any DOJ/Optum escalation headline triggers immediate cut. JPM auto-trailed to new HWM $363.12 (stop $326.81). NVDA +0.18% quiet; +15% tightening trigger ($229.84) is 5.5% away. GE and JPM remain solid winners. All 5 GTC trailing stops active and intact. No trades today; week cap 1/3 used (AVGO Aug 10). Stock deployed ~77.9% (target 75-85%) ✓. Crypto DCA sleeve: BTC $63,662, ETH $1,884, LINK $8.76, SOL $76.64 — read-only, no action.
 
 ---
+
+## 2026-08-13 - Midday Scan
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| AVGO | 39.148 (39 stop) | 39.147751 | ✓ |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+| Crypto | FILTERED | — | OFF-LIMITS (DCA sleeve) |
+
+Clean. No stops triggered overnight. GTC stops confirmed active: AVGO 91653001 ($389.457, HWM $432.73), NVDA 30f07262 ($202.59, HWM $225.10 — auto-trailed), GE df184923 ($349.956, HWM $388.84), JPM 1a5b3205 ($329.454, HWM $366.06 — auto-trailed), UNH ac627db0 ($393.2505, HWM $436.945).
+
+### Step 2 — Live Prices (midday Aug 13, PPI day)
+| Ticker | Current | Entry | P&L% | Intraday | Stop | Status |
+|--------|---------|-------|------|----------|------|--------|
+| AAPL frac | $302.08 | $312.42 | -3.31% | -0.93% | none | HOLD (remnant) |
+| AVGO | $415.75 | $428.01 | -2.87% | -0.07% | $389.457 (10% trail) | HOLD |
+| GE | $365.33 | $348.94 | +4.70% | -0.74% | $349.956 (10% trail) | HOLD |
+| JPM | $365.37 | $334.00 | +9.39% | +0.86% | $329.454 (10% trail) | HOLD |
+| NVDA | $223.46 | $199.864 | +11.81% | +2.53% | $202.59 (10% trail) | HOLD — 2.8% from +15% trigger |
+| UNH | $405.37 | $425.34 | -4.70% | +0.69% | $393.2505 (10% trail) | ⚠️ HOLD — $9.80 above -7% floor |
+
+### Step 3 — Cuts
+None. All positions above -7% manual cut floor.
+- UNH floor: $395.57. Current $405.37 = $9.80 buffer. Safe but watch.
+
+### Step 4 — Stop Tightening
+- NVDA +11.81% → +15% trigger $229.84; today's high $225.10 (not triggered). 2.8% away.
+- JPM +9.39% → +15% trigger $384.10 (5.1% away). Not triggered.
+- GE +4.70% → +15% trigger $401.28. Not triggered.
+
+No stop changes.
+
+### Step 5 — Thesis Check
+- **NVDA** (+11.81%, +2.53% today): PPI July subdued (below June 5.5% YoY, expected cooling). Post-CPI/PPI relief rally. Aug 26 AMC earnings +96% revenue YoY consensus. INTACT. Monitor for $229.84 trigger.
+- **JPM** (+9.39%): NVDA $500B AI consortium thesis intact. Financials benefiting from improving rate-cut outlook. INTACT.
+- **GE** (+4.70%): No adverse news. FY2026 guidance on track. INTACT.
+- **AVGO** (-2.87%): Flat today. Hock Tan $100B AI reaffirmed. Sept 3 earnings catalyst intact. Stop $389.46 = 6.3% buffer. INTACT.
+- **UNH** (-4.70%, recovering +0.69% today): No new DOJ escalation headlines found. Ongoing Medicare/Optum Rx probe pre-existing. Floor $395.57 = $9.80 cushion. HOLD — any DOJ headline → manual cut.
+
+### Step 6 — Intraday Research
+- PPI July 2026: Expected subdued (prior 5.5% YoY → forecast ≤5.1%), confirming disinflation trend. Post-CPI/PPI combination = rate-cut positive, tech tailwind.
+- No UNH DOJ escalation news found.
+- NVDA intraday high $225.10 — $4.74 below +15% trigger. Approaching but not hit.
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Stop | HWM | Target |
+|---|--------|--------|-------|------|-----|--------|
+| 1 | AAPL frac | 0.877 | $312.42 | none | — | — |
+| 2 | AVGO | 39.148 (39 stop) | $428.01 | $389.457 (10% trail, 91653001) | $432.73 | $492.21 (+15% → tighten to 7%) |
+| 3 | GE | 47.982 (47 stop) | $348.94 | $349.956 (10% trail, df184923) | $388.84 | $401.28 (+15% → tighten to 7%) |
+| 4 | JPM | 49.522 (49 stop) | $334.00 | $329.454 (10% trail, 1a5b3205) | $366.06 | $384.10 (+15% → tighten to 7%) |
+| 5 | NVDA | 82.192 (81 stop) | $199.864 | $202.59 (10% trail, 30f07262) | $225.10 | $229.84 (+15% → tighten to 7%, high-vol rule) |
+| 6 | UNH | 39.363 (39 stop) | $425.34 | $393.2505 (10% trail, ac627db0) | $436.945 | $510.41 (+20%) |
+
+- Trades this week: 1/7 | New entries: 1/3
+- No action taken — no notification sent
+
+---
