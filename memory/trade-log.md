@@ -7994,3 +7994,19 @@ No stop changes.
 - No action taken — no notification sent
 
 ---
+
+### Aug 13 - EOD Snapshot (Day 84, Thursday)
+**Portfolio:** $110,991.12 | **Cash:** $5,747.47 (5.2%) | **Day P&L:** +$542.31 (+0.49%) | **Phase P&L:** +$10,991.12 (+10.99%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $302.00 | -$2.91 (-0.95%) | -$9.14 (-3.34%) | none |
+| AVGO | 39.148 | $428.01 | $415.68 | -$0.40 (-0.09%) | -$482.65 (-2.88%) | $389.46 (10% trail, HWM $432.73) |
+| GE | 47.982 | $348.94 | $365.33 | -$2.73 (-0.74%) | +$786.42 (+4.70%) | $349.96 (10% trail, HWM $388.84) |
+| JPM | 49.522 | $334.00 | $365.37 | +$3.33 (+0.92%) | +$1,553.42 (+9.39%) | $329.45 (10% trail, HWM $366.06) |
+| NVDA | 82.192 | $199.864 | $223.51 | +$6.01 (+2.76%) | +$1,943.50 (+11.83%) | $202.59 (10% trail, HWM $225.10) |
+| UNH | 39.363 | $425.34 | $405.37 | +$3.18 (+0.79%) | -$786.09 (-4.70%) | $393.25 (10% trail, HWM $436.945) |
+
+**Notes:** No trades today (1/3 week entries used — AVGO Aug 10). NVDA +2.76% intraday on AI optimism; +11.83% unrealized; HWM updated to $225.10, stop trailing to $202.59 — +15% tightening trigger ($229.84) is 2.8% above today's close; watch Friday open. JPM +0.92%, +9.39% unrealized; new HWM $366.06, stop trailed to $329.45 (from $326.81); +15% trigger $384.10 = 5.1% away. GE -0.74% on the day, +4.70% unrealized; intact. UNH recovered +0.79% today; still -4.70% unrealized with floor $395.57 = $9.80 cushion above stop $393.25 — any DOJ/Optum escalation → immediate manual cut. AVGO -0.09% essentially flat, -2.88% unrealized; Sept 2 earnings thesis intact, stop $389.46 (6.2% buffer from close). Stock deployed ~77.9% ($86,488 / $110,991) ✓ within 75-85% target. All 5 GTC trailing stops active and intact. Crypto DCA sleeve (read-only): BTC $63,535, ETH $1,885, LINK $8.75, SOL $76.03. 2 weekly entry slots remain; Friday pre-market to assess new setups.
+
+---
