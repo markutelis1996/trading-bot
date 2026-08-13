@@ -8946,4 +8946,94 @@ None. No action today.
 **NO NEW ENTRIES** — cash insufficient; no clean setup
 **NVDA WATCH TODAY**: CPI rally could push NVDA through $229.84 (+15% trigger). If hit → cancel 30f07262, place 7% trail GTC on 81 shares immediately (high-vol rule)
 **UNH WATCH**: $395.57 floor = $7.08 cushion. DOJ headline = immediate cut.
+
+## 2026-08-14 - Pre-market Research
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| AVGO | 39.148 (39 stop) | 39.147751 | ✓ |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+| Crypto | FILTERED | — | OFF-LIMITS (DCA sleeve) |
+
+Clean. No stops fired overnight. All 5 GTC trailing stops confirmed active (broker):
+- AVGO 91653001: $389.457 stop, HWM $432.73
+- NVDA 30f07262: $202.59 stop, HWM $225.10
+- GE df184923: $349.956 stop, HWM $388.84
+- JPM 1a5b3205: $329.454 stop, HWM $366.06
+- UNH ac627db0: $393.2505 stop, HWM $436.945
+
+### Account Snapshot
+- Equity: $111,183.86
+- Cash: $5,747.47 (5.2%)
+- Buying power (regt): $98,115.52
+- Deployed (stocks): ~77.9% ($86,577 market value excl. crypto)
+- Phase P&L: +$11,183.86 (+11.18%)
+- Daytrade count: 0/3
+- Trades this week: 1/7 | New entries: 1/3
+
+### Market Context (pre-market Aug 14)
+- **WTI**: ~$83.78/bbl | **Brent**: ~$89.26/bbl — elevated; Iran Hormuz closure ongoing (demands not met)
+- **ES futures**: ~$7,791 (+0.32% from prior close $7,766.75); S&P 500 +0.31%, Nasdaq +0.67% premarket
+- **VIX**: 14.67 (-3.99% from 15.28 close) — very low/complacent; 5-day -7.15%; 3-month -17.85%
+- **Gold**: $4,469 — elevated geopolitical hedge
+- **10Y yield**: drifting lower, mild equity positive
+
+### Economic Calendar (Aug 14)
+| Time ET | Release | Consensus | Prior | Notes |
+|---------|---------|-----------|-------|-------|
+| 8:30 AM | Retail Sales July MoM | +0.3% | +0.2% | Key consumer spend read |
+| 8:30 AM | Retail Sales ex-Auto July | +0.2% | -0.2% | Underlying demand |
+| 10:00 AM | Michigan Consumer Sentiment prel Aug | 54.5 | 55.2 | Slight dip expected |
+| 10:00 AM | Michigan 1yr Inflation Exp prel Aug | 4.2% | 4.2% | Unchanged expected |
+| 10:00 AM | Michigan 5-10yr Inflation Exp prel Aug | 3.3% | 3.3% | Unchanged expected |
+
+### Earnings Today (Aug 14)
+- No major S&P 500 BMO earnings
+- **AMAT** (AMC Aug 13): Pre-market today +$13.38 (+2.56%) to ~$535.50 → consensus was $8.95B rev / EPS $3.36; AMAT has beaten for 7 consecutive quarters. Beat confirmed by pre-market reaction. Positive read-through for semi sector (NVDA, AVGO).
+
+### Position Status (live Alpaca AH quotes Aug 12 20:00 ET + Tavily pre-market estimates)
+| Ticker | Yesterday Close | AH/PM Est | Entry | P&L% | Stop (GTC) | HWM | +15% Trigger | Status |
+|--------|-----------------|-----------|-------|------|------------|-----|--------------|--------|
+| AAPL frac | $302.00 | ~$302 | $312.42 | -3.34% | none | — | — | REMNANT — ignore |
+| AVGO | $415.68 | ~$415 | $428.01 | -2.88% | $389.457 (91653001) | $432.73 | $492.21 | HOLD |
+| GE | $365.33 | ~$366 | $348.94 | +4.70% | $349.956 (df184923) | $388.84 | $401.28 | HOLD |
+| JPM | $365.37 | ~$362 | $334.00 | +9.39% | $329.454 (1a5b3205) | $366.06 | $384.10 | HOLD |
+| NVDA | $223.51 | ~$224 | $199.864 | +12.08% | $202.59 (30f07262) | $225.10 | **$229.84** | HOLD — 2.6% from +15% trigger |
+| UNH | $405.37 | ~$409 | $425.34 | -4.37% | $393.2505 (ac627db0) | $436.945 | N/A | ⚠️ HOLD — $13.43 above -7% floor |
+
+Note: AMAT beat + semi sector tailwind may push NVDA toward +15% trigger ($229.84) intraday.
+
+### Politician Signals (Step 3b — 45-day window as of Aug 14)
+| Politician | Ticker | Action | Size | Trade Date | Days Since | Signal |
+|------------|--------|--------|------|------------|------------|--------|
+| Nancy Pelosi | Intel (options) | BUY | $1M-5M | May 29 | 77 days | EXPIRED (>45 day window) |
+| Nancy Pelosi | Uber (options) | BUY | $500K-1M | May 29 | 77 days | EXPIRED (>45 day window) |
+| McCaul / Khanna / Gottheimer / Tuberville / Mast | — | No qualifying buys | — | — | — | — |
+
+**No actionable whitelist politician signals.** Pelosi's May 29 trades are: (1) options not stocks — outside our strategy; (2) outside 45-day window. No other whitelist politicians made qualifying $25K+ stock purchases in the window.
+
+### Trade Ideas
+None. No new entries possible:
+- Cash $5,747 (5.2%) — insufficient for 15% position (need ~$16,678 at current equity $111,184)
+- 6 positions open at lower bound of 6-8 learning-mode range; no urgency to add
+- No new catalyst setup meets entry checklist (sector momentum + specific catalyst + stop + 2:1 R:R)
+
+### Risk Factors
+1. **NVDA +15% trigger ($229.84)**: Only 2.6% above yesterday's close. AMAT beat + positive ES futures = elevated probability of trigger breach today. ACTION PLAN if $229.84 hit: cancel 30f07262, immediately place 7% trail GTC on 81 shares (high-vol ATR>4% rule — stay at 7% not 5%).
+2. **Retail Sales surprise**: 8:30 AM release. If miss vs +0.3% consensus → consumer concern, JPM/GE soft; if beat → broad market positive.
+3. **Michigan Sentiment drag**: Consensus 54.5 (dip from 55.2); if prints <52 → consumer/financials headwind.
+4. **UNH floor**: PM est ~$409 = $13.43 above -7% floor ($395.57). Recovering. Any new DOJ/Optum headline → immediate manual cut.
+5. **Iran Hormuz**: Oil still elevated ($84/bbl WTI). GE airline end-demand risk minor. No resolution signal yet.
+6. **Friday thin volume**: Lower liquidity; wider intraday swings; favor holding vs. adding.
+
+### Decision
+**HOLD ALL** — AVGO, GE, JPM, NVDA, UNH (AAPL frac ignore)
+**NO NEW ENTRIES** — cash insufficient; no new setup
+**NVDA WATCH**: AMAT beat + positive pre-market = elevated probability of $229.84 trigger today. If hit → cancel 30f07262, place 7% trail GTC on 81 shares immediately (high-vol rule). Do NOT tighten to 5%.
+**UNH WATCH**: Floor $395.57 now $13.43 below PM est ~$409. DOJ headline = immediate cut.
 **Sector outlook**: CPI miss (cool) = bullish for tech/semis/financials. Existing positions well-positioned to benefit.
