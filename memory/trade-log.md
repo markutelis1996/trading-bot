@@ -8050,3 +8050,19 @@ None. All above -7% floor.
 None. No cuts, no stop changes, no new entries.
 
 ---
+
+### Aug 13 - EOD Snapshot (Day 84, Thursday) — CORRECTED
+**Portfolio:** $110,674.23 | **Cash:** $5,747.47 (5.2%) | **Day P&L:** -$289.72 (-0.26%) | **Phase P&L:** +$10,674.23 (+10.67%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $305.11 | +$2.51 (+0.95%) | -$6.41 (-2.34%) | none |
+| AVGO | 39.148 | $428.01 | $418.00 | +$76.34 (+0.47%) | -$392.02 (-2.34%) | $389.46 (10% trail, HWM $432.73) |
+| GE | 47.982 | $348.94 | $360.64 | -$225.03 (-1.28%) | +$561.39 (+3.35%) | $349.96 (10% trail, HWM $388.84) |
+| JPM | 49.522 | $334.00 | $363.11 | -$102.51 (-0.57%) | +$1,441.51 (+8.72%) | $329.85 (10% trail, HWM $366.50) |
+| NVDA | 82.192 | $199.864 | $225.55 | +$120.00 (+0.65%) | +$2,111.17 (+12.85%) | $204.50 (10% trail, HWM $227.22) |
+| UNH | 39.363 | $425.34 | $399.97 | -$221.22 (-1.39%) | -$998.55 (-5.97%) | $393.25 (10% trail, HWM $436.945) |
+
+**Notes:** Market closed mixed; portfolio -$289.72 (-0.26%) on the day. UNH fell to $399.97 (-1.39%), now only $4.40 above the -7% manual cut floor ($395.57) — DOJ/Optum headline or price breach triggers immediate cut. NVDA +0.65% to $225.55; +12.85% unrealized; stop auto-trailed to $204.50 (HWM $227.22); +15% tighten trigger $229.84 is 1.9% away — if hit Friday open, cancel order 30f07262 and place 7% trail on 81 shares (high-vol ATR rule). GE -1.28% to $360.64; stop $349.96 just above entry — watch floor. JPM -0.57% to $363.11; +8.72% unrealized; stop $329.85. AVGO +0.47% to $418.00; -2.34% unrealized; Sept 3 earnings catalyst intact. All 5 GTC trailing stops active. Stock deployed ~77.9% ✓ target 75-85%. Trades today: none. Week: 1/3 (AVGO Aug 10). Crypto DCA (read-only): BTC $63,381, ETH $1,886, LINK $8.81, SOL $75.89.
+
+---
