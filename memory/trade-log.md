@@ -8010,3 +8010,43 @@ No stop changes.
 **Notes:** No trades today (1/3 week entries used — AVGO Aug 10). NVDA +2.76% intraday on AI optimism; +11.83% unrealized; HWM updated to $225.10, stop trailing to $202.59 — +15% tightening trigger ($229.84) is 2.8% above today's close; watch Friday open. JPM +0.92%, +9.39% unrealized; new HWM $366.06, stop trailed to $329.45 (from $326.81); +15% trigger $384.10 = 5.1% away. GE -0.74% on the day, +4.70% unrealized; intact. UNH recovered +0.79% today; still -4.70% unrealized with floor $395.57 = $9.80 cushion above stop $393.25 — any DOJ/Optum escalation → immediate manual cut. AVGO -0.09% essentially flat, -2.88% unrealized; Sept 2 earnings thesis intact, stop $389.46 (6.2% buffer from close). Stock deployed ~77.9% ($86,488 / $110,991) ✓ within 75-85% target. All 5 GTC trailing stops active and intact. Crypto DCA sleeve (read-only): BTC $63,535, ETH $1,885, LINK $8.75, SOL $76.03. 2 weekly entry slots remain; Friday pre-market to assess new setups.
 
 ---
+
+## 2026-08-13 - Midday Scan (Afternoon Re-check, ~15:42 EDT)
+
+### Step 0 — Reconciliation
+All 6 positions match log. No stops fired. GTC stops auto-updated since morning scan:
+- NVDA 30f07262: HWM $227.22 (was $225.10), stop $204.50 (was $202.59) — NVDA made new intraday highs
+- JPM 1a5b3205: HWM $366.50 (was $366.06), stop $329.85 — minor auto-trail
+
+### Live Prices (3:42 PM EDT)
+| Ticker | Current | Entry | P&L% | Intraday | Stop | Status |
+|--------|---------|-------|------|----------|------|--------|
+| AAPL frac | $304.12 | $312.42 | -2.66% | -0.95% | none | HOLD (remnant) |
+| AVGO | $418.87 | $428.01 | -2.14% | +0.68% | $389.46 (10% trail) | HOLD |
+| GE | $360.29 | $348.94 | +3.25% | -1.38% | $349.96 (10% trail) | HOLD |
+| JPM | $362.97 | $334.00 | +8.67% | -0.61% | $329.85 (10% trail) | HOLD |
+| NVDA | $225.65 | $199.864 | +12.90% | +0.69% | $204.50 (10% trail, HWM $227.22) | HOLD — 1.9% from +15% trigger |
+| UNH | $400.46 | $425.34 | -5.85% | -1.27% | $393.25 (10% trail) | ⚠️ $4.89 above -7% floor |
+
+### Step 3 — Cuts
+None. All above -7% floor.
+- UNH floor $395.57; current $400.46 = **$4.89 buffer** (was $9.80 at morning scan — halved).
+
+### Step 4 — Stop Tightening
+- NVDA +12.90%: +15% trigger $229.84 — 1.9% away. NOT triggered.
+- All others well below threshold.
+
+### Step 5 — Thesis Check
+- **UNH** (-5.85%, -1.27% today): Tavily search — NO new DOJ escalation. Same pre-existing Medicare criminal probe. Thesis not broken; rule says cut at -7%. Monitor close. Buffer tighter than morning scan. Any close below $395.57 or new DOJ headline → cut immediately.
+- **NVDA** (+12.90%): HWM $227.22 confirms new intraday highs. +15% trigger $229.84 may be hit at Friday open. ACTION PLAN: cancel 30f07262 → place 7% trail on 81 shares (high-vol ATR>4% rule — do NOT use 5%).
+- **GE** (+3.25%): Pulled back -1.38% today. Stop $349.96 ≈ entry ($348.94). Thesis intact.
+- **AVGO, JPM**: Intact; no new headlines.
+
+### Step 6 — Intraday Research
+- UNH DOJ: No new escalation. Pre-existing criminal Medicare + Optum Rx probe ongoing. DOJ investigation reportedly delayed by staffing cuts. No new charges or court filings found.
+- NVDA: Continued AI optimism; no adverse news.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+---
