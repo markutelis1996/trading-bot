@@ -9037,3 +9037,98 @@ None. No new entries possible:
 **NVDA WATCH**: AMAT beat + positive pre-market = elevated probability of $229.84 trigger today. If hit → cancel 30f07262, place 7% trail GTC on 81 shares immediately (high-vol rule). Do NOT tighten to 5%.
 **UNH WATCH**: Floor $395.57 now $13.43 below PM est ~$409. DOJ headline = immediate cut.
 **Sector outlook**: CPI miss (cool) = bullish for tech/semis/financials. Existing positions well-positioned to benefit.
+
+## 2026-08-14 - Pre-market Research (Session 2, updated data)
+
+### Step 0 — Reconciliation
+All 6 positions match log. No stops fired overnight. Crypto filtered (DCA sleeve, untouchable).
+
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| AVGO | 39.148 | 39.147751 | ✓ |
+| GE | 47.982 | 47.981945 | ✓ |
+| JPM | 49.522 | 49.521674 | ✓ |
+| NVDA | 82.192 | 82.191638 | ✓ |
+| UNH | 39.363 | 39.363380 | ✓ |
+
+### Account Snapshot (live)
+- Equity: $110,645.55
+- Cash: $5,747.47 (5.2%)
+- Buying power (regt): $97,675.29
+- Long market value: $104,898.08 (stocks + crypto)
+- Phase P&L: +$10,645.55 (+10.65%)
+- Daytrade count: 0/3
+- Trades this week: 1/7 | New entries: 1/3
+
+### GTC Stops (broker confirmed)
+| Order ID | Symbol | Qty | Stop | HWM | Trail |
+|----------|--------|-----|------|-----|-------|
+| 91653001 | AVGO | 39 | $389.457 | $432.73 | 10% |
+| 30f07262 | NVDA | 81 | $204.498 | $227.22 | 10% |
+| df184923 | GE | 47 | $349.956 | $388.84 | 10% |
+| ac627db0 | UNH | 39 | $393.2505 | $436.945 | 10% |
+| 1a5b3205 | JPM | 49 | $329.85 | $366.50 | 10% |
+
+### Market Context (8:30 AM ET vicinity)
+- **ES futures**: $7,825.25 (+54.75, +0.70%) — S&P record highs this week; best week since April
+- **NQ futures**: +1.21% premarket — Nasdaq leading on AI rally
+- **VIX**: 14.71 (prev 14.55) — very low/complacent; 3-month -14.77%
+- **WTI**: ~$81.00/bbl (-2.73%) | **Brent**: ~$86.87/bbl (-2.37%) — oil easing on EIA +17.4M bbl inventory build; Hormuz stalemate continues
+- **10Y yield**: 4.625% (-1.43%) — falling yields = equity positive
+- **Gold**: ~$4,414 (-1.2%) — risk-on rotation out of safe havens
+- **S&P earnings backdrop**: Headline EPS growth 49.6% (2x initial 24.4% est); every sector except utilities beating estimates
+
+### Economic Calendar — Aug 14 Results
+| Release | Actual | Consensus | Prior | Signal |
+|---------|--------|-----------|-------|--------|
+| Retail Sales MoM Jul | +0.1% | +0.3% | +0.2% | MISS — slight consumer softness |
+| Retail Sales Ex-Auto Jul | TBD | +0.2% | -0.2% | Pending |
+| Michigan Sentiment Aug prel | TBD | 54.1 | 55.2 | Expected dip |
+| Fed Venable Speech | 1:00 PM ET | — | — | Watch for tone |
+
+Note: NRF alternative data (credit/debit cards) shows July retail +0.32% MoM, +5.15% YoY — underlying demand intact despite Census miss. Markets not reacting negatively; futures rally continuing.
+
+### Earnings Catalysts Today
+- No major S&P 500 BMO today
+- **AMAT** (AMC Aug 13): Beat confirmed — pre-market +$13.38 (+2.56%) to ~$535. Positive semi read-through for NVDA and AVGO
+- NVDA earnings Aug 26 AMC: Wall Street expects $2.08 EPS (+100% YoY), $92B revenue (+97% YoY). Analysts Buy consensus, avg target ~$323. Motley Fool: "history says shares may dip post-earnings" — pattern risk.
+
+### Live Position Status (live broker prices)
+| Ticker | Broker Price | Entry | P&L% | Stop (GTC) | HWM | +15% Trigger | Status |
+|--------|-------------|-------|------|------------|-----|--------------|--------|
+| AAPL frac | $305.23 | $312.42 | -2.30% | none | — | — | REMNANT, ignore |
+| AVGO | $417.15 | $428.01 | -2.54% | $389.457 (91653001) | $432.73 | $492.21 | HOLD |
+| GE | $360.60 | $348.94 | +3.34% | $349.956 (df184923) | $388.84 | $401.28 | HOLD |
+| JPM | $364.27 | $334.00 | +9.06% | $329.85 (1a5b3205) | $366.50 | $384.10 | HOLD |
+| NVDA | $225.05 | $199.864 | +12.60% | $204.498 (30f07262) | $227.22 | **$229.84** | HOLD — 2.1% from trigger 🔥 |
+| UNH | $399.95 | $425.34 | -5.97% | $393.2505 (ac627db0) | $436.945 | N/A | ⚠️ HOLD — $4.38 above -7% floor |
+
+**UNH floor update**: -7% cut floor = $395.57. Broker price $399.95 = **$4.38 buffer** (much tighter than Session 1 est of $13.43 — that was based on stale PM quote ~$409, broker actual is lower).
+
+### Politician Signals (Step 3b — 45-day window, as of Aug 14)
+| Politician | Ticker | Action | Size | Trade Date | Days Since | Signal |
+|------------|--------|--------|------|------------|------------|--------|
+| Nancy Pelosi | INTC (options) | BUY | $1M-5M | May 29 | 77 days | EXPIRED + options not stocks |
+| Nancy Pelosi | UBER (options) | BUY | $500K-1M | May 29 | 77 days | EXPIRED + options not stocks |
+| All other whitelist politicians | — | No qualifying $25K+ stock buys | — | — | — | None |
+
+Broader whitelist scan: No whitelist politician stock purchases in 45-day window. InsiderFinance shows latest Congressional trades are all <$15K (below threshold). No actionable signal.
+
+### Trade Ideas
+None. Cash $5,747 (5.2%) insufficient for any 15% position (~$16,597 needed at current equity). All 6 stock slots occupied (5 named + AAPL remnant). No new entries possible or warranted.
+
+### Risk Factors
+1. **NVDA +15% trigger ($229.84)**: 2.1% away. NQ futures +1.21% + AMAT beat = high probability of breach at open. **ACTION PLAN**: if $229.84 hit → cancel 30f07262, immediately place 7% trail GTC on 81 shares (high-vol ATR>4% rule; stay at 7%, NOT 5%)
+2. **UNH floor ($395.57)**: $4.38 buffer at current $399.95. New shareholder lawsuit (cybersecurity + governance failings, Aug 13) adds headline risk on top of ongoing DOJ criminal/civil Medicare probe. **ACTION**: any DOJ escalation or close below $395.57 → immediate manual cut
+3. **Retail Sales miss**: +0.1% vs +0.3% consensus. Minor consumer softness signal; contained by strong earnings backdrop. Low systemic risk
+4. **Michigan Sentiment (10 AM)**: Consensus 54.1 (below 55.2); if <52 → consumer/financials headwind for JPM, GE
+5. **NVDA post-earnings risk (Aug 26)**: "History says shares may dip post-earnings" (Motley Fool). Consider exit strategy if +15% triggered and tightened, then stock rallies further into earnings
+6. **Oil easing**: WTI -2.73% (Hormuz stalemate + EIA inventory build). GE end-market risk minor. Positive for consumer spending
+7. **Friday thin volume**: Lower liquidity; intraday whips wider
+
+### Decision
+**HOLD ALL** — AVGO, GE, JPM, NVDA, UNH (AAPL frac ignore)
+**NO NEW ENTRIES** — cash insufficient; 5/6 stock slots filled
+**NVDA WATCH**: NQ +1.21% + AMAT beat = $229.84 trigger likely at open. Cancel 30f07262 → 7% trail GTC on 81 shares immediately if hit. High-vol rule: 7%, NOT 5%.
+**UNH WATCH**: Floor $395.57 now only $4.38 away (not $13 as prior session assumed). Shareholder lawsuit adds risk layer. New DOJ filing or price close below $395.57 = immediate cut.
