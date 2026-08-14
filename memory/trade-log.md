@@ -8122,3 +8122,58 @@ NO NEW TRADES — cash insufficient; no clean setup; all positions within rules.
 - **NVDA WATCH**: trigger $229.84 is $3.14 away — if hit → cancel 30f07262, place 7% trail GTC on 81 shares (high-vol ATR>4% rule; 7% NOT 5%)
 - **UNH WATCH**: $4.07 above -7% floor; any DOJ/Medicare escalation → immediate manual cut
 - No notification sent (no trades)
+
+---
+
+## 2026-08-14 - Midday Scan (~13:02 EDT)
+
+**Portfolio:** $109,889.16 equity | **Cash:** $19,762.56 (18.0%) | **Long MV:** $90,126.60
+
+### STEP 0 — Reconciliation
+All positions matched log at scan open. Crypto (BTCUSD/ETHUSD/LINKUSD/SOLUSD) filtered — DCA sleeve, untouchable.
+
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| AVGO | 39.148 | 39.147751 | ✓ (pre-cut) |
+| GE | 47.982 | 47.981945 | ✓ |
+| JPM | 49.522 | 49.521674 | ✓ |
+| NVDA | 82.192 | 82.191638 | ✓ |
+| UNH | 39.363 | 39.363380 | ✓ |
+
+### STEP 3 — Cut Losers
+
+| # | Date | Ticker | Side | Shares | Entry | Exit | P&L$ | P&L% | Reason |
+|---|------|--------|------|--------|-------|------|------|------|--------|
+| - | 2026-08-14 | AVGO | SELL | 39.1478 | $428.01 | $393.05 | -$1,368.77 | -8.15% | Manual cut: -7% rule (unrealized_plpc -8.145%); cancelled trailing stop 91653001 first, then market sell |
+
+AVGO down -5.90% intraday (NASDAQ: $393.15 → $393.05 fill). Cause: profit-taking + AI-dependency concern ahead of Sept 3 earnings — not a fundamental breakdown. -7% hard rule triggered regardless.
+
+### STEP 4 — Stop Tightening
+- NVDA +12.62% ($225.09): +15% trigger $229.84 — 2.1% away. NOT triggered.
+- GE +4.88%, JPM +8.58%, UNH -5.71%: no threshold reached.
+
+### STEP 5 — Thesis Check
+- **AVGO (exited)**: Thesis intact fundamentally (Sept 3 earnings, AI ASIC/XPU momentum). However, -7% rule is non-negotiable. Exit protects capital. Can re-enter if price stabilizes and setup re-emerges.
+- **UNH** (-5.71%): floor $395.57. Current $401.06 = $5.49 buffer. No new DOJ/Optum escalation found. HOLD per rules.
+- **NVDA** (+12.62%): Intraday -0.07%. AMAT read-through slightly positive. HWM $227.24, stop $204.74 (auto-trailed). +15% trigger $229.84 still the key watch.
+- **GE, JPM**: intact, no news.
+
+### STEP 6 — Intraday Research
+AVGO -5.9% today: profit-taking + "AI must account for 72% of next-quarter growth" concern per TradingKey/ts2.tech. No company-specific negative filing. Earnings Sept 3 AMC remain the catalyst. Stock down ~8% from entry; -7% rule fired correctly.
+
+### Open Positions (post-cut)
+
+| # | Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM |
+|---|--------|--------|-------|---------|------|------------|-----|
+| 1 | AAPL frac | 0.877 | $312.42 | $305.34 | -2.27% | none | — |
+| 2 | GE | 47.982 (47 stop) | $348.94 | $365.97 | +4.88% | $349.956 (df184923, 10%) | $388.84 |
+| 3 | JPM | 49.522 (49 stop) | $334.00 | $362.66 | +8.58% | $329.85 (1a5b3205, 10%) | $366.50 |
+| 4 | NVDA | 82.192 (81 stop) | $199.864 | $225.09 | +12.62% | $204.74 (30f07262, 10%) | $227.24 |
+| 5 | UNH | 39.363 (39 stop) | $425.34 | $401.06 | -5.71% | $393.2505 (ac627db0, 10%) | $436.945 |
+
+- Trades this week: 1/7 | New entries: 1/3 (AVGO Aug 10 — now also cut Aug 14)
+- Stock deployed: ~$70,081 / $109,889 = **63.8%** — BELOW 75% target; $19,762 cash available
+- Cash now sufficient for 1 new 15% position (~$16,483 needed): watch for setup at afternoon/Monday pre-market
+- **NVDA WATCH**: +15% trigger $229.84 = $4.75 away. Cancel 30f07262 → 7% trail GTC on 81 shares (high-vol rule: 7% NOT 5%) if hit.
+- **UNH WATCH**: $5.49 above -7% floor. DOJ headline = immediate cut.
