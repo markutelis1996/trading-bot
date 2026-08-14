@@ -8066,3 +8066,59 @@ None. No cuts, no stop changes, no new entries.
 **Notes:** Market closed mixed; portfolio -$289.72 (-0.26%) on the day. UNH fell to $399.97 (-1.39%), now only $4.40 above the -7% manual cut floor ($395.57) — DOJ/Optum headline or price breach triggers immediate cut. NVDA +0.65% to $225.55; +12.85% unrealized; stop auto-trailed to $204.50 (HWM $227.22); +15% tighten trigger $229.84 is 1.9% away — if hit Friday open, cancel order 30f07262 and place 7% trail on 81 shares (high-vol ATR rule). GE -1.28% to $360.64; stop $349.96 just above entry — watch floor. JPM -0.57% to $363.11; +8.72% unrealized; stop $329.85. AVGO +0.47% to $418.00; -2.34% unrealized; Sept 3 earnings catalyst intact. All 5 GTC trailing stops active. Stock deployed ~77.9% ✓ target 75-85%. Trades today: none. Week: 1/3 (AVGO Aug 10). Crypto DCA (read-only): BTC $63,381, ETH $1,886, LINK $8.81, SOL $75.89.
 
 ---
+
+## 2026-08-14 - Market-Open Session
+
+**Portfolio:** $110,098.21 equity | **Cash:** $5,747.47 (5.2%) | **Positions:** 5 stocks + AAPL remnant
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 0 (NO TRADES)
+
+### STEP 0 - Reconciliation
+All 6 stock positions match log exactly. No stops fired overnight or pre-open.
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| AVGO | 39.148 (39 stop) | 39.147751 | ✓ |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD): filtered — DCA sleeve, untouchable.
+
+### STEP 1b - Live Price Re-verification (9:31 AM EDT)
+| Ticker | Research | Live | Delta | Stop (GTC) | HWM | +15% Trigger | Status |
+|--------|----------|------|-------|------------|-----|--------------|--------|
+| NVDA | $225.05 | $226.70 | +0.7% | $204.516 (30f07262) | $227.24 | **$229.84** | HOLD — $3.14 below trigger |
+| UNH | $399.95 | $399.64 | -0.2% | $393.2505 (ac627db0) | $436.945 | N/A | ⚠️ HOLD — $4.07 above -7% floor |
+| AVGO | $417.15 | $408.58 | -2.1% | $389.457 (91653001) | $432.73 | $492.21 | HOLD — $10.53 above -7% floor |
+| GE | $360.60 | $363.42 | +0.8% | $349.956 (df184923) | $388.84 | $401.28 | HOLD |
+| JPM | $364.27 | $361.96 | -0.6% | $329.85 (1a5b3205) | $366.50 | $384.10 | HOLD |
+
+### Rule Checks
+- Positions: 5 stocks (6 slots including AAPL remnant) — at cap
+- New entries this week: 1/3 (AVGO Aug 10) — 2 slots remain, but cash $5,747 insufficient for 15% position (~$16,500 needed)
+- PDT daytrade count: 0/3 — clean
+- No stop tightening triggered (NVDA +15% threshold $229.84 not reached; NVDA at $226.70)
+- UNH at -6.04%: above -7% manual cut floor ($395.57). No new DOJ/Optum headline. HOLD per rules.
+- AVGO at -4.54%: above -7% floor ($398.05). HOLD.
+- Retail Sales Jul: +0.1% (miss vs +0.3%) — minor consumer softness; markets not reacting negatively.
+
+### Decision
+NO NEW TRADES — cash insufficient; no clean setup; all positions within rules.
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | +15% Trigger |
+|---|--------|--------|-------|---------|------|------------|-----|--------------|
+| 1 | AAPL frac | 0.877 | $312.42 | $306.16 | -2.00% | none | — | — |
+| 2 | AVGO | 39.148 (39 stop) | $428.01 | $408.58 | -4.54% | $389.457 (91653001) | $432.73 | $492.21 |
+| 3 | GE | 47.982 (47 stop) | $348.94 | $363.42 | +4.15% | $349.956 (df184923) | $388.84 | $401.28 |
+| 4 | JPM | 49.522 (49 stop) | $334.00 | $361.96 | +8.37% | $329.85 (1a5b3205) | $366.50 | $384.10 |
+| 5 | NVDA | 82.192 (81 stop) | $199.864 | $226.70 | +13.43% | $204.516 (30f07262) | $227.24 | $229.84 |
+| 6 | UNH | 39.363 (39 stop) | $425.34 | $399.64 | -6.04% | $393.2505 (ac627db0) | $436.945 | N/A |
+
+- Trades this week: 1/7 | New entries: 1/3
+- **NVDA WATCH**: trigger $229.84 is $3.14 away — if hit → cancel 30f07262, place 7% trail GTC on 81 shares (high-vol ATR>4% rule; 7% NOT 5%)
+- **UNH WATCH**: $4.07 above -7% floor; any DOJ/Medicare escalation → immediate manual cut
+- No notification sent (no trades)
