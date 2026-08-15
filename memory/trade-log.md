@@ -8177,3 +8177,18 @@ AVGO -5.9% today: profit-taking + "AI must account for 72% of next-quarter growt
 - Cash now sufficient for 1 new 15% position (~$16,483 needed): watch for setup at afternoon/Monday pre-market
 - **NVDA WATCH**: +15% trigger $229.84 = $4.75 away. Cancel 30f07262 → 7% trail GTC on 81 shares (high-vol rule: 7% NOT 5%) if hit.
 - **UNH WATCH**: $5.49 above -7% floor. DOJ headline = immediate cut.
+
+---
+
+### Aug 14 - EOD Snapshot (Day 85, Friday)
+**Portfolio:** $110,184.45 | **Cash:** $19,762.56 (17.9%) | **Day P&L:** -$478.23 (-0.43%) | **Phase P&L:** +$10,184.45 (+10.18%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $305.93 | +$0.82 (+0.27%) | -$5.69 (-2.08%) | none |
+| GE | 47.982 | $348.94 | $368.38 | +$7.74 (+2.15%) | +$932.77 (+5.57%) | $349.956 (10% trail, HWM $388.84) |
+| JPM | 49.522 | $334.00 | $362.84 | -$0.27 (-0.07%) | +$1,428.13 (+8.63%) | $329.85 (10% trail, HWM $366.50) |
+| NVDA | 82.192 | $199.864 | $225.16 | -$0.39 (-0.17%) | +$2,079.12 (+12.66%) | $204.741 (10% trail, HWM $227.49) |
+| UNH | 39.363 | $425.34 | $401.73 | +$1.76 (+0.44%) | -$929.37 (-5.55%) | $393.2505 (10% trail, HWM $436.945) |
+
+**Notes:** AVGO manually cut at midday (-8.15%, -$1,368.77 realized; -7% rule triggered). Day loss entirely from AVGO realized exit; remaining positions mixed: GE +2.15%, UNH +0.44%, AAPL +0.27%, JPM -0.07%, NVDA -0.17%. Stock deployment 63.8% ($70,231 / $110,184) — below 75-85% target; $19,763 cash available for 1 new position. NVDA +12.66% unrealized; +15% tighten trigger $229.84 is $4.68 away — if hit Monday open, cancel order 30f07262 and place 7% trail GTC on 81 shares (high-vol ATR rule). UNH -5.55%; floor $395.57 gives $6.16 buffer — DOJ/Medicare headline = immediate manual cut. New entries this week: 1/3 (AVGO, opened Aug 10, closed Aug 14). Week cap resets Mon Aug 18.
