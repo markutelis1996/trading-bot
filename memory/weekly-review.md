@@ -903,3 +903,76 @@ Deployment: ~78.5% stocks + crypto within 75-85% target band ✓
 - Phase P&L: +$10,906.92 (+10.91%) — recovering lead over benchmark ✓
 
 ---
+
+## Week ending 2026-08-15
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $110,906.92 (Mon Aug 10 open / prior Fri close) |
+| Ending portfolio | $110,086.65 (Fri Aug 14 close) |
+| Week return | -$820.27 (-0.74%) |
+| S&P 500 week | +0.4% (SPX hit fresh ATH; third consecutive weekly gain) |
+| Bot vs S&P | -1.14% underperformance |
+| Trades | 1 (W:0 / L:1 / open:4 stocks + AAPL frac) |
+| Win rate | 0% (1 closed trade, 0 wins) |
+| Best trade | NVDA +12.66% unrealized |
+| Worst trade | AVGO -8.15% (closed, -$1,368.77) |
+| Profit factor | 0 (no winners this week) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| AVGO | $428.01 (Aug 10) | $393.05 (Aug 14) | -$1,368.77 | -8.15% | -7% rule triggered at midday scan; AI-dependency concern + profit-taking ahead of Sept 3 earnings |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| AAPL frac | 0.877 | $312.42 | $305.93 | -$5.69 (-2.08%) | none | — |
+| GE | 47.982 (47 stop) | $348.94 | $368.38 | +$932.77 (+5.57%) | $349.956 (df184923, 10%) | $388.84 |
+| JPM | 49.522 (49 stop) | $334.00 | $362.84 | +$1,428.13 (+8.63%) | $329.85 (1a5b3205, 10%) | $366.50 |
+| NVDA | 82.192 (81 stop) | $199.864 | $225.16 | +$2,079.12 (+12.66%) | $204.74 (30f07262, 10%) | $227.24 |
+| UNH | 39.363 (39 stop) | $425.34 | $401.73 | -$929.37 (-5.55%) | $393.2505 (ac627db0, 10%) | $436.945 |
+
+Stock deployed: $70,232 / $110,087 = 63.8% (below 75% target; cash $19,762 available)
+Total deployed incl. crypto DCA sleeve: $90,422 / $110,087 = 82.1% (within 75-85% band)
+Phase P&L: +$10,086.65 (+10.09%)
+
+### What Worked
+- -7% cut rule enforced on AVGO — cut at midday when unrealized hit -8.15%; no averaging down, no hope holding; capital protected from further deterioration
+- NVDA thesis intact and strengthening — +12.66% unrealized; AMAT beat (Aug 13 AMC) positive semi read-through; HWM $227.24, stop auto-ratcheting; +15% tighten trigger $229.84 now 1.9% away
+- JPM continued higher — +8.63% unrealized; financials strength on solid earnings season; stop trailed to $329.85
+- GE aerospace supercycle holding — +5.57% unrealized; stop near entry ($349.96 vs entry $348.94), any further rally raises floor materially
+- Reconciliation discipline clean all week — every scan matched broker exactly; no phantom positions
+
+### What Didn't Work
+- AVGO entry was too early / misjudged — entered 3+ weeks before Sept 3 earnings catalyst; stock sold off -5.9% in a single session on AI-dependency concerns; missed that the thesis needed earnings confirmation, not anticipation
+- -7% cut triggered at -8.15% not -7% — position drifted past threshold between market-open and midday scans; next entry needs tighter intraday monitoring or a hard stop placed closer to -7% floor
+- Stock deployment fell to 63.8% after AVGO exit — cash $19,762 sitting idle Friday; no qualifying replacement found day-of; urgency to redeploy vs. discipline tension unresolved
+- UNH worsening — -5.55% unrealized (down from -4.29% last week); shareholder cybersecurity lawsuit added Aug 13; floor $395.57 only $6.16 above current ($401.73); DOJ probe ongoing; position is a drag
+- S&P 500 hit fresh ATH, bot underperformed — week where being underdeployed in stocks cost real relative performance
+
+### Key Lessons
+- Earnings catalyst plays need proximity — AVGO 3+ weeks before earnings in a jittery AI market is too early; wait for earnings week or confirmed earnings catalyst to materialize
+- Hard stop at -7% on open beats midday-scan-only detection — placing a real GTC stop loss at -7% (vs relying on scan to detect) would have fired at the correct level instead of -8.15%; evaluate adding hard stop at entry - 7% for new entries in addition to trailing stop
+- After a cut, redeploy the same session if a qualifying setup exists; don't wait for next-day pre-market unless market is closed — $19K idle Friday is opportunity cost
+- NVDA earnings Aug 26 AMC creates a hard window — no new semi adds after Aug 20 (5-day pre-earnings blackout); if NVDA hits +15% trigger, tighten to 7% trail per high-vol rule; consider trim strategy ahead of Aug 26
+
+### Adjustments for Next Week
+- **Mon Aug 18 priority**: Redeploy ~$16,500 (one 15% position) into qualifying setup — scan pre-market; sectors: financials (follow JPM strength), industrials, or non-semi tech
+- **NVDA $229.84 trigger**: Cancel 30f07262 → place 7% trail GTC on 81 shares immediately when hit (high-vol rule: 7%, NOT 5%); trigger is $3.68 above Friday close
+- **NVDA earnings blackout**: No new semi additions after Aug 20; existing NVDA held through earnings per trailing stop discipline
+- **UNH**: Daily monitor; cut immediately if price ≤ $395.57 intraday or any new DOJ charge filed; stop at $393.25 is the absolute floor
+- **Hard stop discipline**: For new entries, consider placing a GTC stop-loss at entry - 7% in addition to the trailing stop to catch intraday breaches between scans
+
+### Overall Grade: C
+- -0.74% vs S&P +0.4% = -1.14% underperformance; S&P at ATH ✗
+- AVGO entry misjudged — entered too early before earnings catalyst; lost -$1,368.77 ✗
+- Stock deployed 63.8% at week end; trailing target ✗
+- -7% cut rule fired correctly (discipline maintained) ✓
+- NVDA/JPM/GE unrealized gains intact and growing ✓
+- Reconciliation clean all week ✓
+- 0 wins from 1 closed trade ✗
+- Phase P&L: +$10,086.65 (+10.09%) — positive but lead narrowed this week ✓
+
+---
