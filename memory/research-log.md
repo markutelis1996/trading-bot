@@ -9132,3 +9132,171 @@ None. Cash $5,747 (5.2%) insufficient for any 15% position (~$16,597 needed at c
 **NO NEW ENTRIES** — cash insufficient; 5/6 stock slots filled
 **NVDA WATCH**: NQ +1.21% + AMAT beat = $229.84 trigger likely at open. Cancel 30f07262 → 7% trail GTC on 81 shares immediately if hit. High-vol rule: 7%, NOT 5%.
 **UNH WATCH**: Floor $395.57 now only $4.38 away (not $13 as prior session assumed). Shareholder lawsuit adds risk layer. New DOJ filing or price close below $395.57 = immediate cut.
+
+---
+
+## 2026-08-17 - Pre-market Research
+
+### Account
+- Equity: $110,490.25
+- Cash: $19,762.22
+- Long MV: $90,728.03 (stock ~$70,357 + crypto ~$20,371)
+- Stock deployed: ~63.7% — BELOW 75-85% target; 1 new slot available
+- Phase P&L: +$10,490.25 (+10.49%)
+- Daytrade count: 0/3
+- Trades this week: 0/7 | New entries: 0/3 (week cap resets today)
+
+### STEP 0 — Reconciliation
+All 5 stock positions match log exactly. No overnight stops triggered. Crypto filtered (DCA sleeve, untouchable).
+
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| GE | 47.982 | 47.98195 | ✓ |
+| JPM | 49.522 | 49.52167 | ✓ |
+| NVDA | 82.192 | 82.19164 | ✓ |
+| UNH | 39.363 | 39.36338 | ✓ |
+
+### GTC Orders (broker confirmed)
+| Order ID | Symbol | Qty | Stop | HWM | Trail |
+|----------|--------|-----|------|-----|-------|
+| 30f07262 | NVDA | 81 | $204.741 | $227.49 | 10% |
+| df184923 | GE | 47 | $349.956 | $388.84 | 10% |
+| ac627db0 | UNH | 39 | $393.2505 | $436.945 | 10% |
+| 1a5b3205 | JPM | 49 | $329.85 | $366.50 | 10% |
+
+### Open Positions (broker live prices)
+| Ticker | Qty | Entry | Current | P&L% | Stop (GTC) | HWM | +15% Trigger |
+|--------|-----|-------|---------|------|------------|-----|--------------|
+| AAPL frac | 0.877 | $312.42 | $307.07 | -1.71% | none | — | — |
+| GE | 47.982 | $348.94 | $370.00 | +6.05% | $349.956 (df184923) | $388.84 | $401.28 |
+| JPM | 49.522 | $334.00 | $362.06 | +8.40% | $329.85 (1a5b3205) | $366.50 | $384.10 |
+| NVDA | 82.192 | $199.864 | $226.31 | +13.23% | $204.741 (30f07262) | $227.49 | **$229.84** 🔥 |
+| UNH | 39.363 | $425.34 | $401.50 | -5.60% | $393.2505 (ac627db0) | $436.945 | N/A |
+
+### Market Context
+- **WTI**: ~$82.40/bbl (+1.42%) | **Brent**: ~$88.60-88.66/bbl (+1.76%) — oil recovering
+- **ES futures**: ~$7,810 (+0.07%) — essentially flat, no directional bias at open
+- **VIX**: 14.25 (Aug 14 close) — very low/complacent; 52-week range low
+- **VIX term structure**: Spot 14.25 → Sep futures 18.07 → Oct 19.59 (upward slope = uncertainty ahead: NVDA earnings Aug 26, FOMC minutes Aug 19)
+- **10Y yield**: ~4.683-4.696% (rising slightly = mild equity headwind)
+- **Dollar Index**: 99.45 (-0.32%) — weak USD supportive of risk assets
+- **Gold**: $4,432-4,449 (+0.26%)
+- **S&P Q2 earnings**: +41.6-49.6% YoY, 83% beat rate — strongest season since 2021
+- **S&P profit margins**: Record 16.7% Q2 2026
+- **Value vs Growth**: Value outperforming by 20% YTD — biggest rotation since 2022
+
+### Economic Calendar — Aug 18 Releases
+| Time | Release | Prior | Consensus | Impact |
+|------|---------|-------|-----------|--------|
+| 8:30 AM | Import/Export Price Indexes Jul | — | — | Low |
+| 8:30 AM | Housing Starts & Building Permits Jul | — | — | Moderate |
+| 9:15 AM | Industrial Production & Capacity Util Jul | +1.1% YoY | +0.9% | Moderate |
+| 10:00 AM | Pending Home Sales Jul | -5.4% | +0.5% | Moderate |
+| **Aug 19** | **FOMC Minutes (2:00 PM)** | — | — | **HIGH** |
+
+Note: No US CPI/PPI/Jobs today. FOMC Minutes Wednesday = key rate-path signal.
+
+### Macro context
+- August jobs: Only 22K added (Fitch: "warning bell rang louder" — near-seals 25bps cut Sep)
+- Jobless claims falling to lowest since Jan 2024 — mixed signal with weak payrolls
+- AI capex arms race: AMZN+GOOG+MSFT+META spent combined $165B in Q2 (+87% YoY)
+- Fed held rates last meeting; bond volatility broke higher week of Aug 3
+
+### Earnings BMO Today (Aug 18)
+- **HD (Home Depot)** — major bellwether; high fuel costs headwind; July retail +0.1% miss
+- Baidu (BIDU) — China AI context
+- Amer Sports (AS), Klarna (KLAR)
+- AMC tonight: Toll Brothers (TOL), Keysight (KEYS)
+- Key: **NVDA earnings Aug 26 AMC** — 9 days away; massive binary event
+
+### Sector Momentum (YTD 2026 as of Jul 31)
+| Sector | YTD | Schwab Rating | Notes |
+|--------|-----|---------------|-------|
+| Energy | +22% | Neutral | Oil recovery today; WTI +1.42% |
+| Industrials | +18% | More Favored | AI data centers + defense; GE fits |
+| Technology | +17% | Neutral | Semi correction Jul; recovering |
+| Financials | +8% (1M) | More Favored | JPM thesis intact |
+| Healthcare | +11% (1M) | More Favored | UNH drag from DOJ |
+| Consumer Discretionary | -2% YTD | Least Favored | Weakest sector |
+
+### Stock-Specific News
+
+**NVDA** ($226.31 — live from broker):
+- CoreWeave + Nebius both reported double beats (Aug 11-12) → strong AI infrastructure read-through
+- Blackwell Ultra ramping quickly, high demand; Vera Rubin on track
+- Earnings Aug 26 AMC: Wall St expects $2.08 EPS (+100% YoY), $92B rev (+97% YoY)
+- Multiple analysts see $300 by year-end; Motley Fool: "history says dip post-earnings" (2024/2025 pattern) but current PE much lower than those years (less stretched)
+- **CRITICAL**: +15% trigger $229.84 is only $3.53 away (1.56%) from $226.31
+
+**GE** ($370.00 — live from broker):
+- Zacks Aug 13: "Strength in Defense & Propulsion unit drives GE Aerospace — rising demand, major contracts, strong project pipeline"
+- JPMorgan raised PT Jul 20
+- 52-week high $388.84 (=our HWM); current $370 = well in the zone
+- Thesis fully intact
+
+**JPM** ($362.06 — live from broker):
+- Financials sector "More Favored" (Schwab Jul 31)
+- No adverse news
+- Thesis intact
+
+**UNH** ($401.50 — live from broker):
+- Q2 beat: $5.5B profit; full-year EPS guidance $18.45-$18.95 (raised)
+- Raymond James upgraded to Outperform
+- DOJ Medicare billing criminal + civil investigation ongoing (the key risk)
+- New cybersecurity shareholder lawsuit filed Aug 13
+- Aug 13 trading at $403.56 — our broker shows $401.50 pre-market
+- **Floor $395.57 = $5.93 buffer** — EXTREMELY TIGHT
+
+### Politician Signals (45-day window: Jul 3–Aug 17, 2026)
+| Politician | Ticker | Action | Size | Trade Date | Days Since | Signal |
+|------------|--------|--------|------|------------|------------|--------|
+| Pelosi | INTC (options) | BUY | $1M-5M | May 29 | 80 days | EXPIRED + options |
+| Pelosi | UBER (options) | BUY | $500K-1M | May 29 | 80 days | EXPIRED + options |
+| Ro Khanna | NVDA | BUY | $1K-$15K | Jun 5 | 73 days | BELOW $25K threshold |
+| Ro Khanna | ODFL | BUY | $1K-$15K | Jun 5 | 73 days | BELOW $25K threshold |
+| Gottheimer | PANW | BUY | $1K-$15K | Jul 16 | 32 days | BELOW $25K threshold |
+| Gottheimer | CRWD | BUY | $1K-$15K | Jul 15 | 33 days | BELOW $25K threshold |
+| McCaul | — | — | — | Jan 2026 | >7 months | EXPIRED |
+| Tuberville, Crenshaw, Mast | — | — | — | — | — | No qualifying trades |
+
+**Conclusion: NO actionable politician signals.** All whitelist buys either expired (>45 days), are options (not stocks), or below $25K minimum. No new entry triggered from this signal.
+
+### Trade Ideas
+All ideas require live open price — AH quotes for non-held tickers are stale (pre-earnings wide spreads). No pre-open entries.
+
+**1. HD (Home Depot) — WATCHLIST, watch open print**
+- Thesis: Reports BMO today; if beats + raises guidance → consumer resilience catalyst; sector tailwind (Industrials/Discretionary crossover)
+- Risk: July retail sales miss (+0.1% vs +0.3%); high oil/fuel costs headwind for DIY retail; housing market weak (Pending Home Sales July -5.4%); consumer staples rotation preferred
+- Live price: AH quote bid $323/ask $359 — stale pre-earnings spread, NOT usable for entry
+- Action: WAIT for open print. If beats + opens within 3% of prior close (~$350 area) → reassess for entry. If guides cautiously or misses → skip entirely.
+- Sector: Consumer Discretionary (WORST YTD sector) — additional caution warranted
+
+**2. AVGO (Broadcom) — WATCHLIST, watch open print**
+- Thesis: AI ASIC/custom XPU demand; Sept 3 earnings catalyst; previously held, cut at -8.15% by rule Aug 14 (not fundamental breakdown)
+- Live price: AH bid $375.30/ask $408.73 (stale, extremely wide AH spread on Aug 14) — NOT usable for entry
+- Position size would be: 15% × $110,490 = $16,574 / ~$380+ = ~43 shares (round down to 43)
+- Action: Wait for market-open stabilization above $380 with clean volume. If opens below $370 or continues lower → skip. Prior -7% rule should not repeat without reversal confirmation.
+- Note: This would use our 1 free slot and effectively all available cash ($19,762 → ~$16,574 needed)
+
+**3. NVDA — Position management (not new entry)**
+- Current: $226.31 (+13.23%); trigger $229.84 is $3.53 away (1.56%)
+- If $229.84 hit at open or intraday → IMMEDIATE: Cancel 30f07262, place 7% trail GTC on 81 shares
+- HIGH-VOL RULE: 7% NOT 5% (NVDA 14-day ATR consistently >4% of price)
+- Earnings Aug 26: consider exit strategy if tightened to 7% and stock rallies further into print
+
+### Risk Factors
+1. **UNH floor ($395.57)**: $5.93 buffer with active DOJ criminal + civil probe + new shareholder lawsuit. Any escalation → immediate manual cut
+2. **NVDA +15% trigger**: $3.53 away; if triggered cancel 30f07262 + place 7% trail immediately (high-vol rule)
+3. **FOMC Minutes (Aug 19)**: If minutes reveal more hawkish tone than expected → bond yields spike, rate-sensitive sectors sell off (JPM, GE)
+4. **NVDA post-earnings binary (Aug 26)**: Historical dip pattern 2024/2025; "history says may dip." Plan: if tightened to 7% and stock rallies to +20% before Aug 26 → partial profit sell 1/3
+5. **Weak August jobs (22K)**: Consumer softness; GE end-market (aviation demand) partially insulated; financials (JPM) may see provision headwinds
+6. **VIX upward term structure**: Spot 14.25 → Sep 18.07 = options market pricing uncertainty; don't add risk without conviction
+7. **HD BMO risk**: Poor retail backdrop; if miss/cautious guide → could drag consumer names
+
+### Decision
+**HOLD ALL** — GE, JPM, NVDA, UNH (AAPL frac ignore)
+**NO NEW ENTRIES pre-open** — stale AH prices; need market-open prints for HD and AVGO
+**NVDA WATCH** 🔥: $229.84 trigger is $3.53 away. Market open = likely trigger point. Cancel 30f07262 → 7% trail GTC on 81 shares (high-vol: 7%, NOT 5%)
+**UNH WATCH** ⚠️: $5.93 buffer only. DOJ headline = immediate cut to market
+**HD/AVGO**: Reassess at market open with clean prices
