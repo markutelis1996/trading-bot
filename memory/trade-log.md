@@ -8260,3 +8260,74 @@ HOLD ALL. No entries meet conditions today:
 - **AVGO WATCH**: Midday reassess if ask stabilizes. Prior close ~$393; ask $416 at open. Thesis intact (Sept 3 earnings).
 - **HD WATCH**: Earnings tomorrow (Aug 18) BMO. Assess result + open print before entry.
 - No notification sent (no trades).
+
+---
+
+## 2026-08-17 - Midday Scan (~17:03 EDT)
+
+**Portfolio:** $110,445.49 equity | **Cash:** ~$34,000 (post-UNH stop fire + frac close) | **Positions:** 4 stocks + AAPL remnant
+
+### STEP 0 — Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ |
+| UNH | 39.363 | **0.363380** | ❌ STOP FIRED |
+| Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) | FILTERED | — | DCA sleeve, untouchable |
+
+**UNH trailing stop ac627db0 fired intraday.** 39 integer shares sold at approximately $393.25 (HWM $436.945, 10% trail → stop $393.2505). Realized P&L: ~-$1,251.51 (~-7.55%). Fractional 0.363 remnant remained with no stop.
+
+### STEP 3 — Cut Losers
+
+| Ticker | Shares | Entry | Current | P&L% | Action |
+|--------|--------|-------|---------|------|--------|
+| AAPL frac | 0.877 | $312.42 | $303.20 | -2.95% | HOLD |
+| GE | 47.982 | $348.94 | $370.25 | +6.11% | HOLD |
+| JPM | 49.522 | $334.00 | $364.11 | +9.02% | HOLD |
+| NVDA | 82.192 | $199.864 | $227.04 | +13.60% | HOLD |
+| UNH frac | 0.363 | $425.34 | $395.61 | -6.99% | **CLOSE** — at -7% floor, no stop protection |
+
+UNH frac market sell submitted (order 84b92f01, 0.363379884 shares, est. fill ~$395.61, est. P&L ~-$10.79). UNH fully exited.
+
+**Total UNH realized P&L: ~-$1,262.30** (stop fire -$1,251.51 + frac cleanup -$10.79)
+
+### STEP 4 — Stop Tightening
+
+- NVDA +13.60% ($227.04): +15% trigger $229.84 — $2.80 away. HWM updated to $227.92 (auto-trail). NOT triggered.
+- GE +6.11%: trigger $401.28. NOT triggered.
+- JPM +9.02%: trigger $384.10. NOT triggered.
+
+No stop changes.
+
+### STEP 5 — Thesis Check
+
+- **GE**: Defense/propulsion thesis intact. FY2026 guidance on track. INTACT.
+- **JPM**: Financials + AI infrastructure thesis intact. INTACT.
+- **NVDA**: AI GPU demand backbone intact. Aug 26 AMC earnings ($2.08 EPS est, +100% YoY rev). Approaching +15% trigger. INTACT.
+- **UNH (exited)**: DOJ criminal Medicare billing + Optum Rx civil probe ongoing. No new escalation today. Trailing stop correctly fired; frac remnant cleaned up. Full exit complete.
+- **AAPL frac**: Remnant only. -2.95%. No stop. HOLD.
+
+### STEP 6 — Intraday Research
+
+- UNH: No new DOJ escalation found (Tavily). Pre-existing criminal + civil Medicare probe (Reuters, WSJ) ongoing. Trailing stop correctly protected capital. Stock -55% from ATH; exit appropriate.
+- NVDA: Hyperscaler AI capex arms race intact ($165B combined Q2 spend, +87% YoY). Aug 26 earnings massive catalyst. HWM $227.92; monitor for $229.84 to tighten to 7% trail.
+- No other positions with thesis-breaking intraday news.
+
+### Open Positions (post-UNH exit)
+
+| # | Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | +15% Trigger |
+|---|--------|--------|-------|---------|------|------------|-----|--------------|
+| 1 | AAPL frac | 0.877 | $312.42 | $303.20 | -2.95% | none | — | — |
+| 2 | GE | 47.982 (47 stop) | $348.94 | $370.25 | +6.11% | $349.956 (df184923, 10%) | $388.84 | $401.28 |
+| 3 | JPM | 49.522 (49 stop) | $334.00 | $364.11 | +9.02% | $329.850 (1a5b3205, 10%) | $366.50 | $384.10 |
+| 4 | NVDA | 82.192 (81 stop) | $199.864 | $227.04 | +13.60% | $205.128 (30f07262, 10%) | $227.92 | **$229.84** 🔥 |
+
+- UNH fully exited (trailing stop + frac cleanup). Total realized: ~-$1,262.
+- Trades this week: 0 new entries | Exits: UNH (auto stop + manual frac cleanup)
+- Stock deployed: ~$54,580 / $110,445 = **49.4%** — well below 75-85% target; ~$34,000 cash
+- **NVDA WATCH** 🔥: $229.84 trigger = $2.80 away → cancel 30f07262 → place 7% trail GTC on 81 shares (high-vol ATR rule; 7% NOT 5%)
+- **HD**: Earnings BMO tomorrow (Aug 18) — assess open print before entry
+- **AVGO**: Prior close ~$393; watch for stabilized setup ahead of Sept 3 earnings
