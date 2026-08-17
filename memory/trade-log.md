@@ -8191,4 +8191,72 @@ AVGO -5.9% today: profit-taking + "AI must account for 72% of next-quarter growt
 | NVDA | 82.192 | $199.864 | $225.16 | -$0.39 (-0.17%) | +$2,079.12 (+12.66%) | $204.741 (10% trail, HWM $227.49) |
 | UNH | 39.363 | $425.34 | $401.73 | +$1.76 (+0.44%) | -$929.37 (-5.55%) | $393.2505 (10% trail, HWM $436.945) |
 
-**Notes:** AVGO manually cut at midday (-8.15%, -$1,368.77 realized; -7% rule triggered). Day loss entirely from AVGO realized exit; remaining positions mixed: GE +2.15%, UNH +0.44%, AAPL +0.27%, JPM -0.07%, NVDA -0.17%. Stock deployment 63.8% ($70,231 / $110,184) — below 75-85% target; $19,763 cash available for 1 new position. NVDA +12.66% unrealized; +15% tighten trigger $229.84 is $4.68 away — if hit Monday open, cancel order 30f07262 and place 7% trail GTC on 81 shares (high-vol ATR rule). UNH -5.55%; floor $395.57 gives $6.16 buffer — DOJ/Medicare headline = immediate manual cut. New entries this week: 1/3 (AVGO, opened Aug 10, closed Aug 14). Week cap resets Mon Aug 18.
+**Notes:** AVGO manually cut at midday (-8.15%, -$1,368.77 realized; -7% rule triggered). Day loss entirely from AVGO realized exit; remaining positions mixed: GE +2.15%, UNH +0.44%, AAPL +0.27%, JPM -0.07%, NVDA -0.17%. Stock deployment 63.8% ($70,231 / $110,184) — below 75-85% target; $19,763 cash available for 1 new position. NVDA +12.66% unrealized; +15% tighten trigger $229.84 is $4.68 away — if hit Monday open, cancel order 30f07262 and place 7% trail GTC on 81 shares (high-vol ATR rule). UNH -5.55%; floor $395.57 gives $6.16 buffer — DOJ/Medicare headline = immediate manual cut. New entries this week: 1/3 (AVGO, opened Aug 10, closed Aug 14). Week cap resets Mon Aug 17.
+
+---
+
+## 2026-08-17 - Market-Open Session
+
+**Portfolio:** $110,330.85 equity | **Cash:** $19,762.22 (17.9%) | **Positions:** 5 stocks + AAPL remnant | **Phase P&L:** +$10,330.85 (+10.33%)
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.522 (49 stop) | 49.521675 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ |
+| UNH | 39.363 (39 stop) | 39.363380 | ✓ |
+| Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) | FILTERED | — | DCA sleeve, untouchable |
+
+Clean. No stops fired over weekend. All 4 GTC trailing stops confirmed active (30f07262 NVDA, df184923 GE, ac627db0 UNH, 1a5b3205 JPM).
+
+### STEP 1b — Live Price Re-Verification (9:31 AM EDT)
+| Ticker | Live (positions) | Live Ask | Entry | P&L% | Stop (GTC) | +15% Trigger | Status |
+|--------|-----------------|----------|-------|------|------------|--------------|--------|
+| AAPL frac | $306.565 | $306.97 | $312.42 | -1.87% | none | — | REMNANT |
+| GE | $368.725 | ~$369.88 | $348.94 | +5.67% | $349.956 (df184923) | $401.28 | HOLD |
+| JPM | $362.900 | ~$380.04* | $334.00 | +8.65% | $329.850 (1a5b3205) | $384.10 | HOLD |
+| NVDA | $226.910 | $226.99 | $199.864 | +13.53% | $204.741 (30f07262, 10%) HWM $227.49 | **$229.84** 🔥 | HOLD — $2.85 from trigger |
+| UNH | $397.810 | ~$419.78* | $425.34 | -6.47% | $393.2505 (ac627db0) | N/A | ⚠️ $2.24 above -7% floor |
+
+*Wide bid-ask spreads at 9:31 AM open (normal first-minute illiquidity); positions last-trade price used as primary reference.
+
+### STEP 3 — Rule Checks
+- Stock positions: 5/6 → 1 slot open
+- New entries this week: 0/3 (fresh cap) | Trades this week: 0/7
+- Cash: $19,762 → sufficient for 1 new 15% position (~$16,550 needed)
+- UNH at -6.47%: NOT yet -7% floor ($395.57). Buffer $2.24. HOLD — monitor closely.
+- NVDA at +13.53%: +15% trigger $229.84 not yet hit (ask $226.99 = $2.85 below).
+- HD earnings: BMO TOMORROW (Aug 18), not today — skip as entry candidate today.
+- AVGO: research plan says "wait for market-open stabilization" — bid/ask $390/$416 too wide at open; entering now violates plan condition.
+- Politician signals: none qualifying (all expired or below $25K threshold).
+- UNH DOJ: no new escalation found (pre-existing Medicare/Optum probe ongoing; no new filings or charges today).
+- PDT daytrade count: 0/3 — clean.
+
+### Execution Status
+- Orders placed: 0 — **NO TRADES**
+
+### Decision
+HOLD ALL. No entries meet conditions today:
+1. AVGO: research condition "wait for stabilization" not satisfied at open (wide $27 bid/ask spread at 9:31 AM).
+2. HD: earnings not until tomorrow BMO — no catalyst active today.
+3. UNH: at -6.47%, not yet -7% floor. No new DOJ escalation. Hold.
+4. NVDA: +15% trigger $229.84 not reached ($226.99 ask).
+
+### Open Positions (unchanged)
+| # | Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | +15% Trigger |
+|---|--------|--------|-------|---------|------|------------|-----|--------------|
+| 1 | AAPL frac | 0.877 | $312.42 | $306.57 | -1.87% | none | — | — |
+| 2 | GE | 47.982 (47 stop) | $348.94 | $368.73 | +5.67% | $349.956 (df184923, 10%) | $388.84 | $401.28 |
+| 3 | JPM | 49.522 (49 stop) | $334.00 | $362.90 | +8.65% | $329.850 (1a5b3205, 10%) | $366.50 | $384.10 |
+| 4 | NVDA | 82.192 (81 stop) | $199.864 | $226.91 | +13.53% | $204.741 (30f07262, 10%) | $227.49 | **$229.84** |
+| 5 | UNH | 39.363 (39 stop) | $425.34 | $397.81 | -6.47% | $393.2505 (ac627db0, 10%) | $436.945 | N/A |
+
+- Trades this week: 0/7 | New entries: 0/3
+- Stock deployed: ~$70,806 / $110,331 = **64.2%** — below 75-85% target; $19,762 cash available
+- **NVDA WATCH** 🔥: cancel 30f07262 + place 7% trail GTC on 81 shares if $229.84 hit (high-vol ATR rule; 7% NOT 5%)
+- **UNH WATCH** ⚠️: $2.24 buffer above -7% floor ($395.57). DOJ headline or price < $395.57 = immediate manual cut to market.
+- **AVGO WATCH**: Midday reassess if ask stabilizes. Prior close ~$393; ask $416 at open. Thesis intact (Sept 3 earnings).
+- **HD WATCH**: Earnings tomorrow (Aug 18) BMO. Assess result + open print before entry.
+- No notification sent (no trades).
