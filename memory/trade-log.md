@@ -8335,7 +8335,7 @@ No stop changes.
 ---
 
 ### Aug 18 - EOD Snapshot (Day 87, Tuesday)
-**Portfolio:** $109,822.89 | **Cash:** $33,855.69 (30.8%) | **Day P&L:** -$320.35 (-0.29%) | **Phase P&L:** +$9,822.89 (+9.82%)
+**Portfolio:** $109,796.43 | **Cash:** $33,855.69 (30.8%) | **Day P&L:** -$346.81 (-0.31%) | **Phase P&L:** +$9,796.43 (+9.80%)
 
 | Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
 |--------|--------|-------|-------|---------|----------------|------|
@@ -8344,4 +8344,4 @@ No stop changes.
 | JPM | 49.522 | $334.00 | $360.99 | +0.01% | +$1,336.52 (+8.08%) | $329.85 (10% trail, HWM $366.50) |
 | NVDA | 82.192 | $199.864 | $222.94 | -0.92% | +$1,896.65 (+11.55%) | $205.128 (10% trail, HWM $227.92) |
 
-**Notes:** No trades today. UNH fully exited Aug 17 (trailing stop + frac cleanup, total -$1,262). NVDA pulled back to $222.94; +15% tighten trigger ($229.84) not reached, 10% trail intact at $205.13. HD earnings were BMO today (Aug 18) — assess result and open print tomorrow for potential entry. Portfolio 49.3% deployed ($54,191 stocks / $109,823) — well below 75-85% target; $33,856 cash available for up to 2 new positions. Week: 0 new entries, 3 cap slots open.
+**Notes:** No trades today. UNH fully exited Aug 17 (trailing stop + frac cleanup, total -$1,262). NVDA pulled back to $222.94; +15% tighten trigger ($229.84) not reached, 10% trail intact at $205.128 (HWM $227.92). HD reported Q2 2026 BMO — stock declined ~-1.7% to ~$349 (prev close $355.62); weak reaction signals miss or soft guidance → SKIP entry. Portfolio 49.3% deployed ($54,091 stocks / $109,796) — well below 75-85% target; $33,856 cash available for up to 2 new positions. NVDA earnings Aug 26 AMC is the next major catalyst. Week: 0 new entries, 3 cap slots open.
