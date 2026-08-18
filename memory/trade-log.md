@@ -8331,3 +8331,17 @@ No stop changes.
 - **NVDA WATCH** 🔥: $229.84 trigger = $2.80 away → cancel 30f07262 → place 7% trail GTC on 81 shares (high-vol ATR rule; 7% NOT 5%)
 - **HD**: Earnings BMO tomorrow (Aug 18) — assess open print before entry
 - **AVGO**: Prior close ~$393; watch for stabilized setup ahead of Sept 3 earnings
+
+---
+
+### Aug 18 - EOD Snapshot (Day 87, Tuesday)
+**Portfolio:** $109,822.89 | **Cash:** $33,855.69 (30.8%) | **Day P&L:** -$320.35 (-0.29%) | **Phase P&L:** +$9,822.89 (+9.82%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $305.43 | -0.05% | -$6.13 (-2.24%) | none |
+| GE | 47.982 | $348.94 | $369.35 | -0.02% | +$979.31 (+5.85%) | $349.956 (10% trail, HWM $388.84) |
+| JPM | 49.522 | $334.00 | $360.99 | +0.01% | +$1,336.52 (+8.08%) | $329.85 (10% trail, HWM $366.50) |
+| NVDA | 82.192 | $199.864 | $222.94 | -0.92% | +$1,896.65 (+11.55%) | $205.128 (10% trail, HWM $227.92) |
+
+**Notes:** No trades today. UNH fully exited Aug 17 (trailing stop + frac cleanup, total -$1,262). NVDA pulled back to $222.94; +15% tighten trigger ($229.84) not reached, 10% trail intact at $205.13. HD earnings were BMO today (Aug 18) — assess result and open print tomorrow for potential entry. Portfolio 49.3% deployed ($54,191 stocks / $109,823) — well below 75-85% target; $33,856 cash available for up to 2 new positions. Week: 0 new entries, 3 cap slots open.
