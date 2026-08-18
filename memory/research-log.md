@@ -9300,3 +9300,145 @@ All ideas require live open price — AH quotes for non-held tickers are stale (
 **NVDA WATCH** 🔥: $229.84 trigger is $3.53 away. Market open = likely trigger point. Cancel 30f07262 → 7% trail GTC on 81 shares (high-vol: 7%, NOT 5%)
 **UNH WATCH** ⚠️: $5.93 buffer only. DOJ headline = immediate cut to market
 **HD/AVGO**: Reassess at market open with clean prices
+
+---
+
+## 2026-08-18 - Pre-market Research
+
+### Account
+- Equity: $109,796.43
+- Cash: $33,855.69
+- Buying power: $286,878.37
+- Daytrade count: 0/3
+- Deployed (stocks): ~49.3% ($54,191 / $109,796)
+- Phase P&L: +$9,796.43 (+9.80%)
+- Trades this week: 0/7 | New entries: 0/3
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ |
+| UNH | EXITED Aug 17 | 0 | ✓ (confirmed exited) |
+| Crypto (BTC/ETH/SOL/LINK) | FILTERED | DCA sleeve | untouchable |
+
+Clean. No overnight stops. All 3 active GTC trailing stops confirmed (30f07262 NVDA, df184923 GE, 1a5b3205 JPM).
+
+### Market Context (pre-market Aug 18)
+- **WTI**: ~$84-85/bbl (+2.0%) | **Brent**: ~$89-91/bbl (+2.6%) — oil rising sharply on geopolitical risk resurgence
+- **S&P 500 futures**: ~7,765-7,775 (-0.38%) — broadly negative open
+- **VIX**: 15.41 (+8.14% from 14.25 prior close) — fear rising; term structure steep (Sep 18.07, Oct 19.59)
+- **10Y yield**: 4.724% (+rising) — bond pressure on growth stocks
+- **Dollar Index**: 99.39 (-0.17%) — weak USD, mild support for risk assets
+- **Gold**: ~$4,413 — elevated but stable
+
+### Today's Releases (Aug 18)
+| Time | Release | Impact |
+|------|---------|--------|
+| 8:30 AM | Housing Starts & Building Permits Jul | Moderate |
+| 9:15 AM | Industrial Production Jul | Moderate |
+| 10:00 AM | Pending Home Sales Jul | Moderate |
+| **Aug 19** | **FOMC Minutes 2:00 PM ET** | **HIGH — major binary risk** |
+
+### Earnings BMO Today (Aug 18)
+- **HD (Home Depot)**: EPS $4.71 actual vs $4.71-$4.73 est → IN-LINE (barely). Revenue ~$47.25B. No guidance raise. Consumer discretionary = WORST sector YTD. → SKIP
+- Keysight Technologies: AMC tonight; $2.48 EPS est; minor
+- Walmart (Aug 20), Target (Aug 19), Lowe's (Aug 19): retail earnings cluster this week
+
+### Stock-Specific News
+
+**NVDA** ($224.95-$224.99 ask — live Alpaca AH):
+- Earnings Aug 26 AMC: est $1.65 EPS / $91-92B revenue (Q2 FY27 guide was $89.2-92.8B)
+- Blackwell Ultra ramping; Vera Rubin H2 2026 on track
+- NVDA announced $1.5B investment in SP Energy (data center infrastructure financing)
+- Historical post-earnings pattern: stock dipped 2024 and 2025 despite beats
+- Key resistance $232.39; support $215.67
+- **+15% trigger $229.84 = $4.87 away** — NOT triggered at AH prices
+
+**GE** (AH bid $348.26 / ask $387.09 — stale wide spread; prior close ~$369.35):
+- Industrials sector "More Favored" (Schwab); thesis intact
+- No adverse news
+
+**JPM** (AH bid $343.05 / ask $380.04 — stale wide spread; prior close ~$360.99):
+- Financials "More Favored"; FOMC minutes tomorrow key for rate path
+- No adverse news
+
+**HD** (AH bid $318.25 / ask $353.83 — stale wide spread):
+- In-line EPS $4.71; Consumer discretionary worst sector YTD. → SKIP entry
+
+**AVGO** (AH bid $376.99 / ask $416.81 — stale; prior close ~$392.99):
+- Q2 FY26 reported Jun 3: EPS $2.44 beat, revenue $22.19B slight miss → stock crashed -15%
+- Goldman removed from Conviction List; Tiger Global trimmed stake
+- BUT: Q3 guide $29.4B (+84% YoY); AI semiconductor $16B (200%+ YoY); FY27 target >$100B
+- Next earnings: Sept 2, 2026 — 15 days away (binary risk incoming)
+- Thesis intact but: FOMC tomorrow + earnings in 15 days = dual risk
+- We cut this at -8.15% on Aug 14 (rule, not thesis break)
+
+**MU** (AH bid $970.16 / ask $1,070.43 — stale; prior close ~$1,016.50 Aug 17):
+- STRONG CATALYST: Trump admin Commerce Dept blocking Apple from sourcing Chinese DRAM (CXMT) → direct Micron beneficiary as leading US producer
+- MU closed above $1,000 on Aug 17 (+4.61%)
+- AI memory shortage: DRAM prices +29% in 2026; "worst-ever supply shortage" per SK Hynix CEO
+- Bank of America: 50% upside
+- COUNTER: Druckenmiller EXITED MU in Q2 2026 (significant bearish signal from legendary investor)
+- AH spread too wide ($970-$1,070) — need live open quote before any sizing
+
+### Politician Signals (45-day window: Jul 3–Aug 17, 2026)
+| Politician | Ticker | Action | Size | Trade Date | Days Since | Signal |
+|------------|--------|--------|------|------------|------------|--------|
+| Pelosi | INTC (calls) | BUY | $1M-5M | May 29 | **81 days** | EXPIRED (>45 days) |
+| Pelosi | UBER (calls) | BUY | $500K-1M | May 29 | **81 days** | EXPIRED (>45 days) |
+| Gottheimer | PANW | BUY | $1K-$15K | Jul 16 | 33 days | BELOW $25K threshold |
+| Gottheimer | CRWD | BUY | $1K-$15K | Jul 15 | 34 days | BELOW $25K threshold |
+| McCaul | — | — | — | Jan 2026 | >7 months | EXPIRED |
+| Tuberville, Mast, Khanna | — | — | — | — | — | No qualifying trades |
+
+**Conclusion: NO actionable politician signals.** All whitelist buys expired, options-only, or below $25K minimum.
+
+### Position Thesis Check
+| Ticker | Shares | Entry | AH Price | P&L% | Stop (GTC) | Status |
+|--------|--------|-------|----------|------|------------|--------|
+| AAPL frac | 0.877 | $312.42 | $305.25 | -2.24% | none | REMNANT |
+| GE | 47.982 | $348.94 | ~$369.35 | +5.85% | $349.956 (df184923, 10%) HWM $388.84 | HOLD |
+| JPM | 49.522 | $334.00 | ~$360.99 | +8.08% | $329.85 (1a5b3205, 10%) HWM $366.50 | HOLD |
+| NVDA | 82.192 | $199.864 | $224.97 | +12.56% | $205.128 (30f07262, 10%) HWM $227.92 | HOLD — +15% trigger $229.84 |
+
+- GE: Industrials/defense thesis intact; no news
+- JPM: Financials thesis intact; FOMC minutes tomorrow key
+- NVDA: AI GPU demand thesis intact; Blackwell Ultra high demand; earnings Aug 26 AMC; +15% trigger $229.84 is $4.87 above AH price
+
+### Trade Ideas
+
+**1. AVGO — WATCHLIST (post-FOMC only)**
+- Catalyst: Q3 guide $29.4B (+84% YoY); AI semiconductor $16B (200%+ YoY); VMware infrastructure software
+- Live quote: AH bid $377 / ask $417 — stale, unusable for entry sizing
+- Stop: 10% below fill | Target: +20% | R:R 2:1
+- **HOLD OFF**: FOMC minutes tomorrow + earnings Sept 2 (15 days) = two binary events
+- Action: Wait for FOMC minutes Aug 19 neutral/dovish → assess entry Wed Aug 20 morning with live quote
+
+**2. MU — WATCHLIST (post-FOMC, verify live quote)**
+- Catalyst: Trump/Commerce blocking Apple from Chinese memory (CXMT) + AI HBM4 supercycle + DRAM +29% YoY pricing
+- Live quote: AH bid $970 / ask $1,070 — too wide, stale
+- Counter: Druckenmiller exited Q2 2026 (bearish institutional signal)
+- Stop: 10% below fill | Target: +20% | R:R 2:1
+- **HOLD OFF**: FOMC binary risk tomorrow; AH price unusable; need live open print
+- Action: If FOMC minutes neutral/dovish + MU holds $1,000 → evaluate entry Thu Aug 21
+
+**3. HD — SKIP**
+- In-line EPS $4.71 (no beat); consumer discretionary WORST sector YTD; no entry catalyst
+
+### Risk Factors
+1. **FOMC Minutes (Aug 19 2:00 PM ET)**: Primary risk this week. If hawkish → bond yields spike, tech/growth selloff; JPM + GE could also be pressured
+2. **Rising oil**: WTI +2% to $84-85; Brent $89-91 → inflation resurgence fear → rate hike risk
+3. **NVDA earnings Aug 26**: 8 days; historical post-earnings dip pattern; if stop tightened to 7% and stock rallies into earnings → partial profit option
+4. **10Y yield 4.724%**: Rising; equity risk premium thinning
+5. **VIX term structure steep**: Spot 15.41 → Sep 18.07 → Oct 19.59 = uncertainty priced through fall
+6. **HD miss risk**: In-line print; weak consumer backdrop; if broader retail sector trades down → sentiment drag
+
+### Decision
+**HOLD ALL** — GE, JPM, NVDA (AAPL frac ignore)
+**NO NEW ENTRIES TODAY** — FOMC Minutes tomorrow = major binary risk; rising oil = inflation fear; market broadly negative (-0.38%); VIX rising
+**NVDA WATCH**: +15% trigger $229.84 is $4.87 above AH $224.97. If triggered → cancel 30f07262, place 7% trail GTC on 81 shares (high-vol ATR rule: 7% NOT 5%)
+**Post-FOMC watchlist (Aug 20+)**: AVGO (earnings Sept 2, need clean setup) and MU (Trump/Apple catalyst, need live quote) are primary candidates if FOMC tone is neutral/dovish
+**Deployment**: 49.3% stocks → 2 position slots open, $33,856 cash available; deploy when market conditions stabilize post-FOMC
