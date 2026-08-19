@@ -8345,3 +8345,17 @@ No stop changes.
 | NVDA | 82.192 | $199.864 | $222.94 | -0.92% | +$1,896.65 (+11.55%) | $205.128 (10% trail, HWM $227.92) |
 
 **Notes:** No trades today. UNH fully exited Aug 17 (trailing stop + frac cleanup, total -$1,262). NVDA pulled back to $222.94; +15% tighten trigger ($229.84) not reached, 10% trail intact at $205.128 (HWM $227.92). HD reported Q2 2026 BMO — stock declined ~-1.7% to ~$349 (prev close $355.62); weak reaction signals miss or soft guidance → SKIP entry. Portfolio 49.3% deployed ($54,091 stocks / $109,796) — well below 75-85% target; $33,856 cash available for up to 2 new positions. NVDA earnings Aug 26 AMC is the next major catalyst. Week: 0 new entries, 3 cap slots open.
+
+---
+
+### Aug 19 - EOD Snapshot (Day 88, Wednesday)
+**Portfolio:** $110,025.45 | **Cash:** $33,855.35 (30.8%) | **Day P&L:** +$229.02 (+0.21%) | **Phase P&L:** +$10,025.45 (+10.03%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $310.75 | +$0.72 (+0.23%) | -$1.46 (-0.53%) | none |
+| GE | 47.982 | $348.94 | $374.60 | -$0.49 (-0.13%) | +$1,231.22 (+7.35%) | $349.956 (10% trail, HWM $388.84) |
+| JPM | 49.522 | $334.00 | $363.27 | +$0.02 (+0.01%) | +$1,449.43 (+8.76%) | $329.85 (10% trail, HWM $366.50) |
+| NVDA | 82.192 | $199.864 | $219.01 | -$0.73 (-0.33%) | +$1,573.64 (+9.58%) | $205.128 (10% trail, HWM $227.92) |
+
+**Notes:** Quiet day — no trades, no stops fired. Stocks deployed 49.3% ($54,237 / $110,025) — well below 75-85% target; $33,855 cash available for 2 new 15% positions. All 3 GTC trailing stops active and intact. JPM and GE holding gains; NVDA -0.33% intraday but +9.58% from entry — +15% tighten trigger at $229.84 still $10.83 away. AAPL fractional remnant only (-0.53%). Crypto DCA sleeve (BTC/ETH/SOL/LINK) read-only, unrealized +$2,142.31. NVDA earnings Aug 26 AMC is the major upcoming binary event. Week cap: 0/3 entries used; 3 slots remain.
