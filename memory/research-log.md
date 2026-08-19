@@ -9442,3 +9442,106 @@ Clean. No overnight stops. All 3 active GTC trailing stops confirmed (30f07262 N
 **NVDA WATCH**: +15% trigger $229.84 is $4.87 above AH $224.97. If triggered → cancel 30f07262, place 7% trail GTC on 81 shares (high-vol ATR rule: 7% NOT 5%)
 **Post-FOMC watchlist (Aug 20+)**: AVGO (earnings Sept 2, need clean setup) and MU (Trump/Apple catalyst, need live quote) are primary candidates if FOMC tone is neutral/dovish
 **Deployment**: 49.3% stocks → 2 position slots open, $33,856 cash available; deploy when market conditions stabilize post-FOMC
+
+## 2026-08-19 - Pre-market Research
+
+### Account (3:31 AM EDT)
+- Equity: $110,150.47 | Cash: $33,855.35 | Buying power: $122,011.61
+- Daytrade count: 0/3
+- Deployed (stocks only): ~$54,301 / $110,150 = **49.3%** (target 75-85%)
+- Phase P&L: **+$10,150.47 (+10.15%)**
+- Trades this week: 0/7 | New entries: 0/3
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| GE | 47.982 | 47.982 | ✓ |
+| JPM | 49.522 | 49.522 | ✓ |
+| NVDA | 82.192 | 82.192 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | ✓ untouchable |
+
+No discrepancies. GTC trailing stops confirmed active (NVDA 30f07262, GE df184923, JPM 1a5b3205).
+
+### Open Positions
+| # | Ticker | Shares | Entry | Last | P&L% | Stop (GTC) | HWM | +15% Trigger |
+|---|--------|--------|-------|------|------|------------|-----|--------------|
+| 1 | AAPL frac | 0.877 | $312.42 | $309.85 | -0.82% | none | — | — |
+| 2 | GE | 47.982 (47 stop) | $348.94 | $374.40 | +7.29% | $349.956 (df184923, 10%) | $388.84 | $401.28 |
+| 3 | JPM | 49.522 (49 stop) | $334.00 | $363.74 | +8.90% | $329.85 (1a5b3205, 10%) | $366.50 | $384.10 |
+| 4 | NVDA | 82.192 (81 stop) | $199.864 | $219.63 | +9.89% | $205.128 (30f07262, 10%) | $227.92 | **$229.84** 🔥 |
+
+Prices from Alpaca positions endpoint. No +15% trigger reached. No -7% cut needed.
+
+### Market Context
+- **WTI**: ~$85/bbl | **Brent**: ~$91/bbl — elevated; Hormuz supply tightening ongoing (US-Iran tensions; expiring truce)
+- **S&P 500 futures**: ~7,718-7,724 (Aug 18 close); prior close 7,771 → down ~0.6-0.7% → soft open expected
+- **VIX**: ~15.84 (↑ from 14.55 last week; anxiety building into FOMC minutes)
+- **10Y yield**: ~4.724-4.738% (elevated; thinning equity risk premium)
+- **Q2 earnings season**: S&P 500 83.4% beat rate; record profit margins 16.7%
+
+### Key Events Today (Aug 19)
+- **06:00 AM ET — LOW (Lowe's) earnings BMO**: Est EPS $4.22-$4.26, whisper $4.26; Rev est $26.18B (+9.3% YoY). Stock down 10-13% YTD, 88.9% expect beat.
+- **06:30 AM ET — TGT (Target) earnings BMO**: Est EPS $2.33, whisper $2.35; Rev est $26.00-26.15B. Stock up 55% YTD, 90.5% beat probability (high bar).
+- **Other BMO**: ADI ($3.34 est), TJX ($1.19 est), Estee Lauder ($0.32 est), Viking Holdings ($1.26 est)
+- **14:00 ET — FOMC Minutes (July 28-29 meeting)** ← PRIMARY RISK: 9-3 vote to hold; 3 dissenters (Hammack, Kashkari, Logan) wanted rate HIKE. If minutes reveal broader committee sympathy for hike = hawkish repricing → bond yields spike → tech/growth selloff.
+
+### Sector Momentum (Schwab, 7/31/2026 — 6-month / 12-month)
+- Energy: +21.3% / +41.7% (top performer)
+- Industrials: +11.3% / +19.5% ← GE — "More Favored" per Schwab
+- Info Tech: +14.7% / +27.2% ← NVDA
+- Financials: +7.2% / +7.1% ← JPM
+- Healthcare: +5.5% / +21.3% (rotation target; medical devices getting attention)
+
+### Politician Trades Signal (Capitol Trades scan)
+- **Pelosi**: Most recent whitelist buys = INTC $1M-$5M + UBER $500K-$1M (disclosed June 24; traded May 29). Both >45 days ago, below threshold for today. Prior NVDA buy Jan 16 (+7.8%) confirms existing position.
+- **McCaul**: MSFT sells in May-June 2026. No new buys within 45 days.
+- **Khanna**: MSFT buys $1K-$15K range — below $25K threshold; noise-level.
+- **Gottheimer**: MSFT options March 2026; JPM buy Aug 2024 (old) confirmed existing JPM position.
+- **Tuberville / Mast**: No qualifying recent buys found.
+- **Signal**: NONE today meeting criteria (≥$25K, within 45 days, actionable ticker).
+
+### NVDA Thesis Check (earnings Aug 26 AMC)
+- Q2 FY2027 guided $91B revenue (vs Q1 $81.6B = +11% seq growth). BofA: "moment of truth."
+- CoreWeave Q2 revenue doubled, $104B backlog; validated $35-39B capex for 2026; Rubin NVL72 first bring-up complete.
+- Historical pattern: NVDA has sold off post-earnings despite strong results. Risk: "sell the news" after 19% run since July 29.
+- **At $219.63: +9.89% from entry. +15% trigger $229.84 is $10.21 away.** If triggered pre-Aug 26: cancel 30f07262, place 7% trail GTC on 81 shares (high-vol ATR rule).
+
+### GE Thesis Check
+- Q2 2026: EPS $2.02 vs $1.86 est (+8.6%); Rev +24%; FY2026 guidance raised to $7.65-$7.85 (from $7.10-$7.40). FCF +43%.
+- Mean analyst target jumped from $351 to $405 (26 analysts: 16 buy, 3 outperform, 2 hold, 1 underperform).
+- **At $374.40: +7.29% from entry.** Stop active, HWM $388.84.
+
+### JPM Thesis Check
+- Zacks #2; NII expected CAGR 2.9% through 2027; expansion + loan demand + higher rates.
+- Industrials/AI infrastructure megatrend supporting financials (Zacks blog).
+- **At $363.74: +8.90% from entry.** Stop active, HWM $366.50.
+
+### Trade Ideas
+**No qualifying new entries today.** FOMC minutes at 2pm is the binary risk that prevents new positions.
+
+**1. LOW (Lowe's) — CONDITIONAL WATCHLIST**
+- Catalyst: Reporting BMO at 6am. Stock down 10-13% YTD = low expectation bar, 88.9% beat prob. TIKR mid-case target $328 (+47% from ~$223).
+- Barrier: FOMC minutes hawkish risk hurts housing/home improvement thesis directly (rate-sensitive sector). Live ask at AH spread ~$207-228 (last close ~$218-223).
+- Condition: ONLY evaluate at open if: (1) EPS > $4.35 (clear beat) + guidance raised, (2) gap at open < 5%, (3) FOMC tone reveals no hawkish surprise. Do NOT chase.
+
+**2. MU (Micron) — WATCHLIST POST-FOMC**
+- Citing Aug 18 log: Trump/Apple catalyst floated; MU trading ~$1,011 (Aug 17 close). AI memory supercycle thesis intact. Need live quote and clean setup.
+- Do NOT enter until FOMC resolved (Aug 20+).
+
+**3. TGT (Target) — WATCHLIST ONLY (skip today)**
+- 55% YTD gain = very high bar. 90.5% beat probability already priced in. Need massive beat + guidance raise or stock likely flat/down post-report.
+
+### Risk Factors
+1. **FOMC Minutes 2pm ET**: 3 dissenters wanted rate hike → if minutes show broader support = bond yields spike, tech/growth selloff; all 4 positions pressured
+2. **NVDA earnings Aug 26 AMC**: Binary event in 7 days; "sell the news" historical pattern risk; hold with existing 10% trail
+3. **Oil elevated $85-91**: Inflation resurgence fear → hawkish Fed; energy sector momentum ≠ direct help for our positions
+4. **10Y yield 4.72%+**: Rising; weight on growth multiples
+5. **Deployment at 49.3%**: Below 75-85% target but FOMC risk justifies caution today; reassess Aug 20 post-minutes
+
+### Decision
+**HOLD ALL** — GE, JPM, NVDA, AAPL frac
+**NO NEW ENTRIES TODAY** — FOMC minutes at 2pm is sufficient binary risk to skip all new trades
+**NVDA WATCH** 🔥: $229.84 trigger is $10.21 away; if reached pre-open → cancel 30f07262 → place 7% trail GTC on 81 shares
+**Post-FOMC roadmap (Aug 20+)**: AVGO (Sep 2 earnings approaching), MU (AI memory, live quote needed), LOW (if FOMC tone neutral/dovish + housing stabilizes)
+**No ClickUp notification** — no trades executed
