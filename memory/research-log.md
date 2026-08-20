@@ -9545,3 +9545,99 @@ Prices from Alpaca positions endpoint. No +15% trigger reached. No -7% cut neede
 **NVDA WATCH** 🔥: $229.84 trigger is $10.21 away; if reached pre-open → cancel 30f07262 → place 7% trail GTC on 81 shares
 **Post-FOMC roadmap (Aug 20+)**: AVGO (Sep 2 earnings approaching), MU (AI memory, live quote needed), LOW (if FOMC tone neutral/dovish + housing stabilizes)
 **No ClickUp notification** — no trades executed
+
+## 2026-08-20 - Pre-market Research
+
+### Account
+- Equity: $111,373.78
+- Cash: $32,482.41
+- Long MV: $78,891.37 (~$25,752 crypto DCA sleeve; ~$53,139 stocks)
+- Buying power: $278,717.09 (4x margin)
+- Daytrade count: 0/3
+- Deployed (stocks only): $53,139 / $111,374 = **47.7%** — well below 75-85% target
+- Phase P&L: +$11,373.78 (+11.37%)
+- Trades this week: 0/7 | New entries: 0/3
+
+### STEP 0 — Reconciliation
+Comparing Aug 19 EOD log to live broker (pre-market Aug 20):
+
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| GE | 47.982 (47 stop) | 47.981945 | ✓ |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | FILTERED | — | DCA sleeve, untouchable |
+
+**Clean.** No overnight stop-outs. All 3 GTC trailing stops confirmed active (30f07262 NVDA, df184923 GE, 1a5b3205 JPM).
+
+### Market Context (pre-market Aug 20)
+- **WTI**: ~$85.46-85.74/bbl (+0.94%) | **Brent**: ~$91.48-91.56/bbl (+0.47%) — elevated; Hormuz stalemate sustained; oil up 4th consecutive day; "Hormuz Stalemate Raises Risk of $120 Oil" (OilPrice.com Aug 13)
+- **S&P 500 futures** (ESU26): ~7,757 — S&P closed +0.21% at 7,707.98 Aug 19; premarket implies gap up ~0.6%
+- **NQ100**: ~29,658
+- **VIX**: 15.84 (Aug 18 close); Cboe Macro Volatility Digest: "Volatility/Convexity Premia Fall to Lowest YTD Levels on Benign Inflation Data" week of 8/17
+- **FOMC Minutes (July meeting)**: Released Aug 19 at 2PM ET. July vote was 9-3 to hold (3 dissenters favored a hike). Market reaction: S&P +0.21%, bond yields fell — minutes interpreted as NOT broadly hawkish. Risk resolved.
+- **Today's releases**: Initial Jobless Claims 8:30 AM ET (important), US 20-Year Bond Auction 5:00 PM ET (minor)
+- **Earnings BMO Aug 20**: No major S&P 500 companies. Minor: HOV, SCSC, RERE, LYTS.
+- **Next major catalyst**: NVDA earnings Aug 26 AMC (~$91.1B rev est, +96% YoY, EPS ~$28)
+
+### Sector Momentum (YTD 2026)
+1. **Energy**: +22% (dominant; Hormuz/geopolitical; oil $85-92) — Schwab: neutral on sector
+2. **Industrials**: #3 H1; Schwab "More Favored" — AI data center buildouts + defense spending
+3. **Financials**: Schwab "More Favored" — AI infrastructure, loan growth
+4. **Tech/Semis**: #2 H1 (SNDK +858%, MU +304%, INTC +278% H1); now consolidating; NVDA earnings Aug 26 next sector catalyst
+5. **Consumer Discretionary**: Schwab "Least Favored"
+
+### Position Thesis Check (live prices from broker Aug 20 pre-market)
+
+| Ticker | Broker Qty | Entry | Current | P&L% | Stop (GTC) | HWM | +15% Trigger | Status |
+|--------|------------|-------|---------|------|------------|-----|--------------|--------|
+| AAPL frac | 0.877 | $312.42 | $315.93 | +1.12% | none | — | — | REMNANT |
+| GE | 47.982 (47 stop) | $348.94 | $357.51 | +2.45% | $349.956 (df184923, 10%) | $388.84 | $401.28 | ⚠️ 2.1% above stop |
+| JPM | 49.522 (49 stop) | $334.00 | $357.55 | +7.05% | $329.85 (1a5b3205, 10%) | $366.50 | $384.10 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.864 | $219.01 | +9.58% | $205.128 (30f07262, 10%) | $227.92 | **$229.84** | HOLD |
+
+**⚠️ GE WATCH**: Current $357.51 is only $7.55 (2.1%) above stop $349.956. GE -3.4% on Aug 19. Stock pulled back from HWM $388.84. Stop is static (10% below HWM). Do NOT move stop down per rules. Monitor at open.
+
+**NVDA WATCH** 🔥: $229.84 trigger = +$10.83 from current ($219.01); ~5% away. Earnings Aug 26 AMC = massive upcoming catalyst. Support $216.58; below that $212.66.
+
+### Politician Signals (Step 3b)
+Last 45-day scan window: July 6 – Aug 20, 2026
+
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal Level |
+|------------|--------|--------|------|------------|-----------|--------------|
+| Pelosi | INTC (calls) | BUY | $1M-5M | May 29 | Jun 24 | ❌ Expired — 82 days ago, outside 45-day window |
+| Pelosi | UBER (calls) | BUY | $500K-1M | May 29 | Jun 24 | ❌ Expired — options, not stocks |
+| McCaul | MA (Mastercard) | BUY | $1K-15K | Jun 29 | ~Jul 20 est | ❌ Below $25K threshold |
+| McCaul | VTEB (bond ETF) | BUY | $250K-500K | Jun 29 | ~Jul 20 est | ❌ Bond ETF, not a stock |
+| Tuberville | — | Mostly selling | — | — | — | ❌ No qualifying buys |
+| Khanna | ServiceNow | BUY | unknown | Apr 28 | — | ❌ Too old (>45 days) |
+| Gottheimer | — | Last trade May 22 | — | — | — | ❌ No qualifying buys in window |
+| Mast | — | No stock disclosure | — | — | — | ❌ No qualifying trades |
+
+**No qualifying politician signals.** No whitelist politician has a $25K+ stock buy disclosed within the last 45 days.
+
+### Trade Ideas
+
+**AVGO (Broadcom) — CONDITIONAL WATCHLIST**
+- Catalyst: AVGO earnings Sept 3 AMC (~2 weeks). AI ASIC/hyperscaler demand confirmed by industry. NVDA Aug 26 beat expected to act as sector catalyst. Hyperscaler capex arms race ongoing ($725B combined 2026 AI capex, +77% YoY).
+- Live quote (AH, 8PM Aug 19): Ask $382.74, Bid $345.56 — wide AH spread ($37); unreliable for entry. Reference ask $382.74.
+- If verified at open: Entry ~$382.74 | Stop $344.47 (10% below) | Target $459.29 (20% above) | R:R 2:1
+- Position size: 15% × $111,374 = $16,706 → **43 shares** (integer, round DOWN)
+- Sector: Tech/Semis. Adding AVGO → Tech: ($18,001 + $16,457) / $111,374 = **30.8%** — well under 60% cap ✓
+- **Conditions for entry**: (1) Spread normalizes at open (<2% wide), (2) Price stabilizes near $380-390, (3) Jobless claims at 8:30 not a hot surprise, (4) NVDA not in freefall (support $216.58 holds)
+- If ALL conditions met by 10AM → BUY during market-open routine. Otherwise SKIP.
+
+### Risk Factors
+1. **GE stop proximity**: $357.51 vs stop $349.956 = only 2.1% buffer. Normal intraday volatility could fire stop. If fires, accept it — rule says never move stop down.
+2. **NVDA pre-earnings drift**: Stock consolidating $217-228 range. Semis broadly weak (MU -6.94% Aug 20 premarket, SNDK -9.01%). NVDA earnings binary event Aug 26 — sell-the-news pattern risk even on beat.
+3. **Oil inflation feedback**: WTI $85+ → inflation sticky → bond yields elevated → growth multiple compression pressure
+4. **Deployment gap**: 47.7% deployed vs 75-85% target. Need 2 new positions but must get right entries
+5. **Semi sector weakness**: MU -6.94% and SNDK -9.01% premarket Aug 20 suggest semi selloff could pressure NVDA and potential AVGO entry
+
+### Decision
+**HOLD ALL existing positions** (GE, JPM, NVDA, AAPL frac).
+**CONDITIONAL: AVGO entry possible during market-open routine** — evaluate bid-ask at 9:45-10AM after jobless claims clear. Use market-open routine to execute if conditions met.
+**GE**: No action — stop at $349.956 is a valid GTC order. If it fires today, it fires. Do not adjust.
+**NVDA**: Watch for $229.84 (+15% trigger). If hit → cancel 30f07262 → place 7% trail GTC on 81 shares (high-vol ATR rule; 7% NOT 5%).
+**AVGO**: Skip if open spread > 2%, price outside $375-395, OR jobless claims surprise hot.
