@@ -8359,3 +8359,16 @@ No stop changes.
 | NVDA | 82.192 | $199.864 | $219.01 | -$0.73 (-0.33%) | +$1,573.64 (+9.58%) | $205.128 (10% trail, HWM $227.92) |
 
 **Notes:** Quiet day — no trades, no stops fired. Stocks deployed 49.3% ($54,237 / $110,025) — well below 75-85% target; $33,855 cash available for 2 new 15% positions. All 3 GTC trailing stops active and intact. JPM and GE holding gains; NVDA -0.33% intraday but +9.58% from entry — +15% tighten trigger at $229.84 still $10.83 away. AAPL fractional remnant only (-0.53%). Crypto DCA sleeve (BTC/ETH/SOL/LINK) read-only, unrealized +$2,142.31. NVDA earnings Aug 26 AMC is the major upcoming binary event. Week cap: 0/3 entries used; 3 slots remain.
+
+### Aug 20 - EOD Snapshot (Day 89, Thursday)
+**Portfolio:** $111,580.61 | **Cash:** $32,482.41 (29.1%) | **Day P&L:** +$1,555.16 (+1.41%) | **Phase P&L:** +$11,580.61 (+11.58%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $315.93 | +$5.18 (+1.67%) | +$3.08 (+1.12%) | none |
+| GE | 47.982 | $348.94 | $357.51 | -$17.09 (-4.56%) | +$411.21 (+2.46%) | $349.956 (10% trail, HWM $388.84) ⚠️ |
+| JPM | 49.522 | $334.00 | $357.55 | -$5.72 (-1.57%) | +$1,166.16 (+7.05%) | $329.85 (10% trail, HWM $366.50) |
+| NVDA | 82.192 | $199.864 | $219.01 | $0.00 (0.00%) | +$1,573.64 (+9.58%) | $205.128 (10% trail, HWM $227.92) |
+
+**Notes:** Portfolio up +$1,555 on the day despite stock weakness — crypto DCA sleeve appreciated. GE -4.56% is the session's main risk: close $357.51 vs trailing stop $349.956 = only $7.55 buffer (2.1%); HWM still $388.84. JPM -1.57% but stop at $329.85 is 8.3% away — safe. NVDA flat at $219.01; +15% tighten trigger ($229.84) still $10.83 away. AAPL frac +1.67%, negligible. No trades today; 0/3 weekly cap used. Stocks deployed 47.6% ($53,135 / $111,581) — below 75-85% target; $32,482 cash available for 2 new 15% positions. All 3 GTC trailing stops confirmed active (NVDA 30f07262, GE df184923, JPM 1a5b3205). NVDA earnings Aug 26 AMC is the major upcoming catalyst. **GE WATCH:** if it trades toward $350, stop will fire automatically.
+
