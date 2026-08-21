@@ -8432,4 +8432,32 @@ None. No cuts, no stop changes, no new entries.
 - Trades this week: 0/7 | New entries: 0/3
 - Stock deployed: $53,138 / $111,401 = **47.7%** — below 75-85% target; $32,482 cash available
 - **NVDA WATCH** 🔥: $229.84 trigger = $10.83 away → cancel 30f07262 → place 7% trail GTC on 81 shares
+
+---
+
+## 2026-08-21 - Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Discrepancy | Action |
+|--------|---------|------------|-------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ | none |
+| GE | 47.982 | 0.98194532 | ⚠️ STOP FIRED | 47 shares sold at ~$349.99; realized P&L +$49.35; 0.982 fractional remnant remains |
+| JPM | 49.522 | 49.521674 | ✓ | none |
+| NVDA | 82.192 | 82.191638 | ✓ | none |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | — | read-only | untouchable |
+
+GE trailing stop df184923 fired intraday. Cash jumped from $32,482 → $48,922 (+$16,440 ≈ 47 × $349.99). Realized P&L: 47 × ($349.99 − $348.94) = **+$49.35**.
+
+---
+
+### Aug 21 - EOD Snapshot (Day 90, Friday)
+**Portfolio:** $111,857.54 | **Cash:** $48,922.10 (43.7%) | **Day P&L:** +$276.93 (+0.25%) | **Phase P&L:** +$11,857.54 (+11.86%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $312.06 | -$4.77 (-1.51%) | -$0.32 (-0.12%) | none |
+| GE frac | 0.982 | $348.94 | $345.42 | -$10.81 (-3.04%) | -$3.46 (-1.01%) | none |
+| JPM | 49.522 | $334.00 | $352.50 | -$4.76 (-1.33%) | +$916.08 (+5.54%) | $329.85 (10% trail, HWM $366.50) |
+| NVDA | 82.192 | $199.864 | $217.33 | -$0.23 (-0.11%) | +$1,435.56 (+8.74%) | $205.128 (10% trail, HWM $227.92) |
+
+**Notes:** GE trailing stop (df184923) fired intraday — 47 shares sold at ~$349.99, realized P&L +$49.35; 0.982 fractional remnant remains with no stop. Broad risk-off day: AAPL -1.51%, JPM -1.33%, GE -3.04%, NVDA -0.11%. Portfolio +$276.93 (+0.25%) on the day; crypto DCA sleeve (BTC +5.45%, ETH +3.09%, SOL +3.52%, LINK +2.75%) cushioned the stock drawdown. Cash now $48,922 (43.7%) — 2 open 15% position slots available (~$16,779 each). JPM stop at $329.85 is 7.0% below current price (safe); NVDA stop at $205.128 is 5.6% below (safe). NVDA earnings Aug 26 AMC remains the key binary event next week. Week cap: 0/3 new entries used this week. Monday: evaluate AVGO/MU or other candidates for 2 open slots.
 - **Tomorrow pre-market**: Evaluate AVGO and MU for 2 open position slots (post-FOMC binary risk cleared)
