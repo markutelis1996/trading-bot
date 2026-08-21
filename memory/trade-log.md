@@ -8437,6 +8437,78 @@ None. No cuts, no stop changes, no new entries.
 
 ## 2026-08-21 - Reconciliation
 
+**Trigger:** Midday scan STEP 0 — GE qty missing from broker vs log.
+
+| Ticker | Log Qty | Broker Qty | Status | Notes |
+|--------|---------|------------|--------|-------|
+| AAPL frac | 0.877 | 0.877045 | ✓ | — |
+| GE | 47.982 (47 stop) | 0.98194532 | ⚠️ STOPPED OUT | 47 shares sold; trailing stop df184923 fired |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ | — |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ | — |
+
+**GE stop-out detail:**
+- Order df184923 NOT in active orders → confirmed filled
+- Stop price: $349.956 (10% trail from HWM $388.84)
+- Current GE price: $345.42 (confirms stop fired as price fell through $349.956)
+- Shares sold: 47 | Remaining: 0.98194532 fractional (uncovered, no stop)
+- Entry: $348.94 | Est. fill: ~$349.96 | Realized P&L: **≈ +$47.94 (+0.29%)** (unverified fill)
+- Suspected cause: GE -3.03% intraday today; price broke below $349.956 stop
+
+---
+
+## 2026-08-21 - Midday Scan
+
+**Portfolio:** $112,398.10 equity | **Cash:** $48,922.10 (43.5%) | **Day P&L:** +$1,065.38 (+0.96%) | **Phase P&L:** +$12,398.10 (+12.40%)
+
+### STEP 0 — Reconciliation
+See reconciliation section above. GE 47-share position stopped out (df184923). All other positions clean.
+
+### STEP 3 — Cut Losers
+| Ticker | Shares | Entry | Current | P&L% | Action |
+|--------|--------|-------|---------|------|--------|
+| AAPL frac | 0.877 | $312.42 | $312.06 | -0.11% | HOLD (above -7%) |
+| GE frac | 0.982 | $348.94 | $345.42 | -1.01% | HOLD (above -7%; no stop) |
+| JPM | 49.522 (49 stop) | $334.00 | $352.50 | +5.54% | HOLD |
+| NVDA | 82.192 (81 stop) | $199.864 | $217.33 | +8.74% | HOLD |
+
+No cuts. All remaining positions above -7% rule.
+
+### STEP 4 — Stop Tightening
+- NVDA +8.74%: +15% trigger $229.84 → current $217.33 = $12.51 away. NOT triggered. Stop $205.128 (HWM $227.92, broker confirmed).
+- JPM +5.54%: +15% trigger $384.10 → current $352.50 = far. NOT triggered. Stop $329.85 (HWM $366.50).
+
+No stop changes.
+
+### STEP 5 — Thesis Check
+- **GE (frac 0.982)**: Trailing stop fired correctly per pre-market Aug 20 warning (2.1% buffer). Fractional remnant at -1.01%; no stop. Thesis not broken but position effectively exited. Frac to be cleaned up next session.
+- **JPM**: -1.33% intraday. Financials thesis intact. HOLD.
+- **NVDA**: -0.11% intraday. AI GPU demand thesis intact. Aug 26 AMC earnings approaching. HOLD.
+- **AAPL frac**: -1.51% intraday. Remnant only, no stop. HOLD.
+
+### STEP 6 — Intraday Research
+No sharp movers requiring research. Day P&L +$1,065 driven by crypto DCA sleeve (BTC +5.45%, ETH +3.09%, SOL +3.52%, LINK +2.75%). Stock sleeve slightly negative intraday.
+
+### Actions Taken
+- GE trailing stop df184923 fired (auto) → 47 shares exited at ~$349.96; realized ≈ +$47.94
+- No manual cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | +15% Trigger |
+|---|--------|--------|-------|---------|------|------------|-----|--------------|
+| 1 | AAPL frac | 0.877 | $312.42 | $312.06 | -0.11% | none | — | — |
+| 2 | GE frac | 0.982 | $348.94 | $345.42 | -1.01% | none (frac uncovered) | — | — |
+| 3 | JPM | 49.522 (49 stop) | $334.00 | $352.50 | +5.54% | $329.85 (1a5b3205, 10%) | $366.50 | $384.10 |
+| 4 | NVDA | 82.192 (81 stop) | $199.864 | $217.33 | +8.74% | $205.128 (30f07262, 10%) | $227.92 | **$229.84** |
+
+- Trades this week: 0/7 | New entries: 0/3
+- Stock deployed: ~$36,473 / $112,398 = **32.5%** — well below 75-85% target; $48,922 cash (GE exit freed ~$16,448)
+- **NVDA WATCH**: $229.84 trigger = $12.51 away → if hit, cancel 30f07262 → place 7% trail GTC on 81 shares (high-vol rule; 7% NOT 5%)
+- **GE frac + AAPL frac**: Cleanup candidates; both uncovered; sell at next clean opportunity
+
+---
+
+## 2026-08-21 - Reconciliation
+
 | Ticker | Log Qty | Broker Qty | Discrepancy | Action |
 |--------|---------|------------|-------------|--------|
 | AAPL frac | 0.877 | 0.877045 | ✓ | none |
