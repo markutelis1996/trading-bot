@@ -9641,3 +9641,99 @@ Last 45-day scan window: July 6 – Aug 20, 2026
 **GE**: No action — stop at $349.956 is a valid GTC order. If it fires today, it fires. Do not adjust.
 **NVDA**: Watch for $229.84 (+15% trigger). If hit → cancel 30f07262 → place 7% trail GTC on 81 shares (high-vol ATR rule; 7% NOT 5%).
 **AVGO**: Skip if open spread > 2%, price outside $375-395, OR jobless claims surprise hot.
+
+---
+
+## 2026-08-21 - Pre-market Research
+
+### Reconciliation
+- **GE STOP-OUT CONFIRMED**: GE trailing stop `df184923` fired between Aug 20 EOD ($357.51) and Aug 21 open. Live broker shows 0.98194 shares (fractional remainder from Alpaca fractional fill).
+- **Cause**: Honeywell Aerospace guidance cut (supply chain constraints) → aerospace sector sympathy selloff. GE dropped $375→$356→$345. No GE-specific bad news; Q2 thesis (EPS $7.65-$7.85 guidance) remains intact.
+- **Est. realized P&L**: 47 integer shares × ($349.956 stop - $348.94 entry) ≈ **+$47.75** (actual fill may differ if gapped through stop).
+- **RECONCILED**: GE integer position closed. Remaining 0.982 frac shares — no stop (Alpaca limitation), insignificant size.
+- Order `df184923` no longer in open orders. Active GTC orders: NVDA `30f07262` (10% trail), JPM `1a5b3205` (10% trail).
+
+### Account Snapshot
+| Metric | Value |
+|--------|-------|
+| Equity | $112,395 |
+| Cash | $48,922 |
+| Long MV | $63,473 (incl. crypto sleeve) |
+| Stock deployed | ~$35,928 / $112,395 = **32%** ← significantly below 75-85% target |
+| Daytrade count | 0/3 |
+| Open GTC stops | 2 (NVDA 30f07262, JPM 1a5b3205) |
+
+**Active Positions (post-reconciliation)**
+| # | Sym | Shares | Entry | AH Bid | P&L est | GTC Stop | HWM |
+|---|-----|--------|-------|--------|---------|----------|-----|
+| 1 | AAPL frac | 0.877 | $312.42 | ~$311 | -0.5% | none | — |
+| 2 | GE frac | 0.982 | $348.94 | ~$345 | -1.1% | none | — |
+| 3 | JPM | 49 (stop) | $334.00 | $338.20 | +1.3% | $329.85 (1a5b3205) | $366.50 |
+| 4 | NVDA | 81 (stop) | $199.864 | $207.41 | +3.8% | $205.128 (30f07262) | $227.92 |
+
+### Market Context
+- **S&P 500 futures**: ~$7,665-7,685 (prev close ~$7,729) → **-0.56% premarket**
+- **Nasdaq futures**: ~$29,297-29,586 → **-0.73%**
+- **Dow futures**: ~$52,759-53,030 → **-0.93%**
+- **WTI crude**: ~$86.68-86.92/bbl (+**2.3-2.7%**) — Iran/Hormuz stalemate; EIA projects 600k bbl/day disruption through 2027
+- **Brent**: ~$93.24-93.63/bbl (+1.8-2.2%)
+- **VIX**: 15.84 (+4.28%) — moderate, not alarming
+- **10Y yield**: 4.697% (+0.95%) | **30Y**: 5.243% (+0.94%) — rates up
+- **Gold**: $4,575 | **USD/JPY**: 159.17
+- **Tone**: Risk-off broad market, but energy is counter-trend leader today
+
+**Economic Calendar (Aug 21)**
+- No major US releases today
+- Key upcoming: INTU earnings Aug 25 AMC | **NVDA earnings Aug 26 AMC** | CRWD/CRM/MRVL Aug 26-27
+
+### Politician Signals
+- No qualifying whitelist buys found (≥$25k threshold) in last 45 days.
+- Tavily returned Capitol Trades index pages only; no specific new positions for Pelosi, McCaul, Tuberville, Khanna, Gottheimer, or Mast identified.
+- **Status: No politician catalyst today.**
+
+### Trade Ideas
+
+**IDEA 1 — SLB (Oilfield Services) — WATCH for entry at open**
+- **Catalyst**: Oil +2.7% (Iran/Hormuz); SLB Q2 beat (rev $8.97B vs $8.67B exp, EPS $0.55 vs $0.51 exp); North America revenue +36% YoY; Piper Sandler raised PT $59→$64 (Jul 2026). YTD +40%; +14% last 30 days recovering from July lows.
+- **AH quote**: bid $51.17 (no ask) — prev close ~$53.77
+- **Wait for open**: Must verify opening price within 5% of prior close. If opens $51-56 range = actionable.
+- **Size**: 15% × $112,395 = $16,859 / ~$53 = **318 shares → round DOWN to 317**
+- **Stop**: 10% trail. At $53 entry → initial stop ~$47.70
+- **Target**: PT $64 (+20.7% from $53). R:R = 20.7% / 10% = **2.07:1 ✓**
+- **Sector check**: Energy = 0% of portfolio now → well under 60% cap ✓
+- **ATR14 check needed** at open before placing stop (oil services can be volatile)
+- **VERDICT**: Strong candidate. Execute at market-open routine if open spread <2% and price in $51-56 range.
+
+**IDEA 2 — XOM (Energy Major) — MARGINAL, skip**
+- AH: bid $158.65, ask $176.39 (wide spread). Prev close ~$165.56.
+- At $165 entry, target PT $180 = +9.1%. With 10% stop: R:R = 0.91:1. **Below 2:1 threshold → SKIP.**
+
+**IDEA 3 — MRK — SKIP**
+- Merck/Moderna Phase 3 melanoma vaccine (Keytruda + mRNA) met primary endpoint → +11-13% Aug 19-20 surge.
+- AH ask $158.44 vs prior close ~$135-$140 = ~13-17% gap. **Gap rule → SKIP** (price ran, not an entry here).
+
+### NVDA Watch
+- NVDA AH bid $207.41, ask $229.32. Prev close $219.01.
+- **+15% tighten trigger = $229.84** (entry $199.864 × 1.15). AH ask $229.32 is within $0.52 of trigger.
+- At market open: if NVDA prints ≥$229.84 → cancel stop `30f07262` → place 7% trail GTC on 81 integer shares (ATR14 rule: high-vol semi, stay at 7% NOT 5%).
+- Earnings Aug 26 AMC: binary event in 5 days. Consider partial profit (sell 1/3 ≈ 27 shares) before earnings to reduce binary exposure.
+
+### JPM Watch
+- JPM AH bid $338.20 — down from $357.55 close. If risk-off continues, JPM may test stop.
+- Stop $329.85 (10% trail from $366.50 HWM). Current $338.20 is $8.35 above stop = 2.5% buffer. **No action needed but monitor.**
+- **+15% tighten trigger = $384.10** (entry $334 × 1.15). HWM $366.50 — not there yet.
+
+### Risk Factors
+1. Iran/Hormuz escalation — positive for energy, negative for transport/airlines
+2. NVDA earnings Aug 26 AMC — binary event; holding 81-share position through it is risk-on
+3. Rates rising (10Y 4.697%) — headwind for growth/tech; JPM credit quality watch
+4. Market risk-off open — may cause additional selling pressure across all positions
+5. **Deployment gap**: Only 32% deployed vs 75-85% target. Need 3-4 new positions urgently.
+
+### Decision
+- **GE**: RECONCILED. Do not re-enter. Frac shares (0.982) — hold/ignore, too small to act.
+- **NVDA**: HOLD. Watch $229.84 tighten trigger at open. Consider selling 1/3 (27 shares) pre-earnings (Aug 25 session) to reduce binary risk.
+- **JPM**: HOLD. Stop $329.85 provides protection. Monitor risk-off pressure.
+- **SLB**: **PRIMARY ENTRY CANDIDATE** for market-open routine. Check open price, spread, ATR14. Execute if conditions met.
+- **DEPLOYMENT**: Critical to add 2-3 positions this week (SLB + 1-2 others in sector momentum). Research industrials, defense (GE sympathy selloff may create re-entry opportunity on stabilization), and any sector showing strength vs. risk-off.
+- **AVGO**: Was a conditional candidate from Aug 20 — re-evaluate at open today (prev close ~$385-395 range; check if still valid setup).
