@@ -8587,3 +8587,19 @@ None. Market closed.
 - **NVDA WATCH**: $229.84 trigger = $15.12 away. At open Mon: if ≥$229.84 → cancel 30f07262 → place 7% trail GTC on 81 shares (ATR rule).
 - **Key event**: NVDA earnings Aug 26 AMC — evaluate partial profit (1/3 = 27 shares) pre-earnings Aug 25.
 - **Tomorrow pre-market**: Evaluate AVGO and MU for 2 open position slots (post-FOMC binary risk cleared)
+
+---
+
+### Aug 23 - EOD Snapshot (Day 91, Sunday — Weekend)
+**Portfolio:** $113,029.31 | **Cash:** $47,548.80 (42.1%) | **Day P&L:** -$539.60 (-0.48%) | **Phase P&L:** +$13,029.31 (+13.03%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $309.35 | $0 (mkt closed) | -$2.69 (-0.98%) | none |
+| GE frac | 0.982 | $348.94 | $348.37 | $0 (mkt closed) | -$0.56 (-0.16%) | none |
+| JPM | 49.522 | $334.00 | $351.58 | $0 (mkt closed) | +$870.52 (+5.26%) | $329.85 (10% trail, HWM $366.50) |
+| NVDA | 82.192 | $199.864 | $214.72 | $0 (mkt closed) | +$1,221.04 (+7.43%) | $205.128 (10% trail, HWM $227.92) |
+
+**Notes:** Weekend session — markets closed. Day P&L -$539.60 reflects crypto DCA sleeve drift (BTC -0.92%, ETH -3.84%, LINK -3.10% intraday Sunday; SOL +0.30%). Stock prices unchanged from Fri Aug 21 close. No stops fired over the weekend; all GTC trailing stops confirmed active (NVDA 30f07262, JPM 1a5b3205). Cash dropped from $48,922 to $47,549 due to DCA session #17 settlement ($1,400 deployed Aug 21). Total DCA deployed: $22,820 / $55,000 target. Stock sleeve 31.6% deployed ($35,672 / $113,029) — 2 open slots (~$16,954 each at 15%). Week cap resets Mon Aug 25: 3/3 new entry slots fresh. Priority: (1) evaluate AVGO/MU pre-market Mon; (2) NVDA — if opens ≥$229.84 tighten to 7% trail; (3) consider NVDA partial profit (27 shares) Tue pre-earnings; (4) clean AAPL/GE fracs.
+
+---
