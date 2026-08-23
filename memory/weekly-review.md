@@ -976,3 +976,79 @@ Phase P&L: +$10,086.65 (+10.09%)
 - Phase P&L: +$10,086.65 (+10.09%) — positive but lead narrowed this week ✓
 
 ---
+
+## Week ending 2026-08-22
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $110,086.65 (Fri Aug 14 close) |
+| Ending portfolio | $113,568.91 (Fri Aug 21 close) |
+| Week return | +$3,482.26 (+3.16%) |
+| S&P 500 week | -1.43% (SPX 7,785.76 → 7,674.37; IT sector -3%+; rising yields rattled stocks) |
+| Bot vs S&P | +4.59% outperformance |
+| Trades | 2 closed (W:1 / L:1 / open:2 stocks + 2 fracs) |
+| Win rate | 50% (1 of 2 closed) |
+| Best trade | GE +$49.35 (+0.30%) |
+| Worst trade | UNH -$1,262.30 (-7.55%) |
+| Profit factor | 0.04 (49.35 / 1,262.30) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| UNH | $425.34 (39 shares) | ~$393.25 (stop) + $395.61 (frac) | -$1,262.30 | -7.55% | Trailing stop ac627db0 fired Mon Aug 17; DOJ criminal Medicare probe + MCR headwinds; frac remnant closed manually same day |
+| GE | $348.94 (47 shares) | ~$349.99 (stop) | +$49.35 | +0.30% | Trailing stop df184923 fired Fri Aug 21; Honeywell Aerospace guidance cut → aerospace sympathy selloff; GE thesis still intact but stop correctly triggered |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| AAPL frac | 0.877 | $312.42 | $309.35 | -$2.69 (-0.98%) | none | — |
+| GE frac | 0.982 | $348.94 | $348.37 | -$0.56 (-0.16%) | none | — |
+| JPM | 49.522 (49 stop) | $334.00 | $351.58 | +$870.52 (+5.26%) | $329.85 (1a5b3205, 10% trail) | $366.50 |
+| NVDA | 82.192 (81 stop) | $199.864 | $214.72 | +$1,221.04 (+7.43%) | $205.128 (30f07262, 10% trail) | $227.92 |
+
+Stock deployed: $35,672 / $113,569 = 31.4% — critically below 75-85% target
+Total deployed incl. crypto DCA sleeve: ~$65,474 / $113,569 = 57.7%
+Phase P&L: +$13,568.91 (+13.57% from $100,000 base)
+
+### What Worked
+- Massive S&P outperformance (+4.59%) in a down week — bot +3.16% vs S&P -1.43%; superior risk management shown under stress
+- Crypto DCA sleeve carried the week — BTC/ETH/SOL/LINK appreciated materially while stocks declined; DCA buying at lower prices building significant unrealized gains (BTC +27%, ETH +38%, SOL +30%, LINK +41% cumulative)
+- UNH trailing stop fired exactly as intended on Mon Aug 17 — prevented further damage from DOJ criminal probe headline; exited at -7.55% vs what could have been a much larger loss (stock -55% from ATH)
+- GE trailing stop fired automatically on Fri Aug 21 — Honeywell sympathy selloff triggered stop at $349.96; no manual intervention required; rules enforced themselves
+- FOMC minutes (Aug 19) risk managed correctly — no new entries on binary risk day; minutes turned out neutral/dovish, all positions intact through the event
+- NVDA held well in week where IT sector fell 3%+ — position still +7.43% unrealized from $199.864 entry; earnings Aug 26 AMC approaching
+
+### What Didn't Work
+- Stock deployment collapsed to 31.4% after two exits — two trailing stops firing in one week left us with only JPM + NVDA real stock positions; well below 75-85% target all week
+- Zero new entries all week — SLB and MU both identified as strong candidates but no market-open routine executed to fill slots; cash sitting idle erodes relative performance when market recovers
+- GE and AAPL fractional remnants remain unclosed — 0.982 and 0.877 fracs with no stops; clutter on the book with negligible P&L impact but need cleanup
+- NVDA earnings Aug 26 AMC not addressed — no partial profit taken pre-earnings despite +7.43% gain and historical "sell-the-news" pattern; binary risk still fully open
+- Profit factor 0.04 — only one win (GE +$49, essentially flat), one meaningful loss (UNH -$1,262); asymmetry suggests stops are calibrated to let winners get stopped near entry while losses hit -7%+; need better entry thesis-strength vetting
+
+### Key Lessons
+- Trailing stops are working — both UNH and GE exits were automatic, rule-compliant, and at appropriate levels; no emotional override needed; system is doing its job
+- Crypto DCA sleeve is the portfolio's current performance engine — unrealized crypto gains ($8,213 cumulative) are now outpacing stock realized/unrealized gains; maintaining DCA sleeve discipline is critical
+- After two exits in one week, must have pre-vetted candidates ready to deploy on Monday — can't let 2+ consecutive trading days pass with 30% deployment; cost is real when market recovers
+- NVDA earnings binary event (Aug 26 AMC) requires pre-earnings trim decision — selling 1/3 (27 shares) before earnings locks partial gain and cuts binary exposure; decide Monday
+
+### Adjustments for Next Week
+- **Mon Aug 24 top priority**: Add 2 stock positions to recover deployment toward 75-85% target; SLB (energy/oil $86+ thesis, Q2 beat) and MU (DRAM AI supercycle + Trump/Apple ban on Chinese DRAM) are primary candidates; evaluate live open quotes
+- **NVDA pre-earnings action**: Decide Monday AM whether to sell 1/3 (~27 shares) before Aug 26 AMC to reduce binary risk; if sell, realized gain locked at current +7.43%
+- **Frac cleanup**: Sell AAPL frac (0.877) and GE frac (0.982) at first clean opportunity Monday — both small, no stops, unnecessary noise
+- **NVDA $229.84 trigger**: Still active — if NVDA reclaims $229.84 before earnings, cancel 30f07262 and place 7% trail GTC on 81 shares (high-vol rule)
+- **Post-NVDA-earnings (Aug 27+)**: If NVDA beats and holds, evaluate adding AVGO (Sept 3 earnings) or SNDK as semi momentum play; if NVDA sells off, apply -7% cut rule if stop fires
+
+### Overall Grade: B
+- +3.16% vs S&P -1.43% = +4.59% outperformance; strong relative result ✓
+- S&P500 down week; bot positive = capital preservation + gains ✓
+- Trailing stops executed automatically on both UNH and GE; no rule violations ✓
+- Crypto DCA sleeve generating substantial returns (+$8,213 cumulative unrealized) ✓
+- Stock deployment fell to 31.4% — critically underdeployed for 4th consecutive week ✗
+- Zero new stock entries for second consecutive week ✗
+- Profit factor 0.04 — winners too small relative to losers ✗
+- GE and AAPL frac remnants still open ✗
+- NVDA earnings binary risk unaddressed ✗
+- Phase P&L: +$13,568.91 (+13.57%) — growing lead over benchmark ✓
+
+---
