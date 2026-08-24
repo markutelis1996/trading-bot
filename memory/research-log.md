@@ -9737,3 +9737,19 @@ Last 45-day scan window: July 6 – Aug 20, 2026
 - **SLB**: **PRIMARY ENTRY CANDIDATE** for market-open routine. Check open price, spread, ATR14. Execute if conditions met.
 - **DEPLOYMENT**: Critical to add 2-3 positions this week (SLB + 1-2 others in sector momentum). Research industrials, defense (GE sympathy selloff may create re-entry opportunity on stabilization), and any sector showing strength vs. risk-off.
 - **AVGO**: Was a conditional candidate from Aug 20 — re-evaluate at open today (prev close ~$385-395 range; check if still valid setup).
+
+---
+
+## 2026-08-24 - Afternoon Addendum (Midday Scan)
+
+### Intraday Research: NVDA pre-earnings drop (-2.35%)
+- **Cause**: Routine pre-earnings consolidation. Entire semi sector red: AMD -3.71%, MU -7.17%, TXN -3.37%, AVGO -1.75%.
+- **Bullish signals intact**: Dan Ives "AI chip demand crushing supply 15:1"; BMO names NVDA/AVGO/MRVL/MU/AMD as Buy (NVDA top AI pick); Bernstein expects "numbers to be good, looking for Rubin commentary"; Motley Fool: $1T order book 2026-27.
+- **NVDA recent deals**: Poolside AI ($7B); Cloverleaf Infrastructure (minority stake, datacenter sites); Rebellions talks (Korea inference chip).
+- **Options market**: $324.5B swing priced for Aug 26 earnings.
+- **Verdict**: No thesis break. Pre-earnings positioning. Hold with stop $205.128.
+
+### Intraday Research: SLB -1.41%
+- **WTI spot**: $84.50-84.91/bbl (slightly down from $86-87 range last week).
+- **Cause**: Minor oil pullback. Iran/Hormuz disruptions ongoing; US military escorted vessels helping stabilize fears.
+- **Verdict**: SLB Q2 beat thesis intact. Oil still well above $80 support. No action.

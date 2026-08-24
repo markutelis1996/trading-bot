@@ -8668,3 +8668,67 @@ No +15%/+20% tightening triggers reached (NVDA trigger $229.84 — $16.65 away).
 - **NVDA WATCH** 🔥: Earnings Aug 26 AMC — binary. Stop $205.128 protects. Do NOT sell pre-earnings (not at +25% partial profit threshold).
 - **Jackson Hole watch**: Aug 28-30 — if Warsh hawkish, growth stocks could selloff. All stops protect.
 
+
+---
+
+## 2026-08-24 - Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AAPL   | 0.877   | 0.877      | 0    | ✓ Match |
+| GE     | 0.982   | 0.982      | 0    | ✓ Match |
+| JPM    | 49.522  | 49.522     | 0    | ✓ Match |
+| NVDA   | 82.192  | 82.192     | 0    | ✓ Match |
+| SLB    | 312     | 317.675    | +5.675 | ⚠ Log recorded integer stop qty (312) as entry size; actual fill was ~$17,050 notional = 317.675 shares. Stop order (550e0b73) correctly covers 312 integer shares; 5.675 fractional shares uncovered. Not a stop-out event — logging error from market-open session. |
+| AVGO   | 46.939  | 46.939     | 0    | ✓ Match |
+
+**Action**: No reconciliation action needed. SLB position intact; stop covers integer shares. Corrected SLB position size to 317.675 (stop still 312 integer shares).
+
+---
+
+## 2026-08-24 - Midday Scan
+
+**Portfolio:** ~$83,002 long stock MV | **Cash:** ~$16,000 est | **Stock Positions:** 6 | **Phase P&L:** est +$22,000+
+
+### Position Status (stocks only — crypto excluded)
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|------|-----|--------|
+| AAPL frac | 0.877 | $312.42 | $312.77 | +0.11% | +1.11% | none | — | HOLD |
+| GE frac   | 0.982 | $348.94 | $342.28 | -1.91% | -1.75% | none | — | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $355.50 | +6.44% | +1.12% | $329.85 (10% trail, 1a5b3205, HWM $366.50) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.864 | $209.67 | +4.91% | -2.35% | $205.128 (10% trail, 30f07262, HWM $227.92) | $227.92 | HOLD |
+| SLB | 317.675 (312 stop) | $53.673 | $53.11 | -1.04% | -1.41% | $48.168 (10% trail, 550e0b73, HWM $53.52) | $53.52 | HOLD |
+| AVGO | 46.939 (46 stop) | $363.246 | $360.62 | -0.72% | -2.12% | $327.573 (10% trail, 7dc773a8, HWM $363.97) | $363.97 | HOLD |
+
+### STEP 3 — Cuts
+None. All positions above -7% cut threshold.
+
+### STEP 4 — Stop Tightening
+- JPM +6.44% — below +15% trigger ($384.10). No action.
+- NVDA +4.91% — below +15% trigger ($229.84). No action.
+- All others below +15%. No changes.
+
+### STEP 5 — Thesis Check
+- **NVDA**: -2.35% intraday. Pre-earnings consolidation (earnings Aug 26 AMC). Normal pattern. Research confirms no adverse news — AI demand supply 15:1, Vera Rubin on track, $1T order book 2026-27, avg analyst PT $302.83. Stop $205.128 is 2.2% below current $209.67 — close but within trailing stop mechanics. INTACT.
+- **AVGO**: -2.12% intraday. Pure sector sympathy (semis/Nasdaq red pre-NVDA earnings). No AVGO-specific news. Earnings still Sept 3 AMC. AI ASIC thesis intact. INTACT.
+- **SLB**: -1.41% intraday. WTI at $84.50-$84.91 today (still elevated vs thesis entry; Iran/Hormuz disruptions ongoing). Q2 beat thesis unchanged. INTACT.
+- **JPM**: +1.12% intraday. Financials outperforming. INTACT.
+- **GE/AAPL fracs**: Negligible size, no stops, monitor only.
+
+### STEP 6 — Research (intraday driver: NVDA pre-earnings drop)
+- NVDA fell -2.3% to ~$209.81 before Aug 26 earnings (routine pre-earnings positioning)
+- Bullish signals intact: Dan Ives "chip demand crushing supply 15-to-1", BMO Buy (top AI pick), Bernstein "numbers should be good", NVDA signed $7B Poolside AI deal, Cloverleaf infrastructure stake, Rebellions talks
+- Options market pricing $324.5B swing on earnings — elevated vol = normal pre-earnings compression
+- Semi peers all red: AMD -3.71%, MU -7.17%, TXN -3.37%, AVGO -1.75% (sector-wide, not NVDA specific)
+- WTI: $84.50/bbl. SLB drop is oil macro (slight retreat from $87 peak), not company-specific.
+- **No thesis breaks. No action required.**
+
+### Actions Taken
+- None. No cuts, no stop tightening, no new entries.
+- NVDA stop ($205.128) is only 2.2% below current price — if NVDA drops pre-earnings, stop-out is acceptable per rules. Do NOT move stop down.
+
+### Notes
+- **NVDA earnings Aug 26 AMC** — binary event in 2 days. All stops protect downside.
+- **Jackson Hole Aug 28-30** — Warsh speech. Watch for hawkish surprise.
+- **AVGO earnings Sept 3 AMC** — next catalyst for AVGO position.
+- Trades this week: 2 of 7 (SLB + AVGO added today at market-open)
