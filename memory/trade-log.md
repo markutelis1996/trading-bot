@@ -8603,3 +8603,68 @@ None. Market closed.
 **Notes:** Weekend session — markets closed. Day P&L -$539.60 reflects crypto DCA sleeve drift (BTC -0.92%, ETH -3.84%, LINK -3.10% intraday Sunday; SOL +0.30%). Stock prices unchanged from Fri Aug 21 close. No stops fired over the weekend; all GTC trailing stops confirmed active (NVDA 30f07262, JPM 1a5b3205). Cash dropped from $48,922 to $47,549 due to DCA session #17 settlement ($1,400 deployed Aug 21). Total DCA deployed: $22,820 / $55,000 target. Stock sleeve 31.6% deployed ($35,672 / $113,029) — 2 open slots (~$16,954 each at 15%). Week cap resets Mon Aug 25: 3/3 new entry slots fresh. Priority: (1) evaluate AVGO/MU pre-market Mon; (2) NVDA — if opens ≥$229.84 tighten to 7% trail; (3) consider NVDA partial profit (27 shares) Tue pre-earnings; (4) clean AAPL/GE fracs.
 
 ---
+
+---
+
+## 2026-08-24 - Market-Open Session
+
+**Portfolio:** $113,664 equity | **Cash:** ~$13,600 (post-trades) | **Positions:** 6 | **Deployed:** ~61%
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| GE frac | 0.982 | 0.981945 | ✓ |
+| JPM | 49.522 | 49.521674 | ✓ |
+| NVDA | 82.192 | 82.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | — | UNTOUCHABLE |
+
+Clean. No stops fired over weekend.
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 2 (BUY SLB, BUY AVGO)
+
+### STEP 1b — Price Re-verification
+| Ticker | Log (Aug 21) | Live | Delta | Stop | Status |
+|--------|-------------|------|-------|------|--------|
+| NVDA | $214.72 | $213.19 | -0.71% | $205.128 (10% trail, HWM $227.92) | HOLD |
+| JPM | $351.58 | $354.51 | +0.84% | $329.85 (10% trail, HWM $366.50) | HOLD |
+| GE frac | $345.42 | $344.04 | -0.40% | none | HOLD |
+| AAPL frac | $309.35 | $310.66 | +0.42% | none | HOLD |
+
+No +15%/+20% tightening triggers reached (NVDA trigger $229.84 — $16.65 away).
+
+### Market Context
+- S&P 500: ~7,680 (flat) | NQ: +0.30% | VIX: ~17.1 | WTI: $85.31 (-2%)
+- Jackson Hole symposium: Aug 28-30 (New Fed Chair Warsh speech)
+- NVDA earnings: Aug 26 AMC — key binary event this week
+- INTU earnings: Aug 25 AMC | CRM/MRVL/CRWD: Aug 26-27
+
+### Trades Executed
+
+| # | Date | Ticker | Side | Shares | Entry | Stop | Target | R:R | Thesis |
+|---|------|--------|------|--------|-------|------|--------|-----|--------|
+| 1 | 2026-08-24 | SLB | BUY | 312 | $53.673 | $48.14 (10% trail, HWM $53.49) | $64.41 (+20%) | 2:1 | Q2 2026 beat (EPS $0.55 vs $0.51 est; Rev $8.97B vs $8.67B est); oil $85 (elevated; Iran/Hormuz stalemate; Houthi tanker attacks); NA revenue +36% YoY; Piper Sandler PT $64; Energy = 0% of portfolio |
+| 2 | 2026-08-24 | AVGO | BUY | 46 | $363.246 | $326.70 (10% trail, HWM $363.00) | $435.90 (+20%) | 2:1 | AI ASIC/hyperscaler demand confirmed ($725B combined 2026 AI capex); MSFT Azure +43% + AWS +37%; AVGO earnings Sept 3 AMC (upcoming catalyst); NVDA Aug 26 beat = sector catalyst; Tech sector post-add = 30.2% (under 60% cap) |
+
+### Stops Placed (GTC trailing)
+- SLB: 312 shares, 10% trail, stop $48.14, HWM $53.49 — order ID 550e0b73 ✓
+- AVGO: 46 shares, 10% trail, stop $326.70, HWM $363.00 — order ID 7dc773a8 ✓
+- Note: 0.939 fractional AVGO shares uncovered (Alpaca trailing stop requires integer qty)
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | AAPL frac | 0.877 | $312.42 | none | — | — |
+| 2 | GE frac | 0.982 | $348.94 | none | — | — |
+| 3 | JPM | 49.522 (49 stop) | $334.00 | $329.85 (10% trail, 1a5b3205, HWM $366.50) | $384.10 (+15%) | 2:1 |
+| 4 | NVDA | 82.192 (81 stop) | $199.864 | $205.128 (10% trail, 30f07262, HWM $227.92) | $264.24 (+32%) | 2:1 |
+| 5 | SLB | 312 | $53.673 | $48.14 (10% trail, 550e0b73, HWM $53.49) | $64.41 (+20%) | 2:1 |
+| 6 | AVGO | 46.939 (46 stop) | $363.246 | $326.70 (10% trail, 7dc773a8, HWM $363.00) | $435.90 (+20%) | 2:1 |
+
+- Trades this week: 2 of 7 (SLB + AVGO Aug 24)
+- Deployed (stocks): ~61% post-trades — significantly improved from 31%
+- **NVDA WATCH** 🔥: Earnings Aug 26 AMC — binary. Stop $205.128 protects. Do NOT sell pre-earnings (not at +25% partial profit threshold).
+- **Jackson Hole watch**: Aug 28-30 — if Warsh hawkish, growth stocks could selloff. All stops protect.
+
