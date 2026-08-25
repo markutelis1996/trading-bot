@@ -602,6 +602,102 @@ AH quotes unreliable for all candidates. No actionable entry prices.
 - Review Monday Aug 10 post-NFP: evaluate AVGO or UBER with day-session quotes if sector momentum holds
 - AVGO watchlist: AI chip/networking; 70-72% EPS growth FY2026; no politician signal but strong sector momentum
 
+## 2026-08-25 - Pre-market Research
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ Match |
+| GE frac | 0.982 | 0.981945 | ✓ Match |
+| JPM | 49.522 | 49.521674 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | ✓ Match |
+| SLB | 317.675 | 317.674948 | ✓ Match |
+| AVGO | 46.939 | 46.939421 | ✓ Match |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | — | UNTOUCHABLE |
+
+Clean. No stops fired overnight.
+
+### Account
+- Equity: $114,253.87
+- Cash: $12,007.11
+- Buying power (regt): $93,649.52
+- Daytrade count: 0/3
+- Stock sleeve deployed: ~61% ($69,632 across 4 full + 2 fractional positions)
+- Phase P&L: +$14,253.87 (+14.25%)
+- Trades this week: 2/7 (SLB + AVGO Aug 24)
+
+### Market Context (pre-market Aug 25)
+- **WTI**: $85.21 (-2.14%) | **Brent**: $92.10 (-2.43%) — oil pulling back from highs; Houthi attacks + OPEC+ supply increase creating tug-of-war
+- **ES Futures**: 7,677 (-0.18%) | **NQ**: -0.61% | **Dow**: +0.25% — mixed; tech weak pre-NVDA earnings
+- **VIX**: 15.85 (+4.76% from 15.13) — ticking up; pre-NVDA earnings anxiety creeping in
+- **CB Consumer Confidence Aug 25**: 90.3 (actual) vs 90.8 forecast, prior 90.8 — slight miss; consumer caution persists
+- **Earnings BMO today**: No major US S&P 500 companies
+- **Earnings AMC tonight**: INTU ($3.59 est EPS, $101B mkt cap), ZM ($1.48 est) — watch INTU for software sector signal
+- **Economic calendar today**: Case-Shiller Home Prices 9 AM | CB Consumer Confidence 10 AM | New Home Sales (Jul, 628k prev) 10 AM | Richmond Fed 10 AM | Fed Barkin speech eve
+- **Critical tomorrow Aug 26**: GDP Q2 2nd est (prev 1.5% SAAR) + PCE Deflator Jul (prev -0.1% MoM) + Personal Income/Spending 8:30 AM + **NVDA Earnings AMC**
+- **Critical Aug 28**: Jackson Hole — **Fed Chair Warsh speech 2 PM ET** (first major policy signal)
+- **Gold**: $4,703 (+0.12%) | **10Y Treasury**: bid up slightly (yields falling) — mild flight to safety
+
+### Position Status (Aug 24 close prices)
+| Ticker | Shares | Entry | Last Close | P&L% | -7% Floor | Stop | HWM | Status |
+|--------|--------|-------|------------|-------|-----------|------|-----|--------|
+| AAPL frac | 0.877 | $312.42 | $309.21 | -1.03% | $290.55 | none | — | HOLD |
+| GE frac | 0.982 | $348.94 | $342.23 | -1.92% | $324.51 | none | — | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $356.00 | +6.59% | $310.62 | $329.85 (10% trail, 1a5b3205, HWM $366.50) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.864 | $210.50 | +5.32% | $185.87 | $205.128 (10% trail, 30f07262, HWM $227.92) | $227.92 | HOLD — earnings tomorrow AMC |
+| SLB | 317.675 (312 stop) | $53.673 | $54.00 | +0.61% | $49.92 | $48.6765 (10% trail, 550e0b73, HWM $54.085) | $54.085 | HOLD |
+| AVGO | 46.939 (46 stop) | $363.246 | $360.92 | -0.64% | $337.82 | $327.573 (10% trail, 7dc773a8, HWM $363.97) | $363.97 | HOLD |
+
+Stop tightening check: NVDA +15% trigger = $229.84 ($19.34 away), JPM +15% = $384.10 ($28.10 away). None triggered.
+
+### NVDA Earnings — Aug 26 AMC (CRITICAL EVENT)
+- Revenue consensus: ~$92B (+97% YoY from $46.7B); guidance midpoint $91B
+- EPS consensus: $2.08 adj; Q3 FY2027 guidance expected ~$102-103B
+- Non-GAAP gross margin guidance: 75% ±0.5%
+- Vera Rubin CPUs shipping this month; $1T+ order book 2026-2027
+- Beat probability: 85% (options analysis)
+- **Chance of higher next-day close: 45-50%** — NVDA has fallen after 6/8 recent reports, last 4 in a row
+- Options-implied move: ±6.12%; expected range $201.60-$227.85
+- **NVDA stop $205.128 (HWM $227.92): if stopped out at ~$205, P&L = +5.1×81 = ~$413 gain. Stop protects even in bear case.**
+- Strategy: HOLD through earnings. Not at +25% partial profit threshold ($249.83). Stop manages downside.
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Days Since Disclose | Signal |
+|------------|--------|--------|------|------------|-----------|--------------------|-|
+| Pelosi | INTC | BUY (calls $50 strike Mar 2027) | $1M-5M | May 29 | Jun 24 | 62 days | STALE — outside 45-day window; INTC crashed ~-38% from signal zone |
+| Pelosi | UBER | BUY (calls $50 strike Mar 2027) | $500K-1M | May 29 | Jun 24 | 62 days | STALE — outside window |
+| McCaul/Khanna/Gottheimer/Mast/Tuberville | — | No qualifying single-stock buys found | — | — | — | — | No signal |
+
+**No active politician signals. All stale or below threshold.**
+
+### Live Price Verification (STEP 3d)
+Quotes are AH Aug 24 closes — no new actionable trade ideas today (cash insufficient + binary events tomorrow/Friday). No price verification needed for new entries.
+
+### Trade Ideas
+**NONE TODAY.**
+- Cash $12,007 < $17,138 minimum for 15% position at current equity
+- NVDA binary event AMC tomorrow — choppy pre-earnings environment
+- GDP + PCE data tomorrow 8:30 AM — another binary
+- Jackson Hole Warsh speech Friday — rate policy unknown, could jolt all positions
+- CB Consumer Confidence slight miss (90.3 vs 90.8) — minor bearish signal, not a buy trigger
+
+### Risk Factors
+- **NVDA earnings AMC tomorrow**: ±6.12% implied move; has fallen after last 4 earnings despite beats; could trigger stop at $205.128 (acceptable — still profitable exit)
+- **GDP Q2 revision tomorrow**: If below 1.5% SAAR → growth slowdown fears
+- **PCE deflator tomorrow**: -0.1% MoM July (deflation) = bullish for Fed rate cuts but markets may sell the news; or beats to upside = bearish
+- **Warsh Jackson Hole Friday 2 PM**: First major policy signal from new Fed chair — completely unknown hawkish/dovish tone; can gap entire portfolio
+- **AVGO -0.64% from entry**: AH bid $346.52 vs entry $363 (-4.5% AH delta); NQ -0.61% premarket adding pressure. Stop $327.57 active. Watching closely.
+- **SLB**: Oil pulled back -2.14% today (WTI $85.21). SLB only +0.61% from entry. If oil continues lower → SLB could test entry. Stop $48.68 active.
+
+### Decision
+**HOLD ALL. NO NEW ENTRIES TODAY.**
+- Strategy: let all 4 GTC trailing stops manage risk through NVDA binary event tomorrow
+- Do NOT sell NVDA pre-earnings (not at +25% = $249.83 threshold)
+- NVDA stop $205.128 protects downside regardless of earnings reaction
+- Post-NVDA: if beat + positive reaction → evaluate further deployment on Aug 27
+- Post-Warsh Friday: if neutral/dovish → consider deploying remaining ~$12k cash into new position
+- AVGO earnings Sept 3 AMC: still holding; stop active
+
 ## YYYY-MM-DD - Pre-market Research
 
 ### Account
