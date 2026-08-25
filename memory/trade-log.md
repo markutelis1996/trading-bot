@@ -8732,3 +8732,49 @@ None. All positions above -7% cut threshold.
 - **Jackson Hole Aug 28-30** — Warsh speech. Watch for hawkish surprise.
 - **AVGO earnings Sept 3 AMC** — next catalyst for AVGO position.
 - Trades this week: 2 of 7 (SLB + AVGO added today at market-open)
+
+---
+
+## 2026-08-25 - Midday Scan
+
+**Portfolio:** ~$114k+ equity est | **Stock Positions:** 6 | **Deployed:** ~61%
+
+### STEP 0 — Reconciliation
+All tickers match broker to the fractional share. No stops fired overnight or this morning. Clean.
+
+### Position Status (stocks only — crypto excluded)
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|------|-----|--------|
+| AAPL frac | 0.877 | $312.42 | $309.915 | -0.80% | -0.14% | none | — | HOLD |
+| GE frac | 0.982 | $348.94 | $347.155 | -0.51% | +1.55% | none | — | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $355.80 | +6.53% | -0.17% | $329.85 (10% trail, 1a5b3205, HWM $366.50) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.864 | $212.155 | +6.15% | +1.76% | $205.128 (10% trail, 30f07262, HWM $227.92) | $227.92 | HOLD |
+| SLB | 317.675 (312 stop) | $53.673 | $53.48 | -0.35% | -0.96% | $48.96 (10% trail, 550e0b73, HWM $54.40) | $54.40 | HOLD |
+| AVGO | 46.939 (46 stop) | $363.246 | $359.05 | -1.16% | +0.08% | $327.573 (10% trail, 7dc773a8, HWM $363.97) | $363.97 | HOLD |
+
+### STEP 3 — Cuts
+None. All positions above -7% cut threshold.
+
+### STEP 4 — Stop Tightening
+- **JPM**: +6.53% — +15% trigger $384.10 not reached. No action.
+- **NVDA**: +6.15% — +15% trigger $229.84 not reached. No action.
+- **SLB**: Stop auto-trailed to $48.96 (HWM $54.40 vs log's prior HWM $53.49) — intraday high moved stop up passively. No manual action needed.
+
+### STEP 5 — Thesis Check
+- **NVDA**: +1.76% intraday; earnings AMC tomorrow (Aug 26). Pre-earnings drift normal. Stop $205.128 active. INTACT.
+- **AVGO**: +0.08% intraday. Pre-NVDA sympathy stabilizing. AI ASIC thesis unchanged. INTACT.
+- **JPM**: -0.17% intraday; financials holding. INTACT.
+- **SLB**: -0.96% intraday; WTI ~$85 (elevated; Iran/Hormuz ongoing). Thesis INTACT.
+- **GE/AAPL fracs**: Negligible. Monitor only.
+
+### STEP 6 — Research
+No sharp intraday movers requiring Perplexity investigation. All moves within ±2% — consistent with pre-NVDA earnings quiet. No addendum needed.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries (cash $12k < $17k minimum for 15% position).
+
+### Notes
+- **NVDA earnings Aug 26 AMC**: ±6.12% implied move; stop $205.128 protects downside.
+- **GDP Q2 + PCE Aug 26 8:30 AM**: Binary macro data pre-NVDA.
+- **Jackson Hole Aug 28 2 PM ET**: Warsh inaugural speech — biggest unknown this week.
+- Trades this week: 2 of 7 (SLB + AVGO Aug 24).
