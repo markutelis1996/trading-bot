@@ -8778,3 +8778,19 @@ None. No cuts, no stop changes, no new entries (cash $12k < $17k minimum for 15%
 - **GDP Q2 + PCE Aug 26 8:30 AM**: Binary macro data pre-NVDA.
 - **Jackson Hole Aug 28 2 PM ET**: Warsh inaugural speech — biggest unknown this week.
 - Trades this week: 2 of 7 (SLB + AVGO Aug 24).
+
+---
+
+### Aug 26 - EOD Snapshot (Day 94, Wednesday)
+**Portfolio:** $113,368 | **Cash:** $12,007 (10.6%) | **Day P&L:** -$326 (-0.29%) | **Phase P&L:** +$103,368 (+1033.7%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AAPL frac | 0.877 | $312.42 | $309.00 | -0.29% | -$2.99 | none |
+| GE frac | 0.982 | $348.94 | $349.91 | +0.11% | +$0.95 | none |
+| JPM | 49.522 | $334.00 | $356.29 | -0.11% | +$1,103.77 | $329.85 (10% trail, HWM $366.50) |
+| NVDA | 82.192 | $199.864 | $214.08 | +0.48% | +$1,168.44 | $205.128 (10% trail, HWM $227.92) |
+| SLB | 317.675 | $53.673 | $53.20 | -0.17% | -$149.27 | $49.122 (10% trail, HWM $54.58) |
+| AVGO | 46.939 | $363.246 | $358.30 | +0.44% | -$232.16 | $327.573 (10% trail, HWM $363.97) |
+
+**Notes:** Quiet down day (-0.29%) with no trades. NVDA closed at $214.08 ahead of earnings AMC tonight — the post-earnings gap is the key event for tomorrow (tighten trail to 7% if +15% from entry ~$229.84; partial 1/3 sell at +25% ~$249.83; if big drop below $205.128 stop fires). AVGO (-$232) and SLB (-$149) both below entry but well above -7% cut threshold; theses intact. JPM holding +$1,103 unrealized. Cash at 10.6% ($12k) is below minimum for a new 15% position (~$17k) — no new entries possible without a partial exit or NVDA proceeds. Jackson Hole Aug 28-30 (Warsh inaugural speech Aug 28 2 PM ET) remains macro wildcard. Trades this week: 2/3 used.
