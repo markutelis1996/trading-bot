@@ -8872,3 +8872,17 @@ None. No cuts, no stop tightening, no new entries (cash $12,625 < $17,001 minimu
 - **NVDA earnings AMC tonight**: ±6.12% implied move; stop $205.128 fires if breached; tighten to 7% trail if closes above $229.84 (+15%); partial 1/3 sell at +25% ($249.83). DO NOT move stop.
 - **AVGO earnings Sept 3 AMC**: Next position catalyst. $60B debt raise = AI demand confirmed.
 - Trades this week: 2/7 (SLB + AVGO Aug 24).
+
+---
+
+### Aug 26 - EOD Snapshot (Day 94, Wednesday) — FINAL (supersedes premature earlier entry)
+**Portfolio:** $112,929 | **Cash:** $11,080 (9.8%) | **Day P&L:** -$195 (-0.17%) | **Phase P&L:** +$102,929 (+1,029.3%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AVGO | 46.939 | $363.25 | $355.45 | -0.36% | -$365.73 (-2.14%) | $327.57 (10% trail, HWM $363.97) |
+| JPM | 49.522 | $334.00 | $356.36 | -0.09% | +$1,106.99 (+6.69%) | $329.85 (10% trail, HWM $366.50) |
+| NVDA | 82.192 | $199.86 | $210.25 | -1.31% | +$853.61 (+5.20%) | $205.13 (10% trail, HWM $227.92) ⚠️ earnings AMC tonight |
+| SLB | 317.675 | $53.67 | $53.60 | +0.58% | -$22.20 (-0.13%) | $49.12 (10% trail, HWM $54.58) |
+
+**Notes:** Down day (-0.17%) driven primarily by NVDA -1.31% ($230 drag) and AVGO -0.36% ($61 drag), partially offset by SLB +0.58% (+$98). JPM flat (-0.09%). Frac cleanup sells (AAPL, GE) executed at market-open — negligible P&L impact already logged. NVDA earnings AMC tonight — ±6.12% implied move; stop $205.13 protects downside; tighten to 7% trail if post-earnings close above $229.84 (+15%); partial 1/3 sell at +25% ($249.83). Cash at 9.8% ($11,080) — below minimum for new position; no new entries possible until NVDA earnings outcome clear. Jackson Hole Aug 28 (Warsh speech) = macro wildcard. Trades this week: 2/3 used (SLB + AVGO Aug 24).
