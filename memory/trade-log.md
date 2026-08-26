@@ -8820,3 +8820,55 @@ All 6 stock positions match broker exactly. No stops fired overnight. Clean.
 - **No new entries:** Cash ~$12.6k post-cleanup < $16,892 minimum (15% × $112,612 equity)
 - **NVDA binary event AMC tonight**: Trail at $205.128; watch $229.84 for tighten trigger post-earnings
 - **Jackson Hole Aug 28-30**: No new entries until Warsh speech outcome is clear
+
+---
+
+## 2026-08-26 - Midday Scan
+
+**Portfolio:** ~$68,484 stock MV | **Cash:** ~$12,625 | **Stock Positions:** 4 | **Deployed:** ~84% total (stocks + crypto)
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939 | 0 | ✓ Match |
+| JPM | 49.522 | 49.522 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.192 | 0 | ✓ Match |
+| SLB | 317.675 | 317.675 | 0 | ✓ Match |
+
+No stops fired. Clean.
+
+### Position Status (stocks only — crypto OFF-LIMITS)
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.246 | $353.34 | -2.73% | -0.95% | $327.573 (10%, 7dc773a8) | $363.97 | HOLD |
+| JPM | 49.522 (49 stop) | $334.001 | $357.22 | +6.95% | +0.15% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.864 | $210.605 | +5.37% | -1.15% | $205.128 (10%, 30f07262) | $227.92 | HOLD ⚠️ |
+| SLB | 317.675 (312 stop) | $53.673 | $53.195 | -0.88% | -0.18% | $49.122 (10%, 550e0b73) | $54.58 | HOLD |
+
+### STEP 3 — Cuts
+None. All positions above -7% threshold.
+
+### STEP 4 — Stop Tightening
+- NVDA +5.37% — +15% trigger $229.84; current $210.61 = $19.23 away. No action.
+- JPM +6.95% — +15% trigger $384.10; current $357.22 = $26.88 away. No action.
+- AVGO, SLB: below +15% threshold. No action.
+
+### STEP 5 — Thesis Check
+- **NVDA**: -1.15% intraday. Pre-earnings drift (earnings AMC tonight). Normal consolidation. ⚠️ Stop $205.128 only 2.6% below current $210.61 — locked at HWM $227.92 × 90%. Do NOT move stop down per rules. INTACT.
+- **AVGO**: -0.95% intraday. Sector sympathy pre-NVDA. New: Broadcom in talks to raise $60B debt for AI chip financing (Anthropic + hyperscalers) → STRENGTHENS AI ASIC thesis. INTACT/STRENGTHENED.
+- **JPM**: +0.15% intraday. JPMorgan analysts bullish on SpaceX AI (Cursor acquisition). Financials holding. INTACT.
+- **SLB**: -0.18% intraday. Energy minor pullback. Oil ~$85/bbl (Iran/Hormuz ongoing). Thesis INTACT.
+
+### STEP 6 — Research
+- Market muted pre-NVDA earnings. July PCE hotter than expected (confirmed prior research). S&P flat.
+- **AVGO $60B AI chip debt raise** (Anthropic, other hyperscalers) — directly confirms AI ASIC demand thesis for AVGO; bullish for Sept 3 earnings catalyst.
+- **Jackson Hole Aug 28 2 PM ET**: Warsh inaugural speech — biggest macro risk remaining this week.
+- No sharp intraday movers requiring further investigation. No thesis breaks.
+
+### Actions Taken
+None. No cuts, no stop tightening, no new entries (cash $12,625 < $17,001 minimum for new position; NVDA binary tonight; Jackson Hole Friday).
+
+### Notes
+- **NVDA earnings AMC tonight**: ±6.12% implied move; stop $205.128 fires if breached; tighten to 7% trail if closes above $229.84 (+15%); partial 1/3 sell at +25% ($249.83). DO NOT move stop.
+- **AVGO earnings Sept 3 AMC**: Next position catalyst. $60B debt raise = AI demand confirmed.
+- Trades this week: 2/7 (SLB + AVGO Aug 24).
