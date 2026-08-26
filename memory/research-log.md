@@ -9849,3 +9849,140 @@ Last 45-day scan window: July 6 – Aug 20, 2026
 - **WTI spot**: $84.50-84.91/bbl (slightly down from $86-87 range last week).
 - **Cause**: Minor oil pullback. Iran/Hormuz disruptions ongoing; US military escorted vessels helping stabilize fears.
 - **Verdict**: SLB Q2 beat thesis intact. Oil still well above $80 support. No action.
+
+## 2026-08-26 - Pre-market Research
+
+### Account Snapshot
+| Metric | Value |
+|--------|-------|
+| Equity | $113,344.12 |
+| Cash | $12,007.10 |
+| Long MV | $101,337.02 (stock + crypto DCA sleeve) |
+| Stock MV | ~$69,573 (AAPL frac $271 + AVGO $16,818 + GE frac $344 + JPM $17,644 + NVDA $17,596 + SLB $16,900) |
+| Crypto MV | ~$31,789 (DCA sleeve — untouchable) |
+| Stock deployed | ~61.4% ($69,573 / $113,344) — below 75-85% target |
+| Buying power (RegT) | $93,589.39 |
+| Daytrade count | 0/3 |
+| Phase P&L | +$13,344 (+13.34%) |
+| Trades this week | 0/7 \| New entries: 0/3 |
+
+### STEP 0 — Reconciliation
+All 6 stock positions match broker exactly. No stops fired overnight or pre-market.
+
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| AAPL frac | 0.877 | 0.877045 | ✓ |
+| AVGO | 46.939 | 46.939421 | ✓ |
+| GE frac | 0.982 | 0.981945 | ✓ |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ |
+| NVDA | 82.192 (81 stop) | 82.191638 | ✓ |
+| SLB | 317.675 (312 stop) | 317.674949 | ✓ |
+
+**Active GTC trailing stops (broker-confirmed)**:
+| Ticker | Order ID | Stop | HWM | Trail% |
+|--------|----------|------|-----|--------|
+| NVDA | 30f07262 | $205.128 | $227.92 | 10% |
+| JPM | 1a5b3205 | $329.85 | $366.50 | 10% |
+| SLB | 550e0b73 | $49.122 | $54.58 | 10% |
+| AVGO | 7dc773a8 | $327.573 | $363.97 | 10% |
+
+Note: SLB stop auto-trailed from $48.96 → $49.122 (HWM $54.40 → $54.58) on Aug 25 — auto-tracking correctly ✓
+
+### Market Context
+- **WTI crude**: ~$85/bbl (-2% today) | Brent: ~$88-94/bbl (volatile; data sources diverge; see note) | Iran/Hormuz stalemate ongoing
+- **S&P 500 futures (Sep)**: $7,674.50 as of Aug 25 8:39 PM ET; roughly flat/slightly red premarket (-0.2%)
+- **VIX**: 15.45 (Aug 25 close, -2.52%) — low, market calm
+- **Gold**: $4,700 | **10Y yield**: ~4.64%
+- **Sector**: AI/Tech in focus pre-NVDA earnings. Energy modestly red (WTI pullback). Financials steady.
+- **YTD S&P**: +11.33%
+
+**Oil Note**: Multiple sources show conflicting data (WTI $80-87 range across sites). Using oilprice.com Oct contract: WTI ~$85/bbl as most reliable. SLB thesis (oil elevated, Iran disruptions) still intact at these levels.
+
+### Economic Calendar Today (Aug 26)
+| Time (ET) | Release | Period | Forecast | Previous |
+|-----------|---------|--------|----------|----------|
+| 8:30 AM | Q2 GDP 2nd Estimate (QoQ) | Q2 | 1.5% | 1.5% (advance) |
+| 8:30 AM | PCE Deflator (MoM) | Jul | 0.1% | -0.1% |
+| 8:30 AM | Core PCE Deflator (MoM) | Jul | 0.1-0.2% | 0.1% |
+| 8:30 AM | Personal Income (MoM) | Jul | 0.2% | 0.2% |
+| 8:30 AM | Personal Spending (MoM) | Jul | 0.1-0.15% | 0.3% |
+| 8:30 AM | Durable Goods (MoM) | Jul | 0.3-0.5% | — |
+| 10:30 AM | EIA Crude Oil Inventory | Aug 21 | — | 428.8M bbl |
+
+**Assessment**: Benign day for data. GDP 2nd estimate in-line with advance (no revision expected). PCE Jul MoM 0.1% = mild; market already priced benign CPI/PPI prints. Main risk is Core PCE above 0.2% surprise — unlikely given prior data.
+
+### NVDA Earnings (AMC Tonight — CRITICAL)
+- **Consensus**: Rev $92.07B (+97% YoY), EPS $2.09 (+99% YoY)
+- **Guidance issued May 2026**: $91B ±2% → street now at $92.07B (above guidance midpoint)
+- **Data center est**: ~$80-82B+
+- **Beat probability**: 85% (analysts); streak of consecutive beats
+- **Options-implied move**: ±6.12% → expected range ~$201.60-$227.85
+- **Key levels**: $215 main pivot; $220 call wall; $228-232 breakout zone
+- **Bull case**: Rev beat + Q3 guide above $95B → stock reclaims $228+ (above HWM $227.92 → trailing stop auto-trails up)
+- **Bear case**: Data center rev misses (2nd consecutive quarter) → sell-the-news → risk of approaching stop $205.128 (4.2% below current $214)
+- **Our position**: 81 integer shares (stop) + 1.192 frac; entry $199.864, current $214.08, unrealized +7.12%. Stop $205.128 = $8.95 buffer (4.2%). Per rules: DO NOT MOVE STOP DOWN. Let stop auto-execute if triggered.
+
+### Other Earnings AMC Tonight (Aug 26)
+- CRWD, CRM, SNPS, OKTA, HPQ — all AMC. No positions in these.
+
+### Jackson Hole (Aug 28-30)
+- Fed Chair Warsh's inaugural economic policy address — biggest macro unknown of the week
+- Market pricing no more hikes; if Warsh signals hawkish, growth stocks could face multiple compression
+- All trailing stops protect downside; no new entries before Jackson Hole outcome is clear
+
+### Position Status (prices from live broker positions — Aug 25/26 pre-market)
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | +15% Trigger | Status |
+|--------|--------|-------|---------|------|------------|-----|--------------|--------|
+| AAPL frac | 0.877 | $312.42 | $309.00 | -1.09% | none | — | — | HOLD (remnant) |
+| AVGO | 46.939 (46 stop) | $363.246 | $358.30 | -1.36% | $327.573 (10%, 7dc773a8) | $363.97 | $417.73 | HOLD |
+| GE frac | 0.982 | $348.94 | $349.91 | +0.28% | none | — | — | HOLD (remnant) |
+| JPM | 49.522 (49 stop) | $334.00 | $356.29 | +6.67% | $329.85 (10%, 1a5b3205) | $366.50 | $384.10 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.864 | $214.08 | +7.12% | $205.128 (10%, 30f07262) | $227.92 | $229.84 🔥 | HOLD — BINARY EVENT TONIGHT |
+| SLB | 317.675 (312 stop) | $53.673 | $53.20 | -0.88% | $49.122 (10%, 550e0b73) | $54.58 | $61.72 | HOLD |
+
+### Stop Tightening Check
+- **NVDA**: +7.12%, trigger $229.84 — current $214.08 = $15.76 away (7.4%). NOT triggered.
+- **JPM**: +6.67%, trigger $384.10 — current $356.29 = $27.81 away. NOT triggered.
+- **AVGO**: -1.36%. Below threshold. No action.
+- **SLB**: -0.88%. Below threshold. No action.
+
+No stop tightening actions required.
+
+### Politician Signals (Step 3b)
+45-day window: July 12 – Aug 26, 2026
+
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal Level |
+|------------|--------|--------|------|------------|-----------|--------------|
+| Ro Khanna | NOW (ServiceNow) | BUY | $15K-$50K | Jul 7 | ~Aug 12 | ❌ Below $25K minimum (range starts at $15K) |
+| Ro Khanna | ICE (Intercontinental Exchange) | BUY | $15K-$50K | Jul 7 | ~Aug 12 | ❌ Below $25K minimum (range starts at $15K) |
+| Ro Khanna | BLDR, INTU, CBRE, ARES, WDAY, QCOM, PTC, REGN, EME | BUY | $1K-$15K each | Jul 7 | ~Aug 12 | ❌ Below $25K threshold |
+| Pelosi, McCaul, Tuberville, Gottheimer, Mast | — | No qualifying trades | — | — | — | ❌ |
+
+**No qualifying politician signals.** Ro Khanna's Jul 7 buys disclosed ~Aug 12 are within the 45-day window but all below the $25K minimum threshold. Largest single buys (NOW, ICE) at $15K-$50K range — could be as low as $15K. SKIP.
+
+### Trade Ideas
+**No new positions viable today:**
+- Cash = $12,007 < $17,001 minimum needed for 15% position at $113K equity
+- NVDA binary event AMC tonight — no entries in semis sector
+- Jackson Hole Aug 28-30 — macro binary risk
+- Stock deployed at 61.4% (below 75-85% target but constrained by cash)
+
+**Watchlist for post-NVDA/post-Jackson Hole (next entry window: Mon Aug 31):**
+1. **NVDA stop-out scenario**: If NVDA stop fires tonight or Thursday, cash freed for redeployment next week
+2. **AVGO** (earnings Sept 3 AMC): If NVDA beats big → AVGO as AI ASIC beneficiary; current -1.36% below entry
+3. **MU**: AI memory supercycle continues. Post-Jackson Hole entry if $230+ and stable thesis
+4. **AAPL frac / GE frac**: Cleanup candidates — sell at next market-open clean opportunity
+
+### Risk Factors
+1. **NVDA earnings miss**: Data center rev misses 2nd consecutive quarter → sell-the-news → stop $205.128 at risk (4.2% buffer, $8.95 below current $214)
+2. **Jackson Hole hawkish surprise**: Warsh Aug 28 → multiple compression on growth/tech; all stops protect
+3. **Oil reversal**: WTI pullback (-2% today) → SLB near cost basis ($53.20 vs $53.673 entry); stop $49.122 = 7.7% buffer
+4. **AVGO below entry**: -1.36% unrealized; next catalyst is Sept 3 earnings; no thesis break but watching
+5. **Low cash**: $12,007 prevents any new entries; NVDA stop-out would free capital for redeployment
+
+### Decision
+**HOLD ALL** — no new entries (cash insufficient, NVDA binary tonight, Jackson Hole binary this week).
+**NVDA**: DO NOT move stop down. Let $205.128 GTC execute if breached. Watch for $229.84 tighten trigger post-earnings if beats.
+**SLB/AVGO**: Theses intact; stops protect floor. HOLD.
+**JPM**: +6.67% unrealized, financials momentum intact. HOLD.
+**AAPL frac / GE frac**: Remnants, no stops — sell at next convenient opportunity (market-open session).
