@@ -8794,3 +8794,29 @@ None. No cuts, no stop changes, no new entries (cash $12k < $17k minimum for 15%
 | AVGO | 46.939 | $363.246 | $358.30 | +0.44% | -$232.16 | $327.573 (10% trail, HWM $363.97) |
 
 **Notes:** Quiet down day (-0.29%) with no trades. NVDA closed at $214.08 ahead of earnings AMC tonight — the post-earnings gap is the key event for tomorrow (tighten trail to 7% if +15% from entry ~$229.84; partial 1/3 sell at +25% ~$249.83; if big drop below $205.128 stop fires). AVGO (-$232) and SLB (-$149) both below entry but well above -7% cut threshold; theses intact. JPM holding +$1,103 unrealized. Cash at 10.6% ($12k) is below minimum for a new 15% position (~$17k) — no new entries possible without a partial exit or NVDA proceeds. Jackson Hole Aug 28-30 (Warsh inaugural speech Aug 28 2 PM ET) remains macro wildcard. Trades this week: 2/3 used.
+
+## 2026-08-26 - Market-Open Session
+
+### STEP 0 — Reconciliation
+All 6 stock positions match broker exactly. No stops fired overnight. Clean.
+
+### Actions Taken
+**Frac cleanup sells** (pre-market planned: "sell at next convenient opportunity"):
+
+| Date | Ticker | Side | Qty | Fill Price | Proceeds | Realized P&L | Reason |
+|------|--------|------|-----|------------|----------|--------------|--------|
+| 2026-08-26 | AAPL | SELL | 0.877045 | $309.596 | $271.57 | -$2.47 | Frac remnant cleanup, no stop |
+| 2026-08-26 | GE | SELL | 0.981945 | $352.266 | $345.91 | +$3.27 | Frac remnant cleanup, no stop |
+
+### Open Positions (post-cleanup)
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.246 | $357.45 | -1.60% | $327.573 (10%, 7dc773a8) | $363.97 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $355.67 | +6.49% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.864 | $212.62 | +6.38% | $205.128 (10%, 30f07262) | $227.92 | HOLD — NVDA EARNINGS AMC TONIGHT |
+| SLB | 317.675 (312 stop) | $53.673 | $52.41 | -2.35% | $49.122 (10%, 550e0b73) | $54.58 | HOLD |
+
+- **Trades this week:** 2/7 (SLB + AVGO Aug 24) — frac cleanup sells not counted as new entries
+- **No new entries:** Cash ~$12.6k post-cleanup < $16,892 minimum (15% × $112,612 equity)
+- **NVDA binary event AMC tonight**: Trail at $205.128; watch $229.84 for tighten trigger post-earnings
+- **Jackson Hole Aug 28-30**: No new entries until Warsh speech outcome is clear
