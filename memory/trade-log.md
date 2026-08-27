@@ -8934,3 +8934,53 @@ None. No new entries (cash $11,080 < $17,265 minimum). No stop tightening trigge
 - Trades this week: 2/7 (SLB + AVGO Aug 24)
 - Next entry window: earliest Mon Aug 31 (post-Jackson-Hole clarity + cash freed)
 - NVDA partial sell at +25% ($249.83): sell 27 shares → ~$6,745 proceeds → enables new position
+
+
+## 2026-08-27 - Midday Scan
+
+**Portfolio:** ~$71,143 stock MV | **Cash:** ~$11,080 | **Stock Positions:** 4
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired. Clean.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|----------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.246 | $367.585 | +1.20% | +3.37% | $333.414 (10%, 7dc773a8) | $370.46 | HOLD |
+| JPM | 49.522 (49 stop) | $334.001 | $354.54 | +6.15% | -0.55% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.864 | $226.66 | +13.41% | +8.11% | $210.426 (7%, **3417fd30**) | $226.27 | **TIGHTENED** |
+| SLB | 317.675 (312 stop) | $53.673 | $55.725 | +3.83% | +3.97% | $50.2965 (10%, 550e0b73) | $55.885 | HOLD |
+
+### STEP 3 — Cuts
+None. All positions above -7% threshold.
+
+### STEP 4 — Stop Tightening
+**NVDA ACTION TAKEN:**
+- Broker HWM $230.47 confirmed +15% trigger ($229.84) was crossed intraday
+- Cancelled old 10% stop (30f07262) via direct Alpaca API (proxy cancel command has path-stripping bug)
+- Placed new 7% GTC trailing stop: order 3417fd30, 81 shares, stop $210.426, HWM $226.27
+- Stop moved UP: $207.42 → $210.43. Rules satisfied (no move down; not within 3% of price).
+- AVGO, JPM, SLB: all below +15% trigger, no action.
+
+### STEP 5 — Thesis Check
+- **NVDA**: +8.11% today post-earnings beat. Thesis INTACT and STRENGTHENED. Stop tightened per rules.
+- **AVGO**: +3.37% today — sympathy with NVDA AI beat; $60B debt raise thesis intact. INTACT.
+- **JPM**: -0.55% today, normal daily variation. Financials thesis INTACT.
+- **SLB**: +3.97% today despite Hormuz partial reopening. Oil prices stayed elevated ($87+ Brent). Thesis INTACT. Monitor if Brent falls below $80.
+
+### STEP 6 — Research
+- NVDA earnings: confirmed beat (Q2 FY27) — stock up 8.11%; stop tightening rule activated.
+- Jackson Hole (Aug 28 2 PM ET): Warsh speech tomorrow remains primary macro risk. No new entries until then.
+- No sharp intraday movers requiring further thesis review.
+
+### Actions Taken
+- NVDA: stop tightened 10% → 7% (order 30f07262 cancelled, 3417fd30 placed, stop $210.43)
+- Note: proxy cancel bug (DELETE /v2/orders/{id} strips ID); used direct paper-api.alpaca.markets as workaround.
+
