@@ -8984,3 +8984,17 @@ None. All positions above -7% threshold.
 - NVDA: stop tightened 10% → 7% (order 30f07262 cancelled, 3417fd30 placed, stop $210.43)
 - Note: proxy cancel bug (DELETE /v2/orders/{id} strips ID); used direct paper-api.alpaca.markets as workaround.
 
+
+---
+
+### Aug 27 - EOD Snapshot (Day 95, Thursday)
+**Portfolio:** $116,489 | **Cash:** $11,080 (9.5%) | **Day P&L:** +$3,056 (+2.69%) | **Phase P&L:** +$16,489 (+16.49%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AVGO | 46.939 | $363.25 | $370.60 | +$15.01 (+4.22%) | +$345 (+2.03%) | $334.48 (10% trail, HWM $371.64) |
+| JPM | 49.522 | $334.00 | $354.22 | -$2.28 (-0.64%) | +$1,001 (+6.05%) | $329.85 (10% trail, HWM $366.50) |
+| NVDA | 82.192 | $199.86 | $227.85 | +$18.19 (+8.68%) | +$2,300 (+14.00%) | $212.95 (7% trail, HWM $228.98) |
+| SLB | 317.675 | $53.67 | $54.34 | +$0.74 (+1.38%) | +$213 (+1.25%) | $50.30 (10% trail, HWM $55.89) |
+
+**Notes:** Strong day driven by NVDA +8.68% post-Q2 FY27 earnings beat — unrealized gain now +14.0%; stop already tightened to 7% trail at midday (HWM $228.98, stop $212.95); AVGO +4.22% on AI sympathy; SLB +1.38% despite Hormuz partial reopening (oil held $87+ Brent); JPM -0.64% normal variation. Cash at $11,080 (9.5%) — insufficient for any new position (min $17,001). NVDA watch levels: +15% tighten trigger at $229.84 (not hit EOD; HWM $228.98); +25% partial sell at $249.83 (sell 27 shares). Jackson Hole — Warsh inaugural speech Aug 28 2 PM ET is the primary macro risk. Trades today: 0. Trades this week: 2/3.
