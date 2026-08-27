@@ -8886,3 +8886,51 @@ None. No cuts, no stop tightening, no new entries (cash $12,625 < $17,001 minimu
 | SLB | 317.675 | $53.67 | $53.60 | +0.58% | -$22.20 (-0.13%) | $49.12 (10% trail, HWM $54.58) |
 
 **Notes:** Down day (-0.17%) driven primarily by NVDA -1.31% ($230 drag) and AVGO -0.36% ($61 drag), partially offset by SLB +0.58% (+$98). JPM flat (-0.09%). Frac cleanup sells (AAPL, GE) executed at market-open — negligible P&L impact already logged. NVDA earnings AMC tonight — ±6.12% implied move; stop $205.13 protects downside; tighten to 7% trail if post-earnings close above $229.84 (+15%); partial 1/3 sell at +25% ($249.83). Cash at 9.8% ($11,080) — below minimum for new position; no new entries possible until NVDA earnings outcome clear. Jackson Hole Aug 28 (Warsh speech) = macro wildcard. Trades this week: 2/3 used (SLB + AVGO Aug 24).
+
+---
+
+## 2026-08-27 - Market-Open Session
+
+### STEP 0 — Reconciliation
+All 4 stock positions match broker exactly. No stops fired overnight.
+
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD): off-limits per rules — ignored.
+
+### STEP 1b — Live Price Re-Verification (9:31 AM ET)
+| Ticker | Entry | Ask | P&L% | +15% Trigger | Stop (GTC) | Action |
+|--------|-------|-----|------|--------------|------------|--------|
+| NVDA | $199.864 | $223.83 | +12.0% | $229.84 | $205.128 (10%, 30f07262) | NOT triggered |
+| AVGO | $363.246 | $365.92 | +0.75% | $417.73 | $327.573 (10%, 7dc773a8) | HOLD |
+| JPM | $334.00 | $354.33 | +6.1% | $384.10 | $329.85 (10%, 1a5b3205) | HOLD |
+| SLB | $53.673 | ~$53.22 | -0.84% | $61.72 | $49.122 (10%, 550e0b73) | HOLD |
+
+### STEP 2 — Account
+- Equity: $115,102 | Cash: $11,080 (9.6%) | Long MV: $104,022
+- Min for new 15% position: $17,265 — INSUFFICIENT CASH
+- Stock positions: 4 | Trades this week: 2/7
+
+### STEP 3 — Stop Tightening
+- NVDA: +12.0% — tighten trigger $229.84 not reached ($223.83). No action.
+- JPM, AVGO, SLB: below +15% threshold. No action.
+
+### Actions Taken
+None. No new entries (cash $11,080 < $17,265 minimum). No stop tightening triggered. All 4 GTC trailing stops confirmed active.
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.246 | $365.92 | +0.75% | $327.573 (10%, 7dc773a8) | $363.97 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $354.33 | +6.1% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.864 | $223.83 | +12.0% | $205.128 (10%, 30f07262) | $227.92 | HOLD — watch $229.84 tighten trigger |
+| SLB | 317.675 (312 stop) | $53.673 | $53.22 | -0.84% | $49.122 (10%, 550e0b73) | $54.58 | HOLD — Hormuz monitor |
+
+- Trades this week: 2/7 (SLB + AVGO Aug 24)
+- Next entry window: earliest Mon Aug 31 (post-Jackson-Hole clarity + cash freed)
+- NVDA partial sell at +25% ($249.83): sell 27 shares → ~$6,745 proceeds → enables new position
