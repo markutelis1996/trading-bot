@@ -8998,3 +8998,48 @@ None. All positions above -7% threshold.
 | SLB | 317.675 | $53.67 | $54.34 | +$0.74 (+1.38%) | +$213 (+1.25%) | $50.30 (10% trail, HWM $55.89) |
 
 **Notes:** Strong day driven by NVDA +8.68% post-Q2 FY27 earnings beat — unrealized gain now +14.0%; stop already tightened to 7% trail at midday (HWM $228.98, stop $212.95); AVGO +4.22% on AI sympathy; SLB +1.38% despite Hormuz partial reopening (oil held $87+ Brent); JPM -0.64% normal variation. Cash at $11,080 (9.5%) — insufficient for any new position (min $17,001). NVDA watch levels: +15% tighten trigger at $229.84 (not hit EOD; HWM $228.98); +25% partial sell at $249.83 (sell 27 shares). Jackson Hole — Warsh inaugural speech Aug 28 2 PM ET is the primary macro risk. Trades today: 0. Trades this week: 2/3.
+
+## 2026-08-28 - Market-Open Session
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired overnight. Clean. Crypto filtered out — untouchable.
+
+### Account
+- Equity: $116,571.77 | Cash: $11,079.78 (9.5%)
+- Min new position (15%): $17,486 — INSUFFICIENT CASH
+- Trades this week: 2/7 (SLB + AVGO Aug 24)
+
+### STEP 1b — Live Price Re-Verification (9:31 AM ET)
+| Ticker | Entry | Live | P&L% | +Trigger | Stop (GTC) | HWM | Action |
+|--------|-------|------|------|----------|------------|-----|--------|
+| NVDA | $199.864 | $226.25 | +13.2% | $229.84 (+15%) | $212.95 (7%, 3417fd30) | $228.98 | NOT triggered |
+| AVGO | $363.246 | $374.18 | +3.0% | $417.73 (+15%) | $337.30 (10%, 7dc773a8) | $374.78 | HOLD |
+| JPM | $334.00 | $355.73 | +6.5% | $384.10 (+15%) | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| SLB | $53.673 | $55.325 | +3.1% | $61.72 (+15%) | $50.30 (10%, 550e0b73) | $55.885 | HOLD |
+
+### STEP 3 — Hard-Rule Checks
+- No positions below -7% cut threshold
+- No tighten trigger reached (NVDA +13.2% vs $229.84 trigger)
+- Cash insufficient for new entry ($11,080 < $17,486)
+- Jackson Hole — Warsh keynote ~10 AM ET: binary macro event
+
+### Actions Taken
+None. All 4 GTC stops confirmed active.
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.246 | $374.18 | +3.0% | $337.30 (10%, 7dc773a8) | $374.78 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $355.73 | +6.5% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.864 | $226.25 | +13.2% | $212.95 (7%, 3417fd30) | $228.98 | HOLD — watch $229.84 tighten |
+| SLB | 317.675 (312 stop) | $53.673 | $55.325 | +3.1% | $50.30 (10%, 550e0b73) | $55.885 | HOLD |
+
+- Trades this week: 2/7 (no new entries today)
+- Next entry path: NVDA +25% partial sell at $249.83 → ~$6,745 proceeds (still insufficient alone)
