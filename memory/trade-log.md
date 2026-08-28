@@ -9089,3 +9089,17 @@ None. All positions above -7% cut threshold.
 
 ### Actions Taken
 None.
+
+---
+
+### Aug 28 - EOD Snapshot (Day 96, Friday)
+**Portfolio:** $115,416 | **Cash:** $9,707 (8.4%) | **Day P&L:** -$1,437 (-1.23%) | **Phase P&L:** +$15,416 (+15.42%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AVGO | 46.939 | $363.25 | $369.00 | -$2.54 (-0.68%) | +$270 (+1.58%) | $338.93 (10% trail, HWM $376.59) |
+| JPM | 49.522 | $334.00 | $357.62 | +$3.40 (+0.96%) | +$1,170 (+7.07%) | $329.85 (10% trail, HWM $366.50) |
+| NVDA | 82.192 | $199.86 | $217.65 | -$10.33 (-4.53%) | +$1,461 (+8.90%) | $213.21 (7% trail, HWM $229.26) |
+| SLB | 317.675 | $53.67 | $57.30 | +$2.29 (+4.16%) | +$1,153 (+6.76%) | $51.68 (10% trail, HWM $57.42) |
+
+**Notes:** Mixed close: SLB +4.16% led gainers as Brent held ~$88 despite Hormuz partial open; JPM +0.96% steady. NVDA -4.53% continuation of post-earnings giveback (was +8.68% yesterday); still +8.90% unrealized with 7% stop at $213.21 (2.0% below $217.65); tighten trigger ($229.84) not reached. AVGO -0.68% minor dip ahead of Sep 3 earnings — watch for vol. Cash $9,707 (8.4%) — insufficient for any new position. Warsh Jackson Hole neutral speech resolved primary macro risk. Trades today: 0; 2/3 weekly cap used (SLB + AVGO Aug 24). Crypto DCA sleeve (BTC $16,030 / ETH $8,544 / SOL $5,699 / LINK $4,326) — read-only.
