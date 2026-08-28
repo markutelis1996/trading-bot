@@ -10225,3 +10225,9 @@ No new entries possible (cash $11,080 < $17,472 min). Quotes for reference only.
 - **Watchlist (when cash available)**: BE (Pelosi $3M-12M primary signal + AI power thesis), INTC (Pelosi secondary, needs price investigation).
 - **Capital path**: NVDA +25% partial sell at $249.83 → sell 27 shares → ~$6,745 proceeds (still insufficient alone; need two events or stop-out to free full position size).
 - No new entries until post-Jackson-Hole (Aug 31 earliest) and cash freed.
+
+### Afternoon Addendum (Midday Scan)
+- **Warsh Jackson Hole (10 AM ET)**: NEUTRAL governance speech. Avoided forward guidance and rate reaction function. Quote: "We should not indulge a regime in which market participants are looking primarily to the Fed for their next trade." No rate-hike signal. Market: Nasdaq +1.57%, Dow +0.20%. Hawkish risk DID NOT materialize.
+- **NVDA -3.76% intraday**: Post-earnings giveback after +8.68% yesterday. Not thesis-breaking. Stop at $213.21 (7% trail, HWM $229.26) holds. HOLD.
+- **AVGO/SLB**: New intraday highs (HWM $376.59 and $56.515 respectively); trailing stops ratcheted up automatically. Both well below stop-out levels.
+- **Macro clarity**: Warsh neutral → no rate change signal. Sep 16 FOMC binary event remains; no action until then. Next entry window: Mon Aug 31 if cash freed or NVDA partial sell triggers.

@@ -9043,3 +9043,49 @@ None. All 4 GTC stops confirmed active.
 
 - Trades this week: 2/7 (no new entries today)
 - Next entry path: NVDA +25% partial sell at $249.83 → ~$6,745 proceeds (still insufficient alone)
+
+---
+
+## 2026-08-28 - Midday Scan
+
+**Portfolio:** ~$70,821 stock MV | **Cash:** ~$11,080 | **Stock Positions:** 4
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired. Clean. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) discarded — off-limits.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|----------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.246 | $366.09 | +0.78% | -1.47% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.001 | $356.98 | +6.88% | +0.78% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.864 | $219.40 | +9.78% | -3.76% | $213.21 (7%, 3417fd30) | $229.26 | HOLD — post-earnings giveback |
+| SLB | 317.675 (312 stop) | $53.673 | $56.43 | +5.14% | +2.58% | $50.86 (10%, 550e0b73) | $56.515 | HOLD |
+
+### STEP 3 — Cuts
+None. All positions above -7% cut threshold.
+
+### STEP 4 — Stop Tightening
+- NVDA: +9.78% — below +15% trigger ($229.84). HWM updated to $229.26 (vs $228.98 EOD yesterday). No manual action.
+- AVGO: +0.78% — below +15% trigger. HWM updated to $376.59 (new intraday high). No action.
+- SLB: +5.14% — below +15% trigger. HWM updated to $56.515 (new intraday high). No action.
+- JPM: +6.88% — below +15% trigger. HWM unchanged $366.50. No action.
+
+### STEP 5 — Thesis Check
+- **NVDA**: -3.76% today — normal post-earnings giveback after +8.68% yesterday. Warsh neutral speech removes hawkish risk. Stop at $213.21 holds (2.8% below current). INTACT.
+- **AVGO**: -1.47% today — tech sympathy dip. AVGO earnings Sep 3 approaching. Thesis INTACT.
+- **JPM**: +0.78% — financials steady. Thesis INTACT.
+- **SLB**: +2.58% — Brent $88 elevated despite Hormuz partial open. Thesis INTACT.
+
+### STEP 6 — Research Addendum
+- **Warsh Jackson Hole**: Neutral governance speech — avoided rate guidance and reaction function. Quote: "We should not indulge a regime in which market participants are looking primarily to the Fed for their next trade." Market reaction: Nasdaq +1.57% (hawkish rate-hike risk did NOT materialize). Primary morning risk resolved benign.
+- NVDA pullback: post-earnings giveback, not thesis break. AI demand intact.
+
+### Actions Taken
+None.
