@@ -10116,4 +10116,112 @@ Note: AH quotes have wide spreads; use opening prints for precision. All GTC sto
 - AVGO: HOLD into Sept 3 earnings; AI ASIC thesis intact and strengthened.
 - JPM: HOLD; financials momentum intact.
 - SLB: HOLD; stop handles Hormuz risk. Monitor oil at open.
+
+---
+
+## 2026-08-28 - Pre-market Research
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Status |
+|--------|---------|------------|------|--------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired overnight. Clean. Crypto (BTC/ETH/SOL/LINK) filtered out — untouchable.
+
+### Account
+- Equity: $116,480.49
+- Cash: $11,079.78 (9.5%)
+- Long MV: $105,400.71 (stocks + crypto)
+- Stock MV: ~$71,212 (AVGO $17,504 + JPM $17,542 + NVDA $18,631 + SLB $17,536)
+- Crypto MV: ~$34,184 (UNTOUCHABLE)
+- Stock deployed: ~61.1% | Total deployed: ~90.5%
+- Phase P&L: +$16,480 (+16.48%)
+- Daytrade count: 0/3
+- Trades this week: 2/7 (SLB + AVGO Aug 24)
+- Cash vs min new position: $11,080 < $17,472 (15% × $116,480) → **NO NEW ENTRIES possible**
+
+### Position Status (live AH quotes from Alpaca, Aug 27 20:00 ET)
+| Ticker | Shares | Entry | AH Bid | P&L% | Stop (GTC) | HWM | +Next Trigger | Status |
+|--------|--------|-------|--------|------|------------|-----|---------------|--------|
+| AVGO | 46.939 (46 stop) | $363.246 | $350.80* | -3.4% | $334.476 (10%, 7dc773a8) | $371.64 | +15% = $417.73 | HOLD — AH dip likely MRVL sympathy; earnings Sept 3 |
+| JPM | 49.522 (49 stop) | $334.00 | $335.92 | +0.6% | $329.85 (10%, 1a5b3205) | $366.50 | +15% = $384.10 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.864 | $227.04 | +13.6% | $212.951 (7%, 3417fd30) | $228.98 | +20% = $239.84 → tighten to 5% | HOLD — watch $239.84 |
+| SLB | 317.675 (312 stop) | $53.673 | $52.57* | +2.5%† | $50.2965 (10%, 550e0b73) | $55.885 | +15% = $61.72 | HOLD — AH bid thin/unreliable |
+
+*AH spreads are wide on thin markets — use regular session open price for precision. †P&L% based on $55.01 regular close.
+
+### Market Context (pre-market Aug 28)
+- **WTI**: ~$83/bbl | **Brent**: ~$88/bbl (+1.87% Aug 27; Hormuz partially open, oil elevated but off highs)
+- **ES futures**: $7,720.50 (+0.40%) | **NQ futures**: $29,504.50 (+0.73%) — risk-on tone
+- **VIX**: 15.21 (Aug 26 close) — near 2026 lows; complacency signal per BTIG
+- **Jackson Hole (CRITICAL TODAY)**: Warsh keynote ~10:00 AM ET. Pre-speech positioning: September hike probability ~30-39%; 3 July FOMC dissenters favored immediate hike. Warsh said remarks focus on "long-term structural questions, not near-term guidance." Market pricing benign speech (ES +0.40%). If hawkish → NVDA/AVGO multiple compression. If neutral → relief rally could push NVDA to $239.84 tighten trigger.
+- **Economic calendar**: No major data releases today. Warsh is the only market-moving event.
+- **Earnings today**: No S&P 500 companies reporting.
+- **MRVL results (AMC Aug 27)**: Revenue $2.74B vs $2.71B est (+1% beat); AI data center +46% YoY; Q3 guidance showed flat data center sequential (stock dipped AH). Google $12.2B custom chip deal confirmed. **AVGO read-through: AI demand remains intact, but cautious Q3 guidance = modest AH headwind for AVGO.**
+
+### Sector Momentum
+- AI/Semis: NVDA +8.68% Aug 27 (earnings beat); MRVL beat confirms AI infra demand. Sector positive.
+- Financials: JPM steady; yield curve backdrop (30-yr at 5.20%) creates NIM opportunity.
+- Energy: Brent $87-89 still elevated; SLB +44.9% YTD. Hormuz partially open — thesis intact but monitoring.
+
+### Politician Signals (Step 3b — 45-day window: Jul 14 – Aug 28, 2026)
+**NEW DISCLOSURES — published Aug 27, 2026:**
+
+| Politician | Ticker | Action | Size | Trade Date | Lag | Signal Level |
+|------------|--------|--------|------|------------|-----|--------------|
+| **Nancy Pelosi** | **BE** (Bloom Energy) | BUY ×2 | $1M–5M + $1M–5M | Jul 24 | 28 days | **PRIMARY — $2M-10M in single day; massive size** |
+| **Nancy Pelosi** | **BE** (Bloom Energy) | BUY ×2 | $500K–1M + $500K–1M | Jul 28 | 24 days | **PRIMARY — $1M-2M additional; total $3M-12M in BE** |
+| **Nancy Pelosi** | **INTC** (Intel) | BUY ×2 | $250K–500K + $500K–1M | Jul 24 | 28 days | **SECONDARY — $750K-1.5M; below BE signal strength** |
+
+**Other whitelist members:**
+- McCaul: Last qualifying trades Jun 13 (bond funds, private equity — not actionable stocks)
+- Khanna: PANW Jul 16 $1K-15K (below $25K threshold); TD Jul 16 $100K-250K (Canadian bank, not our sectors)
+- Gottheimer: PANW/CRWD Jul 15-16 $1K-15K (below threshold)
+- Tuberville, Mast: No qualifying individual stock buys found
+
+**BE Analysis (primary signal):**
+- Pelosi total: $3M-12M in Bloom Energy across Jul 24 + Jul 28
+- Q2 2026: Revenue $1.065B (+165.5% YoY, first >$1B quarter), non-GAAP EPS $0.78 vs $0.41 est (+90% beat)
+- FY2026 guidance raised: $3.9B-$4.2B revenue; AI data center power thesis (MiTAC AI partnership; Brookfield framework)
+- ⚠️ Caveat: Securities fraud class action lawsuit (lead plaintiff deadline Sep 28); stock -38% from 52-week high $351.28
+- AH bid: $207.02; regular close $217.83; 52-week low $48.66. YTD +150.7%.
+- No additional catalyst beyond politician buy + fundamental momentum → requires sector momentum confirmation (AI infra power play) before primary classification
+- **Verdict: WATCHLIST for when cash becomes available; would need NVDA +25% partial sell ($249.83) to free ~$6,745 (still insufficient alone)**
+
+**INTC Analysis (secondary signal):**
+- AH bid: $87.08. Down significantly from Jun 30 research level (~$129). Possible company-specific headwind.
+- Pelosi May 29 buy ($1M-5M, disclosed Jun 24) + new Jul 24 buys ($750K-1.5M) = continuing accumulation
+- No fresh catalyst found today beyond accumulation pattern
+- **Verdict: WATCHLIST ONLY — price deterioration requires investigation before any entry**
+
+### STEP 3d — Live Price Verification (trade ideas)
+No new entries possible (cash $11,080 < $17,472 min). Quotes for reference only.
+| Ticker | AH Bid | Stop (10%) | Target (+20%) | R:R | Notes |
+|--------|--------|------------|---------------|-----|-------|
+| BE | $207.02 | $186.30 | $248.40 | 2:1 | Cannot enter; watchlist |
+| INTC | $87.08 | $78.37 | $104.50 | 2:1 | Cannot enter; need fresh catalyst check |
+
+### Stop Tightening Check
+- **NVDA**: current AH ~$227 vs +20% trigger $239.84. **NOT reached.** At open: watch $239.84 — if crossed, tighten trail from 7% → 5%.
+- **AVGO, JPM, SLB**: all below +15% trigger. No action.
+- **AVGO AH dip**: AH bid $350.80 (vs regular close $372.9). If opens ~$350: still -3.7% from entry ($363.25), above -7% cut threshold ($337.82). Stop at $334.48 handles controlled exit. DO NOT manually cut.
+
+### Risk Factors
+1. **Warsh hawkish surprise today (10 AM ET)**: If signals September rate hike → tech/growth selloff. NVDA (at +13.6%), AVGO most exposed.
+2. **AVGO AH weakness**: MRVL Q3 guidance (flat sequential DC revenue) creating sympathy pressure. AVGO earnings Sept 3 = binary event approaching. Stop $334.48 = 10.3% below AH bid.
+3. **SLB Hormuz**: Brent $88 still elevated — thesis intact. If Brent falls below $80, revisit.
+4. **Cash constraint**: Cannot act on any new setup (including Pelosi BE/INTC signals) until NVDA hits +25% ($249.83) partial sell trigger.
+5. **VIX at 2026 lows**: "Don't get too comfortable" — mid-August to mid-October historically choppy; Sep 16 FOMC binary.
+
+### Decision
+**HOLD ALL** — no new entries possible (insufficient cash). All stops active.
+- **NVDA**: Do NOT touch stop. Watch $239.84 at market open for 5% trail tighten.
+- **AVGO**: HOLD into Sept 3 earnings. AH dip is noise; stop protects floor. Thesis reinforced by MRVL AI beat.
+- **JPM**: HOLD. No action.
+- **SLB**: HOLD. Brent $88 elevated, stop at $50.30 handles tail risk.
+- **Watchlist (when cash available)**: BE (Pelosi $3M-12M primary signal + AI power thesis), INTC (Pelosi secondary, needs price investigation).
+- **Capital path**: NVDA +25% partial sell at $249.83 → sell 27 shares → ~$6,745 proceeds (still insufficient alone; need two events or stop-out to free full position size).
 - No new entries until post-Jackson-Hole (Aug 31 earliest) and cash freed.
