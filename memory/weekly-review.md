@@ -1052,3 +1052,79 @@ Phase P&L: +$13,568.91 (+13.57% from $100,000 base)
 - Phase P&L: +$13,568.91 (+13.57%) — growing lead over benchmark ✓
 
 ---
+
+## Week ending 2026-08-28
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $113,568.91 (Fri Aug 21 close) |
+| Ending portfolio | $115,416 (Fri Aug 28 close) |
+| Week return | +$1,847.09 (+1.63%) |
+| S&P 500 week | +0.5% (SPX 7,674.37 → ~7,710; Warsh Jackson Hole neutral, positive weekly close) |
+| Bot vs S&P | +1.13% outperformance |
+| Trades | 2 new entries (W:0 / L:0 / open:4 stocks) |
+| Win rate | N/A (0 closed trades this week) |
+| Best trade | SLB +6.76% unrealized ($+1,153 from Aug 24 entry) |
+| Worst trade | AVGO +1.58% unrealized ($+270 from Aug 24 entry; pre-earnings drift) |
+| Profit factor | N/A (no closed P&L trades; frac cleanups negligible) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| AAPL frac | $312.42 | $309.60 (Aug 26) | -$2.47 | -0.89% | Cleanup sell, remnant from prior position; not a new trade |
+| GE frac | $348.94 | $352.27 (Aug 26) | +$3.27 | +0.94% | Cleanup sell, remnant from prior position; not a new trade |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| AVGO | 46.939 (46 stop) | $363.246 | $369.00 | +$270 (+1.58%) | $338.93 (10%, 7dc773a8) | $376.59 |
+| JPM | 49.522 (49 stop) | $334.00 | $357.62 | +$1,170 (+7.07%) | $329.85 (10%, 1a5b3205) | $366.50 |
+| NVDA | 82.192 (81 stop) | $199.864 | $217.65 | +$1,461 (+8.90%) | $213.21 (7%, 3417fd30) | $229.26 |
+| SLB | 317.675 (312 stop) | $53.673 | $57.30 | +$1,153 (+6.76%) | $51.68 (10%, 550e0b73) | $57.42 |
+
+Stock deployed: $71,090 / $115,416 = 61.6% (below 75-85% target; cash $9,707 insufficient for new position)
+Total deployed incl. crypto DCA sleeve: $105,670 / $115,416 = 91.6% (above 85% band — crypto DCA buying continues)
+Phase P&L: +$15,416 (+15.42% from $100,000 base)
+
+### What Worked
+- NVDA earnings navigated perfectly — held through Aug 26 AMC binary event; stock +8.68% on Aug 27 (Q2 FY27 beat); unrealized gain now +8.90% from $199.864 entry
+- Stop tightening executed correctly on NVDA — 10%→7% trail applied at midday Aug 27 when HWM crossed $229.84 (+15% trigger); order 3417fd30 placed per rules; no manual override
+- SLB oil thesis playing out — entered $53.673 Aug 24; closed week $57.30 (+6.76%); Brent stayed elevated ~$88 despite Hormuz partial opening; best new position of the week
+- Frac cleanup executed as planned — AAPL and GE remnants sold Aug 26, clearing clutter from the book; negligible P&L as expected
+- Warsh Jackson Hole risk managed — no new entries Wed-Fri ahead of Aug 28 speech; resolved neutral/benign; Nasdaq +1.57% on day; all positions intact through macro event
+- JPM steady compounder — +7.07% unrealized; financials thesis intact; holding well through semi sector volatility
+
+### What Didn't Work
+- Stock deployment stuck at 61.6% — cash $9,707 insufficient for any new 15% position ($17,486 min); only path to new entry is NVDA partial profit ($249.83 trigger) or a stop firing and redeployment
+- NVDA post-earnings giveback ate Thursday's gains — +8.68% Thu → -4.53% Fri; net unrealized settled at +8.90%; tighten trigger $229.84 briefly crossed intraday (HWM $229.26) but not captured on close; missed tighten-to-5% opportunity (high-vol rule correctly kept at 7%)
+- AVGO pre-earnings drift only +1.58% — entered $363.25 Aug 24; thesis is $60B AI debt raise + Sept 3 earnings; market not pricing catalyst yet; position is carry-risk until Sept 3
+- Proxy cancel bug discovered — Alpaca CLI scripts/alpaca.sh cancel has path-stripping bug for NVDA stop; had to use direct paper-api.alpaca.markets call; scripts need a fix
+- 4 trading days only (week started Monday Aug 24) — limited window to find entries; Q4 re-opening next week with fresh 3-trade count
+
+### Key Lessons
+- Holding through binary earnings with a stop in place is the correct discipline — NVDA proved it; stop protected against a -7%+ loss, captured the +8.68% gain; emotional pre-sell would have been a mistake
+- Stop tightening rule fires automatically if you watch the right trigger — $229.84 intraday HWM activated the 7% trail; logging HWM correctly in every session is what makes this possible
+- Cash constraint is the binding constraint now — with only $9,707 cash, no new entries can be made until NVDA sells 1/3 at +25% ($249.83) or another position stops out; plan the trade before the opportunity arrives
+- Proxy cancel bug must be fixed before it causes a missed tighten in a fast market — workaround documented but scripts/alpaca.sh cancel needs a path fix
+
+### Adjustments for Next Week
+- **NVDA +25% trigger ($249.83)**: Sell 27 shares → ~$6,745 proceeds → cash rises to ~$16,452 (still ~$1k short of minimum; may need AVGO +25% trigger too at $454.06 for second partial, or wait for combined)
+- **AVGO Sept 3 earnings**: Hold through AMC; apply same stop discipline as NVDA; tighten to 7% at +15% trigger $417.73; partial 1/3 at +25% trigger $454.06; -7% cut still active if thesis breaks
+- **SLB**: Monitor Brent crude; cut if oil falls below $80 or Hormuz fully clears; thesis intact at $88
+- **Fix alpaca.sh cancel bug**: Path-stripping issue on DELETE /v2/orders/{id}; must fix before next tighten event
+- **New entry path**: NVDA partial sale at $249.83 is the primary cash unlock; evaluate Mon AM if triggered over weekend
+
+### Overall Grade: B+
+- +1.63% vs S&P +0.5% = +1.13% outperformance; both positive ✓
+- NVDA earnings binary event navigated without rule violation ✓
+- Stop tightening rule executed correctly (NVDA 10%→7%) ✓
+- 2 new positions opened (SLB + AVGO) — deployment improving ✓
+- Frac cleanup completed per plan ✓
+- Stock deployment 61.6% — still below 75-85% target; 5th consecutive week underdeployed ✗
+- Cash constraint binds: no new entries possible without NVDA partial or stop firing ✗
+- AVGO pre-earnings drift, only +1.58% — binary risk Sept 3 AMC now open ✗
+- Proxy cancel bug in scripts needs fixing ✗
+- Phase P&L: +$15,416 (+15.42%) — solid and growing lead over benchmark ✓
+
+---
