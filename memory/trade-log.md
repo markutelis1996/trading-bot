@@ -9102,4 +9102,53 @@ None.
 | NVDA | 82.192 | $199.86 | $217.65 | -$10.33 (-4.53%) | +$1,461 (+8.90%) | $213.21 (7% trail, HWM $229.26) |
 | SLB | 317.675 | $53.67 | $57.30 | +$2.29 (+4.16%) | +$1,153 (+6.76%) | $51.68 (10% trail, HWM $57.42) |
 
+---
+
+## 2026-08-31 - Market-Open Session
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired over the weekend. Clean. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) discarded — off-limits.
+
+### Account
+- Equity: $115,993.95 | Cash: $9,706.76 (8.4%)
+- Min new position (15%): $17,399 — INSUFFICIENT CASH
+- Trades this week: 0/7
+
+### STEP 1b — Live Price Re-Verification (9:40 AM ET)
+| Ticker | Entry | Live | P&L% | +Trigger | Stop (GTC) | HWM | Action |
+|--------|-------|------|------|----------|------------|-----|--------|
+| AVGO | $363.25 | $368.14 | +1.35% | $417.73 (+15%) | $338.93 (10%, 7dc773a8) | $376.59 | HOLD — binary Wed Sep 2 AMC |
+| JPM | $334.00 | $355.68 | +6.49% | $384.10 (+15%) | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | $199.864 | $217.48 | +8.81% | $229.84 (+15%) | $213.21 (7%, 3417fd30) | $229.26 | HOLD ⚠️ 1.96% stop cushion |
+| SLB | $53.673 | $59.56 | +10.94% | $61.72 (+15%) | ~$53.60 (10% auto-trail, 550e0b73) | $59.56 NEW HWM | HOLD |
+
+SLB note: $59.56 > prior HWM $57.88 → stop auto-trails to ~$53.60. No manual action needed.
+
+### STEP 3 — Hard-Rule Checks
+- Cash $9,707 < min $17,399 → NO NEW ENTRIES
+- No positions below -7% cut threshold
+- No tighten trigger reached (NVDA +8.81% vs $229.84 trigger; SLB +10.94% vs $61.72 trigger)
+- No primary catalyst today (no BMO earnings; Pelosi BE/INTC — secondary only, cash insufficient)
+
+### Actions Taken
+None. All 4 GTC stops confirmed active.
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $368.14 | +1.35% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD — binary Wed Sep 2 |
+| JPM | 49.522 (49 stop) | $334.00 | $355.68 | +6.49% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.864 | $217.48 | +8.81% | $213.21 (7%, 3417fd30) | $229.26 | HOLD — ⚠️ thin 1.96% stop cushion |
+| SLB | 317.675 (312 stop) | $53.673 | $59.56 | +10.94% | ~$53.60 (10% auto-trail, 550e0b73) | $59.56 NEW HWM | HOLD |
+
+- Trades this week: 0/7 (no new entries today)
+- Capital path: NVDA +25% partial sell at $249.83 → ~$6,745 proceeds (insufficient alone); or stop-out frees capital
+
 **Notes:** Mixed close: SLB +4.16% led gainers as Brent held ~$88 despite Hormuz partial open; JPM +0.96% steady. NVDA -4.53% continuation of post-earnings giveback (was +8.68% yesterday); still +8.90% unrealized with 7% stop at $213.21 (2.0% below $217.65); tighten trigger ($229.84) not reached. AVGO -0.68% minor dip ahead of Sep 3 earnings — watch for vol. Cash $9,707 (8.4%) — insufficient for any new position. Warsh Jackson Hole neutral speech resolved primary macro risk. Trades today: 0; 2/3 weekly cap used (SLB + AVGO Aug 24). Crypto DCA sleeve (BTC $16,030 / ETH $8,544 / SOL $5,699 / LINK $4,326) — read-only.
