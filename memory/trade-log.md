@@ -9092,6 +9092,20 @@ None.
 
 ---
 
+### Aug 31 - EOD Snapshot (Day 97, Monday)
+**Portfolio:** $117,005 | **Cash:** $9,707 (8.3%) | **Day P&L:** +$1,443 (+1.25%) | **Phase P&L:** +$17,005 (+17.00%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AVGO | 46.939 | $363.25 | $370.25 | +$1.46 (+0.40%) | +$329 (+1.93%) | $338.93 (10% trail, HWM $376.59) |
+| JPM | 49.522 | $334.00 | $356.02 | -$1.60 (-0.45%) | +$1,090 (+6.59%) | $329.85 (10% trail, HWM $366.50) |
+| NVDA | 82.192 | $199.86 | $220.73 | +$3.18 (+1.46%) | +$1,715 (+10.44%) | $213.21 (7% trail, HWM $229.26) |
+| SLB | 317.675 | $53.67 | $60.10 | +$2.77 (+4.83%) | +$2,043 (+11.98%) | $54.41 (10% trail, HWM $60.46) |
+
+**Notes:** Solid Monday — portfolio +$1,443 (+1.25%) led by SLB's continued energy surge (+4.83%) and NVDA's post-earnings recovery (+1.46%). All four positions held; all GTC trailing stops intact and active. No trades today; 0/3 weekly cap used (new week). Phase P&L advances to +$17,005 (+17.00%). Cash tight at $9,707 (8.3%) — below minimum position size (~$17,550); no new entries possible without a stop-out freeing capital first. Reconciliation clean (all 4 broker qtys match log). Key risk: AVGO earnings Sep 3 AMC — binary event; stop at $338.93 provides floor. NVDA 7% stop at $213.21 sits 3.4% below current $220.73 — thin cushion; accept stop-out if triggered.
+
+---
+
 ### Aug 28 - EOD Snapshot (Day 96, Friday)
 **Portfolio:** $115,416 | **Cash:** $9,707 (8.4%) | **Day P&L:** -$1,437 (-1.23%) | **Phase P&L:** +$15,416 (+15.42%)**
 
