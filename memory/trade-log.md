@@ -9152,3 +9152,45 @@ None. All 4 GTC stops confirmed active.
 - Capital path: NVDA +25% partial sell at $249.83 → ~$6,745 proceeds (insufficient alone); or stop-out frees capital
 
 **Notes:** Mixed close: SLB +4.16% led gainers as Brent held ~$88 despite Hormuz partial open; JPM +0.96% steady. NVDA -4.53% continuation of post-earnings giveback (was +8.68% yesterday); still +8.90% unrealized with 7% stop at $213.21 (2.0% below $217.65); tighten trigger ($229.84) not reached. AVGO -0.68% minor dip ahead of Sep 3 earnings — watch for vol. Cash $9,707 (8.4%) — insufficient for any new position. Warsh Jackson Hole neutral speech resolved primary macro risk. Trades today: 0; 2/3 weekly cap used (SLB + AVGO Aug 24). Crypto DCA sleeve (BTC $16,030 / ETH $8,544 / SOL $5,699 / LINK $4,326) — read-only.
+
+---
+
+## 2026-08-31 - Midday Scan
+
+**Portfolio:** ~$71,690 stock MV | **Cash:** ~$9,707 | **Stock Positions:** 4
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired. Clean. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) discarded — off-limits.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|----------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.246 | $369.38 | +1.69% | +0.16% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD — binary Sep 2 AMC |
+| JPM | 49.522 (49 stop) | $334.001 | $355.92 | +6.56% | -0.48% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.864 | $219.855 | +10.00% | +1.06% | $213.21 (7%, 3417fd30) | $229.26 | HOLD ⚠️ 3.0% stop cushion |
+| SLB | 317.675 (312 stop) | $53.673 | $58.725 | +9.42% | +2.43% | $54.414 (10%, 550e0b73) | $60.46 NEW HWM | HOLD |
+
+### STEP 3 — Cuts
+None. All positions above -7% cut threshold.
+
+### STEP 4 — Stop Tightening
+- AVGO: +1.69% — below +15% trigger ($417.73). No action.
+- JPM: +6.56% — below +15% trigger ($384.10). No action.
+- NVDA: +10.00% — below +15% trigger ($229.84). Already on 7% trail. No action.
+- SLB: +9.42% — broker HWM auto-updated to $60.46 (new intraday high from $57.88 open HWM); stop auto-trailed to $54.41. Below +15% trigger ($61.72). No manual action.
+
+### STEP 5 — Thesis Check
+- **AVGO**: +0.16% intraday, holding steady. Thesis (AI ASIC + VMware cost synergies) INTACT. Binary earnings Sep 2 AMC approaching — stop $338.93 provides floor.
+- **JPM**: -0.48% intraday, normal variation. Financials thesis INTACT.
+- **NVDA**: +1.06% intraday recovery. AI demand unchanged; Vera Rubin rollout on track. ⚠️ Stop $213.21 only 3.0% below current — accept stop-out if triggered. INTACT.
+- **SLB**: +2.43% intraday; HWM extended to $60.46. Brent ~$88 elevated; Fortune article confirms AI data centers + post-Hormuz oil boom thesis. INTACT.
+
+### Actions Taken
+None.
