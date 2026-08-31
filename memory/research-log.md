@@ -10231,3 +10231,108 @@ No new entries possible (cash $11,080 < $17,472 min). Quotes for reference only.
 - **NVDA -3.76% intraday**: Post-earnings giveback after +8.68% yesterday. Not thesis-breaking. Stop at $213.21 (7% trail, HWM $229.26) holds. HOLD.
 - **AVGO/SLB**: New intraday highs (HWM $376.59 and $56.515 respectively); trailing stops ratcheted up automatically. Both well below stop-out levels.
 - **Macro clarity**: Warsh neutral → no rate change signal. Sep 16 FOMC binary event remains; no action until then. Next entry window: Mon Aug 31 if cash freed or NVDA partial sell triggers.
+
+## 2026-08-31 - Pre-market Research
+
+### STEP 0 — Broker Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+Clean — no overnight stop-outs. All 4 GTC trailing stops confirmed active (AVGO 7dc773a8, JPM 1a5b3205, NVDA 3417fd30, SLB 550e0b73). Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) discarded — off-limits.
+
+### Account Snapshot
+- Equity: $115,354.19 | Cash: $9,706.76 (8.4%) | Long MV: $105,647.43
+- Stock MV: ~$71,338 (61.8% deployed — stocks only) | Crypto MV: ~$34,309 (untouchable)
+- Buying power: $238,518 | Daytrade count: 0/3
+- Phase P&L: +$15,354 (+15.35%) | Trades this week: 0/7
+
+### STEP 1b — Live Price Re-Verification (pre-market, from broker API)
+| Ticker | Entry | Pre-mkt | P&L% | +15% Trigger | +25% Trigger | Stop (GTC) | HWM | Action |
+|--------|-------|---------|------|--------------|--------------|------------|-----|--------|
+| AVGO | $363.25 | $368.63 | +1.48% | $417.73 | — | $338.93 (10%, 7dc773a8) | $376.59 | HOLD — earnings Sep 2 AMC |
+| JPM | $334.00 | $356.78 | +6.82% | $384.10 | — | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | $199.864 | $217.48 | +8.81% | $229.84 | $249.83 | $213.21 (7%, 3417fd30) | $229.26 | HOLD ⚠️ 2.0% stop cushion |
+| SLB | $53.673 | $57.88 | +7.85% | $61.72 | — | ~$52.09 (10%, auto HWM $57.88) | $57.88 NEW HWM | HOLD |
+
+SLB note: $57.88 > prior HWM $57.42 → stop auto-adjusted to ~$52.09. No manual action needed.
+
+### Market Context
+- **Brent crude**: ~$89.80/bbl (+31.84% YoY) | WTI: ~$84.85/bbl. Sustained by Hormuz partial disruption (Aramco still rerouting Asian crude via Fujairah Aug 18; EIA: 600K bbl/d offline through 2027). US/Venezuela oil deal in play (WSJ Aug 28) — potential supply catalyst but slow to impact.
+- **S&P 500 futures**: ~7,698–7,724 (-0.23% to -0.26% pre-market). Slightly red open.
+- **Nasdaq 100 futures**: ~29,383–29,491 (-0.3%)
+- **VIX**: 14.43 (Aug 28 close) — 2026 low range. Complacency warning: "Don't get too comfortable — entering historically choppy Aug 15–Oct 15 window" (BTIG). S&P -0.7% avg in September (past 50 years), 46% gain frequency.
+- **Sector YTD**: Energy +36.5%, Industrials +45.5%, Tech +20.9%, Financials +3.7% — our sectors (Energy + Tech + Financials) all positive.
+
+### Economic Calendar (week of Aug 31)
+| Date | Release | Consensus | Notes |
+|------|---------|-----------|-------|
+| Mon Aug 31 | LIGHT — no major US data | — | Clear pre-market |
+| Tue Sep 1 | ISM Mfg PMI AUG | 55 (prev 55.6) | Expansion confirmed |
+| Tue Sep 1 | JOLTS Jul | 7.4M (prev 7.359M) | Labor market |
+| Tue Sep 1 | Fed Barr speech | 1:05pm ET | Rate path signals |
+| Wed Sep 2 | **AVGO earnings AMC** | EPS $3.21-3.24 / Rev $29.25-29.43B | OUR POSITION — BINARY |
+| Fri Sep 4 | **NFP August** | 45K (prev -23K) | CRITICAL — prior month was negative |
+
+NFP risk: prior month -23K is alarming; if August also disappoints → labor market deterioration narrative, tech/risk-off.
+
+### Earnings Today (Aug 31 BMO)
+- FRO (Frontline shipping): irrelevant
+- SAIC (defense IT): $2.31-2.35 EPS est — no setup
+
+### Big Week Earnings
+- **Wed Sep 2 AMC**: AVGO (our position; ±8.9% implied move; has beaten 4 consecutive quarters by 5-13%), HPE, SNOW
+- **Tue Sep 1 AMC**: DELL ($4.87 EPS est), PANW ($0.98 EPS est), CRDO, MDB
+- **Thu Sep 3 BMO**: Ciena (CIEN, $1.72 EPS est)
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Disclosure | Traded | Type | Size | Window | Signal Level |
+|-----------|--------|------------|--------|------|------|--------|-------------|
+| **Nancy Pelosi** ✓ | **BE** (Bloom Energy) | Aug 28, 2026 | ~late July | New stake (shares) | Unknown | ✓ ~45 days | Watchlist only |
+| **Nancy Pelosi** ✓ | **INTC** (Intel) | Aug 24, 2026 | ~late July | Calls + shares | Unknown | ✓ ~45 days | Watchlist — calls non-replicable |
+| Tommy Tuberville ✓ | GILD | Aug 5, 2026 | May 2024 | SELL | — | Outside | Skip |
+| Ro Khanna ✓ | CHWY | Jul 14, 2026 | Jul 13, 2026 | Buy | $1K–15K | 47 days | Below $25K min threshold |
+
+Capitol Trades (Aug 28): "Pelosi household doubles down on AI power infrastructure. New Bloom Energy $BE stake + more Intel $INTC shares/calls filed Aug 24. Bloom already running +320% over the past year."
+
+- BE assessment: 1 whitelist politician (Pelosi) alone → **secondary confirmation** level only. BE up 320% YoY = extremely extended. No second whitelist politician confirmation. No independent earnings/FDA/M&A catalyst today. → **WATCHLIST ONLY**
+- INTC: Calls = options → cannot replicate. Any share component is secondary confirmation only. → Monitor only.
+- No politician signals meet primary catalyst criteria today.
+
+### STEP 3d — Live Quote Verification (potential ideas only)
+| Ticker | AH Bid/Ask (Aug 28) | ~Close | 10% Stop | +20% Target | R:R | Notes |
+|--------|---------------------|--------|----------|-------------|-----|-------|
+| BE | bid $200.18 / ask $223.43 | ~$210.77 | $189.69 | $252.92 | 2:1 | Wide AH spread; Pelosi signal; insufficient cash; WATCHLIST |
+| DELL | bid $438.90 / ask $481.58 | ~$456.24 | $410.62 | $547.49 | 2:1 | Wide AH spread; Sep 1 AMC earnings; insufficient cash; WATCHLIST |
+
+Cash $9,706 < minimum position size $17,303 (15% × $115,354) → **NO NEW ENTRIES POSSIBLE TODAY**.
+
+### Stop Tightening Check
+- **AVGO** +1.48%: below +15% trigger ($417.73). No action.
+- **JPM** +6.82%: below +15% trigger ($384.10). No action.
+- **NVDA** +8.81%: below +15% trigger ($229.84). HWM $229.26 from Aug 27. No action. ⚠️ Watch: if NVDA rallies past $229.84 today → cancel 3417fd30, place 5% trail (per +15% tighten rule).
+- **SLB** +7.85%: new HWM $57.88; stop auto-trails to ~$52.09. Below +15% trigger ($61.72). No manual action.
+
+### Risk Factors
+1. **AVGO binary (Wed Sep 2 AMC)**: ±8.9% implied move. Our AVGO position +1.48% — nearly at breakeven. Stop $338.93 is 7.8% below current $368.63 = cushion exists. If miss → stop auto-executes at $338.93 (realized ~-6.7% from entry). If beat → thesis strengthens, potential move to $400+.
+2. **NVDA stop fragility**: 7% trail, stop $213.21 only 2.0% below current $217.48. Thin cushion heading into a slightly-red open. A gap down or weak September open could trigger stop-out.
+3. **September seasonality**: historically -0.7% avg; 46% gain frequency. Entering worst period with VIX at 2026 lows = complacency risk.
+4. **NFP Friday (Sep 4)**: Prior -23K; consensus 45K rebound. If August also disappoints → recessionary narrative, risk-off.
+5. **Fed Barr speech Tue 1pm**: Could signal hawkish rate path.
+6. **Venezuela oil deal**: Could partially ease supply pressure → headwind for SLB if Brent drops meaningfully.
+
+### Decision
+**HOLD ALL — 0 new entries** (insufficient cash; no primary catalyst today)
+
+| Ticker | Action | Rationale |
+|--------|--------|-----------|
+| AVGO | HOLD | Thesis intact (AI ASIC + VMware). Binary earnings event Wed Sep 2. Stop $338.93 protects floor. |
+| JPM | HOLD | Financials +6.82% unrealized. No adverse news. Rate environment stable post-Warsh. |
+| NVDA | HOLD | +8.81% unrealized; Q2 FY27 beat intact; Vera Rubin rollout. ⚠️ Stop fragile — 2% cushion. Cannot move stop down. Accept stop-out if triggered. |
+| SLB | HOLD | SLB thesis strengthened (Fortune: "poised to cash in on AI data centers and post-Hormuz oil boom"; new multi-year contracts Aug 2026). Brent $89.80 elevated. |
+| Cash | NO ACTION | $9,706 insufficient for 15% position. Capital path: NVDA +25% partial sell at $249.83 → ~$6,745 (still insufficient); OR stop-out frees capital. |
+| BE | WATCHLIST | Pelosi AI power signal active. Check if cash becomes available post-AVGO event. Need 2nd confirmation. |
+
