@@ -9208,3 +9208,50 @@ None. All positions above -7% cut threshold.
 
 ### Actions Taken
 None.
+
+---
+
+## 2026-09-01 - Market-Open Session
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired overnight. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) discarded — off-limits.
+
+### Account
+- Equity: $115,688.09 | Cash: $9,706.76 (8.4%)
+- Min new position (15%): $17,353 — INSUFFICIENT CASH
+- Trades this week: 0/7
+
+### STEP 1b — Live Price Re-Verification
+| Ticker | Entry | Live | P&L% | +15% Trigger | Stop (GTC) | Cushion | Action |
+|--------|-------|------|------|-------------|------------|---------|--------|
+| AVGO | $363.25 | $364.23 | +0.27% | $417.73 | $338.93 (10%, 7dc773a8) | 7.0% | HOLD — binary Sep 2 AMC |
+| JPM | $334.00 | $354.87 | +6.25% | $384.10 | $329.85 (10%, 1a5b3205) | 7.1% | HOLD |
+| NVDA | $199.86 | $216.83 | +8.49% | $229.84 | $213.21 (7%, 3417fd30) | 1.67% | HOLD ⚠️ thin stop cushion |
+| SLB | $53.67 | $59.73 | +11.29% | $61.72 | $54.41 (10%, 550e0b73) | 8.9% | HOLD — tighten trigger approaching |
+
+### STEP 3 — Hard-Rule Checks
+- Cash $9,707 < min $17,353 → NO NEW ENTRIES
+- No positions below -7% cut threshold
+- No stop tightening triggered (SLB $59.73 < $61.72 trigger; NVDA $216.83 < $229.84 trigger)
+- NVDA stop cushion 1.67% — accept stop-out if $213.21 triggered; do NOT move stop down
+
+### Actions Taken
+None. All 4 GTC stops confirmed active (integer qty locked: AVGO 46, JPM 49, NVDA 81, SLB 312).
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $364.23 | +0.27% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD — binary Sep 2 AMC |
+| JPM | 49.522 (49 stop) | $334.00 | $354.87 | +6.25% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $216.83 | +8.49% | $213.21 (7%, 3417fd30) | $229.26 | HOLD ⚠️ 1.67% stop cushion |
+| SLB | 317.675 (312 stop) | $53.67 | $59.73 | +11.29% | $54.41 (10%, 550e0b73) | $60.46 | HOLD — tighten at $61.72 |
+
+- Trades today: 0 | Trades this week: 0/7
+- Capital path: AVGO beat Sep 2 → partial sell at +25% ($454.06) = ~$17,087 proceeds → enables 1 new entry post-event
