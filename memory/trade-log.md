@@ -9310,3 +9310,17 @@ None.
 | SLB | 317.675 (312 stop) | $53.67 | $57.98 | +8.03% | $54.41 (10%, 550e0b73) | $60.46 | HOLD |
 
 - Trades today: 0 | Trades this week: 0/7
+
+---
+
+### Sep 01 - EOD Snapshot (Day 95, Tuesday)
+**Portfolio:** $114,844 | **Cash:** $9,707 (8.5%) | **Day P&L:** -$1,964 (-1.68%) | **Phase P&L:** +$14,844 (+14.84%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AVGO | 46.939 | $363.25 | $369.38 | -0.26% | +$288 (+1.69%) | $338.93 (10% trail, 7dc773a8) |
+| JPM | 49.522 | $334.00 | $354.95 | -0.30% | +$1,037 (+6.27%) | $329.85 (10% trail, 1a5b3205) |
+| NVDA | 82.192 | $199.86 | $217.41 | -1.53% | +$1,442 (+8.78%) | $213.21 (7% trail, HWM $229.26, 3417fd30) |
+| SLB | 317.675 | $53.67 | $57.13 | -4.94% | +$1,100 (+6.45%) | $54.41 (10% trail, HWM $60.46, 550e0b73) |
+
+**Notes:** All four stock positions closed red — AVGO -0.26%, JPM -0.30%, NVDA -1.53%, SLB -4.94% — dragging equity down $1,964 on the day. SLB logged worst intraday at -4.94%, continuation of profit-taking off $60.46 52-week high; Brent ~$91-92 on Iran-US escalation confirms oil thesis INTACT. NVDA -1.53% continued pullback; stop $213.21 leaves 1.9% cushion — accept stop-out if triggered, do NOT move down. No cuts, no tightening triggers reached. Trades today: 0; week cap: 0/3. AVGO earnings Sep 2 AMC is tomorrow's primary binary event; cash $9,707 (8.5%) insufficient for new entries; capital path: AVGO beat → partial sell at +25% ($454) = ~$17k proceeds → enables 1 new entry post-event. Crypto sleeve (BTC $15,953 / ETH $8,471 / SOL $5,513 / LINK $4,263) — read-only.
