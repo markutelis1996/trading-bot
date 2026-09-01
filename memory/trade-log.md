@@ -9255,3 +9255,58 @@ None. All 4 GTC stops confirmed active (integer qty locked: AVGO 46, JPM 49, NVD
 
 - Trades today: 0 | Trades this week: 0/7
 - Capital path: AVGO beat Sep 2 → partial sell at +25% ($454.06) = ~$17,087 proceeds → enables 1 new entry post-event
+
+---
+
+## 2026-09-01 - Midday Scan
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired. Clean. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) discarded — off-limits.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|----------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $371.09 | +2.16% | +0.20% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD — binary Sep 2 AMC |
+| JPM | 49.522 (49 stop) | $334.00 | $355.76 | +6.52% | -0.07% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $219.58 | +9.87% | -0.54% | $213.21 (7%, 3417fd30) | $229.26 | HOLD ⚠️ 2.9% stop cushion |
+| SLB | 317.675 (312 stop) | $53.67 | $57.98 | +8.03% | -3.53% | $54.41 (10%, 550e0b73) | $60.46 | HOLD — profit-taking off 52wk high |
+
+### STEP 3 — Cuts
+None. All positions above -7% cut threshold.
+
+### STEP 4 — Stop Tightening
+- AVGO: +2.16% — below +15% trigger ($417.73). No action.
+- JPM: +6.52% — below +15% trigger ($384.10). No action.
+- NVDA: +9.87% — below +15% trigger ($229.84). Already on 7% trail. No action.
+- SLB: +8.03% — below +15% trigger ($61.72). Price $57.98 < HWM $60.46; stop holds at $54.41. No action.
+
+### STEP 5 — Thesis Check
+- **AVGO**: +0.20% intraday. AI ASIC + VMware thesis INTACT. Binary Sep 2 AMC — stop $338.93 provides floor.
+- **JPM**: -0.07% intraday, noise. Hawkish rate environment tailwind intact. INTACT.
+- **NVDA**: -0.54% intraday. AI GPU demand + Blackwell/Vera Rubin cycle INTACT. ⚠️ Stop $213.21 only 2.9% below current — accept stop-out if triggered.
+- **SLB**: -3.53% intraday (outlier vs peers). Oil thesis CONFIRMED: Brent $91-92 on Iran-US escalation. Drop is profit-taking off 52-week high $60.46. Stop $54.41 provides 6.1% cushion. THESIS INTACT.
+
+### STEP 6 — Research Addendum (SLB -3.53% investigation)
+- **Brent crude Sep 1**: $91.28-$92.07 (+~1%) — US hit Iranian rocket launchers on Larak Island; Iran attacked UAE and Jordan; Trump threatened Kharg Island (Iran's primary oil export hub). Russian refinery strikes tightening refined-product margins.
+- **SLB -3.53% cause**: No company-specific negative news found. Profit-taking after 52-week high ($60.46 yesterday); September seasonal weakness; potential ISM/JOLTS hawkish data risk-off. Oil price rising = thesis intact.
+- **Thesis verdict**: INTACT and STRENGTHENED by oil price confirmation.
+
+### Actions Taken
+None.
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $371.09 | +2.16% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD — binary Sep 2 AMC |
+| JPM | 49.522 (49 stop) | $334.00 | $355.76 | +6.52% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $219.58 | +9.87% | $213.21 (7%, 3417fd30) | $229.26 | HOLD ⚠️ 2.9% cushion |
+| SLB | 317.675 (312 stop) | $53.67 | $57.98 | +8.03% | $54.41 (10%, 550e0b73) | $60.46 | HOLD |
+
+- Trades today: 0 | Trades this week: 0/7
