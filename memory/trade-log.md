@@ -9324,3 +9324,53 @@ None.
 | SLB | 317.675 | $53.67 | $57.13 | -4.94% | +$1,100 (+6.45%) | $54.41 (10% trail, HWM $60.46, 550e0b73) |
 
 **Notes:** All four stock positions closed red — AVGO -0.26%, JPM -0.30%, NVDA -1.53%, SLB -4.94% — dragging equity down $1,964 on the day. SLB logged worst intraday at -4.94%, continuation of profit-taking off $60.46 52-week high; Brent ~$91-92 on Iran-US escalation confirms oil thesis INTACT. NVDA -1.53% continued pullback; stop $213.21 leaves 1.9% cushion — accept stop-out if triggered, do NOT move down. No cuts, no tightening triggers reached. Trades today: 0; week cap: 0/3. AVGO earnings Sep 2 AMC is tomorrow's primary binary event; cash $9,707 (8.5%) insufficient for new entries; capital path: AVGO beat → partial sell at +25% ($454) = ~$17k proceeds → enables 1 new entry post-event. Crypto sleeve (BTC $15,953 / ETH $8,471 / SOL $5,513 / LINK $4,263) — read-only.
+
+---
+
+## 2026-09-02 - Market-Open Session
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired overnight. Clean. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) discarded — off-limits.
+
+### Account
+- Equity: $114,452.49 | Cash: $9,706.76 (8.5%)
+- Min new position (15%): $17,168 — INSUFFICIENT CASH
+- Trades this week: 0/7
+
+### STEP 1b — Live Price Re-Verification (9:31 AM ET)
+| Ticker | Entry | Live Ask | P&L% | +15% Trigger | Stop (GTC) | Cushion | Action |
+|--------|-------|----------|------|-------------|------------|---------|--------|
+| AVGO | $363.25 | $367.22 | +1.09% | $417.73 | $338.93 (10%, 7dc773a8) | 7.7% | HOLD — **BINARY AMC TONIGHT** |
+| JPM | $334.00 | ~$358.11* | +7.22% | $384.10 | $329.85 (10%, 1a5b3205) | 7.9% | HOLD |
+| NVDA | $199.86 | $219.84 | +9.99% | $229.84 | $213.21 (7%, 3417fd30) | 3.0% | HOLD ⚠️ fragile stop cushion |
+| SLB | $53.67 | $56.83 | +5.89% | $61.72 | $54.41 (10%, 550e0b73) | 4.3% | HOLD |
+
+*JPM quote wide-spread at open (c["R"] flag, $338.67/$374.93); broker positions API price used as authoritative.
+
+### STEP 3 — Hard-Rule Checks
+- Cash $9,707 < min $17,168 → NO NEW ENTRIES
+- No positions below -7% cut threshold
+- No tighten triggers reached (NVDA +9.99% vs $229.84 trigger; SLB +5.89% vs $61.72 trigger)
+- AVGO AMC tonight: hold through earnings, stop $338.93 (7.7% floor) protects downside
+- NVDA stop cushion 3.0% — accept stop-out if $213.21 triggered; do NOT move stop down
+
+### Actions Taken
+None. All 4 GTC stops confirmed active (integer qty locked: AVGO 46, JPM 49, NVDA 81, SLB 312).
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $367.22 | +1.09% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD — **BINARY AMC TONIGHT** |
+| JPM | 49.522 (49 stop) | $334.00 | ~$358.11 | +7.22% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $219.84 | +9.99% | $213.21 (7%, 3417fd30) | $229.26 | HOLD ⚠️ 3.0% cushion |
+| SLB | 317.675 (312 stop) | $53.67 | $56.83 | +5.89% | $54.41 (10%, 550e0b73) | $60.46 | HOLD |
+
+- Trades today: 0 | Trades this week: 0/7
+- Capital path: AVGO beat tonight → partial sell at +25% ($454.06 × 46 shares = ~$20,882) → enables 1 new entry (BE primary candidate: Pelosi $1.5M-$6M signal)
