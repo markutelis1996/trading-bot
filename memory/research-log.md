@@ -10456,3 +10456,107 @@ BE watchlist quote not pulled — insufficient cash for entry regardless.
 | SLB | HOLD | +12.35% unrealized; 52-week high; Iran-US flare-up boosts thesis. ⚠️ +15% tighten trigger at $61.72 approaching — monitor intraday. |
 | BE | WATCHLIST | Pelosi primary signal ($3M-$12M in Jul); Energy momentum. Blocked by cash. Re-evaluate post-AVGO event. |
 | Cash | NO ACTION | $9,706 insufficient. Capital path opens only after AVGO event or position stop-out. |
+
+---
+
+## 2026-09-02 - Pre-Market Research
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired overnight. Clean. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) discarded — off-limits.
+
+### Account Snapshot
+- Equity: $114,928.75 | Cash: $9,706.76 (8.4%)
+- Long market value: $105,221.99 (stock + crypto combined)
+- Min new position (15%): $17,239 — INSUFFICIENT CASH
+- Trades this week: 0/7
+- GTC stops active: AVGO 7dc773a8, JPM 1a5b3205, NVDA 3417fd30, SLB 550e0b73
+
+### Live Price Re-Verification (EOD Sep 1, from broker positions)
+| Ticker | Entry | EOD Sep 1 | P&L% | +15% Trigger | Stop (GTC) | HWM | Cushion | Action |
+|--------|-------|-----------|------|-------------|------------|-----|---------|--------|
+| AVGO | $363.25 | $370.02 | +1.86% | $417.73 | $338.93 (10%, 7dc773a8) | $376.59 | 8.4% | HOLD — **BINARY AMC TODAY** |
+| JPM | $334.00 | $355.47 | +6.43% | $384.10 | $329.85 (10%, 1a5b3205) | $366.50 | 7.2% | HOLD |
+| NVDA | $199.864 | $216.98 | +8.55% | $229.84 | $213.21 (7%, 3417fd30) | $229.26 | 1.73% | HOLD ⚠️ FRAGILE stop cushion |
+| SLB | $53.673 | $57.07 | +6.34% | $61.72 | $54.41 (10%, 550e0b73) | $60.46 | 4.66% | HOLD |
+
+Note: Alpaca quote endpoint returned wide-spread extended-hours data; broker positions API used as authoritative EOD prices.
+
+### Market Context
+- **WTI:** ~$82.91/bbl (Sep 2 premarket, OilPrice); Sep 1 close ~$89.58 (Bloomberg). Hormuz disruptions ongoing; Qatar LNG force majeure extended.
+- **Brent:** $95.33 close Sep 1 (TradingEconomics), +5.34% from prev day; +37.87% YoY. Iran-US escalation: US struck IRGC targets Sep 1; two supertankers hit by projectiles in Hormuz (Bloomberg Sep 2).
+- **S&P 500 futures (Sep 2 premarket):** Down -0.23% to -0.47% (ESU26 ~7,685-7,724). Dow futures ~53,486. Nasdaq 100 futures ~29,383 (-0.46%). Rising oil + rising yields weighing on equities.
+- **VIX:** Sep 1 close $16.34 (+9.52% vs $14.92 prev close). VIX Sep futures 16.9353. Elevated but not alarming; options active at Sep 16 FOMC strike.
+- **10yr Treasury:** Near 5% (Schwab: "a stone's throw from 5%"). Rate hike probability at FOMC Sep 16 meeting: **66%** (up from 40% last week).
+- **September seasonality:** Historically worst month (-0.7% avg S&P). VIX expanding from lows. Citadel: "use strength to reduce exposure."
+
+### Economic Calendar — Sep 2
+| Time ET | Release | Prev | Est | Notes |
+|---------|---------|------|-----|-------|
+| 8:15 AM | **ADP Aug employment** | 44K | 47-48K | Jobs Week opener; softening trend (95K→44K two-month slide) |
+| AMC | **AVGO Q3 FY2026 earnings** | EPS $1.69 | $3.24 est | Primary binary event; Rev $29.43B est; 7 consecutive beats |
+| AMC | HPE Q3 FY2026 | — | $0.93 EPS est | Secondary; not held |
+| AMC | SNOW Q2 FY2027 | — | $0.45 EPS est | Not held |
+| Fri Sep 4 | **NFP August** | -23K | +45K est | Critical macro read; prior negative = recession risk |
+| Sep 10/11 | PPI / CPI | — | — | Inflation prints |
+| Sep 16 | **FOMC** | — | 66% hike odds | Warsh hawkish; rate hike now base case |
+
+BMO today: Brown-Forman (BF.B, $0.37 est), OLLI ($1.12 est) — no setup potential.
+
+### Sector Momentum YTD 2026
+| Sector | YTD | Held Tickers |
+|--------|-----|-------------|
+| Energy (XLE) | +42.32% | SLB |
+| Materials (XLB) | +15.86% | — |
+| Industrials (XLI) | +12.62% | — |
+| Health Care (XLV) | +10.10% | — |
+| Financials (XLF) | +5.44% | JPM |
+| Info Technology | ~+15% (6mo basis) | NVDA, AVGO |
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Disclosed | Traded | Size | Window | Signal |
+|-----------|--------|-----------|--------|------|--------|--------|
+| **Nancy Pelosi** ✓ | **BE** (Bloom Energy) | Aug 31, 2026 | Jul 24-28, 2026 | $1.5M-$6M total | ✓ 35-38 days | **Primary catalyst (carry-over from Aug 31)** |
+| Ro Khanna ✓ | Various (NOW, ICE, QCOM) | Aug 12 | Jul 7, 2026 | $1K-$50K each | ✗ 57 days | Outside 45-day window |
+| Dave McCormick | GS | Aug 27, 2026 | Aug 10-12, 2026 | $100K-$250K each | ✓ 15-17 days | NOT on whitelist — skip |
+
+No new whitelist politician signals within 45 days at ≥$25K threshold.
+
+**BE Assessment (updated):** Pelosi $1.5M-$6M total in BE (Jul 24/28). Energy sector #1 YTD (+42%). Cash $9,707 still INSUFFICIENT for 15% entry ($17,239 needed). MONITORING pending AVGO capital release.
+
+### Thesis Check
+- **AVGO:** Q3 FY2026 AMC today. EPS $3.24 est (+91.7% YoY). Rev $29.43B est (+84.5% YoY). 7 consecutive beats. Bar elevated after NVDA's 15-quarter beat streak. Implied move 6.82-8.9%. Stop $338.93 (8.4% floor). Bull case: beat + raise → $400+. Bear case: margin miss → stop executes. AI ASIC (Meta $10B order, Anthropic $10B order) + VMware integration thesis INTACT.
+- **JPM:** Hawkish rate environment (66% FOMC hike odds) benefits net interest margin. Q2 strong (IB + capital markets). Thesis INTACT.
+- **NVDA:** WSJ reports Anthropic $35B cloud deal with NVDA backing the data center lease — "circular deal" concern raised by analysts. NVDA down 1.7% Sep 1. Stop $213.21 is only 1.73% below $216.98 close. **ACCEPT STOP-OUT IF TRIGGERED** — do not move stop down. 15 consecutive earnings beats (FY2028 +70% revenue forecast) thesis INTACT but momentum headwind.
+- **SLB:** Two supertankers hit by projectiles in Hormuz (Bloomberg Sep 2). Brent $95.33. Kuwait Oil multi-year contract + Kelvion data center cooling acquisition intact. ⚠️ Sep 1 close $57.07 vs HWM $60.46 — SLB pulled back 5.8% from HWM. Stop $54.41 provides 4.66% cushion. Thesis INTACT and strengthened.
+
+### Risk Factors
+1. **AVGO binary AMC:** Implied ±6.82-8.9%. Bar elevated. Miss → stop $338.93 auto-executes (-8.4%). Beat → $400+ potential; enables 1 new entry post-event.
+2. **NVDA stop fragility:** 7% trail, stop $213.21 only 1.73% below $216.98. Any 2%+ sell-off triggers exit. "Circular deal" narrative adds fundamental headwind. Cannot move stop down.
+3. **ADP Aug (8:15 AM):** Est 47-48K (prev 44K, prior 95K). Third straight sub-100K = labor softening → mixed signal (supports stocks via lower hike odds, but recession narrative grows).
+4. **FOMC Sep 16 rate hike 66%:** Rising yields compress growth multiples (NVDA, AVGO most exposed). 10yr near 5%.
+5. **Iran-US escalation:** Two supertankers hit Sep 2 in Hormuz. Oil spike supports SLB; risk-off for tech/financials if escalates into broader conflict.
+6. **NFP Friday Sep 4:** Prior -23K. If consecutive negative = recessionary read → sharp risk-off.
+7. **September seasonality:** -0.7% avg; historical worst month. Market breadth narrowing.
+
+### Trade Ideas (STEP 3d — price verification)
+**No new entries possible** (cash $9,707 < minimum $17,239). No live quotes pulled for new tickers — cash constraint disqualifies all setups regardless of price. Capital path: AVGO beat tonight + partial sell at +25% ($454.06 × 46 shares = ~$20,882 proceeds) → enables 1 new entry tomorrow.
+
+**BE watchlist:** Pelosi signal active. If AVGO beat releases capital, BE becomes primary candidate. Will run live quote + sizing at next session.
+
+### Decision
+**HOLD ALL — 0 new entries**
+
+| Ticker | Action | Rationale |
+|--------|--------|-----------|
+| AVGO | HOLD | Binary AMC tonight. Stop $338.93 (8.4% floor). 7 consecutive beats. INTACT. |
+| JPM | HOLD | +6.43% unrealized. FOMC hike tailwind for financials. INTACT. |
+| NVDA | HOLD | +8.55% unrealized. ⚠️ Stop 1.73% cushion — ACCEPT stop-out if triggered. INTACT. |
+| SLB | HOLD | +6.34% unrealized. Oil $95 Brent strengthens thesis. Stop 4.66% cushion. INTACT. |
+| BE | WATCHLIST | Pelosi primary signal. Blocked by cash until AVGO event resolution. |
