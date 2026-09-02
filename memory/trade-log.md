@@ -9429,4 +9429,21 @@ None. No cuts, no stop adjustments, no new entries (cash $9,707 < min $17,239).
 | NVDA | 82.192 (81 stop) | $199.86 | $224.17 | +12.16% | $213.21 (7%, 3417fd30) | $229.26 | HOLD — Hugging Face deal catalyst |
 | SLB | 317.675 (312 stop) | $53.67 | $58.285 | +8.60% | $54.41 (10%, 550e0b73) | $60.46 | HOLD |
 
+- Trades today: 0 | Trades this week: 0/3
+
+---
+
+### Sep 02 - EOD Snapshot (Day 96, Wednesday)
+**Portfolio:** $115,537 | **Cash:** $8,162 (7.1%) | **Day P&L:** +$907 (+0.79%) | **Phase P&L:** +$15,537 (+15.54%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AVGO | 46.939 | $363.25 | $367.97 | -$1.71 (-0.46%) | +$221.75 (+1.30%) | $338.93 (10% trail, HWM $376.59, 7dc773a8) |
+| JPM | 49.522 | $334.00 | $356.22 | +$1.27 (+0.36%) | +$1,100.30 (+6.65%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA | 82.192 | $199.86 | $224.31 | +$6.87 (+3.16%) | +$2,009.34 (+12.23%) | $213.21 (7% trail, HWM $229.26, 3417fd30) |
+| SLB | 317.675 | $53.67 | $58.13 | +$0.98 (+1.72%) | +$1,416.86 (+8.31%) | $54.41 (10% trail, HWM $60.46, 550e0b73) |
+
+**Notes:** Positive day (+$907/+0.79%) driven by NVDA +3.16% (Hugging Face acquisition talks catalyst) and SLB +1.72% (Brent $91-92 on Iran-US Hormuz escalation); JPM +0.36% steady; AVGO -0.46% quiet ahead of earnings AMC tonight. Total unrealized stock P&L: $4,748 across 4 positions. AVGO binary event tonight — 10% trail stop $338.93 (7.7% below entry) protects downside; on beat + gap <5%, evaluate +25% partial sell (46sh × $454 = ~$20,882 → enables 1 new entry). NVDA cushion 4.95% above stop $213.21; HWM $229.26 not broken today (+15% tighten trigger at $229.84 still not reached). SLB stop auto-trailing correctly (HWM $60.46, stop $54.41); +15% trigger at $61.72 not reached. All 4 GTC trailing stops active and intact. Trades: 0 today, 0 this week. Reconciliation clean. Crypto DCA sleeve (BTC +$2,955 / ETH +$1,869 / SOL +$1,259 / LINK +$1,003) — read-only.
+
+
 - Trades today: 0 | Trades this week: 0/7
