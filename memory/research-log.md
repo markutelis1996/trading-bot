@@ -10560,3 +10560,15 @@ No new whitelist politician signals within 45 days at ≥$25K threshold.
 | NVDA | HOLD | +8.55% unrealized. ⚠️ Stop 1.73% cushion — ACCEPT stop-out if triggered. INTACT. |
 | SLB | HOLD | +6.34% unrealized. Oil $95 Brent strengthens thesis. Stop 4.66% cushion. INTACT. |
 | BE | WATCHLIST | Pelosi primary signal. Blocked by cash until AVGO event resolution. |
+
+---
+
+## 2026-09-02 - Midday Addendum (NVDA)
+
+**NVDA +3.09% intraday — catalyst identified:**
+- NVIDIA in advanced talks to acquire Hugging Face for ~$14B ($12.9B upfront + $1B retention); deal may close this week.
+- Hugging Face = largest open-source AI model hub (models, datasets, spaces). NVDA ownership deepens AI ecosystem moat beyond hardware.
+- Thesis impact: STRONGLY BULLISH — accelerates AI infrastructure demand, locks model developers into NVDA ecosystem.
+- Q2 FY2027 foundation (Aug 26): Revenue $96.2B (+106% YoY), EPS $2.22 (+120% YoY). Vera Rubin H2 2026 on track.
+- Stop updated: NVDA now $224.17 (+12.16% from entry). Cushion 4.88% vs $213.21 stop. HWM $229.26; +15% trigger $229.84 (close); +20% trigger $239.83.
+- Action: No changes — thesis INTACT and STRENGTHENED.

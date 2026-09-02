@@ -9374,3 +9374,59 @@ None. All 4 GTC stops confirmed active (integer qty locked: AVGO 46, JPM 49, NVD
 
 - Trades today: 0 | Trades this week: 0/7
 - Capital path: AVGO beat tonight → partial sell at +25% ($454.06 × 46 shares = ~$20,882) → enables 1 new entry (BE primary candidate: Pelosi $1.5M-$6M signal)
+
+---
+
+## 2026-09-02 - Midday Scan
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired. Clean. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) discarded — off-limits.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|----------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $368.01 | +1.31% | -0.45% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD — **BINARY AMC TONIGHT** |
+| JPM | 49.522 (49 stop) | $334.00 | $355.84 | +6.54% | +0.25% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $224.17 | +12.16% | +3.09% | $213.21 (7%, 3417fd30) | $229.26 | HOLD ⚠️ 4.88% cushion |
+| SLB | 317.675 (312 stop) | $53.67 | $58.285 | +8.60% | +1.99% | $54.41 (10%, 550e0b73) | $60.46 | HOLD — recovering from yesterday pullback |
+
+### STEP 3 — Cuts
+None. No position at or below -7% cut threshold.
+
+### STEP 4 — Stop Tightening
+- AVGO: +1.31% — trigger at $417.73 (+15%). No action.
+- JPM: +6.54% — trigger at $384.10 (+15%). No action.
+- NVDA: +12.16% — already on 7% trail. +15% trigger $229.84 not yet reached ($224.17). +20% trigger $239.83 — monitor. No action.
+- SLB: +8.60% — trigger at $61.72 (+15%). No action.
+
+### STEP 5 — Thesis Check
+- **AVGO**: -0.45% intraday = pre-event pause before AMC. Normal behavior. Stop $338.93 floor intact. THESIS INTACT.
+- **JPM**: +0.25% intraday, noise. Hawkish rate environment (66% FOMC Sep 16 hike odds) tailwind intact. THESIS INTACT.
+- **NVDA**: +3.09% intraday — Hugging Face acquisition talks driving rally (see STEP 6). Cushion improved from morning 3.0% to 4.88%. THESIS INTACT + STRENGTHENED.
+- **SLB**: +1.99% intraday recovery. Two supertankers hit in Hormuz (Bloomberg Sep 2), Brent elevated. THESIS INTACT and STRENGTHENED.
+
+### STEP 6 — Intraday Research (NVDA +3.09%)
+- **Catalyst**: NVIDIA in advanced talks to acquire Hugging Face (~$14B: $12.9B cash + $1B retention); deal potentially closing this week.
+- **Thesis impact**: AI stack consolidation — owning leading open-source model hub deepens moat beyond chips. STRONGLY BULLISH for AI demand thesis.
+- **Foundation**: NVDA Q2 FY2027 (Aug 26): Revenue $96.2B (+106% YoY), non-GAAP EPS $2.22 (+120% YoY). Vera Rubin H2 2026 on track.
+- **Stop watch**: If NVDA closes above HWM $229.26 → stop auto-adjusts upward. At +20% ($239.83) → assess 5% tightening (likely stay 7% per ATR rule for high-vol semis).
+
+### Actions Taken
+None. No cuts, no stop adjustments, no new entries (cash $9,707 < min $17,239).
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $368.01 | +1.31% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD — **BINARY AMC TONIGHT** |
+| JPM | 49.522 (49 stop) | $334.00 | $355.84 | +6.54% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $224.17 | +12.16% | $213.21 (7%, 3417fd30) | $229.26 | HOLD — Hugging Face deal catalyst |
+| SLB | 317.675 (312 stop) | $53.67 | $58.285 | +8.60% | $54.41 (10%, 550e0b73) | $60.46 | HOLD |
+
+- Trades today: 0 | Trades this week: 0/7
