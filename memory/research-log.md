@@ -10572,3 +10572,116 @@ No new whitelist politician signals within 45 days at ≥$25K threshold.
 - Q2 FY2027 foundation (Aug 26): Revenue $96.2B (+106% YoY), EPS $2.22 (+120% YoY). Vera Rubin H2 2026 on track.
 - Stop updated: NVDA now $224.17 (+12.16% from entry). Cushion 4.88% vs $213.21 stop. HWM $229.26; +15% trigger $229.84 (close); +20% trigger $239.83.
 - Action: No changes — thesis INTACT and STRENGTHENED.
+
+---
+
+## 2026-09-03 - Pre-Market Research
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired overnight. Clean. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) discarded — off-limits.
+
+### Account Snapshot
+- Equity: $115,677.60 | Cash: $8,162.32 (7.1%)
+- Phase P&L: +$15,677 (+15.68%)
+- Min new position (15%): $17,351 — INSUFFICIENT CASH
+- Trades this week: 0/7
+- GTC stops active: AVGO 7dc773a8, JPM 1a5b3205, NVDA 3417fd30, SLB 550e0b73
+
+### Live Price Re-Verification (Sep 3 premarket / Sep 2 AH)
+| Ticker | Entry | Last | P&L% | Stop (GTC) | HWM | Cushion | Action |
+|--------|-------|------|------|------------|-----|---------|--------|
+| AVGO | $363.25 | ~$346.64 AH (bid $345.56 / ask $347.72 @ 8:16 PM Sep 2) | -4.58% | $338.93 (10%, 7dc773a8) | $376.59 | ~2.2% AH | ⚠️ STOP FRAGILE — AH Q4 guide miss reaction |
+| JPM | $334.00 | $356.80 | +6.83% | $329.85 (10%, 1a5b3205) | $366.50 | 7.55% | HOLD |
+| NVDA | $199.86 | $226.00 | +13.08% | $213.21 (7%, 3417fd30) | $229.26 | 5.66% | HOLD — +15% trigger $229.84 approaching |
+| SLB | $53.67 | $58.20 | +8.44% | $54.41 (10%, 550e0b73) | $60.46 | 6.51% | HOLD |
+
+Note: AVGO AH quote from Alpaca at 8:16 PM Sep 2 (post-earnings call). Regular session close was $367.24. AH reaction was -5.6% on Q4 guide miss.
+
+### Market Context
+- **WTI:** ~$86.84 (Barchart futures Sep '26); **Brent:** ~$90.12 (Barchart CBX26 $91.34). Down from Sep 2 highs of $90-95. Oil pulling back modestly.
+- **S&P 500 futures:** ES Sep '26 ~$7,635-7,700; Sep 2 regular close: 7,631. Nasdaq futures ~$29,064-29,383. Mixed/flat premarket.
+- **VIX:** Sep 1 close $16.34 (+9.52%). VIX Sep futures (VX/U6): 17.25. Elevated relative to pre-September lows of 14.43 but not alarming.
+- **10yr Treasury:** ~4.75% (approaching 5% concern zone from prior week).
+- **September seasonality:** Historically worst month (-0.7% avg S&P). Pattern active.
+
+### Economic Calendar — Sep 3
+| Time ET | Release | Previous | Estimate | Notes |
+|---------|---------|----------|----------|-------|
+| 8:30 AM | Productivity & Costs Q2 (Final) | — | — | Modest market mover |
+| 8:30 AM | Jobless Claims (Aug/29) | 203K | 205K | In-line expected; labor holding |
+| 10:00 AM | ISM Services PMI | — | — | Services sector read |
+| 12:30 PM | Trade Balance Jul | -$73.3B | -$90B est | USD positive if narrower |
+| 12:30 PM | **Fed Waller Speech** | — | — | Hawkish bias expected; FOMC Sep 16 hike 66% |
+| AMC Sep 3 | Five Below (FIVE) earnings | — | $1.16 EPS | Not held |
+| AMC Sep 3 | Snowflake (SNOW) earnings | — | $0.26 EPS | Not held |
+| **Sep 4** | **NFP August** | **-23K** | **+58K est** | **CRITICAL — second consecutive negative = recessionary read** |
+| Sep 7 | Labor Day | — | — | Markets CLOSED |
+| Sep 10/11 | PPI/CPI | — | — | Inflation prints |
+| Sep 16 | FOMC | — | 66% hike | Warsh hawkish |
+| Sep 23 | Meta Connect 2026 | — | — | Tech event |
+
+### AVGO Earnings Review (Q3 FY2026, AMC Sep 2)
+- **EPS:** $3.32 adjusted vs $3.24 est → **BEAT +2.5%** (8th consecutive quarterly beat) ✓
+- **Revenue:** $29.59B vs $29.36B est → **BEAT +0.8%** ✓
+- **Net income:** $13.09B (tripled YoY from $4.14B) ✓
+- **AI networking:** Revenue +2.5x YoY; Jalapeno custom chip with OpenAI (new); Apple expanding US chip spend with Broadcom ✓
+- **Infrastructure software:** $8.75B vs $8.82B est → slight miss
+- **Q4 FY2026 guidance:** $34.8B vs $35.03B consensus → **MISS by -$230M (-0.66%)** ✗
+- **AH reaction:** -5% initially. AH quote at 8:16 PM: bid $345.56 / ask $347.72 (~$346.64 mid)
+- **Stop status:** Stop $338.93 is now only ~$7.71 (2.2%) below AH price. FRAGILE.
+- **Thesis assessment:** Guide miss (-0.66%) is below normal guide-beat expectations for AI semis. However, Q4 at $34.8B still implies +18% sequential growth from Q3. AI ASIC pipeline (Meta, Anthropic, OpenAI) intact. -5% AH reaction may be excessive vs. $35.03B consensus. HOLD per strategy — stop handles downside.
+
+### NVDA Update
+- Current: $226.00 (+13.08% from entry). Stop $213.21 (7% trail), HWM $229.26.
+- **+15% trigger at $229.84 — only $3.84 away** (1.7%). On breach, per rule 6: check ATR before tightening. For high-vol semis (ATR likely >4% of price), stay at 7%.
+- **Hugging Face deal:** Agreement reportedly reached at $12.9B-$14B (Bloomberg/Reuters Aug 28). No formal announcement yet. Strongly bullish ecosystem moat catalyst.
+- THESIS: INTACT and STRENGTHENED. HOLD.
+
+### Sector Momentum YTD 2026 (updated)
+| Sector | YTD | Held Tickers |
+|--------|-----|-------------|
+| Energy (XLE) | +42-54% (SLB +53.95% YTD) | SLB |
+| Info Technology | ~+15% | NVDA (+13%), AVGO (-4.6% AH) |
+| Financials (XLF) | ~+5% | JPM (+6.83% from entry) |
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Disclosed | Traded | Size | Window | Signal |
+|-----------|--------|-----------|--------|------|--------|--------|
+| **Nancy Pelosi** ✓ | **BE** (Bloom Energy) | Aug 31, 2026 | Jul 24/28, 2026 | $3M-$12M total (4 tranches) | ✓ 35-38 days | **Primary catalyst (carry-over)** |
+| Ro Khanna ✓ | Various (NOW, NSC, JNJ, ROK) | Latest Jun 2026 | May-Jun 2026 | $1K-$50K each | ✗ >60 days | Outside 45-day window |
+| Tuberville, Gottheimer, Mast | No qualifying trades found | — | — | — | ✗ | — |
+| Dave McCormick (GS) | Multiple Aug 3-17 buys | Aug 27 | Jul-Aug 2026 | $100K-$250K each | ✓ | NOT on whitelist — skip |
+
+**BE Assessment:** Pelosi $3M-$12M in BE (Jul 24/28) — confirmed again. Energy sector #1 YTD. Cash $8,162 still insufficient for 15% entry ($17,351 needed). PRIMARY CATALYST signal remains active. Capital path: AVGO stop-out at $338.93 (46 × $338.93 = $15,591) → still insufficient; need SLB or NVDA stop-out OR AVGO to recover and partial sell at +25% ($454.06).
+
+### Risk Factors
+1. **AVGO stop fragility:** AH price ~$346.64 is only 2.2% above stop $338.93. Any additional sell-off at open triggers exit (-4.58% realized, not -7%). This is acceptable — stop was placed correctly. Do NOT move stop down.
+2. **NFP Friday Sep 4 (CRITICAL):** Prior -23K. If another negative = recessionary narrative → risk-off selloff across all 4 positions. NVDA and AVGO most exposed (high-beta growth). JPM mixed (recession fear vs. hawkish tailwind). SLB mixed (oil demand concern vs. supply disruption support).
+3. **Fed Waller Speech today (12:30 PM ET):** Hawkish bias expected. If explicitly signals 50bp hike → rate shock for growth stocks (NVDA, AVGO).
+4. **AVGO Q4 guide miss recalibration:** Bar now reset lower. If sell-side cuts estimates, further valuation compression possible.
+5. **Iran-US escalation:** Two supertankers hit Hormuz Sep 2. SLB benefits from elevated oil; tech/financials risk-off if conflict broadens.
+6. **September seasonality:** Historically worst month. VIX expansion from 14.43 lows to 16-17 already underway.
+
+### Trade Ideas (STEP 3d — price verification)
+**No new entries possible.** Cash $8,162 < $17,351 minimum. No live quotes pulled for new tickers — cash constraint disqualifies all setups.
+
+**BE watchlist:** Pelosi primary signal active. Blocked by cash. Next capital unlock event: AVGO stop-out (est. $15.6K proceeds) or AVGO recovery + partial sell (+25% = $454.06/sh). Will run BE live quote at next session IF capital becomes available.
+
+### Decision
+**HOLD ALL — 0 new entries**
+
+| Ticker | Action | Rationale |
+|--------|--------|-----------|
+| AVGO | HOLD | Q3 BEAT (EPS $3.32, Rev $29.59B). Q4 guide miss -0.66%. AH -5%. Stop $338.93 (~2.2% below AH price). Strategy says hold; stop handles exit. Do NOT move stop down. |
+| JPM | HOLD | +6.83% unrealized. FOMC Sep 16 hike tailwind. Stop 7.55% cushion. INTACT. |
+| NVDA | HOLD | +13.08% unrealized. Hugging Face deal catalyst. +15% tighten trigger $229.84 approaching — monitor at open. Stop 5.66% cushion. INTACT. |
+| SLB | HOLD | +8.44% unrealized. Oil services YTD +53.95%. Q3 guide 3-4% growth. Ex-div Sep 2. Stop 6.51% cushion. INTACT. |
+| BE | WATCHLIST | Pelosi $3M-$12M primary signal. Blocked by cash. |
+
