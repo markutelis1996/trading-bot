@@ -10685,3 +10685,21 @@ Note: AVGO AH quote from Alpaca at 8:16 PM Sep 2 (post-earnings call). Regular s
 | SLB | HOLD | +8.44% unrealized. Oil services YTD +53.95%. Q3 guide 3-4% growth. Ex-div Sep 2. Stop 6.51% cushion. INTACT. |
 | BE | WATCHLIST | Pelosi $3M-$12M primary signal. Blocked by cash. |
 
+---
+
+## 2026-09-03 - Midday Addendum
+
+**Fed Waller Speech (12:30 PM ET) — DOVISH SURPRISE:**
+- Waller: "If inflation data continues to show progress, I'd support holding rates at Sep 16 FOMC."
+- FOMC Sep 16 rate hike odds: 66% → 55% post-speech. Bond yields fell 3-5bp (2yr led). Stocks rallied.
+- Pre-speech expectation was hawkish/neutral; dovish tilt = positive for all positions, especially NVDA/AVGO (growth semis benefit from lower rates).
+- Caveat: hike door remains open pending Aug CPI (due Sep 10/11). Sep 16 decision not pre-committed.
+
+**AVGO midday (-2.78% today, -1.71% from entry):**
+- Continuation of AH guide miss reaction. Q4 guide $34.8B vs $35.03B est = -0.66% miss.
+- Sell-the-news pattern on "barely a beat" (Rev +0.53% vs est, EPS +2.53% vs est). AI ASIC revenue $16.70B, +221% YoY — fundamentals intact.
+- Stop $338.93 (5.1% below current $357.04) remains in force. Do NOT move stop down.
+- Thesis: NOT BROKEN. Expectation reset only.
+
+**Position summary (midday):** AVGO -1.71% | JPM +8.36% | NVDA +14.82% | SLB +6.95%. No cuts, no stop changes. Portfolio equity $117,473. Day P&L +$1,868 (+1.62%). NVDA HWM $230.40 — already on 7% trail, +20% tighten trigger at $239.83.
+

@@ -9496,3 +9496,61 @@ None. All 4 GTC stops confirmed active (AVGO 46sh, JPM 49sh, NVDA 81sh, SLB 312s
 
 - Trades today: 0 | Trades this week: 0/7
 - BE watchlist: Pelosi primary signal active. Cash unlock needed (AVGO stop-out ~$15.6K or NVDA/SLB partial sell).
+
+---
+
+## 2026-09-03 - Midday Scan
+
+**Portfolio:** $117,472.73 equity | **Cash:** $8,162.32 (6.9%) | **Day P&L:** +$1,868 (+1.62%) | **Phase P&L:** +$17,473 (+17.47%)
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired. Clean. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) discarded — off-limits.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|----------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $357.04 | -1.71% | -2.78% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $361.93 | +8.36% | +1.60% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $229.48 | +14.82% | +2.26% | $214.27 (7%, 3417fd30) | $230.40 | HOLD — already on 7% trail |
+| SLB | 317.675 (312 stop) | $53.67 | $57.40 | +6.95% | -1.26% | $54.41 (10%, 550e0b73) | $60.46 | HOLD |
+
+### STEP 3 — Cuts
+None. No position at or below -7% threshold (AVGO -1.71% worst).
+
+### STEP 4 — Stop Tightening
+- **NVDA**: HWM $230.40 = +15.28% from entry ($199.86 × 1.15 = $229.84 ✓). Stop already at 7% trail — no further action. +20% trigger ($239.83) not yet reached.
+- AVGO (-1.71%), JPM (+8.36%), SLB (+6.95%): all below +15% threshold. No action.
+
+### STEP 5 — Thesis Check
+- **AVGO**: -2.78% intraday continuation of AH guide miss reaction. Q3 beat $3.32/$29.59B; AI revenue +221% YoY; Q4 guide $34.8B (+18% seq) vs $35.03B est (miss -0.66%). Stop $338.93 at 5.1% below current. Sell-the-news on thin beat — not thesis break. **INTACT. HOLD.**
+- **JPM**: +1.60% intraday. Rate hike odds dropped 66%→55% on Waller speech (slightly mixed for banks — NIM expansion less certain) but rate environment still elevated. **INTACT. HOLD.**
+- **NVDA**: +2.26% intraday. Waller dovish = positive for growth/semis. Hugging Face acquisition catalyst ongoing. **INTACT. HOLD.**
+- **SLB**: -1.26% intraday on oil modest pullback (WTI ~$87, Brent ~$90). Hormuz tensions (two supertankers hit Sep 2) persist — supply disruption support intact. **INTACT. HOLD.**
+
+### STEP 6 — Intraday Research (Waller Speech + AVGO continuation)
+- **Fed Waller (12:30 PM ET):** Indicated he'd support holding rates at Sep 16 FOMC if August CPI continues to show progress. DOVISH SURPRISE vs pre-speech 66% hike odds. Rate hike odds dropped to ~55%. Yields fell 3-5bp. Stocks rallied. **BULLISH for all positions, especially NVDA/AVGO (growth semis).**
+- **AVGO -2.78%:** Continuation of post-earnings guide-miss reaction. Fundamentals intact (AI ASIC revenue $16.70B, +221% YoY). Decline is expectation reset, not thesis break. Stop $338.93 is the exit mechanism — do NOT move down.
+- **SLB -1.26%:** Oil modest pullback from Hormuz spike highs. Thesis intact — Brent still ~$90 (elevated), Kuwait contract, Kelvion acquisition intact.
+
+### Actions Taken
+None. No cuts, no stop adjustments, no new entries (cash $8,162 < min $17,473 needed for 15% position).
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $357.04 | -1.71% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $361.93 | +8.36% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $229.48 | +14.82% | $214.27 (7%, 3417fd30) | $230.40 | HOLD |
+| SLB | 317.675 (312 stop) | $53.67 | $57.40 | +6.95% | $54.41 (10%, 550e0b73) | $60.46 | HOLD |
+
+- Trades today: 0 | Trades this week: 0/7
+- Waller dovish: FOMC Sep 16 hike odds 66%→55%. Positive for portfolio.
+- NFP Friday Sep 4 remains critical binary. Second consecutive negative = recessionary read → risk-off.
+- BE watchlist: Pelosi primary signal active. Capital unlock needed.
