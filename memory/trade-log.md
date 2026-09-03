@@ -9447,3 +9447,52 @@ None. No cuts, no stop adjustments, no new entries (cash $9,707 < min $17,239).
 
 
 - Trades today: 0 | Trades this week: 0/7
+
+---
+
+## 2026-09-03 - Market-Open Session
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired overnight (post-AVGO earnings). All 4 GTC stops confirmed active. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) discarded — off-limits.
+
+### Account
+- Equity: $115,615.39 | Cash: $8,162.32 (7.1%)
+- Min new position (15%): $17,342 — INSUFFICIENT CASH
+- Trades this week: 0/7
+
+### STEP 1b — Live Price Re-Verification (9:31 AM ET)
+| Ticker | Entry | Live | P&L% | Stop (GTC) | Cushion | Action |
+|--------|-------|------|------|------------|---------|--------|
+| AVGO | $363.25 | $352.54 | -2.95% | $338.93 (10%, 7dc773a8, HWM $376.59) | 3.86% | HOLD — stop handles exit, above -7% cut |
+| JPM | $334.00 | $358.01 | +7.19% | $329.85 (10%, 1a5b3205, HWM $366.50) | 7.90% | HOLD |
+| NVDA | $199.86 | $225.32 | +12.73% | $213.21 (7%, 3417fd30, HWM $229.26) | 5.43% | HOLD — +15% trigger $229.84 not reached |
+| SLB | $53.67 | $58.71 | +9.38% | $54.41 (10%, 550e0b73, HWM $60.46) | 7.32% | HOLD — +15% trigger $61.72 not reached |
+
+Note: Quotes flagged ["R"] (open auction). Broker position prices used as authoritative for AVGO/JPM.
+
+### STEP 3 — Hard-Rule Checks
+- Cash $8,162 < min $17,342 → NO NEW ENTRIES
+- No positions at or below -7% cut threshold (AVGO -2.95% > -7%)
+- No tighten triggers reached (NVDA +12.73% vs $229.84 trigger; SLB +9.38% vs $61.72 trigger)
+- AVGO stop $338.93 active — AH guide miss reaction already priced in; stock at $352.54 (3.86% above stop). Do NOT move stop down.
+
+### Actions Taken
+None. All 4 GTC stops confirmed active (AVGO 46sh, JPM 49sh, NVDA 81sh, SLB 312sh).
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $352.54 | -2.95% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD — Q4 guide miss absorbed, stop floor active |
+| JPM | 49.522 (49 stop) | $334.00 | $358.01 | +7.19% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $225.32 | +12.73% | $213.21 (7%, 3417fd30) | $229.26 | HOLD — +15% tighten trigger approaching |
+| SLB | 317.675 (312 stop) | $53.67 | $58.71 | +9.38% | $54.41 (10%, 550e0b73) | $60.46 | HOLD |
+
+- Trades today: 0 | Trades this week: 0/7
+- BE watchlist: Pelosi primary signal active. Cash unlock needed (AVGO stop-out ~$15.6K or NVDA/SLB partial sell).
