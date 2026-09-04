@@ -9682,4 +9682,20 @@ None. No cuts, no stop changes, no new entries (cash constraint).
 - OPEC+ Sep 6 weekend event: SLB tail risk (oil supply decision)
 - NVDA +20% trigger ($239.83) = next action point. Partial sell (27 shares) at +25% ($249.83).
 - BE remains primary watchlist — capital unlock path: AVGO stop-out at $338.93
+
+---
+
+### Sep 04 - EOD Snapshot (Day 98, Friday)
+**Portfolio:** $116,626.74 | **Cash:** $8,162.32 (7.0%) | **Day P&L:** +$1,021.74 (+0.88%) | **Phase P&L:** +$16,626.74 (+16.63%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AVGO | 46.939 | $363.25 | $357.50 | +$0.34 (+0.10%) | -$269.58 (-1.58%) | $338.93 (10% trail, HWM $376.59, 7dc773a8) |
+| JPM | 49.522 | $334.00 | $358.64 | -$3.42 (-0.94%) | +$1,220.14 (+7.38%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA | 82.192 | $199.86 | $229.76 | +$1.31 (+0.57%) | +$2,457.09 (+14.96%) | $218.32 (7% trail, HWM $234.76, 3417fd30) |
+| SLB | 317.675 | $53.67 | $57.51 | +$0.10 (+0.17%) | +$1,219.91 (+7.16%) | $54.41 (10% trail, HWM $60.46, 550e0b73) |
+
+**Notes:** Good Friday close — +$1,022 (+0.88%). NVDA led (+$108 day gain) as dovish NFP (govt payrolls -53K miss) drove rate-cut expectations higher; HWM $234.76 intact, +20% partial trigger ($239.83) still pending for Sep 8. AVGO recovered slightly (+0.10%) after multi-day post-earnings selling; thesis intact at -1.58% from entry, stop $338.93 holds. JPM -0.94% intraday (soft NFP = NIM compression fear) but +7.38% unrealized — intact. SLB +0.17% flat; OPEC+ Sep 6 ministerial = weekend tail risk for oil/SLB gap on Sep 8. 3-day Labor Day weekend (Sep 5-7) — no trading Monday. Cash $8,162 (7%) still blocks new entries. Capital unlock path: AVGO stop-out (~$15.6K) or NVDA partial sell at +25% ($249.83 × 27 shares).
+
+- Trades today: 0 | Trades this week: 0/7
 - Next session: Tue Sep 9 (markets closed Mon Sep 7 — Labor Day)
