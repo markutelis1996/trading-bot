@@ -9620,3 +9620,66 @@ None. No cuts, no stop changes, no new entries.
 - BE watchlist: Pelosi $4.25M+ primary signal. Cash blocked. Unlock path: AVGO stop-out (~$15.6K) + cash = ~$23.8K → BE entry enabled.
 - NFP reaction (pre-market plan): sub-components weak (Govt -53K). Let GTC stops work. No manual overrides.
 
+
+---
+
+## 2026-09-04 - Midday Scan
+
+**Portfolio:** $116,350.93 equity | **Cash:** $8,162.32 (7.0%) | **Day P&L:** -$879 (-0.75%) | **Phase P&L:** +$16,351 (+16.35%)
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired. Clean. NVDA stop auto-trailed: HWM $231.50 → $234.755; stop $215.295 → $218.322. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) discarded — off-limits.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|----------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $355.51 | -2.13% | -0.46% | $338.931 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $359.10 | +7.51% | -0.82% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $230.25 | +15.20% | +0.79% | $218.322 (7%, 3417fd30) | $234.755 | HOLD — +20% trigger $239.83 pending |
+| SLB | 317.675 (312 stop) | $53.67 | $57.155 | +6.49% | -0.44% | $54.414 (10%, 550e0b73) | $60.46 | HOLD |
+
+### STEP 3 — Cuts
+None. AVGO worst at -2.13%; all positions above -7% threshold.
+
+### STEP 4 — Stop Tightening
+- **NVDA**: +15.20%, already on 7% trail. HWM $234.755 vs +20% trigger $239.83 — NOT reached. No action.
+- **JPM**: +7.51% — below +15% threshold ($384.10). No action.
+- **SLB**: +6.49% — below +15% threshold ($61.72). No action.
+- **AVGO**: -2.13% — no action.
+
+### STEP 5 — Thesis Check
+- **AVGO**: -0.46% intraday; continuation of post-Q3 earnings guide-miss selling. AI ASIC revenue $16.70B +221% YoY intact. Not a thesis break — expectation reset only. Stop $338.931 (5.0% below current) is the exit mechanism. **INTACT. HOLD.**
+- **JPM**: -0.82% intraday; NFP sub-components dovish → rate hike odds declining (was 55% post-Waller). Slightly negative for NIM expansion thesis but core elevated-rate environment still intact. Stop 8.2% below current. **INTACT. HOLD.**
+- **NVDA**: +0.79% intraday; new intraday HWM $234.755 (+17.5% from entry). Hugging Face acquisition ($12.9-14B) moat thesis intact. Dovish NFP = positive for growth semis (multiple expansion). +20% partial trigger at $239.83 pending. **INTACT. HOLD.**
+- **SLB**: -0.44% intraday; mild Brent pullback. CENTCOM struck IRGC Sep 1; Hormuz risk premium intact. OPEC+ ministerial Sep 6 (Sunday) = oil supply catalyst over Labor Day weekend. **INTACT. HOLD.**
+
+### STEP 6 — NFP Addendum
+- August NFP sub-components (pre-confirmed): Avg Hourly Earnings MoM 0.1% vs 0.3% est (DOVISH); Govt Payrolls -53K vs +10.5K est (MASSIVE MISS). Headline NFP weak — likely 3rd consecutive soft/negative print.
+- FOMC Sep 16 hike odds declining further. Net BULLISH for portfolio (growth names NVDA/AVGO benefit from lower rate path).
+- 3-day weekend (Labor Day Sep 7) → no action on Monday; OPEC+ Sep 6 = SLB tail risk over weekend.
+- BE (Bloom Energy) watchlist: Pelosi $4.25M+ primary signal; cash still blocked ($8,162 < $17,650 minimum).
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries (cash constraint).
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $355.51 | -2.13% | $338.931 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $359.10 | +7.51% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $230.25 | +15.20% | $218.322 (7%, 3417fd30) | $234.755 | HOLD |
+| SLB | 317.675 (312 stop) | $53.67 | $57.155 | +6.49% | $54.414 (10%, 550e0b73) | $60.46 | HOLD |
+
+- Trades today: 0 | Trades this week: 0/7
+- NFP dovish → FOMC Sep 16 hike odds declining → NVDA/AVGO beneficiaries
+- OPEC+ Sep 6 weekend event: SLB tail risk (oil supply decision)
+- NVDA +20% trigger ($239.83) = next action point. Partial sell (27 shares) at +25% ($249.83).
+- BE remains primary watchlist — capital unlock path: AVGO stop-out at $338.93
+- Next session: Tue Sep 9 (markets closed Mon Sep 7 — Labor Day)
