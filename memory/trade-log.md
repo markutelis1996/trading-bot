@@ -9570,3 +9570,53 @@ None. No cuts, no stop adjustments, no new entries (cash $8,162 < min $17,473 ne
 **Notes:** Mixed session — essentially flat (+$68/+0.06%). AVGO continued post-earnings guide-miss selling (-2.94%, now -1.68% from entry); stop $338.93 at 5.0% below close, thesis intact. NVDA +1.85% (Waller dovish catalyst, growth-positive); already on 7% trail (HWM $230.40, tighten trigger $229.84 breached). +20% partial sell trigger at $239.83 not yet reached. JPM +1.64% on softening FOMC hike odds (66%→55% after Waller). SLB -1.24% on mild Brent pullback (~$90); Hormuz supply disruption thesis intact, Kuwait contract solid. Crypto DCA sleeve gave back midday gains (BTC/ETH/SOL/LINK — read-only). 0 trades today, 0 this week. NFP Sep 4 is the next binary: positive print = hold everything and monitor NVDA $239.83 partial trigger; negative = second consecutive miss → recessionary read, evaluate risk reduction (AVGO -1.68% weakest, SLB levered to oil).
 
 - Trades today: 0 | Trades this week: 0/7
+
+## 2026-09-04 - Market-Open Session
+
+**Portfolio:** $116,478.78 equity | **Cash:** $8,162.32 (7.0%) | **Positions:** 4 | **Deployed:** ~93%
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Status |
+|--------|---------|------------|------|--------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired overnight. All 4 GTC trailing stops confirmed active. Crypto discarded — off-limits.
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 0 — cash constraint ($8,162 < $17,472 min)
+
+### STEP 1b — Live Price Re-Verification (9:31 AM ET — open auction)
+| Ticker | Entry | Live Bid | Live Ask | P&L% | Stop (GTC) | HWM | Action |
+|--------|-------|----------|----------|------|------------|-----|--------|
+| AVGO | $363.25 | $355.39 | $377.57 | ~-2.2% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | $334.00 | $357.71 | $379.70 | ~+8.5% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | $199.86 | $230.28 | $232.78 | ~+15.2% | $215.295 (7%, 3417fd30) | $231.50↑ | HOLD |
+| SLB | $53.67 | $56.87 | $56.96 | ~+6.1% | $54.414 (10%, 550e0b73) | $60.46 | HOLD |
+
+NVDA stop auto-updated: HWM $230.40 → $231.50; stop $214.27 → $215.295 (broker trailing).
+
+### STEP 3 — Hard-Rule Checks
+- Cash $8,162 < min $17,472 → **NO NEW ENTRIES**
+- No positions at/below -7% cut threshold (AVGO worst at ~-2.2%)
+- No stop tightening needed (NVDA already on 7% trail; +20% trigger $239.83 not reached at ~$231)
+- Daytrade count: 0/3 ✓ | Trades this week: 0/7
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| Ticker | Shares | Entry | Stop (GTC) | HWM | Status |
+|--------|--------|-------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $215.295 (7%, 3417fd30) | $231.50 | HOLD — +20% trigger $239.83 pending |
+| SLB | 317.675 (312 stop) | $53.67 | $54.414 (10%, 550e0b73) | $60.46 | HOLD |
+
+- Trades today: 0 | Trades this week: 0/7
+- BE watchlist: Pelosi $4.25M+ primary signal. Cash blocked. Unlock path: AVGO stop-out (~$15.6K) + cash = ~$23.8K → BE entry enabled.
+- NFP reaction (pre-market plan): sub-components weak (Govt -53K). Let GTC stops work. No manual overrides.
+
