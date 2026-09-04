@@ -9554,3 +9554,19 @@ None. No cuts, no stop adjustments, no new entries (cash $8,162 < min $17,473 ne
 - Waller dovish: FOMC Sep 16 hike odds 66%→55%. Positive for portfolio.
 - NFP Friday Sep 4 remains critical binary. Second consecutive negative = recessionary read → risk-off.
 - BE watchlist: Pelosi primary signal active. Capital unlock needed.
+
+---
+
+### Sep 03 - EOD Snapshot (Day 97, Thursday)
+**Portfolio:** $115,605 | **Cash:** $8,162 (7.1%) | **Day P&L:** +$68 (+0.06%) | **Phase P&L:** +$15,605 (+15.60%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AVGO | 46.939 | $363.25 | $357.16 | -$10.81 (-2.94%) | -$285.84 (-1.68%) | $338.93 (10% trail, HWM $376.59, 7dc773a8) |
+| JPM | 49.522 | $334.00 | $362.06 | +$5.84 (+1.64%) | +$1,389.78 (+8.40%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA | 82.192 | $199.86 | $228.45 | +$4.14 (+1.85%) | +$2,349.51 (+14.30%) | $214.27 (7% trail, HWM $230.40, 3417fd30) |
+| SLB | 317.675 | $53.67 | $57.41 | -$0.72 (-1.24%) | +$1,188.11 (+6.97%) | $54.41 (10% trail, HWM $60.46, 550e0b73) |
+
+**Notes:** Mixed session — essentially flat (+$68/+0.06%). AVGO continued post-earnings guide-miss selling (-2.94%, now -1.68% from entry); stop $338.93 at 5.0% below close, thesis intact. NVDA +1.85% (Waller dovish catalyst, growth-positive); already on 7% trail (HWM $230.40, tighten trigger $229.84 breached). +20% partial sell trigger at $239.83 not yet reached. JPM +1.64% on softening FOMC hike odds (66%→55% after Waller). SLB -1.24% on mild Brent pullback (~$90); Hormuz supply disruption thesis intact, Kuwait contract solid. Crypto DCA sleeve gave back midday gains (BTC/ETH/SOL/LINK — read-only). 0 trades today, 0 this week. NFP Sep 4 is the next binary: positive print = hold everything and monitor NVDA $239.83 partial trigger; negative = second consecutive miss → recessionary read, evaluate risk reduction (AVGO -1.68% weakest, SLB levered to oil).
+
+- Trades today: 0 | Trades this week: 0/7
