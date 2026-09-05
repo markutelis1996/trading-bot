@@ -1128,3 +1128,82 @@ Phase P&L: +$15,416 (+15.42% from $100,000 base)
 - Phase P&L: +$15,416 (+15.42%) — solid and growing lead over benchmark ✓
 
 ---
+
+## Week ending 2026-09-04
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $115,416 (Fri Aug 28 close) |
+| Ending portfolio | $116,605.23 (Fri Sep 4 close) |
+| Week return | +$1,189.23 (+1.03%) |
+| S&P 500 week | +0.1% (short 4-day week Mon Aug 31–Fri Sep 4; dovish Waller + weak NFP offset by soft economic data; Labor Day Mon Sep 7) |
+| Bot vs S&P | +0.93% outperformance |
+| Trades | 0 new entries (W:0 / L:0 / open:4 stocks) |
+| Win rate | N/A (0 closed trades this week) |
+| Best trade | NVDA +15.26% unrealized ($+2,507 from ~Aug 14 entry) |
+| Worst trade | AVGO -1.47% unrealized ($-251 from Aug 24 entry; post-earnings Q4 guide miss selling) |
+| Profit factor | N/A (no closed P&L) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| — | — | — | — | — | No closed trades this week |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| AVGO | 46.939 (46 stop) | $363.25 | $357.895 | -$251.17 (-1.47%) | $338.93 (10%, 7dc773a8) | $376.59 |
+| JPM | 49.522 (49 stop) | $334.00 | $358.64 | +$1,220.14 (+7.38%) | $329.85 (10%, 1a5b3205) | $366.50 |
+| NVDA | 82.192 (81 stop) | $199.864 | $230.36 | +$2,506.52 (+15.26%) | $218.32 (7%, 3417fd30) | $234.755 |
+| SLB | 317.675 (312 stop) | $53.67 | $57.51 | +$1,219.91 (+7.16%) | $54.41 (10%, 550e0b73) | $60.46 |
+
+Stock deployed: $71,762 / $116,605 = 61.5% (below 75-85% target; cash $8,162 insufficient for new 15% position @ $17,490 min)
+Total deployed incl. crypto DCA sleeve: $108,443 / $116,605 = 93.0%
+Crypto sleeve (read-only): BTC +25.3% / ETH +30.8% / SOL +31.2% / LINK +35.3% — cumulative unrealized +$8,209
+Phase P&L: +$16,605.23 (+16.61% from $100,000 base)
+
+### What Worked
+- AVGO Q3 earnings stop discipline held — Q4 guide miss (-0.66%) triggered -5% AH sell-off; stop $338.93 was only 2.2% away at lows; position survived and recovered to -1.47% from entry without stop firing; rule enforced correctly (do NOT move stop down)
+- NVDA trailing stop auto-trailed to new HWM without manual intervention — HWM $231.50→$234.755 across sessions; stop updated broker-side from $215.295→$218.32; system working as designed
+- Dovish macro tailwind benefited portfolio — Waller speech (Sep 3) drove FOMC Sep 16 hike odds 66%→55%; weak NFP govt payrolls (-53K) further dovish; NVDA/AVGO (growth semis) benefited from rate-path repricing
+- JPM steady compounder — +7.38% unrealized; Q2 beat thesis intact; held through dovish NFP without thesis break; stop 8.9% cushion solid
+- SLB Hormuz thesis intact into weekend — Brent ~$90-92 elevated; +7.16% unrealized; OPEC+ Sep 6 ministerial = tail risk managed by holding with stop in place (do not exit before a decision)
+- Crypto DCA sleeve cumulative gains now +$8,209 across 4 assets — BTC/ETH/SOL/LINK all appreciating; sleeve performing its role without requiring any stock-routine attention
+
+### What Didn't Work
+- 0 trades for second consecutive week — cash $8,162 is structurally insufficient for any new 15% position; BE Pelosi primary signal ($4.25M+, within 45-day window) has been actionable for 2+ weeks but entirely blocked by capital constraint
+- Stock deployment 61.5% — 6th consecutive week below 75-85% target; the crypto DCA sleeve (consuming ~30% of portfolio) is the structural driver, not poor stock selection
+- AVGO gross margin compression trend unresolved — 78.35%→74.99%→~72% guided; three-quarter declining trend is a thesis risk that needs monitoring even though AI ASIC revenue is intact
+- NVDA +20% trigger ($239.83) and +25% partial trigger ($249.83) not yet reached — stock climbed to $234.76 HWM but partial profit unlock still pending; no capital event this week
+- SLB OPEC+ Sep 6 weekend gap risk — full position held into a Sunday oil supply decision; if OPEC+ increases supply materially, SLB could gap down through stop at open Sep 9
+
+### Key Lessons
+- AVGO Q4 guide-miss earnings test: a -0.66% revenue guidance miss is NOT a thesis break for an AI semi with +221% YoY AI ASIC growth; the instinct to hold and let the stop work was correct; stop discipline only fails if you move it down in panic
+- Cash constraint is now a structural problem, not a temporary one — 6 consecutive weeks at 31-62% stock deployment with $8K cash means the portfolio CANNOT enter a new position without a stop-out or partial-profit unlock; this should be anticipated as the default state
+- Dovish macro does not solve cash constraint — even with ideal market conditions (Waller dovish, NFP miss), no entry is possible; only a broker event (stop fire or partial sell) unlocks capital
+- 3-day holiday weekends require position review before the last pre-holiday session — OPEC+ Sep 6 (Sunday) was known; the correct play was to let stops work, not exit pre-emptively
+
+### Adjustments for Next Week (Sep 8–12)
+- **NVDA +20% trigger ($239.83)**: Next action point. If crossed, re-confirm ATR > 4% of price (high-vol rule) — if so, keep 7% trail. Track HWM carefully each session.
+- **NVDA +25% trigger ($249.83)**: Sell 27 shares (1/3 of 81-share stop lot) → ~$6,745 proceeds + $8,162 cash = ~$14,907 → still below $17,490 minimum. Combine with AVGO stop-out to unlock BE entry.
+- **AVGO watch**: Three consecutive AVGO recovery sessions = thesis intact. If close falls below $346 intraday (stop $338.93 = ~2% cushion), flag for thesis re-check. Do NOT move stop down.
+- **SLB OPEC+ gap**: Check SLB at Sep 9 open vs close $57.51 vs stop $54.41. If OPEC+ raised supply materially over weekend, SLB may gap. Let stop work; do NOT pre-emptively sell.
+- **CPI Sep 11 / PPI Sep 10**: No new entries the day before binary inflation prints. Hold all positions through CPI — rate data will set FOMC Sep 16 direction.
+- **BE capital path**: AVGO stop-out (46 × $338.93 = $15,591) + cash ($8,162) = $23,753 → sufficient for BE position ($17,490 min). This is the primary unlock path. Monitor AVGO stop status daily.
+- **FOMC Sep 16**: 55% hike odds; if CPI/PPI dovish → odds fall → positive for NVDA/AVGO. Prep for either scenario. No new entries Sep 15 (day before FOMC).
+
+### Overall Grade: B
+- +1.03% vs S&P +0.1% = +0.93% outperformance; both positive ✓
+- AVGO stop discipline tested and held — Q4 guide miss absorbed without rule violation ✓
+- NVDA trailing stop auto-trailed correctly (HWM $234.755, stop $218.32) ✓
+- Dovish macro (Waller + NFP) positive for all 4 positions ✓
+- Crypto DCA sleeve cumulative gains $8,209 — sleeve operating independently as designed ✓
+- 0 trades for second consecutive week — cash constraint structural, not situational ✗
+- Stock deployment 61.5% — 6th consecutive week below 75-85% target ✗
+- BE Pelosi $4.25M+ primary signal active for 2+ weeks but untradeable — capital structurally blocked ✗
+- AVGO gross margin compression (78%→75%→72% guided) — three-quarter trend risk unresolved ✗
+- SLB OPEC+ weekend gap risk carried into closed market ✗
+- Phase P&L: +$16,605.23 (+16.61%) — growing lead over benchmark ✓
+
+---
