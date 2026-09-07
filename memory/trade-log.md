@@ -9785,3 +9785,19 @@ None.
 
 - Trades today: 0 | Trades this week: 0/7
 - Sep 8 first open trigger: NVDA ≥ $239.83 → tighten to 5% trail.
+
+---
+
+### Sep 07 - EOD Snapshot (Day 99, Monday)
+**Portfolio:** $117,343.27 | **Cash:** $6,445.95 (5.5%) | **Day P&L:** +$739.29 (+0.63%) | **Phase P&L:** +$17,343.27 (+17.34%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AVGO | 46.939 | $363.25 | $357.895 | 0.00% (mkt closed) | -$251.17 (-1.47%) | $338.93 (10% trail, HWM $376.59, 7dc773a8) |
+| JPM | 49.522 | $334.00 | $358.64 | 0.00% (mkt closed) | +$1,220.14 (+7.38%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA | 82.192 | $199.86 | $230.36 | 0.00% (mkt closed) | +$2,506.52 (+15.26%) | $218.32 (7% trail, HWM $234.755, 3417fd30) |
+| SLB | 317.675 | $53.67 | $57.51 | 0.00% (mkt closed) | +$1,219.91 (+7.16%) | $54.41 (10% trail, HWM $60.46, 550e0b73) |
+
+**Notes:** Labor Day — US equity markets closed. +$739 portfolio gain driven by crypto DCA sleeve (BTC/ETH/SOL/LINK) overnight price action; equity positions unchanged from Sep 4 close. All 4 equity GTC trailing stops confirmed active and unmodified. Cash $6,446 (5.5%) — dropped ~$1,716 from Sep 4 ($8,162), consistent with a crypto DCA purchase (crypto_dca.py tool deployed). Cash remains below 15% floor ($17,601) so no new equity entries possible. NVDA +20% partial trigger ($239.83) and +25% sell trigger ($249.83) carry into Sep 8. FOMC Sep 16 (57.5% hike odds) and PPI Sep 10 are the week's macro events.
+
+- Trades today: 0 | Trades this week: 0/3
