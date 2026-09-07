@@ -9729,3 +9729,59 @@ Clean. All 4 GTC trailing stops confirmed active via orders API.
 
 - Trades today: 0 | Trades this week: 0/7
 - Next session: Tue Sep 9 (markets closed Mon Sep 7 — Labor Day)
+
+---
+
+## 2026-09-07 - Midday Scan
+
+**Status:** US equity markets CLOSED (Labor Day). Prices are stale Sep 4 Friday close. Crypto trading normally.
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Status |
+|--------|---------|------------|------|--------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+No stops fired over 3-day Labor Day weekend. All 4 GTC trailing stops confirmed active via orders API.
+Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) discarded — off-limits to this routine.
+
+### Position Status (stale Sep 4 close prices)
+| Ticker | Shares | Entry | Last Close | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|------------|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $357.895 | -1.47% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $358.64 | +7.38% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $230.36 | +15.26% | $218.32 (7%, 3417fd30) | $234.755 | HOLD — already on 7% trail |
+| SLB | 317.675 (312 stop) | $53.67 | $57.51 | +7.16% | $54.414 (10%, 550e0b73) | $60.46 | HOLD |
+
+### STEP 3 — Cuts
+None. AVGO worst at -1.47%; all above -7% threshold.
+
+### STEP 4 — Stop Tightening
+- **NVDA** +15.26%: already on 7% trail. +20% trigger $239.83 not reached at $230.36. Market closed — no orders possible.
+- JPM +7.38%, SLB +7.16%, AVGO -1.47%: all below +15% threshold. No action.
+
+### STEP 5 — Thesis Check
+All theses intact per Sep 7 pre-market research. Key risks for Sep 8+:
+- FOMC Sep 16: 57.5% hike odds (25bps) — headwind for NVDA/AVGO; tailwind for JPM.
+- PPI Sep 10: hot print would push hike odds higher.
+- NVDA ex-dividend Sep 10 ($0.25/share, ~$20.55 total) — minor.
+- NVDA +20% trigger ($239.83) and +25% partial sell ($249.83) remain standing.
+
+### STEP 6 — Intraday Research
+Market closed. No intraday movers. No Perplexity/Tavily research needed.
+
+### Actions Taken
+None.
+
+### Open Positions
+| Ticker | Shares | Entry | Last Close | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|------------|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $357.895 | -1.47% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $358.64 | +7.38% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $230.36 | +15.26% | $218.32 (7%, 3417fd30) | $234.755 | HOLD |
+| SLB | 317.675 (312 stop) | $53.67 | $57.51 | +7.16% | $54.414 (10%, 550e0b73) | $60.46 | HOLD |
+
+- Trades today: 0 | Trades this week: 0/7
+- Sep 8 first open trigger: NVDA ≥ $239.83 → tighten to 5% trail.
