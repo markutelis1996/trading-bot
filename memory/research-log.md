@@ -10815,3 +10815,127 @@ No stops fired overnight. All 4 GTC stops confirmed active (AVGO 7dc773a8, JPM 1
 - NFP < 0 (second consecutive): WATCH stops closely at open. Do NOT manually override stops. Let GTC orders work. Do NOT chase recovery.
 - Post-NFP: If AVGO stop fires → evaluate BE entry with proceeds.
 
+
+## 2026-09-07 - Pre-market Research (Labor Day — Markets Closed; Research for Sep 8 Open)
+
+### Account Snapshot (as of Sep 4 close — markets closed today)
+- Equity: $117,780.73 | Cash: $8,162.32 (6.9%) | Long MV: $109,618.41
+- Stock deployed: $71,763 (60.9%) | Crypto sleeve: $37,866 (32.2%)
+- Phase P&L: **+$17,780.73 (+17.78%)**
+- Daytrade count: 0/3 | Trades this week: 0/7
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Diff | Cause |
+|--------|---------|------------|------|-------|
+| AVGO | 46.939 | 46.939421 | 0 | ✓ Match |
+| JPM | 49.522 | 49.521674 | 0 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | 0 | ✓ Match |
+| SLB | 317.675 | 317.674949 | 0 | ✓ Match |
+
+**Clean. No stops fired over Labor Day weekend.** All 4 GTC trailing stops confirmed active (AVGO 7dc773a8, JPM 1a5b3205, NVDA 3417fd30, SLB 550e0b73).
+
+### Position Status (prices = Sep 4 close; no live quotes available — markets closed)
+| Ticker | Shares | Entry | Last Close | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|------------|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $357.895 | -1.47% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $358.64 | +7.38% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $230.36 | +15.26% | $218.32 (7%, 3417fd30) | $234.755 | HOLD — +20% at $239.83 |
+| SLB | 317.675 (312 stop) | $53.67 | $57.51 | +7.16% | $54.41 (10%, 550e0b73) | $60.46 | HOLD |
+
+### Market Context
+- **WTI**: $90.76/bbl (Sep 4 close, -0.60% day) | **Brent**: $96.71 (Sep 6, +0.45%)
+- **S&P 500**: 7,718.60 (Sep 4 close, -0.38%) | **VIX**: 14.53 (low, stable; Sep 4)
+- **OPEC+ Sep 6 outcome**: Maintained production quotas UNCHANGED for October 2026. Pause after completing unwinding of 2023 cuts. Next meeting Oct 4. → **Oil prices supported; SLB tail risk neutral/positive. OPEC+ fear was a non-event.**
+- **US-Iran / Hormuz**: Still unresolved; Qatar force majeure; Hormuz risk premium keeping Brent elevated near $97
+- **S&P 500 futures**: ~$7,715 (flat vs Sep 4 close); September historically worst month (-1.3% avg)
+- **Note**: US equity markets CLOSED Sep 7 (Labor Day). No trading today. Resume Sep 8 Tuesday.
+
+### August NFP (Released Sep 4 — Reassessed)
+Prior midday log over-weighted dovish sub-components. Final assessment:
+- **Headline**: +162,000 vs +55,000 est → **SIGNIFICANT HAWKISH BEAT**
+- July payrolls revised upward (was reported as decline → now positive)
+- Government payrolls: -53K (dovish component)
+- Avg Hourly Earnings MoM: +0.1% vs +0.3% est (dovish wages)
+- Unemployment: 4.1%
+- **Net reading**: Hawkish headline offset by dovish wage growth. Market treated as moderately hawkish.
+- **FOMC Sep 16 hike odds**: 57.5% for 25bps hike (CME FedWatch) — up from 35.4% pre-Jackson Hole
+
+### Economic Calendar — Week of Sep 8
+- **Sep 10 (Thu)**: PPI — first major data point post-NFP; hot PPI could push hike odds higher
+- **Sep 11 (Fri)**: Employment situation / additional labor data
+- **Sep 16 (Wed)**: **FOMC rate decision** — 57.5% probability of 25bps hike. Critical event for NVDA/AVGO.
+  Current fed funds rate: 3.50–3.75%. If hiked → 3.75–4.00% = major growth stock headwind.
+
+### Earnings This Week
+- No major earnings anticipated for week of Sep 8 that affect held positions.
+- NVDA next earnings: Nov 17, 2026.
+
+### Thesis Check
+**NVDA** (+15.26%):
+- Q2 FY27 BEAT: Revenue $96.2B (+106% YoY) vs $92.3B est; EPS $2.22 vs $2.09 est
+- Q3 FY27 guidance: $108B (+89% YoY) — strong AI GPU demand; Blackwell + Vera Rubin scaling
+- Hugging Face acquisition $12.9B (Sep 3) — AI ecosystem moat strengthened
+- Ex-dividend Sep 10: $0.25/share → ~$20.55 for our 82 shares (stop auto-adjusts with price)
+- 7% trail at $218.32 (HWM $234.755); next triggers: +20% at $239.83 (tighten to 5%), +25% at $249.83 (sell 27 shares)
+- **FOMC risk**: 57.5% hike odds = headwind for high-multiple semis. If hike confirmed Sep 16, expect -3% to -5% reaction.
+- **INTACT. HOLD.** Key: GTC stop protects +9.2% from entry even at stop level.
+
+**AVGO** (-1.47%):
+- Trading range Sep 2026: $353.70–$361.83. Post-Q3 guide-miss selling continuing.
+- Median analyst PT: $528. Q3 AI ASIC revenue $16.70B +221% YoY still intact structurally.
+- Stop $338.93 is 5.3% below current. No thesis break — expectation reset only.
+- **FOMC risk**: High-multiple AI semi; hike = additional compression.
+- **INTACT. HOLD.** Capital unlock path: AVGO stop-out → $15,600 freed for BE entry.
+
+**JPM** (+7.38%):
+- Barclays Global Financial Services Conference Sep 15 (Doug Petno presenting — day before FOMC)
+- Hot NFP (+162K) = higher for longer = positive for NIM (net interest margin). FOMC hike = additional NIM benefit.
+- Stop $329.85 (HWM $366.50) = 8.0% cushion. Well above -7% cut threshold.
+- **INTACT/STRENGTHENED** by hot NFP and rate hike odds. HOLD.
+
+**SLB** (+7.16%):
+- OPEC+ maintained quotas (no new supply) = Brent remains elevated at $97
+- Hormuz crisis persists (Qatar force majeure; Iran stalemate) = geopolitical premium maintained
+- Stop $54.41 (HWM $60.46) = 5.4% cushion.
+- **INTACT. HOLD.**
+
+### Politician Signals
+- **Nancy Pelosi**: Last disclosed trade May 2026 (exercised NVDA/AAPL/AMZN options). No new $25K+ stock purchases disclosed in Aug-Sep 2026 window. No actionable signal.
+- **Ro Khanna**: Jul 23 — Toronto-Dominion Bank (TD) purchase $100K-$250K. Within 45-day window, meets $25K threshold. But TD is Canadian bank — not actionable for our US equity strategy.
+- **Josh Gottheimer**: Recent small SanDisk purchase — amount below $25K threshold.
+- **Tommy Tuberville**: Recent sells (Pfizer, NextEra Energy) — no buys.
+- **McCaul, Mast**: No disclosed trades in window per search.
+- **BE (Bloom Energy)**: Pelosi $4.25M+ signal was May 2026 — now outside 45-day window. Watchlist only.
+- **Summary**: No politician signals meeting primary or secondary catalyst criteria this session.
+
+### Trade Ideas
+- **NONE this session** — cash constraint ($8,162 < $17,650 minimum for 15% position).
+- Cannot open any new position without a capital release event.
+- Capital unlock path A: AVGO stop fires at $338.93 → ~$15,600 freed → combined $23,762 → enables BE entry
+- Capital unlock path B: NVDA reaches +25% at $249.83 → sell 27 shares → ~$6,745 freed → insufficient alone
+- Markets closed today; live quotes unavailable. No price verification possible.
+
+### Risk Factors for Sep 8
+1. **FOMC Sep 16 hike (57.5% odds)** — largest risk. If confirmed, NVDA/AVGO face 3-5% headwind; JPM benefits.
+2. **September seasonality** — historically worst month. S&P 500 avg -1.3% from 2016-2025.
+3. **Hot PPI (Sep 10)** — if above est, pushes hike odds higher; compresses NVDA/AVGO further.
+4. **NVDA ex-dividend Sep 10** — $0.25/share; price typically dips on ex-div. Stop trail auto-adjusts.
+5. **Cash constraint** — 93% total deployed; no flexibility to add positions or average down.
+6. **AVGO below water** (-1.47%) — post-Q3 guide-miss sentiment fragile; FOMC risk amplified.
+7. **Hormuz escalation** — if Iran closes strait, oil spikes → inflationary → faster rate hike path.
+
+### Sep 8 Open Action Plan
+| Trigger | Action |
+|---------|--------|
+| NVDA opens ≥ $239.83 (+20%) | Tighten to 5% trail (cancel 3417fd30, place new order) |
+| NVDA opens ≥ $249.83 (+25%) | Sell 27 shares (partial profit rule) + tighten to 5% trail |
+| AVGO opens < $338.93 | Stop auto-executes. Evaluate BE entry with proceeds. |
+| Any position -7% from entry | Manual cut per hard rule |
+| All other: | HOLD |
+
+### Decision
+**HOLD ALL — 0 new entries (cash constraint). Let GTC stops work. Watch for Sep 8 open triggers.**
+- September is historically weak; FOMC Sep 16 hike odds at 57.5% = elevated risk for growth names
+- JPM is the strongest position relative to macro backdrop (benefits from rate hike)
+- SLB supported by OPEC+ no-hike outcome
+- NVDA trail stop protects +9.2% gain even at $218.32 stop
