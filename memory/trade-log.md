@@ -9685,6 +9685,36 @@ None. No cuts, no stop changes, no new entries (cash constraint).
 
 ---
 
+## 2026-09-07 - Market-Open (Labor Day — Markets CLOSED)
+
+**Status:** US equity markets closed. No quotes available. No trades executed.
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | GTC Stop | Trail | Status |
+|--------|---------|------------|----------|-------|--------|
+| AVGO | 46.939 | 46.939421 | $338.93 (7dc773a8) | 10% | ✓ Match |
+| JPM | 49.522 | 49.521674 | $329.85 (1a5b3205) | 10% | ✓ Match |
+| NVDA | 82.192 | 82.191638 | $218.32 (3417fd30) | 7% | ✓ Match |
+| SLB | 317.675 | 317.674949 | $54.41 (550e0b73) | 10% | ✓ Match |
+
+Clean. All 4 GTC trailing stops confirmed active via orders API.
+
+### Account
+- Equity: $117,687.06 | Cash: $8,162.32 (6.9%)
+- Cash < $17,653 minimum (15% of equity) → NO new entries possible
+
+### Sep 8 Open Triggers (standing)
+| Trigger | Action |
+|---------|--------|
+| NVDA ≥ $239.83 (+20%) | Cancel 3417fd30; place 5% trail GTC (81 shares) |
+| NVDA ≥ $249.83 (+25%) | Sell 27 shares market + 5% trail on remaining 54 |
+| AVGO < $338.93 | Stop auto-executes; evaluate BE entry with proceeds |
+| Any position ≤ -7% from entry | Manual cut |
+
+- Trades today: 0 | Trades this week: 0/7
+
+---
+
 ### Sep 04 - EOD Snapshot (Day 98, Friday)
 **Portfolio:** $116,626.74 | **Cash:** $8,162.32 (7.0%) | **Day P&L:** +$1,021.74 (+0.88%) | **Phase P&L:** +$16,626.74 (+16.63%)**
 
