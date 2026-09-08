@@ -10939,3 +10939,111 @@ Prior midday log over-weighted dovish sub-components. Final assessment:
 - JPM is the strongest position relative to macro backdrop (benefits from rate hike)
 - SLB supported by OPEC+ no-hike outcome
 - NVDA trail stop protects +9.2% gain even at $218.32 stop
+
+---
+
+## 2026-09-08 - Pre-market Research
+
+### Account
+- Equity: $117,219.85
+- Cash: $6,445.95 (5.5%)
+- Long market value: $110,773.90
+- Buying power: $227,313.08 (margin)
+- Daytrade count: 0/3
+- Phase P&L: +$17,219.85 (+17.22%)
+- Trades this week: 0/7
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AVGO | 46.939 | 46.939421 | ✓ Match (fractional rounding only) |
+| JPM | 49.522 | 49.521674 | ✓ Match (fractional rounding only) |
+| NVDA | 82.192 | 82.191638 | ✓ Match (fractional rounding only) |
+| SLB | 317.675 | 317.674949 | ✓ Match (fractional rounding only) |
+
+No discrepancies. All 4 GTC trailing stops confirmed active (Sep 7 EOD verified). Crypto sleeve filtered out (BTCUSD, ETHUSD, SOLUSD, LINKUSD — not touched).
+
+### Market Context (pre-market Sep 8)
+- **WTI**: ~$89-93/bbl (Bloomberg: $89.58 at 1:22 PM Sep 7; Forbes: $92.21 at 8:26 AM Sep 7) — elevated; Iran tensions ongoing
+- **Brent**: ~$94-97/bbl
+- **S&P 500 futures (ES)**: 7,715 (-39.75 / -0.51%) — 3rd consecutive down day
+- **NQ100 futures**: 29,494 (-30.75 / -0.10%) — outperforming S&P
+- **VIX**: 15.30 (+0.77 / +5.30%) on Sep 7; Sep 4 close 14.53 — rising, still moderate
+- **CNBC headline**: "S&P 500 falls for a third day, as elevated global bond yields and oil prices weigh on market"
+- **Cause**: Aug 4 hot jobs report (+162K, July revised positive) pushed FOMC Sep 16 hike odds to 47%
+- **FOMC Sep 16**: 52% hold / 47% hike (25bps) — near coin flip. Current rate: 3.5%-3.75%
+- **Economic calendar this week**:
+  - Sep 8 (today): Consumer Credit Jul (minor; $14.17B actual)
+  - Sep 9: Chewy (CHWY) earnings AMC
+  - Sep 10: **PPI** 7:30 AM | ECB rate decision | Oracle/Macy's/Adobe earnings AMC
+  - Sep 11: **CPI** 7:30 AM | Kroger earnings
+  - Sep 16: **FOMC** 2:00 PM ET (with SEP + dot plot)
+- **Earnings BMO today**: Casey's General Stores (CASY) — not market-moving
+
+### Sector Momentum (Schwab Jul 31 2026)
+- More Favored: Financials, Healthcare, Industrials, Materials
+- Neutral: Communication Services, Consumer Staples, Energy, IT
+- Least Favored: Consumer Discretionary, Real Estate
+- YTD leaders: Energy +41.59%, Energy Equipment & Services +42.62%, IT recovering post-Q-end
+
+### Open Positions (live prices from Alpaca positions endpoint)
+| Ticker | Shares | Entry | Live Price | Unrealized P&L | Stop (GTC) | HWM | Status |
+|--------|--------|-------|------------|----------------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $362.05 | -$56 (-0.33%) | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $356.48 | +$1,113 (+6.73%) | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $232.29 | +$2,665 (+16.2%) | $218.32 (7%, 3417fd30) | $234.755 | HOLD |
+| SLB | 317.675 (312 stop) | $53.67 | $57.40 | +$1,185 (+6.95%) | $54.414 (10%, 550e0b73) | $60.46 | HOLD |
+
+**Thesis check:**
+- AVGO: JPMorgan $580 PT (Overweight), "aggressive buyers" call; AI silicon revenue +200% FY26; FY27 AI revenue >$100B target; TPU v9 Google program on track. Thesis intact. Slightly below water but well above stop.
+- JPM: Schwab rates Financials "More Favored"; rising long-term rates → stronger margins; FOMC hike = tailwind. Thesis intact.
+- NVDA: Q2 FY27 blowout — Revenue $96.2B (+106% YoY), EPS $2.22 (beat $2.09); next earnings Nov 17; Rosenblatt maintains Buy PT $390; ex-dividend Sep 10 ($0.25/share ≈ $20.55 total). Blackwell Ultra ramping, Rubin on track 2026. Thesis intact.
+- SLB: Energy Equipment & Services +42.62% YTD; WTI $89-93 elevated (Iran ongoing); Schwab rates Energy "Neutral" (not top-tier but tailwind). Thesis intact.
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Date | Disclosed | Signal |
+|------------|--------|--------|------|------|-----------|--------|
+| Ro Khanna | Multiple | 53 buys | $741K total (small lots) | Aug-Sep 2026 | Sep 7 | Below threshold (no single buy ≥$25K identified) |
+| Steve Cohen (Independent) | JPM | BUY | $175K | Sep 2026 | Sep 7 | NOT on whitelist |
+| Pelosi/McCaul/Tuberville/Gottheimer/Mast | — | — | — | — | — | No qualifying buys (≥$25K) in last 45 days |
+
+**No actionable politician signal this cycle.** Last qualifying signal was Pelosi INTC/UBER (May 29, disclosed Jun 24) — already traded INTC in July.
+
+### Live Price Verification (STEP 3d)
+No new trade ideas this session — cash constraint ($6,446) prevents opening any new position (minimum 15% × $117k = $17,550). No price verification needed for new entries.
+
+**NVDA trigger check (live price $232.29):**
+- +20% tighten trigger: $239.83 — NOT reached (also above 52-week high $236.54)
+- +25% partial sell trigger: $249.83 — NOT reached
+- Ex-dividend Sep 10: price typically dips by dividend amount; trail auto-adjusts
+
+### Trade Ideas
+**None — cash constraint.** $6,446 cash < $17,550 minimum position size.
+
+Capital unlock paths (unchanged from prior session):
+- Path A: AVGO stop fires at $338.93 → ~$15,600 freed → still insufficient for new 15% position
+- Path B: NVDA hits +25% at $249.83 → sell 27 shares → ~$6,743 freed → combined ~$13,189 → still insufficient
+- Path C: Hold until stops gradually tighten and positions partially close, freeing capital
+
+### Risk Factors
+1. **FOMC Sep 16 hike (47% odds)** — near coin flip; NVDA/AVGO headwind; JPM beneficiary
+2. **PPI Sep 10 + CPI Sep 11** — hot prints push hike odds higher; both before FOMC
+3. **S&P 500 3-day selloff** — momentum headwind; elevated bond yields competing with equities
+4. **NVDA ex-dividend Sep 10** — minor dip expected; stop trail auto-adjusts to new HWM
+5. **Iran tensions / oil $89-93** — inflation risk → accelerates rate hike path; benefits SLB
+6. **Cash constraint (5.5%)** — no dry powder; cannot average down or add positions
+7. **September seasonality** — historically weakest month for equities
+
+### Decision
+**HOLD ALL — 0 new entries.**
+- Thesis intact on all 4 positions
+- GTC trailing stops protect downside
+- FOMC + PPI + CPI uncertainty → patience > activity until Sep 16 clears
+
+**Sep 8 action items at open:**
+| Trigger | Action |
+|---------|--------|
+| NVDA ≥ $239.83 (+20% from entry) | Cancel 3417fd30, place new 5% trail GTC |
+| NVDA ≥ $249.83 (+25% from entry) | Sell 27 shares + place 5% trail GTC |
+| Any position ≤ -7% from entry | Manual cut per hard rule |
+| All else | HOLD |
