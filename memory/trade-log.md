@@ -9801,3 +9801,50 @@ None.
 **Notes:** Labor Day — US equity markets closed. +$739 portfolio gain driven by crypto DCA sleeve (BTC/ETH/SOL/LINK) overnight price action; equity positions unchanged from Sep 4 close. All 4 equity GTC trailing stops confirmed active and unmodified. Cash $6,446 (5.5%) — dropped ~$1,716 from Sep 4 ($8,162), consistent with a crypto DCA purchase (crypto_dca.py tool deployed). Cash remains below 15% floor ($17,601) so no new equity entries possible. NVDA +20% partial trigger ($239.83) and +25% sell trigger ($249.83) carry into Sep 8. FOMC Sep 16 (57.5% hike odds) and PPI Sep 10 are the week's macro events.
 
 - Trades today: 0 | Trades this week: 0/3
+
+---
+
+## 2026-09-08 - Market-Open Session
+
+**Portfolio:** $117,270.81 equity | **Cash:** $6,445.95 (5.5%) | **Phase P&L:** +$17,270.81 (+17.27%)
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AVGO | 46.939 | 46.939421 | ✓ Match |
+| JPM | 49.522 | 49.521674 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | ✓ Match |
+| SLB | 317.675 | 317.674949 | ✓ Match |
+
+Clean. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) filtered — off-limits.
+
+### Live Prices (STEP 1b re-verification)
+| Ticker | Entry | Live Price | P&L% | Stop (GTC) | HWM | -7% Cut Level |
+|--------|-------|------------|------|------------|-----|----------------|
+| AVGO | $363.25 | $365.51 | +0.62% | $338.93 (10%, 7dc773a8) | $376.59 | $337.82 |
+| JPM | $334.00 | $356.71 | +6.80% | $329.85 (10%, 1a5b3205) | $366.50 | $310.62 |
+| NVDA | $199.86 | $233.04 | +16.60% | $218.32 (7%, 3417fd30) | $234.755 | $185.87 |
+| SLB | $53.67 | $57.99 | +8.05% | $54.41 (10%, 550e0b73) | $60.46 | $49.91 |
+
+### STEP 3 — Hard Rule Checks
+- Cash $6,446 < $17,591 minimum → **NO NEW ENTRIES**
+- NVDA +20% trigger ($239.83): NOT reached at $233.04
+- NVDA +25% trigger ($249.83): NOT reached
+- -7% cuts: all clear (AVGO best worst at +0.62% above entry)
+- Daytrade count: 0/3 ✓ | Trades this week: 0/7
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| Ticker | Shares | Entry | Stop (GTC) | HWM | Status |
+|--------|--------|-------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $218.32 (7%, 3417fd30) | $234.755 | HOLD — +20% trigger $239.83, +25% partial $249.83 |
+| SLB | 317.675 (312 stop) | $53.67 | $54.41 (10%, 550e0b73) | $60.46 | HOLD |
+
+- Trades today: 0 | Trades this week: 0/7
+- Macro: FOMC Sep 16 (47% hike odds), PPI Sep 10, CPI Sep 11 — holding patience
+- Capital unlock path: AVGO stop-out ($338.93) OR NVDA +25% sell (27 shares @ $249.83)
+
