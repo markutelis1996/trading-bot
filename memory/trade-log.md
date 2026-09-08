@@ -9848,3 +9848,60 @@ None. No cuts, no stop changes, no new entries.
 - Macro: FOMC Sep 16 (47% hike odds), PPI Sep 10, CPI Sep 11 — holding patience
 - Capital unlock path: AVGO stop-out ($338.93) OR NVDA +25% sell (27 shares @ $249.83)
 
+---
+
+## 2026-09-08 - Midday Scan
+
+**Portfolio:** ~$116,938 equity | **Cash:** $6,446 (5.5%) | **Deployed (stocks):** ~61.2% | **Phase P&L:** ~+$16,938 (+16.94%)
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AVGO | 46.939 | 46.939421 | ✓ Match |
+| JPM | 49.522 | 49.521674 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | ✓ Match |
+| SLB | 317.675 | 317.674949 | ✓ Match |
+
+Clean. All 4 GTC trailing stops confirmed active. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) discarded — off-limits.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $366.40 | +0.87% | +2.38% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $355.74 | +6.51% | -0.81% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $225.80 | +12.98% | -1.98% | $218.32 (7%, 3417fd30) | $234.755 | HOLD |
+| SLB | 317.675 (312 stop) | $53.67 | $57.21 | +6.60% | -0.52% | $54.414 (10%, 550e0b73) | $60.46 | HOLD |
+
+### STEP 3 — Cuts
+None. All positions above -7% threshold.
+
+### STEP 4 — Stop Tightening
+- **AVGO** +0.87% / **JPM** +6.51% / **SLB** +6.60%: all below +15% trigger. No action.
+- **NVDA** +12.98%: already on 7% trail. +20% trigger ($239.83) not reached at $225.80 (pulled back from $233 open). No change.
+- Note: NVDA intraday high ~$234.76 (per market data) ≈ prior HWM $234.755 — broker auto-updates stop to ~$218.33. Trivial.
+
+### STEP 5 — Thesis Check
+- **AVGO**: +2.38% outperforming a down market (S&P 3rd consecutive red day). Q3 fiscal 2026 results: "profit soars on AI-driven revenue growth" (Morningstar). Initial post-earnings dip (Zacks noted "stock down after Q3" on Q4 outlook digestion) now reversing — bullish signal. AI silicon / custom TPU/XPU thesis INTACT/STRENGTHENED.
+- **JPM**: -0.81% intraday — rate-repricing; FOMC 47% hike odds squeezes NIM expectations near-term; but hike = structurally positive for bank margins. Thesis INTACT.
+- **NVDA**: -1.98% intraday — macro pressure (bond yields elevated, rate hike fear). Same risk-off pattern as Sep 4 selloff. AI GPU demand backbone unchanged. Blackwell Ultra ramping. Stop at $218.32 holds ($7.48 cushion from $225.80 = 3.3%). Thesis INTACT.
+- **SLB**: -0.52% minor pullback. WTI still elevated. Energy Equipment & Services +42% YTD. Thesis INTACT.
+
+### STEP 6 — Intraday Research
+- **AVGO +2.38% vs down market**: Q3 FY2026 earnings beat (AI-driven revenue surge); initial market reaction was "sell the news" on Q4 outlook; midday buyers stepping in = recovery. No thesis break — confirms AI silicon ramp.
+- **NVDA -1.98%**: Continuation of bond-yield-driven tech selloff (S&P 3rd red day). "Mag 7 did a split" (Morningstar) — some diverging. Not a company-specific issue.
+- No sharp unexplained moves requiring further investigation.
+
+### Actions Taken
+None.
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $366.40 | +0.87% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $355.74 | +6.51% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $225.80 | +12.98% | $218.32 (7%, 3417fd30) | $234.755 | HOLD |
+| SLB | 317.675 (312 stop) | $53.67 | $57.21 | +6.60% | $54.414 (10%, 550e0b73) | $60.46 | HOLD |
+
+- Trades today: 0 | Trades this week: 0/7
+- No ClickUp notification (no action taken)
+
