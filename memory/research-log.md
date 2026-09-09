@@ -11046,4 +11046,121 @@ Capital unlock paths (unchanged from prior session):
 | NVDA ≥ $239.83 (+20% from entry) | Cancel 3417fd30, place new 5% trail GTC |
 | NVDA ≥ $249.83 (+25% from entry) | Sell 27 shares + place 5% trail GTC |
 | Any position ≤ -7% from entry | Manual cut per hard rule |
+
+---
+
+## 2026-09-09 - Pre-market Research
+
+### Account
+- Equity: $116,783.56
+- Cash: $6,445.95 (5.5%)
+- Long market value: $110,337.61
+- Buying power: $226,107.22 (margin)
+- Daytrade count: 0/3
+- Phase P&L: +$16,783.56 (+16.78%)
+- Trades this week: 0/7
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AVGO | 46.939 | 46.939421 | ✓ Match |
+| JPM | 49.522 | 49.521674 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | ✓ Match |
+| SLB | 317.675 | 317.674949 | ✓ Match |
+
+Clean. No stops fired overnight. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) filtered — off-limits.
+
+GTC stops confirmed active: NVDA 3417fd30 ($218.32 / 7% trail, HWM $234.755) | AVGO 7dc773a8 ($338.93 / 10%) | SLB 550e0b73 ($54.414 / 10%) | JPM 1a5b3205 ($329.85 / 10%)
+
+### Open Positions (Sep 8 close / Sep 9 pre-market)
+| Ticker | Shares | Entry | Price | Unrealized | Stop (GTC) | HWM | Status |
+|--------|--------|-------|-------|------------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $369.09 | +$274 (+1.61%) | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $353.79 | +$980 (+5.93%) | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $225.81 | +$2,133 (+12.98%) | $218.32 (7%, 3417fd30) | $234.755 | HOLD |
+| SLB | 317.675 (312 stop) | $53.67 | $57.10 | +$1,090 (+6.39%) | $54.414 (10%, 550e0b73) | $60.46 | HOLD |
+
+All above -7% cut threshold. NVDA trigger checks: +20% at $239.83 — NOT reached; +25% at $249.83 — NOT reached.
+
+### Market Context (pre-market Sep 9)
+- **WTI**: ~$82-83/bbl (oilprice.com @09:08 Sep 9: $82.91 -0.63%) | **Brent**: ~$89/bbl — notable pullback from $92-97 highs earlier this week; Hormuz risk premium fading
+- **S&P 500 futures (ES Sep)**: ~7,708-7,722 (down ~0.2-0.4%); 4th consecutive down session
+- **NQ100**: ~29,565 (+0.14%) — tech slightly outperforming broader market
+- **VIX**: ~15.73 (Sep 8 close 14.53, rising); options trader paid $9M betting on Sep vol spike to VIX>22
+- **FOMC Sep 16 rate hike odds**: **60-66%** for 25bps (overnight index swaps post-Aug NFP +162K beat); current fed funds 3.50-3.75%
+
+### Economic Calendar (Sep 9)
+- MBA Mortgage Applications 7 AM (minor)
+- 10-Year Note Auction 5 PM (3-Year auction yesterday at 4.474% — hot, above prior 4.291%)
+- API Crude Oil Stock Change 8:30 PM
+- **TOMORROW Sep 10: PPI** (7:30 AM) — consensus +5.3% YoY (hot vs 4.7% prior), +0.4% MoM → if hot, FOMC hike odds could hit 70%+
+- **Sep 11: CPI** (7:30 AM) — consensus +0.4% MoM, +3.4% YoY, core +0.2% MoM (~2.4% YoY)
+- **Sep 16: FOMC** — 60-66% probability 25bps hike
+
+### Earnings Sep 9
+- **BMO**: CHWY ($0.18 EPS est), SailPoint (SAIL), Core & Main (CNM), Signet (SIG), Academy Sports (ASO) — none market-moving for held positions
+- **AMC**: AeroVironment (AVAV), American Eagle (AEO) — no impact on book
+
+### Thesis Checks
+| Ticker | Entry | Price | P&L% | Thesis | Status |
+|--------|-------|-------|------|--------|--------|
+| AVGO | $363.25 | $369.09 | +1.61% | Recovering from post-Q3 guide-miss selling. JPMorgan $580 PT, "aggressive buyers." AI silicon (TPU v9, XPU custom chips) +200% FY26; FY27 AI rev >$100B target. Kelvion data center deal expanding platform. Morgan Stanley names AVGO top pick. | INTACT |
+| JPM | $334.00 | $353.79 | +5.93% | Rate hike = NIM benefit. Financials "More Favored" (Schwab). FOMC 60-66% hike probability = structural tailwind for margins. Barclays Global Financial Services Conference Sep 15 (day before FOMC). | INTACT/STRENGTHENED |
+| NVDA | $199.86 | $225.81 | +12.98% | Q2 FY27 beat: $96.2B rev (+106% YoY), EPS $2.22. Hugging Face acquisition $12.9B (Sep 3). Blackwell Ultra ramping, Vera Rubin on track. Next earnings Nov 17. Stop protects +9.2% from entry even at $218.32 stop. FOMC hike = headwind for high-multiple growth. | INTACT |
+| SLB | $53.67 | $57.10 | +6.39% | Oil pulling back: WTI $82-83 today (was $89-93 Sep 7-8) = bearish near-term pressure. CEO sold 5,000 shares Sep 1 (minor). Kelvion deal (data center pivot = diversification). 26/30 analysts Buy, median PT $63. RSI moved out of overbought Sep 1 (bearish technical). YTD +51%. Q2 beat (EPS $0.55 vs $0.52). Oil -10% from recent highs could test stop if trend continues. | INTACT — monitoring oil |
+
+**SLB caution**: Brent pulled from $97 (Sep 7 6-week high) to ~$89 today. If Brent falls another 5% to ~$84 → WTI ~$77 → SLB could test stop at $54.414 (current $57.10 = only 4.7% above stop). Watching closely.
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Signal | Notes |
+|------------|--------|--------|-------|
+| Pelosi | — | STALE | Last disclosed buy May 2026 (INTC/UBER); >45 days ago. No new qualifying buys. |
+| McCaul | — | NONE | No qualifying buys in 30-day window |
+| Tuberville | — | SELLS | Recent Mastercard sells only |
+| Khanna | — | BELOW THRESHOLD | Ongoing small trades; none ≥$25K qualifying |
+| Gottheimer | — | MOSTLY SELLS | Net seller recent period |
+| Mast | — | NONE | No qualifying trades |
+
+**No actionable politician signals this session.** Pelosi net buys YTD ~$8M (top buyer), McCaul ~$1M — but no recent single-stock buys in window.
+
+### Live Price Verification (STEP 3d)
+No new trade ideas possible — cash $6,446 < $17,517 minimum (15% × $116,783). No price verification needed for new entries.
+
+**Notable market move (no entry due to cash constraint):**
+- **BE (Bloom Energy)**: +7.35% today — confirmed joining S&P 500 in quarterly rebalancing. Passive index buying catalyst. Previously on watchlist (Pelosi $4.25M signal, now stale >45 days). Cannot enter — cash constraint.
+
+### Trade Ideas
+**NONE. Cash constraint: $6,446 < $17,517 minimum position size.**
+
+Capital unlock paths:
+- Path A: AVGO stop fires at $338.93 → ~$15,600 freed (still insufficient alone)
+- Path B: NVDA reaches +25% at $249.83 → sell 27 shares → ~$6,743 freed (combined ~$13,189, still insufficient)
+- Path C: SLB stop fires at $54.414 (if oil continues falling) → ~$16,977 freed → combined with cash ~$23,423 → enables 1 new position
+
+### Risk Factors
+1. **FOMC Sep 16 hike (60-66%)**: NVDA/AVGO -3-5% headwind; JPM beneficiary; rate on hold/cut = reverse
+2. **PPI Sep 10 (consensus hot +5.3% YoY)**: If prints above est, hike odds could hit 70%+, add pressure on growth
+3. **CPI Sep 11**: Binary before FOMC; hot = further compression on NVDA/AVGO
+4. **4th consecutive red S&P day**: Momentum headwind; September historically weakest month (-1.3% avg)
+5. **Oil pullback**: WTI $82-83 (from $89-93) — SLB stop at $54.414 is only 4.7% below; if oil drops further, stop could trigger
+6. **Cash constraint (5.5%)**: No dry powder to defend or add positions
+7. **NVDA ex-dividend Sep 10**: $0.25/share (~$20.55 total); minor; trail auto-adjusts
+8. **10-Year Note Auction 5 PM**: Weak demand → yields spike → growth stocks hit
+
+### Decision
+**HOLD ALL — 0 new entries (cash constraint + FOMC uncertainty)**
+- All 4 positions above -7% cut threshold; all GTC stops active
+- JPM is the strongest position relative to macro backdrop (rate hike = tailwind)
+- NVDA stop at $218.32 protects +9.2% from entry
+- SLB is the position to watch: oil declining, RSI bearish, stop only 4.7% below
+- Patience through PPI (Sep 10) + CPI (Sep 11) + FOMC (Sep 16)
+
+**Sep 9 open action items:**
+| Trigger | Action |
+|---------|--------|
+| NVDA ≥ $239.83 (+20%) | Cancel 3417fd30; place 5% trail GTC (81 shares) |
+| NVDA ≥ $249.83 (+25%) | Sell 27 shares market + 5% trail on remaining 54 |
+| SLB ≤ $54.414 | Stop auto-executes; evaluate BE entry with ~$23k proceeds |
+| Any position ≤ -7% from entry | Manual cut per hard rule |
+| All other | HOLD |
 | All else | HOLD |
