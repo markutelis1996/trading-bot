@@ -9972,3 +9972,48 @@ None. No cuts, no stop changes, no new entries.
 - Trades today: 0 | Trades this week: 0/7
 - Macro: PPI Sep 10 (consensus hot +5.3% YoY), CPI Sep 11, FOMC Sep 16 (60-66% hike) — holding all
 - Capital unlock paths: AVGO stop ($338.93) | NVDA +25% partial ($249.83, 27 shares) | SLB stop ($54.414)
+
+---
+
+## 2026-09-09 - Midday Scan
+
+**Portfolio:** ~$118,136 equity | **Cash:** ~$6,446 (5.5%) | **Deployed (stocks):** ~60.5% | **Phase P&L:** ~+$18,136 (+18.14%)
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AVGO | 46.939 | 46.939421 | ✓ Match |
+| JPM | 49.522 | 49.521674 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | ✓ Match |
+| SLB | 317.675 | 317.674949 | ✓ Match |
+
+Clean. No stops fired since pre-market. Crypto (BTCUSD, ETHUSD, LINKUSD, SOLUSD) discarded — off-limits.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|----------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $364.31 | +0.29% | -1.15% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $354.91 | +6.26% | +0.40% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $224.14 | +12.15% | -0.70% | $218.32 (7%, 3417fd30) | $234.755 | HOLD — 7% trail active; +20% trigger $239.83 not reached |
+| SLB | 317.675 (312 stop) | $53.67 | $57.695 | +7.50% | +1.04% | $54.414 (10%, 550e0b73) | $60.46 | HOLD — oil recovering intraday |
+
+### STEP 3 — Cuts
+None. All positions above -7% rule (minimum +0.29%).
+
+### STEP 4 — Stop Tightening
+- AVGO +0.29%: below +15% threshold. No change.
+- JPM +6.26%: below +15% threshold. No change.
+- NVDA +12.15%: already on 7% trail (tightened at prior +15% trigger). +20% trigger = $239.83 — NOT reached at $224.14. No change.
+- SLB +7.50%: below +15% threshold. No change.
+
+### STEP 5 — Thesis Check
+- **AVGO**: -1.15% intraday pullback (pre-market $369 → $364); AI silicon/custom chip thesis unchanged. INTACT.
+- **JPM**: +0.40% intraday; financials holding well; FOMC hike odds still 60-66%; NIM tailwind thesis. INTACT.
+- **NVDA**: -0.70% intraday minor pullback from $229.88 morning peak; AI backbone thesis unchanged. INTACT.
+- **SLB**: +1.04% intraday recovery; WTI stabilizing; stop $54.414 now 5.7% below current $57.695 (was 4.7% at pre-market — improved cushion). INTACT.
+
+### Actions Taken
+None. No cuts, no stop changes.
+
+- Trades today: 0 | Trades this week: 0/7
+- Upcoming: PPI Sep 10 (hot print = FOMC hike odds ↑), CPI Sep 11, FOMC Sep 16 — holding all with stops
