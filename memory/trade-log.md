@@ -9905,3 +9905,21 @@ None.
 - Trades today: 0 | Trades this week: 0/7
 - No ClickUp notification (no action taken)
 
+---
+
+### Sep 09 - EOD Snapshot (Day 101, Wednesday)
+> Note: Sep 08 EOD was not recorded (cron missed). Yesterday baseline = Alpaca last_equity $116,603.98 (Sep 8 close).
+
+**Portfolio:** $116,823.10 | **Cash:** $6,445.95 (5.5%) | **Day P&L:** +$219.12 (+0.19%) | **Phase P&L:** +$16,823.10 (+16.82%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AVGO | 46.939 | $363.25 | $369.32 | +$0.76 (+0.21%) | +$285.12 (+1.67%) | $338.93 (10% trail, HWM $376.59, 7dc773a8) |
+| JPM | 49.522 | $334.00 | $353.79 | +$0.28 (+0.08%) | +$979.96 (+5.93%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA | 82.192 | $199.86 | $226.01 | +$0.28 (+0.12%) | +$2,148.98 (+13.08%) | $218.32 (7% trail, HWM $234.755, 3417fd30) |
+| SLB | 317.675 | $53.67 | $57.10 | $0.00 (0.00%) | +$1,089.66 (+6.39%) | $54.41 (10% trail, HWM $60.46, 550e0b73) |
+
+**Notes:** Quiet session — all four positions closed marginally green or flat (AVGO +0.21%, JPM +0.08%, NVDA +0.12%, SLB 0%). Sep 08 EOD was missed by cron. Cash $6,446 (5.5%) remains below 15% floor ($17,523), blocking new entries. Capital unlock paths: AVGO stop at $338.93 or NVDA +25% partial ($249.83, 27 shares). NVDA $226.01 — $13.82 below +20% trigger ($239.83); stays on 7% trail. No cuts, no stop-tighten triggered. PPI Sep 10 (8:30 AM ET) tomorrow; FOMC Sep 16 (47% hike odds).
+
+- Trades today: 0 | Trades this week: 0/3
+
