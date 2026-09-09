@@ -9975,6 +9975,22 @@ None. No cuts, no stop changes, no new entries.
 
 ---
 
+### Sep 09 - EOD Snapshot FINAL (Day 101, Wednesday)
+> Note: An earlier premature Sep 09 EOD ($116,823.10) was logged before today's market-open session. This is the authoritative close. Yesterday baseline = Alpaca last_equity $116,790.65 (Sep 8 official close).
+
+**Portfolio:** $115,907.69 | **Cash:** $4,798.61 (4.1%) | **Day P&L:** -$882.96 (-0.76%) | **Phase P&L:** +$15,907.69 (+15.91%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AVGO | 46.939 | $363.25 | $364.44 | -$4.12 (-1.12%) | +$56.12 (+0.33%) | $338.93 (10% trail, HWM $376.59, 7dc773a8) |
+| JPM | 49.522 | $334.00 | $354.63 | +$1.12 (+0.32%) | +$1,021.61 (+6.18%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA | 82.192 | $199.86 | $223.80 | -$1.93 (-0.86%) | +$1,967.34 (+11.98%) | $218.32 (7% trail, HWM $234.755, 3417fd30) |
+| SLB | 317.675 | $53.67 | $57.05 | -$0.05 (-0.09%) | +$1,073.78 (+6.30%) | $54.414 (10% trail, HWM $60.46, 550e0b73) |
+
+**Notes:** Market sold off into close — AVGO -1.12%, NVDA -0.86%, SLB -0.09%; only JPM +0.32% green. Portfolio -$882.96 on the day. Cash $4,799 (4.1%) well below 15% floor — no new entries possible until a position exits. NVDA stop $218.32 is 2.5% below close $223.80; tightest cushion of the four. SLB stop $54.414 is within 5% of close $57.05 — oil volatility risk. All four GTC trailing stops confirmed active. PPI prints tomorrow (Sep 10, 8:30 AM ET, consensus +5.3% YoY) — elevated rate-hike expectations likely to weigh on tech. Trades today: 0 | Trades this week: 0/3.
+
+---
+
 ## 2026-09-09 - Midday Scan
 
 **Portfolio:** ~$118,136 equity | **Cash:** ~$6,446 (5.5%) | **Deployed (stocks):** ~60.5% | **Phase P&L:** ~+$18,136 (+18.14%)
