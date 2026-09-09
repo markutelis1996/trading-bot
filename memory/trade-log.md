@@ -9923,3 +9923,52 @@ None.
 
 - Trades today: 0 | Trades this week: 0/3
 
+
+---
+
+## 2026-09-09 - Market-Open Session
+
+**Portfolio:** $117,129.67 equity | **Cash:** $6,445.95 (5.5%) | **Phase P&L:** +$17,129.67 (+17.13%)
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AVGO | 46.939 | 46.939421 | ✓ Match |
+| JPM | 49.522 | 49.521674 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | ✓ Match |
+| SLB | 317.675 | 317.674949 | ✓ Match |
+
+Clean. No stops fired overnight. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) filtered — off-limits.
+
+GTC stops confirmed active: NVDA 3417fd30 ($218.32 / 7% trail, HWM $234.755) | AVGO 7dc773a8 ($338.93 / 10%, HWM $376.59) | SLB 550e0b73 ($54.414 / 10%, HWM $60.46) | JPM 1a5b3205 ($329.85 / 10%, HWM $366.50)
+
+### Live Prices (STEP 1b re-verification — market open 09:30 ET)
+| Ticker | Entry | Ask | P&L% (entry) | Stop (GTC) | HWM | -7% Cut Level |
+|--------|-------|-----|---------------|------------|-----|----------------|
+| AVGO | $363.25 | $367.46 | +1.16% | $338.93 (10%, 7dc773a8) | $376.59 | $337.82 |
+| JPM | $334.00 | $364.12 | +9.02% | $329.85 (10%, 1a5b3205) | $366.50 | $310.62 |
+| NVDA | $199.86 | $229.88 | +15.02% | $218.32 (7%, 3417fd30) | $234.755 | $185.87 |
+| SLB | $53.67 | $59.66 | +11.16% | $54.414 (10%, 550e0b73) | $60.46 | $49.91 |
+
+### STEP 3 — Hard Rule Checks
+- Cash $6,446 < $17,569 minimum (15% × $117,130) → **NO NEW ENTRIES**
+- NVDA +15.02%: already on 7% trail (correct). +20% trigger ($239.83) NOT reached at $229.88.
+- NVDA +25% trigger ($249.83): NOT reached.
+- -7% cuts: all clear (all positions positive from entry).
+- SLB ask $59.66 — HWM $60.46 not breached; stop $54.414 active. Oil pullback concern from pre-market persists but stop holds.
+- Daytrade count: 0/3 ✓ | Trades this week: 0/7
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| Ticker | Shares | Entry | Ask | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|-----|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $367.46 | +1.16% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $364.12 | +9.02% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $229.88 | +15.02% | $218.32 (7%, 3417fd30) | $234.755 | HOLD — +20% trigger $239.83, +25% partial $249.83 |
+| SLB | 317.675 (312 stop) | $53.67 | $59.66 | +11.16% | $54.414 (10%, 550e0b73) | $60.46 | HOLD — watch oil |
+
+- Trades today: 0 | Trades this week: 0/7
+- Macro: PPI Sep 10 (consensus hot +5.3% YoY), CPI Sep 11, FOMC Sep 16 (60-66% hike) — holding all
+- Capital unlock paths: AVGO stop ($338.93) | NVDA +25% partial ($249.83, 27 shares) | SLB stop ($54.414)
