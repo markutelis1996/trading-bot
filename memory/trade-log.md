@@ -10097,3 +10097,17 @@ No Perplexity available. Known sharp moves:
 - Exits this week: 1 (NVDA stop auto-exec) | New entries this week: 0
 - Cash: $22,485 (19.7%) — now above 15% floor; 1 new position possible but macro headwinds (PPI hot suspected, FOMC Sep 16) = wait for market-open session to evaluate
 - Watch: SLB stop $54.414 (2.94% cushion); ORCL/ADBE AMC tonight for AI read-through
+
+---
+
+### Sep 10 - EOD Snapshot (Day 102, Thursday)
+**Portfolio:** $114,202.67 | **Cash:** $22,485.77 (19.7%) | **Day P&L:** -$1,434.87 (-1.24%) | **Phase P&L:** +$14,202.67 (+14.20%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| AVGO | 46.939 | $363.25 | $361.25 | -$3.13 (-0.86%) | -$93.68 (-0.55%) | $338.93 (10% trail, HWM $376.59, 7dc773a8) |
+| JPM | 49.522 | $334.00 | $353.57 | -$1.14 (-0.32%) | +$969.07 (+5.86%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA frac | 1.192 | $199.86 | $218.35 | -$5.32 (-2.38%) | +$22.03 (+9.25%) | none (fractional) |
+| SLB | 317.675 | $53.67 | $55.39 | -$1.66 (-2.91%) | +$547.96 (+3.21%) | $54.414 (10% trail, HWM $60.46, 550e0b73) ⚠️ 1.76% cushion |
+
+**Notes:** Risk-off day across the board — PPI hot print (8:30 AM ET) fueled FOMC hike fears; all 4 stock positions closed red. SLB -2.91% is the biggest mover and most dangerous: stop $54.414 is now only 1.76% below close $55.39 — any continuation of oil weakness tomorrow triggers an auto-exit at ~3.21% unrealized gain. NVDA 81-share position was already exited at midday by GTC trailing stop (+$1,498 realized); remaining 1.192 fractional shares hold +9.25% with no stop possible. JPM remains the strongest holding (+5.86% unrealized, NIM tailwind thesis intact). AVGO fractionally underwater (-0.55%) but AI silicon thesis unchanged — ORCL/ADBE AMC tonight may clarify AI cloud demand. Portfolio is 4-position with $22,486 cash (19.7%) — above 15% floor. No new entries until post-FOMC Sep 16. Trades today: 0 | Exits today: 0 (NVDA stop already captured in midday) | Trades this week: 0 new entries.
