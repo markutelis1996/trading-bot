@@ -11164,3 +11164,119 @@ Capital unlock paths:
 | Any position ≤ -7% from entry | Manual cut per hard rule |
 | All other | HOLD |
 | All else | HOLD |
+
+---
+
+## 2026-09-10 - Pre-market Research
+
+### Account
+- Equity: $115,874.34
+- Cash: $4,798.61 (4.1%)
+- Long market value: $111,075.73
+- Buying power: $218,568.73 (margin)
+- Daytrade count: 0/3
+- Phase P&L: +$15,874.34 (+15.87%)
+- Trades this week: 0/7
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AVGO | 46.939 | 46.939421 | ✓ Match |
+| JPM | 49.522 | 49.521674 | ✓ Match |
+| NVDA | 82.192 | 82.191638 | ✓ Match |
+| SLB | 317.675 | 317.674949 | ✓ Match |
+
+Clean. No stops fired overnight. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) filtered — off-limits.
+
+GTC stops confirmed active: NVDA 3417fd30 ($218.32 / 7% trail, HWM $234.755) | AVGO 7dc773a8 ($338.93 / 10%, HWM $376.59) | SLB 550e0b73 ($54.414 / 10%, HWM $60.46) | JPM 1a5b3205 ($329.85 / 10%, HWM $366.50)
+
+### Open Positions (Sep 9 close / pre-market Sep 10)
+| Ticker | Shares | Entry | Price | Unrealized | Stop (GTC) | HWM | Status |
+|--------|--------|-------|-------|------------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $362.61 | -$30 (-0.18%) | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $355.45 | +$1,062 (+6.42%) | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA | 82.192 (81 stop) | $199.86 | $222.98 | +$1,899 (+11.57%) | $218.32 (7%, 3417fd30) | $234.755 | HOLD — EX-DIV TODAY $0.25/shr |
+| SLB | 317.675 (312 stop) | $53.67 | $57.37 | +$1,175 (+6.89%) | $54.414 (10%, 550e0b73) | $60.46 | HOLD |
+
+- NVDA cushion from stop: ($222.98 - $218.32) / $222.98 = 2.09% — TIGHTEST of 4 positions
+- NVDA +20% trigger ($239.83): NOT reached. +25% partial ($249.83): NOT reached.
+- All above -7% cut threshold ✓
+
+### Market Context (pre-market Sep 10)
+- **WTI**: ~$83/bbl (oilprice.com Sep 9 close; other sources suggest $92-97 on Middle East escalation — strikes on Saudi energy sites reported overnight; use $83-95 range; bullish for SLB)
+- **Brent**: ~$89-101/bbl (range across sources; elevated on Iran/Hormuz/Saudi strikes)
+- **S&P 500 futures (ESU26)**: ~7,684 (+0.05%) — essentially flat; 4th-5th consecutive weak session
+- **NQ100**: ~29,594 (+0.19%) — tech slightly outperforming
+- **VIX**: ~16.46-16.71 (+4.71% on day) — rising; 52-week range 15.88-24.92; fear building pre-PPI
+- **FOMC Sep 16 rate hike**: 60-66% probability (25bps); JPM strategists now base case hike
+
+### Economic Calendar (Sep 10 — KEY DAY)
+- **PPI (Aug 2026)** 8:30 AM ET — THE primary catalyst today. Previous: +4.7% YoY (came in below 4.9% est in Jul). No consensus published for Aug. If hot (above 4.7%): hike odds spike to 70%+, NVDA/AVGO headwind; if cool (below 4.7%): rally in tech. Critical for all 4 positions.
+- **Continuing Claims** 8:30 AM ET (minor)
+- **Wholesale Sales MoM** 10:00 AM ET (minor)
+- **Earnings BMO**: MasterCraft Boat (MCFT), 1-800-Flowers (FLWS), Lovesac (LOVE), Endava (DAVA) — none market-moving
+- **Earnings AMC**: Oracle (ORCL, $1.78 EPS / $19.5B rev est), Adobe (ADBE, $6.20 EPS / $6.8B rev est) — MAJOR; AI cloud infrastructure read-through for AVGO/NVDA
+
+### Position Thesis Checks
+| Ticker | P&L% | Thesis | Key News | Status |
+|--------|------|--------|----------|--------|
+| AVGO | -0.18% | AI custom silicon (Google TPU v9, OpenAI Jalapeno, Meta MTIA). Q3 FY26 EPS $3.32 (+5% beat). AI rev $16.7B (+221% YoY). FY27 AI rev $115B secured, FY28 $230B. Q4 guide $34.8B (93% YoY) slightly missed $35B+ whisper → post-earnings selling. | Zacks Hold (caution). RBC $400 PT. JPMorgan $580 PT. | INTACT — AI revenue trajectory exceptional; near-term selling = entry-price risk not thesis risk |
+| JPM | +6.42% | NIM tailwind from rate hike. Q2 FY26 EPS $6.14 (+23.7%); revenue $58.02B (+27.7%). Wells Fargo raised PT $375→$390 (Aug 14). Barclays Global Financial Services Conference Sep 15. | JPM biggest single-trade bought by Steve Cohen ($175K) this month per AltIndex. | INTACT — rate hike base case confirmed by JPM own WM team |
+| NVDA | +11.57% | Q2 FY27: $96.2B rev (+106% YoY), EPS $2.22 (+6.2% beat). Blackwell Ultra ramping. Vera Rubin Q4 2026 rollout. Hugging Face acquisition $12.9B (Sep 3). Jensen Huang presenting at Goldman Sachs Communacopia today (11:50 AM ET) — intraday catalyst. | Ex-dividend today ($0.25/share; trail auto-adjusts). YTD +20.08% vs S&P +11.55%. ATH $236.54 (May 14). | INTACT — presentation today may push toward ATH |
+| SLB | +6.89% | Oil elevated (Middle East/Iran). UBS raised PT $66→$72 (Sep 9). Q2 FY26 EPS $0.55 (+6% seq). Kuwait Oil Company 7-yr contract won. YTD +51.09%. | Oil price trajectory key. If WTI holds $90+, stop cushion improves. | INTACT — monitoring oil |
+
+### Politician Signals (STEP 3b)
+| Politician | Activity | Notes |
+|------------|----------|-------|
+| Pelosi | NET SELLER past 30 days | Last buy: Bloom Energy / Intel (>45 days ago, stale). No qualifying new buys. |
+| McCaul | Active ($36.9M YTD) | No specific qualifying buys ≥$25K on single stock in last 30 days from search data |
+| Khanna | TOP BUYER this month ($741K, 53 buys) | High frequency trading; no specific large single-stock buy identified in search data |
+| Gottheimer | Not in top buyers | No qualifying signal |
+| Mast | No data | Not in results |
+| Tuberville | Historical only | Not in current data |
+
+Steve Cohen (Independent, NOT whitelist): Bought JPM $175K — we already hold JPM.
+
+**No actionable politician signals this session.** Khanna's 53 buys this month are high-frequency small positions, not the ≥$25K single-stock swing signal we require.
+
+### Live Price Verification (STEP 3d)
+Cash $4,798.61 < $17,381.15 minimum (15% × $115,874). NO new entries possible. No price checks needed for new trade ideas.
+
+### Trade Ideas
+**NONE — cash constraint ($4,799 < ~$17,381 minimum position size at 15% of equity)**
+
+Capital unlock paths (unchanged):
+| Path | Trigger | Cash Released | Sufficient? |
+|------|---------|---------------|-------------|
+| A | AVGO stop $338.93 | ~$15,600 | No (alone) |
+| B | NVDA +25% partial ($249.83), sell 27 shares | ~$5,992 | No (alone) |
+| C | SLB stop $54.414 | ~$16,980 | Combined with cash: ~$21,779 → YES |
+| D | JPM stop $329.85 | ~$16,162 | Combined with cash: ~$20,961 → YES |
+
+### Risk Factors
+1. **PPI 8:30 AM ET (TODAY)**: Binary event. Hot = FOMC hike odds 70%+ → NVDA/AVGO -3-5%; cool = rally. No position change either way — stops hold.
+2. **FOMC Sep 16 (60-66% hike)**: Overhang. JPM beneficiary; NVDA/AVGO headwind.
+3. **NVDA stop cushion only 2.09%**: If PPI is hot and market sells off, NVDA could hit stop today at $218.32. At $222.98, only $4.66 buffer. Stop on 81 shares = ~$17,682 freed.
+4. **AVGO post-earnings drift**: Stock slight negative from entry (-0.18%). Near-term selling pressure as Wall Street digests slightly-missed Q4 guide. HWM $376.59 is 3.9% above current — gap to grow.
+5. **September seasonality**: Historically weakest month for S&P (-1.3% avg). 5th consecutive down session if flat today.
+6. **Oracle/Adobe earnings AMC tonight**: Big AI cloud read-through. Oracle miss = AVGO/NVDA headwind; beat = tailwind. Watch.
+7. **Oil volatility**: WTI $83-97 range — high uncertainty. SLB stop at $54.414 is 5.2% below current $57.37.
+8. **Cash 4.1%** — no dry powder.
+
+### Action Items at Open
+| Trigger | Action |
+|---------|--------|
+| NVDA ≥ $239.83 (+20% from entry) | Cancel 3417fd30; place new 5% trail GTC (81 shares) |
+| NVDA ≥ $249.83 (+25% from entry) | Sell 27 shares market + 5% trail on remaining 54 |
+| Any position ≤ -7% from entry | Manual cut per hard rule |
+| PPI hot + NVDA breaks $218.32 | Stop auto-executes; reevaluate book |
+| All else | HOLD |
+
+### Decision
+**HOLD ALL — 0 new entries (cash constraint + PPI binary risk)**
+- PPI at 8:30 AM ET is the pivot: cool print could push NVDA toward ATH, hot print could trigger NVDA stop
+- NVDA Goldman Sachs presentation 11:50 AM ET — watch for sentiment catalyst
+- Oracle/Adobe AMC tonight — AI infrastructure read-through for AVGO and NVDA
+- All 4 GTC trailing stops confirmed active
+- JPM strongest vs macro backdrop (rate hike = tailwind)
+- NVDA tightest risk (2.09% stop cushion, ex-div today)
