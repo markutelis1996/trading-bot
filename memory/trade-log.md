@@ -10033,3 +10033,67 @@ None. No cuts, no stop changes.
 
 - Trades today: 0 | Trades this week: 0/7
 - Upcoming: PPI Sep 10 (hot print = FOMC hike odds ↑), CPI Sep 11, FOMC Sep 16 — holding all with stops
+
+---
+
+## 2026-09-10 - Midday Scan
+
+**Portfolio:** $114,359.38 equity | **Cash:** $22,485.77 (19.7%) | **Phase P&L:** +$14,359.38 (+14.36%)
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AVGO | 46.939 | 46.939421 | ✓ Match |
+| JPM | 49.522 | 49.521674 | ✓ Match |
+| NVDA | 82.192 | **1.192** | ⚠️ DISCREPANCY — stop fired |
+| SLB | 317.675 | 317.674949 | ✓ Match |
+
+**NVDA reconciliation:** Trailing stop order 3417fd30 (81 shares, 7% trail, HWM $234.755) **executed** at fill price $218.36. Remaining: 1.192 fractional shares (uncovered by integer-qty stop, no GTC stop possible on fractional). Stop removed from orders list — confirmed filled.
+
+**Realized P&L (NVDA stop):** 81 shares × ($218.36 − $199.864) = **+$1,498.18 (+9.25%)**
+
+Suspected cause: NVDA intraday decline crossed $218.32 stop trigger (HWM $234.755 × 0.93). Price recovered to $219.01 at midday — brief dip triggered stop. Rule-compliant execution.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $364.51 | +0.35% | +0.04% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $352.53 | +5.55% | -0.62% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA frac | 1.192 | $199.86 | $219.01 | +9.58% | -2.08% | none (fractional) | — | HOLD — no stop possible on fractional |
+| SLB | 317.675 (312 stop) | $53.67 | $56.065 | +4.46% | -1.73% | $54.414 (10%, 550e0b73) | $60.46 | HOLD ⚠️ 2.94% cushion |
+
+### STEP 3 — Cuts
+None. All positions above -7% rule (minimum +0.35% AVGO).
+
+### STEP 4 — Stop Tightening
+- AVGO +0.35%, JPM +5.55%, SLB +4.46%: all below +15% trigger. No action.
+- NVDA fractional: no stop possible.
+
+### STEP 5 — Thesis Check
+- **AVGO**: +0.04% intraday, essentially flat. PPI read-through neutral so far. AI silicon thesis INTACT.
+- **JPM**: -0.62% intraday minor pressure. FOMC hike probability 60-66% = NIM tailwind structurally. Barclays Conference Sep 15 upcoming. Thesis INTACT.
+- **SLB**: -1.73% intraday. WTI oil declining. Stop $54.414 only 2.94% below current $56.065 — **closest to stop of all 4 positions**. Oil direction = binary for this stop. -7% cut floor ($49.91) is well below stop; auto-stop is the protective mechanism. Thesis still holds but deteriorating slightly. MONITORING.
+- **NVDA fractional**: 1.192 shares, +9.58%. No action needed. ORCL/ADBE earnings AMC tonight = AI cloud read-through.
+
+### STEP 6 — Intraday Research
+No Perplexity available. Known sharp moves:
+- **NVDA stop fired intraday**: caused by 7% trailing stop from HWM $234.755. PPI (8:30 AM ET) likely hot → rate hike fear → tech/growth selldown crossed NVDA stop. Price recovered to $219.01.
+- **SLB -1.73%**: oil prices pullback. WTI uncertainty continues. Stop 2.94% away — watch.
+- No other sharp unexplained moves in held positions.
+
+### Actions Taken
+- **NVDA trailing stop auto-executed** (81 shares at $218.36, +$1,498 realized). Log updated.
+- No manual cuts.
+- No stop tightening.
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $364.51 | +0.35% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $352.53 | +5.55% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA frac | 1.192 | $199.86 | $219.01 | +9.58% | none | — | HOLD |
+| SLB | 317.675 (312 stop) | $53.67 | $56.065 | +4.46% | $54.414 (10%, 550e0b73) | $60.46 | HOLD ⚠️ |
+
+- Exits this week: 1 (NVDA stop auto-exec) | New entries this week: 0
+- Cash: $22,485 (19.7%) — now above 15% floor; 1 new position possible but macro headwinds (PPI hot suspected, FOMC Sep 16) = wait for market-open session to evaluate
+- Watch: SLB stop $54.414 (2.94% cushion); ORCL/ADBE AMC tonight for AI read-through
