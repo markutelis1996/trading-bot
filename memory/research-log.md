@@ -11280,3 +11280,120 @@ Capital unlock paths (unchanged):
 - All 4 GTC trailing stops confirmed active
 - JPM strongest vs macro backdrop (rate hike = tailwind)
 - NVDA tightest risk (2.09% stop cushion, ex-div today)
+
+---
+
+## 2026-09-11 - Pre-market Research
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AVGO | 46.939 | 46.939421 | ✓ Match |
+| JPM | 49.522 | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB | 317.675 | 317.674949 | ✓ Match |
+
+No discrepancies. All positions intact overnight.
+
+### Account Snapshot
+- **Equity:** $114,065.02 | **Cash:** $22,485.77 (19.7%) | **Phase P&L:** +$14,065.02 (+14.07%)
+- **Deployed:** $91,579.25 (80.3%) — within 75-85% target
+- **Cash above 15% floor:** ~$5,376 — insufficient for new position ($17,109 needed)
+- **GTC Stops active:** AVGO (7dc773a8, $338.93), SLB (550e0b73, $54.414), JPM (1a5b3205, $329.85)
+- **Daytrade count:** not flagged
+
+### Market Context
+- **WTI:** ~$95-103/bbl (conflicting sources; Sep 10 saw Brent surge to $107-109 +7.79%/day; today pulling back)
+- **Brent:** ~$107-109/bbl peak Sep 10 (Qatar Force Majeure/Hormuz tension); today ~$103-107 range
+- **S&P 500 futures:** ES1 +0.10% to +0.32%; NQ1 +0.60% — mild positive open expected
+- **VIX:** 15.72-17.71 (elevated vs prior week's ~14-15 range; MarketWatch shows 17.71 +7.59%)
+- **CPI Aug 2026:** RELEASES TODAY 8:30 AM ET. Previous: 3.4% YoY / +0.1% MoM. PPI yesterday +0.4% (hot). Consensus ~3.4%. Hot print (>3.4%) → FOMC hike odds spike from 60% → 75%+; cool print (<3.3%) → tech/growth rally.
+- **No major BMO earnings today** (HOFT, RENT, MNY — all tiny caps, non-market-moving)
+- **KEY AMC Sep 10 results (read-through):**
+  - **ORCL:** EPS $1.92 vs $1.73 est (+10.9% beat). Revenue $19.3B vs $19.13B est (beat). Booked **$30B in quarterly AI cloud contracts**. Massive. Raised full-year guidance. AI cloud infra revenue trajectory: $18B→$32B→$73B (2026→2027→2028). Article: "Oracle ups full year profit guidance." → **STRONG positive read-through for AVGO AI silicon thesis.**
+  - **ADBE:** EPS $6.13 vs $6.08 est (+0.82% beat). AH -2.21% to $243.32. Beat but guidance/freemium concerns. Neutral for AVGO.
+- **INTC premarket +28.8%:** Barron's Sep 11 confirms INTC up 28.8% premarket. Specific catalyst not identified (possible ORCL AI cloud read-through to semis, or undisclosed deal). Intel has rallied 148% YTD on foundry/AI CPU demand thesis.
+- **FOMC Sep 16:** 60% hike probability (25bps). PPI yesterday hot (+0.4%). CPI today is the decisive data point.
+- **September seasonality:** Historically weakest month for S&P 500.
+
+### Politician Signals (STEP 3b)
+| Politician | Disclosure Date | Trade Date | Ticker | Type | Size | Signal |
+|------------|----------------|------------|--------|------|------|--------|
+| Pelosi | Sep 10, 2026 | Jul 24, 2026 | INTC | Buy (stock) | $250K-$500K | Secondary |
+| Pelosi | Sep 10, 2026 | Jul 24, 2026 | INTC | Buy (stock) | $500K-$1M | Secondary |
+| Pelosi | Sep 10, 2026 | Jul 24, 2026 | BE | Buy | $1M-$5M | Watchlist — no sector momentum |
+| Pelosi | Sep 10, 2026 | Jul 24, 2026 | BE | Buy | $1M-$5M | Watchlist — no sector momentum |
+| Pelosi | Sep 10, 2026 | Jul 28, 2026 | BE | Buy | $500K-$1M | Watchlist — no sector momentum |
+| Pelosi | Sep 10, 2026 | Jul 28, 2026 | BE | Buy | $500K-$1M | Watchlist — no sector momentum |
+| Ro Khanna | Jul 30, 2026 | Jul 30, 2026 | GEHC | Buy | $1K-$15K | BELOW $25K minimum — ignore |
+| Others (McCaul, Tuberville, Mast, Gottheimer) | — | — | — | No data | — | No signal |
+
+**INTC signal analysis:** Pelosi bought $750K-$1.5M total in INTC on Jul 24 (disclosed Sep 10 = 28 days, in window). INTC is a secondary confirmation only — already up 28.8% premarket today. Entry at this level = chasing. Watchlist for pullback after open IF cash becomes available.
+
+**BE signal analysis:** Pelosi's largest recent disclosed position ($2M-$11M total across 4 tranches). Bloom Energy = fuel cell/clean energy. No clear sector momentum alignment with current book. Add to watchlist; requires (1) capital freed from existing stop execution, and (2) BE sector momentum confirmation. Cannot act today.
+
+**No actionable politician signals today** — cash constraint binds regardless.
+
+### Live Price Verification (STEP 3d)
+Alpaca quotes (EOD Sep 10 last prices — premarket data not available):
+| Ticker | Ask (EOD) | Broker current_price | Stop | Cushion |
+|--------|-----------|---------------------|------|---------|
+| AVGO | $378.04 | $358.50 | $338.93 | 5.46% |
+| JPM | $372.87 | $355.00 | $329.85 | 7.08% |
+| SLB | $58.13 | $56.01 | $54.414 | 2.82% ⚠️ |
+| NVDA frac | — | $217.89 | none | — |
+
+SLB Yahoo Finance confirms: previous close $57.05; day range $55.15-$57.28; bid $56.06. Today's low $55.15 = only 1.35% above stop of $54.414. **SLB stop is in serious intraday danger.**
+
+AVGO: ORCL AI cloud beat = major positive. Pre-market may see AVGO gap toward HWM $376.59 or higher. If AVGO reaches $376.59 × 1.10 = new HWM → stop auto-adjusts.
+
+**Cash constraint: No new positions possible today** — $5,376 available above floor vs $17,109 needed for min position size.
+
+### Trade Ideas
+**NONE — cash constraint** ($5,376 available < $17,109 minimum 15% position at current equity)
+
+**Watchlist (if capital frees up via stop execution):**
+| Ticker | Catalyst | Entry (live price unavailable premarket) | Stop | Target |
+|--------|----------|----------------------------------------|------|--------|
+| INTC | AI foundry thesis + ORCL read-through + Pelosi secondary buy | Require pullback to ~$90-95 after premarket gap | 10% below entry | 20% above entry |
+| BE | Pelosi $2M-$11M buy + clean energy policy tailwind | Need live quote + sector momentum check | 10% below | 20% above |
+
+Capital unlock triggers (unchanged from prior session):
+- SLB stop fires ($54.414) → ~$17,000 freed → sufficient for 1 new position
+- JPM stop fires ($329.85) → ~$16,200 freed → sufficient
+- AVGO stop fires ($338.93) → ~$15,600 freed → not quite sufficient alone
+
+### Position Thesis Checks
+| Ticker | Current P&L | Thesis | Key News | Status |
+|--------|------------|--------|----------|--------|
+| AVGO | ~-1.03% (at $358.50 broker EOD) | AI custom silicon (Google/OpenAI/Meta). Q3 FY26 AI rev $16.7B (+221% YoY). FY27 $115B secured. | ORCL beat confirms $30B/qtr AI cloud contracts → AI capex intact. Major positive read-through. | **INTACT — thesis reinforced** |
+| JPM | ~+6.29% | NIM tailwind from rate hikes. FOMC Sep 16 60% hike. Barclays Conference Sep 15. | Hot PPI yesterday → hike odds steady. CPI today = key. | **INTACT** |
+| NVDA frac | ~+9.03% (at $217.89) | AI backbone. Q2 FY27 $96.2B rev (+106%). Blackwell ramping. | 1.192 fractional shares, no stop possible. ORCL beat = AI tailwind. | **INTACT — no action needed** |
+| SLB | ~+4.33% (at $56.01) | Oil elevated (Hormuz tension). Kuwait Oil contract. UBS $72 PT. | Today -1.83% from yesterday close ($57.05). Day low $55.15 = 1.35% above stop. Oil volatile. | **⚠️ STOP AT RISK** |
+
+### Risk Factors
+1. **CPI 8:30 AM ET (TODAY) — HIGHEST PRIORITY:** Binary. Hot (>3.4%) → FOMC 75%+ hike odds → tech selloff (AVGO/NVDA), SLB volatility continues. Cool (<3.3%) → relief rally.
+2. **SLB stop ($54.414, 2.82% cushion):** Today's intraday low already touched $55.15 = 1.35% above stop. Any oil pullback continuation or CPI-driven energy sector selloff could trigger auto-exit at $54.414 (gain ~$2,277 realized, +4.3% from entry). Rule-compliant.
+3. **FOMC Sep 16 overhang:** 5 days away. Market increasingly pricing hike. Headwind for growth.
+4. **AVGO at -1.03% from entry:** Still slightly underwater. ORCL beat should provide lift; stop at $338.93 = 5.46% cushion (solid).
+5. **VIX elevated at 17.71:** Higher fear vs recent 14-15 baseline. September seasonality headwind.
+6. **INTC +28.8% premarket:** Broad semi/AI sector sentiment boost, but also valuation risk if catalyst unclear.
+
+### Actions at Open
+| Trigger | Action |
+|---------|--------|
+| CPI cool print + AVGO gaps to $376+ | Monitor stop auto-adjust (HWM may update) |
+| SLB breaks $55.15 and falls toward $54.41 | Stop fires automatically — log RECONCILED entry |
+| SLB stop fires → $17K cash freed | Evaluate INTC pullback entry if sector momentum confirms |
+| AVGO +15% from entry ($417.74) | Tighten trail from 10% to 7% per rules |
+| Any position at -7% from entry | Manual cut |
+| All else | HOLD |
+
+### Decision
+**HOLD ALL — 0 new entries (cash constraint)**
+- ORCL beat is the strongest positive catalyst for AVGO in weeks — AI cloud spend trajectory confirmed at $30B/qtr
+- CPI at 8:30 AM ET is today's pivot: determines FOMC trajectory for Sep 16
+- SLB is the most vulnerable position — stop likely to auto-execute if oil pulls back further
+- JPM thesis strongest relative to macro backdrop (rate hike = NIM tailwind)
+- AVGO entry slightly underwater but ORCL read-through should provide support
+- Pelosi INTC + BE buys on watchlist; no action until capital freed
