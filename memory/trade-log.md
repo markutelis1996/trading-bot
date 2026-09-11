@@ -10111,3 +10111,49 @@ No Perplexity available. Known sharp moves:
 | SLB | 317.675 | $53.67 | $55.39 | -$1.66 (-2.91%) | +$547.96 (+3.21%) | $54.414 (10% trail, HWM $60.46, 550e0b73) ⚠️ 1.76% cushion |
 
 **Notes:** Risk-off day across the board — PPI hot print (8:30 AM ET) fueled FOMC hike fears; all 4 stock positions closed red. SLB -2.91% is the biggest mover and most dangerous: stop $54.414 is now only 1.76% below close $55.39 — any continuation of oil weakness tomorrow triggers an auto-exit at ~3.21% unrealized gain. NVDA 81-share position was already exited at midday by GTC trailing stop (+$1,498 realized); remaining 1.192 fractional shares hold +9.25% with no stop possible. JPM remains the strongest holding (+5.86% unrealized, NIM tailwind thesis intact). AVGO fractionally underwater (-0.55%) but AI silicon thesis unchanged — ORCL/ADBE AMC tonight may clarify AI cloud demand. Portfolio is 4-position with $22,486 cash (19.7%) — above 15% floor. No new entries until post-FOMC Sep 16. Trades today: 0 | Exits today: 0 (NVDA stop already captured in midday) | Trades this week: 0 new entries.
+
+## 2026-09-11 - Market-Open Session
+
+**Portfolio:** $115,810.03 equity | **Cash:** $22,485.37 (19.4%) | **Phase P&L:** +$15,810.03 (+15.81%)
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| AVGO | 46.939 | 46.939421 | ✓ Match |
+| JPM | 49.522 | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB | 317.675 | 317.674949 | ✓ Match |
+
+Clean. No stops fired overnight. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) filtered — off-limits.
+
+### STEP 1b — Live Price Re-verification
+| Ticker | Entry | Ask | P&L% | Stop (GTC) | Cushion | HWM |
+|--------|-------|-----|------|------------|---------|-----|
+| AVGO | $363.25 | $364.50 | +0.34% | $338.93 (10%, 7dc773a8) | 7.01% | $376.59 |
+| JPM | $334.00 | ~$355.45 | +6.4% | $329.85 (10%, 1a5b3205) | 7.1% | $366.50 |
+| NVDA frac | $199.83 | $219.85 | +10.0% | none (fractional) | — | — |
+| SLB | $53.67 | $55.94 | +4.2% | $54.414 (10%, 550e0b73) | 2.72% ⚠️ | $60.46 |
+
+### STEP 3 — Hard Rule Checks
+- Cash $22,485 (19.4%); 15% position = $17,372 → deployment would exceed 85% cap → **NO NEW ENTRIES**
+- CPI Aug 2026 released 8:30 AM ET today (consensus ~3.4%; binary FOMC risk)
+- -7% cuts: none (all above threshold)
+- Stop tightening: none triggered (AVGO +15% = $417.74, JPM +15% = $384.10, SLB +15% = $61.72 — all not reached)
+- Trades this week: 0/7
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| Ticker | Shares | Entry | Ask | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|-----|------|------------|-----|--------|
+| AVGO | 46.939 (46 stop) | $363.25 | $364.50 | +0.34% | $338.93 (10%, 7dc773a8) | $376.59 | HOLD — ORCL AI read-through positive |
+| JPM | 49.522 (49 stop) | $334.00 | ~$355 | +6.4% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD — NIM tailwind thesis strongest |
+| NVDA frac | 1.192 | $199.83 | $219.85 | +10.0% | none | — | HOLD — no stop possible |
+| SLB | 317.675 (312 stop) | $53.67 | $55.94 | +4.2% | $54.414 (10%, 550e0b73) | $60.46 | HOLD ⚠️ 2.72% stop cushion |
+
+- Trades today: 0 | Trades this week: 0/7
+- CPI today = decisive macro catalyst. SLB stop closest to trigger.
+- Capital unlock: SLB stop ($54.414 → ~$17K cash) or JPM stop ($329.85 → ~$16K)
+
+---
