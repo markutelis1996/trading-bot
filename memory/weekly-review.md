@@ -1207,3 +1207,74 @@ Phase P&L: +$16,605.23 (+16.61% from $100,000 base)
 - Phase P&L: +$16,605.23 (+16.61%) — growing lead over benchmark ✓
 
 ---
+
+## Week ending 2026-09-12
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $116,605.23 (Fri Sep 4 close) |
+| Ending portfolio | $114,989.17 (Fri Sep 11 EOD) |
+| Week return | -$1,616.06 (-1.39%) |
+| S&P 500 week | -0.8% |
+| Bot vs S&P | -0.59% underperformance |
+| Trades | 1 (W:1 / L:0 / open:4) |
+| Win rate | 100% (1/1 closed) |
+| Best trade | NVDA +9.25% (stop auto-exec) |
+| Worst trade | N/A (only 1 closed trade; AVGO -0.41% unrealized) |
+| Profit factor | ∞ (no closed losers) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| NVDA | $199.864 | $218.36 | +$1,498.18 | +9.25% | 81 shares; 7% trailing stop auto-executed Sep 10 midday; hot PPI triggered brief dip through stop ($218.32); price recovered — whipsaw, but rule-compliant |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| AVGO | 46.939 (46 stop) | $363.25 | $361.75 | -$70.21 (-0.41%) | $338.93 (10%, 7dc773a8) | $376.59 |
+| JPM | 49.522 (49 stop) | $334.00 | $356.23 | +$1,100.80 (+6.65%) | $329.85 (10%, 1a5b3205) | $366.50 |
+| NVDA frac | 1.192 | $199.83 | $218.29 | +$22.09 (+9.23%) | none (fractional) | — |
+| SLB | 317.675 (312 stop) | $53.67 | $56.06 | +$759.28 (+4.45%) | $54.414 (10%, 550e0b73) | $60.46 |
+
+Stock deployed: $52,701 / $114,989 = 45.8% (cash $21,044 = 18.3%; post-NVDA stop auto-exec freed $17,682)
+Phase P&L: +$14,989.17 (+14.99% from $100,000 base)
+
+### What Worked
+- NVDA 7% trailing stop executed correctly — auto-fired at $218.36 on PPI-driven dip; +$1,498 realized (+9.25%); no manual intervention needed; system worked as designed
+- JPM thesis reinforced by CPI Aug — in-line print (+3.4%) sustained FOMC hike probability 60%+ → NIM tailwind thesis intact; +6.65% unrealized; strongest hold in book
+- CPI in-line (3.4%) broke 4-day losing streak on Sep 11 — no surprise, prevented further portfolio drawdown; positions recovered into close
+- ORCL AI cloud beat ($30B/qtr AI contracts booked) confirmed AVGO AI silicon thesis — major structural positive read-through; AVGO turned positive intraday Sep 11
+- SLB survived oil volatility (Brent $97→$103→$107 then pullback) without stop firing — stop $54.414 held despite intraday close calls; auto-stop is the protection mechanism
+
+### What Didn't Work
+- Portfolio -1.39% vs S&P -0.8% = underperformed benchmark by -0.59% this week
+- NVDA stop whipsawed on PPI day — 7% trail from HWM $234.755 = $218.32 trigger; intraday dip to $218.32 fired stop, price recovered to $219+; a slightly wider trail or ATR-adjusted stop would have kept the position
+- 0 new entries — 3rd consecutive week with no new positions; cash constraint structural ($21K cash but deployment at 45.8% stock — underdeployed but $17K freed by NVDA stop hasn't been deployed)
+- FOMC Sep 16 overhang suppressed market all week — 4-day losing streak Mon-Thu; sentiment headwind prevented entries even with capital available
+- SLB stop cushion 2.40% — persistent vulnerability; any oil continuation lower fires the stop; Brent unpredictable with Iran/Hormuz tension
+
+### Key Lessons
+- 7% trailing stop on NVDA correctly classified as high-vol (ATR > 4%); stop still whipsawed on a single binary macro event (PPI) — acceptable outcome per rules, not a rule error; emotional frustration post-whipsaw is expected but stop discipline > trying to time PPI
+- Cash freed by stop auto-exec ($17,682) not deployed this week due to FOMC Sep 16 blackout — this is CORRECT; do not force entries in the 2 days before FOMC; wait for Sep 17+ to evaluate new entries
+- ORCL AI cloud contracts ($30B/qtr → $73B target FY28) are the most credible external confirmation of AVGO AI ASIC thesis seen since AVGO's own earnings — thesis now double-confirmed; hold conviction
+- CPI/PPI sequential interpretation matters: PPI hot Sep 10 → rate fear → selldown; CPI in-line Sep 11 → relief → bounce; the two data points together = no new regime change; existing positions correct to hold
+
+### Adjustments for Next Week (Sep 15–19)
+- **No new entries Sep 15 (Mon)** — day before FOMC; rule: no entries within 24h of binary rate decision
+- **FOMC Sep 16 (Tue)** — 60%+ hike odds; if 25bps hike confirmed → JPM NIM thesis reinforced (HOLD/strengthen); AVGO/NVDA frac potential headwind but stops protect; SLB neutral (oil-driven not rate-driven)
+- **Post-FOMC Sep 17**: First capital deployment window this week; evaluate INTC pullback (Pelosi $750K-$1.5M buy, Jul 24) if AI foundry sector momentum supports; BE (Pelosi $4.25M+) if clean energy sector confirms
+- **SLB**: Stop $54.414, cushion 2.40% — watch oil direction post-FOMC; if Brent falls below $90 on demand fears, thesis weakens; let stop work
+- **AVGO**: +15% trigger = $417.74; not reached; AI silicon thesis now ORCL-confirmed; if FOMC hike doesn't crush semis, AVGO recovery toward HWM expected
+- **JPM Barclays Conference Sep 15**: Management commentary could reinforce NIM thesis pre-FOMC
+
+### Overall Grade: B-
+- -1.39% vs S&P -0.8% = -0.59% underperformance this week ✗
+- NVDA trailing stop executed correctly per rules (+$1,498 realized) ✓
+- Zero rule violations (no manual stop moves, no options, no forced entries) ✓
+- 3rd consecutive week 0 new entries — freed $17K cash not yet deployed ✗
+- AVGO slightly underwater (-0.41%) after Q4 guide miss drag ✗
+- SLB stop proximity continues as persistent portfolio risk ✗
+- Phase P&L: +$14,989 (+14.99%) — still positive lead over benchmark over full period ✓
+
+---
