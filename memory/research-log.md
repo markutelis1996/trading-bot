@@ -11531,4 +11531,32 @@ No new signals beyond what was captured Sep 11. Tavily returned no fresh disclos
 - AVGO re-entry possible post-FOMC if tone is neutral/dovish
 - FOMC binary at 2 PM makes pre-open entries aggressive — strongly consider waiting for post-announcement direction before sizing in
 - **Quarter-end blackout begins Sep 24. Window to add positions: Sep 16-23 (6 trading days)**
+
+---
+
+## 2026-09-16 - Afternoon Addendum (Midday Scan)
+
+### FOMC Outcome
+- **Decision:** 25bp hike to 3.75-4.00% (as expected, 92.7% market odds)
+- **Warsh tone: HAWKISH** — "This summer's inflation readings do not tell me that underlying trends have meaningfully improved." Implies further hikes possible.
+- Market reaction: broad risk-off. S&P 500 lower, dollar stronger, oil retreated.
+
+### EOG Research
+- EOG -4.96% intraday (~$153.74 → $146.12). Sector-wide crude retreat on dollar strength post-FOMC.
+- ConocoPhillips -5%, OXY -5% same session — NOT EOG-specific.
+- Scotiabank lowered EOG PT by $7 (sector adjustment, not company-specific downgrade).
+- EOG Q2 fundamentals: $8.62B revenue, $2.724B net income — strong.
+- Iran/Hormuz structural thesis unchanged. WTI retreated intraday but remains elevated.
+- **Conclusion: thesis intact. HOLD. Stop at $134.52 with 7.9% cushion.**
+
+### AVGO
+- AVGO hit -7.106% (current $337.44 vs entry $363.25). Cut per rule.
+- Post-FOMC: Warsh hawkish = growth headwind elevated. AVGO re-entry deferred — watch for stabilization above $338 if/when rate trajectory softens.
+
+### Forward View
+- FOMC hawkish = no new growth/tech entries (AVGO, NVDA adds off the table)
+- Energy sector: crude pullback today is macro/dollar-driven. Iran/Hormuz supply squeeze structural. EOG stop cushion adequate. Watch oil recovery.
+- JPM: FOMC hike is NIM tailwind — strongest thesis in book.
+- Window Sep 16-23 (before blackout): only enter on confirmed thesis + sector momentum recovery. No panic buying.
+- BE: skip for now — Warsh hawkish kills capital-intensive growth thesis near-term.
 - Trades this week: 0/7

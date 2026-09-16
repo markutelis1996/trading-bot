@@ -10283,3 +10283,51 @@ Clean. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) filtered — untouchable.
 - BE skipped (>5% above estimate, $27 spread, FOMC binary risk at 2 PM ET)
 - AVGO re-entry deferred to post-FOMC if tone neutral/dovish and price stabilizes ~$338-342
 - FOMC rate decision 2 PM ET — Warsh tone key. If dovish: consider AVGO re-entry. If hawkish: hold.
+
+---
+
+## 2026-09-16 - Midday Scan
+
+### STEP 0 — Reconciliation
+All positions match market-open log. No stop fires between sessions.
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| EOG | 111.683 | 111.683441 | ✓ Match |
+| JPM | 49.522 | 49.521674 | ✓ Match |
+| AVGO frac | 0.939 | 0.939421 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+
+Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) filtered — untouchable.
+
+### STEP 3 — Cut Losers
+- **AVGO frac: -7.106%** → cut at -7% per rule. Closed (market sell, order c93479f7, ~3:00 PM ET)
+  - Exit price: ~$337.44 | Realized P&L: ~-$24.25 (-7.1%) | 0.939421 shares
+  - No GTC stop to cancel (fractional position had none)
+
+### STEP 4 — Tighten Stops
+- EOG: -2.48% — below +15% threshold, no change
+- JPM: +4.09% — below +15% threshold, no change
+No tightening needed.
+
+### STEP 5 — Thesis Check
+- **EOG (-4.96% intraday, -2.48% unrealized):** Sector-wide crude retreat on FOMC dollar strength. ConocoPhillips -5%, OXY -5% same session. No EOG-specific news. Q2 fundamentals strong ($8.62B rev, $2.724B net income). Iran/Hormuz structural thesis intact. Stop at $134.52, cushion 7.9% from current $146.12. **HOLD.**
+- **JPM (-1.37% intraday, +4.09% unrealized):** FOMC hiked 25bp as expected — NIM expansion thesis reinforced. Intraday dip = profit-taking post-announcement. **HOLD — thesis strongest.**
+- **NVDA frac (+7.1% unrealized, +0.90% intraday):** AI thesis intact. **HOLD.**
+- **SLB frac (-1.76% unrealized, -2.72% intraday):** Oil sector weakness from FOMC dollar move. Fractional, no stop. Not at -7%. **HOLD.**
+
+### STEP 6 — Research Addendum
+FOMC: 25bp hike to 3.75-4.00% confirmed. Warsh hawkish: "inflation readings do not tell me that underlying trends have meaningfully improved" → further hikes possible. No AVGO re-entry (growth headwind). Scotiabank lowered EOG PT by $7 (sector, not EOG-specific).
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| EOG | 111.683 (111 stop) | $149.83 | $146.12 | -2.48% | $134.52 (10%, 2cf54a14) | $149.47 | HOLD — thesis intact, sector-wide crude dip |
+| JPM | 49.522 (49 stop) | $334.00 | $347.66 | +4.09% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD — FOMC hike = NIM tailwind |
+| NVDA frac | 1.192 | $199.83 | $214.08 | +7.13% | none (fractional) | — | HOLD |
+| SLB frac | 5.675 | $53.67 | $52.73 | -1.75% | none (fractional) | — | HOLD |
+
+- AVGO frac EXITED: ~$337.44, -$24.25 (-7.1%), "cut at -7% per rule"
+- Trades today: 1 (EOG buy, morning) + 1 exit (AVGO) | Trades this week: 1/7 new entries
+- AVGO re-entry: deferred — Warsh hawkish, growth headwind elevated
