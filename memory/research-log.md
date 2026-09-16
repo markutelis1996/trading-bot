@@ -11397,3 +11397,138 @@ Capital unlock triggers (unchanged from prior session):
 - JPM thesis strongest relative to macro backdrop (rate hike = NIM tailwind)
 - AVGO entry slightly underwater but ORCL read-through should provide support
 - Pelosi INTC + BE buys on watchlist; no action until capital freed
+
+## 2026-09-16 - Pre-market Research
+
+### Account Snapshot
+- Equity: $111,666.10
+- Cash: $53,603.21
+- Long market value: $58,062.89 (stocks + crypto combined)
+- Buying power: $265,905.86 (margin-based, not using leverage)
+- Daytrade count: 0/3
+- Phase P&L: +$11,666.10 (+11.67%) vs ~$100K start
+- vs S&P 500 YTD: ~+12% → slightly lagging benchmark
+
+### STEP 0 — Reconciliation (MANDATORY)
+Comparing last "Open Positions" (Sep 11 EOD) vs broker state (Sep 16 pre-market):
+
+| Ticker | Log Qty | Broker Qty | Status | Cause | Est. Realized P&L |
+|--------|---------|------------|--------|-------|-------------------|
+| AVGO | 46.939 | 0.939421 | ⚠️ 46 shares EXITED | GTC trailing stop 7dc773a8 GONE from orders — stop fired during Sep 14-15 dip through $338.93 | ≈ -$1,119 (46 × $338.93 fill - $363.25 entry) |
+| SLB | 317.675 | 5.674949 | ⚠️ 312 shares EXITED | GTC trailing stop 550e0b73 GONE from orders — SLB current $54.22 < old stop $54.414, confirmed fired | ≈ +$232 (312 × $54.414 fill - $53.67 entry) |
+| JPM | 49.522 | 49.521674 | ✓ Match | — | — |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match | — | — |
+| Crypto (BTC/ETH/SOL/LINK) | — | — | SKIP | Untouchable crypto sleeve | — |
+
+**Net reconciliation P&L: ≈ -$887 (AVGO stop loss partially offset by SLB gain)**
+
+Both exits were rule-compliant GTC trailing stops. No unauthorized changes. Portfolio went from 4-stock book to effectively 1 main stock position (JPM), severely underdeployed.
+
+### Open Positions (post-reconciliation)
+| Ticker | Shares | Entry | Last Price (AH Sep 15) | P&L% | Stop (GTC) | Status |
+|--------|--------|-------|----------------------|------|------------|--------|
+| JPM | 49.522 (49 stop) | $334.00 | ~$350 (broker AH bp $332.50) | +4.8% | $329.85 trail (1a5b3205, HWM $366.50) | HOLD |
+| AVGO frac | 0.939 | $363.25 | ~$356.70 (AH ask) | -1.8% | none (fractional) | HOLD |
+| NVDA frac | 1.192 | $199.83 | ~$213.59 (broker) | +6.9% | none (fractional) | HOLD |
+| SLB frac | 5.675 | $53.67 | $54.22 (broker) | +1.0% | none (fractional) | HOLD |
+
+**Stock deployment: ~$18,390 / ~$71,980 non-crypto equity = 25.5% → SEVERELY UNDERDEPLOYED (target 75-85%)**
+Gap to fill: need ~$35K-$46K more in stock positions (2-3 new entries at 15% each)
+
+### Market Context
+- **FOMC (TODAY Sep 16 ~2 PM ET):** Rate decision + Warsh press conference. Goldman, JPMorgan, HSBC, Deutsche Bank ALL expect 25bp hike to 3.75-4.00%. Market odds: 88-89%. This is the biggest event today. Key is Warsh's tone: "one and done" = relief rally; "more hikes ahead" = selloff in growth/tech.
+- **S&P 500 futures:** -0.52% premarket (ES1 7,688.75, down 38.50). Nasdaq -0.70%. Dow -0.82%. Broad risk-off ahead of FOMC.
+- **WTI:** ~$100-103/bbl (day range $98.48-$104.46). Iran/Hormuz risk premium embedded. Brent ~$108/bbl (Sep 15 close).
+- **VIX:** 17.68 (up 3.39% on Sep 15). Range 16.79-18.03. Elevated vs recent 14-15 baseline. September seasonality headwind.
+- **10-yr Treasury:** ~4.80% (closing in on 5% — compressing growth stock multiples)
+- **No notable earnings BMO today.** Lennar (LEN) reports AMC. Carnival (CCL) reports tomorrow BMO.
+- **Economic calendar:** FOMC rate decision only significant release today (2 PM ET)
+- **S&P 500 YTD ~+12%** (pulled back ~2% from Aug all-time high)
+
+### Sector Momentum YTD 2026
+| Rank | Sector | YTD | Notes |
+|------|--------|-----|-------|
+| 1 | Energy | +15.9% | Iran/Hormuz oil >$100 sustained |
+| 2 | Industrials | +12-15% | AI data center buildout, defense spending |
+| 3 | Materials | +11.7% | Commodity tailwind |
+| 4 | Consumer Staples | +11.3% | Defensive bid |
+| — | Financials | +10.2% YTD (JPM) | Rate hike = NIM tailwind |
+| — | Tech | -3.4% early YTD, now recovering via AI semis | Mixed — rate headwind vs AI tailwind |
+
+### Politician Signals (STEP 3b)
+No new signals beyond what was captured Sep 11. Tavily returned no fresh disclosures in last 45 days beyond:
+
+| Politician | Disclosure Date | Ticker | Type | Size | Signal |
+|------------|----------------|--------|------|------|--------|
+| Pelosi | Sep 10, 2026 | INTC | Buy | $750K-$1.5M | Secondary — price already ran +28.8% premarket Sep 11 |
+| Pelosi | Sep 10, 2026 | BE | Buy | $2M-$11M | Watchlist — now has capital freed to act; AI power demand catalyst |
+
+**Status:** No new whitelist politician signals this period. BE remains watchlist from prior session — now capital is available to act.
+
+### Live Price Verification (STEP 3d) — AH Sep 15 quotes (premarket open unavailable)
+| Ticker | AH Ask (Sep 15 close) | AH Bid | HWM/Stop | Notes |
+|--------|-----------------------|--------|-----------|-------|
+| JPM | no ask | $332.50 | Stop $329.85 | AH illiquid; use with caution |
+| AVGO | $356.70 | $321.71 | — (frac, no stop) | Very wide AH spread |
+| BE | $274.59 | $246.24 | — | Wide AH spread; use midpoint ~$260 for sizing estimate |
+| EOG | $160.48 | $144.22 | — | Wide AH spread; use midpoint ~$152 |
+| VLO | $412.12 | $378.33 | — | Wide AH spread; use midpoint ~$395 |
+
+**NOTE: All prices are AH/stale. DO NOT execute based on these prices. Market-open session must re-verify live ask at 9:30 AM ET.**
+
+### Trade Ideas (2-3 actionable — pending post-FOMC price confirmation at market-open)
+
+**Idea 1: EOG Resources (EOG) — Energy sector, oil >$100 momentum**
+- Catalyst: Energy sector #1 YTD momentum (+15.9%); WTI >$100 on Iran/Hormuz supply disruptions; Saudi East-West pipeline threatened by Houthis; OPEC sees demand growth. Structural oil supply shortage.
+- Sector momentum: ✓ Energy #1 YTD
+- Rate-hike sensitivity: LOW — commodity play, benefits from inflationary environment
+- AH midpoint price: ~$152; stop 10% below = $136.80; target 20% above = $182.40; R:R 2:1 ✓
+- Sizing: 15% of equity = $16,750 → ~110 shares at $152 (integer: 110 shares)
+- **WAIT for live open price at market-open session**
+- Risk: Oil could pull back if FOMC hike triggers dollar strength; Iran ceasefire speculation
+
+**Idea 2: Bloom Energy (BE) — AI power demand, Pelosi secondary signal**
+- Catalyst: AI data center power demand (fuel cells) — Q2 2026 revenue +165.5% YoY; 2026 guidance $3.9-4.2B (100% growth); non-GAAP op income $239.6M vs $28.6M year ago. Pelosi $2M-$11M buy (secondary signal). Zacks Rank #1 (Strong Buy). Yacks article tags alongside JPM + EOG specifically for FOMC-week.
+- Sector: Industrials/Utilities (Schwab "More Favored")
+- Rate-hike sensitivity: MODERATE — capital-intensive but company-specific catalyst offsets rate headwinds (AI power demand secular)
+- AH midpoint price: ~$260; stop 10% = $234; target 20% = $312; R:R 2:1 ✓
+- Sizing: 15% of equity = $16,750 → ~64 shares at $260 (integer: 64 shares)
+- **WAIT for live open price + require spread to narrow before entry**
+- Risk: Wide AH spread suggests limited pre-market conviction; volatile stock; Pelosi disclosure lag 30-45 days
+
+**Idea 3: AVGO re-entry**
+- Thesis intact: Q3 FY26 beat ($29.6B rev, +86% YoY), AI rev $58B FY26 → $115B FY27 → $230B FY28. OpenAI custom chip "jalapeño" = positive for AVGO. Morgan Stanley top pick.
+- Stop-out was price-driven (dip through $338.93), not thesis-driven.
+- Current broker price: $340.98. If FOMC hike + growth pressure → could dip again. Wait for post-FOMC entry opportunity around $338-342 zone.
+- AH ask $356.70 suggests partial recovery. If price stabilizes above $338, consider re-entry.
+- Entry: ~$341 (to be confirmed at open); stop 10% = $306.90; target 20% = $409.20; R:R 2:1 ✓
+- Sizing: 15% of equity = $16,750 → 49 shares at $341 (integer: 49 shares, matching JPM integer discipline)
+- **LOWER PRIORITY than EOG and BE today due to FOMC growth headwind**
+
+### Risk Factors
+1. **FOMC hike 2 PM ET (HIGHEST):** 89% probability 25bp. Warsh tone = market pivot. Hawkish = selloff in tech (AVGO re-entry thesis challenged); relief rally in financials (JPM). If hold = surprise relief rally across growth.
+2. **10-yr at 4.80% → 5%:** Multiple compression ongoing for growth names. AVGO/NVDA most vulnerable.
+3. **SEVERELY UNDERDEPLOYED (25.5%):** Risk of missing recovery if FOMC is dovish. Need 2-3 new entries to get to 75%+ deployed.
+4. **September seasonality:** Historically weakest month. VIX at 17.68 elevated.
+5. **SLB re-entry:** SLB at $54.22 (below old stop $54.414). Oil still >$100 but SLB underperformed oil. Do NOT re-enter SLB — stock-specific weakness.
+6. **Quarter-end blackout:** Starts Sep 24 (5 trading days before Sep 30). Today Sep 16 = 6 sessions before blackout. Window to add positions is NOW through Sep 23.
+
+### Actions at Open (market-open session)
+| Trigger | Action |
+|---------|--------|
+| Market open — get live quotes for EOG, BE | Re-verify against AH estimates above |
+| EOG live price stable (~$152 ±5%) + energy sector green | **BUY EOG: 110 shares market/limit** |
+| BE live price stable (~$260 ±10%) + spread narrow | **BUY BE: 64 shares market/limit** |
+| Post-FOMC 2 PM — Warsh dovish/neutral tone | Consider AVGO re-entry 49 shares ~$341 |
+| JPM drops toward $329.85 stop | Stop fires — log RECONCILED entry |
+| FOMC surprise hike >25bp or very hawkish | HOLD all, wait |
+
+### Decision
+**RESEARCH 2 targets: EOG (primary) + BE (secondary). HOLD JPM. Defer all entries to market-open session with live price confirmation.**
+
+- Energy (EOG) is the cleanest FOMC-resistant play with sector #1 momentum and oil >$100 structural support
+- BE is higher risk/reward with AI power demand secular tailwind + Pelosi secondary buy signal
+- AVGO re-entry possible post-FOMC if tone is neutral/dovish
+- FOMC binary at 2 PM makes pre-open entries aggressive — strongly consider waiting for post-announcement direction before sizing in
+- **Quarter-end blackout begins Sep 24. Window to add positions: Sep 16-23 (6 trading days)**
+- Trades this week: 0/7
