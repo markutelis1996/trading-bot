@@ -10229,3 +10229,57 @@ None.
 | SLB | 317.675 | $53.67 | $56.06 | +$0.05 (+0.09%) | +$759.28 (+4.45%) | $54.414 (10% trail, HWM $60.46, 550e0b73) ⚠️ 2.40% cushion |
 
 **Notes:** CPI Aug 2026 printed +3.4% YoY (in-line with consensus) — no shock, mild risk-on. All 4 stock positions closed green on the day. JPM remains the strongest holding (+6.65% unrealized); NIM tailwind thesis reinforced by elevated FOMC rate hike odds for Sep 16. SLB ended +0.09% but stop cushion remains thin at 2.40% — any continued oil weakness next week risks auto-exit. AVGO slightly underwater (-0.41%) but ORCL AI cloud read-through ($30B/qtr) supports the AI silicon thesis. NVDA fractional (1.192 sh) has no stop but negligible exposure. Portfolio 81.7% deployed vs 75-85% target — appropriately positioned. No new entries today (cash 18.3%; 85% deployment cap already near; FOMC Sep 16 binary risk). Trades today: 0 | Exits today: 0 | Trades this week: 0. Week closes with 0/7 trade slots used. Monday Sep 15: hold all positions; no new entries ahead of FOMC. If SLB stops out, ~$17K freed for post-FOMC deployment.
+
+---
+
+## 2026-09-16 - Market-Open Session
+
+**Portfolio:** $111,558.91 equity | **Cash:** $53,603.21 (48.0%) | **Phase P&L:** +$11,558.91 (+11.56%)**
+
+### STEP 0 — Reconciliation
+Pre-market session (2026-09-16) already captured all discrepancies. Current broker state matches post-reconciliation log:
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| JPM | 49.522 | 49.521674 | ✓ Match |
+| AVGO frac | 0.939 | 0.939421 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+
+Clean. Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) filtered — untouchable.
+
+### STEP 1b — Price Re-verification
+| Ticker | AH Estimate | Live Ask (9:30 AM) | Move | Decision |
+|--------|-------------|-------------------|------|----------|
+| EOG | ~$152 | $150.02 | -1.3% | ✓ Execute |
+| BE | ~$260 | $282.45 | +8.6% | ✗ Skip — >5% move + wide $27 spread + FOMC risk |
+| AVGO | ~$341 | $359.87 | +5.5% | ✗ Skip — above target zone, FOMC growth headwind |
+
+### STEP 3 — Hard-check (EOG)
+- Stock positions after trade: 5 ≤ 8 (learning mode) ✓
+- Trades this week: 0+1=1 ≤ 7 ✓
+- Position cost: $16,734 = 15.0% of $111,559 ✓
+- Catalyst: Energy #1 YTD (+15.9%), WTI >$100 Iran/Hormuz supply squeeze, rate-hike insensitive commodity ✓
+- Daytrade count: 0/3 ✓
+- Sector concentration: Energy 15%, Financials 15.6% — both well under 60% cap ✓
+- Quarter-end blackout Sep 24 — window open Sep 16-23, reason to act now ✓
+
+### Trade Executed
+
+| Date | Ticker | Side | Shares | Entry | Stop | Target | R:R | Thesis |
+|------|--------|------|--------|-------|------|--------|-----|--------|
+| 2026-09-16 | EOG | BUY | 111.683 (111 stop) | $149.83 | $134.415 (10% trail, 2cf54a14, HWM $149.35) | $179.80 (+20%) | ~2:1 | Energy #1 YTD sector momentum; WTI >$100 Iran/Hormuz; rate-hike insensitive; Q-end blackout approaching Sep 24 |
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| EOG | 111.683 (111 stop) | $149.83 | $149.48 | -0.2% | $134.415 (10%, 2cf54a14) | $149.35 | NEW — energy sector momentum |
+| JPM | 49.522 (49 stop) | $334.00 | $354.03 | +6.0% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD — NIM tailwind strongest |
+| AVGO frac | 0.939 | $363.25 | $340.56 | -6.2% | none (fractional) | — | HOLD — AI silicon thesis intact |
+| NVDA frac | 1.192 | $199.83 | $213.98 | +7.1% | none (fractional) | — | HOLD |
+| SLB frac | 5.675 | $53.67 | $53.705 | +0.07% | none (fractional) | — | HOLD |
+
+- Trades today: 1 | Trades this week: 1/7
+- BE skipped (>5% above estimate, $27 spread, FOMC binary risk at 2 PM ET)
+- AVGO re-entry deferred to post-FOMC if tone neutral/dovish and price stabilizes ~$338-342
+- FOMC rate decision 2 PM ET — Warsh tone key. If dovish: consider AVGO re-entry. If hawkish: hold.
