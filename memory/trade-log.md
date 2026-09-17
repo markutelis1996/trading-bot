@@ -10345,3 +10345,38 @@ FOMC: 25bp hike to 3.75-4.00% confirmed. Warsh hawkish: "inflation readings do n
 
 **Notes:** No trades today. Reconciliation clean — all 4 stock positions match broker exactly; 2 GTC stops confirmed active (EOG 2cf54a14, JPM 1a5b3205). All four names closed green intraday (+0.36% to +0.99%). JPM strongest holding (+4.85% unrealized); NIM expansion thesis reinforced by FOMC 25bp hike Sep 16. EOG -2.32% unrealized — sector-wide crude pressure post-FOMC dollar strength; stop $134.52 has 8.1% cushion; thesis intact (WTI >$100, Iran/Hormuz). NVDA frac (+7.94%) and SLB frac (-2.12%) are negligible, no stops possible. Stock deployment ~30.7% of equity (or ~49% of non-crypto capital) — well below 75-85% target; crypto DCA sleeve ($42,067) accounts for rest of long market value. Trades this week: 1 (EOG Sep 16). Quarter-end blackout begins Sep 24 — 5 trading days remain to add positions.
 - AVGO re-entry: deferred — Warsh hawkish, growth headwind elevated
+
+---
+
+## 2026-09-17 - Market Open
+
+### STEP 0 — Reconciliation
+All positions match EOD snapshot exactly. No overnight stop-outs.
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| EOG | 111.683 (111 stop) | 111.683441 | ✓ Match |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+### Trade Executed
+
+| Date | Ticker | Side | Shares | Entry | Stop | Target | R:R | Thesis |
+|------|--------|------|--------|-------|------|--------|-----|--------|
+| 2026-09-17 | INTC | BUY | 157.163 (157 stop) | $106.516 | $95.94 (10% trail, 7c522387, HWM $106.60) | $127.82 (+20%) | ~2:1 | Pelosi $750K-$1.5M buy Jul 24 (filed Aug 21 ✓) + SK Hynix foundry talks Reuters Sep 16 (Ohio campus memory chip mfg) + Melius Buy $165 PT + Q1 FY26 EPS massive beat ($0.29 vs $0.01 est). Gap 4.70% (≤5% ✓). |
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| EOG | 111.683 (111 stop) | $149.83 | $144.66 | -3.45% | $134.52 (10%, 2cf54a14) | $149.47 | HOLD — Saudi pipeline double supply shock |
+| JPM | 49.522 (49 stop) | $334.00 | $350.71 | +5.00% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD — NIM expansion strongest thesis |
+| INTC | 157.163 (157 stop) | $106.516 | $106.555 | +0.04% | $95.94 (10%, 7c522387) | $106.60 | NEW — Pelosi + SK Hynix catalyst |
+| NVDA frac | 1.192 | $199.83 | $217.70 | +8.94% | none (fractional) | — | HOLD |
+| SLB frac | 5.675 | $53.67 | $52.67 | -1.86% | none (fractional) | — | HOLD |
+
+- Trades today: 1 | Trades this week: 2/7
+- BE skipped (spread $24.79 = 8.3% — untradeable; secondary conviction anyway)
+- Account equity: $111,683 | Cash: ~$18,524 (after INTC buy) | Stock deployed: ~$50,183 (~45% equity)
+- Q-end blackout Sep 24 — 4 trading sessions remain to add more positions
