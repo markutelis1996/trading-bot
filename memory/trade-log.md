@@ -10380,3 +10380,57 @@ All positions match EOD snapshot exactly. No overnight stop-outs.
 - BE skipped (spread $24.79 = 8.3% — untradeable; secondary conviction anyway)
 - Account equity: $111,683 | Cash: ~$18,524 (after INTC buy) | Stock deployed: ~$50,183 (~45% equity)
 - Q-end blackout Sep 24 — 4 trading sessions remain to add more positions
+
+---
+
+## 2026-09-17 - Midday Scan
+
+### STEP 0 — Reconciliation
+All positions match market-open log exactly. No stop fires since open.
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| EOG | 111.683 (111 stop) | 111.683441 | ✓ Match |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| INTC | 157.163 (157 stop) | 157.162614 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+
+Crypto (BTCUSD, ETHUSD, SOLUSD, LINKUSD) filtered — untouchable.
+
+### STEP 3 — Cut Losers
+No positions at or below -7%. No cuts.
+
+| Ticker | Current | P&L% | Action |
+|--------|---------|------|--------|
+| EOG | $144.86 | -3.32% | HOLD |
+| INTC | $111.17 | +4.37% | HOLD |
+| JPM | $349.82 | +4.74% | HOLD |
+| NVDA frac | $218.70 | +9.44% | HOLD |
+| SLB frac | $52.26 | -2.64% | HOLD |
+
+### STEP 4 — Stop Tightening
+No positions at +15% or above. No tightening needed.
+
+### STEP 5 — Thesis Check
+- **INTC (+4.37%, $111.17):** Up +10.0% on the day from yesterday's $101.05 close. Thesis-driven: SK Hynix foundry talks + Pelosi $750K-$1.5M buy + Q1 EPS massive beat. Stop HWM $111.28, stop $100.152 (9.9% below current). INTACT. HOLD.
+- **JPM (+4.74%, $349.82):** FOMC 25bp hike = NIM expansion. Strongest thesis in book. Stop $329.85 (HWM $366.50, 4.5% below HWM). INTACT. HOLD.
+- **EOG (-3.32%, $144.86):** Slight recovery from open low ($144.66). Saudi East-West pipeline offline 6+ weeks + Iran/Hormuz = double supply shock thesis STRENGTHENED. Stop $134.523 (7.3% cushion). INTACT. HOLD.
+- **NVDA (+9.44%, $218.70):** AI backbone thesis unchanged. Fractional, no stop. HOLD.
+- **SLB (-2.64%, $52.26):** Oil sector weakness. Fractional, no stop. Above -7% floor. HOLD.
+
+### Actions Taken
+None.
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| EOG | 111.683 (111 stop) | $149.83 | $144.86 | -3.32% | $134.523 (10%, 2cf54a14) | $149.47 | HOLD — double supply shock thesis intact |
+| INTC | 157.163 (157 stop) | $106.516 | $111.17 | +4.37% | $100.152 (10%, 7c522387) | $111.28 | HOLD — +10% day, thesis-driven |
+| JPM | 49.522 (49 stop) | $334.00 | $349.82 | +4.74% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD — NIM tailwind strongest |
+| NVDA frac | 1.192 | $199.83 | $218.70 | +9.44% | none (fractional) | — | HOLD |
+| SLB frac | 5.675 | $53.67 | $52.26 | -2.64% | none (fractional) | — | HOLD |
+
+- No notification sent (no actions taken)
+- Trades today: 1 (INTC buy, market open) | Trades this week: 2/7
+- Q-end blackout Sep 24 — 4 trading sessions remain to add positions
