@@ -10330,4 +10330,18 @@ FOMC: 25bp hike to 3.75-4.00% confirmed. Warsh hawkish: "inflation readings do n
 
 - AVGO frac EXITED: ~$337.44, -$24.25 (-7.1%), "cut at -7% per rule"
 - Trades today: 1 (EOG buy, morning) + 1 exit (AVGO) | Trades this week: 1/7 new entries
+
+---
+
+### Sep 17 - EOD Snapshot (Day 104, Wednesday)
+**Portfolio:** $111,574.87 | **Cash:** $35,264.48 (31.6%) | **Day P&L:** +$180.30 (+0.16%) | **Phase P&L:** +$11,574.87 (+11.57%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| EOG | 111.683 | $149.83 | $146.36 | +$1.43 (+0.99%) | -$387.54 (-2.32%) | $134.52 (10% trail, HWM $149.47, 2cf54a14) |
+| JPM | 49.522 | $334.00 | $350.19 | +$1.27 (+0.36%) | +$801.88 (+4.85%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA frac | 1.192 | $199.83 | $215.70 | +$1.80 (+0.84%) | +$18.92 (+7.94%) | none (fractional) |
+| SLB frac | 5.675 | $53.67 | $52.53 | +$0.23 (+0.44%) | -$6.47 (-2.12%) | none (fractional) |
+
+**Notes:** No trades today. Reconciliation clean — all 4 stock positions match broker exactly; 2 GTC stops confirmed active (EOG 2cf54a14, JPM 1a5b3205). All four names closed green intraday (+0.36% to +0.99%). JPM strongest holding (+4.85% unrealized); NIM expansion thesis reinforced by FOMC 25bp hike Sep 16. EOG -2.32% unrealized — sector-wide crude pressure post-FOMC dollar strength; stop $134.52 has 8.1% cushion; thesis intact (WTI >$100, Iran/Hormuz). NVDA frac (+7.94%) and SLB frac (-2.12%) are negligible, no stops possible. Stock deployment ~30.7% of equity (or ~49% of non-crypto capital) — well below 75-85% target; crypto DCA sleeve ($42,067) accounts for rest of long market value. Trades this week: 1 (EOG Sep 16). Quarter-end blackout begins Sep 24 — 5 trading days remain to add positions.
 - AVGO re-entry: deferred — Warsh hawkish, growth headwind elevated
