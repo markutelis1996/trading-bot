@@ -10448,4 +10448,40 @@ None.
 | SLB frac | 5.675 | $53.67 | $52.08 | 0.00% | -$9.02 (-2.96%) | none (fractional) |
 
 **Notes:** No trades today. Reconciliation clean — all 5 stock positions match broker exactly; 3 GTC stops confirmed active (EOG 2cf54a14, JPM 1a5b3205, INTC 7c522387). INTC +1.73% intraday, building on yesterday's Pelosi+SK Hynix catalyst momentum (+3.91% unrealized). JPM essentially flat on the day but +4.58% unrealized — NIM expansion thesis intact post-FOMC 25bp hike. EOG unchanged close; Saudi East-West pipeline + Iran/Hormuz double supply shock thesis intact; -2.91% unrealized above -7% cut rule. Crypto DCA sleeve up across board (BTC +0.89%, ETH +0.78%, SOL +2.50%, LINK +1.50%) — untouched per rules. Cash 16.4% of total equity; stock-only deployment ~74% of non-crypto capital (within 75-85% target). Trades this week: 2/7. Q-end blackout Sep 24 — 3 trading sessions remain to add positions.
-- Q-end blackout Sep 24 — 4 trading sessions remain to add positions
+
+---
+
+## 2026-09-18 - Market Open
+
+**Portfolio:** $113,449.86 equity | **Cash:** $18,524.09 (16.4%) | **Positions:** 5 stocks + 4 crypto (DCA sleeve)
+
+### STEP 0 — Reconciliation
+All positions match Sep 17 EOD log exactly. No overnight stop-outs.
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| EOG | 111.683 (111 stop) | 111.683441 | ✓ Match |
+| INTC | 157.163 (157 stop) | 157.162614 | ✓ Match |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed active: EOG 2cf54a14 ($134.523, HWM $149.47) | INTC 7c522387 ($100.233, HWM $111.37) | JPM 1a5b3205 ($329.85, HWM $366.50)
+
+### Live Prices at Open (9:30 AM EDT)
+| Ticker | Entry | Bid/Ask | Mid | P&L% | -7% Floor | Status |
+|--------|-------|---------|-----|------|-----------|--------|
+| EOG | $149.83 | $137.27/$151.26 | ~$144 | -3.9% | $139.34 | HOLD — wide opening spread (auction); mid above -7% floor ✓ |
+| INTC | $106.516 | $109.99/$110.07 | $110.03 | +3.3% | $99.06 | HOLD — tight spread; SK Hynix + Pelosi thesis intact ✓ |
+| JPM | $334.00 | $329.17/$366.29 | ~$348 | +4.2% | $310.62 | HOLD — wide opening spread (auction); stop $329.85 safe ✓ |
+| NVDA frac | $199.83 | $218.22/$218.31 | $218.27 | +9.2% | — | HOLD ✓ |
+| SLB frac | $53.67 | $51.57/$51.64 | $51.61 | -3.9% | — | HOLD ✓ |
+
+### Decision
+**NO TRADES.** HOLD ALL.
+- No -7% cuts triggered (all above floors, EOG and JPM opening spreads are auction-wide and unreliable)
+- No +15% tightening triggers reached
+- Cash $18,524 → adding 15% position ($17,017) pushes deployment to ~99%, violates 75-85% cap
+- BE primary candidate deferred until capital frees (EOG stop-out or Sep 19/22/23 if cash freed)
+- Trades this week: 2/7 | Q-end blackout Sep 24 — 3 sessions remain to add positions
