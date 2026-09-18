@@ -10433,4 +10433,19 @@ None.
 
 - No notification sent (no actions taken)
 - Trades today: 1 (INTC buy, market open) | Trades this week: 2/7
+
+---
+
+### Sep 18 - EOD Snapshot (Day 105, Thursday)
+**Portfolio:** $113,239.91 | **Cash:** $18,524.09 (16.4%) | **Day P&L:** +$1,665.04 (+1.49%) | **Phase P&L:** +$13,239.91 (+13.24%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| EOG | 111.683 | $149.83 | $145.47 | 0.00% | -$487.24 (-2.91%) | $134.52 (10% trail, HWM $149.47, 2cf54a14) |
+| INTC | 157.163 | $106.516 | $110.68 | +$1.88 (+1.73%) | +$654.37 (+3.91%) | $100.23 (10% trail, HWM $111.37, 7c522387) |
+| JPM | 49.522 | $334.00 | $349.30 | -$0.01 (-0.00%) | +$757.61 (+4.58%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA frac | 1.192 | $199.83 | $220.52 | +$1.18 (+0.54%) | +$24.65 (+10.35%) | none (fractional) |
+| SLB frac | 5.675 | $53.67 | $52.08 | 0.00% | -$9.02 (-2.96%) | none (fractional) |
+
+**Notes:** No trades today. Reconciliation clean — all 5 stock positions match broker exactly; 3 GTC stops confirmed active (EOG 2cf54a14, JPM 1a5b3205, INTC 7c522387). INTC +1.73% intraday, building on yesterday's Pelosi+SK Hynix catalyst momentum (+3.91% unrealized). JPM essentially flat on the day but +4.58% unrealized — NIM expansion thesis intact post-FOMC 25bp hike. EOG unchanged close; Saudi East-West pipeline + Iran/Hormuz double supply shock thesis intact; -2.91% unrealized above -7% cut rule. Crypto DCA sleeve up across board (BTC +0.89%, ETH +0.78%, SOL +2.50%, LINK +1.50%) — untouched per rules. Cash 16.4% of total equity; stock-only deployment ~74% of non-crypto capital (within 75-85% target). Trades this week: 2/7. Q-end blackout Sep 24 — 3 trading sessions remain to add positions.
 - Q-end blackout Sep 24 — 4 trading sessions remain to add positions
