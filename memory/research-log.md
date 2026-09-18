@@ -727,6 +727,109 @@ TRADE or HOLD (default HOLD if no edge)
 
 ---
 
+## 2026-09-18 - Pre-market Research
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| EOG | 111.683 (111 stop) | 111.683441 | ✓ Match |
+| INTC | 157.163 (157 stop) | 157.162614 | ✓ Match |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+Clean. No overnight stop-outs. GTC stops active: EOG 2cf54a14 ($134.523, HWM $149.47) | INTC 7c522387 ($100.233, HWM $111.37) | JPM 1a5b3205 ($329.85, HWM $366.50).
+
+### Account
+- Equity: $113,236.76
+- Cash: $18,524.09
+- Long market value: $94,712.67 (stocks $51,495 + crypto $43,217)
+- Stock deployed: ~$51,495 (~45.5% of equity)
+- Total deployed (stocks + crypto): $94,712 / $113,236 = 83.6% — at HIGH END of 75-85% target
+- Phase P&L: +$13,236.76 (+13.24% vs $10k start)
+- Daytrade count: 0/3
+- Trades this week: 2/7 (EOG Sep 16, INTC Sep 17)
+- ⚠️ Q-end blackout Rule 16 starts Sep 24. Today + Sep 19, 22, 23 = 4 sessions remain.
+- ⚠️ Cash: $18,524 — sufficient for exactly 1 more 15% position ($16,985); after that empty.
+
+### Position Status
+| Ticker | Entry | Current | P&L% | -7% Floor | Stop (GTC) | HWM | Status |
+|--------|-------|---------|------|-----------|------------|-----|--------|
+| EOG | $149.83 | $145.47 | -2.9% | $139.34 | $134.52 (10%, 2cf54a14) | $149.47 | HOLD — ⚠️ AH bid $138 (thin market; monitor open) |
+| INTC | $106.516 | $110.67 | +3.9% | $99.06 | $100.23 (10%, 7c522387) | $111.37 | HOLD — SK Hynix + Pelosi; $20B offering absorbed |
+| JPM | $334.00 | $349.30 | +4.6% | $310.62 | $329.85 (10%, 1a5b3205) | $366.50 | HOLD — FOMC hike = NIM tailwind; strongest thesis |
+| NVDA frac | $199.83 | $220.60 | +10.4% | — | none (fractional) | — | HOLD |
+| SLB frac | $53.67 | $52.08 | -3.0% | — | none (fractional) | — | HOLD |
+
+No -7% cuts triggered (all above thresholds in regular session). No +15% tightening triggers reached.
+
+### Market Context (pre-market Sep 18)
+- **WTI**: ~$100.05/bbl (-2.37% from prior day); Brent: ~$104-105/bbl — oil pulled back from recent highs as Iran War de-escalation news hit Sep 17. Saudi East-West pipeline STILL offline (6+ weeks) → supply squeeze structural, WTI holding $100.
+- **S&P 500 futures**: Dec 2026 ~7,686-7,703 (+0.8% vs Sep 16 close). Sep 17 S&P closed +1.1% — broad rally on Iran War de-escalation + market reassessment of FOMC hawkish read.
+- **NQ futures**: ~29,689 (slightly lower overnight after Sep 17 +1.7% session).
+- **VIX**: 15.44 (Sep 17 close, -12.82% on day) — fear dropped sharply; 52w low is 13.38.
+- **BoJ**: Hiked rates to 31-year high today (Sep 18) — JPY strength could create modest US equity headwind.
+- **Earnings BMO**: NONE. Clean earnings day.
+- **Economic calendar**: No major US data releases. Light macro day.
+- **Atlanta Fed GDPNow Q3**: +5.10% (very strong economy signal).
+- **Key narrative Sep 17**: "Market correctly reassessed hawkish Warsh read, got genuine Iran War de-escalation news, AI doomerism fears fading against strong business momentum" (Luke Lango, Sep 17).
+- **Intel**: $20B stock offering (originally $15B, upsized Aug 11, 2026) — ~3% dilution, fully absorbed. Wall Street demand was $100B. Not a fresh risk.
+- **Leveraged funds**: Short $75B NQ (bearish tech positioning, persistent headwind).
+
+### Position Thesis Check
+
+**EOG (-2.9%, $145.47):** AH bid $138.01 (very thin AH market, ask $152.25 = 10% spread — unreliable). Regular close $145.47 Sep 17. Thesis: Saudi East-West pipeline offline 6+ weeks + Iran/Hormuz = double supply shock. WTI still $100/bbl. Iran de-escalation news Sep 17 reduced geopolitical premium slightly but structural supply constraint remains. Stop $134.52 (7.6% cushion from regular close). EOG fundamentals: Q2 $8.62B rev, $2.724B net income, $2.80B FCF; $11.7B buyback authorization; UBS PT $183, Stephens PT $175. **INTACT — monitor open price closely; AH bid thin and unreliable.**
+
+**INTC (+3.9%, $110.67):** Sep 17 session: rallied to $111.17 midday (on SK Hynix foundry talks) then closed $108.80, today up +1.72% to $110.67. Intel $20B offering (Aug 10-12) was fully absorbed — institutional demand $100B. Q2 2026: $16.1B revenue +25% YoY, non-GAAP EPS $0.42 beat. Analyst consensus PT $114.88 (+3.8% from current). SK Hynix foundry talks (Reuters Sep 16) still active catalyst. Pelosi Jul 24 buy $750K-$1.5M intact signal (28 days, within 45-day window). **INTACT. HOLD.**
+
+**JPM (+4.6%, $349.30):** FOMC Sep 16 25bp hike to 3.75-4.00% = NIM expansion tailwind. Next earnings Oct 13. JPM declared common stock dividend Sep 15. BofA $420 PT. Q2 2026: $57.35B revenue, $21.16B net income. Stop $329.85 (HWM $366.50, 5.8% cushion). **INTACT. Strongest thesis in book. HOLD.**
+
+**NVDA frac (+10.4%):** Negligible size, AI thesis intact. HOLD.
+
+**SLB frac (-3.0%):** Oil sector weakness. Fractional, no stop. Above -7% floor. HOLD.
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Filed | Days Since Filing | Signal Level |
+|------------|--------|--------|------|------------|-------|-------------------|--------------|
+| **Pelosi** | **BE** | BUY (15K shares + 200 calls, $100 strike Jun 2027) | **$3M-$12M total** | Jul 24-28 | Aug 21 | 28 days ✓ | **PRIMARY** — $3M+ exceeds $25K threshold; S&P 500 inclusion catalyst |
+| **Pelosi** | **INTC** | BUY (10K shares + 50 calls) | $750K-$1.5M | Jul 24 | Aug 21 | 28 days ✓ | **PRIMARY (held)** — SK Hynix foundry catalyst; position active |
+| Tuberville | — | Selling Mastercard | — | Aug 2026 | — | — | No qualifying equity buys |
+| Khanna/Mast/Gottheimer/McCaul | — | No qualifying single-stock buys in window | — | — | — | — | No signal |
+
+No new whitelist disclosures since Aug 21.
+
+### Live Price Verification (STEP 3d)
+| Ticker | AH Quote (Sep 17 close) | Entry zone | Stop (10%) | Target (+20%) | R:R | Notes |
+|--------|------------------------|------------|------------|---------------|-----|-------|
+| BE | bid $267.71 (AH, thin) | ≤$281.10 (≤5% gap rule) | ~$241 | ~$322 | 2:1 | S&P 500 inclusion + Pelosi $3-12M; Industrials More Favored |
+| EOG | bid $138.01 (AH, VERY thin; $14-pt spread) | held position | $134.52 active | — | — | AH bid unreliable; regular close $145.47 |
+
+### BE Trade Analysis
+- **Catalyst stack**: (a) Pelosi $3-12M (Jul 24-28, filed Aug 21, 28d ago ✓); (b) S&P 500 inclusion — added to index post-Pelosi disclosure, drove stock up; (c) Oracle partnership 2.8 GW fuel cell capacity (1.2 GW contracted, deploying across US AI projects); (d) Q2 2026 record $1.065B revenue, +165.5% YoY, first $1B quarter ever; (e) Full-year 2026 guidance raised to $3.9-4.2B (+100% growth); (f) Industrials sector = "More Favored" (Schwab).
+- **Analyst views**: RBC Buy $335, Mizuho Buy $351, Bernstein Hold $282, JPM Buy $314, UBS Buy $325 — mostly bullish.
+- **Concerns**: Capital-intensive (fuel cells = rate-sensitive under Warsh hawkish stance); stock has run +400% in 12 months and +19% in past month; AH bid $267.71 vs peak $351.25 (pulled back but still extended).
+- **CONSTRAINT**: Cash = $18,524. 15% position = $16,985. After buying, cash = $1,539 (near-empty), total deployed = 98.7% → VIOLATES 75-85% target cap.
+- **DECISION: DEFER BE until cash freed by a stop-out exit.** If EOG stops at $134.52 (~$14,980 proceeds), immediately evaluate BE. Sep 19/22/23 entry window before blackout.
+
+### Risk Factors
+1. **EOG AH bid $138.01**: If opens near $138, breaches -7% threshold ($139.34). GTC stop at $134.52 provides floor. Monitor at open; cut manually if open prints below $139.34 and holds.
+2. **BoJ rate hike to 31-yr high**: JPY strength → potential risk-off; global equity headwind.
+3. **Leveraged funds bearish NQ** ($75B short): Persistent tech/semis headwind. INTC at risk.
+4. **Rate hike odds 90%** (diesel-driven inflation): Another Warsh hike possible Q4.
+5. **Oil pulled back** (WTI $100 from $104 peak): Modest EOG pressure on Iran de-escalation; Saudi pipeline still offline = floor.
+6. **Cash near-depleted**: Cannot enter new position without stop-out freeing capital.
+
+### Decision
+**HOLD ALL POSITIONS.** No new entries today.
+- EOG: HOLD — Saudi pipeline thesis intact; AH bid unreliable; stop active. CUT if opens AND holds below $139.34.
+- INTC: HOLD — SK Hynix + Pelosi; $20B offering absorbed; thesis intact.
+- JPM: HOLD — FOMC hike = NIM tailwind; strongest book entry.
+- BE: **DEFER** — strong primary signal (Pelosi $3-12M + S&P 500 inclusion) but cash constraints violate 75-85% deployment target if added. Evaluate on: (a) EOG stop-out freeing $15K, or (b) Sep 19/22/23 with fresh analysis. BE is the #1 priority new entry if capital becomes available before blackout Sep 24.
+- Q-end blackout starts Sep 24 — 3 more entry sessions remain after today.
+
+---
+
 ## 2026-06-23 - Pre-market Research
 
 ### Account
