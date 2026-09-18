@@ -10485,3 +10485,63 @@ GTC stops confirmed active: EOG 2cf54a14 ($134.523, HWM $149.47) | INTC 7c522387
 - Cash $18,524 → adding 15% position ($17,017) pushes deployment to ~99%, violates 75-85% cap
 - BE primary candidate deferred until capital frees (EOG stop-out or Sep 19/22/23 if cash freed)
 - Trades this week: 2/7 | Q-end blackout Sep 24 — 3 sessions remain to add positions
+
+---
+
+## 2026-09-18 - Midday Scan
+
+**Portfolio:** ~$116,040 equity (est.) | **Cash:** $18,524.09 | **Positions:** 5 stocks + 4 crypto (DCA) | **Stock deployed:** ~$50,670 (~43.7% equity)
+
+### STEP 0 — Reconciliation
+All positions match market-open log exactly. No stop-outs since open.
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| EOG | 111.683 (111 stop) | 111.683441 | ✓ Match |
+| INTC | 157.163 (157 stop) | 157.162614 | ✓ Match |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed active: EOG 2cf54a14 ($134.523) | INTC 7c522387 ($100.233, HWM $111.37) | JPM 1a5b3205 ($329.85, HWM $366.50)
+
+### STEP 3 — Cut Losers
+No positions at or below -7%. No cuts.
+
+| Ticker | Current | P&L% (entry) | Intraday | Action |
+|--------|---------|--------------|----------|--------|
+| EOG | $144.29 | -3.70% | -0.81% | HOLD |
+| INTC | $106.815 | +0.28% | -1.82% | HOLD |
+| JPM | $347.66 | +4.09% | -0.47% | HOLD |
+| NVDA frac | $219.475 | +9.83% | +0.06% | HOLD |
+| SLB frac | $51.055 | -4.87% | -1.97% | HOLD |
+
+### STEP 4 — Stop Tightening
+No positions at +15% or above. No tightening needed.
+
+### STEP 5 — Thesis Check
+- **EOG (-3.70%, $144.29):** -0.81% today. Saudi East-West pipeline still offline 6+ weeks; WTI holding ~$100/bbl. Iran de-escalation removed some geopolitical premium but structural supply constraint intact. Stop $134.523 (6.8% below current). INTACT.
+- **INTC (+0.28%, $106.815):** -1.82% today — consolidation after +10% day Sep 17. SK Hynix foundry talks (Reuters Sep 16) + Pelosi $750K-$1.5M buy (Jul 24, filed Aug 21) intact. $20B offering fully absorbed. INTACT.
+- **JPM (+4.09%, $347.66):** -0.47% today. FOMC 25bp hike Sep 16 = NIM expansion tailwind. Next earnings Oct 13. BofA $420 PT. Strongest thesis in book. INTACT.
+- **NVDA (+9.83%, $219.475):** +0.06% today. Fractional, negligible size. AI backbone thesis unchanged. INTACT.
+- **SLB (-4.87%, $51.055):** -1.97% today. Oil services sector softness. Fractional, no stop. Still above -7% floor. INTACT (monitoring).
+
+### STEP 6 — Intraday Research
+No sharp unexplained movers. INTC -1.82% is post-catalyst consolidation (expected after +10% Sep 17 on SK Hynix news). SLB -1.97% follows oil sector. All intraday moves have clear context; no thesis breaks.
+
+### Actions Taken
+None.
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| EOG | 111.683 (111 stop) | $149.83 | $144.29 | -3.70% | $134.523 (10%, 2cf54a14) | $149.47 | HOLD — pipeline thesis intact |
+| INTC | 157.163 (157 stop) | $106.516 | $106.815 | +0.28% | $100.233 (10%, 7c522387) | $111.37 | HOLD — post-catalyst consolidation |
+| JPM | 49.522 (49 stop) | $334.00 | $347.66 | +4.09% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD — strongest thesis |
+| NVDA frac | 1.192 | $199.83 | $219.475 | +9.83% | none (fractional) | — | HOLD |
+| SLB frac | 5.675 | $53.67 | $51.055 | -4.87% | none (fractional) | — | HOLD |
+
+- No notification sent (no actions taken)
+- Trades today: 0 | Trades this week: 2/7
+- BE deferred — cash constraints ($18,524) still prohibit entry without stop-out freeing capital
