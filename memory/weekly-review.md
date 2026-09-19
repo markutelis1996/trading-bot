@@ -1278,3 +1278,78 @@ Phase P&L: +$14,989.17 (+14.99% from $100,000 base)
 - Phase P&L: +$14,989 (+14.99%) — still positive lead over benchmark over full period ✓
 
 ---
+
+## Week ending 2026-09-19
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $114,989.17 (Fri Sep 12 close) |
+| Ending portfolio | $115,324.02 (Fri Sep 19 EOD) |
+| Week return | +$334.85 (+0.29%) |
+| S&P 500 week | ~-1.0% (7,727→7,650.50; Dow "worst week since March") |
+| Bot vs S&P | +1.29% outperformance |
+| Trades | 5 (W:1 / L:2 closed + 2 new open entries) |
+| Win rate | 33% (1/3 closed trades) |
+| Best trade | SLB 312sh +$232 (+1.39%, GTC stop auto-exec) |
+| Worst trade | AVGO 46sh -$1,119 (-6.70%, GTC stop auto-exec Sep 15) |
+| Profit factor | 0.20 ($232 winners / $1,143 losers) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| AVGO 46sh | $363.25 | ~$338.93 | -$1,119 | -6.70% | GTC trailing stop auto-fired Sep 15; FOMC-fear dip through $338.93; rule-compliant |
+| SLB 312sh | $53.67 | ~$54.414 | +$232 | +1.39% | GTC trailing stop auto-fired Sep 15; oil sector weakness; rule-compliant profit |
+| AVGO frac 0.939sh | $363.25 | ~$337.44 | -$24 | -7.10% | Manual -7% cut Sep 16 midday; no stop possible on fractional remainder |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| EOG | 111.683 (111 stop) | $149.83 | $144.23 | -$626 (-3.74%) | $134.523 (10%, 2cf54a14) | $149.47 |
+| INTC | 157.163 (157 stop) | $106.516 | $108.60 | +$327 (+1.96%) | $100.233 (10%, 7c522387) | $111.37 |
+| JPM | 49.522 (49 stop) | $334.00 | $349.67 | +$776 (+4.69%) | $329.85 (10%, 1a5b3205) | $366.50 |
+| NVDA frac | 1.192 | $199.83 | $222.27 | +$27 (+11.23%) | none (fractional) | — |
+| SLB frac | 5.675 | $53.67 | $51.12 | -$14 (-4.75%) | none (fractional) | — |
+
+Stock deployed: ~$50,773 / $115,324 = 44.0% total equity (60% of non-crypto ~$68K)
+Phase P&L: +$15,324.02 (+15.32% from $100,000 base)
+
+### What Worked
+- INTC entry Sep 17 ($106.516) on Pelosi + SK Hynix catalyst — +10% intraday on entry day; currently +1.96% (gave back most of day-of gain but thesis intact); exact catalyst-stack rule working as designed
+- EOG entry Sep 16 ($149.83) — executed cleanly at open, gap check ✓ (≤5%); Saudi East-West pipeline + Iran/Hormuz double supply shock thesis; stop has 6.8% cushion
+- JPM at +4.69% unrealized — FOMC 25bp hike confirmed NIM thesis; strongest book position; next earnings Oct 13
+- Both Sep 15 GTC stops (AVGO + SLB) fired without manual intervention — auto-stop system protected capital while market dropped pre-FOMC
+- +1.29% outperformance vs S&P despite volatile FOMC week — system holding up under rate-hike headwind
+
+### What Didn't Work
+- AVGO 46sh GTC stop fired at -6.7% ($338.93) on Sep 15 FOMC-fear selloff — $1,119 loss realized; position entered Sep 3 at $363.25 never recovered post-earnings guide miss; capital tied up in wrong thesis for 6 weeks
+- BE primary signal (Pelosi $4.25M+, Aug 21) still unexecuted for 4+ weeks — spread too wide Sep 16 ($27 = 8.3% gap) and Sep 17; Q-end blackout Sep 24 limits remaining window to Sep 22-23 only
+- Stock deployment stuck at ~44% total equity (60% non-crypto) — structural cash constraint; crypto DCA sleeve consuming ~40% of buying power
+- Profit factor 0.20 — all closed trades this week were auto-stops/cuts; winners are unrealized only
+- Q-end blackout (Sep 24) approaching with only 2 entry sessions left (Sep 22-23); deployment gap likely to persist into next quarter
+
+### Key Lessons
+- FOMC binary events cause GTC stops to fire on positions that are otherwise thesis-intact (AVGO, SLB Sep 15) — acceptable outcomes per rules; the alternative (holding through FOMC) was correct only in hindsight; stops are the floor, not an edge
+- Pelosi + independent catalyst (SK Hynix) = strongest signal type in the playbook; INTC +10% on entry day validates the rule exactly; the 30-45 day lag creates entry windows
+- Saudi East-West pipeline offline 6+ weeks = structural supply shock for EOG; entry timing (Sep 16 post-FOMC) correct even though position currently -3.74%; stop has cushion
+- Q-end blackout (Rule 16) already saved capital in Jun 2026 (MRVL+MU stopped out); approaching Sep 24 same constraint — no new entries, hold existing
+
+### Adjustments for Next Week (Sep 22–26)
+- **Sep 22-23 only window**: Last 2 sessions before Q-end blackout Sep 24; evaluate 1-2 entries if strong setups (BE pullback, new catalysts)
+- **EOG (-3.74%)**: Saudi pipeline timeline key; if offline extends beyond 6 weeks (confirmed) and WTI holds >$100, thesis intact; stop $134.523 = 6.8% cushion from $144.23; HOLD
+- **INTC (+1.96%)**: +15% tighten trigger = $122.49; watch for SK Hynix deal confirmation; HWM $111.37 — if surpassed, stop auto-tightens; HOLD
+- **JPM (+4.69%)**: +15% trigger = $384.10; earnings Oct 13 is the next binary; BofA $420 PT; HOLD — strongest thesis
+- **BE**: If spread narrows below 5% and Sep 22-23 session is clear, consider last entry opportunity before blackout (Pelosi $4.25M+ = strongest signal in research log)
+- **No new entries Sep 24-30**: Q-end blackout active; hold all positions; do not add
+
+### Overall Grade: B
+- +0.29% vs S&P ~-1.0% = +1.29% outperformance ✓
+- Broke 3-week deployment drought: 2 new entries (EOG + INTC) on clear catalysts ✓
+- All 3 exits (AVGO ×2, SLB) rule-compliant — no manual stop moves, no averaging down ✓
+- INTC +10% on entry day — catalyst-stack working as designed ✓
+- Profit factor 0.20 — closed-trade P&L poor (stops fired in bad macro week) ✗
+- Stock deployment still 44% total / 60% non-crypto — below 75-85% target ✗
+- BE primary signal 4+ weeks old and still unexecuted ✗
+- Phase P&L: +$15,324 (+15.32%) — growing lead over benchmark ✓
+
+---
