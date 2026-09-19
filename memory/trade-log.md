@@ -10545,3 +10545,18 @@ None.
 - No notification sent (no actions taken)
 - Trades today: 0 | Trades this week: 2/7
 - BE deferred — cash constraints ($18,524) still prohibit entry without stop-out freeing capital
+
+---
+
+### Sep 19 - EOD Snapshot (Day 106, Friday)
+**Portfolio:** $115,324.02 | **Cash:** $17,151.48 (14.9%) | **Day P&L:** +$2,084.11 (+1.84%) | **Phase P&L:** +$15,324.02 (+15.32%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| EOG | 111.683 | $149.83 | $144.23 | -$1.24 (-0.85%) | -$625.73 (-3.74%) | $134.52 (10% trail, HWM $149.47, 2cf54a14) |
+| INTC | 157.163 | $106.516 | $108.60 | -$2.08 (-1.88%) | +$327.47 (+1.96%) | $100.23 (10% trail, HWM $111.37, 7c522387) |
+| JPM | 49.522 | $334.00 | $349.67 | +$0.37 (+0.11%) | +$775.93 (+4.69%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA frac | 1.192 | $199.83 | $222.27 | +$1.75 (+0.79%) | +$26.74 (+11.23%) | none (fractional) |
+| SLB frac | 5.675 | $53.67 | $51.12 | -$0.96 (-1.84%) | -$14.47 (-4.75%) | none (fractional) |
+
+**Notes:** No trades today. Reconciliation clean — all 5 stock positions match broker exactly; 3 GTC stops confirmed active (EOG 2cf54a14 $134.52, INTC 7c522387 $100.23, JPM 1a5b3205 $329.85). EOG -3.74% unrealized and down again today (-0.85%) but above -7% cut rule; Saudi East-West pipeline still offline, supply constraint thesis intact. INTC consolidating at +1.96% unrealized after Sep 17 catalyst day (+10%); SK Hynix foundry talks + Pelosi buy thesis unchanged. JPM strongest book position at +4.69% unrealized; FOMC 25bp NIM tailwind + BofA $420 PT intact. NVDA fractional +11.23%, SLB fractional -4.75% (no stops on either). Crypto DCA sleeve: BTC $81,142 (+22.83%), ETH $2,622 (+31.36%), SOL $113.41 (+38.00%), LINK $12.38 (+35.06%) — untouched per rules. Trades this week: 2/7. Cash $17,151 (14.9%) insufficient for new standard position; BE entry deferred pending capital from a stop-out. Q-end blackout starts Sep 24 — 3 sessions remain (Mon–Wed Sep 22–24) to add positions if capital frees.
