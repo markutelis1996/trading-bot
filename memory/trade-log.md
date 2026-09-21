@@ -10436,6 +10436,21 @@ None.
 
 ---
 
+### Sep 21 - EOD Snapshot (Day 107, Monday)
+**Portfolio:** $119,843.11 | **Cash:** $15,778.56 (13.2%) | **Day P&L:** +$4,519.09 (+3.92%) | **Phase P&L:** +$19,843.11 (+19.84%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| EOG | 111.683 | $149.83 | $141.38 | -$2.85 (-1.98%) | -$943.72 (-5.64%) | $134.52 (10% trail, HWM $149.47, 2cf54a14) |
+| INTC | 157.163 | $106.516 | $121.61 | +$13.01 (+11.98%) | +$2,372.16 (+14.17%) | $114.02 (7% trail, HWM $122.61, b0766ca3) |
+| JPM | 49.522 | $334.00 | $352.04 | +$2.37 (+0.68%) | +$893.30 (+5.40%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA frac | 1.192 | $199.83 | $227.28 | +$5.01 (+2.25%) | +$32.71 (+13.73%) | none (fractional) |
+| SLB frac | 5.675 | $53.67 | $51.76 | +$0.64 (+1.25%) | -$10.84 (-3.56%) | none (fractional) |
+
+**Notes:** INTC was the day's standout — +11.98% intraday (+14.17% unrealized) driven by Tigress Financial PT raise to $145 (from $118), Northland upgrade, PC CPU +10% price hike Oct effective, and ongoing SK Hynix Ohio fab talks. Stop tightened from 10% to 7% at midday per +15% rule (b0766ca3, $114.02, HWM $122.61). EOG -1.98% today; now -5.64% unrealized — approaching -7% manual cut floor ($139.34); Saudi East-West pipeline still offline + WTI ~$100, supply constraint thesis intact; stop $134.52 has 4.9% cushion from close. JPM +0.68%, +5.40% unrealized; Q3 earnings Oct 13 upcoming. No new trades today; 0/3 weekly cap used (week starts Sep 21). Q-end blackout Sep 24 — 2 sessions remain (Sep 22-23) to deploy capital if EOG stop-out frees cash. Stock deployment ~44% equity; crypto DCA sleeve ~43% equity (total ~87% deployed).
+
+---
+
 ### Sep 18 - EOD Snapshot (Day 105, Thursday)
 **Portfolio:** $113,239.91 | **Cash:** $18,524.09 (16.4%) | **Day P&L:** +$1,665.04 (+1.49%) | **Phase P&L:** +$13,239.91 (+13.24%)**
 
