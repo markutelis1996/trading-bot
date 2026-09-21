@@ -11797,6 +11797,107 @@ Other whitelist politicians:
 **BE: WATCHLIST ONLY TODAY**
 - Warsh hawkish + capital-intensive = lower conviction vs INTC
 - Revisit if INTC entry skipped; or Sep 18-23 if BE pulls back and momentum firms
+
+---
+
+## 2026-09-21 - Pre-market Research
+
+### Account (Sep 19 EOD)
+- Equity: $116,017.82
+- Cash: $17,151.48 (14.8%)
+- Buying power: $213,079.21
+- Daytrade count: 0/3
+- Stock deployed: ~$51,597 (~75% of non-crypto capital) | Crypto DCA sleeve: ~$47,269 (UNTOUCHABLE)
+- Phase P&L: +$16,017.82 (+16.02%)
+- Trades this week: 0/7
+
+### Reconciliation (STEP 0)
+All 5 stock positions match Sep 19 EOD log exactly. No overnight stop-outs.
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| EOG | 111.683 | 111.683441 | ✓ Match |
+| INTC | 157.163 | 157.162614 | ✓ Match |
+| JPM | 49.522 | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops active: EOG 2cf54a14 ($134.52, HWM $149.47) | INTC 7c522387 ($100.23, HWM $111.37 → estimated ~$101.75 after Sep 19 close $113.06, needs open confirmation) | JPM 1a5b3205 ($329.85, HWM $366.50)
+
+### Market Context (pre-market Sep 21)
+- **WTI**: ~$100/bbl | **Brent**: ~$99-104/bbl (-5.1% week over week, TradingEconomics Sep 20 $104.35). Pulled back from $107-109 highs. Saudi East-West pipeline still offline 6+ weeks — supply constraint structural. Brent +56.75% YoY.
+- **S&P 500 futures**: ES1! ~7,703-7,725 (flat, Bloomberg overnight 7,703 -4pts, TradingStrategyGuides "bulls in control"). Prior Fri close ~7,712.
+- **NQ100 futures**: ~29,688 (-54, -0.18%) — slight tech headwind premarket.
+- **VIX**: 14.81 (Sep 18 close, -4.1% from prior day) — VERY LOW, risk-on environment. Sep futures 17.6.
+- **Earnings BMO today**: Nothing notable. No S&P 500 companies.
+- **Economic calendar this week**:
+  - Mon Sep 21: Nothing
+  - Tue Sep 22: Barkin (Richmond Fed) speech 1pm ET
+  - Wed Sep 23: Flash PMI Mfg (est 53.5 vs 53.2) + Services (est 55.9) + Fed Barr speech → **Q-END BLACKOUT BEGINS (Rule 16)**
+  - Thu Sep 24: Jobless claims 8:30am + New home sales + multiple Fed speeches
+  - Fri Sep 25: Durable Goods Aug + Michigan Sentiment Final Sep (est 47.8 vs 51.7 prelim) + **Trump-Xi Summit Washington DC**
+  - Oct 2: Nonfarm Payrolls Sep (est 120K vs prior 162K)
+  - Oct 14: CPI Sep | Oct 28: FOMC
+
+### ⚠️ Q-END BLACKOUT — RULE 16
+- Q3 ends Sep 30. Last 5 trading days = Sep 24, 25, 26, 29, 30.
+- **Blackout starts today at close (Sep 23 open is last entry window) — actually per EOD Sep 19 note: blackout starts Sep 24.**
+- Remaining entry sessions: TODAY (Sep 21) + Sep 22 + Sep 23 = 3 sessions. BUT cash constraint makes new entry impossible (see below).
+
+### Position Thesis Check
+| Ticker | Shares | Entry | Sep 19 Close | P&L% | Est. Stop (GTC) | Status |
+|--------|--------|-------|--------------|------|-----------------|--------|
+| EOG | 111.683 (111 stop) | $149.83 | $142.55 | -4.86% | $134.52 (10%, HWM $149.47) | HOLD — above -7% floor ($139.34); Saudi pipeline intact |
+| INTC | 157.163 (157 stop) | $106.516 | $113.06 | +6.14% | ~$101.75 (10%, est. HWM ~$113.06) | HOLD — +15% trigger at $122.49; SK Hynix thesis intact |
+| JPM | 49.522 (49 stop) | $334.00 | $350.39 | +4.91% | $329.85 (10%, HWM $366.50) | HOLD — NIM thesis intact; Q3 earnings Oct 13 |
+| NVDA frac | 1.192 | $199.83 | $223.37 | +11.78% | none (fractional) | HOLD |
+| SLB frac | 5.675 | $53.67 | $51.12 | -4.75% | none (fractional) | HOLD |
+
+**INTC thesis**: SK Hynix foundry talks (Reuters Sep 16) confirmed, stock surged +4% Sep 16 → +8% Sep 17 → +4.1% Sep 19 (total +17.3% in 3 sessions from $96 area). Pelosi $750K-$1.5M buy (Jul 24, filed Aug 21 = 31 days ago ✓). Barclays upgraded Overweight Sep 16. Melius Buy, PT $165. No SK Hynix deal confirmed yet — talks ongoing risk. INTACT and STRENGTHENING.
+**EOG thesis**: Saudi East-West pipeline offline 6+ weeks (Houthi drone attacks Sep 13-14). Both Hormuz + pipeline disrupted = IEA estimates 5.7Mb/d supply plunge. UBS Buy PT $183 (raised Sep 14 from $158). Stock -4.86% from entry. Oil pull-back to $99-104 range from $107-109 highs. Structural supply constraint. INTACT — stop provides floor at $134.52.
+**JPM thesis**: FOMC 25bp hike Sep 16 = NIM expansion tailwind. Q2 2026 profit $21.2B (+41% YoY). Q3 earnings Oct 13 — JPM guided "mid-to-high-teens" IB/markets growth Sep 15 at Barclays conference. Strongest thesis in book. INTACT.
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Filed | Days Since Filing | Signal Level |
+|------------|--------|--------|------|------------|-------|-------------------|--------------|
+| **Pelosi** | **INTC** | BUY | $750K-$1.5M | Jul 24 | Aug 21 | 31 days ✓ | **Primary** — already in position |
+| **Pelosi** | **BE** | BUY | $1.5-6M | Jul 24-28 | Aug 21 | 31 days ✓ | **Primary eligible** — watchlist only (capital constrained) |
+| **Khanna** | WFC | BUY | $50-100K | Aug 27 | Sep 4 | 17 days ✓ | Secondary — above $25K, but cash constraint prevents entry |
+
+Other whitelist: Tuberville mostly sells; McCaul no qualifying buys in window; Gottheimer mostly sells; Mast — no qualifying buys found.
+
+### Capital Constraint Analysis
+- Cash: $17,151 | Standard 15% position: ~$17,403 (15% × $116,017)
+- Adding any position: stock sleeve deployment = $68,597 / $68,748 non-crypto equity = **99.8% → violates 75-85% cap**
+- Same constraint as Sep 18 (EOD noted "BE deferred pending capital from stop-out")
+- **Conclusion: NO NEW POSITIONS unless a stop is hit first, freeing ~$15-17K cash**
+
+### Trade Ideas
+1. **All existing positions — HOLD** — no -7% cuts triggered, no +15% tightening triggers reached
+   - INTC approaching +15% trigger ($122.49). Monitor at open; if price reaches $122.49 intraday → tighten stop to 7% per rules (unless ATR >4% of price — INTC has been high-vol lately, verify at open)
+2. **BE — Post-blackout watchlist ★★** (earliest Oct 1):
+   - Pelosi $1.5-6M buy (31 days from filing ✓) + AI power demand secular + Q2 +165.5% YoY + Industrials More Favored (Schwab)
+   - AH quote Sep 18: bid $252.27 / ask $281.72 (wide, unreliable). Need live quote Oct 1 open.
+   - Capital needs to free via stop-out (EOG most likely candidate if oil continues retreating)
+3. **WFC — Post-blackout watchlist ★** (Oct 1+):
+   - Khanna $50-100K buy Aug 27 ✓ + Financials More Favored (Schwab). AH bid $81.70 unreliable.
+   - Lower priority than BE. Already hold JPM for bank exposure.
+
+### Risk Factors
+1. **Trump-Xi Summit Sep 25** — binary market event. Failure = risk-off; breakthrough = relief rally. No new positions to add before result.
+2. **Q-end blackout Sep 24+** — fund rebalancing forced selling could pressure any sector Sep 24-30
+3. **Oil retreating** ($104 → $99) — EOG thesis weakens if oil breaks below $95 sustained
+4. **INTC SK Hynix unconfirmed** — stock up 17% in 3 sessions on unconfirmed talks; if deal falls through → sharp reversal. Stop ~$101.75 provides 10% cushion from $113 current.
+5. **10-year yield >5%** (CNBC headline Sep 15) — sustained pressure on growth multiples, particularly INTC
+6. **NFP Oct 2 (est 120K vs 162K prior)** — slowdown in jobs could signal recession risk
+7. **Cash depleted** — no dry powder. If all stops hit simultaneously, no cash to re-enter at better prices
+
+### Decision
+**HOLD ALL POSITIONS** — no -7% cuts triggered, no stops to take action on.
+**NO NEW ENTRIES** — cash constraint ($17,151) prevents new position without over-deploying to ~99% of non-crypto capital. Q-end blackout starts Sep 24 in any case.
+**INTC**: Watch for +15% trigger ($122.49) at open — if reached, consider tightening stop to 7% (verify ATR first).
+**Post-blackout focus (Oct 1+)**: BE (primary candidate if capital frees) → WFC (secondary).
 - Requires: sep 16 close confirmation + spread narrows + NQ stable
 
 **Deployment target**: Adding INTC → stocks ~$50.4K (45.2% of equity). Target 75-85%. Still room for 2 more positions next week (Sep 18-23 window) before blackout.
