@@ -11901,3 +11901,118 @@ Other whitelist: Tuberville mostly sells; McCaul no qualifying buys in window; G
 - Requires: sep 16 close confirmation + spread narrows + NQ stable
 
 **Deployment target**: Adding INTC → stocks ~$50.4K (45.2% of equity). Target 75-85%. Still room for 2 more positions next week (Sep 18-23 window) before blackout.
+
+---
+
+## 2026-09-22 - Pre-market Research
+
+### Account (live Sep 22 pre-market)
+- Equity: $118,973.01
+- Cash: $15,778.56
+- Buying power: $210,735.78
+- Daytrade count: 0/3
+- Stock sleeve: $52,715 / $68,493 non-crypto equity = **77%** (within 75-85% target)
+- Crypto DCA sleeve: ~$50,471 (BTC+ETH+SOL+LINK — UNTOUCHABLE)
+- Phase P&L: +$18,973.01 (+18.97%)
+- Trades this week: 0/7
+
+### Reconciliation (STEP 0)
+All 5 stock positions match Sep 21 EOD log exactly. No overnight stop-outs.
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| EOG | 111.683 (111 stop) | 111.683441 | ✓ Match |
+| INTC | 157.163 (157 stop) | 157.162614 | ✓ Match |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops active: EOG 2cf54a14 ($134.523, HWM $149.47) | INTC b0766ca3 ($114.018, 7% trail, HWM $122.60) | JPM 1a5b3205 ($329.85, HWM $366.50)
+
+### Market Context (pre-market Sep 22)
+- **WTI**: ~$93-100/bbl (polymarket ~$93-95 recent; oilprice.com $100.05; retreating from $107-109 Sep highs; Saudi East-West pipeline still offline; HSBC raised 2026 Brent forecast to $90 - bearish signal)
+- **Brent**: ~$100.18/bbl (tradingeconomics Sep 21 close; -3.55% day prior)
+- **S&P 500 futures**: ES1 Dec26 ~7,819 (+107 pts, +1.38%) — strong premarket rally (Bloomberg)
+- **Nasdaq futures**: NQ1 Dec26 ~30,678 (+761, +2.55%) — tech-led rally on Meta Muse AI app
+- **VIX**: 14.87 (-3.63%) — risk-on, very low
+- **US 10Y yield**: 4.927% (-0.037%) — easing from recent highs, supportive
+- **DXY**: 100.09 (-0.07%) — neutral
+- **Earnings BMO Sep 22**: Nothing material (AutoZone AZO only S&P 500 name)
+- **Economic calendar Sep 22**: Richmond Fed Mfg Index 2pm ET (est 5 vs prev 4); Fed Williams speech 2:05pm; Fed Jefferson speech 2:20pm — low-impact day
+- **This week ahead**: Sep 23 Flash PMI Mfg 53.5 est + Services 56 est; Trump-Xi Summit Washington DC Sep 23-24 (**binary market event**); Sep 24 Jobless claims + Q-END BLACKOUT BEGINS
+
+### Position Thesis Check
+| Ticker | Shares | Entry | Sep 21 Close | P&L% | Stop (GTC) | Status |
+|--------|--------|-------|--------------|------|------------|--------|
+| EOG | 111.683 (111 stop) | $149.83 | $141.41 | -5.62% | $134.523 (10%, 2cf54a14, HWM $149.47) | HOLD — oil ~$93-100, Saudi pipeline thesis intact; above -7% floor ($139.34) |
+| INTC | 157.163 (157 stop) | $106.516 | $121.10 (AH ask $121.70) | +13.7% | $114.018 (7%, b0766ca3, HWM $122.60) | HOLD — Meta Muse AI surge today; monitor +20% trigger ($127.82) |
+| JPM | 49.522 (49 stop) | $334.00 | $352.04 | +5.40% | $329.85 (10%, 1a5b3205, HWM $366.50) | HOLD — $20B Qatar partnership Sep 21; Q3 earnings Oct 13 ($5.50 est) |
+| NVDA frac | 1.192 | $199.83 | $226.30 | +13.25% | none (fractional) | HOLD |
+| SLB frac | 5.675 | $53.67 | $51.76 | -3.56% | none (fractional) | HOLD |
+
+### INTC Stop Rule Alert
+- Sep 22 intraday: Meta Muse AI app driving CPU sector-wide rerating; INTC up further premarket
+- Live quote (Alpaca Sep 21 close): bid $121.10 / ask $121.70
+- **+20% trigger**: $106.516 × 1.20 = **$127.82** → watch at open today
+- At $127.82: tighten stop 7% → 5% UNLESS 14-day ATR >4% of price
+- INTC recent volatility: +12.9% (Sep 21), +4.1% (Sep 19), +4.0% (Sep 17) → ATR likely >4% → STAY AT 7% if $127.82 hit
+- **+25% partial profit trigger**: $106.516 × 1.25 = $133.15 → sell 57 shares (1/3 of 157)
+- Current stop $114.018 must NOT move down; new HWM will update stop automatically
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Filed | Days from Filing | Signal Level |
+|------------|--------|--------|------|------------|-------|------------------|--------------|
+| **Pelosi** | **INTC** | BUY stock | $500K-1M | Jul 24 | Aug 21 | 32 days ✓ | **Primary** — already in position |
+| **Pelosi** | **BE** | BUY stock | $1M-5M | Jul 24 | Aug 21 | 32 days ✓ | **Primary eligible** — capital constrained |
+| **Pelosi** | **BE** | BUY stock | $500K-1M | Jul 28 | Aug 21 | 32 days ✓ | **Primary eligible** — capital constrained |
+| **Khanna** | BNS | BUY | $50-100K | Aug 27 | Sep 7 | 15 days ✓ | Secondary — financial/banks; already hold JPM |
+| **Khanna** | QCOM | BUY | $15-50K | Aug 24 | Sep 4 | 18 days ✓ | Watchlist — semis; +16.8% since |
+| Tuberville | — | No qualifying buys in window | — | — | — | — | — |
+| McCaul | AMZN | SELL | $15-50K | Jun 18 | Jul 13 | — | Sell signal, ignored |
+| Crenshaw | AMZN | SELL | $1-15K | Jun 1 | Jul 17 | — | Sell signal, ignored |
+
+### Sector Momentum YTD (Sep 18, 2026)
+| Sector | YTD | Schwab Rating |
+|--------|-----|---------------|
+| Energy (XLE) | +43.8% | Neutral |
+| Technology (XLK) | +31.7% | Neutral |
+| Materials (XLB) | +10.2% | More Favored |
+| Industrials (XLI) | +9.4% | More Favored |
+| Financials (XLF) | +7.2% | More Favored |
+| Health Care (XLV) | +5.5% | More Favored |
+| Consumer Discretionary (XLY) | -7.0% | Least Favored |
+
+Holdings: EOG (Energy ✓), INTC (Tech ✓), JPM (Financials ✓) — all in top/favored sectors.
+
+### Trade Ideas
+1. **HOLD all positions** — no -7% cuts triggered; no new stop tightening needed yet
+   - INTC: monitor $127.82 (+20% from entry) intraday for 5% tighten; if ATR >4%, stay 7%
+   - INTC: monitor $133.15 (+25% from entry) for 1/3 partial profit (57 shares)
+   - EOG: oil retreating from highs ($93-100) but Saudi pipeline still offline; thesis intact; -5.62% above floor
+   - JPM: Q3 Oct 13 catalyst; $20B Qatar deal Sep 21; HWM stop at $329.85
+
+2. **BE (Bloom Energy) — last chance before blackout ★★** (Sep 22-23 only)
+   - Catalyst: Pelosi $1.5-6M buy Jul 24-28 (32 days from filing ✓) + AI/data center power demand secular + Energy sector #1 YTD +43.8%
+   - Capital: cash $15,778 + stock deployment 77% → marginal for new entry; need live quote at open
+   - Live price required before any sizing: `bash scripts/alpaca.sh quote BE`
+   - Entry: only if price <5% above Pelosi's estimated entry range; NQ stable; spread tight
+   - **Cannot enter blind — requires market-open price verification (market-open workflow)**
+   - Risk: capital-intensive fuel cell company; rate-sensitive; Q-end blackout starts Sep 24
+
+3. **QCOM — Watchlist** (Khanna $15-50K buy, +16.8% since; semis sector strong; post-blackout Oct 1+)
+
+### Risk Factors
+1. **Trump-Xi Summit Sep 23-24**: binary; failure = risk-off across all positions; breakthrough = rally continuation
+2. **Oil retreating** ($93-100 from $107-109): EOG thesis weakens if WTI sustains break below $90; stop at $134.52 = 4.9% cushion
+3. **INTC ATR >4%**: large volatile swings; stop could trigger on normal volatility at 7% trail — acceptable given +13.7% buffer
+4. **10Y yield 4.927%**: below 5% = some relief but still elevated; multiple compression risk ongoing
+5. **Q-end blackout Sep 24**: forced institutional selling; may pressure all positions Sep 24-30
+6. **Sector rotation risk**: if Tech pulls back after Meta Muse AI hype fades, INTC/NVDA exposed
+
+### Decision
+**HOLD ALL** — no -7% cuts; no stops to action pre-market.
+**INTC**: At market open, check price. If ≥$127.82 → verify ATR first; likely stay at 7% trail (high-vol).
+**INTC**: If ≥$133.15 → sell 57 shares (partial profit 1/3 rule).
+**BE**: Only actionable at market open with live quote — defer to market-open workflow.
+**NO pre-market orders placed** — all actions pending market open price discovery.
