@@ -10638,3 +10638,56 @@ INTC +12.9% today — confirmed catalysts: Tigress ($145 PT), Northland upgrades
 | NVDA frac | 1.192 | $199.83 | $226.32 | +13.25% | none (fractional) | — | HOLD |
 | SLB frac | 5.675 | $53.67 | $51.445 | -4.15% | none (fractional) | — | HOLD |
 
+
+---
+
+## 2026-09-22 - Market Open
+
+**Portfolio:** $119,225 equity | **Cash:** ~$13,363 (after trades) | **Positions:** 5 stocks + 4 crypto (DCA sleeve)
+
+### STEP 0 — Reconciliation
+All positions match Sep 21 midday log exactly. No overnight stop-outs.
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| EOG | 111.683 (111 stop) | 111.683441 | ✓ Match |
+| INTC | 157.163 (157 stop) | 157.162614 | ✓ Match |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops at open: EOG 2cf54a14 ($134.523) | INTC b0766ca3 ($114.018, 7%) | JPM 1a5b3205 ($329.85)
+
+### EOG — Manual Cut (-7% Rule Triggered)
+- Entry: $149.83 | Live price at open: $139.01 | P&L: -7.22% (below -7% floor $139.34)
+- Canceled GTC stop 2cf54a14
+- **SOLD 111.683441 shares @ $138.50 (fill 9:34 AM EDT, order c2302f67)**
+- Realized P&L: ~-$1,266 (-7.56%)
+- Thesis: Saudi East-West pipeline supply constraint thesis intact, but rule overrides — cut at -7%
+
+### BE — New Entry (Pelosi Primary Signal)
+- Catalyst: Nancy Pelosi $1M-5M buy Jul 24 + $500K-1M buy Jul 28 (filed Aug 21, 28-32 day lag ✓) — primary signal; AI/data center power demand (fuel cells); Energy sector #1 YTD +43.8%
+- Spread at entry: $271.84/$272.99 (0.4%) — confirmed tight before order
+- **BOUGHT $17,883.75 notional → 65.370576 shares @ $273.57 (fill 9:35 AM EDT, order 7614e676)**
+- **Stop: 10% trailing, order 5a10bb1b, stop $247.04, HWM $274.49 (65 integer shares)**
+- Target: $328.29 (+20%) | -7% floor: $254.42 | R:R: ~2.1:1
+
+### Actions Taken
+1. Canceled EOG GTC stop 2cf54a14
+2. Sold EOG 111.683441 @ $138.50 (c2302f67) — -7% rule
+3. Bought BE $17,883.75 notional → 65.370576 @ $273.57 (7614e676) — Pelosi primary + Energy momentum
+4. Placed BE 10% trailing stop (5a10bb1b, $247.04, HWM $274.49, 65 shares)
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| BE | 65.370576 (65 stop) | $273.57 | $273.57 | +0.0% | $247.04 (10%, 5a10bb1b) | $274.49 | NEW — Pelosi primary |
+| INTC | 157.163 (157 stop) | $106.516 | $120.95 | +13.5% | $114.018 (7%, b0766ca3) | $122.61 | HOLD |
+| JPM | 49.522 (49 stop) | $334.00 | $351.04 | +5.1% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA frac | 1.192 | $199.83 | $227.49 | +13.8% | none (fractional) | — | HOLD |
+| SLB frac | 5.675 | $53.67 | $50.90 | -5.2% | none (fractional) | — | HOLD |
+
+- Trades this week: 1/7 (BE new entry)
+- Q-end blackout starts Sep 24 — 1 session remains (Sep 23) for new entries
+- Stock deployment: ~80% of non-crypto equity ✓ (within 75-85%)
