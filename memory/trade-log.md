@@ -10691,3 +10691,63 @@ GTC stops at open: EOG 2cf54a14 ($134.523) | INTC b0766ca3 ($114.018, 7%) | JPM 
 - Trades this week: 1/7 (BE new entry)
 - Q-end blackout starts Sep 24 — 1 session remains (Sep 23) for new entries
 - Stock deployment: ~80% of non-crypto equity ✓ (within 75-85%)
+
+---
+
+## 2026-09-22 - Midday Scan
+
+**Portfolio:** $118,964.02 equity | **Cash:** $13,362.98 | **Day P&L:** -$548.96 (-0.46%) | **Phase P&L:** +$18,964.02 (+18.96%)
+
+### STEP 0 — Reconciliation
+All positions match Sep 22 market-open log exactly. No intraday stop-outs.
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| BE | 65.371 (65 stop) | 65.370576 | ✓ Match |
+| INTC | 157.163 (157 stop) | 157.162614 | ✓ Match |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| EOG | sold this AM (111.683) | 0.0000002 dust | ✓ Consistent |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed: BE 5a10bb1b ($255.825, 10%, HWM $284.25) | INTC b0766ca3 ($114.148, 7%, HWM $122.74) | JPM 1a5b3205 ($329.85, 10%, HWM $366.50)
+
+### STEP 3 — Cut Losers
+No positions at or below -7%. No cuts.
+
+| Ticker | Current | P&L% (entry) | -7% Floor | Action |
+|--------|---------|--------------|-----------|--------|
+| BE | $276.65 | +1.12% | $254.42 | HOLD |
+| INTC | $121.45 | +14.02% | $99.06 | HOLD |
+| JPM | $340.20 | +1.86% | $310.62 | HOLD |
+| NVDA frac | $229.50 | +14.84% | $185.84 | HOLD |
+| SLB frac | $52.40 | -2.37% | $49.91 | HOLD |
+
+### STEP 4 — Stop Tightening
+- **INTC +14.02%**: approaching +15% trigger ($122.49); current $121.45 = 0.9% away. NOT triggered. No action.
+- **NVDA frac +14.84%**: approaching +15%; fractional, no stop. No action.
+- All others well below thresholds.
+
+### STEP 5 — Thesis Check
+- **BE (+1.12%, $276.65):** S&P 500 added Sep 21 (index fund forced buying); Q2 rev $1.065B (+165.5% YoY); operating income swung from -$3.5M to +$182.2M; 2026 revenue guidance raised to $3.9-4.2B; +31.86% past month. Pelosi primary signal intact. **STRONGLY INTACT — STRENGTHENED.** Stop auto-trailed to $255.825 (HWM $284.25).
+- **INTC (+14.02%, $121.45):** Tigress PT $145, Northland PT raised; PC CPU +10% pricing power Oct; SK Hynix Ohio fab talks ongoing. -0.27% intraday. **INTACT.** Watch $122.49 (+15% trigger) for 7%→5% tighten (but ATR >4% likely → stay 7%).
+- **JPM (+1.86%, $340.20):** Down -3.74% today — no thesis break; dividend declared ($1.65/share, ex-date Oct 6); $20B Qatar asset mgmt partnership intact; market-wide financial sector rotation. Q3 Oct 13 catalyst intact. Stop at $329.85 = 3.1% cushion. **INTACT.**
+- **NVDA frac (+14.84%, $229.50):** AI backbone. Fractional. **INTACT.**
+- **SLB frac (-2.37%, $52.40):** Oil services. Fractional. Above -7% floor ($49.91). **INTACT.**
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| BE | 65.371 (65 stop) | $273.57 | $276.65 | +1.12% | $255.825 (10%, 5a10bb1b) | $284.25 | HOLD — S&P 500 added; thesis strengthened |
+| INTC | 157.163 (157 stop) | $106.516 | $121.45 | +14.02% | $114.148 (7%, b0766ca3) | $122.74 | HOLD — watch $122.49 for tighten |
+| JPM | 49.522 (49 stop) | $334.00 | $340.20 | +1.86% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD — rotation dip, thesis intact |
+| NVDA frac | 1.192 | $199.83 | $229.50 | +14.84% | none (fractional) | — | HOLD |
+| SLB frac | 5.675 | $53.67 | $52.40 | -2.37% | none (fractional) | — | HOLD |
+
+- No notification sent (no actions taken)
+- Trades this week: 1/7 (BE new entry Sep 22)
+- Q-end blackout starts Sep 24 — 1 session remains (Sep 23) for new entries
