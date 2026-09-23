@@ -10750,4 +10750,19 @@ None. No cuts, no stop changes, no new entries.
 
 - No notification sent (no actions taken)
 - Trades this week: 1/7 (BE new entry Sep 22)
+
+---
+
+### Sep 22 - EOD Snapshot (Day 108, Tuesday)
+**Portfolio:** $120,095.80 | **Cash:** $13,362.98 (11.1%) | **Day P&L:** +$582.82 (+0.49%) | **Phase P&L:** +$20,095.80 (+20.10%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| BE | 65.371 | $273.57 | $277.10 | +$0.57 (+0.21%) | +$230.45 (+1.29%) | $255.825 (10% trail, HWM $284.25, 5a10bb1b) |
+| INTC | 157.163 | $106.516 | $124.27 | +$0.41 (+0.33%) | +$2,790.21 (+16.67%) | $115.404 (7% trail, HWM $124.09, b0766ca3) |
+| JPM | 49.522 | $334.00 | $340.62 | +$0.62 (+0.18%) | +$327.76 (+1.98%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA frac | 1.192 | $199.83 | $228.81 | -$0.06 (-0.03%) | +$34.53 (+14.50%) | none (fractional) |
+| SLB frac | 5.675 | $53.67 | $52.13 | +$0.01 (+0.02%) | -$8.74 (-2.87%) | none (fractional) |
+
+**Notes:** EOG cut at open at -7.22% per hard rule (price $139.01 breached -7% floor $139.34); thesis intact but rule overrides. Proceeds immediately deployed into BE — S&P 500 added Sep 21 forcing index fund buying + Pelosi $1M-5M primary signal + raised FY2026 guidance. BE ended day +1.29% unrealized with 10% trail at $255.83. INTC continued its run to $124.27 (+16.67% unrealized); 7% stop auto-trailed to $115.40 (HWM $124.09) — approaching +20% trigger ($127.82) which could tighten to 5% (ATR check needed first). JPM +1.98% unrealized; dividend ex-date Oct 6; Q3 earnings Oct 13 catalyst intact. Portfolio cash $13,363 (11.1%) — below 75-85% deployment target but insufficient for standard position without a stop-out freeing capital. Q-end blackout starts Sep 24; Sep 23 is the last entry session. Crypto DCA sleeve: BTC $87,147 (+30.7%), ETH $2,784 (+38.1%), SOL $119.49 (+43.9%), LINK $13.17 (+42.5%) — untouched per rules.
 - Q-end blackout starts Sep 24 — 1 session remains (Sep 23) for new entries
