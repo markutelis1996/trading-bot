@@ -10766,3 +10766,48 @@ None. No cuts, no stop changes, no new entries.
 
 **Notes:** EOG cut at open at -7.22% per hard rule (price $139.01 breached -7% floor $139.34); thesis intact but rule overrides. Proceeds immediately deployed into BE — S&P 500 added Sep 21 forcing index fund buying + Pelosi $1M-5M primary signal + raised FY2026 guidance. BE ended day +1.29% unrealized with 10% trail at $255.83. INTC continued its run to $124.27 (+16.67% unrealized); 7% stop auto-trailed to $115.40 (HWM $124.09) — approaching +20% trigger ($127.82) which could tighten to 5% (ATR check needed first). JPM +1.98% unrealized; dividend ex-date Oct 6; Q3 earnings Oct 13 catalyst intact. Portfolio cash $13,363 (11.1%) — below 75-85% deployment target but insufficient for standard position without a stop-out freeing capital. Q-end blackout starts Sep 24; Sep 23 is the last entry session. Crypto DCA sleeve: BTC $87,147 (+30.7%), ETH $2,784 (+38.1%), SOL $119.49 (+43.9%), LINK $13.17 (+42.5%) — untouched per rules.
 - Q-end blackout starts Sep 24 — 1 session remains (Sep 23) for new entries
+
+---
+
+## 2026-09-23 - Market Open
+
+**Portfolio:** $118,587.61 equity | **Cash:** $13,362.98 (11.3%) | **Positions:** 5 stocks + 4 crypto (DCA sleeve)
+
+### STEP 0 — Reconciliation
+All positions match Sep 22 EOD log exactly. No overnight stop-outs.
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| BE | 65.371 (65 stop) | 65.370576 | ✓ Match |
+| INTC | 157.163 (157 stop) | 157.162614 | ✓ Match |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| EOG | sold Sep 22 | 0.000000233 dust | ✓ Consistent |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed active: BE 5a10bb1b ($255.825, 10%) | INTC b0766ca3 ($115.534, 7%, auto-trailed) | JPM 1a5b3205 ($329.85, 10%)
+
+### Live Prices at Open
+| Ticker | Ask | Sep 22 Close | Change | Key Level | Status |
+|--------|-----|--------------|--------|-----------|--------|
+| INTC | $122.71 | $124.27 | -1.3% | +20% trigger $127.82 | BELOW — no action |
+| BE | ~$277 (wide spread at open) | $277.10 | ~flat | +25% $341.96 | HOLD |
+| JPM | $345.00 | $340.62 | +1.3% | — | HOLD |
+| NVDA | $228.33 | $228.81 | -0.2% | — | HOLD |
+| SLB | $52.47 | $52.13 | +0.7% | -7% floor $49.91 | HOLD |
+
+### Decision
+**NO TRADES.** Capital constraint ($13,362 cash < $17,788 needed for 15% position) + Q-end blackout starts Sep 24. INTC at $122.71 — below +20% trigger ($127.82); no stop tightening action. No -7% cuts triggered. All stops active.
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| BE | 65.371 (65 stop) | $273.57 | ~$277 | +1.2% | $255.825 (10%, 5a10bb1b) | $284.25 | HOLD |
+| INTC | 157.163 (157 stop) | $106.516 | $122.71 | +15.2% | $115.534 (7%, b0766ca3) | ~$124.09+ | HOLD — below +20% trigger |
+| JPM | 49.522 (49 stop) | $334.00 | $345.00 | +3.3% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA frac | 1.192 | $199.83 | $228.33 | +14.3% | none (fractional) | — | HOLD |
+| SLB frac | 5.675 | $53.67 | $52.47 | -2.2% | none (fractional) | — | HOLD |
+
+- Trades this week: 1/7 (BE Sep 22)
+- Q-end blackout starts Sep 24 — no new entries Sep 24-30
