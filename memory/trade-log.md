@@ -10874,4 +10874,19 @@ None. No cuts, no stop changes, no new entries.
 
 - No notification sent (no actions taken)
 - Trades this week: 1/7 (BE Sep 22)
+
+---
+
+### Sep 23 - EOD Snapshot (Day 109, Wednesday)
+**Portfolio:** $117,502.82 | **Cash:** $11,921.63 (10.1%) | **Day P&L:** -$2,592.98 (-2.16%) | **Phase P&L:** +$17,502.82 (+17.50%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| BE | 65.371 | $273.57 | $274.88 | -$1.65 (-0.60%) | +$85.32 (+0.48%) | $255.825 (10% trail, HWM $284.25, 5a10bb1b) |
+| INTC | 157.163 | $106.516 | $122.60 | -$1.26 (-1.02%) | +$2,527.75 (+15.10%) | $115.534 (7% trail, HWM $124.23, b0766ca3) |
+| JPM | 49.522 | $334.00 | $337.77 | -$2.23 (-0.66%) | +$186.63 (+1.13%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA frac | 1.192 | $199.83 | $225.39 | -$3.48 (-1.52%) | +$30.45 (+12.79%) | none (fractional) |
+| SLB frac | 5.675 | $53.67 | $51.87 | -$0.25 (-0.48%) | -$10.21 (-3.35%) | none (fractional) |
+
+**Notes:** Broad risk-off day; all stock positions closed red. Driver: Trump-Xi summit AI chip/export licensing negotiations created sector-wide semiconductor pressure (INTC -1.02%, NVDA frac -1.52%) plus general equity weakness. No thesis breaks — INTC stop cushion 5.76% ($122.60 vs stop $115.53) remains intact with fundamental thesis unchanged. BE -0.60% noise only; S&P 500 inclusion tailwind intact. JPM -0.66%; Oct 13 earnings catalyst ahead. Q-end blackout begins Sep 24 — no new entries through Sep 30. Stock deployment 46.4% of equity; crypto DCA sleeve ($51,066: BTC/ETH/SOL/LINK) also red today (-2% to -5.5%) — untouched per rules. Portfolio stocks + crypto total deployed: 89.8%. Stops active and GTC confirmed.
 - Q-end blackout starts Sep 24 — no new entries through Sep 30
