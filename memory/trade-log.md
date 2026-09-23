@@ -10811,3 +10811,67 @@ GTC stops confirmed active: BE 5a10bb1b ($255.825, 10%) | INTC b0766ca3 ($115.53
 
 - Trades this week: 1/7 (BE Sep 22)
 - Q-end blackout starts Sep 24 — no new entries Sep 24-30
+
+---
+
+## 2026-09-23 - Midday Scan
+
+**Portfolio:** $116,888.01 equity | **Cash:** $11,921.63 | **Day P&L:** -$2,506.49 (-2.10%) | **Phase P&L:** +$16,888.01 (+16.89%)
+
+### STEP 0 — Reconciliation
+All stock positions match Sep 23 market-open log exactly. No intraday stop-outs.
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| BE | 65.371 (65 stop) | 65.370576 | ✓ Match |
+| INTC | 157.163 (157 stop) | 157.162614 | ✓ Match |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| EOG | sold Sep 22 | 0.000000233 dust | ✓ Consistent |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+Cash: $13,362.98 → $11,921.63 (-$1,441.35) — attributed to crypto DCA routine purchase (untouchable sleeve, no stock impact).
+
+GTC stops active: BE 5a10bb1b ($255.825, 10%, HWM $284.25) | INTC b0766ca3 ($115.534, 7%, HWM $124.23) | JPM 1a5b3205 ($329.85, 10%, HWM $366.50)
+
+### STEP 3 — Cut Losers
+No positions at or below -7%. No cuts.
+
+| Ticker | Current | P&L% | -7% Floor | Intraday | Action |
+|--------|---------|------|-----------|----------|--------|
+| BE | $274.52 | +0.35% | $254.42 | -0.73% | HOLD |
+| INTC | $120.30 | +12.94% | $99.06 | -2.87% | HOLD |
+| JPM | $338.14 | +1.24% | $310.62 | -0.55% | HOLD |
+| NVDA frac | $224.74 | +12.46% | $185.84 | -1.81% | HOLD |
+| SLB frac | $52.225 | -2.69% | $49.91 | +0.20% | HOLD |
+
+### STEP 4 — Stop Tightening
+- INTC +12.94%: below +15% trigger ($122.49) — pulled back from +16.67% yesterday; 7% trail already active (b0766ca3). No action.
+- All others well below thresholds. No changes.
+
+### STEP 5 — Thesis Check
+- **BE (+0.35%, $274.52):** S&P 500 inclusion buying ongoing; AI/data center power demand INTACT. -0.73% intraday = broad market drag only. Stop HWM $284.25 → $255.83 (10%). **INTACT.**
+- **INTC (+12.94%, $120.30):** -2.87% intraday — attributed to Trump-Xi summit AI chip licensing uncertainty (Jensen Huang on Trump's China trip; semis sector-wide). Tigress PT $145, PC CPU +10% pricing Oct, SK Hynix fab talks — fundamental thesis INTACT. Stop $115.534 = 4.0% cushion. **INTACT — monitoring summit outcome.**
+- **JPM (+1.24%, $338.14):** Normal market-wide decline; Q3 Oct 13 catalyst intact; rate hike NIM tailwind. Stop $329.85 = 2.5% cushion. **INTACT.**
+- **NVDA frac (+12.46%, $224.74):** AI backbone; Trump-Xi chip diplomacy exposure (fractional position). **INTACT.**
+- **SLB frac (-2.69%, $52.225):** Oil services; above -7% floor by 4.4%; slightly green today. **INTACT.**
+
+### STEP 6 — Intraday Research
+INTC -2.87% cause confirmed: Trump-Xi summit Sep 23-24 AI chip/export licensing discussions — semiconductor sector-wide pressure (pre-market log already identified this as primary risk). No thesis break. No Perplexity query needed.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|---------|------|------------|-----|--------|
+| BE | 65.371 (65 stop) | $273.57 | $274.52 | +0.35% | $255.825 (10%, 5a10bb1b) | $284.25 | HOLD |
+| INTC | 157.163 (157 stop) | $106.516 | $120.30 | +12.94% | $115.534 (7%, b0766ca3) | $124.23 | HOLD — Trump-Xi chip dip; thesis intact |
+| JPM | 49.522 (49 stop) | $334.00 | $338.14 | +1.24% | $329.85 (10%, 1a5b3205) | $366.50 | HOLD |
+| NVDA frac | 1.192 | $199.83 | $224.74 | +12.46% | none (fractional) | — | HOLD |
+| SLB frac | 5.675 | $53.67 | $52.225 | -2.69% | none (fractional) | — | HOLD |
+
+- No notification sent (no actions taken)
+- Trades this week: 1/7 (BE Sep 22)
+- Q-end blackout starts Sep 24 — no new entries through Sep 30
