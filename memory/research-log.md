@@ -12152,3 +12152,92 @@ AH quotes illiquid — use regular session open prices for any stop assessments.
 **INTC at open**: verify if ≥$127.82 for +20% rule (stay 7% trail per ATR) or ≥$133.15 for 1/3 partial sell — handle in market-open workflow.
 **Blackout strategy (Sep 24-30)**: Hold existing positions with stops; let GTC stops manage risk; no manual actions unless -7% cut triggered.
 **Post-blackout priority (Oct 1+)**: MSFT (Gottheimer signal), BE (add on pullback if capital available), JPM earnings Oct 13.
+
+---
+
+## 2026-09-24 — Pre-Market Research
+
+### STEP 0 — Reconciliation
+All stock positions match Sep 23 EOD snapshot exactly. No overnight stop-outs.
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| BE | 65.371 (65 stop) | 65.370576 | ✓ Match |
+| INTC | 157.163 (157 stop) | 157.162614 | ✓ Match |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| EOG | sold Sep 22 | 0.000000233 dust | ✓ Consistent |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed: BE 5a10bb1b ($255.825, 10%) | INTC b0766ca3 ($115.534, 7%) | JPM 1a5b3205 ($329.85, 10%)
+
+### Account Snapshot (Live)
+- **Equity:** $117,131.98 | **Cash:** $11,921.63 (10.2%) | **Long MV:** $105,210.35
+- **RegT buying power:** $78,104.95 | **Day trades:** N/A
+- **Phase P&L:** +$17,131.98 (+17.1%)
+
+### Market Context
+| Indicator | Value | Notes |
+|-----------|-------|-------|
+| S&P 500 futures (ES Dec) | ~7,819 (+107, +1.4%) | Strongly positive premarket — risk-on |
+| NASDAQ 100 futures (NQ Dec) | ~30,679 (+761, +2.6%) | Tech leading |
+| VIX | ~14.21 (-4.4%) | Very low; complacent/risk-on environment |
+| WTI crude | ~$91-92/bbl | Down from ~$100 peak; $9B diesel ban plan from WH |
+| Brent crude | ~$97-103/bbl | Conflicting sources; ~$100 vicinity |
+| 10Y yield | 5.122% (+0.006) | Elevated; strong PMI data today lifting yields/dollar |
+| Flash PMI | Strong beat (per Newsquawk) | "Stocks lower while yields climb on strong PMI" |
+
+Key releases today:
+- 8:30 AM ET: BEA U.S. International Transactions Q2 (minor, trade balance)
+- PMI composite flash already released (beat) — yields up, initial equity dip but futures now positive
+- Trump-Xi summit begins Sep 24 in Washington (AI chips, farm goods, trade — BINARY for INTC/NVDA)
+
+### AH Quote Snapshot (Sep 23 20:00 ET — illiquid, directional only)
+| Ticker | Bid | Ask | Last Close | Direction | Stop |
+|--------|-----|-----|------------|-----------|------|
+| BE | $257.49 | $286.31 | $274.88 | Gap up possible | $255.825 (10%) |
+| INTC | $115.17 | $127.63 | $122.60 | Gap up ~+4% — near +20% trigger | $115.534 (7%) |
+| JPM | $320.91 | n/a | $337.77 | Illiquid; stale | $329.85 (10%) |
+| NVDA | $216.56 | $239.46 | $225.39 | Gap up ~+6% possible | none (frac) |
+| SLB | $49.35 | $54.84 | $51.87 | Mixed | none (frac) |
+
+**CRITICAL INTC WATCH:** AH ask $127.63 vs +20% trigger $127.82. If INTC opens ≥$127.82 today:
+- ATR >4% confirmed (Sep 21 +12.9% swing) → STAY at 7% trail (do NOT tighten to 5%)
+- Stop action: none (7% trail already active per ATR rule)
+- +25% partial sell trigger: $133.15 → not yet reached; no action
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosure | Days | Signal |
+|------------|--------|--------|------|------------|------------|------|--------|
+| **Pelosi** | **INTC** | BUY | $750K-1.5M | Jul 24 | Aug 21 | 34+ days ✓ | **Primary** — already in position |
+| **Pelosi** | **BE** | BUY | $1.5M-6M | Jul 24-28 | Aug 21 | 34+ days ✓ | **Primary** — already in position |
+| **Gottheimer** | MSFT | BUY call options $250-750K | Aug 14 | Sep 15 | 32+ days ✓ | **Watchlist** — no position; post-blackout candidate |
+
+No new whitelist disclosures in last 45 days beyond what's already logged. Pelosi signals remain intact as primary catalysts for existing BE and INTC positions.
+
+### Thesis Check
+- **BE (+0.48%, $273.42):** AH ask $286.31 suggests gap up at open. AI/data center power demand INTACT (Q2 rev $1.065B +166% YoY; 2026 guidance $3.9-4.2B); S&P 500 inclusion passive buying ongoing; Pelosi $1.5-6M buy Jul 24-28. Analyst consensus PT $280.24 — stock near consensus; upside limited until Q3 earnings Oct 27. Stop $255.825 (HWM $284.25) provides 6.5% cushion. **INTACT.**
+- **INTC (+14.2%, $121.64):** AH ask $127.63 = near +20% trigger. Apple-Intel chip deal (formal since May 2026); Q2 rev $16.1B +25% YoY; Trump-Xi summit today = binary catalyst (deal = bull, no deal = further dip). SK Hynix fab talks ongoing; PC CPU +10% pricing Oct. 7% trail at $115.534 = 4.9% cushion. ATR >4% → stay 7% if +20% triggers. **INTACT — summit is key catalyst.**
+- **JPM (+1.1%, $337.53):** Q3 earnings Oct 13 ($5.50 EPS est); rate hike (3.75-4.00%) positive for NIM; Qatar asset management partnership intact. Stop $329.85 (HWM $366.50) = 2.3% cushion. **INTACT.**
+- **NVDA frac (+12.6%, $225.10):** AH ask $239.46. AI backbone; Trump-Xi chip diplomacy = upside catalyst. No stop (fractional). **INTACT.**
+- **SLB frac (-3.5%, $51.77):** Oil retreating from $109 peak (now ~$91); below -7% floor? -7% floor = $53.67 × 0.93 = $49.91. $51.77 is 3.9% above floor. WH diesel export ban proposal = complex oil signal (may support or depress prices). **HOLDING — above -7% floor; monitor.**
+
+### Trade Ideas
+**NONE.** Q-end blackout Sep 24-30 — no new entries per Rule 16.
+Post-blackout (Oct 1+) candidates:
+1. **MSFT** — Gottheimer $250-750K buy Aug 14 + AI/cloud momentum; JPM Q3 earnings Oct 13 watch for sector tailwind
+2. **INTC** — if Trump-Xi positive outcome, +25% partial sell at $133.15 available (57 shares) — handle in market-open workflow
+
+### Risk Factors
+1. **Trump-Xi summit (Sep 24)**: AI chip export licensing = binary for INTC/NVDA. Positive = rally continuation; failure = INTC/NVDA risk-off.
+2. **Q-end blackout Sep 24-30**: Institutional forced selling; all 5 positions exposed. GTC stops active.
+3. **Strong PMI + yields up**: 10Y at 5.122%; if above 5.2%, growth multiple compression = headwind for BE (P/E 345x) and NVDA.
+4. **SLB oil reversal**: WTI retreating; WH diesel ban proposal adds uncertainty. SLB frac -3.5%, monitor -7% floor.
+5. **JPM stop cushion slim**: $337.53 vs stop $329.85 = only 2.3% buffer; watch for HWM reset if JPM rallies today.
+
+### Decision
+**HOLD ALL POSITIONS** — no -7% cuts triggered; stops active.
+**NO NEW ENTRIES** — Q-end blackout Sep 24-30 (Rule 16).
+**INTC at open**: if ≥$127.82, confirm +20% trigger → ATR >4% confirmed → STAY at 7% trail (no action needed, b0766ca3 already active).
+**INTC +25% partial sell**: $133.15 trigger not yet reached — handle in market-open workflow if gap up overshoots.
