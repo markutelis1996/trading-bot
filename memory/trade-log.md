@@ -10941,4 +10941,21 @@ See reconciliation section above. BE 65-share trailing stop fired at market open
 
 - Trades this week: 1/7 (BE Sep 22)
 - Q-end blackout Sep 24-30 — no new entries
+
+---
+
+### Sep 25 - EOD Snapshot (Day 111, Friday)
+**Portfolio:** $117,875.39 | **Cash:** $28,496.35 (24.2%) | **Day P&L:** +$389.65 (+0.33%) | **Phase P&L:** +$17,875.39 (+17.88%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| INTC | 157.163 | $106.516 | $128.81 | +$1.42 (+1.12%) | +$3,503.73 (+20.93%) | $118.52 (7% trail, HWM $127.44, b0766ca3) |
+| JPM | 49.522 | $334.00 | $338.65 | +$0.09 (+0.03%) | +$230.21 (+1.39%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA frac | 1.192 | $199.83 | $224.80 | +$0.22 (+0.10%) | +$29.75 (+12.49%) | none (fractional) |
+| SLB frac | 5.675 | $53.67 | $51.38 | -$0.05 (-0.10%) | -$13.00 (-4.27%) | none (fractional) |
+| BE frac | 0.371 | $273.57 | $269.75 | +$3.10 (+1.16%) | -$1.42 (-1.40%) | none (fractional) |
+
+**Notes:** Quiet end to the week. INTC +1.12% crossed the +20% profit threshold (now +20.93%); the tighten-to-5% trail rule applies but the high-vol exception (14-day ATR ~5.5% > 4%) keeps it at 7%. Alpaca's trailing stop auto-updated HWM to $127.44 and stop to $118.52 (was $115.53). No manual stop action taken. JPM flat; SLB and BE frac minimal moves. Q-end blackout (Sep 24-30) remains in force — no new entries, no partial exits. Crypto DCA sleeve (BTC/ETH/SOL/LINK) all modestly lower intraday; untouched per rules. Next partial profit trigger for INTC at +25% = $133.15. Next trading day: Mon Sep 28; blackout lifts Oct 1. Trades this week: 1/3 (BE Sep 22).
+
+---
 - No notification sent (no new trades executed)
