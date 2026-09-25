@@ -10996,3 +10996,50 @@ GTC stops active: INTC b0766ca3 (7% trail, HWM $127.44, stop $118.52) | JPM 1a5b
 
 ---
 - No notification sent (no new trades executed)
+
+## 2026-09-25 - Midday Scan
+
+**Portfolio:** ~$117,875 equity | **Cash:** $28,496.35 | **Positions:** 5 stocks + 4 crypto (DCA sleeve untouched) | **Deployed (stocks):** ~32%
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| INTC | 157.163 (157 stop) | 157.162614 | ✓ Match |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| BE frac | 0.371 | 0.370576 | ✓ Match |
+| EOG | dust | 0.000000233 | ✓ Consistent |
+| Crypto (BTCUSD/ETHUSD/SOLUSD/LINKUSD) | DCA sleeve | filtered | UNTOUCHABLE |
+
+No discrepancies.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | Status |
+|--------|--------|-------|---------|------|----------|------|--------|
+| INTC | 157.163 | $106.516 | $124.505 | +16.89% | -2.26% | $118.52 (7% trail, b0766ca3, HWM $127.44) | HOLD |
+| JPM | 49.522 | $334.001 | $341.775 | +2.33% | +0.95% | $329.85 (10% trail, 1a5b3205, HWM $366.50) | HOLD |
+| NVDA frac | 1.192 | $199.833 | $224.695 | +12.44% | +0.05% | none (fractional) | HOLD |
+| SLB frac | 5.675 | $53.670 | $51.720 | -3.63% | +0.56% | none (fractional) | HOLD — above -7% |
+| BE frac | 0.371 | $273.52 | $290.455 | +6.19% | +8.93% | none (remnant) | Dust — no action |
+| EOG | dust | $149.83 | $140.31 | -5.71% | -1.79% | none | Dust — no action |
+
+### Actions
+- No cuts (-7% rule: no position breaches; SLB -3.63%, EOG dust)
+- No stop tightening (INTC +16.89% → 7% trail rule triggered, stop IS already 7%; NVDA +12.44% < +15% trigger)
+- GTC stops confirmed active: INTC b0766ca3 (stop $118.52) | JPM 1a5b3205 (stop $329.85)
+
+### Thesis Check
+- **INTC**: -2.26% intraday pullback from $128.81 close; core AI/semiconductor re-rating + Pelosi signal intact; Trump-Xi summit maintained status quo on chip exports (no escalation). INTACT
+- **JPM**: +0.95% intraday; Dimon at state dinner; Oct 13 Q3 earnings remain primary catalyst. INTACT
+- **NVDA frac**: flat; AI demand thesis unchanged. INTACT
+- **SLB frac**: oil services; WTI ~$92.91 pullback normal; -3.63% well above -7% floor. INTACT
+- **BE frac**: +8.93% intraday — notable move; remnant dust position, Q-end blackout = no action. Monitor for Oct 1+ re-entry thesis if sustained.
+
+### Notes
+- Q-end blackout (Sep 24-30) in force — no new entries, no partial exits
+- Next key events: Sep 30 PCE + GDP Q2 Third Est + MU Q4 FY26 earnings AMC
+- INTC next trigger: +25% partial sell at $133.15 (sell 57 shares)
+- No notification sent (no action taken)
+
+---
