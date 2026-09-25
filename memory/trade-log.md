@@ -10944,6 +10944,43 @@ See reconciliation section above. BE 65-share trailing stop fired at market open
 
 ---
 
+## 2026-09-25 - Market-Open Session
+
+**Portfolio:** $117,887.69 equity | **Cash:** $28,496.35 (24.2%) | **Positions:** 5 stocks + 4 crypto (DCA sleeve)
+
+### STEP 0 — Reconciliation
+All positions match Sep 24 Market-Open log exactly. No overnight/pre-market stop-outs.
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| INTC | 157.163 (157 stop) | 157.162614 | ✓ Match |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| BE frac | 0.371 | 0.370576 | ✓ Match |
+| EOG | dust | 0.000000233 | ✓ Consistent |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops active: INTC b0766ca3 (7% trail, HWM $127.44, stop $118.52) | JPM 1a5b3205 (10% trail, HWM $366.50, stop $329.85)
+
+### Live Prices (9:56 AM ET)
+| Ticker | Ask | Entry | P&L% | -7% Floor | Stop | Status |
+|--------|-----|-------|------|-----------|------|--------|
+| INTC | $125.00 | $106.516 | +17.4% | $99.06 | $118.52 (7%, b0766ca3) | HOLD — below +25% trigger $133.15 |
+| JPM | $340.24 | $334.00 | +1.9% | $310.62 | $329.85 (10%, 1a5b3205) | HOLD |
+| NVDA frac | $224.88 | $199.83 | +12.5% | $185.84 | none | HOLD |
+| SLB frac | $51.59 | $53.67 | -3.9% | $49.91 | none | HOLD — above -7% floor |
+| BE frac | $274.86 | $273.57 | +0.5% | n/a | none | Remnant — no action |
+
+### Decision
+**NO TRADES** — Q-end blackout Rule 16 (Sep 24-30). No -7% cuts triggered. INTC +25% partial sell trigger ($133.15) not reached. All GTC stops healthy.
+
+- Trades this week: 1/7 (BE Sep 22)
+- Q-end blackout lifts: Oct 1, 2026
+- Post-blackout priority: MSFT (Gottheimer signal), INTC partial sell at $133.15
+
+---
+
 ### Sep 25 - EOD Snapshot (Day 111, Friday)
 **Portfolio:** $117,875.39 | **Cash:** $28,496.35 (24.2%) | **Day P&L:** +$389.65 (+0.33%) | **Phase P&L:** +$17,875.39 (+17.88%)
 
