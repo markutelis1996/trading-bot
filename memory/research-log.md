@@ -12240,4 +12240,102 @@ Post-blackout (Oct 1+) candidates:
 **HOLD ALL POSITIONS** — no -7% cuts triggered; stops active.
 **NO NEW ENTRIES** — Q-end blackout Sep 24-30 (Rule 16).
 **INTC at open**: if ≥$127.82, confirm +20% trigger → ATR >4% confirmed → STAY at 7% trail (no action needed, b0766ca3 already active).
+
+---
+
+## 2026-09-25 — Pre-Market Research
+
+### STEP 0 — Reconciliation
+Comparing to Sep 24 Market Open "Open Positions" (last logged state):
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| INTC | 157.163 (157 stop) | 157.162614 | ✓ Match |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| BE frac | 0.371 (remnant) | 0.370576 | ✓ Match |
+| EOG | dust 0.000000233 | 0.000000233 | ✓ Consistent |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+No discrepancies. INTC stop b0766ca3 auto-ratcheted: HWM updated $124.23 → $127.44, stop $115.534 → $118.519 (7% trail active). JPM 1a5b3205 unchanged (stop $329.85, HWM $366.50).
+
+### Account Snapshot (Live)
+- **Equity:** $117,900.54 | **Cash:** $28,496.35 (24.2%) | **Long MV:** $89,404.19
+- **Stock positions MV:** ~$37,674 | **Crypto sleeve MV:** ~$51,730
+- **Stock deployed:** ~32% of equity | **RegT buying power:** $94,691.90
+- **Phase P&L:** +$17,900.54 (+17.9%)
+- **Trades this week:** 1/7 (BE Sep 22; week resets Mon Sep 28)
+
+### Market Context (Sep 25 premarket)
+| Indicator | Value | Notes |
+|-----------|-------|-------|
+| S&P 500 futures (ES Dec) | ~7,819.50 (+107, +1.4%) | Risk-on; Trump-Xi positive tone |
+| NQ100 futures | ~30,678.50 (+761, +2.6%) | Tech leading strongly |
+| VIX | ~15.18-16.06 | Slightly elevated from 14.21 Sep 22; low overall |
+| WTI crude | ~$92.91 (-1.80%) | Pullback from ~$100+ |
+| Brent crude | ~$105.56 (-0.98%) | Elevated; Middle East tensions persist |
+| 10Y yield | ~5.12% | Elevated; strong PMI data still weighing |
+
+**Key releases today (Sep 25):**
+- BLS Employee Benefits report 10 AM (minor — no market impact)
+- No noteworthy BMO earnings (Kiplinger/EarningsCall confirms: no major reports Fri Sep 25)
+
+**Key upcoming events:**
+- Sep 29: JOLTS (August)
+- Sep 30: GDP Q2 Third Estimate + PCE August (8:30 AM ET) — MAJOR for all positions
+- Sep 30: MU Q4 FY26 earnings AMC — AI memory confirmation catalyst
+- Oct 2: Nonfarm Payrolls (Sep) — binary event
+- Oct 13: JPM Q3 earnings (consensus $5.82 EPS) — our primary JPM catalyst
+
+**Trump-Xi Summit (Sep 24-25, Washington):**
+- Busan Agreement extended to Jan 10, 2027 — trade truce maintained
+- "Great fanfare but low expectations" per Reuters Sep 25 — no chip/AI deal announced
+- No specific AI chip export licensing resolution → INTC/NVDA chip export risk remains unresolved but status quo maintained (not escalation)
+- Dimon (JPM CEO) attended state dinner — finance sector confidence in Trump-Xi dialogue
+
+### Current Position Prices (from live Alpaca broker — Sep 25 premarket)
+| Ticker | Live Price | Entry | P&L% | -7% Floor | Stop (GTC) | Status |
+|--------|-----------|-------|------|-----------|------------|--------|
+| INTC | $128.81 | $106.516 | +20.9% | $99.06 | $118.519 (7%, b0766ca3, HWM $127.44) | HOLD — above +20% trigger; ATR >4% → stay 7% |
+| JPM | $338.65 | $334.00 | +1.4% | $310.62 | $329.85 (10%, 1a5b3205, HWM $366.50) | HOLD |
+| NVDA frac | $224.80 | $199.83 | +12.5% | $185.84 | none (fractional) | HOLD |
+| SLB frac | $51.38 | $53.67 | -4.3% | $49.91 | none (fractional) | HOLD — above floor |
+| BE frac | $269.75 | $273.57 | -1.4% | n/a | none (remnant) | Dust — no action |
+
+**INTC +20% trigger reached ($127.82):** Broker HWM $127.44 (set during Sep 24 session). Today's price $128.81 confirms breach. Per Rule 6: ATR >4% confirmed (Sep 21 +12.9% swing; Sep 16 +5% earnings day) → STAY at 7% trail — do NOT tighten to 5%. Stop b0766ca3 auto-ratchets during regular session as INTC sets new HWM. No manual action required.
+
+**INTC +25% partial sell trigger:** $133.15 — NOT yet reached. Watch in market-open workflow.
+
+### Politician Signals (STEP 3b — Capitol Trades)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal |
+|------------|--------|--------|------|------------|-----------|--------|
+| **Pelosi** | **INTC** | BUY | $750K-1.5M | Jul 24 | Aug 21 | **Primary** — already in position ✓ |
+| **Pelosi** | **BE** | BUY | $1.5M-6M | Jul 24-28 | Aug 21 | **Primary** — remnant frac only |
+
+No new whitelist politician disclosures in last 45 days beyond already-logged Pelosi Jul 24-28 signals. CapitolTrades showing these as "Yesterday" (Sep 24) is a system re-display, not new disclosures.
+
+Note: Pelosi not running for re-election 2026 → disclosures cease Jan 2027. Still on whitelist until then.
+
+### Trade Ideas
+**NONE** — Q-end blackout Sep 24-30 (Rule 16).
+
+Post-blackout (Oct 1+) candidates — unchanged from prior log:
+1. **MSFT** — Gottheimer $250-750K buy Aug 14; AI cloud momentum; requires live quote verification at time of entry
+2. **INTC partial profit** — at $133.15 (+25%): sell 57 shares (1/3 of 157). Handle in market-open workflow when reached.
+3. **JPM** — Hold through Oct 13 earnings ($5.82 EPS consensus vs prior beats pattern)
+
+### Risk Factors
+1. **Q-end blackout Sep 24-30**: Institutional forced selling; all positions exposed. GTC stops active.
+2. **Trump-Xi outcome**: No chip deal → INTC export licensing uncertainty persists. Trade truce extension to Jan 2027 is modestly positive for broader semis.
+3. **Sep 30 PCE + GDP**: If PCE hot → Fed hike expectations rise → growth multiple compression (BE, INTC). GDP Q2 third estimate minimal revision expected (consensus 1.5%, prev 2.1% — large revision possible).
+4. **MU Sep 30 AMC**: Beat confirms AI memory supercycle → INTC foundry/AI thesis reinforced. Miss = sector risk.
+5. **SLB frac -4.3%**: Oil pullback ($92 WTI vs $109 prior peak); 4.6% above -7% floor; no action.
+6. **JPM stop cushion slim**: $338.65 vs stop $329.85 = 2.6% buffer. Watch for HWM reset if JPM rallies.
+
+### Decision
+**HOLD ALL POSITIONS** — no -7% cuts triggered; GTC stops active and ratcheting correctly.
+**NO NEW ENTRIES** — Q-end blackout Sep 24-30 (Rule 16). Even with strongly bullish futures (+1.4% ES, +2.6% NQ), the rule holds.
+**INTC +20% action**: None required — ATR >4% confirmed, 7% trail stays. b0766ca3 will auto-ratchet as HWM rises today.
+**INTC +25% watch**: If INTC reaches $133.15 intraday today, handle 57-share partial sell in market-open workflow.
 **INTC +25% partial sell**: $133.15 trigger not yet reached — handle in market-open workflow if gap up overshoots.
