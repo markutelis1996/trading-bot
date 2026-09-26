@@ -1353,3 +1353,77 @@ Phase P&L: +$15,324.02 (+15.32% from $100,000 base)
 - Phase P&L: +$15,324 (+15.32%) — growing lead over benchmark ✓
 
 ---
+
+## Week ending 2026-09-26
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $115,324.02 (Sep 19 EOD) |
+| Ending portfolio | $117,986.16 |
+| Week return | +$2,662.14 (+2.31%) |
+| S&P 500 week | +0.6% |
+| Bot vs S&P | +1.71% outperformance |
+| Trades | 2 (W:0 / L:2 closed / open:4 stocks) |
+| Win rate | 0% (0/2 closed trades) |
+| Best trade | BE -6.79% (stopped out Sep 24) |
+| Worst trade | EOG -7.56% (cut Sep 22, -7% rule) |
+| Profit factor | 0.00 (no winners) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| EOG | $149.83 (Sep 16) | $138.50 (Sep 22) | -$1,266 | -7.56% | Manual cut at open; live price $139.01 breached -7% floor $139.34; -7% rule applied, thesis intact but rule overrides |
+| BE | $273.57 (Sep 22) | ~$255.00 (Sep 24) | -$1,207 | -6.79% | 10% trailing stop 5a10bb1b auto-fired; gapped down at Sep 24 open below stop $255.83 due to Q-end institutional selling |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| INTC | 157.163 (157 stop) | $106.516 | $123.00 | +$2,591 (+15.47%) | $118.52 (7%, b0766ca3) | $127.44 |
+| JPM | 49.522 (49 stop) | $334.00 | $343.06 | +$449 (+2.71%) | $329.85 (10%, 1a5b3205) | $366.50 |
+| NVDA frac | 1.192 | $199.83 | $225.07 | +$30 (+12.63%) | none (frac) | — |
+| SLB frac | 5.675 | $53.67 | $51.54 | -$12 (-3.97%) | none (frac) | — |
+
+Stock deployed: ~$36,620 / $117,986 = 31.0% equity | Cash $27,124 (23%) | Crypto sleeve ~$53,874 (45.7%)
+Phase P&L: +$17,986.16 (+17.99% from $100,000)
+
+### What Worked
+- INTC multi-week compounder (+15.47% unrealized) — Pelosi primary + SK Hynix foundry + PC CPU pricing power thesis intact; 7% trail self-managing (HWM $127.44, stop $118.52); +20% trigger breached Sep 25, ATR >4% confirmed → stayed at 7% (correct rule application)
+- Q-end blackout Rule 16 followed precisely — no new entries Sep 24-30; third consecutive quarter correctly honoring the rule
+- EOG -7% cut applied at open Sep 22 without hesitation; proceeds immediately redeployed into BE (Pelosi primary + S&P 500 addition catalyst)
+- JPM +2.71% unrealized, thesis intact — FOMC 25bp NIM tailwind + Oct 13 earnings ahead; stop cushioned ($343 vs $329.85)
+- Trump-Xi Busan Agreement extended Jan 2027 — trade truce maintained; no escalation thesis break
+
+### What Didn't Work
+- BE -6.79% loss: entered Sep 22 (2 days before Q-end blackout), stopped out Sep 24 in forced institutional Q-end selling — the same rebalancing pressure Rule 16 protects against hit a brand-new position before it could develop; entering <5 sessions before blackout with a wide stop is equivalent exposure to entering during it
+- Stock sleeve down -$2,473 realized despite total portfolio +2.31% (crypto DCA sleeve driving overall gain; distorts P&L picture)
+- Stock deployment 31% of total equity — structural low; crypto DCA sleeve consuming ~46% of portfolio; 7th+ consecutive week below 75-85% stock target
+- Trump-Xi summit (Sep 23-24) created chip export uncertainty → INTC/NVDA intraday headwinds; no AI chip licensing deal announced ("great fanfare, low expectations" — Reuters Sep 25)
+- Profit factor 0.00 — both closed trades were losses; no realized wins this week
+
+### Key Lessons
+- **Rule 16 edge case confirmed**: Entering a position 2 sessions before Q-end blackout creates full Q-end institutional selling exposure with no time to develop; if a primary signal exists within <5 sessions of blackout, defer to post-blackout — Pelosi windows are 30-45 days, 3-5 extra days never matter
+- **INTC +20% ATR rule**: Sep 21 +12.9% intraday swing + Sep 16 +5% earnings day confirms ATR >4%; correctly kept 7% trail (not tightened to 5%); rule application consistent and documented
+- **Crypto sleeve distorts total equity P&L**: Weekly equity gain was crypto-driven; evaluate stock decision quality separately from total portfolio return in grade assessment
+- **Q-end blackout value validated again**: Jun 2026 (MRVL/MU) and Sep 2026 (BE gapped through stop on Q-end selling) — two data points confirming Rule 16 protects correctly; do not soften it
+
+### Adjustments for Next Week
+- **Blackout lifts Oct 1 AM** — evaluate MU at open if Q4 FY26 earnings (Sep 30 AMC) beat; prior MU position returned +30.7%; AI memory supercycle thesis likely still strongest catalyst in market
+- **Sep 30 GDP Q2 third estimate + PCE August 8:30 AM ET** — wait for data before any Oct 1 orders; hot PCE (>3.3% core) would suppress growth entries
+- **INTC +25% partial sell trigger $133.15**: If hit in any upcoming session, sell 57 shares (1/3 of 157) at open per partial-profit rule
+- **JPM earnings Oct 13** — hold; NIM thesis + Q3 expected $5.82 EPS; stop $329.85 (10% trail, HWM $366.50); do not add ahead of binary
+- **Stock deployment**: Target 2-3 new entries week of Oct 5-9 to close structural deficit (capital: $27K cash + potential INTC partial proceeds)
+- **New informal rule to codify**: Pelosi-signal entries within 5 sessions of known Q-end blackout → DEFER to post-blackout (Rule 16 extension on entry timing)
+
+### Overall Grade: C+
+- +2.31% total portfolio vs S&P +0.6% = +1.71% apparent outperformance ✓ (crypto-driven; stock decisions negative)
+- Stock sleeve: 0/2 closed wins, -$2,473 realized ✗
+- EOG -7% cut rule applied correctly ✓
+- Q-end blackout Rule 16 honored (no entries Sep 24-30) ✓
+- BE timing: entered 2 days before blackout → Q-end selling stopped it out; avoidable ✗
+- No rule violations (no options, no stop moved down, no forced averaging) ✓
+- INTC thesis validating (+15.47%); +20% ATR rule handled correctly ✓
+- Stock deployment 31% — structural deficit persists ✗
+- Phase P&L: +$17,986 (+17.99%) — maintaining lead over benchmark ✓
+
+---
