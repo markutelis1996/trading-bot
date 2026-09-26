@@ -11043,3 +11043,18 @@ No discrepancies.
 - No notification sent (no action taken)
 
 ---
+
+### Sep 26 - EOD Snapshot (Day 112, Saturday)
+**Portfolio:** $117,986.16 | **Cash:** $27,123.53 (23.0%) | **Day P&L:** +$74.38 (+0.06%) | **Phase P&L:** +$17,986.16 (+18.0%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| INTC | 157.163 | $106.52 | $123.00 | $0.00 (0%) | +$2,590.61 (+15.5%) | $118.52 (7% trail, HWM $127.44, b0766ca3) |
+| JPM | 49.522 | $334.00 | $343.06 | $0.00 (0%) | +$448.60 (+2.7%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA frac | 1.192 | $199.83 | $225.07 | $0.00 (0%) | +$30.07 (+12.6%) | none (fractional) |
+| SLB frac | 5.675 | $53.67 | $51.54 | $0.00 (0%) | -$12.09 (-4.0%) | none (fractional) |
+| BE frac | 0.371 | $273.52 | $288.70 | $0.00 (0%) | +$5.63 (+5.5%) | none (fractional) |
+
+**Notes:** Market closed (Saturday). No trades; 1/3 used this week (BE Sep 22). Q-end blackout (Sep 24-30) active — no new entries until Oct 1. Day P&L +$74.38 driven by crypto sleeve (LINK +1.85%, BTC +0.13% offset by SOL -1.06%, ETH -0.25%); stock prices unchanged. ⚠️ Sep 25 EOD had incorrect INTC close price ($128.81 logged vs broker-confirmed $123.00; HWM on stop order is $127.44 — corroborates $123 close); prior day equity corrected to broker last_equity $117,911.78. All GTC stops intact: INTC $118.52 (7% trail, HWM $127.44), JPM $329.85 (10% trail, HWM $366.50). INTC +15.5% from entry; +25% partial sell trigger at $133.15 (sell 57 shares) not yet hit. Next events: Sep 28 (Mon) under blackout; Sep 30 PCE + GDP Q2 third est + MU Q4 FY26 earnings AMC; blackout lifts Oct 1.
+
+---
