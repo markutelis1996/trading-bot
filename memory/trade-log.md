@@ -11141,3 +11141,18 @@ All stock positions match broker (fractional rounding only). No discrepancies.
 - JPM: 1a5b3205 trailing stop $329.85 (10%, HWM $366.50) — active
 
 ---
+
+### Sep 28 - EOD Snapshot (Day 114, Monday)
+**Portfolio:** $116,922.91 | **Cash:** $44,367.54 (37.9%) | **Day P&L:** -$988.87 (-0.84%) | **Phase P&L:** +$16,922.91 (+16.92%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| JPM | 49.522 | $334.00 | $336.59 | -$6.47 (-1.89%) | +$128.26 (+0.78%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA frac | 1.192 | $199.83 | $228.85 | +$3.78 (+1.68%) | +$34.59 (+14.52%) | none (fractional) |
+| SLB frac | 5.675 | $53.67 | $51.49 | -$0.05 (-0.10%) | -$12.37 (-4.06%) | none (fractional) |
+| INTC dust | 0.163 | $106.52 | $116.00 | -$7.00 (-5.69%) | +$1.55 (+8.90%) | none (dust) |
+| BE dust | 0.371 | $273.52 | $262.87 | -$25.83 (-8.95%) | -$3.95 (-3.89%) | none (dust) |
+
+**Notes:** INTC 157-share trailing stop b0766ca3 (7% trail, HWM $127.44, stop ~$118.52) fired at/near open — realized +$1,884 (+11.3%) on 157 shares; only 0.163 fractional dust remains. Q-end blackout Sep 24-30 active; no new entries. JPM -1.89% intraday — weakened alongside financials but unrealized P&L still +0.78% from entry; trailing stop $329.85 intact. NVDA frac +1.68% intraday; +14.52% from entry. SLB frac essentially flat. BE dust -8.95% intraday — remnant position, no action required. Crypto DCA sleeve (BTC/ETH/SOL/LINK) untouched: combined unrealized +$13,090. Post-blackout Oct 1 priority: WFC (Khanna signal — verify catalyst + live quote), energy sector scan. Trades this week: 0/7 new entries.
+
+---
