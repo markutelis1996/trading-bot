@@ -11113,3 +11113,31 @@ See reconciliation section above. INTC 157-share trailing stop b0766ca3 fired at
 - INTC realized gain logged: +$1,884 (+11.3%) on 157 shares
 
 ---
+
+## 2026-09-28 — Midday Scan
+
+**Portfolio:** ~$117k equity | **Cash:** ~$45,741 | **Positions:** 5 stocks + 4 crypto (DCA sleeve)
+
+### Reconciliation (STEP 0)
+All stock positions match broker (fractional rounding only). No discrepancies.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Stop | Status |
+|--------|--------|-------|---------|------|------|--------|
+| JPM | 49.522 | $334.00 | $338.33 | +1.29% | $329.85 (10% trail, HWM $366.50) | HOLD |
+| NVDA frac | 1.192 | $199.83 | $230.84 | +15.52% | none (fractional) | HOLD — >+15% but no int stop possible |
+| SLB frac | 5.675 | $53.67 | $51.20 | -4.61% | none (fractional) | HOLD |
+| INTC dust | 0.163 | $106.52 | $115.74 | +8.66% | none (dust) | Remnant |
+| BE dust | 0.371 | $273.52 | $264.36 | -3.35% | none (dust) | Remnant |
+
+### Actions
+- No cuts: all above -7% floor
+- No stop tightenings: NVDA +15.52% qualifies but fractional — integer stop impossible; JPM +1.29% below +15% threshold
+- No thesis breaks
+- Q-end blackout Sep 24-30 active — no new entries
+- INTC -5.9% intraday ($18.82 market value) — dust, not material
+
+### Open Orders
+- JPM: 1a5b3205 trailing stop $329.85 (10%, HWM $366.50) — active
+
+---
