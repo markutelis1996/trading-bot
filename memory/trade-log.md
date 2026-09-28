@@ -11058,3 +11058,58 @@ No discrepancies.
 **Notes:** Market closed (Saturday). No trades; 1/3 used this week (BE Sep 22). Q-end blackout (Sep 24-30) active — no new entries until Oct 1. Day P&L +$74.38 driven by crypto sleeve (LINK +1.85%, BTC +0.13% offset by SOL -1.06%, ETH -0.25%); stock prices unchanged. ⚠️ Sep 25 EOD had incorrect INTC close price ($128.81 logged vs broker-confirmed $123.00; HWM on stop order is $127.44 — corroborates $123 close); prior day equity corrected to broker last_equity $117,911.78. All GTC stops intact: INTC $118.52 (7% trail, HWM $127.44), JPM $329.85 (10% trail, HWM $366.50). INTC +15.5% from entry; +25% partial sell trigger at $133.15 (sell 57 shares) not yet hit. Next events: Sep 28 (Mon) under blackout; Sep 30 PCE + GDP Q2 third est + MU Q4 FY26 earnings AMC; blackout lifts Oct 1.
 
 ---
+
+## 2026-09-28 — Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Status | Cause | Realized P&L |
+|--------|---------|------------|--------|-------|--------------|
+| INTC | 157.163 (157 stop) | 0.162614 | ⚠️ STOP FILLED | Trailing stop b0766ca3 (7%, HWM $127.44, stop $118.5192) triggered at/near open — INTC opened ~$118.51, stop executed as market sell | 157 × ($118.52 − $106.516) ≈ **+$1,884** (+11.3%) |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match | — | — |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match | — | — |
+| SLB frac | 5.675 | 5.674949 | ✓ Match | — | — |
+| BE frac | 0.371 | 0.370576 | ✓ Match | — | — |
+| EOG dust | 0.000000233 | 0.000000233 | ✓ Consistent | — | — |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE | — | — |
+
+Cash delta confirmation: $27,123.53 → $45,740.59 (+$18,617 ≈ 157 × $118.58 fill). INTC fractional remnant 0.163 shares remains as dust — no stop required.
+GTC stops active post-reconciliation: JPM 1a5b3205 ($329.85, 10% trail, HWM $366.50)
+
+---
+
+## 2026-09-28 — Market-Open Session
+
+**Portfolio:** $117,240.07 equity | **Cash:** $45,740.59 (39.0%) | **Positions:** 4 stocks + 4 crypto (DCA sleeve)
+
+### STEP 0 — Reconciliation
+See reconciliation section above. INTC 157-share trailing stop b0766ca3 fired at/near open (~$118.52 fill). Only 0.163 fractional remnant remains.
+
+### Live Prices (9:40 AM ET)
+| Ticker | Ask | Entry | P&L% | Stop | Status |
+|--------|-----|-------|------|------|--------|
+| INTC frac | $118.12 | $106.516 | +10.9% | none (dust) | Remnant — no action |
+| JPM | $341.86 | $334.00 | +2.3% | $329.85 (10%, 1a5b3205, HWM $366.50) | HOLD |
+| NVDA frac | $232.50 | $199.83 | +16.4% | none (fractional) | HOLD |
+| SLB frac | $51.27 | $53.67 | -4.5% | none (fractional) | HOLD — above -7% floor $49.91 |
+| BE frac | ~$261-271 | $273.52 | ~-5% | none (remnant) | Dust — no action |
+
+### Decision
+**NO TRADES** — Q-end blackout Sep 24-30 (Rule 16). No -7% cuts triggered. No stop tightenings.
+- SLB frac: -4.5% — above -7% floor ($49.91). No cut.
+- NVDA frac: +16.4% — above +15% trail-tighten trigger, but fractional remainder has no stop. No action.
+- No new entries: blackout prevents any buys.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | Status |
+|---|--------|--------|-------|---------|------|------------|--------|
+| 1 | JPM | 49.522 (49 stop) | $334.00 | $341.86 | +2.3% | $329.85 (10%, 1a5b3205, HWM $366.50) | HOLD |
+| 2 | NVDA frac | 1.192 | $199.83 | $232.50 | +16.4% | none (fractional) | HOLD |
+| 3 | SLB frac | 5.675 | $53.67 | $51.27 | -4.5% | none (fractional) | HOLD |
+| 4 | INTC frac | 0.163 | $106.516 | $118.12 | +10.9% | none (dust) | Remnant |
+| 5 | BE frac | 0.371 | $273.52 | ~$266 | ~-2.8% | none (remnant) | Remnant |
+
+- Trades this week: 0/7 (new entries only; INTC stop was a pre-existing GTC order)
+- Q-end blackout lifts: Oct 1, 2026
+- Post-blackout priority: WFC (Khanna signal — verify catalyst + live quote Oct 1); energy sector scan (XLE +38.8% YTD)
+- INTC realized gain logged: +$1,884 (+11.3%) on 157 shares
+
+---
