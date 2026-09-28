@@ -12337,5 +12337,121 @@ Post-blackout (Oct 1+) candidates — unchanged from prior log:
 **HOLD ALL POSITIONS** — no -7% cuts triggered; GTC stops active and ratcheting correctly.
 **NO NEW ENTRIES** — Q-end blackout Sep 24-30 (Rule 16). Even with strongly bullish futures (+1.4% ES, +2.6% NQ), the rule holds.
 **INTC +20% action**: None required — ATR >4% confirmed, 7% trail stays. b0766ca3 will auto-ratchet as HWM rises today.
+
+---
+
+## 2026-09-28 — Pre-Market Research
+
+### STEP 0 — Reconciliation
+Comparing to Sep 26 EOD "Open Positions":
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| INTC | 157.163 (157 stop) | 157.162614 | ✓ Match |
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| BE frac | 0.371 | 0.370576 | ✓ Match |
+| EOG | dust 0.000000233 | 0.000000233 | ✓ Consistent |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+No discrepancies. GTC stops active: INTC b0766ca3 (7% trail, HWM $127.44, stop $118.5192) | JPM 1a5b3205 (10% trail, HWM $366.50, stop $329.85).
+
+**⚠️ CRITICAL:** INTC broker current_price $118.51 vs stop $118.5192 — $0.01 apart. Pre-market activity has pushed INTC right to stop level. Trailing stop will execute at market open if INTC remains ≤$118.52. This is NOT a discrepancy — stop is working as designed.
+
+### Account Snapshot (Live)
+- **Equity:** $116,222.83 | **Cash:** $27,123.53 (23.3%) | **Long MV:** $89,099.30
+- **Stock MV (est):** ~$36,186 | **Crypto sleeve MV:** ~$52,916 (UNTOUCHABLE)
+- **Stock deployed:** ~31% of equity | **RegT buying power:** $90,430.40
+- **Phase P&L:** +$16,222.83 (+16.2%)
+- **Daytrade count:** 0/3 (limit resets; PDT not triggered)
+- **Trades this week:** 0/7 (week resets Mon; prior week: 1/7 — BE Sep 22)
+
+### Market Context (Sep 28 premarket)
+| Indicator | Value | Notes |
+|-----------|-------|-------|
+| S&P 500 futures (ES Dec) | ~$7,804 (+0.48%) | Mild risk-on |
+| NQ100 futures | +0.42% | Tech slightly bid |
+| VIX | ~14.87 (-5.11%) | Low — complacency zone |
+| WTI crude | $93.42 (+1.09%) | Still elevated; US-Iran stalemate |
+| Brent crude | ~$104-106 | Elevated; EERI 43/100 |
+| 10Y yield | ~5.18% | Elevated; higher-for-longer |
+| DXY | ~101.01 (-0.27%) | Dollar soft |
+| Gold | ~$4,327 (+0.68%) | Risk hedge bid |
+
+**Today (Sep 28) releases:** Dallas Fed Manufacturing 2:30 PM | NY Fed Williams speech TBD | Fed Barkin 5:30 PM
+**Key upcoming:** Sep 29 JOLTS | Sep 30 GDP Q2 (third est) + PCE Aug (8:30 AM) — MAJOR | Sep 30 MU Q4 FY26 earnings AMC | Oct 2 NFP | Oct 13 JPM Q3 earnings | Oct 22 INTC Q3 earnings
+
+**BMO earnings today:** CCL (Carnival) — not relevant to our positions
+**AMC tonight:** NKE (est $0.44 EPS), MTN
+
+### INTC Stop Analysis
+- Entry: $106.516 | HWM: $127.44 | Stop: $118.5192 (7% trail)
+- Current price: $118.51 (broker positions endpoint; AH quote bid $118 / ask $130.72)
+- INTC down -3.65% from last close ($123 → $118.51)
+- Cause: RSI 70+ overbought; INTC up 40%+ in September alone (+256% YTD); analyst consensus HOLD with mean PT $114.88 (below current); Q-end institutional forced selling
+- **Expected action at open:** stop b0766ca3 (157 shares, trailing 7%) will trigger as a market sell order if INTC opens ≤$118.52. Fill price TBD (gap risk — could fill $116-119).
+- **If filled at $118.52:** Realized P&L = 157 × ($118.52 − $106.516) = +$1,884.63 (+11.3%)
+- Fractional 0.163 shares (no stop) will remain as dust; no action needed
+- No manual intervention required — let the stop work
+
+### Current Position Prices (Sep 25 AH quotes — last available)
+| Ticker | Broker Px | Entry | P&L% | Stop (GTC) | Status |
+|--------|-----------|-------|------|------------|--------|
+| INTC | $118.51 | $106.516 | +11.3% | $118.52 (7%, b0766ca3) | ⚠️ AT STOP — will trigger |
+| JPM | ~$341-343 | $334.00 | +2.1% | $329.85 (10%, 1a5b3205, HWM $366.50) | HOLD |
+| NVDA frac | ~$223-225 | $199.83 | +12.5% | none (fractional) | HOLD |
+| SLB frac | ~$51-54 (AH spread) | $53.67 | -4.0% | none (fractional) | HOLD — above -7% |
+| BE frac | ~$279-289 | $273.52 | +2.0% | none (remnant) | Dust — no action |
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal |
+|------------|--------|--------|------|------------|-----------|--------|
+| **Pelosi** | **INTC** | BUY | $750K-1.5M | Jul 24 | Aug 21 | Already in position — stop triggering is exit |
+| **Pelosi** | **BE** | BUY | $1.5M-6M | Jul 24-28 | Aug 21 | Remnant frac held |
+| **Khanna** | **WFC** | BUY | $50K-100K | Aug 27 | ~Sep 4 | Secondary confirmation only (1 politician, meets $25K floor) |
+| **Gottheimer** | **MSFT** | SELL (call roll) | $500K-1M | Aug 14 | Sep 14 | SELL/roll — REMOVE MSFT from watchlist |
+
+Notes:
+- Gottheimer Aug 14 MSFT: rolled $335 call (sold) → $330 call (bought), Oct 2026 expiry. Net = options trade only; we don't follow options signals. MSFT no longer a primary candidate.
+- Pelosi INTC +33.2% return on her Jul 24 buy confirms our thesis was correct; stop-out is a controlled exit.
+- Khanna WFC: single politician, secondary signal. Financials sector +7.9% YTD (positive momentum). Needs additional catalyst.
+
+No new whitelist politician disclosures in last 45 days beyond above.
+
+### Sector Momentum (YTD as of Sep 25)
+| Rank | Sector | YTD | Our Exposure |
+|------|--------|-----|--------------|
+| 1 | Energy (XLE) | +38.8% | SLB frac (small) |
+| 2 | Technology (XLK) | +36.3% | INTC (at stop), NVDA frac |
+| 3 | Health Care (XLV) | +10.3% | none |
+| 4 | Financials | +7.9% | JPM |
+| 9 | Consumer Discretionary | -7.4% | none |
+| 11 | Utilities | -7.4% | none |
+
+### Trade Ideas (Post-Blackout Oct 1+)
+Q-end blackout active through Sep 30 — NO new entries today or tomorrow.
+
+**Oct 1+ candidate:**
+1. **WFC (Wells Fargo)** — Khanna BUY $50K-100K Aug 27 (within 45 days); Financials sector +7.9% YTD; JPM Q3 earnings Oct 13 could lift sector. However: single politician signal = secondary only; need additional catalyst (technicals, earnings catalyst, sector catalyst). AH quote Sep 25: bid $77.92 / ask $87.04 (wide, stale). Verify live quote Oct 1. **Status: WATCHLIST — needs Oct 1 catalyst check.**
+2. **NKE** — Reports AMC tonight. Consumer Discretionary sector worst YTD (-7.4%). Khanna sold NKE Aug 10. Do NOT enter before earnings binary. Watch only if massive beat tomorrow.
+3. **Energy sector** — XLE +38.8% YTD, WTI $93+. Could scan FANG, OXY, PXD Oct 1+. No politician signal yet; sector momentum strong.
+
+**Mandatory Oct 1 action:** Verify live INTC stop execution (check broker positions + completed orders). If stopped out, note realized P&L. Then assess WFC + energy sector with fresh quotes.
+
+### Risk Factors
+1. **INTC gap down at open:** If INTC opens below $118.52 (likely), market-order fill could be $115-118. Realized P&L still positive from entry.
+2. **Sep 30 PCE hot surprise:** Core PCE currently tracking in-line (Cleveland Fed nowcast); elevated 10Y yield (5.18%) means any PCE upside → tech/growth selloff. JPM/SLB more resilient.
+3. **MU Sep 30 AMC:** Beat confirms AI memory thesis → INTC foundry thesis reinforced (moot if stopped out). Miss = sector headwind for NVDA frac.
+4. **Oct 2 NFP:** Binary event; strong = more rate hikes expected → JPM bearish short-term but fundamental story intact.
+5. **JPM stop cushion:** $341-343 vs stop $329.85 = ~3.4-4% buffer. Safe for now; Oct 13 earnings are the catalyst.
+6. **SLB frac -4%:** Fractional, no stop, above -7% floor. Oil pullback from highs; not actionable.
+
+### Decision
+**HOLD ALL POSITIONS** — no -7% cuts triggered on manually managed positions.
+**INTC:** Let trailing stop (b0766ca3, 157 shares) execute at market open — do not cancel or modify. Fractional 0.163 shares remain as dust.
+**NO NEW ENTRIES** — Q-end blackout Sep 24-30 (Rule 16). Blackout lifts Oct 1.
+**MSFT watchlist: REMOVED** — Gottheimer traded options only (not a stock buy signal).
+**WFC watchlist: ADDED** — Khanna $50K-100K buy Aug 27; verify catalyst + live quote Oct 1 before entry.
 **INTC +25% watch**: If INTC reaches $133.15 intraday today, handle 57-share partial sell in market-open workflow.
 **INTC +25% partial sell**: $133.15 trigger not yet reached — handle in market-open workflow if gap up overshoots.
