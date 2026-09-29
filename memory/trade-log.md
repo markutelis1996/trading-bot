@@ -11204,3 +11204,68 @@ All stock positions match broker (fractional rounding only). No discrepancies.
 **Notes:** INTC 157-share trailing stop b0766ca3 (7% trail, HWM $127.44, stop ~$118.52) fired at/near open — realized +$1,884 (+11.3%) on 157 shares; only 0.163 fractional dust remains. Q-end blackout Sep 24-30 active; no new entries. JPM -1.89% intraday — weakened alongside financials but unrealized P&L still +0.78% from entry; trailing stop $329.85 intact. NVDA frac +1.68% intraday; +14.52% from entry. SLB frac essentially flat. BE dust -8.95% intraday — remnant position, no action required. Crypto DCA sleeve (BTC/ETH/SOL/LINK) untouched: combined unrealized +$13,090. Post-blackout Oct 1 priority: WFC (Khanna signal — verify catalyst + live quote), energy sector scan. Trades this week: 0/7 new entries.
 
 ---
+
+## 2026-09-29 — Midday Scan
+
+**Portfolio:** $116,543.21 equity | **Cash:** $44,367.54 (38.1%) | **Day P&L:** -$278.35 (-0.24%) | **Phase P&L:** +$16,543.21 (+16.54%)
+
+### STEP 0 — Reconciliation
+All positions match broker (fractional rounding only). No discrepancies.
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| INTC dust | 0.163 | 0.162614 | ✓ Match |
+| BE dust | 0.371 | 0.370576 | ✓ Match |
+| EOG dust | 0.000000233 | 0.000000233 | ✓ Match |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | Status |
+|--------|--------|-------|---------|------|----------|------|--------|
+| JPM | 49.522 | $334.00 | $334.80 | +0.24% | -0.53% | $329.85 (10% trail, 1a5b3205, HWM $366.50) | HOLD |
+| NVDA frac | 1.192 | $199.83 | $229.48 | +14.84% | +0.27% | none (fractional) | HOLD |
+| SLB frac | 5.675 | $53.67 | $50.39 | -6.12% | -2.15% | none (fractional) | HOLD |
+| INTC dust | 0.163 | $106.52 | $115.94 | +8.85% | -0.08% | none (dust) | Remnant |
+| BE dust | 0.371 | $273.52 | $295.97 | +8.21% | +12.59% | none (dust) | Remnant |
+
+### STEP 3 — Cuts
+None. All positions above -7% rule. SLB -6.12% above floor $49.91; current $50.39 safe.
+
+### STEP 4 — Stop Tightening
+- JPM +0.24%: +15% trigger $384.10 — not reached. No action.
+- NVDA frac +14.84%: +15% trigger $229.81 — current $229.48 just below threshold; fractional anyway, integer stop impossible. No action.
+- SLB/INTC/BE: dust/fractional, below threshold. No action.
+- JPM stop 1a5b3205 confirmed active (GTC, expires Oct 12 — renew before JPM earnings Oct 13).
+
+### STEP 5 — Thesis Check
+- **JPM**: Financials under mild pressure (-0.53% intraday). Q3 earnings Oct 13. Stop $329.85 intact. **HOLD.**
+- **NVDA frac**: +0.27% intraday. AI inference thesis intact. Fractional dust. **HOLD.**
+- **SLB frac**: -2.15% intraday despite oil ~$93/barrel. Research: no adverse news; market-driven. Aramco well-construction contracts awarded Sep 24 active; Kelvion (data center thermal) acquisition positive; analyst avg PT $62.41. Floor $49.91 not breached. Thesis **INTACT. HOLD.**
+- **BE dust**: +12.59% intraday — RBC reiterated bullish stance ($335 PT); 800V DC-native fuel cells cited for AI data centers; role in Aligned Data Centers 2 GW Project Phoenix. Legitimate catalyst. Dust position (~$110 MV), no action required.
+
+### STEP 6 — Research Addendum
+- **BE catalyst**: RBC Capital $335 PT; Bloom cited by AI hyperscalers for on-site power; Q2 2026 rev $1.07B (+165.5% YoY), EPS $0.78 vs $0.39 est. Dust position — informational only.
+- **SLB**: Thesis intact. Aramco contracts + Kelvion acquisition. Earnings Oct 16.
+- **Blackout**: Q-end Sep 24–30 still active. No new entries today.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | Status |
+|---|--------|--------|-------|---------|------|------------|--------|
+| 1 | JPM | 49.522 (49 stop) | $334.00 | $334.80 | +0.24% | $329.85 (10%, 1a5b3205, HWM $366.50) | HOLD |
+| 2 | NVDA frac | 1.192 | $199.83 | $229.48 | +14.84% | none (fractional) | HOLD |
+| 3 | SLB frac | 5.675 | $53.67 | $50.39 | -6.12% | none (fractional) | HOLD |
+| 4 | INTC dust | 0.163 | $106.52 | $115.94 | +8.85% | none (dust) | Remnant |
+| 5 | BE dust | 0.371 | $273.52 | $295.97 | +8.21% | none (dust) | Remnant |
+
+- Trades this week: 0/7
+- Blackout lifts: Oct 1, 2026
+- Oct 1 priority: WFC (Khanna signal) — enter if PCE Sep 30 in-line/cool AND NQ green at open
+- ⚠️ JPM stop expires Oct 12 — renew before earnings Oct 13
+
+---
