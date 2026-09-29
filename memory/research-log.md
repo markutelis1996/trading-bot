@@ -12454,4 +12454,131 @@ Q-end blackout active through Sep 30 — NO new entries today or tomorrow.
 **MSFT watchlist: REMOVED** — Gottheimer traded options only (not a stock buy signal).
 **WFC watchlist: ADDED** — Khanna $50K-100K buy Aug 27; verify catalyst + live quote Oct 1 before entry.
 **INTC +25% watch**: If INTC reaches $133.15 intraday today, handle 57-share partial sell in market-open workflow.
+
+---
+
+## 2026-09-29 — Pre-market Research
+
+### STEP 0 — Reconciliation
+Comparing to Sep 28 EOD "Open Positions":
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| INTC dust | 0.163 | 0.162614 | ✓ Match |
+| BE dust | 0.371 | 0.370576 | ✓ Match |
+| EOG dust | 0.000000233 | 0.000000233 | ✓ Consistent |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+No discrepancies. GTC stop active: JPM 1a5b3205 (10% trail, HWM $366.50, stop $329.85).
+
+### Account Snapshot (Live)
+- **Equity:** $116,592.71 | **Cash:** $44,367.54 | **Long MV:** $72,225.17
+- **Stock MV (est.):** ~$17,320 | **Crypto sleeve MV:** ~$54,877 (UNTOUCHABLE)
+- **Stock deployed:** ~14.9% of equity | **RegT buying power:** $106,076.22
+- **Phase P&L:** +$16,592.71 (+16.59%)
+- **Daytrade count:** 0/3
+- **Trades this week:** 0/7
+
+### Position Status
+| Ticker | Entry | Current (Sep 28 close) | P&L% | -7% Floor | Stop (GTC) | Status |
+|--------|-------|------------------------|------|-----------|------------|--------|
+| JPM | $334.00 | $336.45 | +0.73% | $310.62 | $329.85 (10%, 1a5b3205, HWM $366.50) | HOLD — ⚠️ stop only 1.96% below current |
+| NVDA frac | $199.83 | $228.86 | +14.5% | — | none (fractional) | HOLD |
+| SLB frac | $53.67 | $51.49 | -4.06% | — | none (fractional) | HOLD |
+| INTC dust | $106.52 | $116.03 | +8.90% | — | none (dust) | Dust |
+| BE dust | $273.52 | $261.20 | -4.50% | — | none (dust) | Dust |
+| EOG dust | $149.83 | $140.63 | — | — | none (dust) | Dust |
+
+No -7% cuts triggered. No +15% tightening triggers reached (NVDA +14.5% fractional — stop impossible).
+
+### Market Context (Sep 29 premarket)
+| Indicator | Value | Notes |
+|-----------|-------|-------|
+| WTI crude | $93.41–94.57 | Live Sep 29; +12% in 30 days; US-Iran stalemate |
+| Brent crude | ~$103–106 | TradingEconomics Sep 28: $105.96 (+1.58%); elevated |
+| ES Dec futures | ~$7,758–$7,769 | Sep 28 late data; S&P fell for 3rd consecutive day Sep 28 (-0.92%) |
+| NQ futures | ~-1% | Tech under pressure from rising yields |
+| VIX | ~16.36 (Sep 28 est.) | Up from 14.87 (Sep 25 close); fear rising modestly |
+| 10Y yield | ~5.12–5.18% | Elevated; "higher for longer" driving equity headwinds |
+| DXY | ~101.01 (-0.27%) | Dollar softening slightly |
+| Gold | ~$4,121–$4,327 | Range from sources; elevated as rate hedge |
+
+**Sep 28 headline:** "Stocks Retreat as Bond Yields Surge" (Barchart) — S&P -0.92%, NQ -1.55%, Dow -0.75%.
+
+### Economic Calendar
+- **Today Sep 29:** No major US releases. Light day. AMC: AAR Corp, Concentrix (minor).
+- **Earnings BMO today:** KMX (CarMax), UEC — not relevant.
+- **Tomorrow Sep 30 (CRITICAL):** ADP 8:15 AM (est +68k), GDP Q2 3rd est 8:30 AM (prev 1.5% est), **PCE August 8:30 AM** — MAJOR; MU Q4 FY26 earnings **AMC**.
+- **Oct 2:** NFP — major binary.
+- **Oct 13–14:** JPM Q3 earnings (Oct 13), WFC Q3 earnings (Oct 14).
+
+### Q-End Blackout — STILL ACTIVE
+- Rule 16: Sep 24–30. **Today Sep 29 = penultimate blackout day.**
+- Blackout lifts: **Tomorrow Oct 1, 2026.**
+- No new entries today regardless of setup quality.
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Days | Signal |
+|------------|--------|--------|------|------------|-----------|------|--------|
+| **Khanna** | **WFC** | BUY | $50K–100K | Aug 27 | ~Sep 4 | 33 days ✓ | Secondary — 1 politician, meets $25K floor |
+| Pelosi | INTC | BUY | $750K–1.5M | Jul 24 | Aug 21 | EXITED via stop Sep 28 | Position closed |
+| Pelosi | BE | BUY | $1.5M–6M | Jul 24–28 | Aug 21 | Dust held | Remnant |
+| McConnell | WFC | BUY | $15K–50K | Sep 1 | Sep 21 | 8 days | NOT on whitelist |
+
+Notes:
+- No new whitelist disclosures in last 45 days beyond Khanna WFC.
+- Tuberville: persistent seller (no equity buys).
+- Gottheimer: options roll only (MSFT off watchlist confirmed).
+- McCaul: no qualifying single-stock equity buys found.
+- Khanna WFC + McConnell WFC (non-whitelist) = financials sector interest from multiple legislators.
+
+**YTD Congress top performers (2026):** Khanna +112.1% excess return vs S&P 500 (Jan 2024–Apr 2026, AI focus) — #1 currently.
+
+### Live Price Verification (STEP 3d — post-blackout candidates)
+| Ticker | AH Quote (Sep 28) | Sep 28 Close | Entry Zone Oct 1 | Stop (10%) | Target (+20%) | R:R | Notes |
+|--------|-------------------|--------------|------------------|------------|---------------|-----|-------|
+| WFC | bid $76.54 / ask $82.98 (wide AH) | **$82.09** | $82 (live quote Oct 1) | ~$73.90 | ~$98.50 | 2:1 | Oct 14 earnings; Khanna secondary signal; analyst PT $102 |
+| JPM | bid $323.95 / ask $359.84 (wide AH) | **$336.45** | Held position | $329.85 active | — | — | Oct 13 earnings |
+
+Note: WFC close is $82.09 from Motley Fool (Sep 28); AH spread wide and unreliable. Use open print Oct 1 for actual entry sizing.
+
+### WFC Trade Thesis (Post-Blackout Oct 1+ Candidate)
+- **Catalyst stack**: (a) Khanna $50K–100K BUY Aug 27 (33-day lag ✓, within 45d window); (b) Warsh rate hike cycle = NIM expansion for banks = structural tailwind; (c) Oct 14 earnings with strong recent beat track record (Q2 2026: EPS $2.00 vs $1.72 est = +16.38% surprise); (d) Forward P/E 11.94 vs sector avg 13.74 = ~13% discount to peers; (e) Analyst consensus Buy; median PT $102 (+24% upside).
+- **Signal level**: SECONDARY (1 whitelist politician) — needs sector momentum + market tone confirmation Oct 1.
+- **Constraint**: PCE Sep 30 = binary before entry; NFP Oct 2 = second binary. Strategy: enter Oct 1 only if PCE in-line/cool AND NQ green. Wait post-NFP for larger deployment.
+- **Sector concentration check**: JPM $16,640 + WFC ~$17,489 (15% × $116k) = $34,129 / $116,593 = 29.3% Financials. Under 60% cap ✓.
+- **Position size**: 15% × $116,593 = $17,489 → at $82.09 = 213 shares (integer, round down); stop GTC 10% trail ~$73.90.
+- **Risk**: Single politician = secondary signal. Oct 14 earnings = binary (do not enter Oct 12-13 if approaching). JPM and WFC both report same week = correlated bank exposure.
+
+### Risk Factors
+1. **Sep 30 PCE:** Hot print → equities sell-off; financials more resilient than tech but not immune. If PCE hot → delay WFC entry to post-PCE.
+2. **Oct 2 NFP:** Major binary. Pre-NFP strategy: 1 position max (WFC). Post-NFP: add energy/tech setups.
+3. **JPM stop thin:** $336.45 close vs $329.85 stop = 1.96% cushion. If market continues -0.5% daily drip, stop could trigger before Oct 13 earnings. Acceptable outcome — still profitable (+0.73%).
+4. **MU Sep 30 AMC:** Beat → AI sentiment boost → NVDA frac benefits. Miss → tech headwind.
+5. **Bond yield pressure:** 10Y at 5.12–5.18% = headwind for high-multiple tech, tailwind for banks (NIM). Confirms financials over tech for new entries.
+6. **Q-end selling:** Last day today. Should stabilize tomorrow (Oct 1 = Q3 end).
+
+### Sector Momentum YTD (per Sep 22 data)
+| Rank | Sector | YTD | Our Exposure |
+|------|--------|-----|--------------|
+| 1 | Technology (XLK) | ~+36% | NVDA frac, INTC dust |
+| 2 | Energy (XLE) | ~+38.8% | SLB frac |
+| 3 | Financials | ~+7.9% | JPM (active) |
+| 4 | Healthcare | ~+10% | none |
+
+### Decision
+**NO TRADES TODAY** — Q-end blackout Rule 16 (Sep 24–30). Lifts Oct 1.
+**HOLD ALL POSITIONS** — no -7% cuts triggered; JPM stop active.
+**NVDA frac:** +14.5% — approaches +15% tighten trigger, but fractional has no integer stop. No action.
+
+**Oct 1 execution plan:**
+1. Check PCE Sep 30 reaction at open (market opens post-data)
+2. If PCE in-line/cool AND NQ green → **BUY WFC** with live quote (target ~213 shares, 10% trail GTC, size 15%)
+3. If PCE hot → delay WFC to post-NFP (Oct 5+)
+4. Watch MU AMC Sep 30: beat confirms AI memory thesis; note for NVDA frac
+5. After NFP Oct 2: evaluate energy sector (FANG, OXY) for 2nd new entry
+6. Sector priority: Financials (WFC) → Energy → Healthcare
 **INTC +25% partial sell**: $133.15 trigger not yet reached — handle in market-open workflow if gap up overshoots.
