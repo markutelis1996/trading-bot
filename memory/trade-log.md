@@ -11269,3 +11269,18 @@ None. No cuts, no stop changes, no new entries.
 - ⚠️ JPM stop expires Oct 12 — renew before earnings Oct 13
 
 ---
+
+### Sep 29 - EOD Snapshot (Day 115, Tuesday)
+**Portfolio:** $116,816.50 | **Cash:** $44,367.54 (37.9%) | **Day P&L:** -$5.07 (-0.004%) | **Phase P&L:** +$16,816.50 (+16.82%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| JPM | 49.522 | $334.00 | $334.98 | -$1.61 (-0.48%) | +$48.46 (+0.29%) | $329.85 (10% trail, HWM $366.50, 1a5b3205) |
+| NVDA frac | 1.192 | $199.83 | $227.30 | -$1.56 (-0.68%) | +$32.73 (+13.75%) | none (fractional) |
+| SLB frac | 5.675 | $53.67 | $49.87 | -$1.62 (-3.15%) | -$21.56 (-7.08%) | ⚠️ BREACHED -7% floor $49.91 — cut Oct 1 |
+| INTC dust | 0.163 | $106.52 | $115.90 | -$0.13 (-0.11%) | +$1.53 (+8.82%) | none (dust) |
+| BE dust | 0.371 | $273.52 | $291.25 | +$28.38 (+10.80%) | +$6.57 (+6.48%) | none (dust) |
+
+**Notes:** Q-end blackout lifts Oct 1. SLB closed $49.87 — breached -7% cut floor ($49.91 = entry $53.67 × 0.93); fractional so no stop order placed, must cut manually at market open Oct 1. JPM essentially flat (-0.48% intraday), unrealized +0.29%. NVDA frac +13.75% unrealized; hit +15% threshold intraday but fractional prevents integer stop placement. BE dust +10.80% on RBC AI data center reiteration. Crypto DCA sleeve (BTC/ETH/SOL/LINK) combined MV ~$55,179 — untouched. Trades today: 0. Week: 0/7. Oct 1 priority: cut SLB at open, then evaluate WFC entry if PCE in-line and NQ green. ⚠️ JPM stop 1a5b3205 expires Oct 12 — renew before earnings Oct 13.
+
+---
