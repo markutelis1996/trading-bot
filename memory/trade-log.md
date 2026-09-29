@@ -11114,6 +11114,54 @@ See reconciliation section above. INTC 157-share trailing stop b0766ca3 fired at
 
 ---
 
+## 2026-09-29 — Market-Open Session
+
+**Portfolio:** $117,737.67 equity | **Cash:** $44,367.54 (37.7%) | **Positions:** 5 stocks + 4 crypto (DCA sleeve)
+
+### STEP 0 — Reconciliation
+All positions match broker (fractional rounding only). No discrepancies.
+
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| JPM | 49.522 (49 stop) | 49.521674 | ✓ Match |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match |
+| SLB frac | 5.675 | 5.674949 | ✓ Match |
+| INTC dust | 0.163 | 0.162614 | ✓ Match |
+| BE dust | 0.371 | 0.370576 | ✓ Match |
+| EOG dust | 0.000000233 | 0.000000233 | ✓ Match |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+### Live Prices (market open ~9:30 AM ET)
+| Ticker | Ask | Entry | P&L% | Stop | Status |
+|--------|-----|-------|------|------|--------|
+| JPM | $340.00 | $334.00 | +1.80% | $329.85 (10% trail, HWM $366.50, 1a5b3205, expires Oct 12) | HOLD |
+| SLB frac | $50.45 | $53.67 | -6.07% | none (fractional) | HOLD — above -7% floor $49.91 |
+| NVDA frac | $230.93 | $199.83 | +15.6% | none (fractional) | HOLD — >+15% but fractional |
+| INTC dust | $116.42 | $106.52 | +9.3% | none (dust) | Remnant |
+| BE dust | $275.58 | $273.52 | +0.75% | none (dust) | Remnant |
+
+### Decision
+**NO TRADES** — Q-end blackout Rule 16 active (Sep 24–30). Blackout lifts Oct 1.
+- No -7% cuts triggered (SLB -6.07%, floor $49.91 — not hit yet)
+- No stop tightenings: NVDA +15.6% qualifies but fractional — integer stop impossible
+- No new entries: blackout
+- JPM stop 1a5b3205 active. ⚠️ Expires Oct 12 — must renew before earnings Oct 13.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | Status |
+|---|--------|--------|-------|---------|------|------------|--------|
+| 1 | JPM | 49.522 (49 stop) | $334.00 | $340.00 | +1.80% | $329.85 (10%, 1a5b3205, HWM $366.50) | HOLD |
+| 2 | NVDA frac | 1.192 | $199.83 | $230.93 | +15.6% | none (fractional) | HOLD |
+| 3 | SLB frac | 5.675 | $53.67 | $50.45 | -6.07% | none (fractional) | HOLD |
+| 4 | INTC dust | 0.163 | $106.52 | $116.42 | +9.3% | none (dust) | Remnant |
+| 5 | BE dust | 0.371 | $273.52 | $275.58 | +0.75% | none (dust) | Remnant |
+
+- Trades this week: 0/7
+- Blackout lifts: Oct 1, 2026
+- Oct 1 priority: WFC if PCE Sep 30 in-line/cool AND NQ green at open
+
+---
+
 ## 2026-09-28 — Midday Scan
 
 **Portfolio:** ~$117k equity | **Cash:** ~$45,741 | **Positions:** 5 stocks + 4 crypto (DCA sleeve)
