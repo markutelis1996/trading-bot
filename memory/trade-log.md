@@ -11284,3 +11284,37 @@ None. No cuts, no stop changes, no new entries.
 **Notes:** Q-end blackout lifts Oct 1. SLB closed $49.87 — breached -7% cut floor ($49.91 = entry $53.67 × 0.93); fractional so no stop order placed, must cut manually at market open Oct 1. JPM essentially flat (-0.48% intraday), unrealized +0.29%. NVDA frac +13.75% unrealized; hit +15% threshold intraday but fractional prevents integer stop placement. BE dust +10.80% on RBC AI data center reiteration. Crypto DCA sleeve (BTC/ETH/SOL/LINK) combined MV ~$55,179 — untouched. Trades today: 0. Week: 0/7. Oct 1 priority: cut SLB at open, then evaluate WFC entry if PCE in-line and NQ green. ⚠️ JPM stop 1a5b3205 expires Oct 12 — renew before earnings Oct 13.
 
 ---
+
+---
+
+## 2026-09-30 - Market-Open Session
+
+**Portfolio:** $117,859.29 equity | **Cash:** $44,648.85 | **Positions:** 4 stocks (+ dust)
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 1 (SELL SLB — manual cut, -7% rule)
+
+### Trades Executed
+
+| # | Date | Ticker | Side | Shares | Entry | Exit | P&L$ | P&L% | Reason |
+|---|------|--------|------|--------|-------|------|------|------|--------|
+| 1 | 2026-09-30 | SLB | SELL | 5.675 | $53.67 | ~$49.57 | -$23.26 | -7.64% | Manual cut: -7% rule triggered (close $49.87 breached $49.91 floor; Q-end blackout does not protect losers) |
+
+### No New Buys
+- Q-end blackout Rule 16 active through Sep 30, 2026 — no new entries
+- WFC staged for Oct 1 pending PCE in-line/cool AND NQ green at open
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop (GTC) | Status |
+|---|--------|--------|-------|---------|------|------------|--------|
+| 1 | JPM | 49.522 (49 stop) | $334.00 | $335.11 | +0.33% | $329.85 (10%, 1a5b3205, HWM $366.50, exp Oct 12) | HOLD |
+| 2 | NVDA frac | 1.192 | $199.83 | $230.07 | +15.13% | none (fractional) | HOLD |
+| 3 | INTC dust | 0.163 | $106.52 | $119.96 | +12.63% | none (dust) | Remnant |
+| 4 | BE dust | 0.371 | $273.52 | $292.89 | +7.08% | none (dust) | Remnant |
+| 5 | EOG dust | ~0 | $149.83 | $139.59 | -5.71% | none (dust) | Remnant |
+
+- Trades this week (new entries): 0/7
+- Phase P&L: +$17,859.29 (+17.86%)
+- ⚠️ JPM stop expires Oct 12 — renew before earnings Oct 13
+- Oct 1 priority: WFC entry if PCE in-line/cool AND NQ green; check MU AMC result for NVDA frac sentiment
