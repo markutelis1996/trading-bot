@@ -11362,3 +11362,17 @@ All 5 log positions confirmed present on broker. Quantities match (fractional ro
 - Trades this week (new entries): 0/7
 - No new entries: Q-end blackout (Rule 16) active through Sep 30 EOD
 
+---
+
+### Sep 30 - EOD Snapshot (Day 116, Wednesday)
+**Portfolio:** $116,256.78 | **Cash:** $43,207.57 (37.2%) | **Day P&L:** -$340.72 (-0.29%) | **Phase P&L:** +$16,256.78 (+16.26%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| JPM | 49.522 | $334.00 | $330.83 | -$4.15 (-1.24%) | -$157.05 (-0.95%) | $329.85 (10% trail, HWM $366.50, exp Oct 12) |
+| NVDA frac | 1.192 | $199.83 | $228.50 | +$1.29 (+0.57%) | +$34.19 (+14.34%) | none (fractional) |
+| INTC dust | 0.163 | $106.51 | $119.96 | +$4.03 (+3.48%) | +$2.19 (+12.63%) | none (dust) |
+| BE dust | 0.371 | $273.52 | $276.98 | -$14.27 (-4.90%) | +$1.28 (+1.27%) | none (dust) |
+
+**Notes:** Q-end blackout lifted EOD today; two exits executed: SLB cut at open (-7.64%, -$23.26) and EOG dust closed midday (-8.57%, de minimis). JPM under pressure -1.24% on the day; trailing stop $329.85 is only $0.98 above close — elevated stop-out risk tomorrow. NVDA frac +0.57% today, +14.34% unrealized; integer stop still not feasible (fractional). Crypto DCA sleeve (BTC/ETH/SOL/LINK) combined MV ~$56,271 — read-only. Trades today: 2 exits (SLB, EOG); new entries: 0. Week: 0/7. Oct 1 priorities: WFC entry (PCE cool ✅; check NQ green at open); renew JPM stop 1a5b3205 before Oct 12 expiry/Oct 13 earnings.
+
