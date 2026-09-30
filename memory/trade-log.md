@@ -11318,3 +11318,47 @@ None. No cuts, no stop changes, no new entries.
 - Phase P&L: +$17,859.29 (+17.86%)
 - ⚠️ JPM stop expires Oct 12 — renew before earnings Oct 13
 - Oct 1 priority: WFC entry if PCE in-line/cool AND NQ green; check MU AMC result for NVDA frac sentiment
+
+## 2026-09-30 - Midday Scan
+
+**Portfolio:** $116,658.40 equity | **Cash:** $43,207.57 | **Positions:** 4 stocks (EOG close pending, + crypto DCA sleeve)
+
+### STEP 0 - Reconciliation
+All 5 log positions confirmed present on broker. Quantities match (fractional rounding only). SLB already cut at market-open. No discrepancies.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | Status |
+|--------|--------|-------|---------|------|----------|------|--------|
+| JPM | 49.522 | $334.00 | $332.07 | -0.58% | -0.87% | $329.85 (10% trail, HWM $366.50) | HOLD ⚠️ |
+| NVDA frac | 1.192 | $199.83 | $230.42 | +15.31% | +1.41% | none (fractional) | HOLD |
+| INTC dust | 0.163 | $106.52 | $119.41 | +12.11% | +3.00% | none (dust) | Remnant |
+| BE dust | 0.371 | $273.52 | $278.94 | +1.98% | -4.23% | none (dust) | Remnant |
+| EOG dust | ~0 | $149.83 | $138.94 | **-8.57%** | -3.03% | none (dust) | **CLOSE SUBMITTED** |
+
+### Actions Taken
+| # | Ticker | Action | Reason | Order ID |
+|---|--------|--------|--------|----------|
+| 1 | EOG | CLOSE market order | -8.57% from entry — -7% rule triggered; dust position ($0.000032 MV) | 95c72196 |
+
+### Stop Tightening (STEP 4)
+- **NVDA frac +15.31%**: tightening rule triggered (+15% threshold). No action possible — fractional position, no integer stop available. Note for Oct 1 monitoring.
+- All other positions below +15% threshold.
+
+### Thesis Check (STEP 5)
+- **JPM**: Stop $329.85 only $2.22 below current $332.07 — very tight. NIM expansion thesis intact (10Y at 5.22%); no news catalyst; stop could fire EOD. INTACT.
+- **NVDA frac**: +15.31% from entry; AI backbone thesis unchanged; MU AMC tonight = sentiment catalyst. INTACT.
+- **BE dust**: Down -4.23% intraday — Oracle sent force majeure notice on Project Jupiter (New Mexico AI datacenter); Oracle & Blue Owl confirmed project on schedule, financial commitments unchanged. Securities class action lawsuit (scandium oxide disclosures) adds headline risk. Position still +1.98% from our entry. Pelosi signal expired 68d ago. Dust position ($103 MV) — no cut rule triggered. HOLD (dust).
+- **INTC dust**: +12.11%; Pelosi signal expired; dust. HOLD.
+- **EOG dust**: -8.57% → cut rule triggered; close order submitted.
+
+### Research Addendum (STEP 6)
+- **PCE August 2026 (8:30 AM)**: Core PCE 3.0% YoY vs 3.3% est — COOLER than expected ✅. Headline +0.2% MoM vs 0.3% est. WFC Oct 1 entry condition (PCE in-line/cool) MET. Check NQ green at Oct 1 open.
+- **BE**: Oracle force majeure posturing on Project Jupiter dismissed by both parties as contractual boilerplate; project on schedule. BE down on fear, not fundamental change. Dust position — no action warranted.
+- **MU AMC tonight**: Q4 FY2026; est $50B revenue, $31 EPS, DRAM +325.8% YoY; beat expected → NVDA frac sentiment positive tomorrow.
+
+### Notes
+- WFC Oct 1 entry condition: PCE ✅ cool; STILL need NQ green at open (confirm tomorrow)
+- JPM stop expires Oct 12 — must renew before Oct 13 earnings (⚠️ standing alert)
+- Trades this week (new entries): 0/7
+- No new entries: Q-end blackout (Rule 16) active through Sep 30 EOD
+

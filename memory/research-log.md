@@ -12698,3 +12698,20 @@ Note: JPM YTD +7.98% individually despite sector avg weakness — large-cap bank
 - **BE/INTC/EOG dust**: HOLD — remnants, negligible impact
 - **NEW ENTRIES**: NONE today — Q-end blackout last day
 - **WFC**: STAGE — enter Oct 1 open if PCE in-line + NQ green; size 15%, 10% trail, ~213 shares at ~$82
+
+### 2026-09-30 Midday Addendum
+
+**PCE August 2026 ACTUAL (8:30 AM):**
+- Core PCE: +3.0% YoY vs +3.3% est → **COOLER THAN EXPECTED** ✅
+- Headline PCE: +0.3% MoM vs +0.4% est; +3.4% YoY vs +3.7% est
+- Interpretation: Tariff pass-through decelerating; Fed hawkish pause but not accelerating. Risk-on tilt.
+- **WFC Oct 1 entry condition MET (PCE leg).** Confirm NQ green at open tomorrow.
+
+**BE intraday -4.23%:**
+- Oracle filed force majeure notice on Project Jupiter (NM AI datacenter) with Blue Owl Capital, seeking rent deferral if site misses 2028 target. Oracle + Blue Owl both stated project on schedule, no financial changes.
+- Additional: federal securities class action (scandium oxide disclosures) deadline today.
+- 10Y yield at 5.218% adds pressure on high-duration growth names.
+- Our BE position: dust, +1.98% from entry, expired Pelosi signal. No action.
+
+**MU AMC tonight:** est $50B revenue, $31 EPS, DRAM +325.8% YoY. Beat expected → NVDA frac bullish catalyst tomorrow morning.
+
