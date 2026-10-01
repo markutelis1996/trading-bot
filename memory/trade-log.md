@@ -11471,3 +11471,18 @@ None. No cuts, no stop changes, no new entries.
 - No notification sent (no action taken)
 
 ---
+
+### Oct 01 - EOD Snapshot (Day 117, Thursday)
+**Portfolio:** $116,993.84 | **Cash:** $47,754.00 (40.8%) | **Day P&L:** +$652.98 (+0.56%) | **Phase P&L:** +$16,993.84 (+17.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 | $78.38 | $80.275 | +$1.895 (+2.42%) | +$281.63 (+2.42%) | $72.297 (10% trail, HWM $80.33, f49e711e) |
+| JPM dust | 0.522 | $334.00 | $333.18 | +$2.35 (+0.71%) | -$0.43 (-0.25%) | none (dust) |
+| NVDA frac | 1.192 | $199.83 | $230.82 | +$2.32 (+1.02%) | +$36.93 (+15.51%) | none (fractional) |
+| INTC dust | 0.163 | $106.52 | $120.04 | +$0.08 (+0.07%) | +$2.20 (+12.70%) | none (dust) |
+| BE dust | 0.371 | $273.52 | $277.58 | +$0.60 (+0.22%) | +$1.50 (+1.48%) | none (dust) |
+
+**Notes:** JPM trailing stop fired at open (~$329.85 fill); 49 shares exited, 0.522 fractional dust remains. WFC entered at $78.38 (Khanna signal, NIM expansion, Financials momentum); closed +2.42% on the day, trailing stop auto-trailed to $72.297 (HWM $80.33). All positions green or flat EOD. Q-end blackout lifted; 1 new entry this week (WFC). Stock-side deployment ~10.2% vs 75-85% target — heavy dry powder available post-JPM exit. NFP Oct 2 tomorrow: cool print → evaluate adding WFC or new setup; hot print → WFC stop at $72.30 protects. Crypto DCA sleeve (BTC/ETH/SOL/LINK) MV ~$56,737 — read-only. NVDA frac +15.51% unrealized but fractional prevents integer stop.
+
+---
