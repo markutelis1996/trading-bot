@@ -12715,3 +12715,134 @@ Note: JPM YTD +7.98% individually despite sector avg weakness — large-cap bank
 
 **MU AMC tonight:** est $50B revenue, $31 EPS, DRAM +325.8% YoY. Beat expected → NVDA frac bullish catalyst tomorrow morning.
 
+---
+
+## 2026-10-01 - Pre-market Research
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| JPM | 49.522 | 49.521674 | ✓ Match (fractional rounding) |
+| NVDA frac | 1.192 | 1.191638 | ✓ Match (fractional rounding) |
+| INTC dust | 0.163 | 0.162614 | ✓ Match (fractional rounding) |
+| BE dust | 0.371 | 0.370576 | ✓ Match (fractional rounding) |
+| SLB | 0 | 0 | ✓ Exited Sep 30 (confirmed) |
+| EOG | 0 | 0 | ✓ Exited Sep 30 (confirmed) |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | — | UNTOUCHABLE |
+
+Open orders: JPM GTC trailing stop (1a5b3205) — 49 shares, 10% trail, stop $329.85, HWM $366.50, expires Oct 12 ✓
+
+Clean. No overnight stop-outs. No discrepancies.
+
+### Account
+- Equity: $116,910.41
+- Cash: $43,207.57
+- Long market value: $73,702.84 (includes ~$56,872 crypto DCA sleeve; stock MV ~$16,830)
+- Buying power (regt): $103,245.57
+- Daytrade count: 0/3
+- Stock sleeve deployed: ~14.4% ($16,830 across JPM + dust positions)
+- Phase P&L: +$16,910.41 (+16.91%)
+- Trades this week: 0/7 (new week)
+
+### Market Context (pre-market Oct 1)
+| Indicator | Level | Notes |
+|-----------|-------|-------|
+| WTI crude | ~$88.85-90 | +1% premarket; oil rising |
+| Brent crude | ~$96.90-97.69 | Sep 30 close $97.69; up from $70s in June — energy bid |
+| S&P 500 futures | 7,756.25 (+0.53%) | Risk-on premarket |
+| NQ100 futures | 30,991.25 (+0.95%) | **NQ GREEN** ✓ — WFC condition met |
+| VIX | ~16.14 | Prev close 16.04; moderate, trending down from prior week |
+| 10Y yield | ~5.12-5.18% | Elevated; headwind for high-multiple growth |
+| 30Y yield | ~5.61% (Sep 29-30 intraday high) | Highest since 2002 — systemic bond pressure |
+
+### MU Q4 FY2026 MASSIVE BEAT (AMC Sep 30)
+- Revenue: $54.23B vs $51.07B est (+6.2% beat); +379% YoY
+- EPS adj: $33.42 vs $31.61 est (+5.7% beat)
+- Gross margin: 87% vs 86% guide
+- Q1 FY2027 guide: $61.5B vs $57.7B analyst est (+6.5% above consensus)
+- Stock reaction: FLAT AH per initial reports ("sell the news" dynamic after massive move YTD)
+- AI memory supercycle thesis: STRONGLY confirmed. Operating cash flow $43.97B (7.4× prior year).
+- Signal for NVDA frac: Positive (AI demand confirms GPU/compute thesis). No action on frac itself.
+
+### Economic Calendar — Oct 1
+- **9:30 AM**: Challenger Job Cuts SEP (est 78K, prev 52.9K) — minor
+- **ISM Manufacturing PMI** — due today
+- 7:30 PM: Fed Williams speech | 10:45 PM: Fed Logan speech
+- **TOMORROW Oct 2: NFP September** — CRITICAL binary. Consensus 90K. Hot print → risk-off.
+
+### Position Status
+| Ticker | Shares | Entry | Sep 30 Close | Unrealized | Stop | Status |
+|--------|--------|-------|--------------|------------|------|--------|
+| JPM | 49.522 | $334.00 | $330.83 | -$157 (-0.95%) | $329.85 GTC (1a5b3205, HWM $366.50, **exp Oct 12**) | HOLD ⚠️ RENEW STOP |
+| NVDA frac | 1.192 | $199.83 | $228.50 | +$34 (+14.34%) | none (fractional) | HOLD |
+| INTC dust | 0.163 | $106.52 | $119.96 | +$2 (+12.63%) | none (dust) | Remnant |
+| BE dust | 0.371 | $273.52 | $276.98 | +$1 (+1.27%) | none (dust) | Remnant |
+
+⚠️ **JPM ALERT**: Stop $329.85 is only $0.98 above Sep 30 close ($330.83). Any morning dip fires stop. JPM -6.70% over last month; trading below 50-day SMA. Meta "Muse" AI narrative dragging financials. **Earnings Oct 13 — stop must be renewed before Oct 12.**
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Days Since | Signal |
+|------------|--------|--------|------|------------|-----------|------------|--------|
+| **Pelosi** | **BE** | BUY | $1M–5M | Jul 24 | Aug 21 | 41 days | Borderline window (≤45d ✓); BE already held as dust; no new action |
+| **Pelosi** | **INTC** | BUY | $500K–1M | Jul 24 | Aug 21 | 41 days | Within 45d window ✓; size qualifies (>$25K) — SECONDARY (we hold INTC dust; thesis unbroken) |
+| **Khanna** | **WFC** | BUY | $50K–100K | Aug 27 | ~Sep 7 | ~35 days | Within 45d window ✓; size qualifies (>$25K) — **SECONDARY** |
+| Khanna | Various (ICE, REGN, QCOM, WDAY, MRK) | BUY | $1K–15K | Jul 2026 | Aug 2026 | >45 days | EXPIRED window or below $25K threshold — SKIP |
+| Pelosi | UBER | BUY | $500K–1M | May 29 | Jun 24 | 99 days | EXPIRED window (>45d) |
+| McCaul | MA (sell) | SELL | <$50K | Jun-Jul 2026 | Jul 13 | >45 days | Sell signal; expired |
+| Tuberville | Various | SELL | — | — | — | — | Mostly sells; no qualifying buys |
+| Gottheimer | — | — | — | — | — | — | No qualifying buys found |
+| Mast | — | — | — | — | — | — | No qualifying buys found in window |
+
+**Summary**: Khanna WFC ($50K–100K, Aug 27) remains the only fresh qualifying signal. 35 days since disclosure.
+
+### STEP 3d — Live Price Verification
+| Ticker | Alpaca AH Quote (Sep 30 close) | Reference Price | Stop (10%) | Target (+20%) | R:R |
+|--------|-------------------------------|-----------------|------------|---------------|-----|
+| WFC | ask $84.84 / bid $76.17 (AH wide) | Sep 30 close ~$82.18 | ~$73.96 | ~$98.62 | 2:1 |
+| JPM | ask $352.80 / bid $317.77 (AH wide) | Sep 30 close $330.83 | $297.75 | $397.00 | 2:1 |
+
+AH quotes extremely wide — USE LIVE OPEN PRICE at market open for any entry. Sep 30 closes used for stop/target estimates above.
+
+### Trade Ideas
+
+**1. WFC — CONDITIONAL BUY at open (10% position)**
+- **Catalyst stack**: (a) Khanna WFC $50K–100K buy Aug 27 (secondary signal ✓, 35 days in window); (b) Financials = Schwab "More Favored" ✓; (c) Q2 2026 EPS beat $1.96 vs $1.71 est (+14.62%); (d) NIM expansion thesis (Fed hiked to 3.75–4.00%; WFC NII ~$50B 2026 est); (e) Q3 est EPS $1.85 (+6.4% YoY); (f) Analyst median PT $100.37 (+22% from current); (g) Forward P/E 12.12 (discount to sector)
+- **Live price**: AH quotes unreliable. Use open price at market.
+- **Entry condition (ALL required)**: ① open ≤ $86.29 (≤5% gap from $82.18 close) AND ② NQ green at open ✓
+- **Entry size**: 10% × $116,910 = $11,691 → $11,691 / $82 ≈ **142 shares** (10% not 15% — NFP tomorrow + Oct 13 earnings = double binary; size down to manage risk)
+- **Stop**: 10% trail GTC from fill price
+- **Target**: +20% = ~$98.60 from $82 entry; R:R 2:1
+- **Risk**: WFC Q3 earnings Oct 13 (12 days away) — JPM also Oct 13 = dual bank earnings same day; 30Y yield 5.61% headwind; NFP tomorrow binary
+- **Sector concentration**: JPM ($16,428) + WFC ($11,691) = $28,119 / $116,910 = 24.1% Financials — under 60% cap ✓
+
+**2. NVDA frac — HOLD, no action**
+- MU MASSIVE BEAT: AI memory supercycle confirmed (Revenue +379% YoY, gross margin 87%). NVDA frac +14.34% unrealized. No integer stop feasible. HOLD.
+
+### Risk Factors
+1. **NFP Oct 2** — MAJOR binary. Consensus 90K. Prior 90K. Cool/in-line = risk-on; hot = rate hike narrative, risk-off selloff. Any new trade today faces overnight NFP gap risk.
+2. **30Y Treasury 5.61%** — Highest since 2002. Structural headwind for long-duration and bank bond portfolios. BAC unrealized bond losses >$90B.
+3. **JPM stop near trigger** — Stop $329.85 vs close $330.83 = $0.98 cushion. Any dip fires stop. Not moving stop down.
+4. **Dual bank earnings Oct 13** — JPM + WFC report same day. If entering WFC, accept this binary by sizing down to 10%.
+5. **MU AH flat** — Despite massive beat, "sell-the-news" dynamic. AI stocks may be priced for perfection; high 30Y yields are additional headwind.
+6. **JPM stop expires Oct 12** — ⚠️ MUST renew 1a5b3205 before market close Oct 12.
+
+### Sector Momentum YTD (as of Sep 25, 2026)
+| Rank | Sector | YTD | Schwab Rating | Our Exposure |
+|------|--------|-----|---------------|--------------|
+| 1 | Energy (XLE) | +38.8% | Neutral | None (exited SLB) |
+| 2 | Technology (XLK) | +36.3% | Neutral | NVDA frac, INTC dust |
+| 3 | Healthcare (XLV) | +10.3% | More Favored | None |
+| 4 | Industrials | ~+12% | More Favored | None |
+| 5 | Financials (XLF) | +2.6% | **More Favored** | JPM; WFC staged |
+| 6 | Consumer Staples | +5.6% | Neutral | None |
+| 7 | Consumer Disc. | -7.4% | Least Favored | None |
+| 8 | Utilities | -7.4% | Less Favored | None |
+
+### Decision
+- **WFC**: CONDITIONAL BUY at open — enter 142 shares if ≤$86.29 and NQ green at open; 10% trail GTC stop; target $98.60. NFP binary tomorrow = accept.
+- **JPM**: HOLD — stop active. ⚠️ Renew stop 1a5b3205 before Oct 12 close.
+- **NVDA frac**: HOLD — MU beat confirms AI thesis; +14.34% unrealized; no integer stop feasible.
+- **BE / INTC dust**: HOLD — remnants, no action.
+- **New entries beyond WFC**: NONE today — NFP binary tomorrow; max 1 new position pre-NFP.
+- **Oct 2 (post-NFP)**: If NFP in-line/cool → evaluate adding position (NVDA or Healthcare); if hot → hold cash.
+
