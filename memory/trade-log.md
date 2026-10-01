@@ -11376,3 +11376,46 @@ All 5 log positions confirmed present on broker. Quantities match (fractional ro
 
 **Notes:** Q-end blackout lifted EOD today; two exits executed: SLB cut at open (-7.64%, -$23.26) and EOG dust closed midday (-8.57%, de minimis). JPM under pressure -1.24% on the day; trailing stop $329.85 is only $0.98 above close — elevated stop-out risk tomorrow. NVDA frac +0.57% today, +14.34% unrealized; integer stop still not feasible (fractional). Crypto DCA sleeve (BTC/ETH/SOL/LINK) combined MV ~$56,271 — read-only. Trades today: 2 exits (SLB, EOG); new entries: 0. Week: 0/7. Oct 1 priorities: WFC entry (PCE cool ✅; check NQ green at open); renew JPM stop 1a5b3205 before Oct 12 expiry/Oct 13 earnings.
 
+
+---
+
+## 2026-10-01 - Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Suspected Cause | Realized P&L |
+|--------|---------|------------|-----------------|--------------|
+| JPM | 49.522 | 0.521674 (dust) | Trailing stop 1a5b3205 fired (stop $329.85, Sep 30 close $330.83 — $0.98 cushion; dipped at open Oct 1) | ~49 × ($329.85 - $334.00) ≈ **-$203** (estimated; fill ~$329.85) |
+
+JPM integer stop 1a5b3205 fired Oct 1 at/near open. 49 shares exited. Fractional dust 0.521674 remains (no stop needed). Confirmed: no open orders, cash increased $43,207 → $59,402 (+$16,195 ≈ 49 shares × ~$330.51 fill).
+
+---
+
+## 2026-10-01 - Market-Open Session
+
+**Portfolio:** $116,487.49 equity | **Cash:** $59,402.74 | **Positions:** 1 meaningful (WFC) + dust
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 1 (BUY WFC)
+
+### Trades Executed
+
+| # | Date | Ticker | Side | Shares | Entry | Stop | Target | R:R | Thesis |
+|---|------|--------|------|--------|-------|------|--------|-----|--------|
+| 1 | 2026-10-01 | WFC | BUY | 148.619 (148 stop) | $78.38 | $70.596 (10% trail, f49e711e, HWM $78.44) | $94.06 (+20%) | 2.0:1 | Khanna WFC $50K–100K buy Aug 27 (35d, within window); Q2 2026 EPS $1.96 vs $1.71 est beat (+14.6%); NIM expansion (Fed 3.75-4%); Financials = Schwab More Favored; median analyst PT $100.37 (+28%); Forward P/E 12.12; NFP binary tomorrow = sized at 10% not 15% |
+
+### Stops Placed (GTC trailing)
+- WFC: 148 shares, 10% trail, initial stop $70.596 (HWM $78.44) — order ID f49e711e
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $70.596 (10% trail, f49e711e) | $94.06 | 2.0:1 |
+| 2 | JPM dust | 0.522 | $334.00 | none (dust) | — | — |
+| 3 | NVDA frac | 1.192 | $199.83 | none (fractional) | — | — |
+| 4 | INTC dust | 0.163 | $106.52 | none (dust) | — | — |
+| 5 | BE dust | 0.371 | $273.52 | none (dust) | — | — |
+
+- Trades this week (new entries): 1/7
+- Phase P&L: ~+$16,500
+- ⚠️ JPM stop 1a5b3205 FIRED — no renewal needed (dust only)
+- ⚠️ NFP Oct 2 — monitor; if hot → WFC trailing stop protects; if cool → evaluate adding position
