@@ -11419,3 +11419,55 @@ JPM integer stop 1a5b3205 fired Oct 1 at/near open. 49 shares exited. Fractional
 - Phase P&L: ~+$16,500
 - ⚠️ JPM stop 1a5b3205 FIRED — no renewal needed (dust only)
 - ⚠️ NFP Oct 2 — monitor; if hot → WFC trailing stop protects; if cool → evaluate adding position
+
+## 2026-10-01 - Midday Scan
+
+**Portfolio:** ~$116,487 equity | **Cash:** ~$59,403 | **Positions:** 1 meaningful (WFC) + dust/frac | **Deployed:** ~$11,786 WFC (~10.1%) | **Phase P&L:** ~+$16,500
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| JPM dust | 0.522 | 0.522 | ✓ (stop fired at open as logged) |
+| NVDA frac | 1.192 | 1.192 | ✓ |
+| INTC dust | 0.163 | 0.163 | ✓ |
+| BE dust | 0.371 | 0.371 | ✓ |
+
+Clean. WFC GTC stop f49e711e active: 148 sh, 10% trail, HWM $79.60, stop $71.64. No overnight or intraday stop-outs.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | -7% Threshold | Stop | HWM | Status |
+|--------|--------|-------|---------|------|---------------|------|-----|--------|
+| WFC | 148.619 | $78.38 | $79.505 | +1.44% | $72.89 | $71.64 (10% trail, f49e711e) | $79.60 | HOLD |
+| JPM dust | 0.522 | $334.00 | $332.12 | -0.56% | — | none (dust) | — | Remnant |
+| NVDA frac | 1.192 | $199.83 | $230.95 | +15.57% | — | none (frac) | — | Remnant |
+| INTC dust | 0.163 | $106.51 | $121.63 | +14.20% | — | none (dust) | — | Remnant |
+| BE dust | 0.371 | $273.52 | $278.69 | +1.89% | — | none (dust) | — | Remnant |
+
+### Step 3 — Cuts
+None. WFC +1.44% — well above -7% rule. All dust/frac have no stops.
+
+### Step 4 — Stop Tightening
+- WFC +1.44%: +15% tighten trigger = $90.14 — not reached. No action.
+
+### Step 5 — Thesis Check
+- **WFC**: Acting well (+1.44% intraday), well above stop $71.64. Khanna $50K–100K signal within 45d window ✓; NIM expansion thesis (Fed 3.75-4%); Financials = Schwab More Favored ✓. Tomorrow NFP Oct 2 (consensus 90K) is key binary; stop protects if miss. INTACT. HOLD.
+- **MU Q4 beat** (AMC Sep 30): Revenue $54.23B (+6.2% beat, +379% YoY); Q1 FY27 guide $61.5B (+6.5% above est) — AI memory supercycle thesis strongly confirmed. Positive signal for semi/AI adjacent positions (NVDA frac). No action.
+
+### Step 6 — Research
+No sharp unexplained moves. WFC +1.44% on broad risk-on tape (NQ futures +0.95% today; S&P futures +0.53%). No Perplexity research needed.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $71.64 (10% trail, f49e711e) | $94.06 | 2.0:1 |
+
+- Trades this week: 1/7 (WFC Oct 1)
+- Watch: NFP Oct 2 — hot print = risk-off; WFC stop protects
+- Watch: WFC Q3 earnings Oct 13 — JPM same day; consider sizing up if NFP cool tomorrow
+- No notification sent (no action taken)
+
+---
