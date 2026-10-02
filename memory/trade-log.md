@@ -11486,3 +11486,59 @@ None. No cuts, no stop changes, no new entries.
 **Notes:** JPM trailing stop fired at open (~$329.85 fill); 49 shares exited, 0.522 fractional dust remains. WFC entered at $78.38 (Khanna signal, NIM expansion, Financials momentum); closed +2.42% on the day, trailing stop auto-trailed to $72.297 (HWM $80.33). All positions green or flat EOD. Q-end blackout lifted; 1 new entry this week (WFC). Stock-side deployment ~10.2% vs 75-85% target — heavy dry powder available post-JPM exit. NFP Oct 2 tomorrow: cool print → evaluate adding WFC or new setup; hot print → WFC stop at $72.30 protects. Crypto DCA sleeve (BTC/ETH/SOL/LINK) MV ~$56,737 — read-only. NVDA frac +15.51% unrealized but fractional prevents integer stop.
 
 ---
+
+## 2026-10-02 - Midday Scan
+
+**Portfolio:** $117,205.94 equity | **Cash:** $46,311.88 | **Positions:** 1 meaningful (WFC) + dust/frac | **Deployed:** ~$11,937 WFC (~10.2%) | **Phase P&L:** ~+$17,200
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| JPM dust | 0.522 | 0.521674 | ✓ (rounding) |
+| NVDA frac | 1.192 | 1.191638 | ✓ (rounding) |
+| INTC dust | 0.163 | 0.162614 | ✓ (rounding) |
+| BE dust | 0.371 | 0.370576 | ✓ (rounding) |
+
+Clean. WFC GTC stop f49e711e active: 148 sh, 10% trail, HWM $80.74, stop $72.666.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | -7% Threshold | Stop | HWM | Status |
+|--------|--------|-------|---------|------|---------------|------|-----|--------|
+| WFC | 148.619 | $78.38 | $80.28 | +2.42% | $72.89 | $72.666 (10% trail, f49e711e) | $80.74 | HOLD |
+| NVDA frac | 1.192 | $199.83 | $235.30 | +17.75% | — | none (fractional) | — | HOLD ⚠️ |
+| JPM dust | 0.522 | $334.00 | $331.09 | -0.87% | — | none (dust) | — | Remnant |
+| INTC dust | 0.163 | $106.52 | $121.17 | +13.76% | — | none (dust) | — | Remnant |
+| BE dust | 0.371 | $273.52 | $288.75 | +5.57% | — | none (dust) | — | Remnant |
+
+### Step 3 — Cuts
+None. All stocks above -7% threshold.
+
+### Step 4 — Stop Tightening
+- WFC +2.42%: +15% trigger = $90.14 — not reached. No action.
+- NVDA frac +17.75%: +15% trigger ($229.80) CROSSED; +20% trigger ($239.80) not reached. Fractional — no integer stop feasible (standing rule). Partial profit trigger at +25% = $249.79 — not reached. No actionable order.
+
+### Step 5 — Thesis Check
+- **WFC**: +2.42% from entry, flat today (+0.04%). NFP Sep result not yet confirmed in data sources; market tone mildly positive (NVDA +1.92%, growth stocks moving up → not risk-off). Pre-market conditional size-up (NFP ≤ 90K) NOT executed — cannot confirm trigger. Khanna $50K–100K buy Aug 27 signal valid ✓; NIM expansion thesis intact; Q3 earnings Oct 13. HOLD.
+- **NVDA frac**: +17.75% today +1.92% intraday; AI demand thesis intact; approaching +20% stop tighten trigger. Fractional → no stop order possible. HOLD.
+- **BE dust**: +4.02% today ($288.75). Catalyst: accelerating demand for fuel cell systems in hyperscaler data centers, company raised 2026 outlook. Dust only ($107 MV) — no action.
+- **INTC dust**: +13.76%, +0.97% today. Dust — no action.
+- **JPM dust**: -0.87%, -0.63% today. Dust — no action.
+
+### Step 6 — Research
+Market tone mildly positive heading into midday. NFP actual not retrievable from search — no result in live economic calendars. WFC flat (+0.04%) consistent with in-line NFP (consensus 89-90K). NVDA +1.92% confirms AI thesis strengthening, consistent with sector momentum. No sharp unexplained moves requiring thesis revision.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $72.666 (10% trail, f49e711e, HWM $80.74) | $94.06 | 2.0:1 |
+
+- Trades this week: 1/7 (WFC Oct 1)
+- ⚠️ NVDA frac: +17.75% — watch $239.80 (+20% trigger) for when to tighten if integer-stop ever feasible
+- Watch: WFC Q3 earnings Oct 13 — EPS est $1.84; partial profit at +25% = $97.98 (not near)
+- No notification sent (no action taken)
+
+---
