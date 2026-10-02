@@ -11542,3 +11542,18 @@ None. No cuts, no stop changes, no new entries.
 - No notification sent (no action taken)
 
 ---
+
+### Oct 02 - EOD Snapshot (Day 118, Friday)
+**Portfolio:** $116,307.51 | **Cash:** $46,311.88 (39.8%) | **Day P&L:** -$686.33 (-0.59%) | **Phase P&L:** +$16,307.51 (+16.31%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 | $78.38 | $80.45 | +$0.20 (+0.25%) | +$307.64 (+2.64%) | $72.666 (10% trail, HWM $80.74, f49e711e) |
+| NVDA frac | 1.192 | $199.83 | $233.96 | +$3.10 (+1.34%) | +$40.68 (+17.08%) | none (fractional) |
+| JPM dust | 0.522 | $334.00 | $332.38 | -$0.80 (-0.24%) | -$0.85 (-0.49%) | none (dust) |
+| INTC dust | 0.163 | $106.51 | $119.18 | -$0.82 (-0.69%) | +$2.06 (+11.89%) | none (dust) |
+| BE dust | 0.371 | $273.52 | $290.26 | +$12.68 (+4.57%) | +$6.21 (+2.27%) | none (dust) |
+
+**Notes:** Day negative -0.59% driven entirely by crypto sleeve (LINK -4.9%, ETH -1.7%, SOL -1.4%, BTC -0.65%) — stock side positive (WFC +0.25%, NVDA +1.34%, BE +4.57%). WFC stop tracking well at $72.666, HWM $80.74. No trades today or new entries this week beyond WFC Oct 1. Still heavily underdeployed on stock side (~10.2%) with $46K+ dry powder. NVDA frac at +17.08% — approaching +20% tighten trigger ($239.80) but fractional prevents integer stop. BE dust +4.57% on data center fuel-cell demand; dust only. Priority for Mon Oct 6: identify second stock position — financials or AI/semi given sector momentum. WFC Q3 earnings Oct 13 — hold into earnings unless thesis breaks.
+
+---
