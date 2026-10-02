@@ -12846,3 +12846,114 @@ AH quotes extremely wide — USE LIVE OPEN PRICE at market open for any entry. S
 - **New entries beyond WFC**: NONE today — NFP binary tomorrow; max 1 new position pre-NFP.
 - **Oct 2 (post-NFP)**: If NFP in-line/cool → evaluate adding position (NVDA or Healthcare); if hot → hold cash.
 
+## 2026-10-02 - Pre-market Research
+
+### Account (as of Oct 1 close)
+- Equity: $118,117 | Cash: $47,754 | Long MV: $70,363 (includes crypto sleeve)
+- Stock-only MV: ~$12,494 | Stock deployed: ~10.6% — WELL BELOW 75-85% target
+- Phase P&L: +$18,117 (+18.1%)
+- Daytrade count: 0/3 | Trades this week: 1/7 (WFC Oct 1)
+- WFC stop f49e711e: 148 sh, 10% trail, HWM $80.33, stop $72.297, exp Dec 30
+
+### Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 | 148.6188 | ✓ (frac rounding) |
+| JPM dust | 0.522 | 0.5217 | ✓ (frac rounding) |
+| NVDA frac | 1.192 | 1.1916 | ✓ (frac rounding) |
+| INTC dust | 0.163 | 0.1626 | ✓ (frac rounding) |
+| BE dust | 0.371 | 0.3706 | ✓ (frac rounding) |
+
+Clean. No discrepancies. All stops intact.
+
+### Market Context (pre-market Oct 2)
+| Indicator | Level | Notes |
+|-----------|-------|-------|
+| WTI crude | ~$94.57 (+2.58%) | Oilprice.com latest; up from $90.31 open Oct 1 |
+| Brent crude | ~$97-99.86 | Up ~2%; energy bid continues |
+| S&P 500 futures | ~$7,728 (+0.17%) | E-Mini Dec 2026; mild risk-on |
+| VIX | 16.39 (Oct 1 close) | Oct VIX futures 18.15 — moderate |
+| 10Y yield | ~5.12-5.23% | Elevated; structural headwind for growth |
+| 30Y yield | ~5.51% | Near multi-decade highs |
+
+### Economic Calendar — Oct 2
+- **8:30 AM EDT: NFP September** — THE binary event. Consensus 89-90K. Previous 162K (Aug). Unemployment 4.1% expected unchanged.
+- NFP trend: 162K (Aug), -23K (Jul), 57K (Jun), 172K (May) — highly volatile; any miss or beat by 30K+ will move market.
+- No other major US releases today.
+
+### Position Status
+| Ticker | Shares | Entry | Oct 1 Close | Unrealized | Stop | Status |
+|--------|--------|-------|-------------|------------|------|--------|
+| WFC | 148.619 (148 stop) | $78.38 | $80.25 | +$281 (+2.42%) | $72.297 (10% trail, f49e711e, HWM $80.33) | HOLD |
+| NVDA frac | 1.192 | $199.83 | $230.82 | +$37 (+15.51%) | none (fractional) | HOLD |
+| JPM dust | 0.522 | $334.00 | $333.18 | -$0.4 | none | Remnant |
+| INTC dust | 0.163 | $106.52 | $120.04 | +$2.2 | none | Remnant |
+| BE dust | 0.371 | $273.52 | $277.58 | +$1.5 | none | Remnant |
+
+**Live WFC AH quote (Oct 1 20:00 UTC)**: bid $75.14 / ask $83.95 — extremely wide, stale. Use open price at 9:30 AM for any sizing decisions.
+
+### WFC Thesis Check
+- +2.42% from entry on Oct 1; WFC YTD +12.48% — acting in line with thesis
+- Evercore maintains Outperform, PT lowered $95 → $90 (Oct 1)
+- Q3 earnings Oct 13 — EPS est $1.84 vs prior $1.73 (+6.4% YoY); NIM expansion thesis intact
+- New CRO named (Scott Powell replacing outgoing), routine leadership transition — no concern
+- WFC CFO sees stronger 2026 loan growth (Sep 15 Reuters)
+- Dividend raised to $0.50/share Q3 (11% increase)
+- WFC stop tighten trigger at +15% = $90.14 — not reached. No action.
+
+### Politician Signals (STEP 3b)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Days Since | Signal |
+|------------|--------|--------|------|------------|-----------|------------|--------|
+| **Khanna** | **WFC** | BUY | $50K–100K | Aug 27 | Sep 4 | 36d | ✓ In window — EXISTING POSITION; signal still valid |
+| Pelosi | BE, INTC | BUY | $500K–5M | Jul 24-28 | Aug 21 | 70d | EXPIRED window (>45d from trade date Oct 2) |
+| McCaul | INTC (sell) | SELL | $100-250K | May 12 | Jun 10 | 143d | EXPIRED — sell signal, irrelevant |
+| Gottheimer | QSR, RSG, AMAT | BUY | $1K–15K | Aug 6 | Sep 14 | 39d | In window but below $25K threshold — SKIP |
+| Tuberville | Various | SELL | — | — | Aug 5 | — | Mostly sells; no qualifying buys |
+| Mast, Green | — | — | — | — | — | — | No qualifying buys found |
+
+**Summary**: Only Khanna WFC (Aug 27) remains in window — already our position. No new politician-driven setups.
+
+### STEP 3d — Live Price Verification
+WFC: AH bid/ask too wide for reliable pricing. Oct 1 regular close: **$80.25** (live broker last price $80.21 per position data). Stop at $72.297 = 9.93% below close ✓. Target +20% from entry = **$94.06** ✓.
+
+If NFP cool → potential WFC size-up at open. Max 15% alloc = $17,718. Current WFC MV ~$11,921. Room for ~$5,797 more ≈ **72 additional shares at ~$80**. Will re-verify live open price before any order.
+
+### Trade Ideas
+**1. WFC SIZE-UP (conditional, post-NFP only)**
+- Catalyst: Khanna $50-100K buy Aug 27 (secondary) + NIM expansion + Q3 earnings Oct 13 beat expected ($1.84 est vs $1.73 prior)
+- Live price reference: Oct 1 close $80.25 (broker); AH too wide to use
+- Entry condition: NFP ≤ 90K (in-line or cool) AND WFC opens within 3% of $80.25 (≤ $82.66)
+- Size: +72 shares → brings total to 220 shares × $80 ≈ $17,600 = 14.9% allocation (within 15% rule)
+- Stop: existing GTC f49e711e trails — would need new integer stop for 72 additional shares or cancel/replace with 220-share stop
+- Target: $94.06 (+17% from current); R:R 2:1
+- Risk: NFP hot = risk-off; earnings Oct 13 binary; 30Y yield 5.51% headwind
+- **CONDITIONAL — DO NOT EXECUTE PRE-NFP**
+
+**2. All other positions: HOLD**
+- NVDA frac +15.51%: no integer stop feasible; partial-profit rule applies at +25% from entry ($249.79). Currently $230.82 — not triggered. HOLD.
+- INTC/JPM/BE dust: remnants, no action.
+
+### Sector Momentum YTD (Oct 1, 2026)
+| Rank | Sector | YTD | Schwab Rating | Our Exposure |
+|------|--------|-----|---------------|--------------|
+| 1 | Energy (XLE) | +40.2% | Neutral | None |
+| 2 | Technology (XLK) | +37.4% | Neutral | NVDA frac, INTC dust |
+| 3 | Industrials (XLI) | +8.7% | More Favored | None |
+| 4 | Financials (XLF) | +7.2% (6M) | More Favored | WFC ✓ |
+| 5 | Health Care (XLV) | ~+10% | More Favored | None |
+| 9 | Consumer Disc (XLY) | -8.9% | Least Favored | None |
+| 10 | Utilities (XLU) | -7.1% | Less Favored | None |
+
+### Risk Factors
+1. **NFP 8:30 AM EDT** — PRIMARY risk today. Consensus 89-90K; prior 162K. If hot (>130K): rate-hike narrative resumes, financials + growth stocks sell off. WFC stop at $72.30 provides floor.
+2. **Oil elevated** (~$94 WTI, ~$98 Brent) — adds inflation risk; 10Y at 5.2% is near breaking point for equities.
+3. **WFC earnings Oct 13** — 11 days away. Stock priced for beat. Any guidance miss = gap down.
+4. **Stock deployment severely low** (10.6%) vs 75-85% target — large dry powder but NFP binary limits additions today.
+5. **NVDA frac +15.51%** — approaching partial-profit trigger (+25% = $249.79). Not actionable today (fractional).
+
+### Decision
+- **WFC**: HOLD. Stop f49e711e active. Post-NFP 8:30 AM: if ≤ 90K print → evaluate 72-share add at open (up to 15% alloc); if > 120K hot print → HOLD cash.
+- **NVDA frac / dust**: HOLD — no action.
+- **New entries**: NONE pre-NFP. Post-NFP watchlist: WFC size-up (primary); Healthcare sector (UNH / LLY) if Schwab "More Favored" + NQ green (secondary, requires fresh quote at open).
+- **Default**: HOLD — let NFP resolve first.
+
