@@ -1427,3 +1427,83 @@ Phase P&L: +$17,986.16 (+17.99% from $100,000)
 - Phase P&L: +$17,986 (+17.99%) — maintaining lead over benchmark ✓
 
 ---
+
+## Week ending 2026-10-02
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $117,986.16 (Sep 26 EOD) |
+| Ending portfolio | $116,307.51 (Oct 2 EOD) |
+| Week return | -$1,678.65 (-1.42%) |
+| S&P 500 week | +0.2% |
+| Bot vs S&P | -1.62% underperformance |
+| Trades | 1 new entry / 3 closed (W:0 / L:3 / open:1 stock + dust) |
+| Win rate | 0% (0/3 closed) |
+| Best trade | WFC +2.64% (open, unrealized) |
+| Worst trade | SLB frac -7.64% (-$23); JPM 49sh -1.24% (-$203 realized) |
+| Profit factor | 0.00 (no closed winners) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| SLB frac (5.675sh) | $53.67 (Aug) | ~$49.57 (Sep 30) | -$23.26 | -7.64% | Manual -7% cut at market-open Sep 30; Q-end blackout does not protect losers |
+| EOG dust (~0sh) | $149.83 (Sep 16) | ~$138.94 (Sep 30 midday) | ~$0 | -8.57% | De minimis MV ($0.000032); closed per -7% rule; dust position |
+| JPM (49sh) | $334.00 (Aug) | ~$329.85 (Oct 1) | ~-$203 | -1.24% | GTC trailing stop 1a5b3205 auto-fired at Oct 1 open; $0.98 cushion at Sep 30 close; no manual intervention |
+
+New entry:
+| Ticker | Entry | Date | Shares | Stop | Thesis |
+|--------|-------|------|--------|------|--------|
+| WFC | $78.38 | Oct 1 | 148 (148 stop) | $72.666 (10% trail, f49e711e, HWM $80.74) | Khanna $50K–100K buy Aug 27 (35d); Q2 EPS beat +14.6%; NIM expansion; Financials More Favored |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| WFC | 148.619 (148 stop) | $78.38 | $80.45 | +$307 (+2.64%) | $72.666 (10% trail, f49e711e) | $80.74 |
+| NVDA frac | 1.192 | $199.83 | $233.96 | +$41 (+17.08%) | none (fractional) | — |
+| JPM dust | 0.522 | $334.00 | $332.14 | -$1 (-0.56%) | none (dust) | — |
+| INTC dust | 0.163 | $106.51 | $119.34 | +$2 (+12.04%) | none (dust) | — |
+| BE dust | 0.371 | $273.52 | $288.17 | +$5 (+5.36%) | none (dust) | — |
+
+Stock deployed: ~$11,956 WFC / $116,307 = 10.3% total equity | Cash $46,312 (39.8%) | Crypto sleeve ~$57,515 (49.4%)
+Phase P&L: +$16,307.51 (+16.31% from $100,000)
+
+### What Worked
+- WFC entry Oct 1 disciplined and timely: PCE cool ✅ + NQ green ✅ + Khanna signal within window; entered at $78.38, closed week +2.64%
+- Q-end blackout Rule 16 honored again (no new entries Sep 28–30); third consecutive quarter applying the rule correctly
+- -7% cuts executed without hesitation: SLB at open Sep 30, EOG dust midday Sep 30 — both rule-compliant
+- JPM GTC trailing stop auto-fired Oct 1 at open without manual intervention; system protecting capital as designed
+- NFP Oct 2 risk managed: sized WFC at 10% not 15% (double binary: NFP + Oct 13 earnings); appropriate sizing discipline
+
+### What Didn't Work
+- Portfolio -1.42% week vs S&P +0.2%; -1.62% underperformance — first clear losing week vs benchmark
+- Crypto sleeve drove most of the portfolio decline (-$1,679 week): LINK -5.02%, ETH -1.65%, SOL -1.40%, BTC -0.46% on Oct 2 alone; crypto DCA P&L not in our control but distorts headline number
+- Stock sleeve closed trades: 0/3 wins — JPM auto-stop (-$203), SLB cut (-$23), EOG dust (de minimis); all exits were rule-compliant but no realized gains
+- Stock deployment 10.3% of total equity — structural multi-week deficit vs 75-85% target; $46K+ dry powder sitting idle while crypto sleeve consumes ~49% of portfolio
+- No new entries beyond WFC despite 1 entry slot used and 5+ remaining; Q-end blackout + NFP binary limited window; deployment gap will persist into next week unless aggressive scanning
+
+### Key Lessons
+- Crypto sleeve size (~49% of portfolio) has grown large enough to regularly overwhelm stock P&L decisions; total equity return is increasingly a crypto-first metric, not a stock-decision metric — grade assessment must weight stock decisions separately (as started last week)
+- JPM stop at $0.98 cushion overnight was predictable outcome; should have been flagged as "effectively triggered" when cushion fell below $2 (0.6% cushion on a $330 stock is noise territory); for future: if stop cushion < 1% of stock price after a down day, treat as effectively triggered rather than holding overnight
+- WFC sizing at 10% (not 15%) ahead of double binary (NFP + earnings Oct 13) was correct — stops losses while preserving upside; apply this sizing-down logic whenever any position faces a major binary within 14 days of entry
+- Q-end blackout Rule 16 extension from last week validated again: entering BE 2 sessions before blackout lost to Q-end selling; the new rule (no entries within 5 sessions of Q-end) is proven over 2 consecutive quarters and should be formalized
+
+### Adjustments for Next Week (Oct 5–9)
+- **Primary goal**: Close stock deployment gap — target 2 new entries by Wed Oct 8; $46K cash available
+- **WFC hold into earnings Oct 13**: Q3 EPS est $1.84 (+6.4% YoY); NIM expansion thesis intact; stop $72.666 protects; do not add ahead of earnings binary
+- **Sector priority**: Energy (XLE +40.2% YTD, Neutral) and Healthcare (XLV "More Favored") — zero exposure in both; evaluate EOG re-entry (supply shock thesis reset) or LLY/UNH
+- **NVDA frac +17.08%**: approaching +25% partial-profit trigger ($249.79); not actionable (fractional) but monitor; if NVDA integer lot entry appears → consider sizing up with integer shares for stop coverage
+- **October earnings calendar**: WFC + JPM Oct 13 — hold; no new financial sector entries within 5 sessions of earnings (same logic as Q-end blackout extension)
+- **Rule 16 extension to codify**: Pelosi/politician entries within 5 sessions of known Q-end blackout → DEFER (being added to TRADING-STRATEGY.md)
+
+### Overall Grade: C-
+- -1.42% vs S&P +0.2% = -1.62% underperformance ✗
+- 0/3 closed wins; profit factor 0.00 ✗
+- Stock deployment 10.3% — structural deficit persists ✗
+- Rules followed: Q-end blackout honored, -7% cuts applied, stop moved only by trail (not down) ✓
+- WFC entry disciplined with strong catalyst stack ✓
+- NFP risk managed via position sizing ✓
+- Phase P&L: +$16,307 (+16.31%) — still well above benchmark ✓
+- Crypto sleeve distorted headline result; pure stock decisions grade: C
+
+---
