@@ -11609,3 +11609,56 @@ HOLD ALL. Pre-market research (Oct 5-6) confirms: no new entries until FOMC minu
 - No trades placed → no ClickUp notification, no git commit
 
 ---
+
+## 2026-10-05 - Midday Scan
+
+**Portfolio:** ~$118,617 equity | **Cash:** $46,311.88 | **Stock MV:** ~$12,724 (~10.7%) | **Phase P&L:** ~+$18,617
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ (rounding) |
+| JPM dust | 0.522 | 0.521674 | ✓ (rounding) |
+| INTC dust | 0.163 | 0.162614 | ✓ (rounding) |
+| BE dust | 0.371 | 0.370576 | ✓ (rounding) |
+
+Clean. WFC GTC stop f49e711e auto-trailed: HWM $80.74 → $82.22, stop $72.666 → $73.998 (normal trailing behavior; stop moved UP ✓).
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | -7% Threshold | Stop | HWM | Status |
+|--------|--------|-------|---------|------|---------------|------|-----|--------|
+| WFC | 148.619 | $78.38 | $81.70 | +4.24% | $72.89 | $73.998 (10% trail, f49e711e) | $82.22 | HOLD |
+| NVDA frac | 1.192 | $199.83 | $236.975 | +18.59% | — | none (fractional) | — | HOLD ⚠️ |
+| JPM dust | 0.522 | $334.00 | $333.20 | -0.24% | — | none (dust) | — | Remnant |
+| INTC dust | 0.163 | $106.51 | $116.955 | +9.81% | — | none (dust) | — | Remnant |
+| BE dust | 0.371 | $273.52 | $287.56 | +5.13% | — | none (dust) | — | Remnant |
+
+### Step 3 — Cuts
+None. All stocks above -7% threshold.
+
+### Step 4 — Stop Tightening
+- WFC +4.24%: +15% trigger $90.14 — NOT reached. No action.
+- NVDA frac +18.59%: +20% trigger $239.80 — NOT reached ($236.98 current; gap 1.2%). Fractional → no integer stop possible regardless.
+
+### Step 5 — Thesis Check
+- **WFC**: +4.24% from entry, +1.55% intraday. Stop auto-trailed well (HWM $82.22). Khanna buy signal (Aug 27) still in 45-day window ✓. Q3 earnings Oct 13 (EPS est $1.84). FOMC minutes Oct 7 2pm = key catalyst. INTACT.
+- **NVDA frac**: +18.59%, +1.29% intraday. AI infrastructure thesis intact; Q3 earnings Oct 22. Approaching +20% tighten trigger — watch $239.80. INTACT.
+- **Dust/remnants**: No thesis reviews needed.
+
+### Step 6 — Research
+No sharp unexplained moves. WFC +1.55% and NVDA +1.29% intraday align with broad market positive tone. No Perplexity research needed. FOMC minutes Wednesday Oct 7 remains key binary.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $73.998 (10% trail, f49e711e, HWM $82.22) | $94.06 | 2.0:1 |
+
+- Trades this week: 0/7
+- ⚠️ NVDA frac: watch $239.80 (+20% trigger) — fractional prevents stop but note for sizing if FOMC minutes permit new integer lot
+- No notification sent (no action taken)
+
+---
