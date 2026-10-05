@@ -12957,3 +12957,124 @@ If NFP cool → potential WFC size-up at open. Max 15% alloc = $17,718. Current 
 - **New entries**: NONE pre-NFP. Post-NFP watchlist: WFC size-up (primary); Healthcare sector (UNH / LLY) if Schwab "More Favored" + NQ green (secondary, requires fresh quote at open).
 - **Default**: HOLD — let NFP resolve first.
 
+---
+
+## 2026-10-06 - Pre-market Research
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| JPM dust | 0.522 | 0.521674 | ✓ (rounding) |
+| NVDA frac | 1.192 | 1.191638 | ✓ (rounding) |
+| INTC dust | 0.163 | 0.162614 | ✓ (rounding) |
+| BE dust | 0.371 | 0.370576 | ✓ (rounding) |
+
+Clean. WFC GTC stop f49e711e active: 148 sh, 10% trail, HWM $80.7399, stop $72.666.
+
+### Account
+- Equity: $117,696.85
+- Cash: $46,311.88
+- Buying power: $220,625.46
+- Daytrade count: 0/3
+- Stock-side deployed: ~$12,650 (~10.7%) — heavily underdeployed vs 75-85% target
+- Crypto MV: ~$58,736 (BTC $26,434 / ETH $14,395 / SOL $9,861 / LINK $8,046) — read-only sleeve
+- Phase P&L: +$17,696.85 (+17.70%)
+- Trades this week: 0/7
+
+### Open Positions (stocks only)
+| Ticker | Shares | Entry | Current | P&L% | Stop | Status |
+|--------|--------|-------|---------|------|------|--------|
+| WFC | 148.619 (148 stop) | $78.38 | $81.11 | +3.49% | $72.666 (10% trail, f49e711e, HWM $80.74) | HOLD |
+| NVDA frac | 1.192 | $199.83 | $235.42 | +17.81% | none (fractional) | HOLD |
+| JPM dust | 0.522 | $334.00 | $332.01 | -0.60% | none (dust) | Remnant |
+| INTC dust | 0.163 | $106.51 | $116.94 | +9.80% | none (dust) | Remnant |
+| BE dust | 0.371 | $273.52 | $290.78 | +6.31% | none (dust) | Remnant |
+
+### Market Context
+- **Oil**: WTI $90.16/bbl (−1.04%), Brent $101.27–$103/bbl (+0.07%). Brent-WTI spread >$11 (Hormuz risk premium). Oil up ~6.8% MoM.
+- **S&P 500 futures**: ~7,776 (Oct 2 close); Oct 6 premarket not yet available at research time.
+- **VIX**: 15.31 (Oct 2 close, −6.59%); benign, compressing volatility environment.
+- **Sector momentum YTD** (as of Oct 2): Energy +40.5% (#1), Technology +38.8% (#2), Industrials +9.6% (#3), Financials +0.06% (laggard), Consumer Discretionary −7.8% (worst).
+- **Schwab sector ratings** (Oct 2): More Favored = Energy, Financials, Health Care, Industrials. Neutral = IT, Consumer Staples. Less/Least Favored = Utilities, Comm Services, Real Estate, Consumer Discretionary.
+
+### Earnings This Week
+| Ticker | Date | Time | Notes |
+|--------|------|------|-------|
+| RPM | Oct 6 | BMO | Basic materials — not in our universe |
+| STZ | Oct 6 | AMC | Consumer defensive — not in our universe |
+| PEP | Oct 8 | BMO | EPS est $2.30; consumer defensive |
+| DAL | Oct 9 | BMO | Airlines, EPS est $1.94 |
+| JPM | Oct 13 | BMO | ★★ Q3 earnings — catalyst watch |
+| WFC | Oct 13 | BMO | ★★ Q3 earnings — current hold |
+
+### Economic Calendar This Week
+| Date | Event | Notes |
+|------|-------|-------|
+| Oct 6 (today) | LMI Logistics Managers Index SEP (10am) | Minor |
+| Oct 7 | FOMC Minutes 2pm ET | KEY — Sep meeting showed rate hike to 3.75-4%; hawkish tone expected |
+| Oct 8 | Initial Jobless Claims (prev 197K, cons 200K) | Monitor |
+| Oct 13 | Columbus Day | US equities open; JPM + WFC earnings |
+| Oct 14 | CPI Sep (8:30 AM) | KEY inflation print |
+| Oct 15 | PPI Sep | |
+| Oct 28 | FOMC Policy Decision | |
+
+### Politician Signals (Whitelist)
+- **Pelosi**: Last filed Aug 21, 2026 — BE (15K shares, Jul 24) and INTC (10K shares, Jul 28). Both >45 days ago. Out of window.
+- **Ro Khanna**: WFC buy $50K–100K, trade date Aug 27, filed ~Sep 5. 40 days ago = still in 45-day window. Already positioned (Oct 1 entry). WFC signal still valid as thesis support.
+- **McCaul**: No relevant recent large buys found in window.
+- **Gottheimer**: Most recent large MSFT buy was Mar 25 ($500K–$1M) — 194 days ago. Out of window.
+- **Tuberville**: Most recent filings were 817-day-lag entries (May 2024 trades). Not actionable.
+- **Brian Mast**: No relevant data found.
+- **Broad scan**: Cleo Fields (not on whitelist) bought GOOGL, AAPL, MSFT Sep 2026 at $1K–$15K scale (below threshold). No whitelist-qualifying new signals.
+
+**Summary**: No new whitelist politician signals in last 45 days meeting $25K+ threshold. Khanna WFC (Aug 27) remains in window and supports current WFC hold.
+
+### WFC Thesis Check
+- Current: $81.11, +3.49% from entry $78.38. Stop $72.666 (HWM $80.74 → auto-trails to ~$73.00 at $81.11).
+- Earnings Oct 13 — Q2 beat was $1.96 vs $1.71 est (+14.6%); Q3 outlook positive given NIM expansion.
+- JPMorgan lowered WFC PT to $91.50 (from $95.50) — slight negative but maintained Neutral. Avg analyst PT: $100.20 (+24% above current).
+- 52-week range: $72.78–$97.76. Currently in lower half. Room to run.
+- THESIS INTACT. HOLD into earnings Oct 13.
+
+### Trade Ideas (Live prices from Oct 2 EOD quotes — recalibrate at market open)
+**Note**: Alpaca quote API returned Oct 2 EOD prices. Market opens Oct 6 at 9:30 AM ET. Verify live prices before any execution.
+
+1. **XOM — WATCHLIST (no entry today)**
+   - Catalyst: Energy sector #1 YTD (+40.5%), oil Brent >$100 with Hormuz risk premium; sector "More Favored" (Schwab); macro tailwind = valid tier-3 catalyst per learning mode rules.
+   - Live price (Oct 2 EOD): ask $169.95 → entry ~$170; stop $153.00 (10% below); target $204.00 (+20%); R:R 2:1
+   - Position size: 15% × $117,697 = $17,655 / $170 = 103 shares (integer; stop on 103)
+   - Risk: Oil trend reversing (WTI −1% Monday, down 3.6% WoW). Any Hormuz de-escalation = sharp oil drop. No earnings catalyst this week. FOMC minutes Wednesday = macro uncertainty.
+   - **Signal strength**: Tier 3 only (sector momentum). Wait for FOMC minutes clarity before entry.
+
+2. **JPM — WATCHLIST (no entry today; watch for post-FOMC entry)**
+   - Catalyst: Q3 earnings Oct 13 (pre-earnings setup); Financials "More Favored"; NIM expansion (Fed 3.75-4%); Q2 beat was $1.96 vs $1.71 est.
+   - Live price (Oct 2 EOD): ~$332.01 (from broker position data); stop $298.80 (10%); target $398.40 (+20%); R:R 2:1
+   - Position size: 15% × $117,697 = $17,655 / $332 = 53 shares
+   - Risk: Entering 7 days before earnings is binary. FOMC minutes Wednesday could be hawkish/dovish. No politician signal.
+   - **Signal strength**: Tier 1 (earnings) but not yet reported. Best entry = post-FOMC minutes clarity (Thu Oct 8 or Fri Oct 9), then ride into earnings.
+
+3. **NVDA new integer lot — WATCHLIST**
+   - Catalyst: Tech sector #2 YTD (+38.8%); Q3 earnings Oct 22; AI infrastructure spend confirmed by Mag7 capex commentary.
+   - Live price (Oct 2 EOD): $235.42 (broker position); stop $211.88 (10%); target $282.50 (+20%); R:R 2:1
+   - Position size: 15% × $117,697 = $17,655 / $235 = 75 shares (integer; enables stop order unlike current frac)
+   - Risk: FOMC minutes Wednesday = macro uncertainty for high-multiple tech. Already have frac exposure.
+   - **Signal strength**: Strong sector momentum + upcoming earnings catalyst. Best entry post-FOMC clarity.
+
+### Risk Factors
+- FOMC minutes Wednesday Oct 7 (2pm ET) — Sep meeting raised rates to 3.75-4%; steeper hiking cycle priced in; hawkish minutes = tech sell-off, bank spread compression.
+- CPI Sep Oct 14 — another inflation print. Last core PCE Q1 was +4.3% (scorching hot). If Sep CPI hot → growth stocks down.
+- WFC/JPM earnings Oct 13 — binary event; stop on WFC protects downside.
+- Oil reversing — WTI down 3.6% WoW despite Brent >$100; Hormuz narrative fading?
+- Portfolio severely underdeployed (~10.7% stocks) — pressure to add positions, but catalyst quality must justify.
+
+### Decision
+**HOLD all existing positions.** WFC stop active, thesis intact, earnings Oct 13. NVDA frac holding +17.8%.
+
+**WATCHLIST** for entries post-FOMC minutes Wednesday:
+- JPM (primary): pre-earnings + NIM thesis; target entry Thu/Fri Oct 8-9 if FOMC minutes not hawkish
+- XOM (secondary): energy momentum; only if oil holds $88+ and FOMC minutes neutral/dovish
+- NVDA add (tertiary): sector momentum + upcoming earnings; same timing condition as JPM
+
+No new entries today — insufficient catalyst clarity ahead of FOMC minutes. Patience > activity.
+
