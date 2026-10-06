@@ -11664,17 +11664,17 @@ None. No cuts, no stop changes, no new entries.
 ---
 
 ### Oct 06 - EOD Snapshot (Day 120, Tuesday)
-**Portfolio:** $117,409.42 | **Cash:** $44,870.29 (38.2%) | **Day P&L:** +$627.49 (+0.54%) | **Phase P&L:** +$17,409.42 (+17.41%)
+**Portfolio:** $117,405.67 | **Cash:** $44,870.29 (38.2%) | **Day P&L:** -$30.81 (-0.03%) | **Phase P&L:** +$17,405.67 (+17.41%)
 
 | Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
 |--------|--------|-------|-------|---------|----------------|------|
-| WFC | 148.619 | $78.38 | $81.70 | +$1.25 (+1.55%) | +$493.41 (+4.24%) | $73.998 (10% trail, HWM $82.22, f49e711e) |
-| NVDA frac | 1.192 | $199.83 | $239.90 | +$5.95 (+2.54%) | +$47.74 (+20.05%) | none (fractional) |
-| JPM dust | 0.522 | $334.00 | $333.70 | +$1.32 (+0.40%) | -$0.16 (-0.09%) | none |
-| INTC dust | 0.163 | $106.51 | $116.52 | -$2.81 (-2.35%) | +$1.63 (+9.40%) | none |
-| BE dust | 0.371 | $273.52 | $287.86 | -$1.29 (-0.44%) | +$5.31 (+5.24%) | none |
+| WFC | 148.619 | $78.38 | $81.51 | +$0.07 (+0.09%) | +$465.18 (+3.99%) | $73.998 (10% trail, HWM $82.22, f49e711e) |
+| NVDA frac | 1.192 | $199.83 | $239.23 | +$0.33 (+0.14%) | +$46.95 (+19.71%) | none (fractional) |
+| JPM dust | 0.522 | $334.00 | $331.28 | -$1.10 (-0.33%) | -$1.42 (-0.82%) | none |
+| INTC dust | 0.163 | $106.51 | $112.47 | -$3.72 (-3.20%) | +$0.97 (+5.60%) | none |
+| BE dust | 0.371 | $273.52 | $296.00 | +$9.35 (+3.26%) | +$8.33 (+8.22%) | none |
 
-**Notes:** Day +$627.49 (+0.54%) on stock gains (WFC +1.55%, NVDA +2.54%) partially offset by crypto sleeve drag (BTC -0.81%, LINK -2.04%, ETH -0.46%, SOL -0.23%). NVDA frac crossed +20.05% — tighten-to-5% trail triggered, but fractional prevents integer stop; flag for integer lot addition post-FOMC minutes. WFC stop trailing correctly at $73.998 (HWM $82.22). Trades this week: 0/7. FOMC minutes Wed Oct 7 2pm ET — hold all; no new entries until reaction clear. WFC Q3 earnings Oct 13 — holding into print.
+**Notes:** Day essentially flat (-$30.81, -0.03%) — stock side mixed (WFC +0.09%, NVDA +0.14%, BE +3.26% offset by INTC -3.20%) and crypto sleeve mixed (BTC -0.04%, ETH -0.70%, SOL +0.05%, LINK +0.70%). NVDA frac at +19.71% close, just below +20% tighten trigger ($239.80); no stop action possible (fractional). WFC stop tracking correctly at $73.998 (HWM $82.22 unchanged — close $81.51 below HWM). Trades this week: 0/3 cap. FOMC minutes tomorrow Oct 7 2pm ET = binary catalyst; all pending entries (JPM full, NVDA 75-share add) waiting. WFC Q3 earnings Oct 13 — holding into print.
 
 ---
 
