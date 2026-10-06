@@ -13078,3 +13078,128 @@ Clean. WFC GTC stop f49e711e active: 148 sh, 10% trail, HWM $80.7399, stop $72.6
 
 No new entries today — insufficient catalyst clarity ahead of FOMC minutes. Patience > activity.
 
+
+---
+
+## 2026-10-06 - Pre-Market Research
+
+### Account Snapshot
+| Metric | Value |
+|--------|-------|
+| Equity | $117,389.59 |
+| Cash | $44,870.29 |
+| Buying Power | $215,123.75 |
+| Stock MV | ~$12,749 (~10.9% deployed) |
+| Crypto MV | ~$59,790 (DCA sleeve — untouchable) |
+| Phase P&L | ~+$17,390 (+17.4%) |
+| WFC stop | f49e711e, 10% trail, HWM $82.22, stop $73.998 |
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ (rounding) |
+| JPM dust | 0.522 | 0.521674 | ✓ |
+| INTC dust | 0.163 | 0.162614 | ✓ |
+| BE dust | 0.371 | 0.370576 | ✓ |
+| BTC/ETH/SOL/LINK | DCA sleeve | filtered | OFF-LIMITS |
+
+Clean. No discrepancies.
+
+### Market Context
+| Item | Value |
+|------|-------|
+| S&P 500 Dec futures | $7,834.25 (+0.10%) |
+| VIX (Oct 5 close) | 15.52 |
+| VIX Oct futures | 17.40 |
+| WTI | $89.73 (-0.48% today) |
+| Brent | ~$100 (-2.21% Oct 5) |
+| 10Y yield | 5.272% |
+| ISM Services Employment SEP | 50.1 (prev 47.8 ✓) |
+| ISM Services New Orders SEP | 59.8 |
+| ISM Services Prices SEP | **74.0** (prev 72.6 — HOT, inflationary) |
+
+**Macro read:** Services inflation reigniting (ISM Prices 74.0 is very hot). Supports hawkish FOMC minutes tomorrow. Banks benefit from higher-for-longer (NIM expansion) — WFC/JPM thesis intact. Tech/growth faces multiple compression risk if minutes are hawkish.
+
+**Key events this week:**
+- Oct 6 (today): RPM, STZ earnings (not in our universe)
+- Oct 7: **FOMC Minutes 2pm ET** (Sep 16 meeting, 12-0 hike to 3.75-4%; dot plot terminal 4.1-4.4%; Dec hike odds now 18% after weak Sep jobs report 29K)
+- Oct 8: PEP earnings, Initial Jobless Claims
+- Oct 9: DAL earnings
+- Oct 13: **JPM + WFC earnings (BMO)**
+
+### Politician Signals (Whitelist, last 45 days)
+| Politician | Ticker | Trade Date | Filed | Size | Status |
+|-----------|--------|-----------|-------|------|--------|
+| Ro Khanna | WFC | Aug 27, 2026 | Sep 5, 2026 | $50K-$100K | ✓ In window (40 days) — secondary confirmation |
+| Pelosi | BE | Jul 24-28, 2026 | Aug 21, 2026 | $1M-$5M | Out of 45-day window (73 days) |
+| Pelosi | INTC | Jul 24, 2026 | Aug 21, 2026 | $500K-$1M | Out of window |
+| Tuberville | AAPL/MSFT | Jan 10, 2025 | Aug 5, 2026 | $15K-$50K | 817-day lag — not actionable |
+| Gottheimer | MSFT | Mar 25, 2026 | Apr 8, 2026 | $500K-$1M | Out of window (194 days) |
+| McCaul | — | No qualifying buys in window | — | — | None |
+| Mast | — | No data found | — | — | None |
+
+**Broad scan:** No new whitelist entries meeting $25K+ threshold in last 45 days beyond Khanna WFC.
+
+**Summary:** Khanna WFC (Aug 27) is the only active signal. It supports holding WFC, not a new entry.
+
+### WFC News Today (Positive Catalysts)
+1. **Morgan Stanley upgraded WFC to Overweight** (Oct 6, today) — fresh tier-2 catalyst
+2. S&P credit rating upgrade to 'A-' (stable) — Oct 3
+3. WFC earnings confirmed Oct 13 BMO; EPS est $1.85 (+6.94% YoY), revenue est $22.17B
+4. Expanded ICE mortgage-servicing agreement
+5. WFC warns rates could stay higher through 2027 — consistent with NIM expansion thesis
+
+**WFC live price (from positions data):** $81.72 (last close Oct 5). Expect gap up pre-open on MS upgrade.
+
+### NVDA Watch
+- NVDA last close: $239.70 (live from positions)
+- Entry: $199.83 → current unrealized +**19.95%**
+- **+20% tighten trigger at $239.80 — essentially reached**
+- Fractional position → no integer stop order possible
+- ISM hot + FOMC hawkish risk = headwind for high-multiple tech
+- Action: Watch $239.80 at open. If sustained, note in midday scan. Fractional prevents formal tighten but track HWM.
+
+### Trade Ideas (LIVE prices from Alpaca positions, Oct 6 pre-open)
+
+**Idea 1 — JPM (Watchlist, post-FOMC entry Thu/Fri Oct 8-9)**
+- Live price: $331.78 (last close from positions data)
+- Catalyst: Q3 earnings Oct 13 BMO (tier-1) + Financials "More Favored" + FOMC hawkish → NIM expansion; ISM Services Prices 74.0 confirms inflationary backdrop
+- Entry target: ~$332 (post-FOMC Thursday or Friday)
+- Stop: $331.78 × 0.90 = **$298.60** (10%)
+- Target: $331.78 × 1.20 = **$398.14** (+20%)
+- R:R: 2.0:1
+- Size: 15% × $117,389 = $17,608 / $332 = **53 shares** (integer); stop covers 53
+- Condition: FOMC minutes neutral/dovish OR hawkish (banks benefit either way); entry Wednesday open if minutes already priced
+- Signal strength: Tier-1 catalyst (upcoming earnings) + sector momentum = PRIMARY CATALYST ELIGIBLE
+
+**Idea 2 — WFC add (Low priority watchlist)**
+- Already hold 148 shares (+4.2% unrealized); MS upgrade today is bullish for existing position
+- Live price: $81.72; expect higher open on upgrade
+- Don't add ahead of FOMC tomorrow — let existing stop/trail protect; if FOMC confirms hawkish → consider 65-66 share add to reach 15% allocation limit post-FOMC
+- Signal strength: Would be add-to-winner, not fresh entry
+
+**No action today.** FOMC minutes tomorrow = binary macro event. ISM Services hot print (Prices 74.0) reinforces hawkish read, which is net positive for Financials but negative for Tech/Growth. 
+
+### Risk Factors
+- FOMC minutes Oct 7 2pm ET: Sep meeting was 12-0 hike; ISM Services Prices 74.0 = hawkish bias. If minutes explicitly signal Dec hike = growth stock selloff, NIM tailwind for WFC/JPM
+- WFC earnings Oct 13: 5 trading days away. Stop (HWM $82.22, stop $73.998) protects downside
+- NVDA at +19.95%: Approaching +20% tighten trigger; fractional means no formal stop order possible. Hawkish macro is headwind
+- Oil softening: WTI $89.73 (-4.4% WoW). Energy sector thesis (XOM) weakening. Off watchlist for now
+- Portfolio severely underdeployed (~10.9% stocks) — have cash to deploy; JPM is the best post-FOMC setup
+
+### Decision
+**HOLD all positions. NO new entries today.**
+
+WFC: Thesis strengthened by MS Overweight upgrade (today) + credit upgrade + Khanna signal still active. Stop auto-trailing (HWM $82.22, stop $73.998). HOLD into Oct 13 earnings.
+
+NVDA frac: +19.95% (essentially at +20% tighten trigger). Fractional prevents formal stop. Track at midday.
+
+**Primary watchlist entry: JPM** — post-FOMC minutes Thu/Fri Oct 8-9. Condition: FOMC not aggressively hawkish beyond what's priced. Size: 53 shares ~$17,600.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $73.998 (10% trail, f49e711e, HWM $82.22) | $94.06 | 2.0:1 |
+
+- Trades this week: 0/7
