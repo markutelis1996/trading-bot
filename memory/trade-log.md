@@ -11724,3 +11724,58 @@ HOLD ALL. NO TRADES. FOMC minutes Oct 7 2pm ET = binary macro risk. Pre-market r
 - Trades this week: 0/7
 - No trades placed → no ClickUp notification, no git commit
 
+
+## 2026-10-06 - Midday Scan
+
+**Portfolio:** ~$117,393 equity | **Cash:** $44,870.29 | **Stock deployed:** ~$12,654 (~10.8%) | **Phase P&L:** ~+$17,393 (+17.39%)
+
+### Step 0 — Reconciliation
+Broker state vs last log entry (market-open session):
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| NVDA frac | 1.192 | 1.192 | ✓ |
+| JPM dust | 0.522 | 0.522 | ✓ |
+| INTC dust | 0.163 | 0.163 | ✓ |
+| BE dust | 0.371 | 0.371 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | OFF-LIMITS |
+
+Clean. No discrepancies. WFC GTC stop f49e711e active: 148 sh, 10% trail, HWM $82.22, stop $73.998.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | Status |
+|--------|--------|-------|---------|------|----------|------|--------|
+| WFC | 148.619 | $78.38 | $81.19 | +3.59% | -0.31% | $73.998 (10% trail, f49e711e, HWM $82.22) | HOLD |
+| NVDA frac | 1.192 | $199.83 | $240.57 | +20.39% | +0.70% | none (fractional) | HOLD ⚠️ past +20% trigger |
+| JPM dust | 0.522 | $334.00 | $331.10 | -0.87% | -0.39% | none | Remnant |
+| INTC dust | 0.163 | $106.51 | $114.41 | +7.42% | -1.53% | none | Remnant |
+| BE dust | 0.371 | $273.52 | $297.16 | +8.64% | +3.67% | none | Remnant |
+
+### Step 3 — Cuts
+- None. All positions above -7% rule (worst: JPM -0.87%).
+
+### Step 4 — Stop Tightening
+- WFC +3.59%: +15% trigger $90.14 — NOT reached. No action.
+- NVDA frac +20.39%: past +20% trigger ($239.80); +25% partial profit trigger ($249.79) — NOT reached. Fractional → no integer stop possible. Note only.
+- All dust positions: no stops.
+
+### Step 5 — Thesis Check
+- **WFC**: Morgan Stanley upgraded to Overweight today (Oct 6). S&P credit upgrade (Oct 3). FOMC minutes tomorrow Oct 7 2pm (hawkish = NIM expansion = WFC beneficiary). Earnings Oct 13 BMO (est $1.84 EPS). INTACT/STRENGTHENED.
+- **NVDA frac**: +20.39% unrealized. AI infra demand intact. Approaching +25% partial profit trigger ($249.79). Fractional prevents formal stop. INTACT.
+- **JPM/INTC/BE dust**: Negligible positions; no material thesis review needed.
+
+### Step 6 — Research
+No sharp unexplained intraday moves. WFC -0.31% aligns with modest broad market drift; FOMC minutes tomorrow creating mild caution. NVDA +0.70% continuing AI momentum. No Perplexity research needed.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $73.998 (10% trail, f49e711e, HWM $82.22) | $94.06 | 2.0:1 |
+
+- Trades this week: 0/7
+- Watch: FOMC minutes Oct 7 2pm ET (hawkish = WFC/JPM beneficiary; tech headwind); NVDA approaching +25% trigger ($249.79)
+- No notification sent (no action taken)
+
