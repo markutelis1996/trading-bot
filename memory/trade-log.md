@@ -11677,3 +11677,50 @@ None. No cuts, no stop changes, no new entries.
 **Notes:** Day +$627.49 (+0.54%) on stock gains (WFC +1.55%, NVDA +2.54%) partially offset by crypto sleeve drag (BTC -0.81%, LINK -2.04%, ETH -0.46%, SOL -0.23%). NVDA frac crossed +20.05% — tighten-to-5% trail triggered, but fractional prevents integer stop; flag for integer lot addition post-FOMC minutes. WFC stop trailing correctly at $73.998 (HWM $82.22). Trades this week: 0/7. FOMC minutes Wed Oct 7 2pm ET — hold all; no new entries until reaction clear. WFC Q3 earnings Oct 13 — holding into print.
 
 ---
+
+## 2026-10-06 - Market-Open Session
+
+**Portfolio:** $117,681.16 equity | **Cash:** $44,870.29 | **Stock deployed:** ~$12,840 (~10.9%) | **Phase P&L:** ~+$17,681
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ (rounding) |
+| JPM dust | 0.522 | 0.521674 | ✓ (rounding) |
+| INTC dust | 0.163 | 0.162614 | ✓ (rounding) |
+| BE dust | 0.371 | 0.370576 | ✓ (rounding) |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | OFF-LIMITS |
+
+Clean. No discrepancies. WFC GTC stop f49e711e active: 148 sh, 10% trail, HWM $82.22, stop $73.998.
+
+### Live Prices (STEP 1b — ~9:30 AM EDT)
+| Ticker | Pre-mkt Est | Live Ask | Delta | Status |
+|--------|-------------|----------|-------|--------|
+| WFC | $81.72 | $81.80 | +0.1% | HOLD |
+| NVDA frac | $239.70 | $245.00 | +2.2% | HOLD — +22.6% unrealized; PAST +20% tighten trigger |
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Stop | Status |
+|--------|--------|-------|---------|------|------|--------|
+| WFC | 148.619 | $78.38 | $81.80 | +4.36% | $73.998 (10% trail, f49e711e, HWM $82.22) | HOLD |
+| NVDA frac | 1.192 | $199.83 | $245.00 | +22.6% | none (fractional) | HOLD ⚠️ >+20% trigger — fractional, no stop possible |
+| JPM dust | 0.522 | $334.00 | $332.63 | -0.41% | none | Remnant |
+| INTC dust | 0.163 | $106.51 | $117.36 | +10.2% | none | Remnant |
+| BE dust | 0.371 | $273.52 | $296.68 | +8.5% | none | Remnant |
+
+### Stop Tightening
+- WFC +4.36%: +15% trigger = $90.14 — NOT reached. No action.
+- NVDA frac +22.6%: +20% trigger ($239.80) CROSSED; +25% trigger ($249.79) — NOT reached. Fractional → no integer stop possible. Note only.
+
+### Decision
+HOLD ALL. NO TRADES. FOMC minutes Oct 7 2pm ET = binary macro risk. Pre-market research confirms: JPM is primary watchlist entry, conditions post-FOMC minutes (Thu/Fri Oct 8-9). ISM Services Prices 74.0 hawkish backdrop; WFC/JPM benefit from higher-for-longer NIM. NVDA past +20% tighten trigger but fractional prevents action. Partial profit trigger (+25% = $249.79) not yet reached.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $73.998 (10% trail, f49e711e, HWM $82.22) | $94.06 | 2.0:1 |
+
+- Trades this week: 0/7
+- No trades placed → no ClickUp notification, no git commit
+
