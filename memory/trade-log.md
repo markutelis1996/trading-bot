@@ -11662,3 +11662,18 @@ None. No cuts, no stop changes, no new entries.
 - No notification sent (no action taken)
 
 ---
+
+### Oct 06 - EOD Snapshot (Day 120, Tuesday)
+**Portfolio:** $117,409.42 | **Cash:** $44,870.29 (38.2%) | **Day P&L:** +$627.49 (+0.54%) | **Phase P&L:** +$17,409.42 (+17.41%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 | $78.38 | $81.70 | +$1.25 (+1.55%) | +$493.41 (+4.24%) | $73.998 (10% trail, HWM $82.22, f49e711e) |
+| NVDA frac | 1.192 | $199.83 | $239.90 | +$5.95 (+2.54%) | +$47.74 (+20.05%) | none (fractional) |
+| JPM dust | 0.522 | $334.00 | $333.70 | +$1.32 (+0.40%) | -$0.16 (-0.09%) | none |
+| INTC dust | 0.163 | $106.51 | $116.52 | -$2.81 (-2.35%) | +$1.63 (+9.40%) | none |
+| BE dust | 0.371 | $273.52 | $287.86 | -$1.29 (-0.44%) | +$5.31 (+5.24%) | none |
+
+**Notes:** Day +$627.49 (+0.54%) on stock gains (WFC +1.55%, NVDA +2.54%) partially offset by crypto sleeve drag (BTC -0.81%, LINK -2.04%, ETH -0.46%, SOL -0.23%). NVDA frac crossed +20.05% — tighten-to-5% trail triggered, but fractional prevents integer stop; flag for integer lot addition post-FOMC minutes. WFC stop trailing correctly at $73.998 (HWM $82.22). Trades this week: 0/7. FOMC minutes Wed Oct 7 2pm ET — hold all; no new entries until reaction clear. WFC Q3 earnings Oct 13 — holding into print.
+
+---
