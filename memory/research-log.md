@@ -13203,3 +13203,135 @@ NVDA frac: +19.95% (essentially at +20% tighten trigger). Fractional prevents fo
 | 1 | WFC | 148.619 (148 stop) | $78.38 | $73.998 (10% trail, f49e711e, HWM $82.22) | $94.06 | 2.0:1 |
 
 - Trades this week: 0/7
+
+---
+
+## 2026-10-07 - Pre-market Research
+
+### Account
+- Equity: $116,199.43
+- Cash: $44,870.29
+- Buying power: $215,137.96
+- Daytrade count: 0/3
+- Stock deployed: ~$12,735 (~10.9%) — severely under 75-85% target
+- Total long MV: $71,329 (stocks + crypto DCA sleeve)
+- Phase P&L: +$16,199.43 (+16.2%)
+- Trades this week: 0/7
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ (rounding) |
+| JPM dust | 0.522 | 0.521674 | ✓ |
+| INTC dust | 0.163 | 0.162614 | ✓ |
+| BE dust | 0.371 | 0.370576 | ✓ |
+| BTC/ETH/SOL/LINK | DCA sleeve | filtered | OFF-LIMITS |
+
+Clean. No discrepancies. WFC GTC stop f49e711e active: 148 sh, 10% trail, HWM $82.22, stop $73.998.
+
+### Market Context
+| Item | Value |
+|------|-------|
+| WTI (Oct 6 close) | $87.37 (-2.28%) — falling on G7 emergency release of 100M bbl |
+| Brent | ~$97-101 (range: TradingEcon $97.78 Oct 5, ConvexTrade $100.89 Oct 6) |
+| S&P 500 Dec futures | $7,849.75 (Oct 6 premarket); Oct 6 cash close $7,773.95 (+0.66%) |
+| NQ100 futures | ~$31,278 (+0.65% Oct 6) |
+| VIX | 15.04 (Oct 6 close, -3.2%) — declining; risk-on |
+| 10Y yield | 5.28% (-3bp Oct 6) |
+| DXY | 101.86 (-0.31%) |
+| Gold | $4,199 (+1.03%) |
+
+**Oil context:** G7 released 100M bbl emergency stocks; WTI fell to ~$87. OPEC+ held quotas Nov. EIA Weekly Petroleum report today.
+
+**FOMC Minutes — TODAY 2pm ET:**
+- Covers Sep 15-16 meeting: unanimous 12-0 hike, 25bp to 3.75-4.00%
+- Dot plot median: 4.1% end-2026 = 1 more hike penciled in by 12/18 officials
+- 4 officials project 2 more hikes; 2 project done
+- Oct 28 meeting: futures price ~80% hold
+- PCE inflation revised up to 3.7% for 2026; GDP 2.3%
+- **Hawkish read likely confirmed** — NIM expansion tailwind for WFC/JPM; headwind for high-multiple tech
+
+**Key events today:**
+- FOMC minutes 2pm ET (September meeting)
+- Microsoft Windows/Surface AI event 1pm ET (tickers: MSFT, NVDA — Jensen Huang attending)
+- Costco monthly sales 4:15pm AMC
+- 0 earnings BMO today
+
+**Earnings this week:**
+- Oct 8 BMO: PepsiCo (PEP) — EPS est $2.30
+- Oct 9 BMO: Delta Air Lines (DAL) — EPS est $1.92-$1.96
+- Oct 13 BMO: **JPM, WFC, GS, C, UNH, JNJ, BLK** — mega-cap earnings day
+
+### Politician Signals (last 45 days, whitelist only)
+| Politician | Ticker | Trade Date | Filed | Size | Signal |
+|-----------|--------|-----------|-------|------|--------|
+| Ro Khanna | WFC | Aug 27, 2026 | Sep 5, 2026 | $50K-$100K | ✓ In window (41 days) — secondary confirmation |
+| Pelosi | BE | Jul 24-28, 2026 | Aug 21, 2026 | $1.5M-$6M | **OUT** of 45-day window (74 days) |
+| Pelosi | INTC | Jul 24, 2026 | Aug 21, 2026 | $500K-$1M | **OUT** of 45-day window (74 days) |
+
+**No new qualifying whitelist buys in last 45 days.** Khanna WFC remains only active signal → secondary confirmation supporting existing WFC hold.
+
+### Live Price Verification (STEP 3d — AH Oct 6 quotes)
+| Ticker | AH Bid | Last Close (broker) | Stop | -7% Threshold | Status |
+|--------|--------|---------------------|------|----------------|--------|
+| WFC | $77.61 (⚠️ AH thin) | $81.737 | $73.998 (10% trail) | $72.89 | ⚠️ AH bid flagged — verify at open |
+| JPM | $315.82 (AH thin) | $331.99 | N/A | N/A | Watchlist — verify at open |
+
+**Note:** AH quotes are illiquid/one-sided. Do NOT use $77.61 for stop calculations. Last broker close ($81.737) and live open print are the real reference. Flagging WFC AH bid for open-price verification only.
+
+### Position Thesis Check
+| Ticker | Shares | Entry | AH/Last | Unreal P&L | Stop | Status |
+|--------|--------|-------|---------|------------|------|--------|
+| WFC | 148.619 | $78.38 | $81.737 (close) | +$4.95% | $73.998 (10% trail, HWM $82.22) | HOLD — earnings Oct 13 |
+| NVDA frac | 1.192 | $199.83 | $240.53 | +20.4% | none (fractional) | HOLD — ⚠️ past +20% tighten trigger; +25% partial trigger $249.79 not reached |
+| JPM dust | 0.522 | $334.00 | $331.99 | -0.6% | none | Remnant — ignore |
+| INTC dust | 0.163 | $106.51 | $112.55 | +5.7% | none | Remnant — ignore |
+| BE dust | 0.371 | $273.52 | $293.60 | +7.3% | none | Remnant — ignore |
+
+**WFC thesis:** Q3 earnings Oct 13 BMO (EPS est $1.85; Q2 beat by $0.25). Morgan Stanley Overweight upgrade Oct 6. S&P credit upgrade 'A-' Oct 3. FOMC hawkish = NIM expansion tailwind. Khanna $50-100K buy Aug 27. INTACT/STRENGTHENED.
+
+**NVDA thesis:** Microsoft AI event TODAY 1pm ET (Jensen Huang attending) = fresh catalyst. AI infra demand intact. Approaching +25% partial profit trigger ($249.79). Fractional prevents formal stop. INTACT.
+
+### Trade Ideas
+
+**Idea 1 — JPM BUY (post-FOMC entry, Thu/Fri Oct 8-9)**
+- Live price to use: verify at open (AH bid $315.82 vs close $331.99 — use open print)
+- Catalyst: Oct 13 BMO earnings (6 days) + Financials "More Favored" + FOMC hawkish = NIM expansion + Q2 massive beat ($7.70 GAAP vs $5.55 est); history: beat last 5 quarters
+- EPS est Q3: $4.89-$5.90 (conflicting estimates); JPM guided mid-to-high teens IB fee growth
+- Options imply ±5.2% move; historical avg ±3.4%
+- Entry: post-FOMC minutes tone confirmed neutral/hawkish → enter Thu Oct 8 at open
+- Stop: 10% below fill → ~$299-$299 (based on ~$332)
+- Target: +20% → ~$398; R:R 2:1
+- Size: 15% × $116,199 = $17,430 / ~$332 = **52 shares** integer
+- Signal strength: Tier-1 catalyst (earnings) + sector momentum = PRIMARY CATALYST ELIGIBLE
+- Condition: FOMC minutes today neutral or hawkish-as-expected → enter Thu. If panic hawkish + market selloff → wait for dust to settle, enter Fri/Mon
+
+**Idea 2 — NVDA partial profit (watch +25% trigger)**
+- Current: $240.53 (+20.4%). +25% trigger: $249.79
+- Microsoft AI event 1pm ET (Jensen Huang) = could push NVDA toward trigger
+- Fractional (1.192 shares) — sell 1/3 would be ~0.4 shares; Alpaca handles fractional sells
+- Action: If NVDA hits $249.79 at any point today → initiate 1/3 partial sell per strategy rule 13
+
+### Risk Factors
+- FOMC minutes 2pm ET: if dot plot discussion shows more aggressive-than-priced path → tech selloff, but banks benefit
+- WFC AH bid $77.61 — verify at open; if real, find cause
+- Entering JPM within 6 days of earnings = holding through Oct 13 binary. Options imply ±5.2%. Position stop at -10% provides downside protection.
+- Deployment at 10.9% stocks — JPM entry brings to ~25.7% (still below 75-85% target but appropriate given earnings binary risk)
+- Sector concentration check: WFC 15% + JPM 15% = 30% Financials, well below 60% cap ✓
+- Oil falling (WTI -2.28% Oct 6): G7 reserve release = energy sector headwind. No energy positions. Neutral impact.
+
+### Decision
+**WFC:** HOLD into Oct 13 earnings. Stop active. Verify AH price discrepancy at open. No action.
+**NVDA frac:** HOLD. Watch for +25% trigger ($249.79) — Microsoft AI event today could push it. If hit, sell 1/3 (~0.4 shares) at market. No formal stop possible (fractional).
+**JPM:** PRIMARY WATCHLIST — entry Thu Oct 8 morning (post-FOMC tone confirmed today 2pm). Condition: FOMC minutes not aggressively hawkish beyond consensus (Dec hike fear). Size 52 shares ~$17,250. Use live open quote Oct 8.
+**Other dust positions:** no action.
+**New entries today:** NONE — wait for FOMC minutes at 2pm before committing to JPM.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $73.998 (10% trail, f49e711e, HWM $82.22) | $94.06 | 2.0:1 |
+
+- Trades this week: 0/7
+- Watch today: FOMC minutes 2pm ET; NVDA +25% trigger $249.79; WFC open price vs AH bid
