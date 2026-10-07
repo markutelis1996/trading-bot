@@ -11890,3 +11890,36 @@ None. No cuts, no stop changes, no new entries.
 - Trades this week: 0/7
 - Watch: FOMC minutes 2pm ET (hawkish = WFC NIM beneficiary; tech headwind); NVDA +25% trigger $249.79; WFC earnings now confirmed Oct 14 BMO
 - No notification sent (no action taken)
+
+---
+
+## 2026-10-07 - Reconciliation
+
+Log Oct 06 EOD equity $117,405.67 vs Alpaca official last_equity $116,253.53 (gap $1,152.14 — crypto prices at log time were higher than actual close; crypto DCA also reduced cash $44,870→$42,227). Using Alpaca last_equity as Day P&L baseline.
+
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| NVDA frac | 1.192 | 1.192 | ✓ |
+| JPM dust | 0.522 | 0.522 | ✓ |
+| INTC dust | 0.163 | 0.163 | ✓ |
+| BE dust | 0.371 | 0.371 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | OFF-LIMITS |
+
+All positions match. No stop-outs today.
+
+---
+
+### Oct 07 - EOD Snapshot (Day 121, Wednesday)
+**Portfolio:** $115,146.30 | **Cash:** $42,227.08 (36.7%) | **Day P&L:** -$1,107.23 (-0.95%) | **Phase P&L:** +$15,146.30 (+15.15%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 | $78.38 | $80.23 | -$1.28 (-1.57%) | +$274.94 (+2.36%) | $73.998 (10% trail, HWM $82.22, f49e711e) |
+| NVDA frac | 1.192 | $199.83 | $237.45 | -$1.79 (-0.75%) | +$44.83 (+18.82%) | none (fractional) |
+| JPM dust | 0.522 | $334.00 | $329.88 | -$1.40 (-0.42%) | -$2.15 (-1.23%) | none |
+| INTC dust | 0.163 | $106.51 | $113.00 | +$0.50 (+0.44%) | +$1.06 (+6.09%) | none |
+| BE dust | 0.371 | $273.52 | $291.28 | -$4.50 (-1.52%) | +$6.58 (+6.49%) | none |
+
+**Notes:** Day P&L -$1,107.23 (-0.95%) driven primarily by crypto sleeve pullback (BTC -1.16%, ETH -3.36%, SOL -2.54%, LINK -1.93%). Stock side also weaker: WFC -1.57% on broad rate-fear selling as 10-yr Treasury hit 5.307% (highest since 2002); WFC stop $73.998 untouched. FOMC minutes released 2pm ET — Sep hike to 3.75%-4.00% confirmed, Oct hike ~65-70% priced; hawkish tone strengthens WFC NIM expansion thesis despite short-term price drag. NVDA frac at +18.82% — below +25% partial profit trigger ($249.79); no integer stop possible on fractional. Portfolio only 10.9% stock-deployed vs 75-85% target; JPM entry target remains Thu Oct 9 conditioned on market absorbing FOMC tone. WFC earnings Oct 14 BMO — hold into print. Trades today: 0. Week trades: 0/3.
+
