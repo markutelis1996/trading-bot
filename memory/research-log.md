@@ -13335,3 +13335,24 @@ Clean. No discrepancies. WFC GTC stop f49e711e active: 148 sh, 10% trail, HWM $8
 
 - Trades this week: 0/7
 - Watch today: FOMC minutes 2pm ET; NVDA +25% trigger $249.79; WFC open price vs AH bid
+
+## 2026-10-07 - Midday Addendum
+
+### Market Context (Midday)
+- 10-year Treasury: 5.307% (highest since 2002), up >3bps — driving broad pullback from S&P/Nasdaq records
+- FOMC minutes due 2pm ET (Sep meeting: first rate hike since 2023, to 3.75%-4.00%, unanimous vote)
+- Markets pricing ~65-70% chance of another Oct hike; ~90% by December
+- Pre-minutes market: mild risk-off; banks underperforming modestly (WFC -1.77%, JPM -0.93%)
+
+### WFC Update
+- Day range: $79.07–$81.38; current $80.07. Stop $73.998 safe.
+- HUD probe (Black homeownership programs) disclosed today — minor regulatory, not material to thesis
+- Q3 earnings confirmed Oct 14 BMO (not Oct 13 as prior estimate — 1-day correction)
+- Rising rates = NIM expansion = WFC thesis STRENGTHENED, not broken
+
+### NVDA Update
+- Current $236.92. +25% trigger $249.79 not reached (Microsoft AI event 1pm ET passed without push)
+- Rate-fear tech headwind (-0.97% intraday) — thesis intact
+
+### Conclusion
+No action. Hold all. FOMC minutes at 2pm ET are the next catalyst for WFC direction.

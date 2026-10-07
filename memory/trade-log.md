@@ -11836,3 +11836,57 @@ HOLD ALL. NO TRADES. Wait for FOMC minutes at 2pm ET. JPM entry Thu Oct 8 if ton
 
 - Trades this week: 0/7
 - No trades placed → no ClickUp notification, no commit
+
+---
+
+## 2026-10-07 - Midday Scan
+
+**Portfolio:** $115,179.03 equity | **Cash:** $42,227.08 | **Stock deployed:** ~$12,951 (~11.2%) | **Phase P&L:** +$15,179.03 (+15.18%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ (rounding) |
+| JPM dust | 0.522 | 0.521674 | ✓ |
+| INTC dust | 0.163 | 0.162614 | ✓ |
+| BE dust | 0.371 | 0.370576 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | OFF-LIMITS |
+
+Clean. WFC GTC stop f49e711e active: 148 sh, 10% trail, HWM $82.22, stop $73.998.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | Status |
+|--------|--------|-------|---------|------|----------|------|--------|
+| WFC | 148.619 | $78.38 | $80.07 | +2.16% | -1.77% | $73.998 (10% trail, f49e711e, HWM $82.22) | HOLD |
+| NVDA frac | 1.192 | $199.83 | $236.92 | +18.56% | -0.97% | none (fractional) | HOLD — +25% trigger $249.79 not reached |
+| JPM dust | 0.522 | $334.00 | $328.21 | -1.73% | -0.93% | none | Remnant |
+| INTC dust | 0.163 | $106.51 | $113.00 | +6.09% | +0.44% | none | Remnant |
+| BE dust | 0.371 | $273.52 | $288.36 | +5.43% | -2.51% | none | Remnant |
+
+### Step 3 — Cuts
+None. All positions above -7% threshold (worst: JPM -1.73%).
+
+### Step 4 — Stop Tightening
+- WFC +2.16%: +15% trigger $90.14 — NOT reached. No action.
+- NVDA frac +18.56%: past +15% trigger ($229.80), below +20% trigger ($239.80). Fractional → no integer stop possible. Note only.
+
+### Step 5 — Thesis Check
+- **WFC**: -1.77% intraday. Cause: 10-year Treasury at 5.307% (highest since 2002) → broad market pullback, pre-FOMC minutes jitters. NIM expansion thesis STRENGTHENED by rising rates. HUD probe (Black homeownership programs) = minor regulatory, not material. Q3 earnings Oct 14 BMO (corrected from Oct 13). Stop $73.998 safe (day low $79.07 > stop). INTACT/STRENGTHENED.
+- **NVDA frac**: -0.97% intraday. Cause: rate-fear tech headwind (Treasury yield surge). AI demand thesis unchanged. Not at +25% trigger ($249.79). INTACT.
+- **Dust positions**: No thesis review needed.
+
+### Step 6 — Intraday Research
+Market context: broad pullback after S&P 500/Nasdaq records. 10yr Treasury at 5.307% (highest since 2002), up >3bps today. FOMC minutes due 2pm ET — Sep meeting where Fed hiked to 3.75%-4.00% (first hike since 2023). Markets pricing ~65-70% chance of Oct hike. Rising rate environment = WFC NIM expansion thesis intact. No sharp unexplained moves. No adverse thesis news on any position.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $73.998 (10% trail, f49e711e, HWM $82.22) | $94.06 | 2.0:1 |
+
+- Trades this week: 0/7
+- Watch: FOMC minutes 2pm ET (hawkish = WFC NIM beneficiary; tech headwind); NVDA +25% trigger $249.79; WFC earnings now confirmed Oct 14 BMO
+- No notification sent (no action taken)
