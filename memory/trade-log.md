@@ -11779,3 +11779,60 @@ None. No cuts, no stop changes, no new entries.
 - Watch: FOMC minutes Oct 7 2pm ET (hawkish = WFC/JPM beneficiary; tech headwind); NVDA approaching +25% trigger ($249.79)
 - No notification sent (no action taken)
 
+
+---
+
+## 2026-10-07 - Market-Open Session
+
+**Portfolio:** $115,136.12 equity | **Cash:** $44,870.29 | **Stock deployed:** ~$12,580 (~10.9%) | **Phase P&L:** +$15,136.12 (+15.14%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ (rounding) |
+| JPM dust | 0.522 | 0.521674 | ✓ |
+| INTC dust | 0.163 | 0.162614 | ✓ |
+| BE dust | 0.371 | 0.370576 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | OFF-LIMITS |
+
+Clean. WFC GTC stop f49e711e active: 148 sh, 10% trail, HWM $82.22, stop $73.998.
+
+### Live Prices (STEP 1b — 9:31 AM EDT)
+| Ticker | Pre-mkt Est | Live | Delta | Status |
+|--------|-------------|------|-------|--------|
+| WFC | $81.74 (close) | $80.55 bid / $84.69 ask | -1.4% | Wide open spread; actual ~$80.75; no alarm |
+| NVDA frac | $240.53 (close) | $237.60 bid / $237.70 ask | -1.2% | Below +25% trigger $249.79 |
+| JPM | watchlist | $327.63 (last) | — | No entry today |
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Stop | Status |
+|--------|--------|-------|---------|------|------|--------|
+| WFC | 148.619 | $78.38 | $80.75 | +3.02% | $73.998 (10% trail, f49e711e, HWM $82.22) | HOLD |
+| NVDA frac | 1.192 | $199.83 | $237.70 | +18.95% | none (fractional) | HOLD — +25% trigger $249.79 not reached |
+| JPM dust | 0.522 | $334.00 | $327.63 | -1.91% | none | Remnant |
+| INTC dust | 0.163 | $106.51 | $112.39 | +5.52% | none | Remnant |
+| BE dust | 0.371 | $273.52 | $289.72 | +5.92% | none | Remnant |
+
+### Step 3 — Cuts
+None. All above -7% threshold.
+
+### Step 4 — Stop Tightening
+- WFC +3.02%: +15% trigger $90.14 — NOT reached. No action.
+- NVDA frac +18.95%: past +20% trigger ($239.80); +25% partial trigger ($249.79) — NOT reached. Fractional → no integer stop. Note only.
+
+### Step 5 — Thesis Check
+- **WFC**: FOMC minutes today 2pm ET (hawkish = NIM expansion = WFC beneficiary). Q3 earnings Oct 13 BMO. Khanna $50-100K buy Aug 27 still in window. MS Overweight upgrade Oct 6. INTACT/STRENGTHENED.
+- **NVDA frac**: Microsoft AI event today 1pm ET (Jensen Huang). AI infra demand intact. Fractional — no stop possible. INTACT.
+- **JPM**: Watchlist. Entry Thu Oct 8 conditioned on FOMC minutes today. Size 52 sh ~$17,250.
+
+### Decision
+HOLD ALL. NO TRADES. Wait for FOMC minutes at 2pm ET. JPM entry Thu Oct 8 if tone neutral/hawkish-as-expected. NVDA approaching +25% trigger ($249.79) — watch during session (Microsoft AI event 1pm).
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $73.998 (10% trail, f49e711e, HWM $82.22) | $94.06 | 2.0:1 |
+
+- Trades this week: 0/7
+- No trades placed → no ClickUp notification, no commit
