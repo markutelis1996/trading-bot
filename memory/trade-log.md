@@ -11972,3 +11972,60 @@ Clean. No overnight stop-outs. WFC GTC stop f49e711e active: 148sh, 10% trail, H
 - Trades this week: 1/7
 - Upcoming: WFC + JPM earnings Oct 13 BMO; CPI Oct 14 8:30 AM ET
 - Watch: NVDA +25% partial profit trigger $249.79 (missed today at $234 open)
+
+---
+
+## 2026-10-08 - Midday Scan
+
+**Portfolio:** stocks ~$29,948 MV | **Cash:** ~$25,130 | **Positions:** 5 (2 real, 3 dust) | **Deployed (stocks):** ~26.7%
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.62 (52 stop) | 52.619794 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| INTC dust | 0.163 | 0.162614 | ✓ |
+| BE dust | 0.371 | 0.370576 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | OFF-LIMITS |
+
+Clean. No stop-outs since market open.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | Status |
+|--------|--------|-------|---------|------|----------|------|--------|
+| WFC | 148.619 | $78.38 | $81.72 | +4.26% | +1.82% | $73.998 (10% trail, f49e711e, HWM $82.22) | HOLD |
+| JPM | 52.62 | $328.23 | $330.89 | +0.81% | +0.40% | $297.954 (10% trail, ca91a9c8, HWM $331.06) | HOLD |
+| NVDA frac | 1.192 | $199.83 | $230.97 | +15.58% | -2.74% | none (fractional) | HOLD — +20% trigger $239.80 not reached |
+| INTC dust | 0.163 | $106.51 | $106.24 | -0.25% | -6.08% | none | Dust — no action |
+| BE dust | 0.371 | $273.52 | $266.28 | -2.65% | -8.59% | none | Dust — no action |
+
+### Step 3 — Cuts
+None. All real positions above -7% threshold.
+
+### Step 4 — Stop Tightening
+- WFC +4.26%: +15% trigger $90.14 — NOT reached. No action.
+- JPM +0.81%: +15% trigger $377.46 — NOT reached. No action.
+- NVDA frac +15.58%: past +15% trigger ($229.80), below +20% trigger ($239.80). Fractional — no integer stop possible. No action.
+
+### Step 5 — Thesis Check
+- **WFC**: +1.82% intraday. Q3 earnings Oct 13 BMO. NIM expansion via 5.307% 10Y yield. INTACT/STRENGTHENED.
+- **JPM**: +0.40% intraday. Q3 earnings Oct 13 BMO. FOMC hawkish = NIM expansion. INTACT/STRENGTHENED.
+- **NVDA frac**: -2.74% intraday. AI demand thesis unchanged. +25% partial-profit trigger $249.79 not reached. INTACT.
+- **BE dust / INTC dust**: -8.59% / -6.08% intraday — dust positions ($99/$17 MV); immaterial.
+
+### Step 6 — Intraday Research
+No sharp unexplained moves in real positions. BE -8.59% and INTC -6.08% intraday — dust only, no Perplexity research warranted.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $73.998 (10% trail, f49e711e, HWM $82.22) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.62 (52 stop) | $328.23 | $297.954 (10% trail, ca91a9c8, HWM $331.06) | $393.88 | 2.0:1 |
+
+- Trades this week: 1/7
+- Watch: WFC + JPM earnings Oct 13 BMO; CPI Oct 14 8:30 AM ET; NVDA +25% trigger $249.79
+- No notification sent (no action taken)
