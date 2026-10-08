@@ -12026,6 +12026,21 @@ None. No cuts, no stop changes, no new entries.
 | 1 | WFC | 148.619 (148 stop) | $78.38 | $73.998 (10% trail, f49e711e, HWM $82.22) | $94.06 | 2.0:1 |
 | 2 | JPM | 52.62 (52 stop) | $328.23 | $297.954 (10% trail, ca91a9c8, HWM $331.06) | $393.88 | 2.0:1 |
 
-- Trades this week: 1/7
+- Trades this week: 1/3
 - Watch: WFC + JPM earnings Oct 13 BMO; CPI Oct 14 8:30 AM ET; NVDA +25% trigger $249.79
 - No notification sent (no action taken)
+
+---
+
+### Oct 08 - EOD Snapshot (Day 122, Thursday)
+**Portfolio:** $113,301.12 | **Cash:** $25,130.04 (22.2%) | **Day P&L:** -$1,685.34 (-1.47%) | **Phase P&L:** +$13,301.12 (+13.30%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 | $78.38 | $82.05 | +$1.79 (+2.23%) | +$545.43 (+4.68%) | $73.998 (10% trail, HWM $82.22, f49e711e) |
+| JPM | 52.620 | $328.23 | $331.42 | +$1.84 (+0.56%) | +$167.97 (+0.97%) | $299.079 (10% trail, HWM $332.31, ca91a9c8) |
+| NVDA frac | 1.192 | $199.83 | $230.64 | -$6.83 (-2.88%) | +$36.71 (+15.42%) | none (fractional) |
+| INTC dust | 0.163 | $106.51 | $107.24 | -$5.88 (-5.20%) | +$0.12 (+0.69%) | none |
+| BE dust | 0.371 | $273.52 | $272.82 | -$18.47 (-6.34%) | -$0.26 (-0.26%) | none |
+
+**Notes:** Day P&L -$1,685.34 (-1.47%) driven by crypto sleeve: BTC -1.67%, ETH -4.50%, SOL -5.73%, LINK -5.29%. Stock side positive: WFC +2.23% (NIM thesis strengthening into Oct 13 earnings), JPM +0.56% (earnings Oct 13 BMO). JPM trailing stop HWM ratcheted to $332.31, stop $299.079. NVDA frac -2.88% on profit-taking; +20% trigger $239.80 and +25% trigger $249.79 not reached. Dust positions (INTC -5.20%, BE -6.34%) immaterial by MV. 1 trade today (JPM buy at open). Week trades: 1/3. No action at close.
