@@ -11923,3 +11923,52 @@ All positions match. No stop-outs today.
 
 **Notes:** Day P&L -$1,107.23 (-0.95%) driven primarily by crypto sleeve pullback (BTC -1.16%, ETH -3.36%, SOL -2.54%, LINK -1.93%). Stock side also weaker: WFC -1.57% on broad rate-fear selling as 10-yr Treasury hit 5.307% (highest since 2002); WFC stop $73.998 untouched. FOMC minutes released 2pm ET — Sep hike to 3.75%-4.00% confirmed, Oct hike ~65-70% priced; hawkish tone strengthens WFC NIM expansion thesis despite short-term price drag. NVDA frac at +18.82% — below +25% partial profit trigger ($249.79); no integer stop possible on fractional. Portfolio only 10.9% stock-deployed vs 75-85% target; JPM entry target remains Thu Oct 9 conditioned on market absorbing FOMC tone. WFC earnings Oct 14 BMO — hold into print. Trades today: 0. Week trades: 0/3.
 
+
+---
+
+## 2026-10-08 - Market-Open Session
+
+**Portfolio:** $113,980 equity | **Cash:** ~$25,130 (post-JPM) | **Phase P&L:** +$13,980 (+13.98%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ (rounding) |
+| JPM dust | 0.522 | 0.521674 | ✓ |
+| INTC dust | 0.163 | 0.162614 | ✓ |
+| BE dust | 0.371 | 0.370576 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | OFF-LIMITS |
+
+Clean. No overnight stop-outs. WFC GTC stop f49e711e active: 148sh, 10% trail, HWM $82.22, stop $73.998.
+
+### Live Prices (9:31 AM EDT)
+| Ticker | Ask | Status |
+|--------|-----|--------|
+| JPM | $334.20 | +1.4% vs Oct 7 close $329.69 — under +5% limit ✅ → EXECUTE |
+| NVDA | $234.21 | Below +25% trigger $249.79 → HOLD |
+| WFC | $79.89 | ~flat from close, stop $73.998 safe → HOLD |
+
+### Trade Executed — JPM BUY
+- **Order:** $17,097.05 notional, market, DAY (order b10b4af4)
+- **Fill:** 52.098 new shares at ~$327.92; combined with 0.522 dust → total 52.62 shares, blended avg $328.23
+- **Trailing stop:** 52 shares, 10% trail, GTC (ca91a9c8) | stop $295.22, HWM $328.03
+- **NVDA:** $234.21 open — below +25% trigger $249.79 → no partial profit action
+
+### Rule Checks (all passed)
+- Stock positions: 5 (unchanged, JPM added to existing ticker) ✅
+- Trades this week: 1/7 ✅
+- Position size: $17,097 / $113,980 = 15.0% ✅
+- Sector: Financials $28,951 / $113,980 = 25.4% — under 60% cap ✅
+- Catalyst: Q3 earnings Oct 13 BMO + FOMC hawkish confirmed ✅
+- Q4 blackout: not applicable (Dec 24–31) ✅
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $73.998 (10% trail, f49e711e, HWM $82.22) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.62 (52 stop) | $328.23 (blended) | $295.22 (10% trail, ca91a9c8, HWM $328.03) | $393.88 | 2.0:1 |
+
+- Trades this week: 1/7
+- Upcoming: WFC + JPM earnings Oct 13 BMO; CPI Oct 14 8:30 AM ET
+- Watch: NVDA +25% partial profit trigger $249.79 (missed today at $234 open)
