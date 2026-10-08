@@ -13356,3 +13356,141 @@ Clean. No discrepancies. WFC GTC stop f49e711e active: 148 sh, 10% trail, HWM $8
 
 ### Conclusion
 No action. Hold all. FOMC minutes at 2pm ET are the next catalyst for WFC direction.
+
+---
+
+## 2026-10-08 - Pre-market Research
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| NVDA frac | 1.192 | 1.192 | ✓ |
+| JPM dust | 0.522 | 0.522 | ✓ |
+| INTC dust | 0.163 | 0.163 | ✓ |
+| BE dust | 0.371 | 0.371 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | OFF-LIMITS |
+
+Clean. No overnight stop-outs. WFC GTC stop f49e711e active: 148sh, 10% trail, HWM $82.22, stop $73.998.
+
+### Account
+- Equity: $114,609.17
+- Cash: $42,227.08
+- Buying power: $203,885.48
+- Daytrade count: 0/3
+- Stock deployed: ~$12,580 (~11%) — severely under 75-85% target
+- Total long MV: $72,382.09 (stocks + crypto DCA sleeve)
+- Phase P&L: +$14,609.17 (+14.61% vs $100k start)
+- Trades this week: 0/7
+
+### Market Context
+| Item | Value |
+|------|-------|
+| WTI | ~$88.94-$90.00 (-0.5%) — G7 emergency 100M bbl release capping gains |
+| Brent | ~$101.22-$101.66 (-0.55%) |
+| S&P 500 Dec futures | ~$7,851 (-0.27%) |
+| NQ100 futures | ~$31,285 (-0.59%) — tech mild headwind |
+| VIX | 15.08 (Oct 7 close, +0.47%) — Normal zone, trending down (-8.42% week) |
+| 10Y yield | ~5.307% (highest since 2002) — persistent rate pressure |
+
+**FOMC Minutes (released Oct 7, 2pm ET — HAWKISH CONFIRMED):**
+- Broad support for another hike; some discussed 50bp move
+- Dot plot median: 4.1% end-2026 = 1 more hike implied
+- Market pricing ~80% hold Oct 28; ~90% hike by December
+- ✅ JPM/WFC NIM expansion thesis STRENGTHENED
+
+**Today's catalysts:**
+- **Initial Jobless Claims 8:30 AM ET** (week ending Oct 3) — prior <200k; healthy labor market
+- **PEP Q3 earnings BMO**: EPS est $2.29, Rev $25B — consumer staples; not market-moving for our book
+- **TSMC Monthly Sales Report (Sep 2026)** — semis read; positive if strong
+- 0 other major earnings BMO
+
+**Upcoming binary events:**
+- **Oct 9 BMO: Delta Air Lines (DAL)** — airline read
+- **Oct 13 BMO: JPM, WFC, GS, C, UNH, JNJ, BLK** — MEGA earnings day (5 days)
+- **Oct 14 8:30 AM ET: CPI September 2026** — major inflation print
+
+**Sector Momentum (YTD Oct 5):**
+| Sector | YTD | Notes |
+|--------|-----|-------|
+| Energy (XLE) | +42% | Still #1; oil $88-90 sustained |
+| Materials | +16% | |
+| Industrials | +13% | AI capex + infra |
+| Health Care | +10% | Strong recent +14% in 3 months |
+| Financials (XLF) | +5.4% | 3-month +12% — strong recent momentum |
+| Technology (IT) | ~+5% | Lagging; FOMC hawkish headwind on multiples |
+
+**Financials momentum strengthening:** FOMC hawkish = higher rates longer = NIM expansion. XLF +12% in 3 months. JPM and WFC both have Oct 13 earnings catalysts.
+
+### Position Thesis Check
+| Ticker | Entry | AH Quote | P&L% | -7% Floor | Stop | Status |
+|--------|-------|----------|------|-----------|------|--------|
+| WFC | $78.38 | bid $76.28 / ask $84.69 (AH thin!) | +2.36% | $72.89 | $73.998 (10% trail, HWM $82.22) | HOLD ⚠️ AH bid suspicious — verify at open |
+| NVDA frac | $199.83 | bid $225.71 / ask $249.58 (AH wide) | +18.8% | — | none (fractional) | HOLD — watch +25% trigger $249.79 |
+| JPM dust | $334.00 | bid $310.14 (AH thin) | — | — | none | Remnant — ignore |
+
+**WFC AH bid $76.28 note:** Oct 7 close $80.23; AH bid $76.28 = -4.9% — this is almost certainly a thin AH one-sided order, not a real fill. Wells Fargo official press releases show no adverse news. Stop $73.998 is -7.8% below Oct 7 close = safe. Verify open print only.
+
+**WFC thesis:** Q3 earnings Oct 13 BMO, EPS est $1.85 (+6.9% YoY). Beat in Q2 by $0.23 (+13.3%). MS Overweight upgrade Oct 6. S&P credit upgrade 'A-' Oct 3. FOMC hawkish confirmed = NIM expansion. INTACT/STRENGTHENED.
+
+**NVDA thesis:** +18.8% from entry. Fractional (1.192sh), no stop possible. +25% partial-profit trigger = $249.79. AH ask $249.58 = effectively at trigger. Watch at open. AI demand intact. INTACT.
+
+### Politician Signals (45-day window, whitelist only)
+| Politician | Ticker | Trade Date | Filed | Size | Window | Signal |
+|-----------|--------|-----------|-------|------|--------|--------|
+| Khanna | WFC | Aug 27, 2026 | Sep 5, 2026 | $50-100K | 42 days ✓ (barely) | Secondary — WFC HOLD confirmation |
+| Pelosi | BE | Jul 24-28, 2026 | Aug 21, 2026 | $1.5-6M | 75 days — **EXPIRED** | Off-list |
+| Pelosi | INTC | Jul 24, 2026 | Aug 21, 2026 | $500K-1M | 75 days — **EXPIRED** | Off-list |
+
+**No new qualifying whitelist buys in last 45 days.** Pelosi's Oct 2 filing = real estate LLC investment (not a stock). Khanna WFC signal expiring (42 of 45 days) — secondary confirmation WFC hold only. No politician-driven new entries.
+
+### Live Price Verification (STEP 3d)
+AH quotes (Oct 7 close AH — thin/wide; for open price use actual fill):
+| Ticker | AH Bid | AH Ask | Oct 7 Close | Stop (10%) | Target (+20%) | Notes |
+|--------|--------|--------|-------------|------------|---------------|-------|
+| WFC | $76.28 | $84.69 | ~$80.23 | $72.21 (if fills $80.23) | $96.28 | USE OPEN PRINT |
+| JPM | $310.14 | N/A | ~$329.69 | $296.72 (if fills $329.69) | $395.63 | USE OPEN PRINT |
+| NVDA | $225.71 | $249.58 | ~$237.45 | N/A (fractional) | — | Near +25% trigger $249.79 |
+
+### Trade Ideas
+
+**Idea 1 — JPM BUY at open** ⭐ PRIMARY
+- **Catalyst:** Q3 earnings Oct 13 BMO (5 days) + FOMC hawkish confirmed = NIM expansion + beat history (4 consecutive beats; Q2 +9.84% beat)
+- **Condition MET:** FOMC minutes hawkish confirmed Oct 7 ✓
+- **Constraint:** AH bid $310.14 unreliable (thin market). October 7 close ~$329.69. Use actual open print.
+- **Entry:** Verify live quote at 9:30 AM open. Enter if open ≤$346.17 (within 5% of $329.69 close). Skip if gap up >5%.
+- **Stop:** 10% below fill → if fills ~$330, stop $297. GTC trailing 10%.
+- **Target:** +20% → ~$396. R:R 2:1
+- **Size:** 15% × $114,609 = $17,191 / ~$330 = **52 shares** integer
+- **Sector check:** Financials: WFC ~$11,912 + JPM ~$17,160 = ~$29,072 / $114,609 = 25.4% — well below 60% cap ✓
+- **Options imply ±5.2%** for Oct 13 earnings; historical avg ±3.4%. Stop at -10% provides adequate cushion.
+
+**Idea 2 — NVDA frac partial profit watch**
+- Current: $237.45 (close). +25% trigger: $249.79
+- AH ask $249.58 = essentially at trigger level. Likely to hit at open given AH activity.
+- If NVDA opens at or above $249.79 → sell 1/3 of 1.192 = 0.4 shares per rule 13.
+- Fractional sell — Alpaca handles fractional
+
+**No other new entries today.** Market mildly negative (S&P -0.27%, NQ -0.63%), focus is JPM + watching existing positions.
+
+### Risk Factors
+- WFC AH bid anomaly: if real, find cause at open. Stop $73.998 protects (7.8% below Oct 7 close).
+- 10Y yield 5.307% — highest since 2002. Persistent rate headwind for high-multiple tech; tailwind for banks.
+- JPM binary Oct 13: options ±5.2%. Position stop at -10% provides downside. Entering 5 days before = carrying through earnings.
+- Initial Jobless Claims 8:30 AM: if hot print (>250k) = economic worry → pause JPM entry, verify.
+- CPI Sep 2026 next Tuesday Oct 14: major inflation print 1 day after earnings. Dual binary risk.
+- Deployment still low (~11% stocks): JPM adds to ~25.7%; aggressive deployment ahead of mega-bank earnings week would be risky.
+- NQ -0.59% = tech headwind; does not affect financials directly; could weigh on NVDA frac.
+
+### Decision
+**JPM: BUY at open (52 shares, ~$17,191)** — FOMC condition met, tier-1 catalyst (earnings Oct 13), Financials momentum ✓, sector cap ✓. Use live open price. Skip if gap up >5% from $329.69 (entry limit $346.17).
+**WFC: HOLD** — earnings Oct 13, stop active, thesis strengthened by FOMC hawkish. Verify AH bid anomaly at open.
+**NVDA frac: HOLD** — if opens ≥$249.79 → sell 0.4 shares partial profit (rule 13). Otherwise hold.
+**Other dust positions (INTC, BE, JPM dust): no action.**
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $73.998 (10% trail, f49e711e, HWM $82.22) | $94.06 | 2.0:1 |
+
+- Trades this week: 0/7 (JPM pending — will be 1/7 if executed at open)
