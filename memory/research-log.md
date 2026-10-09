@@ -13493,4 +13493,136 @@ AH quotes (Oct 7 close AH — thin/wide; for open price use actual fill):
 |---|--------|--------|-------|------|--------|-----|
 | 1 | WFC | 148.619 (148 stop) | $78.38 | $73.998 (10% trail, f49e711e, HWM $82.22) | $94.06 | 2.0:1 |
 
+---
+
+## 2026-10-09 - Pre-market Research
+
+### STEP 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| JPM | 52.620 (52 stop) | 52.620 | ✓ |
+| NVDA frac | 1.192 | 1.192 | ✓ |
+| INTC dust | 0.163 | 0.163 | ✓ |
+| BE dust | 0.371 | 0.371 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | OFF-LIMITS |
+
+Clean. No overnight stop-outs. GTC stops confirmed active:
+- WFC f49e711e: 148sh, 10% trail, stop $73.998, HWM $82.22
+- JPM ca91a9c8: 52sh, 10% trail, stop $299.079, HWM $332.31
+
+### Account
+- Equity: $114,037.30
+- Cash: $25,130.04
+- Buying power: $184,752.38
+- Daytrade count: 0/3
+- Stock deployed: WFC $12,190 + JPM $17,494 + NVDA $278 + dust $122 = **~$30,084 (26.4%)** — severely below 75-85% target
+- Total long MV (incl crypto DCA sleeve): $88,907.26
+- Phase P&L: +$14,037.30 (+14.04% vs $100k start)
+- Trades this week: 1/7 (JPM Oct 8)
+
+### Market Context
+| Item | Value |
+|------|-------|
+| WTI | ~$89.20/bbl (-0.26%, Oct 8 close) |
+| Brent | ~$100.22/bbl (-1.99%, Oct 8 close) |
+| S&P 500 futures | ~-0.53% premarket (MarketWatch) |
+| NQ futures | ~-0.66% premarket (MarketWatch) |
+| VIX | 15.41 (Oct 8 Cboe close); 30-day trend: 16.46→15.08 (-8.38%) — low/normal zone |
+| 10Y yield | ~5.307% (highest since 2002) |
+| Gold | $4,166 (+0.23%) |
+
+**Today's events:**
+- **DAL BMO**: EPS est $1.94-1.99, Rev ~$17.7B — airline read (not market-moving for our book)
+- **KC Fed Schmid speech 9:30 AM ET**: Kansas City Economic Outlook
+- **U of M Consumer Sentiment prelim Oct (10 AM ET)**: est 47.5 vs prev 48.1. Declining trend: 55.2→51.0→48.1; year-ahead inflation expectations at 4.6%. Downside miss = consumer stress signal.
+
+**Critical next-week events:**
+- Tue Oct 13 BMO: JPM, WFC, GS, C, UNH, JNJ, BLK — MEGA BANK EARNINGS DAY
+- Wed Oct 14 8:30 AM: CPI Sep 2026
+- Thu Oct 15 8:30 AM: PPI Sep 2026
+- Tue Oct 27: FOMC meeting
+
+**Sector YTD (as of Oct 8 close, Schwab Oct 2 ratings):**
+| Sector | YTD | Schwab Rating |
+|--------|-----|---------------|
+| Energy (XLE) | +48.8% | More Favored |
+| Technology (XLK) | +37.9% | Neutral |
+| Healthcare (XLV) | +10.0% | More Favored |
+| Materials (XLB) | +10.0% | More Favored |
+| Consumer Staples (XLP) | +9.5% | Neutral |
+| Financials (XLF) | ~+5-6% | More Favored |
+| Consumer Discretionary (XLY) | -5.9% | Least Favored |
+
+### Politician Signals (45-day window, whitelist only)
+| Politician | Ticker | Trade Date | Filed | Size | Days Ago | Signal |
+|-----------|--------|-----------|-------|------|----------|--------|
+| Pelosi | BE | Jul 24-28, 2026 | Aug 21, 2026 | $1.5M-6M | 76 days | **EXPIRED** |
+| Pelosi | INTC | Jul 24, 2026 | Aug 21, 2026 | $750K | 76 days | **EXPIRED** |
+| Ro Khanna | MRVL/LULU/CHTR/LOW | Aug 24, 2026 | Sep 4, 2026 | $1K-15K each | 45 days | Below $25K threshold — ignore |
+| Tuberville | GILD | May 2024 trade filed Aug 5 | Aug 5, 2026 | $1K-15K | 65 days | Below threshold + expired |
+
+**No qualifying whitelist politician buys in last 45 days.** No politician-driven setups today.
+
+### Position Thesis Check
+| Ticker | Entry | Oct 8 Close | Unrealized | -7% Floor | Stop | Status |
+|--------|-------|-------------|------------|-----------|------|--------|
+| WFC | $78.38 | $82.02 | +4.64% | $72.89 | $73.998 (f49e711e, HWM $82.22) | HOLD — earnings Oct 13 |
+| JPM | $328.23 | $332.46 | +1.29% | $305.25 | $299.079 (ca91a9c8, HWM $332.31) | HOLD — earnings Oct 13 |
+| NVDA frac | $199.83 | $232.90 | +16.54% | n/a | none (fractional) | HOLD — +25% trigger $249.79 not reached |
+| INTC dust | $106.51 | $108.75 | +2.10% | n/a | none | Dust — no action |
+| BE dust | $273.52 | $280.72 | +2.63% | n/a | none | Dust — no action |
+
+**WFC thesis:** Q3 earnings Oct 13 BMO. EPS est $1.85 (+6.9% YoY); Q2 beat +13.29%. FOMC hawkish = NIM expansion. MS Overweight. S&P credit 'A-' upgrade Oct 3. INTACT/STRENGTHENED.
+
+**JPM thesis:** Q3 earnings Oct 13 BMO. Q2 record $21.2B net income (+41.2% YoY). FY26 NII guidance ~$105.5B. FOMC hawkish = NIM expansion. YTD only +2.8% = potential rerating catalyst on beat. INTACT.
+
+**NVDA frac:** AI demand thesis unchanged. +25% trigger ($249.79) not reached at $232.90. AH bid $218.57 = thin/unreliable; verify at open.
+
+### Live Price Verification (STEP 3d — AH quotes, Oct 8 20:00 ET)
+| Ticker | AH Bid | AH Ask | Oct 8 Close | Notes |
+|--------|--------|--------|-------------|-------|
+| WFC | $77.19 | $85.92 | $82.02 | Wide AH spread — use open print Oct 9 |
+| JPM | $310.17 | $344.18 | $332.46 | Wide AH spread — use open print Oct 9 |
+| NVDA | $218.57 | n/a | $232.90 | Thin AH — verify open print |
+| XOM | $158.36 | n/a | ~$158 est | One-sided AH; confirm open quote |
+| UNH | $365.77 | $366.73 | ~$366 | Narrow AH spread — reliable; but skip today (Oct 13 binary) |
+
+### Trade Ideas
+
+**Idea 1 — XOM BUY at open** (conditional)
+- **Catalyst:** Energy sector #1 YTD (+48.8%), Schwab More Favored; WTI $89 / Brent $100 sustained; pure sector momentum
+- **Key constraint:** MUST verify XOM Q3 earnings date before entering. If XOM reports Oct 13-15, SKIP — too close to CPI/bank earnings binary. Expected timing: late October (typical for major energy majors), but verify at market open.
+- **Entry:** Live open quote only. Oct 8 AH bid $158.36; target ~$155-165 zone. Skip if gap >5% from est close.
+- **Stop:** 10% below fill → ~$142-148. GTC trailing.
+- **Target:** +20% → ~$186-198. R:R 2:1.
+- **Size:** 15% × $114,037 = **~$17,106 / ~$158 = 108 shares** integer
+- **Sector cap:** Energy = $0 now → $17,106 (15%) after entry — well below 60% cap ✓
+- **Deployment after entry:** ~$47,190 / $114,037 = **41.4%** stocks
+
+**Idea 2 — UNH SKIP (post Oct 13)**
+- Healthcare More Favored; UNH reports Oct 13 BMO = same binary as WFC/JPM
+- Entering today adds Oct 13 binary on top of existing bank exposure
+- Research post Oct 13 earnings for entry
+
+**Idea 3 — NVDA frac partial profit**
+- If NVDA opens ≥ $249.79 → sell 0.4 shares (1/3 of 1.192) per rule 13
+- Currently $232.90 — not at trigger; verify open
+
+### Risk Factors
+- **U of M sentiment 10 AM**: est 47.5 (vs 48.1 prev). Consumer sentiment at multi-month lows; inflation expectations 4.6%. A miss amplifies cautious tone.
+- **S&P futures -0.53% premarket**: Mild risk-off Friday open; thin volume; use limit-style entries.
+- **Oct 13-14 twin binary**: Mega-bank earnings + CPI. WFC/JPM positions carry through. Stops (-10% trail) protect downside.
+- **10Y yield 5.307%**: Rate headwind for tech; bank NIM tailwind (WFC/JPM thesis strengthened).
+- **XOM earnings date risk**: If reports Oct 14-15, creates unacceptable CPI double-binary. Verify before entering.
+- **Deployment gap**: 26.4% stocks vs 75-85% target. XOM entry helps but still underdeploved.
+
+### Decision
+**XOM: CONDITIONAL BUY at open** — verify no Oct 13-15 earnings binary first; if confirmed safe, enter at live open quote (target ~$158-163 range). Energy #1 YTD + More Favored + oil sustained thesis. 108 shares integer, GTC 10% trail stop.
+**WFC: HOLD** — earnings Oct 13, stop f49e711e active.
+**JPM: HOLD** — earnings Oct 13, stop ca91a9c8 active.
+**NVDA frac: HOLD** — watch $249.79 partial profit trigger at open.
+**UNH: SKIP today** — evaluate post Oct 13 earnings.
+**New entries remaining this week: 6/7**.
+
 - Trades this week: 0/7 (JPM pending — will be 1/7 if executed at open)
