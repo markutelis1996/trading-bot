@@ -12044,3 +12044,47 @@ None. No cuts, no stop changes, no new entries.
 | BE dust | 0.371 | $273.52 | $272.82 | -$18.47 (-6.34%) | -$0.26 (-0.26%) | none |
 
 **Notes:** Day P&L -$1,685.34 (-1.47%) driven by crypto sleeve: BTC -1.67%, ETH -4.50%, SOL -5.73%, LINK -5.29%. Stock side positive: WFC +2.23% (NIM thesis strengthening into Oct 13 earnings), JPM +0.56% (earnings Oct 13 BMO). JPM trailing stop HWM ratcheted to $332.31, stop $299.079. NVDA frac -2.88% on profit-taking; +20% trigger $239.80 and +25% trigger $249.79 not reached. Dust positions (INTC -5.20%, BE -6.34%) immaterial by MV. 1 trade today (JPM buy at open). Week trades: 1/3. No action at close.
+
+---
+
+## 2026-10-09 - Market-Open Session
+
+**Portfolio:** $114,061.86 equity | **Cash:** $25,130.03 (22.0%) | **Phase P&L:** +$14,061.86 (+14.06%)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| JPM | 52.62 (52 stop) | 52.620 | ✓ |
+| NVDA frac | 1.192 | 1.192 | ✓ |
+| INTC dust | 0.163 | 0.163 | ✓ |
+| BE dust | 0.371 | 0.371 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | OFF-LIMITS |
+
+Clean. No overnight stop-outs. GTC stops active: WFC f49e711e (148sh, 10% trail, stop $73.998, HWM $82.22); JPM ca91a9c8 (52sh, 10% trail, stop $299.079, HWM $332.31).
+
+### Live Prices (9:30 AM EDT)
+| Ticker | Bid | Ask | vs Est Close | Status |
+|--------|-----|-----|-------------|--------|
+| XOM | $158.93 | $176.72 | Ask +11.9% vs ~$158 est | SKIP — ask >5% gap rule; spread anomalously wide (11%) |
+| NVDA | $232.31 | $232.53 | — | Below +25% trigger $249.79 → HOLD |
+| WFC | — | — | — | HOLD — earnings Oct 13 |
+| JPM | — | — | — | HOLD — earnings Oct 13 |
+
+### Step 3 — Trade Decisions
+- **XOM**: SKIP. Earnings safe (Oct 30 BMO ✅), sector #1 YTD ✅, but ask $176.72 is +11.9% above estimated Oct 8 close (~$158), exceeding the >5% gap skip rule. Bid/ask spread $17.79 (11%) is anomalous for a large-cap at open — risk of bad fill. Research thesis intact; re-evaluate Monday if spread normalizes.
+- **NVDA frac**: $232.53 — below +25% partial profit trigger $249.79. HOLD.
+- **WFC / JPM**: HOLD into Oct 13 earnings.
+
+### Actions Taken
+None. No new entries, no exits, no stop changes.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $73.998 (10% trail, f49e711e, HWM $82.22) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.62 (52 stop) | $328.23 | $299.079 (10% trail, ca91a9c8, HWM $332.31) | $393.88 | 2.0:1 |
+
+- Trades this week: 1/7 (JPM Oct 8)
+- Watch: WFC + JPM earnings Oct 13 BMO; CPI Oct 14 8:30 AM ET; NVDA +25% trigger $249.79; XOM re-evaluate Mon if spread normalizes (earnings Oct 30 safe)
+- No notification sent (no trade)
