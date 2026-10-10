@@ -12088,3 +12088,43 @@ None. No new entries, no exits, no stop changes.
 - Trades this week: 1/7 (JPM Oct 8)
 - Watch: WFC + JPM earnings Oct 13 BMO; CPI Oct 14 8:30 AM ET; NVDA +25% trigger $249.79; XOM re-evaluate Mon if spread normalizes (earnings Oct 30 safe)
 - No notification sent (no trade)
+
+## 2026-10-10 - Midday Scan
+
+**Portfolio:** ~$114K equity | **Cash:** ~$25,130 | **Positions:** 2 core + dust
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| JPM | 52.620 (52 stop) | 52.620 | ✓ |
+| NVDA frac | 1.192 | 1.192 | ✓ |
+| INTC dust | 0.163 | 0.163 | ✓ |
+| BE dust | 0.371 | 0.371 | ✓ |
+| Crypto | DCA sleeve | filtered | OFF-LIMITS |
+
+Clean. GTC stops: WFC f49e711e (stop $75.6495, HWM $84.055); JPM ca91a9c8 (stop $300.186, HWM $333.54).
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Stop | Action |
+|--------|--------|-------|---------|------|------|--------|
+| WFC | 148.619 (148 stop) | $78.38 | $83.55 | +6.60% | $75.6495 (10% trail, f49e711e) | HOLD |
+| JPM | 52.620 (52 stop) | $328.23 | $332.99 | +1.45% | $300.186 (10% trail, ca91a9c8) | HOLD |
+| NVDA frac | 1.192 | $199.83 | $229.28 | +14.74% | none (fractional) | HOLD — +15% tighten trigger $229.81 not reached ($0.53 below) |
+| INTC dust | 0.163 | $106.51 | $104.70 | -1.70% | none | Dust — no action |
+| BE dust | 0.371 | $273.52 | $280.50 | +2.55% | none | Dust — no action |
+
+### Actions
+- No cuts (all above -7%)
+- No stop tightening (none at +15%/+20% yet; NVDA fractionally below +15% trigger)
+- No thesis breaks: WFC/JPM holding into Oct 13 BMO earnings; NVDA AI demand intact
+- All stocks change_today = 0 — no sharp intraday movers
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $75.6495 (10% trail, f49e711e, HWM $84.055) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $300.186 (10% trail, ca91a9c8, HWM $333.54) | $393.88 | 2.0:1 |
+
+- Watch: WFC + JPM earnings Oct 13 BMO; NVDA +15% tighten trigger $229.81; CPI Oct 14
+- No notification sent (no action taken)
