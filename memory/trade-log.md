@@ -12128,3 +12128,16 @@ Clean. GTC stops: WFC f49e711e (stop $75.6495, HWM $84.055); JPM ca91a9c8 (stop 
 
 - Watch: WFC + JPM earnings Oct 13 BMO; NVDA +15% tighten trigger $229.81; CPI Oct 14
 - No notification sent (no action taken)
+
+---
+
+### Oct 09 - EOD Snapshot (Day 123, Friday)
+**Portfolio:** $114,401.01 | **Cash:** $23,413.85 (20.5%) | **Day P&L:** +$139.23 (+0.12%) | **Phase P&L:** +$14,401.01 (+14.40%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 | $78.38 | $83.55 | +$1.50 (+1.83%) | +$768.36 (+6.60%) | $75.6495 (10% trail, HWM $84.055, f49e711e) |
+| JPM | 52.620 | $328.23 | $332.99 | +$1.57 (+0.47%) | +$250.59 (+1.45%) | $300.19 (10% trail, HWM $333.54, ca91a9c8) |
+| NVDA frac | 1.192 | $199.83 | $229.28 | -$1.36 (-0.59%) | +$35.09 (+14.74%) | none (fractional) |
+
+**Notes:** No trades today; week closes at 1/3 slots used (JPM Oct 8). Both core positions closed green: WFC +1.83%, JPM +0.47% — financials firming ahead of Q3 earnings. WFC stop auto-trailed to HWM $84.055, stop $75.6495; JPM stop at HWM $333.54, stop $300.19. NVDA frac at +14.74%, just below +15% tighten trigger ($229.81); fractional prevents integer stop regardless. XOM skipped at open (ask $176.72 = +11.9% gap, 11% spread — anomalous) — re-evaluate Mon if normalized. Cash dropped $25,130 → $23,413 ($1,716 crypto DCA). Stock deployment only 26.5% vs 75-85% target. Key events: JPM Q3 earnings Oct 13 BMO, WFC Q3 earnings Oct 14 BMO, CPI Oct 14 8:30 AM ET. Summary run Oct 10 (Saturday) for Oct 9 trading session.
