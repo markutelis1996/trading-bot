@@ -1507,3 +1507,82 @@ Phase P&L: +$16,307.51 (+16.31% from $100,000)
 - Crypto sleeve distorted headline result; pure stock decisions grade: C
 
 ---
+
+## Week ending 2026-10-10
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $116,307.51 (Oct 2 EOD) |
+| Ending portfolio | $114,401.01 (Oct 9 close) |
+| Week return | -$1,906.50 (-1.64%) |
+| S&P 500 week | +1.15% (closed 7,811.54; equal-weight RSP +1.58%) |
+| Bot vs S&P | -2.79% underperformance |
+| Trades | 1 new entry (W:0 / L:0 closed / open:2 stocks + dust) |
+| Win rate | N/A (no closed trades) |
+| Best trade | WFC +6.60% unrealized (open) |
+| Worst trade | INTC dust -1.70% (de minimis, $0.29 unrealized) |
+| Profit factor | N/A (no closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| — | — | — | — | — | No trades closed this week |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| WFC | 148.619 (148 stop) | $78.38 | $83.55 | +$768.36 (+6.60%) | ~$75.20 (10% trail, f49e711e, HWM $83.55) | $83.55 |
+| JPM | 52.62 (52 stop) | $328.23 | $332.99 | +$250.59 (+1.45%) | ~$299.69 (10% trail, ca91a9c8, HWM $332.99) | $332.99 |
+| NVDA frac | 1.192 | $199.83 | $229.28 | +$35.09 (+14.74%) | none (fractional) | — |
+| INTC dust | 0.163 | $106.51 | $104.70 | -$0.29 (-1.70%) | none | — |
+| BE dust | 0.371 | $273.52 | $280.50 | +$2.59 (+2.55%) | none | — |
+
+Stock deployed: ~$30,333 / $114,401 = 26.5% equity | Cash $23,414 (20.5%) | Crypto sleeve ~$60,654 (53.0%)
+Phase P&L: +$14,401.01 (+14.40% from $100,000)
+
+New entry this week:
+| Ticker | Entry | Date | Shares | Stop | Thesis |
+|--------|-------|------|--------|------|--------|
+| JPM | $328.23 (blended) | Oct 8 | 52.62 (52 stop) | $299.07 (10% trail, ca91a9c8) | Q3 earnings Oct 13 BMO + FOMC hawkish confirmed (Sep hike 3.75%-4.00%) = NIM expansion; Q2 record $21.2B net income; YTD only +2.8% = rerating potential |
+
+### What Worked
+- JPM entry Oct 8 disciplined: FOMC minutes hawkish confirmed Oct 7 (Sep hike to 3.75%-4.00%, Oct hike ~65-70% priced) — entry condition met; now +1.45% unrealized 1 day after entry
+- WFC continuing to compound: +6.60% unrealized, stop auto-trailing correctly (HWM ratcheted $82.22 → $83.55); MS Overweight upgrade + S&P credit 'A-' upgrade + FOMC hawkish = thesis triple-confirmed
+- XOM skip Oct 9 rule-compliant: bid/ask spread $17.79 (11%) at open exceeded the >5% gap rule; prevented a bad fill on a macro-uncertain Friday open; XOM thesis intact for re-entry next week
+- FOMC-minutes gate (Oct 7 2pm) protected from entering before hawkish tone confirmed; held off Mon-Wed, entered JPM Thursday — correct sequencing
+- No rule violations: both GTC trailing stops active; no averaging down; no stop moved lower
+
+### What Didn't Work
+- Portfolio -1.64% vs S&P +1.15% = -2.79% underperformance; two consecutive weeks negative vs benchmark
+- Crypto sleeve (~53% of equity) drove headline losses: BTC -1.67%, ETH -4.50%, SOL -5.73%, LINK -5.29% on Oct 8 dominated total P&L; stock decisions positive on the week (WFC +6.60%, JPM +1.45%) but overwhelmed by crypto
+- Stock deployment 26.5% — 9th+ consecutive week below 75-85% target; bank-earnings binary (Oct 13) + CPI (Oct 14) blocked any new entries beyond JPM
+- Only 1 trade vs 7 allowed; XOM opportunity missed (spread anomaly); NVDA integer lot add postponed; entry calendar was congested with binaries
+- S&P equal-weight +1.58% while bot was negative — missed the week's broad market rally entirely
+
+### Key Lessons
+- Crypto sleeve at 53% of portfolio has structurally inverted the risk profile: total equity return is now crypto-first, stock-second; headline underperformance this week was entirely crypto-driven; stock-only P&L was +$1,019 positive (WFC +$302 intraday + JPM +$251 + existing gains)
+- Oct 13 BMO mega-bank earnings (WFC + JPM + GS + C + UNH + JNJ) represent the largest single-day binary catalyst since Q2 — both positions sized appropriately; stops at -10% from entry provide downside protection
+- XOM wide spread at Friday open is a clean example of rule enforcement preserving capital — $17.79 spread on a $158 stock at 9:30 is a market-maker trap; Oct 9 was a low-quality entry day regardless
+- NVDA frac at +14.74% ($229.28) — partial profit trigger $249.79 (+25%) still intact; cannot place stop on fractional; this is a structurally unprotected position growing in size
+
+### Adjustments for Next Week
+- **Oct 13 BMO binary (WFC + JPM)**: Hold both into print; do NOT add pre-earnings; stops in place (~$75.20 WFC, ~$299.69 JPM); if both beat on NIM expansion — hold and let trails tighten; if miss — stops fire automatically
+- **Oct 14 CPI Sep 2026**: Hold cash until after print; hot CPI (>3.5% core) = risk-off; wait for reaction before any new entries Oct 14
+- **XOM BUY target Mon Oct 12**: Earnings Oct 30 BMO (safe window); verify open quote not anomalous; enter 108 shares at market if spread normal; Energy 0% exposure vs sector #1 YTD +48.8%
+- **UNH post-Oct 13**: Healthcare More Favored; UNH reports Oct 13 BMO same day as banks; evaluate for entry Oct 14 or later after binary clears
+- **NVDA frac watch**: +25% partial profit trigger $249.79; if hit in any session → sell 0.4 shares per rule 13; no stop possible on fractional remainder
+- **Deployment goal**: Close from 26.5% → 50%+ by Wed Oct 15 (XOM + 1 post-earnings entry); $25K cash available
+
+### Overall Grade: D+
+- -1.64% vs S&P +1.15% = -2.79% underperformance ✗
+- No closed trades; profit factor N/A; consecutive weeks without realized wins ✗
+- Stock deployment 26.5% — structural deficit 9th+ consecutive week ✗
+- Crypto sleeve 53% dominating total equity P&L — stock decisions structurally drowned out ✗
+- JPM entry disciplined with valid catalyst ✓
+- WFC +6.60% unrealized; thesis strengthening into earnings ✓
+- XOM skip rule-compliant (spread anomaly) ✓
+- No rule violations (stops active, no averages, no stop moves down) ✓
+- Phase P&L: +$14,401 (+14.40%) — maintaining significant lead over benchmark ✓
+
+---
