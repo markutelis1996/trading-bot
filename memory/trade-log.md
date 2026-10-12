@@ -12202,3 +12202,39 @@ Clean. GTC stops updated (auto-trailed since Oct 10): JPM ca91a9c8 (HWM $336.34,
 
 - No action taken — no ClickUp notification sent
 - Watch: JPM + WFC earnings BMO Oct 13; CPI Oct 14 8:30 AM ET; NVDA +15% trigger $229.81
+
+---
+
+## 2026-10-12 - Market-Open Session (ran post-close)
+
+**Portfolio:** $114,584.35 equity | **Cash:** $21,697.91 (18.9%) | **Phase P&L:** +$14,584.35 (+14.58%)
+**Note:** Workflow ran after market close; prices are 4 PM ET close.
+
+### Step 0 — Reconciliation
+Clean — all qtys match midday scan. GTC stops active: WFC f49e711e (HWM $84.733, stop $76.2596); JPM ca91a9c8 (HWM $336.34, stop $302.706).
+
+### Position Status (closing prices)
+| Ticker | Shares | Entry | Close | P&L% | -7% Floor | Stop | Action |
+|--------|--------|-------|-------|------|-----------|------|--------|
+| WFC | 148.619 (148 stop) | $78.38 | $83.90 | +6.98% | $72.89 | $76.2596 (10% trail, f49e711e) | HOLD |
+| JPM | 52.620 (52 stop) | $328.23 | $334.525 | +1.92% | $305.25 | $302.706 (10% trail, ca91a9c8) | HOLD |
+| NVDA frac | 1.192 | $199.83 | $225.94 | +13.06% | n/a | none (fractional) | HOLD — +15% trigger $229.81 not reached |
+| INTC dust | 0.163 | $106.51 | $100.96 | -5.21% | $99.05 | none | Dust |
+| BE dust | 0.371 | $273.52 | $260.91 | -4.61% | $254.37 | none | Dust |
+
+### Trade Decision
+**NO NEW ENTRIES.**
+1. JPM + WFC Q3 earnings BMO tomorrow (Oct 13) — binary on existing core positions
+2. CPI Sep 2026 on Oct 14 — second major binary in 48 hours
+3. XOM conditional entry deferred until both binaries clear
+4. No qualifying politician signals ($25K+)
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $76.2596 (10% trail, f49e711e, HWM $84.733) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $302.706 (10% trail, ca91a9c8, HWM $336.34) | $393.88 | 2.0:1 |
+
+- Trades this week: 0/7
+- Watch: JPM + WFC Q3 earnings Oct 13 BMO; CPI Oct 14 8:30 AM ET; XOM entry post-binaries; NVDA +15% trigger $229.81
+- No notification sent (no trades)
