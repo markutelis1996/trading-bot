@@ -13626,3 +13626,110 @@ Clean. No overnight stop-outs. GTC stops confirmed active:
 **New entries remaining this week: 6/7**.
 
 - Trades this week: 0/7 (JPM pending — will be 1/7 if executed at open)
+
+## 2026-10-13 - Pre-market Research
+
+### Account
+- Equity: $115,514.34
+- Cash: $23,413.85 (20.3%)
+- Buying power: $178,946.10
+- Long market value: $92,100.49 (stocks $30,460 + crypto $61,639)
+- Stock deployment: ~26.4% of equity (well below 75-85% target)
+- Daytrade count: 0/3
+- Phase P&L: +$15,514.34 (+15.51%)
+- Trades this week (new week Mon Oct 13): 0/7
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| WFC | 148.619 | 148.618780 | ✓ |
+| JPM | 52.620 | 52.619794 | ✓ |
+| NVDA frac | 1.192 | 1.191637 | ✓ |
+| INTC dust | 0.163 | 0.162613 | ✓ |
+| BE dust | 0.371 | 0.370576 | ✓ |
+
+No discrepancies. All stops confirmed: JPM ca91a9c8 (HWM $333.54, stop $300.19), WFC f49e711e (HWM $84.055, stop $75.6495).
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Last Close | Unrealized | -7% Cut | Status |
+|---|--------|--------|-------|------|------------|------------|---------|--------|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $75.6495 (10% trail, f49e711e) | $83.55 | +$768 (+6.60%) | $72.89 | HOLD — Q3 earnings BMO today |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $300.19 (10% trail, ca91a9c8) | $332.99 | +$250 (+1.45%) | $305.25 | HOLD — Q3 earnings BMO today |
+| NVDA frac | 1.192 | $199.83 | none | $229.28 | +$35 (+14.74%) | $185.84 | Watch $229.81 (+15%) tighten trigger |
+| INTC dust | 0.163 | $106.51 | none | $105.00 | -$0.25 (-1.41%) | — | Dust, ignore |
+| BE dust | 0.371 | $273.52 | none | $281.84 | +$3.08 (+3.04%) | — | Dust, ignore |
+
+### Market Context (pre-market Oct 13)
+- **Brent crude**: ~$104.72 (Oct 11 last) | WTI: ~$91.85 — elevated, Middle East risk premium; Hormuz tanker traffic at 2-month low; EIA forecasts Brent avg $105/b in Q4 2026
+- **S&P 500**: ~7,765 (Oct 9 close) | Dow: 51,654.95 (+0.82%) | NQ: 27,193 | Market closed higher Fri
+- **VIX**: 14.84 (Oct 9) — very low, complacent/bullish environment
+- **10Y Treasury yield**: 5.26-5.31% — elevated; Fed raised 25bps late Sep to 3.75-4.00%
+- **JPM overnight (Blue Ocean ATS)**: $334.74 (+0.53%) — mild positive drift ahead of earnings
+- **WFC overnight**: $83.82 (+0.32%) — mild positive drift
+- **Sector bias**: Financials broadly positive into earnings; energy strong (oil $105 Brent)
+
+### Earnings Today (BMO)
+| Ticker | Est. EPS | Est. Rev | Relevance |
+|--------|----------|----------|-----------|
+| JPM | $5.93 | $51.23B | **HELD — watch result** |
+| WFC | $1.85 | $22.31B | **HELD — watch result** |
+| GS | $13.09 | $16.86B | Sector read |
+| C | $2.65 | $23.72B | Sector read |
+| JNJ | $2.54 | $25.38B | Healthcare |
+| UNH | $4.12 | $111.31B | Healthcare |
+
+- JPM: 8/8 beat streak; Polymarket 91% probability of beat; strong IB/trading backdrop
+- WFC: Q2 beat $1.96 vs $1.71 (+14.62%). Q3 NIM uncertainty (mortgage rates ~7%). Focus on NII vs $12.3B est
+- Actual results release: ~7:00 AM ET; conf call 8:30 AM ET (JPM), 10:00 AM ET (WFC)
+- **No actual results found in research data** — results will be released during this pre-market window
+
+### Key Macro Releases This Week
+| Date | Event | Notes |
+|------|-------|-------|
+| **Tue Oct 14** | CPI Sept (8:30 AM ET) | Prev 3.4% YoY; key for rate outlook |
+| Thu Oct 15 | PPI Sept (8:30 AM ET) | |
+| Thu Oct 15 | Retail Sales Sept (8:30 AM ET) | |
+| Tue Oct 28 | FOMC Rate Decision | Late Oct |
+
+**CPI tomorrow is the major risk event of the week.** Hot print → risk-off; selloff in rate-sensitive stocks including banks. Cool/in-line → rally continuation.
+
+### Politician Signals (last 45 days, whitelist only, $25K+ threshold)
+- **Pelosi (whitelist):** BE 5,000 shares + 10,000 INTC shares (Jul 24-28, disclosed Aug 24). Disclosure is 50 days old — outside 45-day fresh window. Both already held as dust positions. BE current $281.84 vs avg entry ~$188-217 = +35% since disclosure. INTC $105 vs $100.23 entry = +4.8%. → **Watchlist only** (stale, positions already held)
+- **Gottheimer (whitelist):** MSFT buy+sell simultaneously ($500K-$1M each, Aug 14) = portfolio rebalance, no net signal. AMAT $1K-15K (Aug 6) = below $25K threshold.
+- **Khanna (whitelist):** GILD buys/sells all <$25K = below threshold.
+- **Tuberville (whitelist):** GILD <$15K = below threshold.
+- **McCaul, Mast:** No qualifying recent buys.
+- **No new actionable politician signals this session.**
+
+### NVDA Tighten Trigger Watch
+- Entry $199.83 | +15% trigger: **$229.81** | Oct 9 close: $229.28 = **$0.53 below trigger**
+- If NVDA opens ≥ $229.81 today → tighten trail to 7% per rule 6
+- **HOWEVER**: position is fractional (1.192 shares) → Alpaca integer-qty restriction → no trailing stop placeable
+- Action: track level only; if a future buy adds integer shares, implement then
+
+### Trade Ideas
+**No new entries today.** Reasons:
+1. JPM + WFC earnings reaction unknown — adds portfolio volatility; wait for clarity before adding risk
+2. CPI tomorrow (Oct 14) — binary macro risk. Any new long entered today faces two binary events in 24 hours
+3. No qualifying politician signals ($25K+) for new setups
+4. Deployment (26.4%) is low but adding on an earnings + CPI day violates discipline ("2 failed binaries = exit sector")
+
+**Post-earnings/post-CPI watch (rest of week, new entries possible):**
+- **XOM (energy)**: Oil Brent $105, Middle East risk premium sustained. Energy #1 sector YTD. VERIFY XOM has no earnings Oct 13-15 before entering. If clean, setup: entry ~$165-170 range (verify live quote), stop 10% trail, target +20%.
+- **GS**: If reports strong Q3 today, could add to financials sector (already at 2 positions). Watch post-report reaction. Entry only if sector not yet at 60% cap.
+- Keep 75-85% deployment target in mind: room for 3-4 more stock positions at ~15% each.
+
+### Risk Factors
+- JPM/WFC earnings miss or guidance cut → manual cut if -7% breached intraday
+- CPI hot print tomorrow → financials/rate-sensitive stocks selloff
+- 10Y yield already at 5.26% → elevated NIM pressure on bank earnings (NII headwind)
+- Oil spike (Brent >$110) → macro inflation concern → VIX spike
+- NVDA fractional below tighten trigger by $0.53 — could tighten if gap-opens Monday
+
+### Decision
+**WFC: HOLD** — earnings BMO today; trailing stop f49e711e active; let earnings play out
+**JPM: HOLD** — earnings BMO today; trailing stop ca91a9c8 active; let earnings play out
+**NVDA frac: HOLD** — approaching +15% tighten trigger; fractional prevents stop action; monitor
+**INTC dust / BE dust: HOLD** — immaterial, ignore
+**New entries today: NONE** — earnings binary + CPI tomorrow = wait
+**New entries rest of week: Conditional** — post-JPM/WFC reaction + post-CPI clarity required; XOM energy thesis strongest candidate
