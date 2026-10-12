@@ -12141,3 +12141,49 @@ Clean. GTC stops: WFC f49e711e (stop $75.6495, HWM $84.055); JPM ca91a9c8 (stop 
 | NVDA frac | 1.192 | $199.83 | $229.28 | -$1.36 (-0.59%) | +$35.09 (+14.74%) | none (fractional) |
 
 **Notes:** No trades today; week closes at 1/3 slots used (JPM Oct 8). Both core positions closed green: WFC +1.83%, JPM +0.47% — financials firming ahead of Q3 earnings. WFC stop auto-trailed to HWM $84.055, stop $75.6495; JPM stop at HWM $333.54, stop $300.19. NVDA frac at +14.74%, just below +15% tighten trigger ($229.81); fractional prevents integer stop regardless. XOM skipped at open (ask $176.72 = +11.9% gap, 11% spread — anomalous) — re-evaluate Mon if normalized. Cash dropped $25,130 → $23,413 ($1,716 crypto DCA). Stock deployment only 26.5% vs 75-85% target. Key events: JPM Q3 earnings Oct 13 BMO, WFC Q3 earnings Oct 14 BMO, CPI Oct 14 8:30 AM ET. Summary run Oct 10 (Saturday) for Oct 9 trading session.
+
+## 2026-10-12 - Midday Scan
+
+**Portfolio:** ~$115K equity | **Cash:** ~$25,130 | **Positions:** 2 core + 3 dust
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.619 | ✓ |
+| JPM | 52.620 (52 stop) | 52.620 | ✓ |
+| NVDA frac | 1.192 | 1.192 | ✓ |
+| INTC dust | 0.163 | 0.163 | ✓ |
+| BE dust | 0.371 | 0.371 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | OFF-LIMITS |
+
+Clean. GTC stops updated (auto-trailed since Oct 10): JPM ca91a9c8 (HWM $336.34, stop $302.706); WFC f49e711e (HWM $84.7329, stop $76.2596).
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | Action |
+|--------|--------|-------|---------|------|----------|------|--------|
+| WFC | 148.619 (148 stop) | $78.38 | $83.285 | +6.26% | -0.32% | $76.2596 (10% trail, f49e711e, HWM $84.733) | HOLD |
+| JPM | 52.620 (52 stop) | $328.23 | $334.57 | +1.93% | +0.47% | $302.706 (10% trail, ca91a9c8, HWM $336.34) | HOLD |
+| NVDA frac | 1.192 | $199.83 | $226.42 | +13.30% | -1.25% | none (fractional) | HOLD — +15% trigger $229.81 not reached |
+| INTC dust | 0.163 | $106.51 | $101.07 | -5.11% | -3.47% | none | Dust — no action |
+| BE dust | 0.371 | $273.52 | $260.56 | -4.74% | -7.11% | none | Dust — immaterial |
+
+### Actions
+- No cuts: all stocks above -7% from entry (WFC +6.26%, JPM +1.93%, NVDA +13.30%, BE -4.74%, INTC -5.11%)
+- No stop tightening: +15% trigger requires WFC ≥$90.14, JPM ≥$377.46, NVDA ≥$229.81 — none reached
+- Trailing stops auto-trailed since last log: JPM HWM $333.54→$336.34, WFC HWM $84.055→$84.733 ✓
+
+### Thesis Check
+- **WFC**: flat intraday (-0.32%) ahead of Q3 earnings BMO Oct 13. NII vs $12.3B est is key. Thesis (earnings beat momentum, financials sector) INTACT.
+- **JPM**: +0.47% intraday, mild drift up. Q3 earnings BMO Oct 13 (8-beat streak, Polymarket 91% beat prob). Thesis INTACT.
+- **NVDA frac**: -1.25% intraday (sector consolidation); +13.30% from entry; AI demand thesis unchanged. INTACT.
+- **BE dust**: -7.11% intraday — noted; $97 notional, immaterial. No research needed.
+- No positions cut on thesis grounds.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $76.2596 (10% trail, f49e711e, HWM $84.733) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $302.706 (10% trail, ca91a9c8, HWM $336.34) | $393.88 | 2.0:1 |
+
+- No action taken — no ClickUp notification sent
+- Watch: JPM + WFC earnings BMO Oct 13; CPI Oct 14 8:30 AM ET; NVDA +15% trigger $229.81
