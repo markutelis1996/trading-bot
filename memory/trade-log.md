@@ -12142,6 +12142,21 @@ Clean. GTC stops: WFC f49e711e (stop $75.6495, HWM $84.055); JPM ca91a9c8 (stop 
 
 **Notes:** No trades today; week closes at 1/3 slots used (JPM Oct 8). Both core positions closed green: WFC +1.83%, JPM +0.47% — financials firming ahead of Q3 earnings. WFC stop auto-trailed to HWM $84.055, stop $75.6495; JPM stop at HWM $333.54, stop $300.19. NVDA frac at +14.74%, just below +15% tighten trigger ($229.81); fractional prevents integer stop regardless. XOM skipped at open (ask $176.72 = +11.9% gap, 11% spread — anomalous) — re-evaluate Mon if normalized. Cash dropped $25,130 → $23,413 ($1,716 crypto DCA). Stock deployment only 26.5% vs 75-85% target. Key events: JPM Q3 earnings Oct 13 BMO, WFC Q3 earnings Oct 14 BMO, CPI Oct 14 8:30 AM ET. Summary run Oct 10 (Saturday) for Oct 9 trading session.
 
+---
+
+### Oct 12 - EOD Snapshot (Day 124, Monday)
+**Portfolio:** $114,584.35 | **Cash:** $21,697.91 (18.9%) | **Day P&L:** +$322.57 (+0.28%) | **Phase P&L:** +$104,584.35 (+1045.84%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 | $78.38 | $83.40 | -$0.15 (-0.18%) | +$746.07 (+6.40%) | $76.260 (10% trail, HWM $84.733, f49e711e) |
+| JPM | 52.620 | $328.23 | $334.65 | +$1.66 (+0.50%) | +$337.93 (+1.96%) | $302.706 (10% trail, HWM $336.34, ca91a9c8) |
+| NVDA frac | 1.192 | $199.83 | $226.20 | -$3.08 (-1.34%) | +$31.42 (+13.19%) | none (fractional) |
+| INTC dust | 0.163 | $106.51 | $101.33 | -$3.37 (-3.22%) | -$0.84 (-4.86%) | none |
+| BE dust | 0.371 | $273.52 | $262.42 | -$18.08 (-6.44%) | -$4.11 (-4.06%) | none |
+
+**Notes:** No trades today; 1 trade this week (JPM Oct 8). Reconciliation clean — all positions match broker. Both core positions: WFC +6.40% unrealized (slight intraday dip -0.18%), JPM +1.96% (+0.50% intraday). Trailing stops auto-trailed up: WFC HWM $84.733 (stop $76.260), JPM HWM $336.34 (stop $302.706). NVDA frac slipped to +13.19% — below +15% tighten trigger ($229.81) again; no integer stop possible regardless. CRITICAL: JPM earnings tomorrow Oct 13 BMO, WFC earnings Oct 14 BMO — binary gap risk; stops provide downside protection. BE dust -6.44% intraday (immaterial, MV $97). Stock deployment 26.5% vs 75-85% target; 2 trade slots open this week.
+
 ## 2026-10-12 - Midday Scan
 
 **Portfolio:** ~$115K equity | **Cash:** ~$25,130 | **Positions:** 2 core + 3 dust
