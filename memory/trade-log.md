@@ -12292,3 +12292,62 @@ Clean — all qtys match midday scan. GTC stops active: WFC f49e711e (HWM $84.73
 
 - Watch: WFC Q3 earnings Oct 14 BMO; CPI Oct 14 8:30 AM ET; XOM post-CPI if spread normalizes; NVDA +15% trigger $229.81
 - No notification sent (no trades)
+
+---
+
+## 2026-10-13 - Midday Scan (Day 125)
+
+**Portfolio:** ~$115K | **Cash:** ~$21,698 | **Positions:** 2 core + 3 dust
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| INTC dust | 0.163 | 0.162614 | ✓ |
+| BE dust | 0.371 | 0.370576 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+**GTC Stop Update (live broker):**
+- JPM ca91a9c8: HWM auto-trailed **$341.90→$344.355**, stop **$307.71→$309.9195** (gap-up on Q3 earnings)
+- WFC f49e711e: HWM $84.7329, stop $76.2596 — unchanged (price below HWM today)
+
+Clean. No discrepancies.
+
+### Earnings Results (BMO Oct 13 — both reported today)
+**WFC Q3 2026:** EPS $1.87 ✓ BEAT (+13% YoY vs $1.85 est); Revenue $21.87B ✗ MISS (-$440M vs $22.15B est). NII guidance maintained (not raised). Capital markets/trading revenue -21% YoY; CFO cited trading slowdown in final weeks of September. Consumer Banking +5% (beat). Stock -1.76% intraday.
+
+**JPM Q3 2026:** EPS $5.57 vs $5.93 est (slight miss); Revenue ~$50.9B, CIB +14%, IB fees +14%, AUM $5.2T (+13% YoY). Broad-based strength. HWM $344.355 confirmed (gap-up at open, settled back).
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | Action |
+|--------|--------|-------|---------|------|----------|------|--------|
+| WFC | 148.619 (148 stop) | $78.38 | $81.85 | +4.43% | -1.76% | $76.2596 (10% trail, f49e711e, HWM $84.7329) | HOLD |
+| JPM | 52.620 (52 stop) | $328.23 | $335.305 | +2.16% | +0.30% | $309.9195 (10% trail, ca91a9c8, HWM $344.355) | HOLD |
+| NVDA frac | 1.192 | $199.83 | $226.855 | +13.52% | +0.24% | none (fractional) | HOLD — +15% trigger $229.81 |
+| INTC dust | 0.163 | $106.51 | $102.07 | -4.17% | +0.71% | none | Dust |
+| BE dust | 0.371 | $273.52 | $260.30 | -4.84% | -0.76% | none | Dust |
+
+### Step 3 — Cut Losers
+None. All positions above -7% from entry.
+
+### Step 4 — Stop Tighten
+None. WFC +4.43%, JPM +2.16%, NVDA +13.52% — none at +15%/+20% threshold.
+
+### Step 5 — Thesis Check
+- **WFC**: EPS beat confirmed (+13% YoY) but revenue miss on capital markets drag. NII guidance maintained (thesis was NII growth + beat momentum). Consumer banking beat is the core. The miss is non-core (trading, one-time September slowdown). Market reaction contained (-1.76%). Stop at $76.26 protects downside. **THESIS INTACT — partial beat, stop active.**
+- **JPM**: Slight EPS miss vs estimate but broad segment strength (CIB, IB fees, AUM all beat). HWM $344.355 confirms positive initial market reaction. Now settled at $335. **THESIS INTACT.**
+- **NVDA**: AI demand unchanged, no news. **INTACT.**
+
+### Step 6 — Research Addendum
+WFC -1.76% explained fully by earnings reaction (revenue miss on capital markets). Not a broader sector event. CPI tomorrow (Oct 14 8:30 AM ET) remains pending binary — holds across all financials.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $76.2596 (10% trail, f49e711e, HWM $84.7329) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $309.9195 (10% trail, ca91a9c8, HWM $344.355) | $393.88 | 2.0:1 |
+
+- No action taken — no ClickUp notification sent
+- Watch: CPI Oct 14 8:30 AM ET; XOM entry post-CPI if spread normalizes; NVDA +15% trigger $229.81
