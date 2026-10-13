@@ -12351,3 +12351,18 @@ WFC -1.76% explained fully by earnings reaction (revenue miss on capital markets
 
 - No action taken — no ClickUp notification sent
 - Watch: CPI Oct 14 8:30 AM ET; XOM entry post-CPI if spread normalizes; NVDA +15% trigger $229.81
+
+---
+
+### Oct 13 - EOD Snapshot (Day 125, Tuesday)
+**Portfolio:** $113,881 | **Cash:** $21,698 (19.1%) | **Day P&L:** +$570 (+0.50%) | **Phase P&L:** +$103,881 (+1038.81%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $80.75 | -$2.57 (-3.08%) | +$352 (+3.02%) | $76.26 (10% trail, HWM $84.733, f49e711e) |
+| JPM | 52.620 (52 stop) | $328.23 | $331.43 | -$2.87 (-0.86%) | +$169 (+0.98%) | $309.92 (10% trail, HWM $344.355, ca91a9c8) |
+| NVDA frac | 1.192 | $199.83 | $228.52 | +$2.20 (+0.97%) | +$34 (+14.36%) | none (fractional) |
+| INTC dust | 0.163 | $106.51 | $102.71 | +$1.36 (+1.34%) | -$1 (-3.57%) | none |
+| BE dust | 0.371 | $273.52 | $263.45 | +$1.19 (+0.45%) | -$4 (-3.68%) | none |
+
+**Notes:** No trades today; 0/3 used this week. JPM Q3: slight EPS miss ($5.57 vs $5.93 est) offset by broad segment strength (CIB +14%, IB fees +14%, AUM $5.2T); stock -0.86% EOD after gap-up/fade, HWM $344.355 locked in. WFC Q3: EPS beat (+13% YoY, $1.87 vs $1.85 est) but revenue miss (-$440M) on capital markets/trading drag; stock -3.08% EOD. Both core positions remain above entry and above all stop levels; trailing stops intact. NVDA frac +14.36% approaching +15% tighten trigger ($229.81) — watch open tomorrow. CPI Sep 2026 BMO Oct 14 is the next major binary; XOM entry deferred until CPI clears.
