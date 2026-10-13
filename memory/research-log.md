@@ -13733,3 +13733,69 @@ No discrepancies. All stops confirmed: JPM ca91a9c8 (HWM $333.54, stop $300.19),
 **INTC dust / BE dust: HOLD** — immaterial, ignore
 **New entries today: NONE** — earnings binary + CPI tomorrow = wait
 **New entries rest of week: Conditional** — post-JPM/WFC reaction + post-CPI clarity required; XOM energy thesis strongest candidate
+
+### Pre-market Session Update (live run 2026-10-13)
+
+**Account (live broker):**
+- Equity: $114,893.30 | Cash: $21,697.91 (18.9%) | Long MV: $93,195.39
+- Stock deployment: ~$30,230 / $114,893 = 26.3% (crypto excluded per sleeve rules)
+- Phase P&L: +$14,893.30 (+14.89%)
+- Trades this week: 0/7
+
+**Reconciliation (CONFIRMED CLEAN vs live broker):**
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| INTC dust | 0.163 | 0.162614 | ✓ |
+| BE dust | 0.371 | 0.370576 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+**GTC Stop Confirmation (live broker orders):**
+- JPM ca91a9c8: stop $302.706, HWM **$336.34** (auto-trailed up from $333.54) ✓
+- WFC f49e711e: stop $76.25961, HWM **$84.733** (auto-trailed up from $84.055) ✓
+
+**Live AH Quotes (Oct 12 8PM ET):**
+| Ticker | AH Bid | AH Ask | Oct 12 Close | Notes |
+|--------|--------|--------|-------------|-------|
+| JPM | $317.23 | — | $334.65 | Wide AH spread; -5.2% vs close; normal pre-earnings AH spread |
+| WFC | $79.38 | $88.20 | $83.90 | ±5% symmetric spread; normal pre-earnings AH |
+| NVDA | $217.26 | $240.24 | $226.20 | Wide AH spread |
+| XOM | $162.36 | — | ~$158-160 | AH bid above close; Energy momentum continues |
+
+**Market context (refreshed):**
+- WTI: ~$93/bbl (Oct 12 AH), Brent: ~$106/bbl — elevated, +2% day
+- S&P 500 ES futures: ~7,854 (-0.05% overnight) — flat pre-market
+- NQ: ~30,847 (-0.17%) — flat
+- VIX: 15.21 (Oct 12 close) — calm zone, 33rd percentile
+- 10Y yield: 5.226%, 2Y: 4.789% — elevated but stable
+- Gold: $4,189/oz (record highs continue)
+- Q3 2026 earnings season: estimated 29.6% YoY growth (3rd consecutive 25%+ quarter)
+
+**Earnings detail (no actual results available yet — due 7:00 AM ET):**
+- JPM Q3 est: EPS $5.93, Rev $51.23B | Options implied ±3.6% | 8-beat streak | Range: $321-$345
+- WFC Q3 est: EPS $1.85, Rev $22.15B | Options implied ±4.7% | Range: $79.6-$87.5
+
+**Sector Momentum (YTD Oct 9, 2026):**
+1. Energy (XLE): +50.6% — #1 by large margin
+2. Technology (XLK): +36.9%
+3. Health Care (XLV): +12.5%
+8. Financials (XLF): +1.7% (we hold JPM/WFC)
+- Schwab Oct 2: Energy, Financials, Health Care, Industrials, Materials = More Favored
+
+**Politician signals (last 45 days, whitelist, $25K+ threshold):**
+- Pelosi: Oct 2 filing = REOF XXX LLC (real estate, $500K-$1M) — NOT a qualifying stock buy
+- Tuberville: Last qualifying buys were Jun 2026 SALES of multiple positions — no buys
+- Khanna: May 2026 buys (JPM, ALLY, ACI) — >45 days old, outside window
+- Gottheimer: Oct 8 filing = AMAT SALE ($1K-$15K) — sale, below threshold
+- McCaul, Mast: No qualifying buys found
+- **No new actionable politician signals.**
+
+**XOM thesis (post-binary candidate):**
+- AH bid $162.36 (Oct 12), Oct 12 close est ~$158-160 → live entry zone ~$158-165
+- Live quote needed at open for sizing: stop = price × 0.90, target = price × 1.20
+- Earnings: Oct 30 BMO — safe entry window (17+ days)
+- Catalysts: Energy sector #1 YTD (+50.6%), oil Brent $106, Middle East supply risk, Schwab More Favored
+- **DEFER until: JPM/WFC earnings react AND CPI Oct 14 clears**
+
