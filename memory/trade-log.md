@@ -12238,3 +12238,57 @@ Clean — all qtys match midday scan. GTC stops active: WFC f49e711e (HWM $84.73
 - Trades this week: 0/7
 - Watch: JPM + WFC Q3 earnings Oct 13 BMO; CPI Oct 14 8:30 AM ET; XOM entry post-binaries; NVDA +15% trigger $229.81
 - No notification sent (no trades)
+
+---
+
+## 2026-10-13 - Market-Open Session (Day 125, Monday)
+
+**Portfolio:** $114,596.74 equity | **Cash:** $21,697.91 (18.9%) | **Phase P&L:** +$14,596.74 (+14.60%)
+**Trades this week:** 0/7
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| INTC dust | 0.163 | 0.162614 | ✓ |
+| BE dust | 0.371 | 0.370576 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+**GTC Stop Update (live broker):**
+- JPM ca91a9c8: HWM auto-trailed to **$341.90**, stop **$307.71** (from HWM $336.34 / stop $302.706)
+- WFC f49e711e: HWM $84.7329, stop $76.2596 — unchanged (price below HWM today)
+
+### Live Quotes (Step 1b)
+| Ticker | Bid | Ask | Entry | P&L% | Notes |
+|--------|-----|-----|-------|------|-------|
+| JPM | $339.71 | $357.42 | $328.23 | +3.51% | Wide post-earnings spread; bid confirms position |
+| WFC | $82.59 | $82.82 | $78.38 | +5.37% | Normal spread; down -2.03% today (earnings TMR) |
+| NVDA | $223.56 | $223.61 | $199.83 | +11.88% | $6.25 below +15% tighten trigger |
+| INTC dust | — | — | $106.51 | -6.92% | Approaching -7%; MV $16 |
+| BE dust | — | — | $273.52 | -9.09% | ⚠ PAST -7% rule but MV $92 (immaterial) |
+| XOM | $164.53 | $182.39 | — | — | $17.86 spread (10.5%) — anomalous, skip |
+
+### Step 3 — Rule Checks
+- BE dust -9.09%: past -7% cut rule; MV $92 = 0.08% of portfolio → treating as immaterial dust, consistent with all prior sessions
+- INTC dust -6.92%: not yet at -7%; MV $16 → dust, no action
+- Stock positions (stocks only): WFC + JPM = 2/8 positions ✓
+- XOM quote anomalously wide → do not enter on spread
+
+### Trade Decision
+**NO NEW TRADES.**
+1. WFC Q3 earnings BMO Oct 14 — binary on held position
+2. CPI Sept 2026 at 8:30 AM ET Oct 14 — major macro binary
+3. XOM: anomalous $17.86 quote spread; defer entry until CPI+WFC clear
+4. JPM earnings BEAT (up today, HWM $341.90) — thesis confirmed, hold
+5. Deployment 26.4% vs 75-85% target — underdeploved but no clean entry today
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $76.2596 (10% trail, f49e711e, HWM $84.733) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $307.71 (10% trail, ca91a9c8, HWM $341.90) | $393.88 | 2.0:1 |
+
+- Watch: WFC Q3 earnings Oct 14 BMO; CPI Oct 14 8:30 AM ET; XOM post-CPI if spread normalizes; NVDA +15% trigger $229.81
+- No notification sent (no trades)
