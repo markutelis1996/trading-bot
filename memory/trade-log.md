@@ -12472,3 +12472,18 @@ CLEAN — matches pre-market. No overnight stop fires.
 
 - Trades this week: 1/7 (XOM Oct 14)
 - Dust: NVDA frac 1.192 @ $199.83, INTC dust 0.163 @ $106.51
+
+---
+
+### Oct 14 - EOD Snapshot (Day 126, Wednesday)
+**Portfolio:** $107,298.41 | **Cash:** -$1,773.93 (-1.7%) | **Day P&L:** -$1,462.88 (-1.35%) | **Phase P&L:** +$97,298.41 (+972.98%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $80.90 | +$0.16 (+0.20%) | +$374.52 (+3.22%) | $76.26 (10% trail, HWM $84.733, f49e711e) |
+| JPM | 52.620 (52 stop) | $328.23 | $335.28 | +$3.85 (+1.16%) | +$371.08 (+2.15%) | $309.92 (10% trail, HWM $344.355, ca91a9c8) |
+| XOM | 95 (95 stop) | $177.06 | $177.06 | +$2.98 (+1.71% vs prior close) | $0.00 (+0.00%) | $159.69 (10% trail, HWM $177.43, e2d5740d) |
+| NVDA frac | 1.192 | $199.83 | $221.46 | -$7.06 (-3.09%) | +$25.77 (+10.82%) | none |
+| INTC dust | 0.163 | $106.51 | $98.21 | -$4.60 (-4.47%) | -$1.35 (-7.79%) ⚠️ | none |
+
+**Notes:** Trades today: XOM BUY 95 @ $177.06 (midday, spread normalized); BE dust CUT @ ~$242.17 (-11.46%). Hot CPI (3.7% headline, 2.6% core) drove rate uncertainty but financials held — WFC +0.20%, JPM +1.16%. XOM entered midday as energy inflation hedge; stop $159.69 active. Day P&L -1.35% driven by crypto sleeve decline (BTC -1.87%, ETH -3.02%, SOL -2.94%, LINK -4.07% intraday). Cash negative (-$1,773) on margin after XOM purchase. INTC dust now -7.79% ⚠️ — technically breaches -7% rule; MV $15.97 (immaterial); CUT at tomorrow's open. Three GTC stops active: WFC $76.26, JPM $309.92, XOM $159.69. NVDA frac +10.82%, tighten trigger $229.81 not reached.
