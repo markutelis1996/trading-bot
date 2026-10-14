@@ -12366,3 +12366,70 @@ WFC -1.76% explained fully by earnings reaction (revenue miss on capital markets
 | BE dust | 0.371 | $273.52 | $263.45 | +$1.19 (+0.45%) | -$4 (-3.68%) | none |
 
 **Notes:** No trades today; 0/3 used this week. JPM Q3: slight EPS miss ($5.57 vs $5.93 est) offset by broad segment strength (CIB +14%, IB fees +14%, AUM $5.2T); stock -0.86% EOD after gap-up/fade, HWM $344.355 locked in. WFC Q3: EPS beat (+13% YoY, $1.87 vs $1.85 est) but revenue miss (-$440M) on capital markets/trading drag; stock -3.08% EOD. Both core positions remain above entry and above all stop levels; trailing stops intact. NVDA frac +14.36% approaching +15% tighten trigger ($229.81) — watch open tomorrow. CPI Sep 2026 BMO Oct 14 is the next major binary; XOM entry deferred until CPI clears.
+
+---
+
+## 2026-10-14 - Market-Open Session (Day 126, Wednesday)
+
+**Portfolio:** $107,444.27 equity | **Cash:** $16,550.09 (15.4%) | **Phase P&L:** +$97,444 (+974.44%)**
+**Trades this week:** 0/7
+
+### Step 0 — Reconciliation
+CLEAN — all qtys match last session exactly.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| INTC dust | 0.163 | 0.162614 | ✓ |
+| BE dust | 0.371 | 0.370576 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC Stops confirmed active:
+- WFC f49e711e: 148 shares, 10% trail, stop $76.2596, HWM $84.7329 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.9195, HWM $344.355 ✓
+
+### CPI Sep 2026 Result (8:30 AM ET)
+- Headline: 3.7% YoY (+0.6% MoM) vs 3.6% est — slight ABOVE
+- Core: 2.6% YoY (+0.3% MoM) vs 2.5% est — ABOVE (upside surprise)
+- Driver: Gasoline +9.1% (Hurricane Isaias supply disruption)
+- Assessment: MILDLY HOT — triggers rate-uncertainty headwind for financials
+
+### Earnings Results BMO Oct 14
+| Company | EPS Est | EPS Actual | Rev Est | Rev Actual | Beat/Miss |
+|---------|---------|------------|---------|------------|-----------|
+| MS | $2.91 | $3.03 | $19.95B | $20.34B | BEAT (equities trading +41%) |
+| ASML | — | — | — | — | Not checked (semi equipment; low direct impact) |
+
+### Live Quotes (9:32 AM ET post-auction)
+| Ticker | Bid | Ask | Entry | P&L% | Notes |
+|--------|-----|-----|-------|------|-------|
+| WFC | $79.23 | $79.55 | $78.38 | +1.1% | Normal spread; CPI-day pressure; above entry |
+| JPM | $329.22 | $330.81 | $328.23 | +0.3% | Normalized spread; above entry |
+| NVDA frac | $225.22 | $225.27 | $199.83 | +12.7% | Tighten trigger $229.81 not hit |
+| MS | $178.85 | $179.55 | — | — | DOWN from $186.83 close despite beat; hot CPI = rate selloff |
+| XOM | $166.03 | $184.13 | — | — | Spread $18.10 (10.5%) — anomalous, 2nd consecutive session |
+| BE dust | — | $257.43 | $273.52 | -5.88% | Dust — above -7% floor |
+| INTC dust | — | $100.28 | $106.51 | -5.85% | Dust — above -7% floor |
+
+### Step 3 — Rule Checks
+- No dust positions at -7% cut threshold ✓
+- No tighten triggers hit ✓
+- No partial profit triggers (none at +25%) ✓
+
+### Trade Decisions
+**NO NEW TRADES.**
+1. **MS — SKIP**: Pre-market criteria required CPI in-line/cool for financial entry. CPI hot (core 2.6% vs 2.5%). MS opened -3.9% from yesterday despite earnings beat — rate headwind overriding catalyst. Criteria not met.
+2. **XOM — DEFER to midday**: Spread $166/$184 (10.5%) anomalous — same issue as Oct 13. Cannot size reliably. Monitor midday; entry valid if spread normalizes AND price holds $160+.
+3. **WFC/JPM**: Both above entry, stops active. Hot CPI creates modest pressure on financials; both well above stop levels. HOLD.
+4. **NVDA frac**: HOLD. Semi sector facing headwinds (ASML, KOSPI). Tighten trigger not reached.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $76.2596 (10% trail, f49e711e, HWM $84.7329) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $309.9195 (10% trail, ca91a9c8, HWM $344.355) | $393.88 | 2.0:1 |
+
+- Trades this week: 0/7
+- Watch: XOM midday if spread normalizes; MS requires cool/flat CPI next reading before re-entry; NVDA tighten trigger $229.81
+- No trades placed — no ClickUp notification sent
