@@ -13912,3 +13912,27 @@ GTC Stops confirmed active:
 - **New entries today: CONDITIONAL** — CPI 8:30 AM ET is the gate; XOM strongest candidate post-CPI; MS on earnings beat also watchable; no entry pre-CPI
 - **Next session (market-open):** Get live XOM/MS quotes; evaluate CPI reaction; size and enter if setups confirm
 
+---
+
+## 2026-10-14 - Midday Addendum
+
+### Actions Taken
+1. **BE CUT** — reached -11.46% intraday (entry $273.52, exit ~$242.17). Cut per -7% rule. Realized P&L ~-$11.62.
+2. **XOM ENTERED** — spread normalized to $177.07/$177.25 (0.10%) vs anomalous $166/$184 at open. CPI hot (3.7% / core 2.6%) = inflationary tailwind for energy. Price $177.06 well above $160 gate. Entered 95 shares @ $177.06; 10% trailing stop placed (e2d5740d, stop $159.37, HWM $177.08); target $212.47 (+20%).
+
+### Live Quotes (midday ~1 PM ET)
+| Ticker | Bid | Ask | P&L% | Notes |
+|--------|-----|-----|------|-------|
+| XOM | $177.07 | $177.25 | — | Fill $177.06; spread normal; +1.7% from yesterday |
+| NVDA | $222.76 | $222.79 | +11.40% | Down -2.58% intraday; semi weakness (ASML); below tighten trigger |
+| WFC | $79.93 | $79.96 | +1.88% | Stable; stop tracking via broker |
+| JPM | $331.80 | $334.32 | +1.75% | Wider spread intraday but normal for JPM |
+
+### MS Decision (Step 6)
+- MS beat EPS ($3.03 vs $2.91) but opened DOWN due to hot CPI / rate concerns — confirmed skip from market-open session. No entry.
+
+### XOM Thesis
+- Energy #1 sector YTD; Brent $106/bbl elevated (Hurricane Isaias); hot CPI reinforces inflation-hedge thesis
+- Earnings Oct 30 BMO → 16-day holding window before binary event
+- Stop: $159.37 (10% trail) — protects against reversal if oil drops sharply
+

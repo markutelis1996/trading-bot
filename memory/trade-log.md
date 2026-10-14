@@ -12433,3 +12433,42 @@ GTC Stops confirmed active:
 - Trades this week: 0/7
 - Watch: XOM midday if spread normalizes; MS requires cool/flat CPI next reading before re-entry; NVDA tighten trigger $229.81
 - No trades placed — no ClickUp notification sent
+
+---
+
+## 2026-10-14 - Midday Scan
+
+**Portfolio:** ~$114,000 | **Cash:** ~$5,000 est | **Positions:** 4 stocks (+ 2 dust)
+
+### Reconciliation
+CLEAN — matches pre-market. No overnight stop fires.
+
+### Actions
+
+#### CUT: BE (dust) — -11.46%
+- Entry $273.52, exit ~$242.17 (market order 17:01 UTC)
+- Shares: 0.370576 | Realized P&L: ~-$11.62 | Reason: cut at -7% per rule
+- No trailing stop to cancel (dust had none)
+
+#### NEW ENTRY: XOM
+| # | Date | Ticker | Side | Shares | Entry | Stop | Target | R:R | Thesis |
+|---|------|--------|------|--------|-------|------|--------|-----|--------|
+| 1 | 2026-10-14 | XOM | BUY | 95 | $177.06 | $159.37 (10% trail, e2d5740d, HWM $177.08) | $212.47 | 2.0:1 | Energy #1 sector YTD (+42-51%); Brent $106/bbl (Hurricane Isaias); hot CPI = inflation hedge; Schwab "More Favored"; Oct 30 BMO earnings (16-day window); spread normalized at open after anomalous AH spread |
+
+#### HOLD decisions
+| Ticker | P&L% | Status |
+|--------|------|--------|
+| WFC | +1.88% | HOLD — stop f49e711e active; CPI-day pressure absorbed |
+| JPM | +1.75% | HOLD — stop ca91a9c8 active; thesis intact |
+| NVDA frac | +11.40% | HOLD — below +15% tighten trigger ($229.81); fractional, no stop |
+| INTC dust | -6.64% | HOLD — above -7% floor; dust |
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $76.2596 (10% trail, f49e711e, HWM $84.7329) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $309.9195 (10% trail, ca91a9c8, HWM $344.355) | $393.88 | 2.0:1 |
+| 3 | XOM | 95 | $177.06 | $159.37 (10% trail, e2d5740d, HWM $177.08) | $212.47 | 2.0:1 |
+
+- Trades this week: 1/7 (XOM Oct 14)
+- Dust: NVDA frac 1.192 @ $199.83, INTC dust 0.163 @ $106.51
