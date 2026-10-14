@@ -13799,3 +13799,116 @@ No discrepancies. All stops confirmed: JPM ca91a9c8 (HWM $333.54, stop $300.19),
 - Catalysts: Energy sector #1 YTD (+50.6%), oil Brent $106, Middle East supply risk, Schwab More Favored
 - **DEFER until: JPM/WFC earnings react AND CPI Oct 14 clears**
 
+
+---
+
+## 2026-10-14 - Pre-market Research
+
+### Account Snapshot (live broker)
+- **Equity:** $114,002.18 | **Cash:** $21,697.91 (19.0%) | **Long MV:** $92,304.27
+- **Stock deployment only (ex-crypto):** ~$29,867 / $114,002 = 26.2% ← well below 75-85% target
+- **Crypto sleeve (UNTOUCHABLE):** BTC $28,430 + ETH $15,146 + SOL $9,712 + LINK $9,148 = ~$62,436
+- **Phase P&L:** +$14,002 (+140.02% on $10k start) | Day start: $113,881 → +$121 pre-market
+- **Trades this week:** 0/7 | **No blackout** (mid-Q4, Q-end Dec 25+)
+
+### Reconciliation
+CLEAN — identical to yesterday. All 5 stock positions match broker exactly.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.6188 | ✓ |
+| JPM | 52.620 (52 stop) | 52.6198 | ✓ |
+| NVDA frac | 1.192 | 1.1916 | ✓ |
+| INTC dust | 0.163 | 0.1626 | ✓ |
+| BE dust | 0.371 | 0.3706 | ✓ |
+Crypto (BTC/ETH/SOL/LINK): filtered — DCA sleeve, untouchable.
+
+GTC Stops confirmed active:
+- WFC f49e711e: 148 shares, 10% trail, stop $76.26, HWM $84.73 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.92, HWM $344.355 ✓
+
+### Market Context
+- **WTI:** ~$94-95/bbl | **Brent:** ~$106/bbl (elevated, +0.9% overnight; Hurricane Isaias in Gulf)
+- **S&P 500 E-mini:** ~7,850 (-0.09% from Oct 12 settlement) — essentially flat
+- **VIX:** 15.27 (Oct 13 close); Nov futures 17.50 — calm zone, 33rd percentile; slight forward premium
+- **10Y yield:** ~5.23% elevated | **Gold:** ~$4,183 | **USD/JPY:** 158.38
+- **CPI Sep 2026 @ 8:30 AM ET TODAY (PENDING):** Forecast headline 3.6% (vs 3.4% Aug), core ~2.4%
+- US stocks yesterday: Dow -0.35%, S&P -0.06% on semiconductor weakness; ASML -1.86% (earnings BMO today)
+
+### Earnings Results (Oct 13 BMO — already reported)
+| Company | EPS Est | EPS Actual | Beat/Miss | Revenue | Note |
+|---------|---------|-----------|-----------|---------|------|
+| JPM | $5.93 | $5.57 | MISS | $50.9B +8% YoY | $658M securities loss (-$0.18); adj $5.75 still miss; IB +14%, Equity Mkt +49% |
+| WFC | $1.85-$1.88 | $1.87 | IN-LINE | $21.9B vs $22.15B est | Revenue miss; EPS +13% YoY; loans/deposits +11% |
+| GS | $13.35-$16.42 | $17.01 | BEAT | 2nd-best quarter ever revenue | Strong across IB/trading |
+| Citi | ~$2.80 | $2.85 | BEAT | — | Beat |
+
+### Earnings BMO Today (Oct 14 — results pending)
+| Company | EPS Est | Focus | Risk |
+|---------|---------|-------|------|
+| ASML | $10.84-$12.54 | Semi equipment orders, AI cycle | AH -2.84% to ~$1,669; memory selloff concern |
+| BAC | $1.10-$1.16 | NII, loan growth, credit quality | IB warned slower; 5-for-5 beat streak |
+| MS | $2.93-$3.14 | Wealth mgmt, IB, trading | 8-for-8 beat streak; Q2 beat by 23% |
+| BLK | $14.19-$14.32 | AUM flows, fee revenue | Market-sensitive |
+| FAST | $0.34 | Fasteners/distribution read-through | Low market impact |
+
+### Position Updates
+| Ticker | Shares | Entry | AH Price | P&L% | Stop | HWM | Status |
+|--------|--------|-------|----------|------|------|-----|--------|
+| WFC | 148.619 (148 stop) | $78.38 | ~$80.80 (bid) | +3.1% | $76.26 (10% trail) | $84.73 | HOLD — thesis intact; EPS +13% YoY, loans/deposits +11% |
+| JPM | 52.620 (52 stop) | $328.23 | ~$331.43 (close) | +0.97% | $309.92 (10% trail) | $344.355 | HOLD — thesis intact; slight EPS miss (securities loss, not operational); CIB and IB strong |
+| NVDA frac | 1.192 | $199.83 | ~$228.52 (close) | +14.36% | none (fractional) | — | HOLD — ⚠️ tighten trigger $229.81 VERY CLOSE (only $1.29 away); semi weakness may pull back |
+| INTC dust | 0.163 | $106.51 | ~$102.59 | -3.7% | none | — | IGNORE — dust |
+| BE dust | 0.371 | $273.52 | ~$262.49 | -4.0% | none | — | IGNORE — dust |
+
+### Thesis Check
+- **WFC**: EPS $1.87 beat est $1.85; revenue missed on capital markets drag (consistent with prior session concern); loans +11%, deposits +11% = core banking franchise healthy. -3.08% reaction on miss/yield concerns was a one-day move; stock still well above entry and stop. **INTACT.**
+- **JPM**: EPS $5.57 vs $5.93 est = miss BUT driven by $658M securities loss (-$0.18 adj). Operationally strong: IB fees +14%, Equity Mkts +49%, revenue +8% YoY. Morningstar calls it "Solid Results Despite Capital Markets Softening." Stock at $331-332 well above stop $309.92. **INTACT.**
+- **NVDA frac**: No new adverse news. AI demand unchanged. Semi sector weakness yesterday (semi selloff, ASML -1.86%) could pressure open. Fractional — cannot tighten stop even if trigger hit. **INTACT — MONITOR.**
+
+### Sector Momentum (latest, Oct 2026)
+1. Energy (XLE): +42-51% YTD (#1 by large margin)
+2. Materials (XLB): +15.9%
+3. Industrials (XLI): +12.6%
+4. Health Care (XLV): +10.1%; 3-month momentum strongest (+14%)
+5. Financials (XLF): +5.4% (we hold JPM/WFC; Schwab "More Favored")
+- Week 41 (Oct 5-9): Defensive rotation led (Utilities +3.97%, Staples +3.60%, Energy +2.71%); Tech -0.70%
+- Schwab Oct 2: Energy, Financials, Health Care, Industrials, Materials = "More Favored"
+
+### Politician Signals (45-day window: Aug 30 – Oct 14, $25K+ threshold)
+- **Pelosi**: Last qualifying stock buys = BE/INTC (Jul 24-28, filed Aug 21) — **51+ days old, outside window.** No new qualifying buys.
+- **Khanna**: CHWY 6 trades ~$48K total (Sep 9-28) avg ~$8K each; HD 5 trades ~$89K total (Sep 2–Oct 1) avg ~$18K each; VZ/NEE/PEP ($15-50K) Sep 25; TD $50-100K Sep 30 — all individual trades below $25K minimum or non-qualifying. **No actionable signal.**
+- **Gottheimer**: Sep 25 sold MSFT $750K — SALE, not buy. **No actionable buy signal.**
+- **Tuberville**: No specific qualifying buys found in window.
+- **McCaul, Mast**: No qualifying buys found.
+- **→ No new actionable politician signals.** Consistent with prior 3 sessions.
+
+### Trade Ideas
+**Idea 1: XOM (Energy — post-CPI candidate)**
+- Catalyst: Energy #1 sector YTD; Brent $106/bbl; Hurricane Isaias in Gulf → refining/supply risk; Schwab "More Favored"; Oct 30 BMO earnings → 16-day entry window
+- AH Alpaca bid (Oct 13 8PM): $164.53. MUST verify live quote at market open before entering.
+- Entry (approximate): ~$164-165 | Stop: ~$148 (10% trail) | Target: ~$197 (+20%)
+- R:R: ~2.0:1 | Position size: ~$15k = ~91 shares (at $165)
+- **DEFER: CPI pending. If hot print → financials/rates pressure; XOM may also sell off in risk-off. Enter ONLY after CPI reaction clears and XOM holds above $160.**
+
+**Idea 2: MS (Morgan Stanley — conditional on earnings beat)**
+- Catalyst: 8-for-8 beat streak; Q2 beat +23%; wealth management +AUM tailwind; strong GS print suggests IB/trading conditions supportive
+- Oct 13 close: $186.83. AH quote not available (too wide).
+- Entry: only if Q3 results (due ~7:30 AM ET) beat consensus AND stock gaps positively. Verify quote at open.
+- Need: CPI also in-line or cool to avoid rate-spike selloff on financials
+- **DEFER to market-open session — evaluate actual results first.**
+
+### Risk Factors
+1. **CPI hot print (headline >3.7%, core >2.6%)**: Banks/rate-sensitive selloff; possible JPM/WFC manual cut trigger if -7% breached intraday (not expected given current buffer)
+2. **ASML miss**: Semi equipment demand concerns → NVDA sentiment drag; could pull NVDA below open
+3. **Hurricane Isaias**: Could be a positive for energy (refining disruption = tighter supply) — XOM upside risk
+4. **Semi sector weakness**: KOSPI -6% Oct 13, ASML -2.84% AH, memory stocks weak — NVDA at risk near tighten trigger
+5. **10Y yield at 5.23%**: Sustained high rates pressure banks' bond portfolios and create NII uncertainty
+
+### Decision
+- **WFC: HOLD** — stop f49e711e active; thesis intact post-earnings; above entry
+- **JPM: HOLD** — stop ca91a9c8 active; thesis intact (securities loss non-recurring); above entry
+- **NVDA frac: HOLD** — monitor $229.81 tighten trigger; fractional prevents stop action
+- **INTC dust / BE dust: HOLD** — immaterial
+- **New entries today: CONDITIONAL** — CPI 8:30 AM ET is the gate; XOM strongest candidate post-CPI; MS on earnings beat also watchable; no entry pre-CPI
+- **Next session (market-open):** Get live XOM/MS quotes; evaluate CPI reaction; size and enter if setups confirm
+
