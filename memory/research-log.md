@@ -2,6 +2,107 @@
 
 Daily pre-market research entries will be appended here. Format each entry:
 
+---
+
+## 2026-10-15 - Pre-market Research
+
+### Reconciliation
+CLEAN — all positions match log. No broker discrepancies.
+⚠️ INTC dust at $95.15 vs entry $106.51 = **-10.66%** — exceeds -7% cut rule. CUT AT OPEN.
+GTC stops active: WFC f49e711e ($76.26, HWM $84.73), JPM ca91a9c8 ($309.92, HWM $344.36), XOM e2d5740d ($159.69, HWM $177.43).
+
+### Account Snapshot
+- Portfolio equity: $106,140 (down from $107,298 EOD yesterday)
+- Cash: -$1,773.93 (margin)
+- Long MV: $107,914
+- Buying power (Reg T): $43,320
+- Day trades used: 0/3
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| Brent crude | ~$105.93 (Oct 14) / $104.49 futures (-1.48%) | Hurricane Isaias supply premium fading slightly |
+| WTI crude | ~$95.17 (Oct 14) / $94.19 futures (-0.87%) | Still elevated; geopolitical risk Strait of Hormuz |
+| S&P 500 futures | 5,797.5 +0.32% | Mild risk-on premarket |
+| VIX | 16.87 (Oct 14 Cboe, +10.48% from 15.27 close) | Rising but still "Normal" zone |
+| 10Y yield | 5.099% (-0.091) | Slight relief from yesterday's 5.23% |
+| Gold | $4,155 +1.16% | Strong; inflation hedge bid |
+
+**Today's economic releases (8:30 AM ET):**
+- PPI Sep 2026: est 5.4% YoY / 0.4% MoM (day after hot CPI 3.7%; if also hot → rate-uncertainty headwind)
+- Retail Sales Sep: est +0.3% MoM (prior +1.2%)
+- Jobless Claims: est 200K
+- Philly Fed Manufacturing: est 30.0
+
+**Today's BMO earnings:**
+- TSM Q3 2026: REVENUE BEAT — NT$1.49T actual vs NT$1.46T est ($46.71B, +50% YoY). Conference call at 2:00 AM ET. Positive catalyst for AI semi demand. EPS result not yet confirmed in sources (est was $4.41-4.45/ADR).
+- SCHW Q3: est EPS $1.66-1.70 / rev $7.2B. 92% beat rate (8-for-8 recent quarters). Q2 adj EPS $1.62 beat. Watch: NII tailwinds.
+- USB Q3: est EPS $1.32 / rev $8.0B
+- PNC Q3: est EPS $4.89 (75-80% impact)
+- BNY Q3: est EPS $2.26
+
+**Geopolitical note:** Container ship sank in Strait of Hormuz amid Iran attacks (Oct 14). Positive for energy (supply disruption risk), but Brent futures slightly lower premarket.
+
+### Live Quotes (AH Oct 14, 20:00 ET — wide spreads, use caution)
+| Ticker | AH Bid | AH Ask | Last Close | P&L vs Entry | Notes |
+|--------|--------|--------|------------|--------------|-------|
+| WFC | $76.76 | — | $81.08 | +3.4% | AH bid thin; regular session well above stop $76.26 |
+| JPM | $317.18 | $350.58 | $335.60 | +2.2% | Wide AH spread; regular close above stop $309.92 |
+| XOM | $166.03 | — | $177.72 | +0.4% | AH bid thin; Brent -1.48% premarket minor headwind |
+| NVDA frac | $209.79 | $232.52 | $217.97 | +9.1% | Wide AH; TSM Q3 rev beat supports AI demand thesis |
+| INTC dust | — | $95.15 | $95.15 | -10.66% ⚠️ | CUT AT OPEN per -7% rule |
+
+### Politician Signals (45-day window: Sep 1 – Oct 15, $25K+ threshold)
+- **Pelosi**: Last qualifying buys = BE/INTC Jul 24-28 (filed Aug 21) — **51+ days old, outside window.** No new buys.
+- **Khanna**: WFC BUY $15,001-$50,000 on Sep 17, disclosed ~Oct 9 (22-day lag) — **within window.** Individual trade straddles $25K minimum; treats as borderline qualifying. Also MRVL $1-15K Aug 24 (below minimum). → **WFC buy: secondary confirmation** (we already hold WFC). Not a new entry signal but confirms our existing thesis.
+- **Khanna**: Multiple small buys Sep 11 (TSLA, QCOM, PHM, PEP $15-50K range each; most below $25K individually). TSLA and QCOM straddle minimum but no sector momentum alignment.
+- **McCaul**: Last qualifying buy = NOW ServiceNow ~$15K in May 2026 — **5+ months old, outside window.** No new qualifying buys.
+- **Gottheimer**: NOW ~$15K May 2026 — outside window. MSFT SOLD $750K Sep 25.
+- **Tuberville**: No specific qualifying buys found in window.
+- **Mast**: No qualifying buys found.
+- **→ No actionable NEW politician signals.** Khanna WFC Sep 17 is secondary confirmation of existing WFC position only.
+- **ServiceNow (NOW)**: Khanna + McCaul + Gottheimer bought May 2026 — all individual trades ~$15K (below $25K minimum) AND **outside 45-day window.** NOT actionable.
+
+### Sector Momentum (confirmed Oct 2026)
+1. Energy (XLE): +42-51% YTD (Schwab "More Favored")
+2. Materials (XLB): +15.9% YTD
+3. Health Care (XLV): +10.1-12.5% YTD; 3-month momentum strongest (+14.1%)
+4. Financials (XLF): +5.4% YTD (Schwab "More Favored")
+5. Info Tech (XLK): +36.9% YTD
+- Schwab "More Favored": Energy, Financials, Health Care, Industrials, Materials
+
+### Trade Ideas
+**No new trade ideas today.** Reasoning:
+- PPI pending at 8:30 AM ET: if hot (consistent with yesterday's CPI 3.7%), creates rate-uncertainty headwind for growth and financials
+- No qualifying politician signals to layer with sector momentum
+- 3 solid positions already deployed (WFC, JPM, XOM); NVDA frac as rider
+- Cash negative (-$1,773 on margin); adding new position would increase margin further
+- TSM beat could theoretically support a NVDA add, but NVDA frac is already a dust position; entry at ~$218 requires fresh catalyst beyond semi beat (semi weakness Oct 13-14 indicates sector rotation headwind)
+
+### Rule Checks
+- INTC dust -10.66% ⚠️ → CUT AT OPEN
+- WFC stop $76.26 vs last close $81.08 (+6.3% buffer) ✓ — but Khanna buy Sep 17 confirms
+- JPM stop $309.92 vs $335.60 (+7.9% buffer) ✓
+- XOM stop $159.69 vs $177.72 (+10.1% buffer) ✓ — Brent -1.48% premarket is minor
+- NVDA frac: no stop (fractional). At $218, -7% floor = $185.84 — buffer intact ✓
+- Trades this week: 1/7 (XOM Oct 14)
+- No tighten triggers hit (NVDA tighten at $229.81; AH print ~$210-232 range — monitor at market open)
+
+### Risk Factors
+1. **PPI hot print (8:30 AM ET)**: Second consecutive hot inflation reading → bond yields spike → financials pressure; rate-sensitive stocks sell off
+2. **TSM Q3 guidance**: Revenue beat confirmed but Q4 guidance not found yet; if guidance disappoints, semi sector extends weakness
+3. **VIX up 10.48% to 16.87**: Intraday vol rising; stops could get tapped on whipsaw moves
+4. **Brent -1.48% premarket**: XOM headwind; Strait of Hormuz risk partially offsets
+5. **Margin position**: Cash -$1,773 means a large move against financials could trigger margin call if stops don't execute cleanly
+
+### Decision
+- **INTC dust: CUT AT OPEN** (market order; $15.47 MV)
+- **WFC: HOLD** — stop f49e711e active; Khanna WFC buy Sep 17 secondary confirmation; SCHW/USB/PNC earnings today could lift financials; stop $76.26 has adequate buffer
+- **JPM: HOLD** — stop ca91a9c8 active; thesis intact; 7.9% buffer
+- **XOM: HOLD** — stop e2d5740d active; Brent slight pullback vs elevated baseline; earnings Oct 30 still 15 days out
+- **NVDA frac: HOLD** — TSM beat provides AI demand confirmation; monitor $229.81 tighten trigger at open
+- **New entries: HOLD** — PPI is the gate; no trades before 8:30 AM ET print; re-evaluate at market-open session
+
 ## 2026-06-25 - Pre-market Research
 
 ### Account
@@ -13936,3 +14037,75 @@ GTC Stops confirmed active:
 - Earnings Oct 30 BMO → 16-day holding window before binary event
 - Stop: $159.37 (10% trail) — protects against reversal if oil drops sharply
 
+
+---
+
+## 2026-10-15 - Pre-market Research
+
+### Reconciliation
+CLEAN — all positions match log. No broker discrepancies.
+⚠️ INTC dust at $95.15 vs entry $106.51 = **-10.66%** — exceeds -7% cut rule. CUT AT OPEN.
+GTC stops active: WFC f49e711e ($76.26, HWM $84.73), JPM ca91a9c8 ($309.92, HWM $344.36), XOM e2d5740d ($159.69, HWM $177.43).
+
+### Account Snapshot
+- Portfolio equity: $106,140 (down from $107,298 EOD yesterday)
+- Cash: -$1,773.93 (margin)
+- Long MV: $107,914
+- Buying power (Reg T): $43,320
+- Day trades used: 0/3
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| Brent crude | ~$105.93 (Oct 14) / $104.49 futures (-1.48%) | Hurricane Isaias supply premium fading slightly |
+| WTI crude | ~$95.17 (Oct 14) / $94.19 futures (-0.87%) | Still elevated; geopolitical risk Strait of Hormuz |
+| S&P 500 futures | 5,797.5 +0.32% | Mild risk-on premarket |
+| VIX | 16.87 (Oct 14 Cboe, +10.48% from 15.27 close) | Rising but still "Normal" zone |
+| 10Y yield | 5.099% (-0.091) | Slight relief from yesterday's 5.23% |
+| Gold | $4,155 +1.16% | Strong; inflation hedge bid |
+
+**Today's economic releases (8:30 AM ET):**
+- PPI Sep 2026: est 5.4% YoY / 0.4% MoM (day after hot CPI 3.7%; if also hot → rate-uncertainty headwind)
+- Retail Sales Sep: est +0.3% MoM (prior +1.2%)
+- Jobless Claims: est 200K
+- Philly Fed Manufacturing: est 30.0
+
+**Today's BMO earnings:**
+- TSM Q3 2026: REVENUE BEAT — NT$1.49T actual vs NT$1.46T est ($46.71B, +50% YoY). AI demand confirmed. Positive for NVDA/semi supply chain.
+- SCHW Q3: est EPS $1.66-1.70 / rev $7.2B. 92% beat rate. Watch for NII beat.
+- USB Q3: est EPS $1.32 / rev $8.0B
+- PNC Q3: est EPS $4.89; BNY Q3: est EPS $2.26
+
+**Geopolitical:** Container ship sank in Strait of Hormuz (Oct 14 Iran attacks). Energy supply disruption risk → positive for XOM thesis.
+
+### Live Quotes (AH Oct 14, 20:00 ET)
+| Ticker | AH Bid | Last Close | P&L vs Entry | Notes |
+|--------|--------|------------|--------------|-------|
+| WFC | $76.76 | $81.08 | +3.4% | AH thin; stop $76.26 has $0.50 AH buffer — monitor |
+| JPM | $317.18 | $335.60 | +2.2% | Wide AH spread; stop $309.92 has 7.9% buffer |
+| XOM | $166.03 | $177.72 | +0.4% | AH thin; Brent -1.48% minor headwind |
+| NVDA frac | $209.79 | $217.97 | +9.1% | TSM beat = AI demand positive; tighten trigger $229.81 |
+| INTC dust | — | $95.15 | -10.66% ⚠️ | CUT AT OPEN |
+
+### Politician Signals (45-day window: Sep 1 – Oct 15)
+- **Pelosi**: BE/INTC Jul 24-28 (filed Aug 21) — 51+ days old, outside window. No new buys.
+- **Khanna**: WFC BUY $15-50K on Sep 17 (disclosed ~Oct 9) — within window, straddles $25K min. **Secondary confirmation of existing WFC position only.**
+- **Khanna**: TSLA/QCOM buys Sep 11 ~$15-50K each — below $25K minimum individually; no additional sector momentum alignment.
+- **McCaul/Gottheimer**: NOW buys May 2026 (~$15K each) — outside 45-day window, below minimum. NOT actionable.
+- **Tuberville, Mast**: No qualifying buys found.
+- **→ No new actionable politician signals.**
+
+### Sector Momentum (Oct 2026)
+1. Energy: +42-51% YTD (Schwab "More Favored") ✓
+2. Health Care: +14.1% 3-month momentum (Schwab "More Favored")
+3. Financials: +5.4% YTD (Schwab "More Favored")
+4. Info Tech: +36.9% YTD (but VIX rising + rate pressure headwind)
+
+### Decision
+- **INTC dust: CUT AT OPEN** (market order; $15.47 MV, negligible impact)
+- **WFC: HOLD** — stop active; Khanna WFC buy Sep 17 as secondary confirmation; financial sector earnings wave (SCHW/USB/PNC) could lift
+- **JPM: HOLD** — stop active; 7.9% buffer; thesis intact
+- **XOM: HOLD** — stop active; Brent slight pullback but still elevated at $104+; Strait of Hormuz risk is upside catalyst; Oct 30 earnings 15 days out
+- **NVDA frac: HOLD** — TSM +50% YoY revenue beat confirms AI demand; monitor $229.81 tighten trigger at open
+- **New entries: NONE** — PPI at 8:30 AM ET is the gate; no action before print; no fresh catalysts + politician signals to justify entry; re-evaluate at market-open session
+- Trades this week: 1/7 (XOM Oct 14)
