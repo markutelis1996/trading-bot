@@ -12597,3 +12597,18 @@ GTC stops active (live order check):
 
 - Trades this week: 1/7 (XOM Oct 14)
 - Watch: NVDA tighten trigger $229.81; XOM thesis holds while Brent >$100 and Hormuz risk active
+
+---
+
+### Oct 15 - EOD Snapshot (Day 127, Thursday)
+**Portfolio:** $107,950.46 | **Cash:** -$1,758.94 (-1.6%) | **Day P&L:** +$904.71 (+0.84%) | **Phase P&L:** +$97,950.46 (+979.50%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $82.75 | +$1.85 (+2.29%) | +$649.46 (+5.58%) | $76.26 (10% trail, HWM $84.733, f49e711e) |
+| JPM | 52.620 (52 stop) | $328.23 | $335.53 | +$0.25 (+0.07%) | +$384.24 (+2.22%) | $309.92 (10% trail, HWM $344.355, ca91a9c8) |
+| XOM | 95 (95 stop) | $177.06 | $174.65 | -$2.36 (-1.33%) | -$228.95 (-1.36%) | $160.77 (10% trail, HWM $178.63, e2d5740d) |
+| NVDA frac | 1.192 | $199.83 | $217.23 | -$4.07 (-1.84%) | +$20.73 (+8.71%) | none |
+
+**Notes:** INTC dust cut at open as planned (0.162614 shares @ $92.284, -$2.31 / -13.36%). Day P&L +$904.71 (+0.84%) driven by WFC +2.29% intraday and crypto sleeve uptick (BTC +0.89%, ETH +1.63%, SOL +1.59%, LINK +1.38%). XOM -1.33% as Brent fades hurricane premium; Hormuz disruptions ongoing so energy thesis intact. JPM +0.07% (flat), NVDA frac -1.84% on continued rate-uncertainty headwind. All three GTC stops confirmed active: WFC $76.26 (HWM $84.733), JPM $309.92 (HWM $344.355), XOM $160.77 (HWM $178.63). No new entries today — PPI shock yesterday keeps rate headwind in play. Cash -$1,758.94 on margin (XOM purchase). New-entry slots: 6/7 remaining this week. NFLX/TSM earnings post-close tonight → watch Friday morning for semis catalyst (NVDA tighten trigger $229.81).
+
