@@ -12551,3 +12551,49 @@ Order id: 9f703b33 | Filled: 2026-10-15T13:31:49Z
 - ClickUp notified ✓
 
 ---
+
+---
+
+## 2026-10-15 - Midday Scan
+
+**Portfolio:** ~$107,000 est | **Positions:** 3 stocks (+ 1 dust)
+
+### Step 0 — Reconciliation
+CLEAN — all qtys match market-open session exactly.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| XOM | 95 (95 stop) | 95 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops active (live order check):
+- WFC f49e711e: 148 shares, 10% trail, stop $76.2596, HWM $84.7329 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.9195, HWM $344.355 ✓
+- XOM e2d5740d: 95 shares, 10% trail, stop $160.767, HWM $178.63 ✓
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Stop | Status |
+|--------|--------|-------|---------|------|------|--------|
+| WFC | 148.619 (148 stop) | $78.38 | $82.42 | +5.15% | $76.26 (10% trail, HWM $84.73) | HOLD |
+| JPM | 52.620 (52 stop) | $328.23 | $333.78 | +1.69% | $309.92 (10% trail, HWM $344.36) | HOLD |
+| XOM | 95 (95 stop) | $177.06 | $174.67 | -1.35% | $160.77 (10% trail, HWM $178.63) | HOLD |
+| NVDA frac | 1.192 | $199.83 | $217.20 | +8.69% | none | HOLD |
+
+### Actions
+- No cuts (all above -7% threshold)
+- No stop tightening (none at +15%; NVDA $217.20 < trigger $229.81)
+- Thesis check: WFC/JPM absorbing CPI/PPI headwind well; XOM -1.35% on Brent fading hurricane premium but energy sector still #1 YTD, Hormuz disruptions ongoing; NVDA frac recovering, TSM beat confirms AI demand chain intact
+- No action taken — no ClickUp notification sent
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $76.26 (10% trail, f49e711e, HWM $84.733) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $309.92 (10% trail, ca91a9c8, HWM $344.355) | $393.88 | 2.0:1 |
+| 3 | XOM | 95 (95 stop) | $177.06 | $160.77 (10% trail, e2d5740d, HWM $178.63) | $212.47 | 2.0:1 |
+| Dust | NVDA frac | 1.192 | $199.83 | none | $239.80 | — |
+
+- Trades this week: 1/7 (XOM Oct 14)
+- Watch: NVDA tighten trigger $229.81; XOM thesis holds while Brent >$100 and Hormuz risk active
