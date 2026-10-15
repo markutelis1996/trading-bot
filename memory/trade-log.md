@@ -12487,3 +12487,67 @@ CLEAN — matches pre-market. No overnight stop fires.
 | INTC dust | 0.163 | $106.51 | $98.21 | -$4.60 (-4.47%) | -$1.35 (-7.79%) ⚠️ | none |
 
 **Notes:** Trades today: XOM BUY 95 @ $177.06 (midday, spread normalized); BE dust CUT @ ~$242.17 (-11.46%). Hot CPI (3.7% headline, 2.6% core) drove rate uncertainty but financials held — WFC +0.20%, JPM +1.16%. XOM entered midday as energy inflation hedge; stop $159.69 active. Day P&L -1.35% driven by crypto sleeve decline (BTC -1.87%, ETH -3.02%, SOL -2.94%, LINK -4.07% intraday). Cash negative (-$1,773) on margin after XOM purchase. INTC dust now -7.79% ⚠️ — technically breaches -7% rule; MV $15.97 (immaterial); CUT at tomorrow's open. Three GTC stops active: WFC $76.26, JPM $309.92, XOM $159.69. NVDA frac +10.82%, tighten trigger $229.81 not reached.
+
+## 2026-10-15 - Market-Open Session (Day 127, Thursday)
+
+**Portfolio:** $105,770.55 equity | **Cash:** -$1,758.94 (margin) | **Phase P&L:** +$95,770.55 (+957.71%)**
+**Trades this week:** 1/7 (INTC cut is a close, not a new entry)
+
+### Step 0 — Reconciliation
+CLEAN — all qtys match Oct 14 EOD exactly.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| XOM | 95 | 95 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| INTC dust | 0.163 | 0.162614 | ✓ (to be closed at open) |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC Stops confirmed:
+- WFC f49e711e: 148 shares, 10% trail, stop $76.26, HWM $84.733 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.92, HWM $344.355 ✓
+- XOM e2d5740d: 95 shares, 10% trail, stop $160.77, HWM $178.63 ✓ (HWM updated from $177.43)
+
+### PPI Sep 2026 Result (8:30 AM ET)
+- MoM: +1.3% actual vs +0.6% est — **VERY HOT** (largest MoM advance since Mar 2022)
+- Driver: Gasoline prices soaring (Hurricane Isaias supply disruption)
+- Assessment: Reinforces rate-uncertainty headwind; tech/growth selling off (NVDA -3%, AMD -5.7%); energy/defensives outperforming
+
+### Action: CUT INTC dust at open
+| Date | Ticker | Side | Shares | Entry | Exit | Realized P&L | Reason |
+|------|--------|------|--------|-------|------|--------------|--------|
+| 2026-10-15 | INTC | SELL | 0.162614 | $106.51 | $92.284 | -$2.31 (-13.36%) | -7% cut rule breached (Oct 14 EOD -7.79%); plan mandated CUT AT OPEN |
+
+Order id: 9f703b33 | Filled: 2026-10-15T13:31:49Z
+
+### Live Quotes (9:31 AM ET)
+| Ticker | Ask | Entry | P&L% | Notes |
+|--------|-----|-------|------|-------|
+| WFC | $81.23 | $78.38 | +3.6% | Solid; CPI/PPI headwind absorbed |
+| JPM | $336.28 | $328.23 | +2.5% | Wide AH bid; ask normal; thesis intact |
+| NVDA frac | $214.37 | $199.83 | +7.3% | Tighten trigger $229.81 not hit; tech selloff |
+| XOM | $177.14 | $177.06 | +0.1% | Anomalous spread again; positions price $177.14 |
+
+### Step 3 — Rule Checks
+- No tighten triggers hit (NVDA $214 < $229.81) ✓
+- No partial profit triggers ✓
+- No new entries: PPI very hot → rate headwind; tech selloff; no fresh catalyst ✓
+- Existing positions all well above stops ✓
+
+### Trade Decision
+**NO NEW TRADES.** Hot PPI gate passed = rate uncertainty confirmed; no compelling new setups with valid R:R.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $76.26 (10% trail, f49e711e, HWM $84.733) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $309.92 (10% trail, ca91a9c8, HWM $344.355) | $393.88 | 2.0:1 |
+| 3 | XOM | 95 (95 stop) | $177.06 | $160.77 (10% trail, e2d5740d, HWM $178.63) | $212.47 | 2.0:1 |
+| Dust | NVDA frac | 1.192 | $199.83 | none | $239.80 | — |
+
+- Trades this week: 1/7 (XOM Oct 14); INTC close is a loss cut, not new trade
+- Watch: NVDA tighten trigger $229.81; JPM/WFC at risk if rates spike further on PPI
+- ClickUp notified ✓
+
+---
