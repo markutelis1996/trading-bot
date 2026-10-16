@@ -12612,3 +12612,64 @@ GTC stops active (live order check):
 
 **Notes:** INTC dust cut at open as planned (0.162614 shares @ $92.284, -$2.31 / -13.36%). Day P&L +$904.71 (+0.84%) driven by WFC +2.29% intraday and crypto sleeve uptick (BTC +0.89%, ETH +1.63%, SOL +1.59%, LINK +1.38%). XOM -1.33% as Brent fades hurricane premium; Hormuz disruptions ongoing so energy thesis intact. JPM +0.07% (flat), NVDA frac -1.84% on continued rate-uncertainty headwind. All three GTC stops confirmed active: WFC $76.26 (HWM $84.733), JPM $309.92 (HWM $344.355), XOM $160.77 (HWM $178.63). No new entries today — PPI shock yesterday keeps rate headwind in play. Cash -$1,758.94 on margin (XOM purchase). New-entry slots: 6/7 remaining this week. NFLX/TSM earnings post-close tonight → watch Friday morning for semis catalyst (NVDA tighten trigger $229.81).
 
+
+## 2026-10-16 - Market-Open Session (Day 128, Friday)
+
+**Portfolio:** $108,390.33 equity | **Cash:** -$1,758.96 (margin) | **Phase P&L:** +$98,390.33 (+983.90%)**
+**Trades this week:** 1/7 (XOM Oct 14)
+
+### Step 0 — Reconciliation
+CLEAN — all qtys match Oct 15 EOD exactly.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| XOM | 95 (95 stop) | 95 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC Stops confirmed active:
+- WFC f49e711e: 148 shares, 10% trail, stop $76.26, HWM $84.733 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.92, HWM $344.355 ✓
+- XOM e2d5740d: 95 shares, 10% trail, stop $160.77, HWM $178.63 ✓
+
+### Inline Pre-market Research (no 2026-10-16 RESEARCH-LOG entry found)
+- **Market:** S&P futures +0.19%, Nasdaq +0.20% — mild risk-on; tech stocks struggling
+- **TSM Q3 2026 (Oct 15 AMC):** MASSIVE BEAT — Rev $46.72B (+50.9% YoY), net profit +68.7%, Q4 guide $52.3-54.3B raised. BUT shares -2% "sell the news"; NVDA -1.84% Oct 15; semis sector -3.4%
+- **OpenAI revenue miss:** Annualized rev ~$30B vs $50B earlier estimate → AI demand narrative uncertainty, headwind for NVDA/semis
+- **NFLX:** Does NOT report today — earnings Oct 20
+- **Rate environment:** Hot CPI (Oct 13) + hot PPI (Oct 14) = 10Y yield ~5.1%; ongoing headwind for growth/tech
+- **Politician signals:** No new qualifying $25K+ individual stock buys (Khanna $590K Oct buys, no specific actionable signals identified)
+- **Taiwan:** Planning $4B industrial parks in Texas for NVIDIA suppliers (long-term bullish, not near-term catalyst)
+
+### Live Quotes (market open ~9:31 AM ET)
+| Ticker | Ask | Entry | P&L% | Stop | HWM | Status |
+|--------|-----|-------|------|------|-----|--------|
+| WFC | ~$83.90 | $78.38 | +7.0% | $76.26 (10% trail, f49e711e, HWM $84.733) | $84.733 | HOLD |
+| JPM | ~$339.55 | $328.23 | +3.5% | $309.92 (10% trail, ca91a9c8, HWM $344.355) | $344.355 | HOLD |
+| XOM | ~$177.05 | $177.06 | -0.01% | $160.77 (10% trail, e2d5740d, HWM $178.63) | $178.63 | HOLD |
+| NVDA frac | $216.15 | $199.83 | +8.0% | none | — | HOLD |
+
+### Step 3 — Rule Checks
+- No cut triggers (all above -7% floor) ✓
+- No tighten triggers (NVDA $216 < $229.81; WFC < $90.14; JPM < $377.46) ✓
+- No partial profit triggers (WFC < $97.98; JPM < $410.29; XOM < $221.33) ✓
+- HWMs all above current prices → stops not moved ✓
+- New trade ideas: NONE — semis "sell the news" + OpenAI revenue miss + rate headwind = no valid R:R setup
+
+### Trade Decision
+**NO NEW TRADES.** Rate headwind (hot CPI+PPI, 10Y ~5.1%) + AI narrative uncertainty (OpenAI revenue miss) + TSMC "sell the news" selloff → no compelling new entries with adequate catalyst + sector momentum alignment.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $76.26 (10% trail, f49e711e, HWM $84.733) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $309.92 (10% trail, ca91a9c8, HWM $344.355) | $393.88 | 2.0:1 |
+| 3 | XOM | 95 (95 stop) | $177.06 | $160.77 (10% trail, e2d5740d, HWM $178.63) | $212.47 | 2.0:1 |
+| Dust | NVDA frac | 1.192 | $199.83 | none | $239.80 | — |
+
+- Trades this week: 1/7 (XOM Oct 14); 6 new entry slots remaining
+- Watch: NVDA tighten trigger $229.81; NFLX earnings Oct 20 (may open semi/tech catalyst); XOM Oct 30 earnings
+- No ClickUp notification (no trades placed)
+
+---
