@@ -12719,3 +12719,17 @@ GTC stops active (live order check):
 - Watch: NVDA tighten trigger $229.81; NFLX earnings Oct 20; XOM Oct 30 earnings
 
 ---
+
+### Oct 16 - EOD Snapshot (Day 128, Friday)
+**Portfolio:** $107,773.82 | **Cash:** -$1,758.96 (-1.6%) | **Day P&L:** -$176.64 (-0.16%) | **Phase P&L:** +$97,773.82 (+977.74%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $83.87 | +$1.12 (+1.35%) | +$815.92 (+7.00%) | $76.26 (10% trail, HWM $84.733, f49e711e) |
+| JPM | 52.620 (52 stop) | $328.23 | $339.72 | +$4.19 (+1.25%) | +$604.72 (+3.50%) | $309.96 (10% trail, HWM $344.40, ca91a9c8) |
+| XOM | 95 (95 stop) | $177.06 | $178.98 | +$4.33 (+2.48%) | +$182.40 (+1.08%) | $161.24 (10% trail, HWM $179.16, e2d5740d) |
+| NVDA frac | 1.192 | $199.83 | $214.13 | -$3.10 (-1.43%) | +$17.04 (+7.15%) | none |
+
+**Notes:** No trades today; 1/7 used this week (XOM Oct 14). WFC +1.35%, JPM +1.25%, XOM +2.48% all closed green — financials and energy outperformed. NVDA frac -1.43% (continued rate headwind from hot CPI/PPI; TSMC "sell the news" overhang lingers into week close). XOM trailing stop updated: HWM rose to $179.16 today, stop moved to $161.24 (was $160.77). All three GTC stops confirmed active (WFC f49e711e $76.26, JPM ca91a9c8 $309.96, XOM e2d5740d $161.24). Day P&L -$176.64 (-0.16%) driven by crypto sleeve drag (BTC -0.57%, ETH -0.81%, SOL -1.87%, LINK -1.24%) offsetting stock gains. Stock deployment ~44% vs 75-85% target; 6 entry slots remain next week. Watch: NFLX earnings Oct 20 post-close (potential semis/tech catalyst → NVDA tighten trigger $229.81); XOM Oct 30 earnings.
+
+---
