@@ -33,7 +33,7 @@ BEFORE switching to live, REVERT to original conservative rules (commented below
 2. 75-85% deployed
 3. 6-8 positions at a time, max 15% each
 4. 10% trailing stop on every position as a real GTC order — covering INTEGER qty only (Alpaca limitation; see rule 14)
-5. Cut losers at -7% manually
+5. Cut losers at -7% manually — NO exemption for "dust" or "immaterial" positions; small MV does not waive the cut trigger; if it's in the book, the -7% rule applies
 6. Tighten trail: 7% at +15%, 5% at +20% — UNLESS 14-day ATR > 4% of price, then STAY at 7% (high-vol stocks like memory/AI semis whipsaw on 5%)
 7. Never within 3% of current price; never move a stop down
 8. Max 7 new trades per week (was 3 in conservative mode)
