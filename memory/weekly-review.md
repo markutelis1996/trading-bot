@@ -1586,3 +1586,82 @@ New entry this week:
 - Phase P&L: +$14,401 (+14.40%) — maintaining significant lead over benchmark ✓
 
 ---
+
+## Week ending 2026-10-17
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $114,401.01 (Oct 9 EOD) |
+| Ending portfolio | $107,773.82 (Oct 16 EOD) |
+| Week return | -$6,627.19 (-5.79%) |
+| S&P 500 week | -2.0% (7,811.54 → ~7,659) |
+| Bot vs S&P | -3.79% underperformance |
+| Trades | 1 new entry (XOM) / 2 closed (W:0 / L:2 / open:3 stocks + 1 dust) |
+| Win rate | 0% (0/2 closed) |
+| Best trade | WFC +7.00% (open, unrealized) |
+| Worst trade | INTC dust -13.36% (closed) |
+| Profit factor | 0.00 (no closed winners) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| BE dust (0.371sh) | $273.52 | ~$242.17 | -$11.62 | -11.46% | Manual cut Oct 14 midday; held too long as "dust" — reached -11.46% before cut; -7% rule breach |
+| INTC dust (0.163sh) | $106.51 | $92.284 | -$2.31 | -13.36% | Manual cut Oct 15 open; breached -7% at Oct 14 EOD (-7.79%); executed next open per plan |
+
+New entry this week:
+| Ticker | Entry | Date | Shares | Stop | Thesis |
+|--------|-------|------|--------|------|--------|
+| XOM | $177.06 | Oct 14 | 95 (95 stop) | $161.24 (10% trail, e2d5740d, HWM $179.16) | Energy #1 sector YTD (+50%); Brent $106/bbl; Hurricane Isaias supply disruption; hot CPI = inflation hedge; Oct 30 BMO earnings (16-day safe window) |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| WFC | 148.619 (148 stop) | $78.38 | $83.87 | +$815.92 (+7.00%) | $76.26 (10% trail, f49e711e) | $84.733 |
+| JPM | 52.620 (52 stop) | $328.23 | $339.72 | +$604.72 (+3.50%) | $309.96 (10% trail, ca91a9c8) | $344.40 |
+| XOM | 95 (95 stop) | $177.06 | $178.98 | +$182.40 (+1.08%) | $161.24 (10% trail, e2d5740d) | $179.16 |
+| NVDA frac | 1.192 | $199.83 | $214.13 | +$17.04 (+7.15%) | none (fractional) | — |
+
+Stock deployed: ~$47,344 / $107,774 = 43.9% equity | Cash -$1,759 (-1.6%, margin) | Crypto ~$62,199 (57.7%)
+Phase P&L: +$7,773.82 (+7.77% from $100,000)
+
+### What Worked
+- XOM entry Oct 14 two-gate discipline: deferred until CPI print AND spread normalization both confirmed; hot CPI validated inflation-hedge thesis; spread compressed from anomalous 10.5% to 0.10% before fill; +1.08% unrealized by week close
+- JPM/WFC earnings absorbed without panic: JPM EPS miss driven by $658M securities loss (non-recurring), not thesis break; WFC in-line; both held well above entry and stop all week; WFC +7.00% by Friday
+- INTC cut executed per plan: breached -7% Oct 14 EOD, cut at open Oct 15 — plan-in/plan-out with no hesitation
+- GTC trailing stops self-managed correctly: JPM HWM auto-trailed to $344.40; XOM HWM auto-trailed to $179.16 on Friday; zero manual stop intervention required
+- Stock deployment improved: 26.5% → 43.9% with XOM entry; meaningful progress closing multi-week structural deficit
+
+### What Didn't Work
+- Portfolio -5.79% vs S&P -2.0% = -3.79% underperformance; third consecutive week negative vs benchmark
+- Crypto sleeve mid-week crash (Oct 13-14 window): equity dropped $7,152 in one session to $107,444; stock sleeve positive (+$552 net on WFC/JPM/XOM appreciation) entirely overwhelmed by crypto volatility
+- 0/2 closed wins; profit factor 0.00; fourth consecutive week with no realized winning trades
+- BE dust held to -11.46% before cutting — 4.46 ppts beyond the -7% rule; "immaterial MV" exemption informally applied for weeks and finally cost more than the rule would have
+- Hot CPI + hot PPI both above estimates blocked new entries Wed/Thu; only 1 of 7 allowed trades used; rate headwind limiting entry opportunities
+- Stock deployment 43.9% — improved but still well below 75-85% target; 6 entry slots unused
+
+### Key Lessons
+- **Two-gate entry validated**: Requiring both macro data clarity (CPI result) AND liquidity check (spread <0.5%) before entering XOM resulted in a confirmed-thesis, good-fill entry; the two-day spread anomaly was not a quirk — it was a real liquidity signal to respect
+- **Dust exemption is a losing rule**: BE was held for weeks as "immaterial" while losing compound; it was stopped at -11.46% instead of -7.0%; the -$11.62 loss was small but the principle is wrong — the -7% rule applies equally to all positions regardless of MV; no exemption for dust
+- **Consecutive hot inflation prints = sector rotation signal**: CPI +3.7% + PPI +1.3% MoM (largest since Mar 2022) = real rate environment shift; tech/semis in 8-session losing streak; energy/defensives outperforming; adjust sector bias next week accordingly
+- **JPM/WFC earnings resilience validates hold-through-binary with stops**: Both missed/met on EPS with non-operational drivers; stopping out on an earnings binary would have been a mistake; trailing stops let positions run post-binary while capping downside
+
+### Adjustments for Next Week (Oct 20-24)
+- **NFLX earnings Oct 20 AMC**: Not a direct position but watch for AI/streaming infrastructure read-through for NVDA; tighten trigger still $229.81; fractional prevents stop action — only actionable if a new integer-share NVDA entry is added
+- **Deployment target**: 2 new entries by Wed Oct 22 to reach ~65-70% stock deployment; sector priority Energy (XOM already held), Healthcare (XLV More Favored, 0% exposure), Industrials — less rate-sensitive than growth/tech
+- **Rate environment**: 10Y ~5.1%; avoid new long-duration growth plays until CPI/PPI trajectory clarifies; bias toward value + sector momentum (Energy, Healthcare, Financials already More Favored by Schwab)
+- **XOM Oct 30 earnings**: 14-day safe window intact; hold; stop $161.24 protecting; no add ahead of binary
+- **Enforce dust cut rule**: Any position with MV < $100 that reaches -7% → cut AT -7%, not later; zero immateriality exception going forward
+- **Politician signals**: No fresh qualifying signals this week; scan for new 45-day window buys early Mon Oct 20
+
+### Overall Grade: C-
+- -5.79% vs S&P -2.0% = -3.79% underperformance ✗
+- 0/2 closed wins; profit factor 0.00; fourth consecutive week no realized winning trades ✗
+- Crypto sleeve mid-week crash drove headline loss; stock decisions positive (+$552 net) ✓/✗ (positive stock work, bad headline)
+- XOM entry two-gate discipline ✓
+- INTC cut executed per plan ✓; BE held past -7% rule ✗
+- No rule violations on active positions (stops active, no stop moved down, no options) ✓
+- Stock deployment improved 26.5% → 43.9% ✓ (still below 75-85% target ✗)
+- Phase P&L: +$7,773.82 (+7.77%) — positive but declining from +14.40% peak two weeks ago ✗
+
+---
