@@ -14107,5 +14107,140 @@ GTC stops active: WFC f49e711e ($76.26, HWM $84.73), JPM ca91a9c8 ($309.92, HWM 
 - **JPM: HOLD** — stop active; 7.9% buffer; thesis intact
 - **XOM: HOLD** — stop active; Brent slight pullback but still elevated at $104+; Strait of Hormuz risk is upside catalyst; Oct 30 earnings 15 days out
 - **NVDA frac: HOLD** — TSM +50% YoY revenue beat confirms AI demand; monitor $229.81 tighten trigger at open
+
+---
+
+## 2026-10-19 - Pre-market Research (Day 131, Monday)
+
+### Reconciliation
+CLEAN — all positions match Oct 16 EOD exactly.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| XOM | 95 (95 stop) | 95 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops active:
+- WFC f49e711e: 148 shares, 10% trail, stop $76.26, HWM $84.733 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.96, HWM $344.40 ✓
+- XOM e2d5740d: 95 shares, 10% trail, stop $161.24, HWM $179.16 ✓
+
+### Account Snapshot
+- Portfolio equity: $108,352.38
+- Cash: -$1,758.96 (margin)
+- Long MV: $110,111.34
+- RegT buying power: $44,026.92
+- Day trades used: 0/3
+- Stock deployment: ~43.9% ($47,545 / $108,352) — below 75-85% target
+- Trades this week: 0/7
+- Phase P&L: +$98,352.38 (+983.52%)
+
+### Live Broker Positions
+| Ticker | Broker Price | Entry | Unrealized | Stop | HWM |
+|--------|-------------|-------|------------|------|-----|
+| WFC | $83.99 | $78.38 | +7.16% | $76.26 (10% trail, f49e711e) | $84.733 |
+| JPM | $340.36 | $328.23 | +3.70% | $309.96 (10% trail, ca91a9c8) | $344.40 |
+| XOM | $177.82 | $177.06 | +0.43% | $161.24 (10% trail, e2d5740d) | $179.16 |
+| NVDA frac | $218.00 | $199.83 | +9.09% | none | — |
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| Brent crude | ~$108-109 (Oct 18 close) | "Oil edged lower" premarket Oct 19 (Bloomberg) |
+| WTI crude | ~$100-102 (Oct 16 close) | Slight pullback premarket; Hormuz supply risk still elevated |
+| S&P 500 | ~7,694 (Oct 18 CFD +0.45%) | Futures rising premarket after S&P -1.1% Fri (worst week since Jun) |
+| VIX | 16.46 (Oct 15 close); hit 19.99 intraday Oct 16 | Nov '26 futures at 18.75 premarket — elevated; 4-month intraday high Fri |
+| 10Y yield | ~5.1% | Sustained high; FOMC Oct 27-28 (potential hike; Goldman moved to Dec) |
+| Gold | ~$4,187 | Risk hedge still bid |
+| USD/JPY | 157.86 | Dollar firm |
+
+**This week's economic releases:**
+- Mon Oct 19: No major US data; IMF-World Bank Annual Meetings ongoing
+- Tue Oct 20: China LPR (no change exp), EU car registrations
+- Wed Oct 21: Existing Home Sales (est)
+- Thu Oct 22: Jobless Claims; Korean rate decision
+- Fri Oct 23: Flash PMIs
+- **Fed blackout period: no Fed speakers this week**
+
+**Major earnings this week:**
+- Tue Oct 20 BMO: GE Aerospace, GM, RTX, NOC, 3M → industrials/defense catalyst
+- Tue Oct 20 AMC: NFLX, ISRG, UAL, ALK, COF → streaming/airlines
+- Wed Oct 21 BMO: ABT, NEE, CME, T, DHR
+- Wed Oct 21 AMC: TSLA, META, IBM, LRCX, TXN → CRITICAL for tech/AI/semi sentiment
+- Thu Oct 22 BMO: HON, LMT, DOW, CMG
+
+**Macro headwinds from last week:**
+- JPM missed Q3 earnings for first time in 3 years; CEO Dimon warned sticky inflation, forecast higher expenses — financials sector risk
+- BofA $1.2B regulatory penalty hit; WFC revenue up but shares slid
+- S&P -1.1% Fri; VIX jumped to 4-month intraday high; tech slumped
+- Hot CPI (3.7%) + hot PPI (6.3% YoY) = rate uncertainty sustained
+- 84% probability of 25bp hike by FOMC Oct 28 (swap markets)
+
+### Politician Signals (45-day window: Sep 4 – Oct 19, $25K+ threshold)
+- **Pelosi**: Most recent trade Sep 8 REOF XXX LLC (real estate fund, not publicly traded) — NOT actionable. BE/INTC buys Jul 24-28 outside 45-day window. **No qualifying public stock buys.**
+- **McCaul**: Oct 16 disclosures = private equity funds only (CH PE, Blackstone PE, KKR PE, TPG PE — all private/non-listed). NOT actionable for stock trading. No qualifying public stock buys.
+- **Khanna**: Aug 10 SOLD NOW $1-15K (bearish on NOW). Jul 7 BOUGHT NOW $15-50K — outside 45-day window. Sep 30 last recorded trade (content unclear from available data). No public buys ≥$25K in window confirmed.
+- **Gottheimer**: Sep 25 last trade (content unclear). NOW activity throughout year — primarily small trades. No qualifying $25K+ buys in window.
+- **Tuberville**: Last trade Jun 9 (FAST sale) — outside window. No new qualifying buys.
+- **Mast**: No recent activity found in window.
+- **→ NO actionable politician signals this week.** Whitelist entirely quiet on public equities ≥$25K.
+
+### Sector Momentum (Oct 2026 update)
+1. Energy (XLE): Still #1 sector; Schwab "More Favored" as of 10/2/2026; Fidelity "top performer H1 2026 +20.9%"; oil ~$100-109
+2. Health Care (XLV): Schwab "More Favored"; cheap valuations, biotech bright spot
+3. Industrials: Schwab "More Favored"; GE/RTX/NOC earnings Tue
+4. Financials (XLF): Schwab "More Favored" BUT near-term headwind: JPM Q3 miss + expense guide + BofA penalty + rate pressure = sector under stress
+5. Info Tech/Semis: LinkedIn data shows Tech ~-3.4% YTD (rotation out); NVDA -1.43% Fri; TSLA/META/LRCX Wed AMC = binary events
+
+### AH Quotes (Oct 16 AH — stale, pre-earnings use only)
+| Ticker | AH Bid | AH Ask | Notes |
+|--------|--------|--------|-------|
+| GE | $297.36 | $330.58 | Wide AH spread; earnings Tue Oct 20 BMO |
+| NFLX | $67.78 | $73.63 | Wide AH spread; earnings Tue Oct 20 AMC; management shakeup risk |
+| LRCX | $252.13 | N/A | Stale; earnings Wed Oct 21 AMC; semi equipment = AI capex proxy |
+
+### Trade Ideas
+**No new entries today (Monday).** All are conditional on earnings confirmations.
+
+**Idea 1: GE Aerospace — conditional Tue Oct 20 entry**
+- Catalyst: 9+ consecutive quarterly beats; FY2026 guidance raised each Q; airlines "shop visit" engine demand sustained
+- Live price (AH stale): bid $297.36 / ask $330.58 — very wide; need fresh quote Tue pre-market after confirmed beat
+- Entry: verify live quote at Tue open ONLY if BMO confirmed beat + positive guidance
+- Stop: 10% trail below fill; Target: +20% = 2:1 R:R
+- Risk: "sell the news" happened before (Apr entry $298.50 → cut -7%); sector is Industrials (not Energy or Financials where we have open exposure)
+- Status: **CONDITIONAL — evaluate Tue pre-market session**
+
+**Idea 2: LRCX — conditional Thu entry**
+- Catalyst: Lam Research semi equipment = direct AI wafer demand proxy; if beats + raises guide → AI capex cycle alive
+- Live price (AH stale): bid $252.13 (ask unavailable)
+- Entry: verify live quote Thu pre-market ONLY after Wed AMC confirmed beat
+- Stop: 10% trail; Target: +20% = 2:1 R:R
+- Risk: if TSLA/META disappoint Wed, entire tech sector sells off — LRCX beat may not matter
+- Status: **WATCHLIST — conditional on Wed AMC results**
+
+### Rule Checks
+- **-7% cut trigger**: None — all positions above floor (JPM -7% = $305.25 vs $340.36 ✓; WFC -7% = $72.89 vs $83.99 ✓; XOM -7% = $164.57 vs $177.82 ✓; NVDA -7% = $185.84 vs $218 ✓)
+- **+15% tighten trigger**: None (WFC $90.14 ✗; JPM $377.46 ✗; XOM $203.62 ✗; NVDA $229.81 ✗)
+- **+25% partial profit**: None (WFC $97.98; JPM $410.29; XOM $221.33; NVDA $249.79 — all untriggered)
+- **Sector cap**: Financials (WFC + JPM) = ~$30.4K / $108.4K = 28.0% → well under 60% ✓
+- **Trades this week**: 0/7
+
+### Risk Factors
+1. **JPM Q3 miss + expense guide**: First miss in 3 years; Dimon warning = potential financials rotation out; JPM/WFC thesis under pressure from rate narrative
+2. **FOMC Oct 27-28**: 84% probability 25bp hike; Goldman says December, but hot CPI+PPI data = uncertainty; positions into FOMC = binary risk
+3. **VIX at 18-19**: Elevated from 16.46 close; 4-month intraday high Fri = increased stop-hit probability on volatile sessions
+4. **Tech selloff continuing**: NVDA -1.43% Fri; META -3.72% Fri; if TSLA/META/LRCX disappoint Wed → NVDA frac at risk below tighten trigger
+5. **XOM minor headwind**: Oil edged lower premarket; but Hormuz risk and inflation hedge thesis intact until earnings Oct 30
+6. **Earnings binary week**: 4+ mega-cap reports (NFLX, TSLA, META, LRCX) — high whipsaw risk for entire market
+
+### Decision
+- **WFC: HOLD** — stop f49e711e active; 9.2% buffer from current; thesis holds despite JPM miss (different drivers); Khanna Sep 17 secondary conf. still valid
+- **JPM: HOLD** — stop ca91a9c8 active; 9.0% buffer from current; despite Q3 miss, stock held last week above stop; if JPM breaks below $325 on further selling → monitor closely
+- **XOM: HOLD** — stop e2d5740d active; energy sector #1 YTD; Brent $108-109 elevated; earnings Oct 30 approaching (exit plan needed by Oct 28)
+- **NVDA frac: HOLD** — no stop; TSLA/META/LRCX Wed AMC = key sentiment catalyst; tighten trigger $229.81 if AI narrative rebounds
+- **New entries today: NONE** — earnings week binary events + FOMC in 8 days = wait for signal clarity
+- **Watch for Tue morning**: GE beat confirmation → conditional entry; re-evaluate NFLX/LRCX setups mid-week
 - **New entries: NONE** — PPI at 8:30 AM ET is the gate; no action before print; no fresh catalysts + politician signals to justify entry; re-evaluate at market-open session
 - Trades this week: 1/7 (XOM Oct 14)
