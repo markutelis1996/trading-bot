@@ -12783,3 +12783,64 @@ GTC stops active:
 - Trades this week: 0/7
 - Watch: NVDA +15% tighten trigger $229.81; TSLA/META/LRCX results AMC tonight → Oct 22 entry eval; FOMC Oct 27-28; XOM Oct 30 earnings
 
+---
+
+## 2026-10-21 - Midday Scan (Day 133, Tuesday)
+
+**Portfolio:** ~$109,100 est | **Cash:** -$1,759 (margin) | **Positions:** 3 stocks + 1 dust | **Deployed:** ~43%
+
+### Step 0 — Reconciliation
+CLEAN — all qtys match morning session exactly.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| XOM | 95 (95 stop) | 95 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops active (confirmed via orders API):
+- WFC f49e711e: 148 shares, 10% trail, stop $76.26, HWM $84.733 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.96, HWM $344.40 ✓
+- XOM e2d5740d: 95 shares, 10% trail, stop $162.22, HWM $180.24 ✓
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|------|----------|------|-----|--------|
+| WFC | 148.619 (148 stop) | $78.38 | $82.48 | +5.23% | +0.34% | $76.26 (10% trail, f49e711e) | $84.733 | HOLD |
+| JPM | 52.620 (52 stop) | $328.23 | $334.28 | +1.84% | -0.29% | $309.96 (10% trail, ca91a9c8) | $344.40 | HOLD |
+| XOM | 95 (95 stop) | $177.06 | $177.26 | +0.11% | -0.34% | $162.22 (10% trail, e2d5740d) | $180.24 | HOLD |
+| NVDA frac | 1.192 | $199.83 | $221.26 | +10.72% | +2.21% | none | — | HOLD |
+
+### Step 3 — Cuts
+None. All positions above -7% rule.
+
+### Step 4 — Stop Tightening
+- WFC +5.23%: +15% trigger $90.14 — not reached. No action.
+- JPM +1.84%: +15% trigger $377.46 — not reached. No action.
+- XOM +0.11%: +15% trigger $203.62 — not reached. No action.
+- NVDA frac: +10.72%; +15% trigger $229.81 — not reached. No stop possible (fractional). No action.
+
+### Step 5 — Thesis Check
+- **WFC**: +5.23% unrealized, +0.34% intraday. Financials outperforming sector YTD. Thesis INTACT.
+- **JPM**: +1.84% unrealized, -0.29% intraday (minor drift). Thesis INTACT.
+- **XOM**: +0.11% unrealized; pulled back ~1.4% from morning open ($179.89 ask → $177.26). WTI soft intraday (-1% pre-mkt). Hormuz disruption risk ongoing; energy thesis INTACT. Stop $162.22 provides 8.5% cushion.
+- **NVDA frac**: +10.72% unrealized, +2.21% intraday. Dust position (no stop); AI demand thesis unchanged. HOLD.
+
+### Step 6 — Research
+No sharp unexplained moves. XOM -0.34% intraday = oil easing slightly (WTI ~$97.54); not a thesis break. NVDA +2.21% — market pre-positioning ahead of TSLA/META AMC tonight. No Perplexity (key unavailable). No Tavily research needed.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries. Binary event wall (TSLA/META/IBM/LRCX/TXN AMC tonight) + FOMC Oct 27-28 = hold posture.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $76.26 (10% trail, f49e711e, HWM $84.733) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $309.96 (10% trail, ca91a9c8, HWM $344.40) | $393.88 | 2.0:1 |
+| 3 | XOM | 95 (95 stop) | $177.06 | $162.22 (10% trail, e2d5740d, HWM $180.24) | $212.47 | 2.0:1 |
+| Dust | NVDA frac | 1.192 | $199.83 | none | $239.80 | — |
+
+- Trades this week: 0/7
+- Watch: NVDA +15% trigger $229.81 (~3.9% away); TSLA/META AMC tonight → Oct 22 entry eval; FOMC Oct 27-28; XOM Oct 30 earnings
+
