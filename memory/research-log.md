@@ -14244,3 +14244,106 @@ GTC stops active:
 - **Watch for Tue morning**: GE beat confirmation → conditional entry; re-evaluate NFLX/LRCX setups mid-week
 - **New entries: NONE** — PPI at 8:30 AM ET is the gate; no action before print; no fresh catalysts + politician signals to justify entry; re-evaluate at market-open session
 - Trades this week: 1/7 (XOM Oct 14)
+
+---
+
+## 2026-10-21 Pre-Market
+
+### Reconciliation
+| Broker | TRADE-LOG | Status |
+|--------|-----------|--------|
+| WFC 148.619 @ $82.17 | 148.619 entry $78.38 stop $76.26 | MATCH |
+| JPM 52.620 @ $335.50 | 52.620 entry $328.23 stop $309.96 | MATCH |
+| XOM 95 @ $177.29 | 95 entry $177.06 stop $161.24 | MATCH (HWM auto-trailed → stop now $162.22) |
+| NVDA frac 1.192 @ $220.48 | 1.192 no stop | MATCH |
+| Crypto sleeve (BTC/ETH/SOL/LINK) | filtered — crypto_dca.py only | SKIP |
+
+**Status: CLEAN.** XOM HWM auto-trailed from $179.16 → $180.24; stop updated $161.24 → $162.22 (expected behavior). TRADE-LOG stop entry will update at next trade event.
+
+### Account Snapshot
+| Metric | Value |
+|--------|-------|
+| Equity | $108,124.85 |
+| Cash | -$1,758.96 (margin) |
+| Long MV | $109,883.81 |
+| Stock MV (ex-crypto) | ~$46,971 |
+| Deployed % | ~43.4% |
+| Phase P&L | +$98,124.85 (+981.25%) |
+
+Deployed 43.4% — below 75-85% target. Bandwidth exists for 1-2 new positions but binary events today block entries.
+
+### Market Context
+| Indicator | Value | Note |
+|-----------|-------|------|
+| WTI crude | ~$97.54 pre-mkt | -1.01% from $99.54 Oct 20 close |
+| Brent crude | ~$108.40 pre-mkt | -1.05% from $109.51 Oct 20 close |
+| S&P 500 futures | ~flat (-0.04%) | Last close 7,690.73 Oct 19; below 50-day MA |
+| VIX | 17.31 | Declining from 19.99 Oct 16 spike; Normal zone |
+| 10Y yield | ~5.11% | Elevated; pressure on growth names |
+| USD/JPY | ~152.4 | JPY near intervention zone |
+
+**Macro**: No major US data releases today. FOMC Oct 27-28 (47% hike / 53% hold) — blackout window begins; cautious positioning warranted.
+
+**Tonight AMC binary events** (no new entries today):
+- META est. EPS $5.54
+- TSLA est. EPS $0.45
+- TXN est. EPS $2.43 (analog semi indicator — not held)
+- LRCX est. EPS $2.18
+- IBM est. EPS $2.87
+
+**Recent signal**: NFLX Q3 beat ($0.87 vs $0.82 est) but Q4 guidance weak → stock -1.66% Oct 20.
+
+**Sector momentum**:
+- Energy: +55.7% YTD (#1) — XOM holding; oil slightly soft pre-mkt
+- Tech/Semis: +27.9% YTD (#2) — headwinds: OpenAI revenue miss ($30B vs $50B forecast), DeepSeek model update Oct 17, TSMC "sell the news" post-beat
+- Financials: -0.5% YTD — WFC/JPM outperforming sector
+
+### Live Quotes (AH Oct 20 — unreliable; broker last price used)
+| Symbol | Price | Entry | P&L |
+|--------|-------|-------|-----|
+| WFC | $82.17 | $78.38 | +4.84% |
+| JPM | $335.50 | $328.23 | +2.22% |
+| XOM | $177.29 | $177.06 | +0.13% |
+| NVDA | $220.48 | ~$184 (frac) | ~+19.8% |
+
+### Politician Signals (45-day window, $25K+ threshold)
+- Ro Khanna: WFC buys $15-50K on Sept 15 & Sept 17 (filed Oct 9) — BELOW $25K threshold; secondary confirmation only. Already logged Oct 15.
+- No new qualifying signals this cycle.
+
+### Stop Tighten Checks (+15% trigger → 7% trail; +20% → 5% trail)
+| Symbol | Entry | +15% trigger | +20% trigger | Current | Action |
+|--------|-------|--------------|--------------|---------|--------|
+| WFC | $78.38 | $90.14 | $94.06 | $82.17 | None |
+| JPM | $328.23 | $377.46 | $393.88 | $335.50 | None |
+| XOM | $177.06 | $203.62 | $212.47 | $177.29 | None |
+| NVDA | ~$184 (frac) | ~$211.60 | ~$220.80 | $220.48 | Monitor closely — near +20% trigger |
+
+NVDA approaching +20% tighten trigger. Watch intraday; if closes above $220.80, tighten trail to 5% (ATR14 check required first — if ATR14 >4% of price, stay at 7%).
+
+### Trade Ideas
+- **No new entries today.** META/TSLA/TXN/LRCX/IBM all AMC tonight — binary risk blocks entry.
+- Post-AMC watchlist (evaluate Oct 22 pre-market): LRCX if semis re-rate on TXN beat; META if ad spend signals strong Q4 consumer.
+- Deployed 43.4% — room for 1-2 positions once binary events clear and FOMC passes.
+
+### Rule Checks
+- [x] Max 5-6 positions: 4 open (OK)
+- [x] Max 20% per position: all within limits
+- [ ] 75-85% deployed: 43.4% — below target (binary event block valid)
+- [x] Trailing stops live: WFC/JPM/XOM have GTC stops; NVDA frac no stop (known)
+- [x] Sector cap 60%: Financials ~43%, Energy ~16%, Tech ~4% (OK)
+- [x] Trades this week: 0/3
+
+### Risk Factors
+1. FOMC Oct 27-28 — rate decision uncertainty; 10Y at 5.11% elevated
+2. META/TSLA AMC tonight — vol spike risk even in non-held names (sector contagion)
+3. Oil softness: WTI -1% pre-mkt; break below $95 would pressure XOM thesis
+4. NVDA near +20% tighten trigger — may need stop action today
+5. S&P below 50-day MA since Oct 16 — no technical recovery confirmed
+
+### Decision
+**HOLD ALL. No new trades.**
+
+Binary event wall tonight (META/TSLA/TXN/LRCX/IBM AMC) + FOMC next week. No actionable politician signals. NVDA near +20% tighten trigger — monitor intraday. Evaluate fresh entries Oct 22 morning after AMC results digest.
+
+- **New entries: NONE** — binary event wall + FOMC blackout
+- Trades this week: 0/3
