@@ -12858,3 +12858,56 @@ None. No cuts, no stop changes, no new entries. Binary event wall (TSLA/META/IBM
 
 **Notes:** No trades today; 0/7 used this week. Reconciliation clean — all qtys match broker exactly. All three GTC stops confirmed active (WFC $76.26, JPM $309.96, XOM $162.22). Stocks mixed: XOM +0.23% (energy holding), WFC -0.27%, JPM -0.13% (financials slight giveback), NVDA frac -1.42%. Crypto sleeve all red intraday (BTC -0.68%, ETH -0.34%, SOL -0.62%, LINK -0.57%). Day P&L -$316.01 (-0.29%) driven by crypto mark-to-market drag; stock unrealized all positive. Portfolio 43% deployed vs 75-85% target — FOMC Oct 27-28 blackout wall approaching; window to add positions closes ~Oct 24 EOD. Watch Oct 23 pre-market: TSLA/META/IBM/LRCX/TXN AMC results from tonight; NVDA frac +15% trigger at $229.81 (~5% away).
 
+
+---
+
+## 2026-10-22 - Market-Open Session (Day 134, Wednesday)
+
+**Portfolio:** $112,287.13 equity | **Cash:** $3,388.86 | **Long MV:** $108,898.27 | **Deployed:** ~43%
+
+### Step 0 — Reconciliation
+CLEAN — all stock positions match log exactly.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| XOM | 95 (95 stop) | 95 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed active:
+- WFC f49e711e: 148 shares, 10% trail, stop $76.26, HWM $84.733 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.96, HWM $344.40 ✓
+- XOM e2d5740d: 95 shares, 10% trail, stop $162.22, HWM $180.24 ✓ (XOM at $189.19 → stop auto-trailing ~$170.27)
+
+### Live Quotes (market-open)
+| Ticker | Ask | Entry | P&L% | Stop | Status |
+|--------|-----|-------|------|------|--------|
+| WFC | $86.02 | $78.38 | +9.7% | $76.26 (10% trail, f49e711e) | HOLD |
+| JPM | $343.59 | $328.23 | +4.7% | $309.96 (10% trail, ca91a9c8) | HOLD |
+| XOM | $189.19 | $177.06 | +6.85% | $162.22→~$170.27 (auto-trailing) | HOLD |
+| NVDA frac | $217.08 | $199.83 | +8.6% | none | HOLD |
+
+### New Entry Evaluation
+- **LMT**: ask $611.92 vs planned $525-550 = **+15.5% above plan** — >5% rule → SKIP (beat already priced in)
+- **MSFT**: blocked — FOMC Oct 27-28 + earnings Oct 28 binary
+
+### Execution Status
+- Orders placed: 0 (NO TRADES)
+
+### Rule Checks
+- No cut triggers ✓ (WFC +9.7%, JPM +4.7%, XOM +6.85%, NVDA +8.6%)
+- No tighten triggers (WFC $90.14, JPM $377.46, XOM $203.62, NVDA $229.81 — none reached) ✓
+- No partial profit triggers (+25%: WFC $97.98, JPM $410.29, XOM $221.33 — not reached) ✓
+- Trades this week: 0/7 ✓
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $76.26 (10% trail, f49e711e, HWM $84.733) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $309.96 (10% trail, ca91a9c8, HWM $344.40) | $393.88 | 2.0:1 |
+| 3 | XOM | 95 (95 stop) | $177.06 | $162.22→~$170.27 (10% trail, e2d5740d, auto-trailing) | $212.47 | 2.0:1 |
+| Dust | NVDA frac | 1.192 | $199.83 | none | $239.80 | — |
+
+- Trades this week: 0/7
+- Watch: NVDA +15% trigger $229.81 (~5.9% away); FOMC Oct 27-28 blocks new entries after Oct 24 EOD; XOM Oct 30 earnings — exit decision by Oct 28; MSFT (Gottheimer signal) post-FOMC/earnings
