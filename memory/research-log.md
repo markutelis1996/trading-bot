@@ -14347,3 +14347,128 @@ Binary event wall tonight (META/TSLA/TXN/LRCX/IBM AMC) + FOMC next week. No acti
 
 - **New entries: NONE** — binary event wall + FOMC blackout
 - Trades this week: 0/3
+
+---
+
+## 2026-10-22 - Pre-market Research
+
+### Reconciliation
+CLEAN — all stock positions match last log entry exactly.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| XOM | 95 (95 stop) | 95 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed active:
+- WFC f49e711e: 148 shares, 10% trail, stop $76.26, HWM $84.733 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.96, HWM $344.40 ✓
+- XOM e2d5740d: 95 shares, 10% trail, stop $162.22, HWM $180.24 ✓
+
+### Account Snapshot
+| Metric | Value |
+|--------|-------|
+| Equity | $108,061.90 |
+| Cash | -$1,758.96 (margin) |
+| Long MV | $109,820.86 |
+| Stock MV (ex-crypto) | ~$47,049 |
+| Deployed % | ~43.6% |
+| Phase P&L | +$98,061.90 (+980.6%) |
+
+### Market Context
+| Indicator | Value | Note |
+|-----------|-------|------|
+| WTI crude | ~$99/bbl | Bloomberg $99.13 early; firm; +8% 1-month |
+| Brent crude | ~$110/bbl | Bloomberg $110.31 early; strong energy thesis |
+| S&P 500 mini futures | 7,748.25 +13.75 (+0.18%) | Mild risk-on; META beat driving |
+| VIX | 16.68 (Oct 21 close) | -3.64% on Oct 21; declining; Normal zone |
+| 10Y yield | 5.13% | Slightly elevated; pressure on growth |
+| S&P 500 last close | ~7,755 (Oct 21) | Dow +1.02% Oct 20; slight recovery |
+
+**Today's economic releases:**
+- 8:30 AM ET: Initial Jobless Claims (prior: 199K week ending Oct 10; consensus est not yet published)
+- BMO earnings: LMT, PG, AAL, BX (Lockheed call at 8:30 AM ET)
+- AMC earnings: WDC
+
+**FOMC Oct 27-28** — 5 trading sessions away. Rate decision uncertainty: 47% hike / 53% hold per prior data.
+
+### AMC Oct 21 Results (binary wall cleared)
+| Ticker | EPS | vs Est | Rev | vs Est | AH Move | Verdict |
+|--------|-----|--------|-----|--------|---------|---------|
+| META | $7.40 ex-legal | beat $6.54 | $64.6B | beat $63.2B | +2.86-4% | STRONG BEAT; Q4 guide $73-76B; Muse AI 10M+ users |
+| TXN | $2.62 | beat $2.41 | $6.06B (+28% YoY) | beat $5.92B | +1.31% | STRONG BEAT; Q4 guide $5.8-6.3B (beat est $5.73B); industrial/auto demand robust |
+| TSLA | $0.48 | beat $0.45 | $28.05B | beat $27.92B | -2.22% | Muted beat; GAAP op income -56% ($718M); heavy AI/robot spending; Musk AI compute commentary positive for semis |
+| LRCX | $2.20 | beat $2.18 | $8.22B (record) | beat $8.15B | -7.41% | Beat but sold off; profit-taking / valuation concern; semi equipment thesis intact |
+| IBM | — | — | — | — | -4.64% | Likely miss or weak guidance |
+
+**Positive net read:** META + TXN strong beats outweigh LRCX/IBM disappointments. AI demand and industrial/analog semi cycle both confirmed.
+
+### Live Quotes (AH Oct 21 20:00 ET — thin spreads; use as directional only)
+| Symbol | AH Bid | Entry | P&L% (entry) | Stop | Notes |
+|--------|--------|-------|--------------|------|-------|
+| WFC | $78.44 | $78.38 | +0.08% (AH) | $76.26 | AH thin; reg close $82.20; bid likely stale |
+| JPM | $319.54 | $328.23 | -2.6% (AH) | $309.96 | AH concern; reg close $334.77; LRCX/IBM drag on semis/tech; stop has 3.2% buffer from AH bid — MONITOR |
+| XOM | $168.08 | $177.06 | -5.1% (AH) | $162.22 | AH thin; reg close $178.50; oil firm ($99 WTI) → AH bid likely stale/non-representative |
+| NVDA frac | $209.84 | $199.83 | +5.0% (AH) | none | AH thin; reg close $218.41; META/TXN beat = AI tailwind |
+
+⚠️ JPM AH bid $319.54 is only $9.58 (3.1%) above trailing stop $309.96. If tech contagion (LRCX/IBM drag) bleeds into financials at open, monitor JPM closely. Stop is GTC and will execute automatically if triggered.
+
+### Politician Signals (45-day window: Sep 7 – Oct 22, $25K+ threshold)
+- **Gottheimer**: MSFT buy $250K-500K + $500K-1M (Aug 14, disclosed Sep 15, 31-day lag = within window). Combined ~$750K+. ✓ Qualifies (>$25K, within 45 days). Tech sector YTD +36.9% ✓. → **PRIMARY CATALYST ELIGIBLE** under Learning Mode rules. BUT: MSFT reports Oct 28 (same day as FOMC) = binary risk blocks entry now. → **WATCHLIST: post-Oct 28 if MSFT beats + FOMC resolves.**
+- **McCaul**: ISRG/ASML/SPGI/TSEM buys (Aug 7-24, disclosed Oct 16 = 51-70 days lag) → OUTSIDE 45-day window. NOT actionable.
+- **Khanna**: Prior WFC buy Sep 17 already logged. No new qualifying buys found in current window.
+- **Tuberville, Mast**: No qualifying buys found.
+- **→ No actionable new politician signals for today's entries.** Gottheimer MSFT is future watchlist.
+
+### Rule Checks (using regular session closes)
+| Symbol | Entry | Current | P&L% | -7% Cut | +15% Trigger | +20% Trigger | Status |
+|--------|-------|---------|------|---------|--------------|--------------|--------|
+| WFC | $78.38 | $82.20 | +4.87% | $72.89 | $90.14 | $94.06 | HOLD |
+| JPM | $328.23 | $334.77 | +1.99% | $305.25 | $377.46 | $393.88 | HOLD — watch AH |
+| XOM | $177.06 | $178.50 | +0.81% | $164.57 | $203.62 | $212.47 | HOLD |
+| NVDA frac | $199.83 | $218.41 | +9.29% | $185.84 | $229.81 | $239.80 | HOLD — tighten approaching |
+
+No cut triggers. No tighten triggers yet. NVDA at $218.41; +15% trigger $229.81 is 5.2% away — could be reached today on AI sentiment rally from META/TXN beats.
+
+**XOM earnings exit plan:** XOM reports Oct 30 (8 days). Strategy: review and decide Oct 28 (2 sessions before) — hold with stop or exit to avoid binary event. Current P&L +0.81% = minimal gain; energy thesis intact; trailing stop at $162.22 provides ~9% cushion from current price.
+
+### Trade Ideas
+
+**Idea 1: LMT (Lockheed Martin) — CONDITIONAL BMO entry today**
+- Catalyst: Q3 reports BMO Oct 22; analyst consensus $7.48-7.52 EPS, $20.35-20.46B rev (+12% YoY); avg earnings surprise +8.85% (3 of last 4 quarters beat); backlog record $230B (+19% YoY); full-year EPS guidance already raised in Q2
+- Sector: Industrials/Defense — Schwab "More Favored"; geopolitical risk (Iran/Hormuz) supports defense spending
+- Additional context: RTX beat (+11.1% YoY rev, beat by 3.3%) and NOC beat Q3 — peer read-through positive
+- AH quote (unreliable, 8pm ET): bid $519.37 / ask $577.25 — wide spread; need fresh open quote
+- Entry: VERIFY LIVE QUOTE AT OPEN after confirmed beat + guide raise; use market-open session
+  - Estimated range: $525-550 based on prior session; stop 10% trail below fill; target +20% = 2:1 R:R
+  - At $530: stop $477, target $636, R:R 2:1
+- Risk: Single catalyst (no politician signal); rate-sensitive defense spending caps; FOMC in 5 days
+- Sector check: Adding LMT = Industrials. Current sectors: Financials ~28%, Energy ~16%, Tech ~0.2%. Industrials 0% → cap check passes ✓
+- Position size: 15% × $108,062 = $16,209 → at $530/share = 30 shares (integer: 30)
+- **Status: CONDITIONAL — evaluate at market-open session after earnings confirmed**
+
+**Idea 2: MSFT — WATCHLIST only**
+- Gottheimer $750K+ buy (Aug 14, Sep 15 disclosure = within window). Tech sector #2 YTD.
+- BLOCKS: MSFT reports Oct 28 (FOMC day) = maximum binary risk
+- **Enter post-Oct 28 IF: MSFT beats + raises guide + FOMC passes without shock**
+- Live quote (AH): bid $502.43 / ask $556.50 (wide spread; last regular close estimate ~$533)
+
+### Risk Factors
+1. FOMC Oct 27-28 — 47% hike probability; 5-day horizon; rate-sensitive names (JPM, WFC) at risk
+2. LRCX -7.41% AH despite beat — semi equipment profit-taking; could bleed into NVDA/tech at open
+3. JPM AH bid $319.54 — only 3.1% above GTC stop; monitor at open for potential stop execution
+4. XOM Oct 30 earnings — 8 days; need exit decision by Oct 28
+5. NVDA frac +15% trigger $229.81 approaches — stop tighten action may be required today
+6. Cash at -$1,758 (margin) — adding new position increases margin; LMT entry would add ~$16K long MV
+
+### Decision
+- **WFC: HOLD** — stop f49e711e active; 7.2% buffer; Khanna secondary confirmation intact
+- **JPM: HOLD** — stop ca91a9c8 active; 7.4% buffer from reg close; MONITOR open vs AH bid
+- **XOM: HOLD** — stop e2d5740d active; oil firm ($99 WTI); review exit plan Oct 28 before earnings
+- **NVDA frac: HOLD** — no stop (fractional); META + TXN beats = AI tailwind; monitor $229.81 tighten
+- **LMT: CONDITIONAL** — evaluate at market-open session after 8:30 AM call; only enter on beat + raise
+- **MSFT: WATCHLIST** — post-Oct 28; Gottheimer signal valid but FOMC/earnings binary blocks entry
+- **No other new entries** — jobless claims at 8:30 AM is mood gate; FOMC in 5 days
+- Trades this week: 0/7
