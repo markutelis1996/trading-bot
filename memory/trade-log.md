@@ -12844,3 +12844,17 @@ None. No cuts, no stop changes, no new entries. Binary event wall (TSLA/META/IBM
 - Trades this week: 0/7
 - Watch: NVDA +15% trigger $229.81 (~3.9% away); TSLA/META AMC tonight → Oct 22 entry eval; FOMC Oct 27-28; XOM Oct 30 earnings
 
+---
+
+### Oct 22 - EOD Snapshot (Day 134, Wednesday)
+**Portfolio:** $108,061.90 | **Cash:** -$1,758.96 (-1.6%) | **Day P&L:** -$316.01 (-0.29%) | **Phase P&L:** +$98,061.90 (+980.62%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $82.20 | -$0.22 (-0.27%) | +$567.95 (+4.88%) | $76.26 (10% trail, HWM $84.73, f49e711e) |
+| JPM | 52.620 (52 stop) | $328.23 | $334.77 | -$0.42 (-0.13%) | +$344.04 (+1.99%) | $309.96 (10% trail, HWM $344.40, ca91a9c8) |
+| XOM | 95 (95 stop) | $177.06 | $178.50 | +$0.41 (+0.23%) | +$136.80 (+0.81%) | $162.22 (10% trail, HWM $180.24, e2d5740d) |
+| NVDA frac | 1.192 | $199.83 | $218.81 | -$3.16 (-1.42%) | +$22.61 (+9.50%) | none |
+
+**Notes:** No trades today; 0/7 used this week. Reconciliation clean — all qtys match broker exactly. All three GTC stops confirmed active (WFC $76.26, JPM $309.96, XOM $162.22). Stocks mixed: XOM +0.23% (energy holding), WFC -0.27%, JPM -0.13% (financials slight giveback), NVDA frac -1.42%. Crypto sleeve all red intraday (BTC -0.68%, ETH -0.34%, SOL -0.62%, LINK -0.57%). Day P&L -$316.01 (-0.29%) driven by crypto mark-to-market drag; stock unrealized all positive. Portfolio 43% deployed vs 75-85% target — FOMC Oct 27-28 blackout wall approaching; window to add positions closes ~Oct 24 EOD. Watch Oct 23 pre-market: TSLA/META/IBM/LRCX/TXN AMC results from tonight; NVDA frac +15% trigger at $229.81 (~5% away).
+
