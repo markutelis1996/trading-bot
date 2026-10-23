@@ -12846,6 +12846,22 @@ None. No cuts, no stop changes, no new entries. Binary event wall (TSLA/META/IBM
 
 ---
 
+### Oct 22 - EOD Snapshot (Day 134, Wednesday) — CORRECTED
+> Note: An earlier Oct 22 EOD entry was appended before market close using stale pre-market data (Oct 21 prices). This entry reflects actual Oct 22 closes from broker API (lastday_price).
+
+**Portfolio:** $112,703.41 | **Cash:** $3,388.86 (3.0%) | **Day P&L:** -$976.79 (-0.86%) | **Phase P&L:** +$102,703.41 (+1,027.03%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $83.01 | +$0.81 (+0.99%) | +$688.11 (+5.91%) | $76.26 (10% trail, f49e711e, HWM $84.733) |
+| JPM | 52.620 (52 stop) | $328.23 | $336.54 | +$1.77 (+0.53%) | +$437.27 (+2.53%) | $309.96 (10% trail, ca91a9c8, HWM $344.40) |
+| XOM | 95 (95 stop) | $177.06 | $178.23 | -$0.27 (-0.15%) | +$111.15 (+0.66%) | $162.28 (10% trail, e2d5740d, HWM $180.31) |
+| NVDA frac | 1.192 | $199.83 | $212.21 | -$6.60 (-3.02%) | +$14.76 (+6.20%) | none |
+
+**Notes:** No trades today; 0/7 used this week. All three GTC trailing stops confirmed active: WFC $76.26 (f49e711e), JPM $309.96 (ca91a9c8), XOM $162.28 (e2d5740d). Financials (WFC +0.99%, JPM +0.53%) closed slightly higher. XOM -0.15% — intraday spiked toward $189 on defense/energy sector move but faded; Hormuz/energy thesis intact; stop auto-trailed to $162.28 (HWM $180.31). NVDA frac -3.02% on semiconductor rotation (LRCX -7.41% AH noted in midday). Day P&L -$976.79 (-0.86%) driven by crypto sleeve mark-to-market. Reconciliation clean: all 4 broker qtys match log exactly. Deployed 43% ($47,228 stocks / $112,703 total equity). FOMC Oct 27-28 blackout closes new-entry window ~Oct 24 EOD; XOM Oct 30 earnings — exit decision needed by Oct 28.
+
+---
+
 ### Oct 22 - EOD Snapshot (Day 134, Wednesday)
 **Portfolio:** $108,061.90 | **Cash:** -$1,758.96 (-1.6%) | **Day P&L:** -$316.01 (-0.29%) | **Phase P&L:** +$98,061.90 (+980.62%)
 
