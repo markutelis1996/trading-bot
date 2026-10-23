@@ -14472,3 +14472,124 @@ No cut triggers. No tighten triggers yet. NVDA at $218.41; +15% trigger $229.81 
 - **MSFT: WATCHLIST** — post-Oct 28; Gottheimer signal valid but FOMC/earnings binary blocks entry
 - **No other new entries** — jobless claims at 8:30 AM is mood gate; FOMC in 5 days
 - Trades this week: 0/7
+
+---
+
+## 2026-10-23 - Pre-market Research
+
+### Reconciliation
+CLEAN — all stock positions match 2026-10-22 midday log exactly.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| XOM | 95 (95 stop) | 95 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed (orders API):
+- WFC f49e711e: 148 shares, 10% trail, stop $76.26, HWM $84.733 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.96, HWM $344.40 ✓
+- XOM e2d5740d: 95 shares, 10% trail, stop $162.279, HWM $180.31 ✓
+
+### Account Snapshot
+- Portfolio equity: $112,703.41
+- Cash: $3,388.86
+- Long MV: $109,314.55 (includes ~$62K crypto sleeve, untouchable)
+- Stock-only MV: ~$47,300 (~42% of equity)
+- RegT buying power: $54,076
+- Day trades used: 0/3
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | $100.09 +0.62% | Above $100 for first time; Iran/Hormuz risk |
+| Brent crude | $113.71 +0.48% | 5-month high; geopolitical risk premium |
+| S&P 500 futures | ~$7,724 -0.97% | Risk-off; Oct 22 cash close 7,642.66 |
+| Nasdaq 100 futures | -1.63% | AI/semi sector drag |
+| VIX | 19.03 (Oct 22 close, +14.09% on day) | Elevated; FOMC + AI uncertainty |
+| 10Y yield | ~5.10% | Elevated; 24-year high territory |
+| Gold | ~$4,077 | Slight pullback |
+
+**AI/Semi sector**: SOX 8th consecutive down day. LRCX -9.13% premarket (in-line results, profit-taking). META -8% on Oct 22 despite earnings beat (high capex guidance spooked investors). CoreWeave CDS at record high. AI financing concerns weighing on entire complex.
+
+**Today's economic releases (1:45-2:00 PM ET):**
+- S&P Global Manufacturing PMI Flash Oct: prev 55.9, est 55.0
+- S&P Global Services PMI Flash Oct: prev 58.8, est 58.0
+- Michigan Consumer Sentiment Final Oct: prev 48.1, est 46.3 (prelim already 46.3 = 15-year low range; Iran/oil inflation drag)
+
+**Today's BMO earnings:**
+- AXP (American Express) — Khanna bought Sep 15; watch for financial sector sentiment
+- SLB (Schlumberger) — oilfield services; Q3 est $0.62 EPS; beat rate 7/8 quarters; read-through for XOM thesis
+- ITW (Illinois Tool Works), BAH (Booz Allen Hamilton)
+
+**GE Aerospace Q3 (reported Oct 20, already released):** EPS $2.25 vs est $2.01 (+12% beat); rev $13.29B vs $12.88B; raised FY2026 EPS to $8.00-$8.10; raised rev growth to 19-20%. Strong aerospace/industrial sector signal. GE stock -3.67% "sell the news" despite the beat.
+
+### Live Prices (Alpaca broker, Oct 22 close)
+| Ticker | Price | Entry | P&L% | Stop | HWM | Buffer to Stop |
+|--------|-------|-------|------|------|-----|----------------|
+| WFC | $83.24 | $78.38 | +6.20% | $76.26 (10% trail) | $84.733 | 8.4% |
+| JPM | $336.34 | $328.23 | +2.47% | $309.96 (10% trail) | $344.40 | 7.8% |
+| XOM | $178.68 | $177.06 | +0.92% | $162.279 (10% trail) | $180.31 | 9.2% |
+| NVDA frac | $213.84 | $199.83 | +7.01% | none | — | — |
+
+- WFC +15% trigger: $90.14 (not reached)
+- JPM +15% trigger: $377.46 (not reached)
+- XOM +15% trigger: $203.62 (not reached)
+- NVDA +15% trigger: $229.81 (7.5% away)
+
+### Politician Signals
+- **Pelosi**: Last qualifying stock buy = Jul 24-28 (BE, INTC). Sep 8 filing was LLC real estate (non-equity). All equity buys outside 45-day window. No actionable signal.
+- **Gottheimer (MSFT)**: Bought Aug 14 ($750K-$1.5M combined), disclosed Sep 15 (38 days ago = within 45-day window). BLOCKED: MSFT reports Oct 28 (same day as FOMC decision) = maximum binary risk. → **WATCHLIST** — enter post-Oct 28 IF beat + raise + FOMC no shock.
+- **Khanna (WFC)**: Bought Sep 17, disclosed Oct 9 (14 days ago). → **Secondary confirmation, already held** ✓
+- **Khanna (AXP)**: Bought Sep 15, disclosed Oct 9 (14 days ago, $1K-$15K). AXP reports BMO today — secondary positive catalyst watch, but position size too small to be conviction signal.
+- **Tuberville**: No qualifying buys in last 45 days.
+- **Mast, McCaul**: No qualifying buys found.
+- **→ No new actionable politician signals. MSFT watchlist unchanged.**
+
+### Rule Checks
+| Symbol | Entry | Current | P&L% | -7% Cut ($) | +15% Trigger | Status |
+|--------|-------|---------|------|------------|--------------|--------|
+| WFC | $78.38 | $83.24 | +6.20% | $72.89 | $90.14 | HOLD |
+| JPM | $328.23 | $336.34 | +2.47% | $305.25 | $377.46 | HOLD |
+| XOM | $177.06 | $178.68 | +0.92% | $164.57 | $203.62 | HOLD |
+| NVDA frac | $199.83 | $213.84 | +7.01% | $185.84 | $229.81 | HOLD ⚠️ |
+
+No cut triggers. No tighten triggers. All thesis intact.
+
+### XOM Exit Plan (DEADLINE: Oct 28)
+- Earnings Oct 30 (7 days). Must decide by Oct 28 (2 sessions before).
+- Current P&L: +0.92% — minimal gain. Stop $162.279 provides 9.2% downside cushion.
+- Pre-announcement: $4.4B margin earnings lift filed in 8-K (bullish signal). Barclays raised PT to $200 (Oct 19).
+- Q3 est EPS $3.65-$3.80. Q2 was a MISS (-6.38%).
+- Oil at $100/bbl is supportive but stock YTD +51% (much good news priced).
+- Plan: HOLD into Oct 28. If FOMC passes without shock AND oil holds → hold with stop. If FOMC hike (47% probability) → consider exiting at small gain before binary.
+
+### Trade Ideas
+No new entries today.
+
+Conditions blocking new entries:
+1. Market broadly risk-off premarket (S&P -0.97%, Nasdaq -1.63%)
+2. AI/semi sector in extended correction (SOX 8th consecutive down day)
+3. FOMC Oct 27-28: last day for new entries is EOD Oct 24 (tomorrow)
+4. VIX 19.03 elevated; consumer sentiment 46.3 (near 15-year low)
+5. Oil $100+ → inflation pressure → FOMC rate uncertainty
+6. No strong BMO catalyst for sector we want to add
+
+**MSFT setup remains**: Post-Oct 28 entry if MSFT beats + raises guidance + FOMC passes clean. Live quote needed at that time.
+
+### Risk Factors
+1. FOMC Oct 27-28 — rate hike 47% probability; JPM/WFC rate-sensitive
+2. AI sector under extended selling pressure — potential contagion into broader tech
+3. XOM Oct 30 earnings binary — exit decision required Oct 28
+4. Oil at $100 → 10Y yield elevated → equity valuation headwind
+5. Michigan sentiment 46.3 near 15-year low — consumer spending risk for financials
+6. S&P futures -0.97% may gap down financials and energy at open
+
+### Decision
+- **WFC: HOLD** — stop f49e711e active; Khanna secondary confirmation; AXP earnings today could lift financials
+- **JPM: HOLD** — stop ca91a9c8 active; 7.8% buffer; no new adverse fundamental
+- **XOM: HOLD** — stop e2d5740d active; oil $100 supportive; exit decision Oct 28
+- **NVDA frac: HOLD** — no stop; dust position; NVDA relatively resilient vs LRCX; no action available
+- **No new entries today** — risk-off market, FOMC proximity, AI sector headwinds
+- Trades this week: 0/7
