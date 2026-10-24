@@ -1665,3 +1665,77 @@ Phase P&L: +$7,773.82 (+7.77% from $100,000)
 - Phase P&L: +$7,773.82 (+7.77%) — positive but declining from +14.40% peak two weeks ago ✗
 
 ---
+
+## Week ending 2026-10-24
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $107,773.82 (Oct 17 EOD) |
+| Ending portfolio | $111,645.71 (Oct 23 EOD; Oct 24 data pending) |
+| Week return | +$3,871.89 (+3.59%) |
+| S&P 500 week | -0.47% (7,659.44 → 7,623.68, through Thu Oct 23; Oct 24 pending) |
+| Bot vs S&P | +4.06% outperformance (first positive week in 4) |
+| Trades | 0 new entries / 0 closed (W:0 / L:0 / open:3 stocks + 1 dust) |
+| Win rate | N/A (no closed trades; 5th consecutive week without realized win) |
+| Best trade | XOM +3.47% unrealized (+$584, HWM $183.75) |
+| Worst trade | JPM +1.02% unrealized (+$176, weakest gainer) |
+| Profit factor | N/A (no closed trades) |
+
+### Closed Trades
+None this week.
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close | Unrealized | Stop | HWM |
+|--------|--------|-------|-------|------------|------|-----|
+| WFC | 148.619 (148 stop) | $78.38 | $82.39 | +$595.96 (+5.12%) | $76.26 (10% trail, f49e711e) | $84.733 |
+| JPM | 52.620 (52 stop) | $328.23 | $331.58 | +$176.39 (+1.02%) | $309.96 (10% trail, ca91a9c8) | $344.40 |
+| XOM | 95 (95 stop) | $177.06 | $183.21 | +$584.25 (+3.47%) | $165.375 (10% trail, e2d5740d) | $183.75 |
+| NVDA frac | 1.192 | $199.83 | $210.96 | +$13.26 (+5.57%) | none (fractional) | — |
+
+Stock deployed: ~$47,348 / $111,646 = 42.4% equity | Cash $3,389 (3.0%) | Crypto sleeve ~$60,907 (54.6%)
+Phase P&L: +$11,645.71 (+11.65% from $100,000)
+
+### What Worked
+- Portfolio +3.59% vs S&P -0.47% = +4.06% outperformance — first green week vs benchmark in 4 consecutive losing weeks
+- Crypto sleeve recovered sharply: BTC +14.11% from cost basis ($80,613), ETH +9.79%, SOL +13.40%, LINK +11.85%; sleeve drove headline gain after driving losses last two weeks
+- XOM thesis validated by WTI breaking $100/bbl intraday; new HWM $183.75; stop auto-trailed to $165.375 (protecting +$584 gain); energy #1 sector thesis intact
+- Binary event wall discipline: correctly held all cash through TSLA/META/LRCX/TXN AMC (Oct 21) and deferred new entries due to FOMC Oct 27-28 proximity; META -8% post-beat on high capex (AI spending fears) and LRCX -9% on profit-taking validated the no-entry posture
+- FOMC pre-blackout gate enforced correctly: last day for new entries is Oct 24 EOD; week entry slots unspent because risk/reward didn't justify entries ahead of a 47% rate-hike probability
+- WFC +5.12% unrealized; JPM +1.02%; all three stock positions positive, stops intact, no rule violations
+
+### What Didn't Work
+- 0/7 allowed trades used for the 2nd consecutive week (0/7 last week, 1/7 the week before); stock deployment stuck at 42-44% range for 3+ weeks — massively below 75-85% target
+- 5th consecutive week with no realized winning trades; profit factor undefined all month
+- FOMC + binary event wall consumed the entire entry window; only one valid entry window (Oct 24 EOD) but nothing actionable after risk-off pre-market (S&P futures -0.97%, VIX 19, SOX 8-day losing streak)
+- Tech/AI sector extended selloff (META -8%, LRCX -9%, SOX 8th consecutive down day) eliminated semiconductor entries; NVDA frac at +5.57% unprotected with no stop
+- MSFT Gottheimer signal (strongest politician setup in weeks) still blocked by Oct 28 earnings binary; opportunity deferred to next week at minimum
+- Weekly outperformance entirely crypto-driven; stock-only P&L improvement modest
+
+### Key Lessons
+- **Crypto sleeve dominates headline returns in both directions**: Three of the four prior weeks it cost us; this week it rescued us; stock decision-making quality is still invisible behind crypto volatility — positive this week, negative last two
+- **Binary event walls are multiplicative, not additive**: Oct 21 (TSLA/META/LRCX AMC) AND FOMC Oct 27-28 AND XOM Oct 30 AND MSFT Oct 28 AMC stacked inside a single week; every day of the week had a gate that blocked a new entry — this is an unusual concentration, not a systemic failure
+- **WTI $100 breakout validates XOM thesis and stop-trail mechanics**: XOM at +3.47% with HWM auto-ratcheted to $183.75 and stop at $165.375 — this is exactly how the trailing stop system should work; energy sector discipline is paying off
+- **NVDA frac unprotected**: +5.57% unrealized on $251 MV is immaterial, but the structural issue (no stop possible on fractional remainder) persists; if a new integer-lot NVDA position is added post-FOMC, the fraction should be sold off to clean the book
+- **Post-FOMC entry window**: Oct 29-Nov 7 is the cleanest entry window in 3+ weeks — FOMC resolved, XOM binary cleared, MSFT binary cleared; 4+ entry slots available; this must be used to close the deployment deficit
+
+### Adjustments for Next Week (Oct 27-31)
+- **FOMC Oct 27-28**: Hold all positions; no new entries Mon-Tue; wait for decision and press conference; rate hike (47% probability) = risk-off → tight stops; no hike = potential re-entry window Wed Oct 29
+- **XOM Oct 30 earnings**: Decision required by Oct 28 (2 sessions before); current P&L +3.47%; pre-announcement $4.4B margin lift filed + Barclays PT $200; WTI $100 supportive; plan = HOLD with stop ($165.375) into Oct 28 FOMC, then reassess before Oct 30 binary; if FOMC passes clean → hold through earnings with stop as protection
+- **MSFT post-Oct 28**: Gottheimer $750K-$1.5M Aug 14 buy (45-day window closing); MSFT reports Oct 28 AMC; if beat + guidance raise → enter Oct 29 at market; FOMC resolution same day adds uncertainty; require both clean FOMC AND MSFT beat before entry
+- **Deploy 2 positions Oct 29-31**: Target ~65-70% stock deployment; priority sectors: Tech (MSFT if beat), Energy (XOM already held), Healthcare (XLV 0% exposure, still More Favored); avoid new Financial entries (JPM/WFC already max financial exposure)
+- **NVDA frac resolution**: If adding new NVDA integer-lot position post-FOMC, sell fractional dust first to clear the unprotected remainder; otherwise leave as is (MV too small to act on alone)
+- **Politician scans**: Refresh 45-day window after FOMC; Pelosi and Khanna windows still active; check for any new qualifying buys filed Oct 20-24
+
+### Overall Grade: C+
+- +3.59% vs S&P -0.47% = +4.06% outperformance ✓ (first positive week vs benchmark in 4)
+- 0 trades, 0 closed wins; 5th consecutive week no realized winning trade ✗
+- Stock deployment stuck 42.4% — structural deficit 10th+ consecutive week ✗
+- All portfolio gains crypto-sleeve driven; stock-only contribution modest ✗/✓
+- Binary event wall + FOMC gate correctly enforced; no bad entries ✓
+- No rule violations: stops active, no stop moved down, no options, crypto UNTOUCHED ✓
+- XOM energy thesis validated (+3.47%, new HWM $183.75) ✓
+- Phase P&L: +$11,645.71 (+11.65%) — recovering from +7.77% low, back above +10% ✓
+
+---
+---
