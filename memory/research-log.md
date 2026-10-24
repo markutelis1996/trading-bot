@@ -14593,3 +14593,51 @@ Conditions blocking new entries:
 - **NVDA frac: HOLD** — no stop; dust position; NVDA relatively resilient vs LRCX; no action available
 - **No new entries today** — risk-off market, FOMC proximity, AI sector headwinds
 - Trades this week: 0/7
+
+---
+
+## 2026-10-24 - Market-Open Check (Day 136, Friday)
+
+### Reconciliation
+CLEAN — all stock positions match midday Oct 23 log exactly.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| XOM | 95 (95 stop) | 95 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed (orders API):
+- WFC f49e711e: 148 shares, 10% trail, stop $76.260, HWM $84.733 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.96, HWM $344.40 ✓
+- XOM e2d5740d: 95 shares, 10% trail, stop $165.375, HWM $183.75 ✓
+
+### Account Snapshot
+- Portfolio equity: $111,624.24 (vs $112,703 yesterday, -0.96%)
+- Cash: $3,388.86
+- Long MV: $108,235.38
+- Day trades used: 0/3
+
+### Position Status (Oct 23 close prices)
+| Ticker | Price | Entry | P&L% | Stop | Status |
+|--------|-------|-------|------|------|--------|
+| WFC | $82.39 | $78.38 | +5.12% | $76.260 (f49e711e) | HOLD |
+| JPM | $331.58 | $328.23 | +1.02% | $309.96 (ca91a9c8) | HOLD |
+| XOM | $183.21 | $177.06 | +3.47% | $165.375 (e2d5740d) | HOLD |
+| NVDA frac | $210.96 | $199.83 | +5.57% | none | HOLD |
+
+No -7% cuts triggered. No +15% tighten triggers reached.
+
+### Decision
+NO NEW ENTRIES. FOMC Oct 27-28 blackout starts EOD today — no entry after close.
+- No pre-researched catalyst for any ticker
+- Market risk-off (equity -0.96%, AI/semi sector headwinds continue)
+- Oct 23 research: "No new entries today" — conditions unchanged
+- Trades this week: 0/7
+
+### Watches
+- FOMC Oct 27-28: hold all positions; no new entries until after decision
+- XOM Oct 30 earnings: exit decision required by Oct 28 (EOD)
+- NVDA +15% trigger: $229.81 (not reached)
+- MSFT (Gottheimer signal): watchlist — post-FOMC/earnings entry if beats Oct 28
