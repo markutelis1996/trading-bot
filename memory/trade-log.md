@@ -13051,3 +13051,17 @@ None. No cuts, no stop changes, no new entries.
 
 - Trades this week: 0/7
 - Watch: FOMC Oct 27-28 blackout starts EOD today; XOM Oct 30 earnings — exit decision Oct 28; NVDA +15% trigger $229.81; MSFT (Gottheimer) post-FOMC/earnings
+
+---
+
+### Oct 24 - EOD Snapshot (Day 136, Friday)
+**Portfolio:** $111,624.24 | **Cash:** $3,388.86 (3.0%) | **Day P&L:** -$207.11 (-0.19%) | **Phase P&L:** +$101,624.24 (+1,016.24%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $82.39 | $0.00 (0.00%) | +$595.96 (+5.12%) | $76.26 (10% trail, f49e711e, HWM $84.73) |
+| JPM | 52.620 (52 stop) | $328.23 | $331.58 | $0.00 (0.00%) | +$176.39 (+1.02%) | $309.96 (10% trail, ca91a9c8, HWM $344.40) |
+| XOM | 95 (95 stop) | $177.06 | $183.21 | $0.00 (0.00%) | +$584.25 (+3.47%) | $165.38 (10% trail, e2d5740d, HWM $183.75) |
+| NVDA frac | 1.192 | $199.83 | $210.96 | $0.00 (0.00%) | +$13.26 (+5.57%) | none |
+
+**Notes:** No trades today; 0/7 used this week. All GTC trailing stops confirmed active: WFC $76.26 (f49e711e, HWM $84.73), JPM $309.96 (ca91a9c8, HWM $344.40), XOM $165.38 (e2d5740d, HWM $183.75). All stock positions closed flat (0.00%); Day P&L -$207.11 (-0.19%) driven entirely by crypto sleeve MTM (BTC -0.25%, ETH -0.21%, SOL -0.64%, LINK -0.24%). Reconciliation clean. FOMC Oct 27-28 blackout now active — no new entries until post-FOMC. XOM Oct 30 earnings: exit decision required by Oct 28 open. Portfolio 43% deployed vs 75-85% target. Phase P&L +$101,624.24 (+1,016.24%) — account is 10× starting capital.
