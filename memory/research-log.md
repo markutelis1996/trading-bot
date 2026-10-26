@@ -14641,3 +14641,117 @@ NO NEW ENTRIES. FOMC Oct 27-28 blackout starts EOD today — no entry after clos
 - XOM Oct 30 earnings: exit decision required by Oct 28 (EOD)
 - NVDA +15% trigger: $229.81 (not reached)
 - MSFT (Gottheimer signal): watchlist — post-FOMC/earnings entry if beats Oct 28
+
+---
+
+## 2026-10-26 - Pre-market Research
+
+### Reconciliation
+CLEAN — all stock positions match Oct 24 midday log exactly.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| XOM | 95 (95 stop) | 95 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed (orders API):
+- WFC f49e711e: 148 shares, 10% trail, stop $76.260, HWM $84.733 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.96, HWM $344.40 ✓
+- XOM e2d5740d: 95 shares, 10% trail, stop $165.375, HWM $183.75 ✓
+
+### Account Snapshot
+- Portfolio equity: $110,618.45 (vs $111,624 Oct 24 EOD; -$1,006 weekend crypto MTM)
+- Cash: $3,388.86
+- Long MV: $107,229.59 (stocks: ~$47,276; crypto sleeve: ~$59,954)
+- Buying power (Reg T): $54,053.54
+- Day trades used: 0/3
+
+### Live Pre-market Prices (Alpaca positions endpoint)
+| Ticker | Price | vs Oct 24 Close | Entry | P&L% | Stop |
+|--------|-------|-----------------|-------|------|------|
+| WFC | $82.46 | +0.08% | $78.38 | +5.23% | $76.260 (f49e711e, HWM $84.733) |
+| JPM | $331.85 | +0.08% | $328.23 | +1.10% | $309.96 (ca91a9c8, HWM $344.40) |
+| XOM | $182.17 | -0.57% | $177.06 | +2.88% | $165.375 (e2d5740d, HWM $183.75) |
+| NVDA frac | $212.05 | +0.52% | $199.83 | +6.12% | none |
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | ~$101-103/bbl | Oct 23 close ~$103; oil staying above $100; inflation pressure |
+| Brent crude | ~$113-115/bbl | Above $110; geopolitical premium from Iran/Hormuz |
+| S&P 500 futures (ESZ26) | ~7,764 (+0.39%) | Mild premarket bounce from Oct 23 close of 7,659 (-0.58%) |
+| Dow futures | ~52,678 (+0.95%) | Risk-on premarket vs weak Friday close |
+| VIX | 19.45 (Oct 23) | Elevated; VX Oct 28 futures ~19.6 (FOMC day event risk) |
+| 10Y yield | ~4.99% | Near 5%; headwind for financials and high-multiple tech |
+| Gold | ~$3,990 | Inflation hedge bid |
+| USD index | ~101.82 | Firm |
+
+**Today's BMO earnings (Oct 26):**
+- VZ (Verizon): consensus EPS $1.27 vs year-ago $1.21 — not a sector we hold
+
+**This week's key events:**
+- Oct 27 BMO: KO, BA, NVS, FCX, GLW; Oct 27 eco: durable goods, consumer confidence
+- Oct 28: FOMC rate decision (2pm ET); MSFT, GOOGL AMC — peak binary risk
+- Oct 28 EOD: XOM exit decision deadline
+- Oct 30 BMO: XOM earnings (±5.4% implied move)
+- Oct 29 (Thu): Q3 GDP advance estimate
+
+**FOMC (Oct 27-28 meeting, decision Oct 28):**
+- Current rate: 3.75-4.00% (Sep hike was 25bps, unanimous 12-0)
+- 94/100 Reuters economists expect HOLD on Oct 28
+- 100/100 expect December hike — Dec tightening fully priced
+- Base case: HOLD; risk is if inflation surprise pushes hawkish language
+- JPM/WFC rate-sensitive; FOMC HOLD reduces near-term risk to financials
+
+### Politician Signals (45-day window: Sep 11 – Oct 26, $25K+ threshold)
+- **Pelosi**: Last qualifying stock buys = BE/INTC Jul 24-28 (filed Aug 21) — 63-64 days old, OUTSIDE window. Sep 8 filing was real estate LLC, not a stock. **No new signals.**
+- **Gottheimer**: MSFT buy Aug 14 ($750K+ combined) — 73 days old, OUTSIDE window. Oct 7 filing = MCD sell (Sep 25 trade). AMAT sell (Aug trade). Most recent qualifying buy outside window. **No new signals.**
+- **Khanna**: WFC Sep 17 ($15-50K) — 39 days old, INSIDE window, but below $25K minimum (straddles). MSFT Sep 4 ($1-15K) — below minimum. **No new qualifying signals; WFC remains secondary confirmation of existing position.**
+- **Tuberville/McCaul/Mast**: No qualifying buys in window found.
+- **→ No actionable politician signals this week.**
+
+### XOM Earnings Exit Decision (DEADLINE: Oct 28 EOD)
+- Earnings Oct 30 BMO; ±5.4% implied move (vs 3.2% 10-yr avg) — elevated binary
+- Pre-announced 8-K: $4.4B margin/earnings uplift is bullish directional signal
+- Q3 est EPS ~$3.65-$3.80; Q2 was a miss; oil $101-103 supportive
+- Analyst avg PT $179.41 (stock at $182.17 = 1.5% premium to consensus)
+- Barclays raised PT to $200 Oct 19 (bullish); but most are Hold
+- Downside: ±5.4% = $182.17 × 0.946 = ~$172 — ABOVE stop $165.38
+- Tail risk: ±6.8% (95th pct) = ~$170 — still above stop
+- FOMC decision Oct 28: if HOLD (94% probability) → reduced macro headwind → HOLD XOM into earnings
+- **Decision pending Oct 28**: If FOMC HOLD + oil holds → hold XOM through earnings with stop. If FOMC surprise hike → exit at small gain.
+- Current P&L: +$485 (+2.86%); not worth exiting at this gain pre-emptively given 8-K signal
+
+### Trade Ideas
+**No new entries today** (FOMC blackout — no entries from EOD Oct 24 until post-decision Oct 28).
+
+Active constraints blocking entries:
+1. FOMC Oct 27-28 blackout — hard rule until decision Oct 28
+2. VIX 19.45 elevated; 10Y yield ~5%; macro risk-off environment
+3. S&P 500 pulled back from 7,897 all-time high to 7,659 (-3%)
+4. No qualifying politician signals
+5. No strong BMO catalyst for a new entry today (VZ = telecom, not our sectors)
+
+**Post-FOMC watchlist (Oct 28 AMC / Oct 29 morning):**
+1. **MSFT ★★** — Gottheimer MSFT buy Aug 14 ($750K+) is watchlist. Reports Oct 28 AMC. If beat + raised guidance + FOMC HOLD → entry Oct 29. Need live quote at that time.
+2. **GOOGL ★** — Pelosi bought Jan 2026. Reports Oct 28 AMC. If beat → watchlist.
+3. **GEV ★** — Reports Oct 28 BMO. Energy/AI power play (same Pelosi BE thesis). Watch for beat.
+
+### Risk Factors
+1. FOMC Oct 28: HOLD expected but Dec hike priced; any surprise language = volatility spike
+2. XOM Oct 30 binary — ±5.4% implied move; stop $165.38 may not protect gap-down
+3. VIX 19.45 elevated; elevated event risk through Oct 30
+4. 10Y yield ~5.0% headwind for JPM/WFC (rate-sensitive)
+5. MSFT/GOOGL Oct 28 AMC — any miss could drag NVDA and broader tech; contagion risk
+6. Oil $101-103: positive for XOM; inflation pressure on FOMC
+
+### Decision
+- **WFC: HOLD** — stop f49e711e active; no new adverse info; Khanna secondary confirmation
+- **JPM: HOLD** — stop ca91a9c8 active; FOMC HOLD reduces near-term rate risk
+- **XOM: HOLD with stop** — exit decision Oct 28 EOD post-FOMC. Pre-announced 8-K uplift is positive; ±5.4% implied move but stop at $165.38 provides cushion
+- **NVDA frac: HOLD** — +6.12% unrealized; +15% trigger $229.81 not reached; no stop (dust)
+- **No new entries today** — FOMC blackout
+- Trades this week: 0/7
+
