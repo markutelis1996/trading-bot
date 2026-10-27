@@ -13250,3 +13250,17 @@ None. No cuts, no stop changes, no new entries.
 - NVDA +15% trigger: $229.81 (current $216.16 — 6.3% away)
 
 ---
+
+### Oct 27 - EOD Snapshot (Day 138, Tuesday)
+**Portfolio:** $110,836.19 | **Cash:** $3,388.86 (3.1%) | **Day P&L:** -$995.16 (-0.89%) | **Phase P&L:** +$100,836.19 (+1,008.36%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $82.68 | +$0.03 (+0.04%) | +$639.06 (+5.49%) | $76.26 (10% trail, f49e711e, HWM $84.73) |
+| JPM | 52.620 (52 stop) | $328.23 | $334.75 | +$0.71 (+0.21%) | +$343.08 (+1.99%) | $309.96 (10% trail, ca91a9c8, HWM $344.40) |
+| XOM | 95 (95 stop) | $177.06 | $184.42 | -$0.12 (-0.07%) | +$699.20 (+4.16%) | $166.13 (10% trail, e2d5740d, HWM $184.59) |
+| NVDA frac | 1.192 | $199.83 | $215.46 | -$0.54 (-0.25%) | +$18.63 (+7.82%) | none |
+
+**Notes:** FOMC Day 1 (decision Oct 28 2pm ET). No trades today; 0/7 weekly cap used. All stock positions essentially flat on the session — stock contribution to Day P&L was +$30. Full Day P&L -$995.16 (-0.89%) driven primarily by crypto sleeve MTM (BTC -0.24%, ETH -0.27%, SOL -0.41%). All stock unrealized P&L in the green: WFC +5.49%, XOM +4.16%, JPM +1.99%, NVDA frac +7.82%. XOM GTC stop auto-trailed to $166.13 (HWM $184.59). All three GTC stops confirmed active. CRITICAL for tomorrow: XOM exit decision required Oct 28 EOD post-FOMC (earnings Oct 30 BMO, ±5.4% implied move). Post-FOMC watchlist: MSFT (Gottheimer signal) + GOOGL both report Oct 28 AMC — evaluate Thursday morning on beats.
+
+---
