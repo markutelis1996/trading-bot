@@ -14755,3 +14755,118 @@ Active constraints blocking entries:
 - **No new entries today** — FOMC blackout
 - Trades this week: 0/7
 
+
+## 2026-10-27 - Pre-market Research
+
+### Step 0 — Reconciliation
+CLEAN — all stock qty match Oct 26 midday log exactly.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| XOM | 95 (95 stop) | 95 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops (orders API, checked live):
+- WFC f49e711e: 148 shares, 10% trail, stop $76.260, HWM $84.733 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.96, HWM $344.40 ✓
+- XOM e2d5740d: 95 shares, 10% trail, stop $166.131, HWM $184.59 ✓ (auto-trailed overnight from $166.05/HWM $184.50)
+
+### Account Snapshot (live, pre-market Oct 27)
+- Portfolio equity: $110,836.19
+- Cash: $3,388.86
+- Long MV: $107,447.33 (stocks + crypto)
+- Buying power (RegT): $54,456.65
+- Day trades used: 0/3
+- Stock deployed (WFC+JPM+XOM+NVDA frac): ~$47,679 / ~$51k non-crypto = ~43% of equity
+- Phase P&L: +$10,836 (+10.84%)
+- Trades this week: 0/7
+
+### Live Position Quotes (Alpaca broker, pre-market)
+| Ticker | Broker Price | Entry | Unrealized P&L% | Stop | HWM | -7% Cut Floor |
+|--------|-------------|-------|-----------------|------|-----|---------------|
+| WFC | $82.68 | $78.38 | +5.49% | $76.260 (f49e711e) | $84.733 | $72.89 |
+| JPM | $334.75 | $328.23 | +1.99% ⚠️ EXPENSE WARN | $309.96 (ca91a9c8) | $344.40 | $305.25 |
+| XOM | $184.42 | $177.06 | +4.16% | $166.131 (e2d5740d) | $184.59 | $164.57 |
+| NVDA frac | $215.46 | $199.83 | +7.82% | none | — | $185.84 |
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | ~$101-102/bbl | Forbes: $101.64 Oct 26; elevated; geopolitical premium |
+| Brent crude | ~$115/bbl | Forbes: $115.57 Oct 26; -0.97% vs prior day |
+| S&P 500 | 7,676-7,682 (Oct 26 close) | +0.70-0.77%; Anthropic IPO lift |
+| Nasdaq | 26,169-26,223 (Oct 26 close) | +0.82-1.03%; TSLA +6.25%, NVDA +2.46% |
+| Dow Jones Oct 27 | Mixed/weaker | JPM biggest loser (expense forecast); NVDA retreated |
+| VIX | 18.39 (Oct 26 close, -5.45%) | VIX Nov futures Oct 27: ~19.10 (+3.31% week) |
+| 10-yr yield | 4.99% | Slight relief; still restrictive |
+| Gold | ~$4,011 | Inflation hedge bid |
+
+**Today's economic releases:**
+- FOMC Oct 27-28 meeting — **Day 1 today; decision tomorrow Oct 28 at 2:00 PM ET**
+- 82% market probability: HOLD at 3.75-4% (CME FedWatch, per Oct 15 CNBC)
+- US Durable Goods Orders (Sep) — today
+
+**Today's BMO earnings:**
+- Boeing (BA), PayPal (PYPL), IQVIA (IQV), PACCAR (PCAR), Corning (GLW), NXP Semiconductors (NXPI), Centene (CNC)
+- None directly relevant to held positions
+
+**Tomorrow Oct 28:**
+- FOMC decision 2:00 PM ET (HOLD expected)
+- GE Vernova (GEV) BMO
+- Alphabet (GOOGL) AMC, SK Hynix AMC
+
+**Oct 29:**
+- GDP Q3 advance estimate + PCE Sep — binary macro events
+- Amazon (AMZN) earnings
+
+### Position-Specific News
+- **JPM ⚠️**: IBD reports JPM was the biggest Dow loser Oct 27 — "forecast higher expenses in its future." This is a near-term headwind for JPM thesis. Broker price $334.75 is $24.79 above stop ($309.96), which is a 7.4% buffer — adequate. Stop provides protection. Thesis: financials sector intact, FOMC HOLD constructive. No cut action needed (-7% floor at $305.25 vs stop $309.96 — stop triggers first).
+- **NVDA**: Also retreated Oct 27 per IBD. Broker $215.46. Reasons: broader FOMC-day caution + semi sector rotation. Fundamental thesis intact (Blackwell Ultra ramp, Vera Rubin rollout, Groq 3 LPX, $3-4T AI infra spend by 2030). Dust position; no stop; no action.
+- **WFC**: No adverse news. Financials slightly pressured. Thesis intact.
+- **XOM**: Oil steady $101/bbl. HWM $184.59 → stop auto-trailed to $166.131. Exit decision required **today by EOD** per prior plan (pre-earnings positioning decision). XOM Q3 earnings Oct 30 BMO ±5.4% implied move. See Decision.
+
+### Politician Signals (45-day window: Sep 12 – Oct 27, $25K+ buys only)
+- **Pelosi**: REOF XXX LLC buy Sep 8, disclosed Oct 5 ($500K-1M) — real estate entity, not equity. Not applicable. Previous qualifying trades (BE, INTC Jul 24-28) are >90 days old, outside window.
+- **Gottheimer**: AMAT SELL Sep 15 ($1K-15K), MCD partial SELL Sep 25 ($1K-15K) — both SELLS and both below $25K minimum. NOT actionable.
+- **Khanna**: 36 buys in last 30 days (AltIndex, $447K total per Oct 5 snapshot). No specific individual qualifying buy >$25K identified in the 45-day window from current searches.
+- **McCaul, Tuberville, Mast**: No qualifying buys found in window.
+- **Most-bought stock in Congress Oct 2026**: MSFT ($490K, 6 Democrat buys) — corroborates Gottheimer MSFT watchlist note from Oct 26 entry.
+- → **No actionable politician signals in 45-day window.** Congress-wide MSFT accumulation noted as watchlist context only.
+
+### Sector Momentum (Oct 2026)
+1. Energy (XLE): ~+42-51% YTD (leading; WTI $101/bbl supportive)
+2. Tech/AI semis (XLK/SMH): volatile; XLK Oct 26 premarket +0.49% (sector rotation)
+3. Financials (XLF): mixed; JPM expense forecast a near-term headwind
+4. Healthcare, Materials: secondary momentum
+
+### Trade Ideas
+**No new trade ideas today — FOMC blackout active.**
+Post-FOMC watchlist for entry tomorrow/Thursday if HOLD confirmed:
+1. **MSFT** — Congress accumulation ($490K, 6 buys) + AI spend + reports Oct 28 AMC. If beat + strong Azure guidance → entry Oct 29 at market open. Price verification required at that time per Step 3d.
+2. **GEV** — Energy-AI power play; reports Oct 28 BMO. If beat → watch Oct 29 entry.
+3. **GOOGL** — Reports Oct 28 AMC. If beat → watchlist; requires additional catalyst beyond earnings.
+
+### XOM Exit Decision (due today EOD)
+- XOM current: $184.42, entry $177.06 = +4.16% unrealized, stop $166.131 (HWM $184.59)
+- Earnings Oct 30 BMO: ±5.4% implied move = range ~$174-$194
+- Stop $166.131 is 9.9% below current — a -5.4% gap-down would put price at ~$174, still above stop
+- A gap-down worse than -9.9% (price < $166) would stop out — highly unlikely for XOM on earnings unless catastrophic miss
+- **Decision: HOLD through earnings.** Thesis intact (WTI $101+ supportive; energy sector leading YTD). Stop at $166.131 provides 9.9% cushion. Not worth premature exit at +4.16% when stop is in place.
+
+### Risk Factors
+1. **JPM expense forecast**: Higher opex guidance = margin pressure; could weigh on JPM intraday
+2. **FOMC surprise**: If Fed signals December hike possible → financials/rate-sensitive stocks sell off; stops provide floor
+3. **XOM Oct 30 earnings binary**: Stop $166.131 may not close gap wider than -9.9%
+4. **NVDA retreat Oct 27**: FOMC-day uncertainty + semi rotation; +15% tighten trigger $229.81 still ~6.7% away
+5. **VIX 19.10 elevated**: Event-risk week (FOMC, big tech earnings, GDP/PCE); stops critical
+6. **GDP/PCE Oct 29**: Hot PCE = rate hike pressure back; growth/financials headwind
+
+### Decision
+- **WFC: HOLD** — stop active, no adverse news, +5.49% unrealized
+- **JPM: HOLD** — stop active, expense forecast noted, 7.4% buffer above stop; thesis still intact
+- **XOM: HOLD** — stop active, exit decision resolved = HOLD through Oct 30 earnings
+- **NVDA frac: HOLD** — +7.82% unrealized; no stop (dust); thesis intact
+- **No new entries** — FOMC blackout until post-decision Oct 28
+- Trades this week: 0/7
