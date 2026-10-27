@@ -13264,3 +13264,54 @@ None. No cuts, no stop changes, no new entries.
 **Notes:** FOMC Day 1 (decision Oct 28 2pm ET). No trades today; 0/7 weekly cap used. All stock positions essentially flat on the session — stock contribution to Day P&L was +$30. Full Day P&L -$995.16 (-0.89%) driven primarily by crypto sleeve MTM (BTC -0.24%, ETH -0.27%, SOL -0.41%). All stock unrealized P&L in the green: WFC +5.49%, XOM +4.16%, JPM +1.99%, NVDA frac +7.82%. XOM GTC stop auto-trailed to $166.13 (HWM $184.59). All three GTC stops confirmed active. CRITICAL for tomorrow: XOM exit decision required Oct 28 EOD post-FOMC (earnings Oct 30 BMO, ±5.4% implied move). Post-FOMC watchlist: MSFT (Gottheimer signal) + GOOGL both report Oct 28 AMC — evaluate Thursday morning on beats.
 
 ---
+
+## 2026-10-27 - Market-Open Session (Day 138, Tuesday)
+
+**Portfolio:** $111,235.41 | **Cash:** $3,388.86 | **Positions:** 3 stocks + 1 dust | **Deployed:** ~97% (stocks+crypto)
+
+### Step 0 — Reconciliation
+CLEAN — all stock qtys match log.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| XOM | 95 (95 stop) | 95 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto | DCA sleeve | filtered | UNTOUCHABLE |
+
+**XOM stop auto-trailed:** HWM $184.59 → $184.88; stop $166.131 → $166.392 (broker e2d5740d confirmed)
+GTC stops (broker):
+- WFC f49e711e: 148 shares, 10% trail, stop $76.260, HWM $84.733 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.96, HWM $344.40 ✓
+- XOM e2d5740d: 95 shares, 10% trail, stop $166.392, HWM $184.88 ✓ (auto-trailed)
+
+### Step 1b — Live Prices
+| Ticker | Live Ask | Entry | P&L% | Stop | Buffer |
+|--------|----------|-------|------|------|--------|
+| WFC | $82.55 | $78.38 | +5.32% | $76.260 | 7.6% |
+| JPM | $335.89 | $328.23 | +2.34% | $309.96 | 7.7% |
+| XOM | $181.32 | $177.06 | +2.41% | $166.392 | 8.2% |
+| NVDA frac | $219.12 | $199.83 | +9.65% | none | — |
+
+### Step 3 — Rule Check
+- FOMC Day 1 blackout: NO new entries until post-decision Oct 28 ✓
+- Stop tighten checks: WFC +15% trigger $90.14 (not reached), JPM $377.46 (not reached), XOM $203.62 (not reached), NVDA $229.81 (not reached)
+- Cut checks: all positions above -7% floor ✓
+- Trades this week: 0/7
+
+### Actions
+None. FOMC blackout active.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $76.260 (10% trail, f49e711e, HWM $84.733) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $309.96 (10% trail, ca91a9c8, HWM $344.40) | $393.88 | 2.0:1 |
+| 3 | XOM | 95 (95 stop) | $177.06 | $166.392 (10% trail, e2d5740d, HWM $184.88) | $212.47 | 2.0:1 |
+| Dust | NVDA frac | 1.192 | $199.83 | none | $239.80 | — |
+
+- Trades this week: 0/7
+- FOMC blackout: no new entries until post-decision Oct 28 2pm ET
+- Post-FOMC watchlist: MSFT (Gottheimer + reports Oct 28 AMC), GEV (reports Oct 28 BMO), GOOGL (reports Oct 28 AMC)
+- XOM earnings Oct 30 BMO ±5.4% implied move — HOLD decision confirmed
+
