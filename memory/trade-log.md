@@ -13378,3 +13378,19 @@ None. No cuts, no stop changes, no new entries (FOMC blackout active).
 - Post-FOMC entry window opens tomorrow Oct 28; watchlist: MSFT, GEV (BMO), GOOGL (AMC)
 - XOM earnings Oct 30 BMO ±5.4% — HOLD with stop
 
+---
+
+### Oct 28 - EOD Snapshot (Day 139, Wednesday)
+**Portfolio:** $111,416.18 | **Cash:** $3,388.86 (3.0%) | **Day P&L:** +$466.24 (+0.42%) | **Phase P&L:** +$101,416.18 (+1,014.16%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $82.50 | -$0.16 (-0.19%) | +$612.31 (+5.26%) | $76.26 (10% trail, f49e711e, HWM $84.73) |
+| JPM | 52.620 (52 stop) | $328.23 | $335.20 | -$0.59 (-0.18%) | +$366.76 (+2.12%) | $309.96 (10% trail, ca91a9c8, HWM $344.40) |
+| XOM | 95 (95 stop) | $177.06 | $179.82 | -$0.09 (-0.05%) | +$262.20 (+1.56%) | $166.39 (10% trail, e2d5740d, HWM $184.88) |
+| NVDA frac | 1.192 | $199.83 | $218.34 | +$0.40 (+0.18%) | +$22.07 (+9.26%) | none |
+
+**Notes:** FOMC decision day (Oct 28). No trades today (0/7 week). Stock positions slightly negative collectively; crypto DCA sleeve (BTC/ETH/SOL/LINK) contributed net gains driving overall +$466.24 (+0.42%) day. All three GTC stops active and intact — WFC $76.26 (f49e711e), JPM $309.96 (ca91a9c8), XOM $166.39 (e2d5740d). XOM earnings Oct 30 BMO ±5.4% implied move: only +1.56% unrealized ($262) — per pre-FOMC plan, exit XOM at market open Oct 29 to avoid earnings binary risk (stop at $166.39 won't protect against gap). MSLT and GOOGL both reported AMC tonight — evaluate at Oct 29 market-open for beat-and-raise setups. Post-FOMC entry window now open; 2-3 stock slots available for new positions.
+
+---
+
