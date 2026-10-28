@@ -13394,3 +13394,67 @@ None. No cuts, no stop changes, no new entries (FOMC blackout active).
 
 ---
 
+## 2026-10-28 - Midday Scan (Day 139, Wednesday)
+
+**Portfolio:** ~$111,449 equity | **Cash:** $3,389 | **Positions:** 3 stocks + 1 dust | **Deployed:** ~97%
+
+### Step 0 — Reconciliation
+CLEAN — all qtys match log.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| XOM | 95 (95 stop) | 95 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed active (broker):
+- WFC f49e711e: 148 shares, 10% trail, stop $76.260, HWM $84.733 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.96, HWM $344.40 ✓
+- XOM e2d5740d: 95 shares, 10% trail, stop $166.392, HWM $184.88 ✓
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|------|----------|------|-----|--------|
+| WFC | 148.619 | $78.38 | $83.945 | +7.10% | +1.56% | $76.260 (10% trail, f49e711e) | $84.733 | HOLD |
+| JPM | 52.620 | $328.23 | $339.57 | +3.46% | +1.13% | $309.96 (10% trail, ca91a9c8) | $344.40 | HOLD |
+| XOM | 95 | $177.06 | $182.025 | +2.80% | +1.18% | $166.392 (10% trail, e2d5740d) | $184.88 | HOLD — EXIT PLAN tomorrow open |
+| NVDA frac | 1.192 | $199.83 | $215.066 | +7.62% | -1.32% | none | — | HOLD |
+
+### Step 3 — Cuts
+None. All positions above -7% rule.
+
+### Step 4 — Stop Tightening
+- WFC +7.10%: +15% trigger $90.14 — not reached. No action.
+- JPM +3.46%: +15% trigger $377.46 — not reached. No action.
+- XOM +2.80%: +15% trigger $203.62 — not reached. No action.
+- NVDA frac: dust, no stop. No action.
+- All prices below respective HWMs — stops tracking correctly, no manual update needed.
+
+### Step 5 — Thesis Check
+- **WFC**: +1.56% intraday. Broad market rally (FOMC relief / pre-Mag7 earnings). Thesis INTACT.
+- **JPM**: +1.13% intraday. Financials in line with market. Thesis INTACT.
+- **XOM**: +1.18% intraday. WTI ~$100-103/bbl constructive. Exit plan at Oct 29 open unchanged (earnings Oct 30 BMO ±5.4% implied move; stop $166.39 cannot protect gap). Thesis intact but EXITING tomorrow.
+- **NVDA frac**: -1.32% intraday. Dust position (~$256). Mag7 AI capex read-through tonight (MSFT/GOOGL AMC). Thesis INTACT.
+
+### Step 6 — Intraday Research
+No sharp unexplained moves. All stocks moving in-line with broad market. FOMC decision at 2pm ET today (HOLD 90% probability); pre-announcement calm. No Tavily query needed.
+
+### Actions Taken
+None. No cuts, no stop changes, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $76.260 (10% trail, f49e711e, HWM $84.733) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $309.96 (10% trail, ca91a9c8, HWM $344.40) | $393.88 | 2.0:1 |
+| 3 | XOM | 95 (95 stop) | $177.06 | $166.392 (10% trail, e2d5740d, HWM $184.88) | $212.47 | 2.0:1 |
+| Dust | NVDA frac | 1.192 | $199.83 | none | — | — |
+
+- Trades this week: 0/7
+- FOMC decision 2pm ET today — no new entries
+- XOM: EXIT at market open Oct 29 (earnings Oct 30 BMO)
+- Post-FOMC watchlist for Oct 29 open: MSFT, GOOGL (both AMC tonight on beats), GEV (BMO)
+
+---
+
