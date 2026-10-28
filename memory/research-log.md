@@ -14870,3 +14870,102 @@ Post-FOMC watchlist for entry tomorrow/Thursday if HOLD confirmed:
 - **NVDA frac: HOLD** — +7.82% unrealized; no stop (dust); thesis intact
 - **No new entries** — FOMC blackout until post-decision Oct 28
 - Trades this week: 0/7
+
+---
+
+## 2026-10-28 - Pre-market Research
+
+### Step 0 — Reconciliation
+CLEAN — all positions match log exactly.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| XOM | 95 (95 stop) | 95 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed active:
+- WFC f49e711e: 148 shares, 10% trail, stop $76.26, HWM $84.73 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.96, HWM $344.40 ✓
+- XOM e2d5740d: 95 shares, 10% trail, stop $166.39, HWM $184.88 ✓
+
+### Account Snapshot
+- Portfolio equity: $111,430.86
+- Cash: $3,388.86
+- Long MV: $108,042 (~97% deployed, includes crypto sleeve)
+- RegT buying power: $54,008
+- Day trades used: 0/3
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | ~$100-103/bbl | Oct 27 close ~$100; elevated, +67% YTD |
+| Brent crude | ~$114-117/bbl | Oct 27 close ~$114; supportive for XOM |
+| S&P 500 futures | 7,758.75 (+0.01%) | Flat premarket; prior close 7,704.5 |
+| VIX | 17.52 (Oct 27 close, -4.73%) | Declining into FOMC; normal zone |
+| 10Y yield | ~4.99% | Slight relief from 5.10% highs |
+| Gold | ~$4,010-4,064 | Inflation hedge; slight pullback |
+
+**Today's key events (Oct 28):**
+- **FOMC decision 2:00 PM ET** — 90% probability HOLD at 3.75%-4.00%. September was +25bps (first hike since Jul 2023). December hike ~80% probability. "No urgency" stance from multiple Fed officials. Statement 2pm, presser 2:30pm (Chair Warsh).
+- **GEV earnings BMO** — Est EPS $4.01 / Rev $11.99B. Webcast 7:30 AM ET. Q2 missed by 23%; Q1 beat by 7%. 52-week range $530-$1,196. AH bid ~$842 / ask ~$934 (wide spread, pre-earnings; stale).
+- **MSFT earnings AMC 5:30 PM ET** — Est EPS $4.72 (Q1 FY27). Stock AH bid ~$505.
+- **GOOGL earnings AMC 4:30 PM ET** — Est EPS $2.99 (Q3 2026). Stock AH bid ~$307.66.
+- **META, KLAC, NOW, TMUS, FORTINET AMC** — also reporting tonight.
+
+**Tomorrow Oct 29 (critical macro day):**
+- Q3 GDP advance estimate + PCE Sep at 8:30 AM ET — if stagflationary (GDP miss + hot PCE), skip new entries per Apr 30 rule
+- AMZN earnings AMC
+
+### Politician Signals (45-day window: Sep 13 – Oct 28, $25K+ buys only)
+- **McCaul** (whitelist): ISRG purchase $15K-50K traded Aug 7 (82 days ago — outside window). AMZN purchase $1K-15K (below $25K min). No qualifying buys.
+- **Pelosi** (whitelist): REOF XXX LLC purchase Sep 8 — real estate entity, not equity. Prior BE/INTC buys (Jul 24-28) now 96+ days old — outside window.
+- **Khanna** (whitelist): INTC purchase Sep 4 ($1K-15K) — below $25K minimum.
+- **Gottheimer** (whitelist): Sep 2026 disclosures: sells only (AMAT, MCD). No qualifying buys.
+- **Tuberville** (whitelist): No qualifying buys in window.
+- **Congress-wide context**: MSFT most-traded stock Sep 2026 (6 Democrat buys, $490K) — secondary confirmation only.
+- **→ No actionable politician signals in 45-day window.**
+
+### Position-Specific News
+- **WFC**: No adverse news. Oil/macro constructive. Thesis INTACT.
+- **JPM**: Expense forecast headwind from prior session. Stop $309.96 is 7.6% below current $335.20. Thesis INTACT.
+- **XOM**: WTI ~$100-103/bbl supportive. Earnings Oct 30 BMO. ⚠ EXIT at market open Oct 29 per EOD plan (earnings binary risk; only +$262 / +1.56% unrealized; stop $166.39 won't protect gap).
+- **NVDA frac**: No adverse news. +9.26% unrealized. AI capex read-through from tonight's Mag7 earnings. Thesis INTACT.
+
+### Live Quotes (Alpaca AH Oct 27 — stale; use open-day quote before any entry)
+| Ticker | AH Bid | AH Ask | Held? |
+|--------|--------|--------|-------|
+| WFC | $82.50 (broker current) | — | HELD |
+| JPM | $335.20 (broker current) | — | HELD |
+| XOM | $179.69 (broker current) | — | HELD; EXIT plan Oct 29 |
+| NVDA | $218.89 (broker current) | — | HELD (dust) |
+| GEV | $842.38 | $934.40 | WATCHLIST — verify at open |
+| MSFT | $505.40 | — | WATCHLIST — verify at open |
+| GOOGL | $307.66 | — | WATCHLIST — verify at open |
+
+### Trade Ideas
+**No entries today** — FOMC binary 2pm + Mag7 earnings AMC (MSFT, GOOGL, META). Do not enter before results.
+
+**Post-events watchlist (entry criteria for Oct 29 open, ONLY if conditions met):**
+
+1. **MSFT** — Catalyst: beat + strong Azure/AI guidance tonight (Congress $490K accumulation = secondary confirmation). Entry only at Oct 29 open with live quote. Stop = entry × 0.90. Target = entry × 1.20.
+2. **GOOGL** — Catalyst: Q3 Cloud/Search beat + capex guidance in line. Entry at Oct 29 open with live quote. Stop/target at open price.
+3. **GEV** — Catalyst: Q3 beat + $176B backlog confirmed + gas turbine ramp on track. Entry only if earnings beat; live quote at open required. ⚠ Q2 missed by 23% = elevated miss risk; skip if miss.
+
+Note: If GDP/PCE Oct 29 8:30 AM is stagflationary → no new entries that day per Apr 30 rule, regardless of earnings beats.
+
+### Risk Factors
+1. **FOMC surprise** — 10% chance of 25bps hike today; if hiked → financials/tech selloff
+2. **Mag7 earnings binary** — MSFT/GOOGL/META AMC; guidance miss on AI capex → sector selloff
+3. **GDP/PCE Oct 29 8:30 AM** — hot PCE + GDP miss = stagflation risk; kills new entries
+4. **XOM earnings Oct 30** — 95 shares exposed; exit plan at Oct 29 open is the mitigation
+5. **VIX declining (17.52)** — constructive but can spike on FOMC/earnings surprise
+
+### Decision
+- **WFC: HOLD** — stop active, +5.26% unrealized, no adverse news
+- **JPM: HOLD** — stop active, +2.12% unrealized, 7.6% buffer; thesis intact
+- **XOM: HOLD today; EXIT at market open Oct 29** — earnings Oct 30 BMO; stop won't protect gap; lock +1.56%
+- **NVDA frac: HOLD** — +9.26% unrealized; no stop (dust); thesis intact
+- **No new entries today** — FOMC + Mag7 earnings binary
+- Trades this week: 0/7
