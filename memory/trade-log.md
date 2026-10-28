@@ -13458,3 +13458,17 @@ None. No cuts, no stop changes, no new entries.
 
 ---
 
+
+### Oct 28 - EOD Snapshot FINAL (Day 139, Wednesday)
+**Portfolio:** $112,287.74 | **Cash:** $3,388.86 (3.0%) | **Day P&L:** +$853.03 (+0.77%) | **Phase P&L:** +$102,287.74 (+1,022.88%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $83.67 | +$1.01 (+1.22%) | +$786.19 (+6.75%) | $76.26 (10% trail, f49e711e, HWM $84.73) |
+| JPM | 52.620 (52 stop) | $328.23 | $339.80 | +$4.01 (+1.19%) | +$608.93 (+3.53%) | $309.96 (10% trail, ca91a9c8, HWM $344.40) |
+| XOM | 95 (95 stop) | $177.06 | $182.16 | +$2.25 (+1.25%) | +$484.50 (+2.88%) | $166.39 (10% trail, e2d5740d, HWM $184.88) |
+| NVDA frac | 1.192 | $199.83 | $213.58 | -$4.36 (-2.00%) | +$16.38 (+6.88%) | none |
+
+**Notes:** FOMC Day 2 decision — held rates as expected; market rallied on relief. All stock positions finished up +1.2-1.5%; portfolio gained +$853 (+0.77%) on the session. 0 trades today, 0/7 used this week. All three GTC stops confirmed active, all positions below their HWMs (no auto-trailing triggered). XOM exit confirmed for Oct 29 open: earnings Oct 30 BMO with ±5.4% implied move; stop at $166.39 cannot protect against gap — unrealized only +$484 (+2.88%), not worth the binary risk. Post-FOMC entry window now fully open: MSFT and GOOGL both reported AMC tonight — evaluate Oct 29 morning for beat-and-raise setups (1-2 new entries possible).
+
+---
