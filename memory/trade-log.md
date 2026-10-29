@@ -13539,3 +13539,67 @@ GTC stops auto-trailed since last session:
 - JPM +15% trigger: $377.46 (current $346 — 9.1% away)
 - GEV +15% trigger: $1,043.66 (current $907 — 15% away)
 
+---
+
+## 2026-10-29 - Midday Scan
+
+**Portfolio:** ~$112,309 equity | **Cash:** ~$4,269 | **Positions:** 3 stocks + 1 dust | **Deployed (stocks):** ~42%
+
+### Step 0 — Reconciliation
+CLEAN — all stock qtys match log. GTC stops auto-trailed since morning open.
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 | 148.618780 | ✓ |
+| JPM | 52.620 | 52.619794 | ✓ |
+| GEV | 18.647 | 18.647317 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops (from broker orders):
+- WFC f49e711e: 148 shares, 10% trail, stop $76.941 (HWM $85.49) — auto-trailed from morning
+- JPM ca91a9c8: 52 shares, 10% trail, stop $311.166 (HWM $345.74) ✓
+- GEV a65e0c04: 18 shares, 10% trail, stop $819.702 (HWM $910.78) — auto-trailed to morning high
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|------|----------|------|-----|--------|
+| WFC | 148.619 | $78.38 | $84.65 | +7.99% | +1.17% | $76.941 (10% trail, f49e711e) | $85.49 | HOLD |
+| JPM | 52.620 | $328.23 | $343.18 | +4.55% | +1.14% | $311.166 (10% trail, ca91a9c8) | $345.74 | HOLD |
+| GEV | 18.647 | $907.53 | $888.77 | -2.07% | -2.07% | $819.702 (10% trail, a65e0c04) | $910.78 | HOLD |
+| NVDA frac | 1.192 | $199.83 | $212.95 | +6.56% | -1.13% | none | — | HOLD |
+
+### Step 3 — Cuts
+None. All positions above -7% rule (WFC +7.99%, JPM +4.55%, GEV -2.07% vs threshold $843.50).
+
+### Step 4 — Stop Tightening
+- WFC: +15% trigger $90.14 — current $84.65, not reached. No action.
+- JPM: +15% trigger $377.46 — current $343.18, not reached. No action.
+- GEV: New position today (-2.07%). No action.
+- NVDA frac: No stop.
+
+### Step 5 — Thesis Check
+- **WFC**: +7.99% from entry; +1.17% intraday. Financials sector momentum; Khanna buy Sep 17 secondary confirmation. Thesis INTACT.
+- **JPM**: +4.55% from entry; +1.14% intraday. Financials sector strength, broad financial rally. Thesis INTACT.
+- **GEV**: -2.07% from entry $907.53; HWM was $910.78 before intraday fade to $888.77. Normal post-earnings profit-taking on strong beat (EPS +19.9%, guidance raised, backlog +$20B). Stop $819.702 well below; no adverse headlines. Thesis INTACT.
+- **NVDA frac**: Dust position (~$254). -1.13% intraday; no action.
+
+### Step 6 — Intraday Research
+No sharp unexplained moves. WFC and JPM moving in-line with Financials sector. GEV pullback from $910 HWM to $889 is normal post-earnings intraday fade — not a thesis break. No Perplexity query needed.
+
+### Actions Taken
+None. No cuts, no stop tightening, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $76.941 (10% trail, f49e711e, HWM $85.49) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $311.166 (10% trail, ca91a9c8, HWM $345.74) | $393.88 | 2.0:1 |
+| 3 | GEV | 18.647 (18 stop) | $907.53 | $819.702 (10% trail, a65e0c04, HWM $910.78) | $1,089.04 | 2.0:1 |
+| Dust | NVDA frac | 1.192 | $199.83 | none | — | — |
+
+- Trades this week: 1/7 (GEV bought this morning)
+- AMZN/AAPL report AMC tonight — monitor for tech/broad market impact
+- WFC +15% trigger: $90.14 (current $84.65 — 6.5% away)
+- JPM +15% trigger: $377.46 (current $343.18 — 10.0% away)
+- GEV +15% trigger: $1,043.66 (current $888.77 — 17.4% away)
+
