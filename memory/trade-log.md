@@ -13603,3 +13603,17 @@ None. No cuts, no stop tightening, no new entries.
 - JPM +15% trigger: $377.46 (current $343.18 — 10.0% away)
 - GEV +15% trigger: $1,043.66 (current $888.77 — 17.4% away)
 
+---
+
+### Oct 29 - EOD Snapshot (Day 140, Thursday)
+**Portfolio:** $109,446 | **Cash:** $3,829 (3.5%) | **Day P&L:** -$1,577 (-1.42%) | **Phase P&L:** +$99,446 (+994.5%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $85.02 | +$1.35 (+1.61%) | +$986.75 (+8.47%) | $76.941 (10% trail, f49e711e, HWM $85.49) |
+| JPM | 52.620 (52 stop) | $328.23 | $344.03 | +$4.73 (+1.39%) | +$831.51 (+4.81%) | $311.166 (10% trail, ca91a9c8, HWM $345.74) |
+| GEV | 18.647 (18 stop) | $907.53 | $871.18 | -$6.85 (-0.78%) | -$677.82 (-4.01%) | $819.702 (10% trail, a65e0c04, HWM $910.78) |
+| NVDA dust | 1.192 | $199.83 | $210.59 | -$4.79 (-2.22%) | +$12.82 (+5.38%) | none |
+
+**Notes:** Two trades today: sold XOM at open ($177.06→$182.77, +3.23% realized) per plan (earnings Oct 30 BMO, binary gap risk); bought GEV (18.647 @ $907.53, Q3 beat EPS +19.9%, guidance raised, backlog +$20B). Stocks green: WFC +1.61%, JPM +1.39%; GEV -0.78% (post-earnings fade from $910 HWM — normal). Day P&L -$1,577 driven by crypto sleeve (BTC/ETH/SOL/LINK all -2–4% intraday). Phase P&L +$99,446 (+994.5%) — approaching 10x. Portfolio nearly fully deployed ($3,829 cash, 3.5%); all GTC stops active. AMZN and AAPL reporting AMC tonight — assess for setups tomorrow. Trades this week: 1/7.
+
