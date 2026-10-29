@@ -13472,3 +13472,70 @@ None. No cuts, no stop changes, no new entries.
 **Notes:** FOMC Day 2 decision — held rates as expected; market rallied on relief. All stock positions finished up +1.2-1.5%; portfolio gained +$853 (+0.77%) on the session. 0 trades today, 0/7 used this week. All three GTC stops confirmed active, all positions below their HWMs (no auto-trailing triggered). XOM exit confirmed for Oct 29 open: earnings Oct 30 BMO with ±5.4% implied move; stop at $166.39 cannot protect against gap — unrealized only +$484 (+2.88%), not worth the binary risk. Post-FOMC entry window now fully open: MSFT and GOOGL both reported AMC tonight — evaluate Oct 29 morning for beat-and-raise setups (1-2 new entries possible).
 
 ---
+
+
+## 2026-10-29 - Market-Open Session (Day 140, Thursday)
+
+**Portfolio:** $112,749.88 | **Cash:** $3,829.01 | **Positions:** 3 stocks + 1 dust | **Deployed:** ~97%
+
+### Step 0 — Reconciliation
+CLEAN — all stock qtys match log. GTC stops auto-trailed overnight.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| XOM | 95 (95 stop) | 95 | ✓ (EXITING this session) |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops auto-trailed since last session:
+- WFC f49e711e: 148 shares, 10% trail, stop $76.851 (was $76.260), HWM $85.39 (was $84.733) ✓ auto-trailed
+- JPM ca91a9c8: 52 shares, 10% trail, stop $311.166 (was $309.960), HWM $345.74 (was $344.40) ✓ auto-trailed
+- XOM e2d5740d: CANCELED (pre-exit) — stop $166.392, HWM $184.88
+
+### Step 1b — Live Prices
+| Ticker | Live Ask | Entry | P&L% | Stop | Action |
+|--------|----------|-------|------|------|--------|
+| WFC | $85.30 | $78.38 | +8.83% | $76.851 (10% trail, HWM $85.39) | HOLD |
+| JPM | $346.00 | $328.23 | +5.42% | $311.166 (10% trail, HWM $345.74) | HOLD |
+| XOM | $182.77 | $177.06 | +3.23% | canceled | EXIT at market |
+| NVDA frac | $214.04 | $199.83 | +7.11% | none | HOLD |
+| MSFT | $530.49 | n/a | — | — | SKIP: flat on +2% day despite beat; sell-the-news |
+| GEV | $907.39 | n/a | — | — | BUY: Q3 beat EPS +19.9%, guidance raised |
+
+### Step 3 — Rule Checks
+- Stop tighten: WFC +8.83% (trigger $90.14 — not reached), JPM +5.42% (trigger $377.46 — not reached) ✓
+- Cut check: all positions above -7% floor ✓
+- MSFT: signal expired — AH was +4.7% to $555; now $530 flat on +2% market day; sell-the-news → SKIP
+- GEV: $907 within $880-920 target range; EPS beat +19.9%; Industrials sector (independent of AMZN/AAPL AMC) ✓
+- Positions after (3 stocks + dust): WFC + JPM + GEV + NVDA dust = 4 → under 6-8 max ✓
+- Sector check: Industrials entry (GEV) = $16,923 / $112,820 = 15.0% → under 60% cap ✓
+- Trades this week: 0+1 = 1/7 ✓
+
+### Actions Taken
+
+**SOLD XOM** — 95 shares @ ~$182.77 (market order, DAY TIF)
+- Stop e2d5740d canceled first; sell order 4419f845 filled
+- Entry $177.06 | Exit ~$182.77 | Realized P&L: ~+$542 (+3.23%)
+- Reason: earnings Oct 30 BMO ±5.4% implied move; stop $166.39 cannot protect gap; locking gain
+
+**BOUGHT GEV** — 18.647 shares @ $907.53 (notional $16,923, market order c8b3f205)
+- Catalyst: Q3 2026 MASSIVE BEAT — EPS $4.81 vs $4.01 est (+19.9%), revenue $12.64B vs $12.01B (+5.2%), FCF $5.4B, guidance raised to $46.5-47.5B FY2026, backlog +$20B sequential
+- Stop: 10% trailing a65e0c04, stop $816.43, HWM $907.145
+- Target: +20% = $1,089 | R:R: 2:1
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $76.851 (10% trail, f49e711e, HWM $85.39) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $311.166 (10% trail, ca91a9c8, HWM $345.74) | $393.88 | 2.0:1 |
+| 3 | GEV | 18.647 (18 stop) | $907.53 | $816.43 (10% trail, a65e0c04, HWM $907.145) | $1,089.04 | 2.0:1 |
+| Dust | NVDA frac | 1.192 | $199.83 | none | $239.80 | — |
+
+- Trades this week: 1/7
+- MSFT skipped: sell-the-news signal expiry
+- AMZN/AAPL report AMC today: monitor for tech sector impact on GEV (indirect)
+- WFC +15% trigger: $90.14 (current $85.30 — 5.7% away)
+- JPM +15% trigger: $377.46 (current $346 — 9.1% away)
+- GEV +15% trigger: $1,043.66 (current $907 — 15% away)
+
