@@ -14968,4 +14968,120 @@ Note: If GDP/PCE Oct 29 8:30 AM is stagflationary → no new entries that day pe
 - **XOM: HOLD today; EXIT at market open Oct 29** — earnings Oct 30 BMO; stop won't protect gap; lock +1.56%
 - **NVDA frac: HOLD** — +9.26% unrealized; no stop (dust); thesis intact
 - **No new entries today** — FOMC + Mag7 earnings binary
+
+---
+
+## 2026-10-29 - Pre-market Research
+
+### Reconciliation
+CLEAN — all stock positions match log. No broker discrepancies.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| XOM | 95 (95 stop) | 95 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed active:
+- WFC f49e711e: 148 shares, 10% trail, stop $76.260, HWM $84.733 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $309.960, HWM $344.40 ✓
+- XOM e2d5740d: 95 shares, 10% trail, stop $166.392, HWM $184.88 ✓
+
+### Account Snapshot
+- Portfolio equity: $111,990.18
+- Cash: $3,388.86 (3.0%)
+- Long MV: $108,601 (stocks ~$48,370 + crypto ~$60,231)
+- Buying power (Reg T): $55,148.04
+- Day trades used: 0/3
+- Trades this week: 0/7
+- Phase P&L: +$101,990.18 (+1,019.9%)
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | ~$100.90 (spot premarket) / Dec26 $101.85 (Oct 28 settlement) | Slight pullback from $102+; Houthi attacks on Saudi Arabia headline |
+| Brent crude | ~$114.50-115.8 | Elevated; geopolitical supply risk |
+| S&P 500 futures (Dec26) | ~$7,756-7,771 (+0.16%) | Mildly positive; MSFT beat tailwind offset by GOOGL miss |
+| NQ100 futures | ~$29,881 (+0.47%) | Tech positive on MSFT Azure +48% beat |
+| VIX | 16.91 (Oct 28 close, -3.48%) | Fear declining; constructive |
+| 10Y yield | ~4.99% (+3.5bps) | Slightly higher post-FOMC hold |
+
+**Today's data releases (8:30 AM ET — CRITICAL GATE):**
+- Q3 2026 GDP Advance Estimate: no consensus published; Atlas Analytics 1.5%, NY Fed nowcast 2.7%; Q2 was 2.2%; Reuters signals AI/consumer investment likely positive. Range: <1.5% = bearish; 1.5-2.5% = neutral; >2.5% = bullish.
+- September PCE Inflation: alongside GDP — hot PCE = stagflation risk, kills new entries
+
+**Tonight's earnings (AMC Oct 29):**
+- Amazon Q3 2026 (tentative 8:00 PM ET)
+- Apple Q4 FY2026 (tentative 8:30 PM ET)
+
+**Last night's earnings (AMC Oct 28) — confirmed results:**
+- MSFT Q1 FY2027: BEAT — Revenue $92.3B vs $90.7B est (+1.8%), EPS $4.92 GAAP vs $4.72 est (+4.2%), Azure +48% vs ~45% guidance. AH +4.7% to ~$554-556. STRONG BULLISH.
+- GOOGL Q3 2026: Revenue $127.6B (inline, +25%), EPS $2.12 GAAP (miss vs $3.00 est; $8.2B equity securities loss). Google Cloud +103%. Net income DECLINED despite revenue growth. AH: BEARISH (-6%+ implied). Headlines: "worst drop in years."
+
+**Today's earnings (BMO):**
+- GEV Q3 2026: MASSIVE BEAT — EPS $4.81 vs $4.01 est (+19.9%), Revenue $12.64B vs $12.01B (+5.2%), EBITDA beat +15.3%, FCF $5.4B. Guidance raised to $46.5-47.5B FY2026. AH +1.7% to ~$912. ⚠ AH quote bid/ask spread too wide ($830/$924) for reliable entry calc.
+
+### Politician Signals (45-day window: Sep 14 – Oct 29, $25K+ threshold)
+- **Pelosi**: Last qualifying buy = BE/INTC Jul 28 (filed Aug 21) — 93 days old, outside window.
+- **Tuberville**: Latest filing Aug 5, 2026 (TXI $15K-50K, GILD $1K-15K) — 85 days old, outside window. No new disclosures.
+- **Khanna**: Recent trades: GILD Aug 10 sell $1K-15K, FAST Sep 4 buy $1K-15K — all below $25K minimum.
+- **Gottheimer**: MSFT buys Mar-May 2026 ($50K-500K+) — 5+ months old, outside 45-day window.
+- **McCaul, Mast**: No qualifying buys found in any recent source.
+- **→ No actionable politician signals in 45-day window.**
+
+### Live Quotes (Alpaca AH Oct 28)
+| Ticker | AH Bid | AH Ask | Status |
+|--------|--------|--------|--------|
+| MSFT | $554.11 | $555.98 | WATCHLIST — BUY candidate; AH spread reasonable |
+| GEV | $830.97 | $923.90 | WATCHLIST — AH spread too wide (-10%+); verify at open |
+| XOM | $171.09 | $190.16 | HELD; EXIT at open; AH spread wide, stale |
+| WFC | ~$84.80 (broker current) | — | HELD |
+| JPM | ~$342.30 (broker current) | — | HELD |
+| NVDA frac | ~$214.28 (broker current) | — | HELD (dust) |
+
+### Trade Ideas
+
+**1. MSFT — BUY at market open** (gate: GDP/PCE data 8:30 AM ET not stagflationary)
+- Catalyst: Azure +48% (beat 45% guidance — the one metric everyone watches); EPS $4.92 vs $4.72 (+4.2%); Revenue $92.3B vs $90.7B (+1.8%); Cloud RPO +73% to $677B = durable backlog. MSFT beat track record: 8/8 recent quarters.
+- Additional confirmation: MSFT is in Sector Momentum #2 (Tech/Info Tech +36.9% YTD). NVDA dust already holds AI-demand conviction.
+- Live price (AH): ask $555.98 (proxy for open)
+- Entry (AH ask): ~$556 | Stop (10% trail): ~$500 | Target (+20%): ~$667 | R:R: 2.2:1
+- Position size: 15% × $111,990 = $16,799 / $556 = 30 shares (round down) = notional $16,680
+- After XOM exit (~$17,500 cash freed): cash ~$20,889; adding $16,680 MSFT = net cash positive ~$4,200
+- Sector check: Tech after MSFT = ~$16,935 / $111,990 = 15.1%. Under 60% cap ✓
+- Open positions after: 4 (WFC, JPM, MSFT, NVDA dust) — under 6-8 max ✓
+- **Gate: If Q3 GDP < 1.5% AND PCE hot simultaneously → HOLD MSFT. Otherwise proceed.**
+
+**2. GEV — WATCHLIST** (evaluate at market open with live quote)
+- Catalyst: Q3 BEAT — EPS +19.9%, revenue +5.2%, guidance raised, FCF $5.4B, backlog $197B (+$20B sequential)
+- AH quote unusable (bid $831 / ask $924 = $93 spread); do not enter blind at open
+- If opens in $880-920 range: entry ~$900 (verify live), stop ~$810 (10%), target ~$1,080 (20%), R:R 2:1
+- Position size: 15% × $111,990 / ~$900 = 18 shares = ~$16,200
+- Additional risk: AMZN/AAPL earnings AMC tonight → tech/broad market vol; skip if spread remains wide
+- **Action: GET LIVE QUOTE AT OPEN before considering any GEV entry**
+
+### Sector Momentum (Oct 2026)
+1. Energy (XLE): +42-51% YTD (exiting XOM, no new Energy entry planned)
+2. Info Tech (XLK): +36.9% YTD ← **MSFT entry aligns with this**
+3. Materials (XLB): +15.9% YTD
+4. Health Care (XLV): +10.1-12.5% YTD
+5. Financials (XLF): +5.4% YTD (WFC, JPM held)
+6. Industrials: no YTD data (GEV is in this sector)
+
+### Risk Factors
+1. **GDP/PCE 8:30 AM gate**: Stagflation print (hot PCE + weak GDP) = no new entries; hold all
+2. **GOOGL -6%+ AH**: Equity securities loss ($8.2B) creates AI capex narrative noise; not a fundamental AI demand miss (Cloud +103%) but headline negative for sentiment
+3. **AMZN/AAPL AMC tonight**: Another Mag7 binary; if both miss guidance, Tech sector could pull back next morning (Oct 30)
+4. **XOM exit P&L**: Leaving ~$680 on table by exiting vs a potential earnings beat (consensus $4.03 EPS, vs current entry profit +$680). Risk management > regret. Exit confirmed.
+5. **Houthi attacks on Saudi Arabia**: Brent ~$114-115, constructive for energy thesis but XOM exit is pre-planned. No new Energy entry planned.
+6. **VIX 16.91 declining**: Constructive backdrop, but AMZN/AAPL tonight could spike it
+
+### Decision
+- **XOM: EXIT at market open** — earnings Oct 30 BMO; stop $166.39 won't protect gap; lock +$261 (+1.56%). Confirmed.
+- **MSFT: BUY at market open (30 shares, ~$556)** — Azure beat + Tech momentum; gate on 8:30 AM GDP/PCE data
+- **GEV: WATCHLIST** — get live quote at open; enter only if spread is reasonable and price is $880-920; skip if AMZN/AAPL risks too high
+- **WFC: HOLD** — stop f49e711e active; +8.2% unrealized; thesis intact
+- **JPM: HOLD** — stop ca91a9c8 active; +4.3% unrealized; thesis intact
+- **NVDA frac: HOLD** — dust; MSFT Azure beat confirms AI demand; no stop needed on $255 position
 - Trades this week: 0/7
