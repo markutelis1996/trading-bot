@@ -15085,3 +15085,109 @@ GTC stops confirmed active:
 - **JPM: HOLD** — stop ca91a9c8 active; +4.3% unrealized; thesis intact
 - **NVDA frac: HOLD** — dust; MSFT Azure beat confirms AI demand; no stop needed on $255 position
 - Trades this week: 0/7
+
+---
+
+## 2026-10-30 - Pre-market Research
+
+### Reconciliation
+CLEAN — all stock positions match EOD Oct 29 log.
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 (148 stop) | 148.618780 | ✓ |
+| JPM | 52.620 (52 stop) | 52.619794 | ✓ |
+| GEV | 18.647 (18 stop) | 18.647317 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops active (confirmed via orders endpoint):
+- WFC f49e711e: 148 shares, 10% trail, stop $76.941, HWM $85.49 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $311.166, HWM $345.74 ✓
+- GEV a65e0c04: 18 shares, 10% trail, stop $819.702, HWM $910.78 ✓
+
+⚠ GEV WATCH: broker price $861.59 = -5.07% from entry $907.53. -7% cut threshold = $843.50. Stop $819.702 (4.87% below current). Not yet triggered — monitor at open.
+
+### Account Snapshot
+- Portfolio equity: $109,119.57
+- Cash: $3,829.01 (3.5%)
+- Long MV: $105,290.56 (stocks ~$47,080 + crypto ~$58,210)
+- RegT buying power: $54,739.58
+- Day trades used: 0/3
+- Phase P&L: +$99,119.57 (+991.2%)
+- Trades this week: 1/7 (GEV bought Oct 29)
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | ~$101.43/bbl | Slightly easing; Houthi/Saudi tensions ongoing |
+| Brent crude | ~$114.99/bbl | Elevated; geopolitical premium intact |
+| S&P 500 futures (Dec26) | ~7,734-7,757 (+0.26%) | Mildly positive; AMZN/GOOGL/NOW drags weigh |
+| VIX | 17.01 (Oct 29 close) | Normal zone; declining trend constructive |
+| 10Y yield | ~4.99% | Slightly higher post-FOMC |
+
+**Oct 29 macro data (released yesterday — gate completed):**
+- PCE Sep YoY: 3.6% (est 3.6%) — matched, no surprise
+- PCE Core Sep YoY: 3.1% (est 3.1%) — in-line
+- Jobless Claims: 194K (est 200K) — beat (labor healthy)
+- Q3 GDP Advance: IBD noted "Nasdaq sells off after inflation + GDP" — mild concern but PCE in-line; gate cleared
+
+**Today's economic releases (Oct 30):**
+- 8:30 AM ET: Employment Cost Index Q3 — est 0.9%, prior 0.8%
+- 9:45 AM ET: Chicago PMI Oct — est 58.8, prior 56
+- Low-impact day; earnings reactions dominate
+
+**Key AMC/BMO earnings (first full reaction today):**
+- **AMZN Q3 2026 — MISS:** EPS $1.89 vs $1.97 est; Rev $201.9B vs $202.2B est (slim miss). AWS +39% YoY ($184B annualized, projected >40% in 2027/28). Q4 guidance midpoint $243.5B vs est $244.5B (slim miss). AMZN premarket ~-3.68% ($245.22). AWS narrative positive but headline = miss.
+- **NOW Q3 2026 — COLLAPSE:** Rev +20.5% to $4.1B (beat), but GAAP op margin 9.5% ($633M stock-comp) vs non-GAAP 32.5%. AI-replacement fears reignited. Stock -18-24% AH → premarket ~-27% ($109.22). Sympathy: CRM, PANW, INTU, ADBE all lower.
+- **CAT Q3 2026 — SELL-THE-NEWS:** Revenue +17% to $20.7B, EPS $7.20 adj (strong beat); op margin 20.4%. Record backlog. Yet premarket ~-9.79% ($643.52). Classic post-run-up sell.
+- **GOOGL Q3 2026 (AMC Oct 28, continued reaction):** Cloud +103% but GAAP miss ($8.2B equity securities loss). Premarket ~-12.83% ($283.20).
+- **AAPL:** Reports Nov 2. No earnings today.
+- **XOM Q3 2026 (BMO today):** We exited Oct 29 at +3.23% per plan. Confirmed smart pre-earnings exit.
+
+### Politician Signals (45-day window: Sep 15 – Oct 30, $25K+ threshold)
+- **Pelosi**: Most recent qualifying buys: BE Jul 24-28 ($1-5M, disclosed Aug 24) — 68+ days old, outside window. No new buys.
+- **McCaul**: Disclosed Oct 14-17: J.W. Mays ($50K-100K each, Aug 10/25) + Valvoline ($50K-100K, Aug 19). Both late-filed (50-72 day lag). J.W. Mays = real estate company, down -6.6% since trade. Not actionable.
+- **Tuberville**: TXI Aug 5 ($15-50K, outside window), GILD ($1-15K, below min). No qualifying buys.
+- **Khanna**: Prior WFC Sep 17 buy now 43 days old (borderline outside window). No new $25K+ buys found.
+- **Gottheimer, Mast**: No specific qualifying recent trades found.
+- **→ No actionable politician signals in 45-day window.**
+
+### Live Quotes (broker position data, Oct 30 premarket)
+| Ticker | Price | Entry | P&L% | Stop | -7% Floor | Status |
+|--------|-------|-------|------|------|-----------|--------|
+| WFC | $85.15 | $78.38 | +8.63% | $76.941 (10% trail, f49e711e, HWM $85.49) | $72.89 | HOLD ✓ |
+| JPM | $344.19 | $328.23 | +4.86% | $311.166 (10% trail, ca91a9c8, HWM $345.74) | $305.25 | HOLD ✓ |
+| GEV | $861.59 | $907.53 | -5.07% | $819.702 (10% trail, a65e0c04, HWM $910.78) | $843.50 ⚠ | HOLD — monitor |
+| NVDA frac | $209.00 | $199.83 | +4.59% | none | $185.84 | HOLD (dust) |
+
+### Trade Ideas
+No new trade ideas. Reasoning:
+- "Sell-the-news" environment (CAT -9.79% on strong beat; GEV already -5.07%); Industrials under pressure
+- NOW collapse (-27%) creates SaaS/AI-software fear contagion; not time to add tech exposure
+- AMZN gap-down on miss: no entry into opening gap (rule: never within 3% of current price on a downward gap; needs stabilization)
+- GOOGL: -12.83% gap-down, no entry
+- Cash at 3.5% — no capacity for new positions while GEV at risk of -7% cut
+- AMZN WATCHLIST for future: AWS +39% / >40% 2027-2028 guidance is strong; if AMZN stabilizes $240-250 with volume, could be a setup next week
+
+### Rule Checks
+- GEV: -5.07%; cut floor $843.50 — NOT triggered; stop active ✓
+- WFC: +8.63%; tighten trigger $90.14 (5.8% away) — no action
+- JPM: +4.86%; tighten trigger $377.46 (9.6% away) — no action
+- NVDA frac: dust; above $185.84 floor ✓
+- Trades this week: 1/7 ✓
+- Sector concentration: Financials WFC+JPM ~27.5%; Industrials GEV ~14.7% — under 60% cap ✓
+
+### Risk Factors
+1. **GEV approaching -7% cut threshold**: current $861.59 vs floor $843.50 = $18 buffer. Industrial "sell-the-news" contagion from CAT could push GEV lower. → Manual cut triggered if GEV closes regular session below $843.50.
+2. **Industrials sector drag**: CAT -9.79% creates sympathy pressure on GEV even though businesses differ (energy infrastructure vs construction equipment).
+3. **NOW collapse SaaS contagion**: General risk-off sentiment in growth/AI names; affects broader market mood.
+4. **Low cash buffer**: Only 3.5% cash; if GEV stop hits ($819.70), frees ~$15K. No other stop risk near current levels.
+5. **Employment Cost Index 8:30 AM**: If >0.9%, brief bond yield spike; Financials marginally affected.
+
+### Decision
+- **GEV: HOLD** — stop a65e0c04 active at $819.702; Q3 beat thesis INTACT (EPS +19.9%, guidance raised, $20B buyback, backlog >$200B). -5.07% from entry within normal post-earnings volatility. **Trigger: if GEV falls to $843.50 in regular session → CUT per -7% rule.**
+- **WFC: HOLD** — stop f49e711e; +8.63% unrealized; Financials stable; no adverse catalyst
+- **JPM: HOLD** — stop ca91a9c8; +4.86% unrealized; no catalyst change
+- **NVDA frac: HOLD** — dust; MSFT Azure confirms AI demand thesis; too small to act on
+- **New entries: HOLD** — sell-the-news market + low cash + GEV at risk = no new entries today
+- Trades this week: 1/7
