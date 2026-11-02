@@ -13791,3 +13791,18 @@ None. No cuts, no stop changes, no entries.
 - WFC ex-dividend Nov 6 ($0.50/share)
 - GEV watch: cut if ≤ $843.50; AH concern resolved
 - AAPL + PLTR report AMC tonight — assess Thursday pre-market
+
+
+---
+
+### Nov 02 - EOD Snapshot (Day 142, Monday)
+**Portfolio:** $108,132 | **Cash:** $3,829 (3.5%) | **Day P&L:** -$307 (-0.28%) | **Phase P&L:** +$98,132 (+981.3%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| GEV | 18.647 | $907.53 | $862.25 | +$4.38 (+0.51%) | -$844.35 (-4.99%) | $819.702 (10% trail, a65e0c04, HWM $910.78) |
+| JPM | 52.620 | $328.23 | $340.58 | +$3.54 (+1.05%) | +$649.97 (+3.76%) | $311.166 (10% trail, ca91a9c8, HWM $345.74) |
+| WFC | 148.619 | $78.38 | $85.905 | +$2.51 (+3.00%) | +$1,118.36 (+9.60%) | $77.426 (10% trail, f49e711e, HWM $86.029) |
+| NVDA dust | 1.192 | $199.83 | $202.20 | -$2.44 (-1.19%) | +$2.82 (+1.18%) | none |
+
+**Notes:** No trades today (0/7 this week). Day P&L -$307 (-0.28%) primarily driven by crypto DCA sleeve declining (BTC -2.21%, ETH -1.82%, SOL -3.84%, LINK -1.92% intraday) while stocks were green across the board: WFC +3.00%, JPM +1.05%, GEV +0.51%. WFC trailing stop auto-trailed to stop $77.426 (HWM $86.029 — new all-time high). GEV -4.99% unrealized; manual cut floor at $843.50 gives $18.75 buffer (2.2%). Portfolio nearly fully deployed at 96.5% (stocks + crypto DCA sleeve); cash only $3,829 — no new stock entries possible without a stop-out first. Baseline for Day P&L is Alpaca last_equity $108,439 (Oct 30 close; Oct 30 had no EOD snapshot logged). Key upcoming events: NFP Fri Nov 6 (est +55K, high two-way risk), WFC ex-div Nov 6 ($0.50/share = $74.31 income).
