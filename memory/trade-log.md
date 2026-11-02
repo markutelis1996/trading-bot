@@ -13728,3 +13728,66 @@ GTC stops confirmed active:
 - WFC ex-dividend Nov 6 ($0.50/share = 2.4% yield) — income support
 - GEV watch: cut if price ≤ $843.50 intraday; AH gap risk resolved
 - NFP Fri Nov 6 (consensus +55K): high two-way risk; no new entries before NFP
+
+---
+
+## 2026-11-02 - Midday Scan
+
+**Portfolio:** $109,161 equity | **Cash:** $3,829 (3.5%) | **Positions:** 3 stocks + 1 dust | **Deployed:** ~42.9% stocks
+
+### Step 0 — Reconciliation
+CLEAN — all qtys match log. No discrepancies.
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 | 148.618780 | ✓ |
+| JPM | 52.620 | 52.619794 | ✓ |
+| GEV | 18.647 | 18.647317 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed active:
+- WFC f49e711e: 148 shares, 10% trail, stop $76.941 (HWM $85.49)
+- JPM ca91a9c8: 52 shares, 10% trail, stop $311.166 (HWM $345.74)
+- GEV a65e0c04: 18 shares, 10% trail, stop $819.702 (HWM $910.78)
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|------|----------|------|-----|--------|
+| WFC | 148.619 | $78.38 | $84.73 | +8.10% | +1.60% | $76.941 (10% trail, f49e711e) | $85.49 | HOLD |
+| JPM | 52.620 | $328.23 | $340.88 | +3.86% | +1.14% | $311.166 (10% trail, ca91a9c8) | $345.74 | HOLD |
+| GEV | 18.647 | $907.53 | $876.01 | -3.47% | +2.12% | $819.702 (10% trail, a65e0c04) | $910.78 | HOLD |
+| NVDA frac | 1.192 | $199.83 | $206.73 | +3.45% | +1.02% | none | — | HOLD |
+
+### Step 3 — Cuts
+None. All above -7% rule. GEV -3.47% vs floor $843.50; current $876.01 has $32.51 buffer.
+
+### Step 4 — Stop Tightening
+- WFC: +15% trigger $90.14 — current $84.73 (6.4% away). No action.
+- JPM: +15% trigger $377.46 — current $340.88 (10.7% away). No action.
+- GEV: Negative P&L. No action.
+- NVDA frac: No stop.
+
+### Step 5 — Thesis Check
+- **WFC**: +8.10% from entry; +1.60% intraday. Financials sector momentum intact (Schwab More Favored). Ex-div Nov 6 ($0.50/share) adds near-term income support. INTACT.
+- **JPM**: +3.86% from entry; +1.14% intraday. Broad Financials rally in-line with sector. INTACT.
+- **GEV**: -3.47% from entry; +2.12% intraday — recovering from Oct 30 selloff. Pre-market AH gap scare ($803.70) did NOT materialize; opened ~$876 and holding. Q3 beat +19.9% EPS, guidance raised, backlog ~$200B — thesis INTACT.
+- **NVDA frac**: +3.45%; +1.02% intraday. Dust position. INTACT.
+
+### Step 6 — Intraday Research
+No sharp unexplained moves. WFC and JPM tracking Financials sector (+1–2%). GEV's intraday recovery (+2.12%) confirms the AH panic on Oct 30 was thin-liquidity noise, not fundamental. AI infrastructure demand thesis intact — GEV energy transition backlog not affected by AMZN guidance miss.
+
+### Actions Taken
+None. No cuts, no stop changes, no entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $76.941 (10% trail, f49e711e, HWM $85.49) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $311.166 (10% trail, ca91a9c8, HWM $345.74) | $393.88 | 2.0:1 |
+| 3 | GEV | 18.647 (18 stop) | $907.53 | $819.702 (10% trail, a65e0c04, HWM $910.78) | $1,089.04 | 2.0:1 |
+| Dust | NVDA frac | 1.192 | $199.83 | none | — | — |
+
+- Trades this week: 0/7 (fresh)
+- WFC ex-dividend Nov 6 ($0.50/share)
+- GEV watch: cut if ≤ $843.50; AH concern resolved
+- AAPL + PLTR report AMC tonight — assess Thursday pre-market
