@@ -15191,3 +15191,133 @@ No new trade ideas. Reasoning:
 - **NVDA frac: HOLD** — dust; MSFT Azure confirms AI demand thesis; too small to act on
 - **New entries: HOLD** — sell-the-news market + low cash + GEV at risk = no new entries today
 - Trades this week: 1/7
+
+## 2026-11-02 - Pre-market Research
+
+### Step 0 — Reconciliation
+CLEAN — all stock qtys match log (fractional rounding only). No broker discrepancies.
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| WFC | 148.619 | 148.618780 | ✓ |
+| JPM | 52.620 | 52.619794 | ✓ |
+| GEV | 18.647 | 18.647317 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed active: WFC f49e711e ($76.941, HWM $85.49), JPM ca91a9c8 ($311.166, HWM $345.74), GEV a65e0c04 ($819.702, HWM $910.78).
+
+### Account Snapshot
+- Portfolio equity: $109,244.91 (as of Oct 30 close)
+- Cash: $3,828.64 (3.5%) — insufficient for new position (need ~$16K for 15% notional)
+- Long MV: $105,416.27
+- Buying power (Reg T): $54,603.30
+- Day trades used: 0/3
+- Deployed (stocks): ~42.9% | Phase P&L: +$99,244 (+992.4%)
+- Trades this week: 1/7 (GEV bought Oct 29)
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | ~$100-101/bbl (+2% on day) | OilPriceAPI $100.51; Bloomberg $101.44 |
+| Brent crude | ~$110-115/bbl (+2%) | oilprice.com $113.23; range vs sources |
+| S&P 500 futures | ~7,756 (Bloomberg Sun night) | Mild recovery from Oct 30 selloff |
+| Nasdaq 100 futures | ~29,880 (Bloomberg Sun night) | +68.75 from prior |
+| VIX | 19.42 (Oct 30 close, +12.91% from 17.20) | Elevated; above long-term avg ~19 |
+| 10Y yield | ~4.93% | Rate hike fear building (Dec FOMC >80% hike probability) |
+| Gold | ~$3,875-3,905 | Elevated; inflation hedge bid |
+
+**Oct 30 key events (context for today's open):**
+- INTC: -26% (Q3 massive miss); AMZN: -6% AH (guidance concern); GOOGL: -10%; AMD: -11%; NVDA: -4% — broad tech/semi selloff
+- FOMC held rates at Oct 28-29 meeting; but Dec 9 hike probability >80% (Bloomberg as of Oct 27)
+- FOMC hold = mildly positive for bank NIM outlook (WFC, JPM) near term
+
+**After-hours quotes (Oct 30, 8PM ET — thin AH spreads, directional only):**
+| Ticker | Reg Session Close | AH Bid | Signal |
+|--------|------------------|--------|--------|
+| WFC | ~$83.45 | $79.03 | ⚠ Soft; above cut floor $72.89 and stop $76.94 |
+| JPM | ~$344.11 | $319.15 | ⚠ Soft; above cut floor $305.25 and stop $311.17 |
+| GEV | ~$869.35 | $803.70 | 🚨 BELOW -7% cut floor $843.50 — gap-down risk at open |
+| NVDA frac | ~$207.62 | $194.23 | ⚠ Soft; above -7% floor $185.84 (no stop on dust) |
+
+⚠ CAUTION: AH bids are thin (40-100 share size, no ask side), so these are directional signals NOT execution prices. GEV regular close $869.35 (+1.34% on Oct 30 session). AH bid $803.70 appeared after AMZN/AI selloff extended into AH on Oct 30.
+
+**Today's economic releases:**
+- 2:45 PM ET: S&P Global Manufacturing PMI Final Oct (prev 55.9, est 56) — minor/late
+- 3:00 PM ET: ISM Manufacturing PMI Oct (prev 54.5, est 54.6) — expansion territory, positive
+
+**This week's key events:**
+- Mon Nov 2 AMC: **AAPL** (est EPS $1.98, +7% YoY) + PLTR (est $0.33-0.41) — biggest events of week
+- Tue Nov 3: JOLTS
+- Wed Nov 4: ADP, ISM Services
+- Thu Nov 5: Jobless claims, Productivity
+- **Fri Nov 6: Nonfarm Payrolls** (consensus +55K — very low; key Fed signal)
+- Tue Nov 10: CPI Oct
+
+**Earnings BMO today (Nov 2):** Marriott MAR, Entergy ETR, IDEXX, PEG, Fox, Estée Lauder EL, Check Point CHKP — none directly relevant to our positions.
+
+### Position Analysis
+| Ticker | Entry | Reg Close | P&L% | -7% Floor | Stop | Status |
+|--------|-------|-----------|------|-----------|------|--------|
+| WFC | $78.38 | $83.45 | +6.47% | $72.89 | $76.941 (10% trail, HWM $85.49) | HOLD |
+| JPM | $328.23 | $344.11 | +4.84% | $305.25 | $311.166 (10% trail, HWM $345.74) | HOLD |
+| GEV | $907.53 | $869.35 | -4.20% | $843.50 | $819.702 (10% trail, HWM $910.78) | 🚨 MONITOR AT OPEN |
+| NVDA frac | $199.83 | $207.62 | +3.90% | $185.84 | none | HOLD (dust) |
+
+**GEV: AH bid $803.70 is BELOW cut floor $843.50.** Q3 thesis remains intact (EPS beat +20%, orders +2x YoY, backlog ~$200B, guidance raised, Trench deal strategic). However: if GEV opens below $843.50 on Monday regular session, -7% cut rule triggers — execute market sell immediately. Do NOT hold below $843.50 hoping for recovery. AH weakness likely AI-infrastructure rotation + AMZN AH miss (data center capex uncertainty) + thin AH liquidity.
+
+**WFC catalyst**: Ex-dividend date Nov 6 ($0.50/share = 2.4% yield) — income investor support this week.
+
+### Sector Momentum (confirmed Oct 29, 2026)
+| Rank | Sector | YTD Return | Schwab Rating |
+|------|--------|-----------|---------------|
+| 1 | Energy XLE | +56.7% | More Favored |
+| 2 | Technology XLK | +31.6% | Neutral |
+| 3 | Health Care XLV | +20.4% | More Favored |
+| 4 | Materials XLB | ~+9-10% | More Favored |
+| 5 | Industrials XLI | ~+7.7% | More Favored |
+| 6 | Financials XLF | recovering; +1.44% Oct 29 | More Favored |
+| — | Communication Services XLC | -13.2% | Less Favored |
+| — | Consumer Discretionary XLY | -2.1% | Least Favored |
+
+S&P 500 earnings growth Q3 2026: +32.9% CY2026 projected. Double-digit growth in 7/11 sectors. **Energy, Tech, Materials** lead EPS beats.
+
+### Politician Signals (45-day window: Sep 18 – Nov 2, 2026 | min $25K)
+- **Pelosi**: Most recent qualifying buy = BE (Bloom Energy) Jul 24 ($3M) — **outside 45-day window (101 days ago).** No new qualifying buys in window.
+- **Khanna**: WFC buy Sep 17 ($15-50K borderline) — already noted as secondary confirmation of existing WFC position (from Oct 15 research). No new qualifying buys.
+- **Tuberville**: Last qualifying buy GILD Aug 5 ($1-15K — below $25K threshold). No qualifying buys found.
+- **Gottheimer**: Sold MCD Oct 8 (recent). No qualifying buys found in window.
+- **McCaul**: Last trade Jun 29. Outside 45-day window. No qualifying buys.
+- **Mast**: No qualifying buys found.
+- **→ NO new actionable politician signals.** Zero qualifying new buys in 45-day window.
+
+### Trade Ideas
+**No new trade ideas today.** Reasoning:
+- Cash $3,829 (3.5%) insufficient for any position (min $16K needed at 15% × $109K equity)
+- Broad sell-the-news environment (INTC/AMZN/GOOGL all missed or sold off Oct 30)
+- AAPL earnings AMC tonight — binary gap risk prevents any tech setup before result
+- No politician signals to combine with sector momentum
+- GEV monitoring consumes focus — no capacity for new entries
+
+### Rule Checks
+- GEV -4.20% vs -7% floor $843.50 → AH bid below floor; **CUT AT OPEN if GEV opens ≤ $843.50**
+- WFC +6.47% — stop $76.941 has $6.36 buffer ($83.45 → $76.94) ✓; +15% tighten trigger $90.14 (7.9% away)
+- JPM +4.84% — stop $311.166 has $32.94 buffer ✓; +15% tighten trigger $377.46 (9.7% away)
+- NVDA frac +3.90% — no stop; -7% floor $185.84 vs AH bid $194.23 (buffer intact)
+- Sector cap: Financials ~28%, Industrials ~15% — under 60% ✓
+- Trades this week: 1/7 ✓; PDT: 0/3 ✓
+- Q-end blackout: N/A (not within 5 days of quarter end) ✓
+
+### Risk Factors
+1. **GEV gap-down risk**: AH bid $803.70 well below cut floor $843.50; AI infrastructure selloff + AMZN guidance concern. MUST CUT AT OPEN if opens below $843.50.
+2. **December FOMC rate hike >80% probability**: Higher rates = headwind for GEV (capital-intensive, new $9B debt), JPM/WFC NIM partially offset by credit tightening
+3. **AAPL earnings AMC tonight**: $5T market cap; beat → market recovery tomorrow (GEV/JPM/WFC all benefit); miss → broad market selloff, potential GEV stop cascade
+4. **Nonfarm Payrolls Fri Nov 6** (consensus +55K — very low): weak print = either Fed eases (bullish) or recession fear (bearish); high two-way risk
+5. **VIX 19.42**: Elevated; above long-term average; stops could get hit on intraday whipsaw
+6. **Cash 3.5%**: No ability to add positions or buy dips; fully deployed in terms of cash vs strategy minimum
+
+### Decision
+- **GEV: ALERT — cut at open if price ≤ $843.50.** AH bid $803.70 suggests gap-down risk. Thesis intact but -7% rule is non-negotiable.
+- **WFC: HOLD** — stop active; ex-dividend Nov 6 income support; Financials sector momentum intact; FOMC hold mildly positive for banks near-term
+- **JPM: HOLD** — stop active; Q3 results strong; above all stop/cut levels even in AH
+- **NVDA frac: HOLD** — dust; no action
+- **New entries: HOLD** — cash insufficient; AAPL earnings binary risk tonight; wait for post-AAPL clarity and NFP risk resolution
