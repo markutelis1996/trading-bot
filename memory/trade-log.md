@@ -13673,3 +13673,58 @@ GTC stops confirmed active:
 - GEV watch: manual cut if price ≤ $843.50 during regular session
 - AMZN watchlist for future: AWS +39% YoY; re-evaluate if stabilizes $240-250 with volume next week
 
+
+## 2026-11-02 - Market-Open Session
+
+**Portfolio:** $109,161.23 equity | **Cash:** $3,828.64 | **Positions:** 3 stocks + 1 dust | **Deployed:** ~42.9% stocks
+
+### Step 0 — Reconciliation
+CLEAN — all stock qtys match log. No broker discrepancies.
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 | 148.618780 | ✓ |
+| JPM | 52.620 | 52.619794 | ✓ |
+| GEV | 18.647 | 18.647317 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed active:
+- WFC f49e711e: 148 shares, 10% trail, stop $76.941, HWM $85.49 ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop $311.166, HWM $345.74 ✓
+- GEV a65e0c04: 18 shares, 10% trail, stop $819.702, HWM $910.78 ✓
+
+### Live Price Re-verification (STEP 1b)
+| Ticker | Research | Live | Delta | -7% Floor | Stop | Status |
+|--------|----------|------|-------|-----------|------|--------|
+| GEV | $869.35 (Oct 30 close) | $876.22 | +0.79% | $843.50 | $819.702 (10% trail, HWM $910.78) | HOLD — AH scare did NOT materialize; buffer $32.72 |
+| WFC | $83.45 | $84.40 | +1.14% | $72.89 | $76.941 (10% trail, HWM $85.49) | HOLD |
+| JPM | $344.11 | $341.33 | -0.81% | $305.25 | $311.166 (10% trail, HWM $345.74) | HOLD |
+| NVDA frac | $207.62 | $208.02 | +0.19% | $185.84 | none | HOLD (dust) |
+
+### Rule Checks
+- Cash $3,829 < $16,374 needed (15% × $109,161) → no new position possible ✗
+- Stop tighten: WFC +15% trigger $90.14 (current $84.40 — 6.8% away); JPM trigger $377.46 — neither reached
+- GEV -3.45% — above -7% floor $843.50 (buffer $32.72, 3.9%) ✓; AH bid $803.70 did not reflect reality
+- Sector cap: Financials ~28%, Industrials ~15% ✓
+- Trades this week (new week Nov 2): 0/7 ✓
+- Daytrade count: 0/3 ✓
+
+### Decision — NO TRADES
+1. **Cash constraint**: $3,829 < $16,374 min position — no new buys possible
+2. **GEV survived open**: Pre-market alert was for ≤$843.50; opened at ~$876 — HOLD; thesis intact
+3. **No stop tightening triggered**: All below +15% thresholds
+4. **AAPL post-earnings**: AAPL reported AMC Oct 30; assessing tech sector impact through day
+5. **Key risks this week**: NFP Fri Nov 6 (consensus +55K, high two-way risk); WFC ex-div Nov 6 ($0.50/share)
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Target | R:R |
+|---|--------|--------|-------|---------|------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $84.40 | +7.68% | $76.941 (10% trail, f49e711e, HWM $85.49) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $341.33 | +3.99% | $311.166 (10% trail, ca91a9c8, HWM $345.74) | $393.88 | 2.0:1 |
+| 3 | GEV | 18.647 (18 stop) | $907.53 | $876.22 | -3.45% | $819.702 (10% trail, a65e0c04, HWM $910.78) | $1,089.04 | 2.0:1 |
+| Dust | NVDA frac | 1.192 | $199.83 | $208.02 | +4.10% | none | — | — |
+
+- Trades this week (Nov 2 week): 0/7
+- WFC ex-dividend Nov 6 ($0.50/share = 2.4% yield) — income support
+- GEV watch: cut if price ≤ $843.50 intraday; AH gap risk resolved
+- NFP Fri Nov 6 (consensus +55K): high two-way risk; no new entries before NFP
