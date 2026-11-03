@@ -15321,3 +15321,91 @@ S&P 500 earnings growth Q3 2026: +32.9% CY2026 projected. Double-digit growth in
 - **JPM: HOLD** — stop active; Q3 results strong; above all stop/cut levels even in AH
 - **NVDA frac: HOLD** — dust; no action
 - **New entries: HOLD** — cash insufficient; AAPL earnings binary risk tonight; wait for post-AAPL clarity and NFP risk resolution
+
+---
+
+## 2026-11-03 — Pre-Market Research (Day 143, Tuesday)
+
+### Step 0 — Reconciliation
+CLEAN — all stock qtys match. No discrepancies.
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 | 148.618780 | ✓ |
+| JPM | 52.620 | 52.619794 | ✓ |
+| GEV | 18.647 | 18.647317 | ✓ |
+| NVDA frac | 1.192 | 1.191638 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops confirmed active:
+- WFC f49e711e: 148 shares, 10% trail, stop $77.4261 (HWM $86.029)
+- JPM ca91a9c8: 52 shares, 10% trail, stop $311.166 (HWM $345.74)
+- GEV a65e0c04: 18 shares, 10% trail, stop $819.702 (HWM $910.78)
+
+**🚨 GEV AH ALERT: AH bid $822.11 (5 PM ET Nov 2) — BELOW $843.50 cut floor. CUT AT OPEN if GEV opens ≤ $843.50.**
+
+### Account Snapshot
+- Equity: $108,072.98 | Cash: $3,828.64 (3.5%) | Long MV: $104,244.34
+- Daytrade count: 0/3 | Trades this week: 0/7
+- Deployed: ~96.5% (stocks + crypto DCA sleeve)
+
+### Market Context
+| Indicator | Level | Notes |
+|-----------|-------|-------|
+| S&P 500 futures | 7,556 (-0.24%) | Soft premarket; S&P cash closed 7,541 (-0.51%) Nov 2 |
+| VIX | 21.15 (+8.91% Nov 2) | Elevated; +41% YTD; rising trend; well above 50-day MA 16.18 |
+| WTI Crude | ~$96-97 (-7.3% Nov 2) | Massive oil selloff; Brent ~$104 (-8.4%) |
+| 10Y Treasury | ~4.93% | Yields elevated; slight bid AH |
+| AAPL Q4 | Beat: EPS $2.10 vs $1.99, Rev $114.48B vs $113.38B | Positive for market; AAPL AH flat to -0.5% (sell-the-news) |
+| PLTR Q3 | Beat: EPS $0.44 vs $0.41, Rev $2.31B vs $2.17B | AI momentum intact |
+
+### Today's Catalysts (Nov 3)
+- **MIDTERM ELECTIONS** — major macro event; result uncertainty driving VIX elevation; historically markets rally post-midterms 80%+ of the time regardless of party outcome
+- 8:30 AM: Durable Goods Orders Oct (prev $272B)
+- 3:00 PM: JOLTS Job Openings Sep (prev 3.066M quits)
+- AMC: AMD Q3 earnings (high impact for AI/semi sector), SMCI Q3 (AI server demand)
+- Pfizer BMO (low market relevance)
+
+### Position Analysis (live Alpaca prices)
+| Ticker | Entry | Last Close | AH Bid | P&L% | Stop | Status |
+|--------|-------|-----------|--------|------|------|--------|
+| WFC | $78.38 | $85.905 | $81.60 | +9.60% | $77.4261 (10% trail, f49e711e, HWM $86.029) | HOLD |
+| JPM | $328.23 | $340.58 | $323.89 | +3.76% | $311.166 (10% trail, ca91a9c8, HWM $345.74) | HOLD |
+| GEV | $907.53 | $862.25 | $822.11 | -4.99% | $819.702 (10% trail, a65e0c04, HWM $910.78) | 🚨 CUT AT OPEN ≤$843.50 |
+| NVDA frac | $199.83 | $202.20 | n/a | +1.18% | none | HOLD (dust) |
+
+AH bids reflect thin AH markets + election uncertainty + continued post-AMZN guidance selloff in AI-adjacent names. WFC/JPM AH bids ($81.60/$323.89) still well above their GTC stops. GEV AH bid $822.11 is below cut floor but above GTC stop $819.702 — GTC stop will catch it if opened below, but -7% manual cut rule ($843.50) triggers first.
+
+**Stop tightening check:**
+- WFC: +15% trigger $90.14 — current $85.91 (4.9% away). No action.
+- JPM: +15% trigger $377.46 — current $340.58 (10.8% away). No action.
+- GEV: Negative P&L. No action.
+
+### Politician Signals (45-day window: Sep 19 – Nov 3, 2026 | min $25K per trade)
+- **Ro Khanna**: Mass filing Oct 9 covering Sep trades. WFC: $15-50K buy (Sep 17, $86.89) — secondary confirmation of existing WFC position (already logged). TD Bank: $50-100K buy (Sep 30) — within window but TD Bank is Canadian bank, not in our sector scope. All other buys individually $1-15K, below $25K threshold.
+- **Michael McCaul**: Filing Oct 16 covering Aug trades. Individual equity buys mostly $1-15K. VVV $50-100K buy (Aug 19, 65 days lag) — within 45-day disclosure window but trade date 65 days ago. No qualifying equity buy meeting $25K threshold for US stocks in window.
+- **Pelosi**: No new qualifying buys found in window.
+- **Tuberville, Gottheimer, Mast**: No qualifying individual stock buys ≥$25K found in window.
+- **→ NO new actionable politician signals this week.**
+
+### Trade Ideas
+**No new trade ideas.**
+- Cash $3,828 (3.5%) — insufficient for any position (need ~$16K min at 15% × $108K equity)
+- Election-day uncertainty + elevated VIX = wrong environment to enter
+- GEV crisis monitoring consumes session focus
+- AMD earnings AMC create AI/semi binary risk (affects thesis on any new tech entry)
+- Oil -7.3% is a headwind for Energy sector (not directly held but sector rotation signal)
+
+### Risk Factors
+1. **GEV gap-down**: AH bid $822.11 < $843.50 cut floor. If opens ≤ $843.50 → market sell immediately. GTC stop at $819.702 also active as safety net.
+2. **MIDTERM ELECTIONS**: Uncertainty catalyst; result-driven gap risk in either direction. Financials (WFC/JPM) historically benefit from Republican House (deregulation), neutral under split. VIX 21.15 reflects this.
+3. **AMD/SMCI AMC**: AMD miss could trigger semiconductor selloff (NVDA dust affected, also sets tone for GEV's AI power thesis).
+4. **NFP Friday Nov 6** (consensus +55K): High two-way risk; WFC ex-dividend same day ($0.50/share = $74 income).
+5. **Oil -7%**: Energy sector (XLE #1 YTD sector) weakness; potential rotation out of defensive energy names; does not directly affect our positions but shifts sector momentum picture.
+6. **Cash 3.5%**: No ability to buy dips or add to winners.
+
+### Decision
+- **GEV: 🚨 CUT AT OPEN if price ≤ $843.50** — AH bid $822.11 below floor; -7% rule non-negotiable; expected realized loss ~-7% on 18 shares (~$1,177 loss on $16,335 cost)
+- **WFC: HOLD** — stop $77.4261 active; HWM $86.029; ex-dividend Nov 6 income support; AH bid $81.60 well above stop
+- **JPM: HOLD** — stop $311.166 active; AH bid $323.89 well above stop; Financials sector intact
+- **NVDA frac: HOLD** — dust; no stop; no action
+- **New entries: HOLD** — cash insufficient + election uncertainty; reassess after election results and AMD earnings clarity
