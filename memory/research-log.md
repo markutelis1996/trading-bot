@@ -15409,3 +15409,98 @@ AH bids reflect thin AH markets + election uncertainty + continued post-AMZN gui
 - **JPM: HOLD** — stop $311.166 active; AH bid $323.89 well above stop; Financials sector intact
 - **NVDA frac: HOLD** — dust; no stop; no action
 - **New entries: HOLD** — cash insufficient + election uncertainty; reassess after election results and AMD earnings clarity
+
+---
+
+## 2026-11-04 - Pre-market Research
+
+### Reconciliation
+CLEAN — all stock positions match log. Crypto sleeve filtered (UNTOUCHABLE).
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 | 148.6188 | ✓ |
+| JPM | 52.620 | 52.6198 | ✓ |
+| GEV | 18.647 | 18.6473 | ✓ |
+| NVDA dust | 1.192 | 1.1916 | ✓ |
+
+GTC stops auto-updated since Nov 2 EOD:
+- **GEV a65e0c04**: stop $836.793 (was $819.702), HWM $929.77 (was $910.78) — GEV hit $929+ intraday Nov 3 ✓
+- WFC f49e711e: stop $77.426 (HWM $86.029) — no change
+- JPM ca91a9c8: stop $311.166 (HWM $345.74) — no change
+
+### Account Snapshot
+- Portfolio equity: $109,859
+- Cash: $3,829 (3.5%) — no new positions possible (min $16,374 for 15% position)
+- Long MV: $106,031
+- RegT buying power: $55,394
+- Day trades used: 0/3
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| S&P 500 (Nov 3 close) | 7,568.92 | 5-day: -1.99%; 1-month: -1.99%; mild pullback |
+| S&P 500 futures (premarket) | ~7,561-7,618 range | Mixed signals; Dow -323 (CNBC), Nasdaq +273 (Bloomberg) |
+| VIX | ~20.83 (Nov 3 close) | Elevated; up 18.89% 5-day; risk-off |
+| WTI crude | ~$96.53-98 | Fell -7.29% Nov 2 on Iran diplomacy/Trump deal progress |
+| Brent crude | ~$104.37-106 | Fell -7.71% Nov 2 on same catalyst |
+| 10Y yield | ~4.93% | From prior data |
+| Gold | ~$3,914-3,951 | Elevated; inflation hedge bid |
+
+**Midterm Elections (Nov 3, yesterday):** Market digesting results today. Trump's Iran diplomacy push pre-midterms drove oil's -7-8% crash Nov 2.
+
+**Today's economic releases (Nov 4):**
+- **ADP Oct employment change** (8:15am): 62.5K actual vs 90K consensus — **MISS**; weaker labor. NFP preview negative.
+- **Trade Balance Sep** (8:30am): -$109B vs -$105.57B consensus — wider than expected
+- **ISM Non-Mfg Services Oct** (10:00am): prior 59.8 (expansion); new orders/prices watched
+- **NFP Fri Nov 6**: est +55K (high two-way risk; ADP miss increases downside probability)
+
+**Key earnings (yesterday AMC / today):**
+- **AMD Q3 (Nov 3 AMC)**: EPS $2.09 vs $1.95 est (BEAT), rev $13.38B vs $13.10B est (BEAT), Data Center +97% YoY — record quarter. AI/semis positive.
+- **QCOM FQ4 (tonight AMC 4:45pm)**: Binary risk; handset + automotive silicon demand; no position in QCOM.
+- **MCD Q3 (BMO 7am)**: Watching global comp store sales; no position.
+
+### Position Status (live prices from Alpaca broker positions, Nov 3 AH/close)
+| Ticker | Shares | Entry | Live Price | P&L% | Stop (GTC) | HWM | Status |
+|--------|--------|-------|-----------|------|------------|-----|--------|
+| WFC | 148.619 (148 stop) | $78.38 | $84.87 | +8.28% | $77.426 (10% trail, f49e711e) | $86.029 | HOLD |
+| JPM | 52.620 (52 stop) | $328.23 | $337.11 | +2.71% | $311.166 (10% trail, ca91a9c8) | $345.74 | HOLD |
+| GEV | 18.647 (18 stop) | $907.53 | $913.67 AH ($918.20 close) | +0.68% | $836.793 (10% trail, a65e0c04) | $929.77 | HOLD |
+| NVDA dust | 1.192 | $199.83 | $207.21 | +3.69% | none | — | HOLD (dust) |
+
+**GEV note**: surged +6.49% Nov 3 ($862.25 → $918.20), extending recovery from post-Q3 selloff. Q3 beat confirmed: EPS $4.25 vs $4.00 (+6.08%), rev $12.64B vs $12.00B (+5.31%). FY2026 guidance raised third consecutive time to $46.5-47.5B rev / $16-17B FCF. Backlog ~$200B (+96% orders). Multiple analyst Buy reiterations: Guggenheim $1,400 (Nov 2), Bernstein $1,298 (Nov 1), Morgan Stanley $1,350 (Oct 30). Thesis INTACT/STRENGTHENED.
+
+**Stop tightening checks:**
+- WFC: +15% trigger $90.14 — current $84.87 (6.2% away). No action.
+- JPM: +15% trigger $377.46 — current $337.11 (11.9% away). No action.
+- GEV: +15% trigger $1,043.66 — current $918 (13.7% away). No action.
+
+### Politician Signals (45-day window: Sep 20 – Nov 4; $25K+ threshold)
+- **Pelosi**: Last filing Aug 21 (BE + INTC, traded Jul 24-28) — **77 days old, OUTSIDE window**. No new buys.
+- **McCaul**: Last filing Jun 10 (May trades: Paychex $100-250K, BNRE $100-250K, CACI $50-100K) — **147 days old, OUTSIDE window**.
+- **Khanna**: Last trade Sep 30 per congressflow (small NOW/MA sells, no qualifying buys above $25K in window).
+- **Tuberville**: Last trade Jun 9 (sale only) — outside window.
+- **Gottheimer**: Last trade Sep 25 — no qualifying buys found.
+- **Mast**: No qualifying buys found.
+- **→ NO actionable politician signals this window.** Zero whitelist politicians with qualifying $25K+ buys in past 45 days.
+
+### Trade Ideas
+**None.** Two hard blockers:
+1. **Cash $3,829 < $16,374 minimum** (15% × $109,859) — no new position physically possible
+2. **VIX ~21 + NFP Friday** — elevated risk environment even if cash were available
+
+If a stop-out created cash today, still would not enter: ADP miss signals weak NFP Friday + post-midterm uncertainty.
+
+### Risk Factors
+1. **NFP Fri Nov 6**: ADP miss (62.5K vs 90K) flags downside risk; weak print could hit Financials (WFC, JPM)
+2. **WFC ex-dividend Nov 6**: $0.50/share → $74.31 total income. "Sell the news" risk post-ex-div; stop $77.426 protects downside
+3. **QCOM AMC tonight**: Semi sector binary event; not held but affects broader tech/AI sentiment
+4. **Oil selloff contagion**: Iran deal progress → energy sector under pressure; we have no energy positions (exited XOM Oct 2026) but energy weakness can drag Industrials/broader market
+5. **Post-midterm volatility**: Political composition change unknown; market may gap or whipsaw at open
+6. **GEV -23% from July high**: Despite Q3 beat, stock remains in downtrend from $1,195 peak; stop $836.793 provides cushion but thesis requires continued execution
+
+### Decision: HOLD ALL
+- WFC, JPM, GEV: all above -7% cut floors; theses intact; stops active
+- No new entries: cash constraint + NFP Friday risk + VIX ~21
+- Watch at open: GEV direction (gap from $918 close; midterm/macro tone will set direction)
+- Watch Friday: NFP Nov 6 — weak print could pressure WFC/JPM
+
