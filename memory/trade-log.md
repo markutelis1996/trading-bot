@@ -13864,3 +13864,64 @@ GTC stops (live from orders API — auto-trailed since Nov 2 EOD):
 - **WFC watch**: tighten trail to 7% if price reaches $90.14 (+15% from entry)
 - **NFP Fri Nov 6**: no new entries pre-NFP; ADP miss flags downside risk for Financials
 - WFC ex-dividend Nov 6 ($0.50/share = $74.31 income)
+
+---
+
+## 2026-11-04 - Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Suspected Cause | Realized P&L |
+|--------|---------|------------|-----------------|--------------|
+| GEV | 18.647 | 0.647 | 10% trailing stop a65e0c04 (18 sh) fired intraday; GEV dropped from open ~$918 to below stop $836.793; market order fill ~$836-$843 | ~-$1,273 (est: 18 × ($836.793 - $907.53)) |
+| GEV frac | 0.647 | 0.647 | Fractional uncovered by integer stop — still open; at -9.28% → -7% rule triggered | ~-$55 (est at $823.33) |
+| WFC | 148.619 | 148.619 | ✓ match; stop auto-trailed to $79.218 (HWM $88.02) | — |
+| JPM | 52.620 | 52.620 | ✓ match; stop auto-trailed to $316.881 (HWM $352.09) | — |
+| NVDA dust | 1.192 | 1.192 | ✓ match; no stop | — |
+
+GEV 0.647 fractional CLOSED at market (order 6b09872f) — triggered -7% cut rule at -9.28%.
+Estimated total GEV realized P&L: **~-$1,328** (18 sh stop-out ~-$1,273 + 0.647 fractional close ~-$55).
+
+---
+
+## 2026-11-04 - Midday Scan
+
+**Portfolio:** est ~$108,400 equity | **Cash:** est ~$4,360 (post-GEV close) | **Positions:** 2 stocks + dust | **Phase P&L:** est ~+$8,400
+
+### Step 0 — Reconciliation
+See reconciliation section above. GEV stop-out discovered; fractional cut executed.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|------|----------|------|-----|--------|
+| WFC | 148.619 (148 stop) | $78.38 | $87.27 | +11.34% | +2.03% | $79.218 (10% trail, f49e711e) | $88.02 | HOLD |
+| JPM | 52.620 (52 stop) | $328.23 | $350.45 | +6.77% | +3.69% | $316.881 (10% trail, ca91a9c8) | $352.09 | HOLD |
+| NVDA dust | 1.192 | $199.83 | $203.92 | +2.05% | -1.34% | none | — | HOLD |
+
+GEV: CLOSED (fractional 0.647 sh, order 6b09872f pending fill ~$823). Stop on 18 integer shares fired earlier intraday.
+
+### Step 3 — Cuts
+- **GEV fractional**: -9.28% from entry → cut executed (order 6b09872f). "Cut at -7% per rule; small size does not waive rule."
+- WFC +11.34%, JPM +6.77%: above -7% rule. No cuts.
+
+### Step 4 — Stop Tightening
+- WFC: +15% trigger $90.14; current $87.27 (3.3% away). No action.
+- JPM: +15% trigger $377.46; current $350.45 (7.7% away). No action.
+- Stops auto-trailed by broker: WFC $79.218/HWM $88.02; JPM $316.881/HWM $352.09. ✓
+
+### Step 5 — Thesis Check
+- **WFC**: +11.34% from entry; +2.03% intraday. Financials sector momentum intact. Ex-div Nov 6 ($0.50/share). **INTACT.**
+- **JPM**: +6.77% from entry; +3.69% intraday. Strong Financials day — both JPM and WFC running on sector momentum. **INTACT.**
+- **GEV**: EXITED. 10% stop fired on -9.3% intraday drop (open $918 → $823.33, -10.3%). Thesis (Q3 beat, backlog ~$200B) remains valid but stop rule correctly fired. No re-entry today (NFP Friday, cash constraint).
+
+### Step 6 — Intraday Research
+No sharp unexplained moves on remaining positions. WFC and JPM broad Financials rally (+2–4% intraday). GEV drop appears macro/midterm-election-related; no company-specific news beyond Q3 beat already priced.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $79.218 (10% trail, f49e711e, HWM $88.02) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $316.881 (10% trail, ca91a9c8, HWM $352.09) | $393.88 | 2.0:1 |
+| Dust | NVDA frac | 1.192 | $199.83 | none | — | — |
+
+- Trades this week (Nov 2 week): 0/7 (GEV exits are stop-outs, not new entries)
+- Cash post-GEV: ~$4,360 — still below $16K minimum for new positions
+- Watch: **WFC $90.14** (+15% tighten trigger; 3.3% away); **NFP Fri Nov 6** (est +55K; ADP miss signals downside risk)
