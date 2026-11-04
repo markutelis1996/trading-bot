@@ -13806,3 +13806,61 @@ None. No cuts, no stop changes, no entries.
 | NVDA dust | 1.192 | $199.83 | $202.20 | -$2.44 (-1.19%) | +$2.82 (+1.18%) | none |
 
 **Notes:** No trades today (0/7 this week). Day P&L -$307 (-0.28%) primarily driven by crypto DCA sleeve declining (BTC -2.21%, ETH -1.82%, SOL -3.84%, LINK -1.92% intraday) while stocks were green across the board: WFC +3.00%, JPM +1.05%, GEV +0.51%. WFC trailing stop auto-trailed to stop $77.426 (HWM $86.029 — new all-time high). GEV -4.99% unrealized; manual cut floor at $843.50 gives $18.75 buffer (2.2%). Portfolio nearly fully deployed at 96.5% (stocks + crypto DCA sleeve); cash only $3,829 — no new stock entries possible without a stop-out first. Baseline for Day P&L is Alpaca last_equity $108,439 (Oct 30 close; Oct 30 had no EOD snapshot logged). Key upcoming events: NFP Fri Nov 6 (est +55K, high two-way risk), WFC ex-div Nov 6 ($0.50/share = $74.31 income).
+
+---
+
+## 2026-11-04 - Market-Open Session
+
+**Portfolio:** $109,756.97 equity | **Cash:** $3,828.64 (3.5%) | **Positions:** 3 stocks + 1 dust | **Deployed:** ~96.5%
+
+### Step 0 — Reconciliation
+CLEAN — all stock qtys match log. No broker discrepancies.
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 | 148.6188 | ✓ |
+| JPM | 52.620 | 52.6198 | ✓ |
+| GEV | 18.647 | 18.6473 | ✓ |
+| NVDA frac | 1.192 | 1.1916 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops (live from orders API — auto-trailed since Nov 2 EOD):
+- WFC f49e711e: 148 shares, 10% trail, stop **$78.966** (was $77.426), HWM **$87.74** (new high today) ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop **$311.40** (was $311.166), HWM **$346.00** ✓
+- GEV a65e0c04: 18 shares, 10% trail, stop $836.793, HWM $929.77 ✓
+
+### Live Price Re-verification (STEP 1b)
+| Ticker | Live Price | P&L% | -7% Floor | Stop | Status |
+|--------|-----------|------|-----------|------|--------|
+| WFC | $87.50 (+11.64%) | +11.64% | $72.89 | $78.966 (10% trail, f49e711e, HWM $87.74) | HOLD |
+| JPM | $344.84 (+5.06%) | +5.06% | $305.25 | $311.40 (10% trail, ca91a9c8, HWM $346.00) | HOLD |
+| GEV | $860.14 (-5.22%) | -5.22% | $844.00 ⚠ | $836.793 (10% trail, a65e0c04, HWM $929.77) | HOLD — ⚠ MONITOR |
+| NVDA frac | $203.73 (+1.95%) | +1.95% | — | none | HOLD (dust) |
+
+**⚠ GEV:** Down -6.32% intraday today ($918.20 → $860.14). At-open bid $845.44 was only $1.44 above -7% manual cut floor ($844.00). Manual cut if price ≤ $844.00.
+
+### Rule Checks
+- Cash $3,829 < $16,463 needed (15% × $109,757) → no new position possible ✗
+- Stop tightening: WFC +15% trigger $90.14 (current $87.50 — 2.9% away; monitor); JPM trigger $377.46 (far); GEV negative
+- Sector cap: Financials ~28%, Industrials ~14% ✓
+- Trades this week (Nov 2 week): 0/7 ✓
+- Daytrade count: 0/3 ✓
+
+### Decision — NO TRADES
+1. **Cash constraint**: $3,829 < $16,463 minimum — no new buys possible
+2. **GEV risk**: -5.22% unrealized; at-open bid $845.44 near -7% floor ($844.00); manual cut watch active
+3. **NFP Friday Nov 6**: ADP miss (62.5K vs 90K est) increases weak-print probability; no entries pre-NFP
+4. **WFC near tighten trigger**: +11.64%; trigger at $90.14 (2.9% away) — if WFC reaches $90.14, tighten trail to 7%
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Target | R:R |
+|---|--------|--------|-------|---------|------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $87.50 | +11.64% | $78.966 (10% trail, f49e711e, HWM $87.74) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $344.84 | +5.06% | $311.40 (10% trail, ca91a9c8, HWM $346.00) | $393.88 | 2.0:1 |
+| 3 | GEV | 18.647 (18 stop) | $907.53 | $860.14 | -5.22% | $836.793 (10% trail, a65e0c04, HWM $929.77) | $1,089.04 | 2.0:1 |
+| Dust | NVDA frac | 1.192 | $199.83 | $203.73 | +1.95% | none | — | — |
+
+- Trades this week (Nov 2 week): 0/7
+- **GEV watch**: manual cut if price ≤ $844.00; stop backstop at $836.793
+- **WFC watch**: tighten trail to 7% if price reaches $90.14 (+15% from entry)
+- **NFP Fri Nov 6**: no new entries pre-NFP; ADP miss flags downside risk for Financials
+- WFC ex-dividend Nov 6 ($0.50/share = $74.31 income)
