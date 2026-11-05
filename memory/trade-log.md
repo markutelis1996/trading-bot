@@ -13925,3 +13925,17 @@ No sharp unexplained moves on remaining positions. WFC and JPM broad Financials 
 - Trades this week (Nov 2 week): 0/7 (GEV exits are stop-outs, not new entries)
 - Cash post-GEV: ~$4,360 — still below $16K minimum for new positions
 - Watch: **WFC $90.14** (+15% tighten trigger; 3.3% away); **NFP Fri Nov 6** (est +55K; ADP miss signals downside risk)
+
+---
+
+### Nov 05 - EOD Snapshot (Day 145, Thursday)
+**Portfolio:** $111,688.56 | **Cash:** $19,414.90 (17.4%) | **Day P&L:** +$3,350.22 (+3.09%) | **Phase P&L:** +$101,688.56 (+1,016.9%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 | $78.38 | $87.42 | -$0.01 (-0.01%) | +$1,343.51 (+11.53%) | $79.218 (10% trail, f49e711e, HWM $88.02) |
+| JPM | 52.620 | $328.23 | $352.25 | +$0.14 (+0.04%) | +$1,264.04 (+7.32%) | $317.097 (10% trail, ca91a9c8, HWM $352.33) |
+| NVDA dust | 1.192 | $199.83 | $198.70 | -$1.43 (-0.72%) | -$1.35 (-0.57%) | none |
+
+**Notes:** No trades today; 0/7 weekly cap used. Day P&L of +$3,350.22 is catch-up — no EOD snapshot was filed for Nov 3 or Nov 4; baseline is Alpaca last_equity $108,338.34 (Nov 3 close). Today's actual intraday stock moves were flat (WFC -0.01%, JPM +0.04%); LINK +2.03% intraday contributed modestly from DCA sleeve. GEV fully exited yesterday (stop-out 18 sh + fractional cut, est -$1,328 realized, logged in Nov 04 Reconciliation). Portfolio now 17.4% cash (freed by GEV exit ~$15.6K), 28.5% stocks deployed vs 75-85% target — significant dry powder but NFP tomorrow prevents new entries. WFC +11.53% unrealized — +15% tighten trigger at $90.14 (current $87.42, 2.9% away; watch tomorrow). JPM +7.32% unrealized. Tomorrow (Nov 6): NFP 8:30 AM ET (est +55K; ADP miss signals downside risk for Financials) + WFC ex-dividend ($0.50/share = $74.31 income).
+
