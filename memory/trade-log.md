@@ -13939,3 +13939,58 @@ No sharp unexplained moves on remaining positions. WFC and JPM broad Financials 
 
 **Notes:** No trades today; 0/7 weekly cap used. Day P&L of +$3,350.22 is catch-up — no EOD snapshot was filed for Nov 3 or Nov 4; baseline is Alpaca last_equity $108,338.34 (Nov 3 close). Today's actual intraday stock moves were flat (WFC -0.01%, JPM +0.04%); LINK +2.03% intraday contributed modestly from DCA sleeve. GEV fully exited yesterday (stop-out 18 sh + fractional cut, est -$1,328 realized, logged in Nov 04 Reconciliation). Portfolio now 17.4% cash (freed by GEV exit ~$15.6K), 28.5% stocks deployed vs 75-85% target — significant dry powder but NFP tomorrow prevents new entries. WFC +11.53% unrealized — +15% tighten trigger at $90.14 (current $87.42, 2.9% away; watch tomorrow). JPM +7.32% unrealized. Tomorrow (Nov 6): NFP 8:30 AM ET (est +55K; ADP miss signals downside risk for Financials) + WFC ex-dividend ($0.50/share = $74.31 income).
 
+---
+
+## 2026-11-05 - Market-Open Session
+
+**Portfolio:** $111,621.10 equity | **Cash:** $19,414.56 (17.4%) | **Positions:** 2 stocks + 1 dust | **Deployed:** ~82.6%
+
+### Step 0 — Reconciliation
+CLEAN — all stock qtys match log exactly.
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 | 148.619 | ✓ |
+| JPM | 52.620 | 52.620 | ✓ |
+| NVDA dust | 1.192 | 1.192 | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops live:
+- WFC f49e711e: 148 sh, 10% trail, stop **$80.496**, HWM **$89.44** ✓
+- JPM ca91a9c8: 52 sh, 10% trail, stop **$323.82**, HWM **$359.80** ✓
+
+### Live Price Re-verification (Step 1b)
+| Ticker | Live Price | P&L% | Stop | Tighten Trigger | Status |
+|--------|-----------|------|------|-----------------|--------|
+| WFC | ~$89.30-$89.44 (pos $89.30, HWM $89.44) | +13.9% | $80.496 (10% trail, f49e711e) | $90.14 (+15%) — 0.8% away | HOLD — not at trigger |
+| JPM | $359.24 (ask) | +9.5% | $323.82 (10% trail, ca91a9c8) | $377.47 (+15%) — 5.1% away | HOLD |
+| NVDA dust | $195.26 | -2.3% | none | — | HOLD |
+| AMD | $456.78 (ask) / $446.19 (bid) | — | — | entry plan was ≤$520 | SKIP — signal expired |
+
+**WFC quote note:** market-open bid/ask spread wide ($84/$93); actual price confirmed from positions ($89.30) and order HWM ($89.44). NOT at $90.14 tighten trigger.
+
+### Step 3 — Rule Checks
+- AMD: Planned entry $510.07 AH → now $456.78 ask = -10.5% from planned entry → RECONSIDER per rules. Gap-up fully reversed to below pre-earnings close ($483.90). "Sell the news" pattern. NFP tomorrow Nov 6 adds risk. **SKIP — signal expired.**
+- WFC tighten: not at $90.14 trigger. No action.
+- Cash $19,415 → 15% of equity = $16,743; sufficient for new position but no valid setup.
+- Trades this week (Nov 2 week): 0/7 ✓
+- Daytrades used: 0/3 ✓
+- Sector cap: Financials (WFC+JPM) ~28% ✓
+
+### Decision — NO TRADES
+1. **AMD SKIP**: Post-earnings gap-up faded -10.5% from planned $510 entry; trading below pre-earnings close $483.90 → "sell the news." Signal was gap-up momentum continuation, now gone. NFP risk tomorrow.
+2. **WFC**: At $89.30-$89.44 — below $90.14 tighten trigger (0.8% away). Watch at open tomorrow post-NFP.
+3. **JPM**: Hold. Stop auto-trailed to $323.82/HWM $359.80.
+4. **NVDA dust**: Hold.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Target | R:R |
+|---|--------|--------|-------|---------|------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | ~$89.30 | +13.9% | $80.496 (10% trail, f49e711e, HWM $89.44) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $359.24 | +9.5% | $323.82 (10% trail, ca91a9c8, HWM $359.80) | $393.88 | 2.0:1 |
+| Dust | NVDA frac | 1.192 | $199.83 | $195.26 | -2.3% | none | — | — |
+
+- Trades this week (Nov 2 week): 0/7
+- **WFC watch**: tighten trail to 7% if price reaches $90.14; ex-dividend today Nov 5 (declared) → ex-div Nov 6 $0.50/sh = $74.31 income
+- **NFP Nov 6 8:30 AM ET**: ADP miss 62.5K vs 90K → downside risk for Financials; hold stops in place
+- **AMD**: Re-evaluate next week if stock stabilizes above $483 (pre-earnings close) with fresh catalyst
+
