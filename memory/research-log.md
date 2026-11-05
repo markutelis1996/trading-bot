@@ -15504,3 +15504,118 @@ If a stop-out created cash today, still would not enter: ADP miss signals weak N
 - Watch at open: GEV direction (gap from $918 close; midterm/macro tone will set direction)
 - Watch Friday: NFP Nov 6 — weak print could pressure WFC/JPM
 
+---
+
+## 2026-11-05 - Pre-market Research
+
+### Reconciliation
+CLEAN — all stock positions match log. GEV closed Nov 4 (confirmed). Crypto sleeve filtered (UNTOUCHABLE).
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 | 148.6188 | ✓ |
+| JPM | 52.620 | 52.6198 | ✓ |
+| NVDA dust | 1.192 | 1.1916 | ✓ |
+| GEV | CLOSED | not in broker | ✓ confirmed stop-out Nov 4 |
+
+GTC stops (live from orders API):
+- WFC f49e711e: 148 shares, 10% trail, stop **$79.218**, HWM **$88.02** ✓
+- JPM ca91a9c8: 52 shares, 10% trail, stop **$317.097**, HWM **$352.33** ✓ (auto-trailed vs $316.881 at midday)
+
+### Account Snapshot
+- Portfolio equity: $111,655.05
+- Cash: $19,414.90 (17.4%) — GEV stop-out released ~$15K; can open 1 new position
+- Long MV: $92,240.15 (includes crypto DCA sleeve ~$60,369)
+- RegT buying power: $70,700.45
+- Day trades used: 0/3
+- Phase P&L: ~+$11,655 (+11.66%)
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | $86.92 (Nov 5 live) | -1.47% today; -16.5% from Oct 30 peak ($104); Iran diplomacy driving selloff |
+| Brent crude | $93.75 (Nov 5 live) | Same driver |
+| S&P 500 futures | 7,676.75 (+1.07%) | Strong; Dow posted BIGGEST post-midterm rally in 44 years Nov 4 |
+| VIX | 16.61 (Nov 4 close) | -20.26% from prior close 20.83; massive uncertainty resolution |
+| 10Y yield | ~4.90% | Falling; relief from 5.1% Oct peak |
+| Gold | ~$4,052 | Still elevated |
+
+**2026 Midterm Election results (Nov 3):** Democrats swept BOTH House and Senate.
+- House: Democrats 237, Republicans 147 (D majority +19 seats above threshold)
+- Senate: Democrats 54, Republicans 44
+- Trump enters lame-duck; market reaction: GRIDLOCK = positive for equities. Dow biggest post-midterm rally in 44 years on Nov 4.
+- Oil -16% from peak: Iran diplomacy progress cited as cause of GOP losses; Trump pursuing deal.
+- Democratic sweep → no new deregulation for banks (mild headwind for WFC/JPM long-term) but also no new taxes/legislation (gridlock positive).
+
+**Today's economic releases (Nov 5):**
+- **Bank of England rate decision** 7:00 AM ET — global rates signal
+- **NFP tomorrow Nov 6 (8:30 AM)**: ADP miss 62.5K vs 90K consensus — elevated weak print risk
+
+**Key earnings yesterday AMC:**
+- **AMD Q3**: MASSIVE BEAT — rev $13.38B (+45% YoY, above top of $13.3B guide); non-GAAP EPS $2.09 vs $1.95 est (+7.2%); Data Center $8.55B (+97% YoY); Q4 guide ~$17B ±3% (+66% YoY vs consensus ~$15.6B). AH Nov 3: +6.4% to ~$515. Closed Nov 4 session: estimated ~$500-502 (Alpaca AH quote: bid $460.95 / ask $510.07).
+
+**Today's BMO earnings:** None major for US stocks.
+
+### Live Quotes (Alpaca API, Nov 4 close — most recent available)
+| Ticker | Bid | Ask | Last Close (broker) | P&L vs Entry | Notes |
+|--------|-----|-----|---------------------|--------------|-------|
+| WFC | $82.87 (stale AH) | — | $87.42 | +11.5% | HWM $88.02; ex-div Nov 6 $0.50/sh; +15% tighten at $90.14 (3.1% away) |
+| JPM | $333.27 (stale AH) | — | $354.30 | +8.0% | UBS PT $400; +15% tighten at $377.46 (6.5% away) |
+| NVDA dust | $193.24 | $209.70 | $197.31 | -1.3% | No stop; dust position |
+| AMD | $460.95 | $510.07 | ~$500 est | — | Post-earnings; Data Center +97% YoY |
+
+*Note: AH quotes at market close have wide spreads. Use broker position `current_price` as best last-trade reference. AMD live price must be re-verified at open.*
+
+### Politician Signals (45-day window: Sep 21 – Nov 5; $25K+ threshold)
+- **Pelosi**: Last disclosed = REOF XXX LLC Sep 8 ($500K-1M, disclosed Oct 5) — private equity fund, NOT a tradeable stock. INTC Jul 24-28 (-28.8% now). BE Jul 24-28. No qualifying stock buys in window.
+- **McCaul**: Last qualifying buy May 2026 (Paychex, BNRE, CACI) — 147+ days old, outside window.
+- **Khanna**: Last data Sep 30 — no qualifying stock buys above $25K found in window.
+- **Tuberville, Gottheimer, Mast**: No qualifying buys in window.
+- **→ ZERO actionable politician signals this window.**
+
+### Sector Momentum (YTD as of Oct 30, 2026)
+1. Energy (XLE): +59.7% — but oil now -16% from peak; potential rotation out
+2. Technology (XLK): +32.3% / +25.1%
+3. Health Care (XLV): +20.9%
+4. Schwab "More Favored": Energy, Financials, Health Care, Industrials, Materials
+5. Financials: Recovered strongly — WFC +2.22% Nov 4, JPM +3.69% Nov 4
+
+### Trade Ideas
+
+**Idea 1: AMD — CONDITIONAL BUY (Primary catalyst)**
+- **Live price**: Alpaca ask $510.07 (Nov 4 close AH, stale — MUST re-verify at open)
+- **Catalyst**: Q3 MASSIVE BEAT: Data Center $8.55B (+97% YoY), EPS $2.09 vs $1.95 est, Q4 guide ~$17B (+66% YoY consensus beat). Sector: Tech (+32% YTD, top momentum). AI infrastructure supercycle confirmed by BOTH AMD and Intel data center beats.
+- **Entry**: Only if live open price ≤ $520 (≤7.5% above Nov 3 close $483.90). Do not chase gap-up.
+  - Using Alpaca ask $510.07 as reference entry: **stop $459.06** (10% below), **target $612.08** (20% above)
+  - R:R: 2:1 ✓
+  - Size: 32 shares × $510 = $16,320 (14.6% of equity — within 15% rule)
+- **Second catalyst needed**: ✓ Post-election rally momentum + AI sector momentum = multi-catalyst setup
+- **Sector cap**: Technology after AMD = ~15% of portfolio ✓ (below 60%)
+- **Decision: CONDITIONAL BUY AT MARKET OPEN** — verify live price first; skip if AMD opens >$520
+
+**Idea 2: WFC tighten trigger** (not a new trade, stop management)
+- WFC at $87.42 is only 3.1% from +15% tighten trigger ($90.14). With S&P futures +1%, WFC may hit $90.14 at open.
+- **Action at market-open**: If WFC trades ≥ $90.14, cancel stop f49e711e and replace with new 7% trail.
+
+### Rule Checks
+- AMD size: 32 sh × ~$510 = $16,320. Cash $19,414 covers it ✓
+- Sector cap: Financials (WFC+JPM) = $31,635 / $111,655 = 28.3% ✓; Technology after AMD = ~15% ✓
+- Trades this week (Nov 2 week): 0/7 ✓
+- Daytrades: 0/3 ✓
+- Q4 blackout: starts ~Dec 23 (5 trading days before Dec 31). No issue.
+- AMD qualifying criteria: strong earnings catalyst + sector momentum = primary catalyst. ✓
+
+### Risk Factors
+1. **NFP tomorrow Nov 6** (est +55K): ADP miss signals weak print; could hit Financials (WFC, JPM) and broader market
+2. **WFC ex-dividend Nov 6**: $0.50/share → $74.31 income. "Sell the news" risk post-ex-div; stop $79.218 provides backstop
+3. **AMD open gap risk**: If AMD opens >$520, skip — do not chase an overbought opening gap
+4. **Democratic Congress deregulation headwind**: Mild long-term negative for WFC/JPM (no new deregulation), but gridlock positive near-term; financials actually rallied hard Nov 4
+5. **Oil -16%**: Energy sector rotation headwind; we have no Energy positions (exited XOM Oct), but macro oil decline = inflation relief
+6. **Bank of England today**: Unexpected hawkish surprise could spike global yields
+
+### Decision
+- **AMD: CONDITIONAL BUY AT OPEN** — if live price ≤ $520; 32 shares; stop 10% below entry; verify price first
+- **WFC: HOLD + watch tighten at $90.14** — if WFC reaches $90.14, tighten trail to 7% per rule 6
+- **JPM: HOLD** — stop auto-trailed to $317.097; thesis intact; not near tighten trigger
+- **NVDA dust: HOLD** — no stop, no action
+- **Crypto: UNTOUCHABLE** — DCA sleeve
+
