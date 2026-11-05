@@ -15619,3 +15619,19 @@ GTC stops (live from orders API):
 - **NVDA dust: HOLD** — no stop, no action
 - **Crypto: UNTOUCHABLE** — DCA sleeve
 
+### Afternoon Addendum — 2026-11-05 Midday
+
+**AI chip selloff catalyst confirmed:**
+- Democratic sweep of House + Senate (Nov 3) → by Nov 5 market reassessed data center regulatory risk (potential Dem Congress scrutiny of large AI infrastructure projects)
+- Nasdaq -4%+ | NVDA -8%+ | AMD -13% | MU -12% | SOX broadly down; $2.3T US market cap wiped
+- Nasdaq 100 -6%+ intraday at worst levels
+
+**Impact on holdings:**
+- WFC -3.35% intraday: sympathy drag, NOT Financials-specific thesis break. Ex-div tomorrow, stop $80.622 protecting.
+- JPM -3.87% intraday: same. Stop $323.82 protecting.
+- NVDA dust -8.49% unrealized → cut at market per -7% rule (~$182.86 fill, realized ≈ -$20)
+
+**Sector thesis update:**
+- Financials: Dem majority neutral long-term for well-capitalized banks. Near-term selling is AI de-risking spillover, not fundamental Financials deterioration. WFC/JPM thesis intact; stops protect for NFP tomorrow.
+- AI/semis: Sector correction mode. AMD stabilization above $483 needed before re-entry consideration next week.
+

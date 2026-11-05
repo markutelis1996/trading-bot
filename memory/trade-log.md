@@ -13994,3 +13994,61 @@ GTC stops live:
 - **NFP Nov 6 8:30 AM ET**: ADP miss 62.5K vs 90K → downside risk for Financials; hold stops in place
 - **AMD**: Re-evaluate next week if stock stabilizes above $483 (pre-earnings close) with fresh catalyst
 
+---
+
+## 2026-11-05 - Midday Scan
+
+**Portfolio:** est ~$50,000 stocks + ~$19,632 cash (post-NVDA close) | **Positions:** 2 stocks | **Deployed:** ~72% (stocks only; excl. crypto DCA sleeve)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Stop (broker) | HWM (broker) | Match |
+|--------|---------|------------|---------------|--------------|-------|
+| WFC | 148.619 | 148.619 | $80.622 (10% trail, f49e711e) | $89.58 | ✓ auto-trailed |
+| JPM | 52.620 | 52.619 | $323.82 (10% trail, ca91a9c8) | $359.80 | ✓ |
+| NVDA dust | 1.192 | 0 (closing) | — | — | CUT (see Step 3) |
+
+WFC stop auto-trailed $80.496 → $80.622 (HWM $89.44 → $89.58) — normal auto-trail on yesterday's move. No manual discrepancies.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop (broker) | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|---------------|-----|--------|
+| WFC | 148.619 | $78.38 | $84.50 | +7.81% | -3.35% | $80.622 (10% trail, f49e711e) | $89.58 | HOLD |
+| JPM | 52.619 | $328.23 | $338.47 | +3.12% | -3.87% | $323.82 (10% trail, ca91a9c8) | $359.80 | HOLD |
+| NVDA dust | 1.192 | $199.83 | ~$182.86 | -8.49% | -8.63% | none | — | CUT ← |
+
+### Step 3 — Cuts
+**NVDA dust: unrealized_plpc -8.49% ≤ -7.0% → cut per rule.**
+- Closed at market, order 7b0102df, fill ~$182.86 (confirmed gone from broker positions)
+- Realized P&L: 1.192 × ($182.86 - $199.83) ≈ **-$20** | "cut at -7% per rule"
+- Trailing stop order: none (dust had no GTC stop)
+- WFC +7.81%, JPM +3.12%: above -7% threshold. No cuts.
+
+### Step 4 — Stop Tightening
+- WFC: +15% trigger = $90.14; current $84.50; HWM $89.58 — not reached. No action.
+- JPM: +15% trigger = $377.47; current $338.47 — not reached. No action.
+
+### Step 5 — Thesis Check
+- **WFC**: -3.35% intraday. Broad AI-driven market selloff (see Step 6); NOT Financials-specific. Ex-div tomorrow Nov 6 ($0.50/sh). Stop $80.622 comfortably above -7% cut line ($72.89). Thesis intact. **HOLD.**
+- **JPM**: -3.87% intraday. Same sympathy drag from AI selloff. Stop $323.82 well above -7% cut ($305.25). Thesis intact. **HOLD.**
+
+### Step 6 — Intraday Research (AI selloff driver)
+**Catalyst confirmed: Democratic sweep → AI data center regulation fears.**
+- Democrats swept both House and Senate (Nov 3 results). Market expected short-term gridlock relief, but by Nov 5 investors reassessed data center risk — potential Democratic regulatory scrutiny of large AI infrastructure projects.
+- Nasdaq -4%+ | NVDA -8%+ | AMD -13% | MU -12% | Chip stocks across the board.
+- Financials (WFC, JPM) selling is sympathy drag from broad market de-risking — NOT a Financials thesis break.
+- WFC/JPM thesis: Financials sector momentum, ex-div income (WFC tomorrow), macro rate relief — all INTACT. Democratic sweep is long-term neutral for well-capitalized banks (no deregulation boost, but also no new stress).
+
+### Actions Taken
+1. **NVDA dust CLOSED** — market order 7b0102df, fill ~$182.86, realized ≈ -$20. "Cut at -7% per rule."
+
+### Open Positions
+| # | Ticker | Shares | Entry | Stop | Target | R:R |
+|---|--------|--------|-------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $80.622 (10% trail, f49e711e, HWM $89.58) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.619 (52 stop) | $328.23 | $323.82 (10% trail, ca91a9c8, HWM $359.80) | $393.88 | 2.0:1 |
+
+- Trades this week (Nov 2 week): 0/7 (NVDA close is a cut, not a new entry)
+- **WFC watch**: tighten to 7% trail if price ≥ $90.14 (+15% from entry); ex-div tomorrow Nov 6
+- **NFP tomorrow 8:30 AM**: ADP miss signals weak print risk; Financials may gap down — stops protect
+- **AMD**: re-evaluate next week if stabilizes above $483 pre-earnings close
+
