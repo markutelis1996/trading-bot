@@ -14114,3 +14114,25 @@ JPM quote anomaly noted: bid/ask $315.28/$348.52 (10% spread) — inconsistent w
 - Trades this week: 0/7
 - Week resets Mon Nov 9; re-evaluate AMD and new setups with fresh slate
 
+## 2026-11-06 - Midday Scan
+
+**Portfolio:** ~$86,733 equity (est) | **Positions:** 2 stocks | **Cash:** ~$19,632
+
+### Step 0 — Reconciliation
+CLEAN — same as market-open. No stops fired since open.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Stop | Buffer | Status |
+|--------|--------|-------|---------|------|------|--------|--------|
+| WFC | 148.619 (148 stop) | $78.38 | $84.07 | +7.26% | $80.622 (10% trail, f49e711e, HWM $89.58) | 4.1% | HOLD |
+| JPM | 52.619 (52 stop) | $328.23 | $336.90 | +2.64% | $323.82 (10% trail, ca91a9c8, HWM $359.80) | 3.9% | HOLD |
+
+### Actions
+- **No cuts** — WFC +7.26%, JPM +2.64%; both well above -7% rule
+- **No stop tightening** — both below +15% trigger (WFC needs ≥$90.14, JPM needs ≥$377.47)
+- **GTC stops confirmed active:** f49e711e (WFC) + ca91a9c8 (JPM) — status "new"
+- **Thesis intact** — post-election day minor pullback (WFC -0.86%, JPM -0.13% intraday); Financials sector headwind (Dem sweep / regulation overhang) is known; no fresh thesis-breaking news
+- **No intraday research** — no sharp unexplained moves; Perplexity not configured
+
+### No Notification — No Action Taken
+
