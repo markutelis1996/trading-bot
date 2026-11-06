@@ -15635,3 +15635,110 @@ GTC stops (live from orders API):
 - Financials: Dem majority neutral long-term for well-capitalized banks. Near-term selling is AI de-risking spillover, not fundamental Financials deterioration. WFC/JPM thesis intact; stops protect for NFP tomorrow.
 - AI/semis: Sector correction mode. AMD stabilization above $483 needed before re-entry consideration next week.
 
+---
+
+## 2026-11-06 - Pre-market Research
+
+### Reconciliation (Step 0)
+CLEAN — all stock positions match log exactly.
+| Ticker | Log Qty | Broker Qty | Match? |
+|--------|---------|------------|--------|
+| WFC | 148.619 | 148.6188 | ✓ (fractional rounding) |
+| JPM | 52.619 | 52.6198 | ✓ (fractional rounding) |
+| NVDA dust | CLOSED Nov 5 | not present | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops live:
+- WFC f49e711e: 148 sh, 10% trail, stop **$80.622**, HWM **$89.58** ✓
+- JPM ca91a9c8: 52 sh, 10% trail, stop **$323.82**, HWM **$359.80** ✓
+
+### Account Snapshot
+- Equity: $105,944.43
+- Cash: $19,632.44
+- Long MV: $86,311.99 (stocks + crypto combined)
+- Reg T buying power: $69,272.46
+- Daytrades used: 0/3
+- Deployed (stocks only): ~28% (WFC $12,380 + JPM $17,628 = ~$30K of ~$106K equity)
+- Phase P&L: +$5,944.43 (+5.94%)
+- Trades this week (Nov 2 week): 0/7
+
+### Live Quotes (AH Nov 5 — wide spreads, pre-open)
+| Ticker | AH Bid | AH Ask | Last Close | P&L vs Entry | Stop | Buffer |
+|--------|--------|--------|------------|--------------|------|--------|
+| WFC | $80.69 | $88.37 | $83.30 (-1.77%) | +6.3% | $80.622 | +3.2% ⚠️ |
+| JPM | $319.44 | n/a | $335.00 (-0.69%) | +2.1% | $323.82 | +3.4% |
+
+⚠️ **WFC EX-DIVIDEND TODAY (Nov 6)**: $0.50/share → stock will open adjusted -$0.50 ≈ effective ~$82.80; stop remains $80.622. Buffer narrows to ~2.6% post-ex-div.
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | ~$91.20 (Nov 5 close, +3.50%) | Supply disruption premium, Hormuz still risk |
+| Brent crude | ~$99.32 (+1.05%) | Near $100 resistance |
+| S&P 500 | 7,353.73 (-4.36% Nov 5) | Democrat sweep → AI regulation selloff |
+| S&P 500 futures | 7,388.90 +0.48% premarket | Bounce attempt; range 7,322–7,417 today |
+| Nasdaq 100 futures | +1.49% premarket | Tech bouncing after -6%+ AI selloff |
+| VIX | 28.18 (+70% Nov 5) | Elevated — 87th percentile since 1990; +/-1.77%/day implied |
+| 10Y yield | 4.851% (+0.021%) | Slightly elevated |
+| Gold | $4,075 (-0.93%) | Risk-off bid fading slightly |
+
+**Today's macro gate: NFP 8:30 AM ET (Oct jobs report)**
+- ADP miss: 62.5K vs 90K est (Oct) → downside risk for NFP
+- If weak NFP → rate cut expectations rise → Financials get mixed signal
+- If strong NFP → rate cut fears → broader market pressure
+
+**BMO earnings today:**
+- MRNA (Moderna): 8:00 AM EST (not held; no position action needed)
+
+### Politician Signals (45-day window: Sep 22 – Nov 6, $25K+ threshold)
+- **Pelosi**: Last stock disclosure Aug 21-24 (INTC $500K-$1M Jul 24, BE $500K-$1M Jul 28). Last filing Oct 5 = real estate entity (REOF LLC, non-stock). **All stock buys >80 days old — outside window.** No signal.
+- **Khanna**: Oct 7 disclosures visible — TSLA, AMD, DOW, TSCO, CSGP, MLM, AME each **$1K-$15K** (all well below $25K minimum). Outside threshold. No signal.
+- **Tuberville**: Last trades filed Jul 16 (sales of LMT, DUK, CSX, PFE etc., traded Jun 8-9). **Outside 45-day window.** No signal.
+- **McCaul**: Last qualifying was NOW ~$15K May 2026 — outside window and below threshold. No signal.
+- **Gottheimer**: NOW sell Apr 24 ($15K-$50K). No qualifying buys found in window. No signal.
+- **Mast**: No qualifying buys found.
+- **→ NO ACTIONABLE POLITICIAN SIGNALS** this period. All whitelist politicians either inactive or below $25K minimum.
+
+### Sector Momentum (updated with post-selloff data)
+| Sector | YTD (pre-selloff) | Note |
+|--------|-------------------|------|
+| Energy (XLE) | +25.97% | #1 YTD; WTI at $91 supports |
+| Consumer Staples (XLP) | +10.67% | Defensive rotation inbound |
+| Materials (XLB) | +10.23% | Infrastructure tailwind |
+| Industrials (XLI) | +10.20% | Steady |
+| Utilities (XLU) | +9.74% | AI power demand narrative |
+| Financials (XLF) | -8.11% YTD | Dem sweep adds regulation headwind; WFC/JPM still above stops |
+| Info Tech (XLK) | -2.92% YTD | AI regulation fear post-Dem sweep; Nov 5 AI selloff |
+| S&P 500 | -0.54% YTD (pre-Nov5) | +7.42% per Yahoo as of Nov 5 close |
+
+**Note:** Financials sector weakest YTD — reverses prior Schwab "More Favored" reading from Oct. Democratic majority adds soft deregulation thesis headwind. WFC/JPM Financials thesis primarily momentum + rate tailwind, which may need re-evaluation if sector momentum stays negative.
+
+### Trade Ideas
+**No new trade ideas.** Reasoning:
+- VIX 28.18 (elevated): stop-taps likely on any adverse data; not an entry environment
+- NFP in <2 hours: dominant macro event; entering before the print is coin-flip risk
+- WFC stop proximity: ex-div open + NFP could close gap to $80.622 stop; let stops work
+- No qualifying politician signals with additional catalyst
+- Financials sector YTD momentum has turned negative — caution on adding more Financials exposure
+- Energy (XLE) is top sector but no specific catalyst + no politician signal; pass
+
+### Rule Checks
+- WFC: +6.3% from entry — below +15% tighten trigger ($90.14); HOLD
+- JPM: +2.1% from entry — below +15% tighten trigger ($377.47); HOLD
+- WFC ex-div $0.50/sh today → $74.31 dividend income credited to account (148 shares)
+- Sector cap: Financials (WFC+JPM) ~28% of equity ✓ (well below 60% cap)
+- Trades this week: 0/7 ✓
+
+### Risk Factors
+1. **NFP 8:30 AM ET**: ADP miss 62.5K vs 90K → downside risk. Weak print = recession fear → broad selloff → Financials pressure → WFC/JPM stops potentially triggered
+2. **WFC ex-div today**: Stock opens ~$0.50 lower (ex-div adjustment) → effective $82.80; stop at $80.622; buffer ~2.6% post-adjustment
+3. **VIX 28 elevated**: Implied daily move ±1.77%; stops could be tapped on a 2% down day
+4. **Democrat sweep regulatory overhang**: AI data center regulation + potential bank capital requirement increases; not immediate but changes medium-term thesis
+5. **JPM AH bid $319.44 vs stop $323.82**: AH bid already $4.38 BELOW stop; however AH spread is unreliable — regular session should open higher. Watch at market open.
+
+### Decision
+**HOLD WFC** — stop f49e711e active ($80.622); ex-div income $74.31 today; let stop protect
+**HOLD JPM** — stop ca91a9c8 active ($323.82); 3.4% buffer; UBS PT raised to $400
+**NO NEW ENTRIES** — NFP gate + VIX 28 + no valid setup
+**Post-NFP (8:30 AM)**: Re-evaluate at market-open session. If strong NFP → Financials relief rally possible. If weak NFP → stops may be triggered; that is the system working correctly.
+
