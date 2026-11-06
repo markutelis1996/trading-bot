@@ -14064,3 +14064,53 @@ WFC stop auto-trailed $80.496 → $80.622 (HWM $89.44 → $89.58) — normal aut
 **Notes:** NFP (Nov 6, 8:30 AM ET) dragged Financials lower — WFC -1.77%, JPM -0.69% on the day. Both well above stops and -7% cut thresholds. The Day P&L of -$5,659 is dominated by crypto DCA sleeve drawdown (BTC -0.77%, ETH -1.02%, SOL -0.95%, LINK -0.66%) and stock retracement from yesterday's elevated close. No new trades (0/7 weekly cap used this week). WFC ex-dividend $0.50/sh today (~$74.31 income). Both trailing stops intact; WFC tighten trigger $90.14 not hit (price went wrong way on NFP). Week resets Mon Nov 9; re-evaluate AMD and new setups with fresh slate.
 
 ---
+
+## 2026-11-06 - Market-Open Session
+
+**Portfolio:** $106,228.53 equity | **Cash:** $19,632.42 | **Positions:** 2 stocks | **Deployed:** ~28% (stocks)
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 0 (NO TRADES)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.620 | 52.619794 | ✓ fractional rounding |
+| NVDA dust | CLOSED | not present | ✓ |
+| Crypto | DCA sleeve | filtered | UNTOUCHED |
+
+No discrepancies.
+
+### Step 1b — Price Re-verification
+| Ticker | Pre-market Plan | Live Price | Delta | Stop | Buffer | Status |
+|--------|----------------|------------|-------|------|--------|--------|
+| WFC | ~$82.80 (ex-div adj) | $83.65 (bid/ask $83.53/$83.77) | +1.0% | $80.622 (f49e711e, HWM $89.58) | 3.4% | HOLD |
+| JPM | ~$327 | $334.26 (positions price; quote API showed anomalous $315/$348 spread — unreliable NBBO) | +2.2% | $323.82 (ca91a9c8, HWM $359.80) | 3.1% | HOLD |
+
+JPM quote anomaly noted: bid/ask $315.28/$348.52 (10% spread) — inconsistent with positions price $334.26 and prior closes. No action; positions API is authoritative.
+
+### Rule Checks
+- WFC: +6.5% from entry — below +15% tighten trigger ($90.14) → no action
+- JPM: +1.84% from entry — below +15% tighten trigger ($377.47) → no action
+- WFC ex-dividend $0.50/sh today → ~$74.31 dividend income credited; stop $80.622 unchanged (trailing stops do not auto-adjust for dividends; buffer acceptable at 3.4%)
+- Both GTC stops confirmed active (status "new")
+- Daytrades used: 0/3 ✓
+- Trades this week: 0/7 ✓
+
+### Decision: NO TRADES
+1. Pre-market plan: NO NEW ENTRIES — NFP gate + VIX 28.18 (elevated) + no catalyst-backed setups
+2. NFP (Oct jobs report, 8:30 AM ET): confirmed drag on Financials; both WFC/JPM hold above stops and -7% cut thresholds
+3. No qualifying setups: AMD signal expired (price below pre-earnings $483.90), no new politician signal, no fresh catalyst
+4. VIX elevated (28.18) — not an entry environment
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Target | R:R |
+|---|--------|--------|-------|---------|------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $83.65 | +6.5% | $80.622 (10% trail, f49e711e, HWM $89.58) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.619 (52 stop) | $328.23 | $334.26 | +1.84% | $323.82 (10% trail, ca91a9c8, HWM $359.80) | $393.88 | 2.0:1 |
+
+- Trades this week: 0/7
+- Week resets Mon Nov 9; re-evaluate AMD and new setups with fresh slate
+
