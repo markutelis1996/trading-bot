@@ -14052,3 +14052,15 @@ WFC stop auto-trailed $80.496 → $80.622 (HWM $89.44 → $89.58) — normal aut
 - **NFP tomorrow 8:30 AM**: ADP miss signals weak print risk; Financials may gap down — stops protect
 - **AMD**: re-evaluate next week if stabilizes above $483 pre-earnings close
 
+
+### Nov 06 - EOD Snapshot (Day 146, Friday)
+**Portfolio:** $105,947.74 | **Cash:** $19,632.44 (18.5%) | **Day P&L:** -$5,659.02 (-5.07%) | **Phase P&L:** +$95,947.74 (+959.5%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 | $78.38 | $83.30 | -$1.50 (-1.77%) | +$731.20 (+6.28%) | $80.622 (10% trail, f49e711e, HWM $89.58) |
+| JPM | 52.620 | $328.23 | $335.00 | -$2.34 (-0.69%) | +$356.35 (+2.06%) | $323.82 (10% trail, ca91a9c8, HWM $359.80) |
+
+**Notes:** NFP (Nov 6, 8:30 AM ET) dragged Financials lower — WFC -1.77%, JPM -0.69% on the day. Both well above stops and -7% cut thresholds. The Day P&L of -$5,659 is dominated by crypto DCA sleeve drawdown (BTC -0.77%, ETH -1.02%, SOL -0.95%, LINK -0.66%) and stock retracement from yesterday's elevated close. No new trades (0/7 weekly cap used this week). WFC ex-dividend $0.50/sh today (~$74.31 income). Both trailing stops intact; WFC tighten trigger $90.14 not hit (price went wrong way on NFP). Week resets Mon Nov 9; re-evaluate AMD and new setups with fresh slate.
+
+---
