@@ -14136,3 +14136,17 @@ CLEAN — same as market-open. No stops fired since open.
 
 ### No Notification — No Action Taken
 
+---
+
+### Nov 07 - EOD Snapshot (Day 147, Saturday)
+**Portfolio:** $106,291.63 | **Cash:** $19,632.42 (18.5%) | **Day P&L:** +$343.89 (+0.32%) | **Phase P&L:** +$96,291.63 (+962.9%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 | $78.38 | $84.18 | flat (weekend) | +$862.66 (+7.41%) | $80.622 (10% trail, f49e711e, HWM $89.58) |
+| JPM | 52.620 | $328.23 | $335.38 | flat (weekend) | +$376.35 (+2.18%) | $323.82 (10% trail, ca91a9c8, HWM $359.80) |
+
+**Notes:** Weekend — no market session. Day P&L +$343.89 reflects crypto DCA sleeve overnight recovery (BTC -0.46%, ETH -0.09%, SOL -0.54%, LINK -0.07% vs Friday close; overall sleeve net positive vs Nov 06 EOD baseline). Stock positions unchanged from Friday close: WFC +7.41% unrealized, JPM +2.18% unrealized. Both GTC trailing stops active and intact (f49e711e WFC $80.622; ca91a9c8 JPM $323.82). Zero trades this week (0/7 cap). Week resets Mon Nov 10 — fresh 3-trade slate. Pre-market research Mon to identify new setups; watch Financials momentum (WFC tighten trigger $90.14, JPM $377.47).
+
+---
+
