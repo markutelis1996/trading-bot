@@ -1738,4 +1738,80 @@ Phase P&L: +$11,645.71 (+11.65% from $100,000)
 - Phase P&L: +$11,645.71 (+11.65%) — recovering from +7.77% low, back above +10% ✓
 
 ---
+
+## Week ending 2026-11-07
+
+> **Note:** No weekly review was filed for the week ending Oct 31 (Oct 25–31). That week: XOM exited (stop-out or close), GEV entered ~$907.53. Portfolio dropped from $111,645 (Oct 24 EOD) to ~$108,439 (Oct 30 EOD), approx -2.87%. This review covers the week of Nov 2–6, 2026.
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $108,439 (Oct 30 EOD; Oct 31 no session) |
+| Ending portfolio | $106,291.63 (Nov 7 API / post-Nov 6 close) |
+| Week return | -$2,147.37 (-1.98%) |
+| S&P 500 week | ~-3.2% (Dem sweep AI selloff Nov 5 dominant; partial recovery Nov 6) |
+| Bot vs S&P | +1.22% outperformance |
+| Trades | 0 new entries (W:0 / L:2 closed / open:2) |
+| Win rate | 0% (2 closed trades, both losses) |
+| Best trade | WFC +6.28% unrealized ($731 open) |
+| Worst trade | GEV -7.0% realized (~-$1,328, stop-out) |
+| Profit factor | N/A (no winners) |
+| Phase P&L | +$6,291.63 (+6.29%) — down from +11.65% Oct 24 peak |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| GEV | $907.53 (Oct ~29) | ~$836.79 (Nov 4, 10% trail a65e0c04) + 0.647 frac ~$823 (-7% cut) | ~-$1,328 | ~-7.0% | Stop fired during midterm/macro selloff; Q3 beat thesis valid — macro execution |
+| NVDA dust | $199.83 (May 2026) | ~$182.86 (Nov 5, -7% cut, order 7b0102df) | ~-$20 | -8.5% | Dust from prior position; no stop available on fractional; cut per rule |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close (Nov 6) | Unrealized | Stop | HWM |
+|--------|--------|-------|---------------|------------|------|-----|
+| WFC | 148.619 (148 stop) | $78.38 | $83.30 | +$731.20 (+6.28%) | $80.622 (10% trail, f49e711e) | $89.58 |
+| JPM | 52.620 (52 stop) | $328.23 | $335.00 | +$356.35 (+2.06%) | $323.82 (10% trail, ca91a9c8) | $359.80 |
+
+Stock deployed: ~$30,077 / $106,292 = 28.3% | Cash $19,632 (18.5%) | Crypto DCA sleeve ~$56,583 (53.2%) — UNTOUCHABLE
+
+### What Worked
+- Outperformed S&P 500 (-1.98% vs -3.2%) for the second consecutive week despite difficult macro
+- GEV trailing stop (a65e0c04) fired correctly at $836.793 when stock crashed -10.3% intraday Nov 4; integer stop protected 18 of 18.647 shares; fractional correctly cut under -7% rule
+- NVDA dust cut: -8.49% hit → cut per rule; small realized loss (-$20); clean execution
+- WFC and JPM held through VIX 28 environment (Dem sweep AI selloff Nov 5): both survived -3.4% and -3.9% intraday without stop-out; theses intact
+- AMD "do not chase" rule correctly applied: planned entry at $510 AH → opened $456 at market (-10.5% from planned) → skipped; would have entered into continued weakness
+
+### What Didn't Work
+- Phase P&L collapsed from +11.65% (Oct 24) to +6.29% (Nov 6): -5.4pp in two weeks; two weeks of crypto DCA sleeve drawdowns + GEV stop-out combined
+- 0 new entries all week despite having $19.4K cash available from Thu (post-GEV); NFP gate + VIX 28 blocked valid deployment
+- Stock deployment: 28.3% — critically below 75-85% target; now 10+ consecutive weeks underdeployed
+- GEV stop-out was correct mechanically but entry timing was poor: entered at HWM zone ($907 vs HWM $910) with Nov 4 Q3 earnings binary risk — insufficient buffer from stop at open
+- Zero realized winning trades for 6th+ consecutive week; can't evaluate strategy quality without closed wins
+- Nov 5 AI sector selloff (-4%+ S&P, Nasdaq -6%+) on Democratic sweep was not in pre-election risk model; political outcome drove a sector rotation that had no precedent in recent rules
+
+### Key Lessons
+- **Political catalyst risk is directional AND sector-specific**: Democratic sweep → AI data center regulation fears drove -6%+ Nasdaq in one day; our financial/industrial holdings survived but AI-adjacent names (NVDA, AMD) got destroyed; this is a gap in the catalyst framework — midterm outcomes should inform sector allocation going into election week
+- **GEV stop-out post-Q3 beat confirms: macro beats micro**: Q3 EPS beat +6%, guidance raised 3rd time, $200B backlog — still stopped out at -7% because midterm uncertainty overwhelmed fundamentals; entering near HWM ($907 vs HWM $910) with no buffer before a macro binary event was a timing error
+- **WFC ex-dividend mechanics**: $0.50/sh ex-div Nov 6 narrowed stop buffer to ~2.6% briefly; GTC stop does not auto-adjust for dividends; must manually widen stop pre-ex-div or accept tighter buffer
+- **AMD post-earnings gap rule performed as designed**: AH quote $510 → open $456, -10.5% from plan → "skip if price diverged"; rule prevented a losing entry
+- **Cash freed post-GEV (Thu/Fri)**: $19.4K available Thu-Fri but NFP gate + VIX 28 correctly blocked entries; correct discipline but means deployment window stays closed until VIX normalizes
+
+### Adjustments for Next Week (Nov 9-13)
+- **Deploy 1 position with valid setup**: $19.6K cash available; target sectors: Energy (XLE #1 YTD, WTI stabilizing near $91), Healthcare (XLV +20.9% YTD, no current exposure), or Tech if VIX <20
+- **AMD re-entry criteria**: needs to close above $483 (pre-earnings close Nov 3) for 2 consecutive sessions + sector momentum recovery + VIX <22; do not enter during continued AI de-risking
+- **WFC tighten trigger**: $90.14 (+15%) — now 8.2% away from $83.30 close; watch daily
+- **JPM tighten trigger**: $377.47 (+15%) — 12.7% away; hold
+- **VIX gate**: VIX 28.18 at week end — only enter new positions if VIX trades below 22 intraday
+- **Politician scan refresh**: 45-day window resets Nov 9; check for new disclosures filed Oct 25–Nov 9 period; no active signals currently
+- **GEV re-entry**: Not before 1 week settling; re-evaluate if stock reclaims $900 with clean macro
+
+### Overall Grade: C
+- +1.22% outperformance vs S&P 500 ✓ (second consecutive outperformance week)
+- Phase P&L -5.4pp from Oct 24 peak; +6.29% from $100K start ✗
+- 0 new entries; 0 closed wins; 6th+ week without realized winning trade ✗
+- Stock deployment 28.3% — chronically below 75-85% target ✗
+- Stop mechanics executed correctly (GEV auto-trail, NVDA cut) ✓
+- AMD signal discipline: correctly rejected post-earnings fade ✓
+- No rule violations: crypto UNTOUCHED, no options, stops active ✓
+- Q4 blackout check: starts Dec 23; no issue yet ✓
+
+---
 ---
