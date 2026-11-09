@@ -14196,3 +14196,40 @@ CLEAN — no discrepancies.
 
 ---
 
+## 2026-11-09 - Midday Scan
+
+**Portfolio:** ~$105,044 equity | **Cash:** $19,632.42 | **Positions:** 2 stocks | **Deployed:** ~29%
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.619 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Stop | HWM | Status |
+|--------|--------|-------|---------|------|------|-----|--------|
+| WFC | 148.619 (148 stop) | $78.38 | $86.17 | +9.94% | $80.622 (f49e711e, 10% trail) | $89.58 | HOLD |
+| JPM | 52.619 (52 stop) | $328.23 | $342.88 | +4.46% | $323.82 (ca91a9c8, 10% trail) | $359.80 | HOLD |
+
+### Actions
+- **Step 3 (losers):** None — both positions positive.
+- **Step 4 (tighten):** WFC tighten trigger +15% = $90.14 (current $86.17 — not triggered). JPM tighten trigger +15% = $377.47 (current $342.88 — not triggered). No stop changes.
+- **Step 5 (thesis):** WFC intact — Q3 beat, analyst upgrades, ex-div received. JPM intact — Q3 beat; Epstein Senate investigation headline risk monitored, no fundamentals impact.
+- **Step 6 (research):** Perplexity N/A. WFC +2.66% / JPM +2.51% intraday — in line with broad risk-on; no sharp unexplained moves. No thesis breaks.
+- **Step 7:** No action taken → no notification.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Target | R:R |
+|---|--------|--------|-------|---------|------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $86.17 | +9.94% | $80.622 (10% trail, f49e711e, HWM $89.58) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.619 (52 stop) | $328.23 | $342.88 | +4.46% | $323.82 (10% trail, ca91a9c8, HWM $359.80) | $393.88 | 2.0:1 |
+
+- Trades this week: 0/7
+- Watch: WFC tighten trigger $90.14; JPM Epstein escalation; CPI Nov 10 8:30 AM ET gate
+
+---
+
