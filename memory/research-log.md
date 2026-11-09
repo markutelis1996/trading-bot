@@ -15742,3 +15742,135 @@ GTC stops live:
 **NO NEW ENTRIES** — NFP gate + VIX 28 + no valid setup
 **Post-NFP (8:30 AM)**: Re-evaluate at market-open session. If strong NFP → Financials relief rally possible. If weak NFP → stops may be triggered; that is the system working correctly.
 
+## 2026-11-09 - Pre-market Research
+
+### Reconciliation (Step 0)
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.620 | 52.619794 | ✓ fractional rounding |
+| NVDA dust | CLOSED Nov 5 | not present | ✓ |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+GTC stops live:
+- WFC f49e711e: 148 sh, 10% trail, stop **$80.622**, HWM **$89.58** ✓
+- JPM ca91a9c8: 52 sh, 10% trail, stop **$323.82**, HWM **$359.80** ✓
+
+CLEAN — no discrepancies.
+
+### Account Snapshot
+- Equity: $104,816.57 (balance_asof 2026-11-06; weekend; no change)
+- Cash: $19,632.42
+- Long MV: $85,184.15 (stocks + crypto combined)
+- Reg T buying power: $69,551.20
+- Daytrades used: 0/3
+- Deployed (stocks only): ~28.9% (WFC $12,511 + JPM $17,775 = $30,286 / $104,817)
+- Phase P&L: +$4,816.57 (+4.82%) [vs Nov 7 EOD $106,291 — slight drop due to crypto overnight]
+- Trades this week (Nov 9 week): 0/7 ✓ (fresh week)
+
+### Live Position Prices (positions API — most recent mark Nov 6 close)
+| Ticker | Price | P&L% | Stop | Buffer | Tighten @ | Status |
+|--------|-------|------|------|--------|-----------|--------|
+| WFC | $84.18 | +7.41% | $80.622 (f49e711e, HWM $89.58) | 4.2% | $90.14 (+15%) | HOLD |
+| JPM | $337.80 | +2.9% | $323.82 (ca91a9c8, HWM $359.80) | 4.1% | $377.47 (+15%) | HOLD |
+
+Note: Alpaca AH quote Nov 6 21:00 ET — WFC bid $80.55 / ask $88.41 (wide, unreliable); JPM bid $322.08 / ask $355.31 (wide). Regular-session open will narrow. Positions mark $84.18/$337.80 is authoritative.
+
+### Market Context (Nov 9, 2026 premarket)
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | ~$90.21/bbl | Bloomberg; -1.1% from $91 prior; Hormuz premium persists |
+| Brent crude | ~$98.18/bbl | Near $98-100 resistance; down from $99.32 (Nov 5) |
+| S&P 500 | 7,376.86 (Nov 6 close) | -4.36% (Nov 5 Dem sweep selloff); bouncing; +7.76% YTD |
+| VIX | 25.64 (Nov 6 close, -9% from 28.18) | Declining but still elevated — correction-stress zone |
+| 10Y yield | ~4.85% | Slightly elevated; rate-cut expectations muted |
+
+**Today's releases (Nov 9):**
+- 10:00 AM ET: Wholesale Inventories Sep Final (est +0.6%) — minor
+- 11:00 AM ET: NY Fed Survey of Consumer Expectations — minor
+- Fed speakers: Bowman (1:40 PM), Goolsbee (3:00 PM)
+- **No major macro release today**
+
+**Tomorrow's gate (Nov 10 8:30 AM ET):**
+- CPI October: headline est +0.2% MoM (+2.6% YoY); core est +0.3% MoM
+- Previous headline 0.6% MoM (Sep was hot). If hot again → rate hike fears → Financials pressure → WFC/JPM stops potentially at risk
+
+**BMO earnings today (Nov 9):**
+- KKR (KKR): est $1.41 EPS — financial sector
+- Constellation Energy (CEG): est $3.90 EPS — AI power/data center play (AI demand tailwind)
+- NRG Energy (NRG): est $3.44 EPS — AI power play
+- Ferguson (FERG): est $3.28 EPS — industrial distribution
+
+**This week earnings (key):**
+- Mon AMC: Take-Two (TTWO), Occidental Petroleum (OXY), Rocket Lab (RKLB)
+- Tue AMC: CoreWeave (CRWV), Nebius (NBIS) — AI cloud; high-profile
+- Thu AMC: Applied Materials (AMAT) — semi equipment bellwether
+
+### Position Thesis Check
+**WFC:**
+- Thesis: Financials sector + rate tailwind + Q3 2026 EPS $1.87 (beat)
+- Analyst consensus Buy; mean PT $97.48 (+14% upside from current)
+- Next dividend: Dec 1, 2026 payable (ex-div already happened Nov 6)
+- YTD: -7.91% (vs S&P +7.76%) — headwind, but we entered at a low ($78.38)
+- 5-day return: +1.24% — held up better than market (-2.68% 5-day S&P)
+- Risk: Financials sector YTD momentum has turned negative post-Dem sweep; regulation overhang
+- Thesis: INTACT — Q3 beat, analyst upgrades, ex-div received. Hold with stop.
+
+**JPM:**
+- Thesis: Financials sector momentum + rate environment + strong Q3 earnings
+- NEW RISK: Senate Democrats preparing to investigate JPMorgan's Epstein ties (emerged Nov 5, confirmed in news Nov 7)
+- JPM YTD: +5.81% — holding better than WFC
+- Risk: Epstein investigation is headline/regulatory risk, not earnings risk. Doesn't change Q3 results or near-term fundamental outlook. Watch for escalation.
+- Thesis: INTACT but monitor Epstein headline risk daily.
+
+### Politician Signals (45-day window: Sep 25 – Nov 9; $25K+ threshold)
+- **Pelosi**: Last qualifying buys = Bloom Energy Jul 24+28 (filed Aug 21) — **76+ days ago, outside 45-day disclosure window.** No new buys. REOF XXX Sep 8 = real estate entity, not stock. **NO SIGNAL.**
+- **Khanna**: WFC Sep 17 $15K-$50K (filed Oct 9, 31 days ago) — **within window; straddles $25K minimum.** Already logged as secondary confirmation. All other Khanna Sep 25-30 buys ($1K-$15K each) below threshold. **WFC secondary confirmation (already held).**
+- **McCaul**: Filed Oct 16 (24 days ago). Accenture (ACN) bought $50K-$100K on Aug 25 AND $50K-$100K on Aug 28 → combined $100K-$200K total; trades dated 72-76 days ago but DISCLOSURE DATE Oct 16 is within 45-day window ✓. **ACN: qualifying disclosure. 1 whitelisted politician = secondary confirmation.** Need additional catalyst for LEARNING MODE primary.
+- **Gottheimer**: AMAT buy $1K-$15K on Oct 27 (filed Oct 27, 13 days ago) — **below $25K minimum.** NOT qualifying.
+- **Tuberville, Mast**: No qualifying buys found in window.
+- **Broad scan**: 14 trades first week of Nov (10 buys/4 sells); no additional whitelist signals flagged.
+
+**Politician signal summary:**
+- Khanna WFC Sep 17: secondary confirmation (existing position) — already noted
+- McCaul ACN Aug 25-28 ($100K+): **WATCHLIST — secondary confirmation.** Would need sector momentum + 1 more catalyst for entry. No action today (CPI tomorrow gate).
+
+### Sector Momentum (Nov 9 update)
+Post-election rotation in progress:
+1. Energy: ~$90 WTI — still #1 YTD; negative correlation with Tech (unusual)
+2. Information Technology: recovering from AI selloff; +1.26% on Nov 6; estimates raised 10+ pts even as price fell → valuation dislocation
+3. Healthcare: leapfrogged tech to #2 YTD (defensive rotation in Dem-sweep world)
+4. Financials: YTD mixed (JPM +5.81%; WFC -7.91%); Dem sweep adds soft regulation overhang
+5. Consumer Staples: defensive rotation inbound
+- Financials: no longer "More Favored" — sector now underperforming vs Schwab Oct reading
+
+### Trade Ideas
+**No new trade ideas today.** Reasoning:
+- CPI October tomorrow (Nov 10 8:30 AM) — the dominant macro gate for Financials and Tech
+- VIX 25.64 — still in correction-stress zone (22-25+); implied daily move ~1.6%
+- JPM Epstein headline risk adds noise to Financials this week
+- McCaul ACN signal: qualifying disclosure but no secondary catalyst yet; ACN not in a momentum sector; defer to post-CPI
+- Deployment 28.9% — well below 75-85% target but no valid setup justifies chasing with VIX elevated
+
+### Rule Checks
+- WFC: +7.41% from entry — below +15% tighten trigger ($90.14) → no action
+- JPM: +2.9% from entry — below +15% tighten trigger ($377.47) → no action
+- Both stops confirmed active (f49e711e, ca91a9c8)
+- No -7% cut alerts (WFC would trigger at $72.89; JPM at $305.25 — both far)
+- Sector cap: Financials (WFC+JPM) ~28.9% ✓ (well below 60% cap)
+- Trades this week: 0/7 ✓
+
+### Risk Factors
+1. **CPI tomorrow (Nov 10 8:30 AM)**: Est headline +0.2% MoM; if hot (like Sep's 0.6%) → rate hike fears → Financials pressure. Hot print = stops potentially tested.
+2. **JPM Epstein investigation**: Senate Democrats probing JPM's Epstein relationship — headline/regulatory risk. Watch for escalation. Not earnings-related yet.
+3. **VIX 25.64**: Still elevated; correction-stress zone. Daily implied move ~1.6%.
+4. **WFC AH spread**: Nov 6 AH bid $80.55 — only $0.07 above stop. AH spreads unreliable; regular-session open should normalize above $82-83. Watch at open.
+5. **Deployment gap**: Only 28.9% deployed vs 75-85% target. Week-long underdeployment opportunity cost if market recovers, but CPI uncertainty justifies caution.
+
+### Decision
+- **WFC: HOLD** — stop f49e711e active ($80.622); thesis intact; buffer 4.2%; watch AH spread normalize at open
+- **JPM: HOLD** — stop ca91a9c8 active ($323.82); buffer 4.1%; Epstein risk = monitoring only
+- **NO NEW ENTRIES today** — CPI tomorrow is the gate; VIX elevated; no catalyst-backed setup
+- **Post-CPI (Nov 10)**: If in-line or benign → evaluate ACN (McCaul signal + AI consulting thesis) and energy names. If hot → risk-off, let stops protect.
+- **Watch**: WFC at $90.14 tighten trigger; JPM Epstein headlines escalation
+
