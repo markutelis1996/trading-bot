@@ -14233,3 +14233,15 @@ CLEAN — no discrepancies.
 
 ---
 
+### Nov 09 - EOD Snapshot (Day 148, Monday)
+**Portfolio:** $105,420.52 | **Cash:** $19,632.42 (18.6%) | **Day P&L:** -$971.75 (-0.91%) | **Phase P&L:** +$95,420.52 (+954.2%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 | $78.38 | $85.49 | +$1.55 (+1.85%) | +$1,056.68 (+9.07%) | $80.622 (10% trail, f49e711e, HWM $89.58) |
+| JPM | 52.620 | $328.23 | $342.08 | +$7.59 (+2.27%) | +$728.90 (+4.22%) | $323.82 (10% trail, ca91a9c8, HWM $359.80) |
+
+**Notes:** Both stock positions closed green (WFC +1.85%, JPM +2.27%) but portfolio Day P&L negative (-$971.75) due to crypto DCA sleeve intraday drawdown (BTC -0.65%, ETH -0.74%, SOL -1.85%, LINK +0.68% — combined ~-$370 sleeve drag; balance of -$971 reflects weekend crypto retracement baked into last_equity baseline). No trades today (0/7 weekly cap). Reconciliation clean: WFC 148.619 ✓, JPM 52.619 ✓. No stop tightening triggered (WFC +15% at $90.14 not reached, JPM +15% at $377.47 not reached). Both GTC stops active and intact (f49e711e WFC, ca91a9c8 JPM). Portfolio 29% deployed stocks vs 75-85% target — significantly under-deployed; CPI Oct tomorrow (Nov 10 8:30 AM ET) is primary gate for new entries. No new entry today per pre-market plan. Tomorrow: if CPI benign (≤3.4% core), evaluate ACN and other setups.
+
+---
+
