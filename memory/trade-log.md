@@ -14150,3 +14150,49 @@ CLEAN — same as market-open. No stops fired since open.
 
 ---
 
+## 2026-11-09 - Market-Open Session
+
+**Portfolio:** $105,044.02 equity | **Cash:** $19,632.42 | **Positions:** 2 stocks | **Deployed:** ~29%
+
+### Execution Status
+- Alpaca API: LIVE
+- Orders placed: 0 (NO TRADES)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.620 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies.
+
+### Step 1b — Price Re-verification
+| Ticker | Pre-market Plan | Live Bid/Ask | Mid | Delta | Stop | Buffer | Status |
+|--------|----------------|-------------|-----|-------|------|--------|--------|
+| WFC | HOLD | $84.75/$84.94 | $84.85 | +0.8% vs Nov 6 close | $80.622 (f49e711e, HWM $89.58) | 4.9% | HOLD |
+| JPM | HOLD | $322.34/$338.84 (wide — known anomaly) | ~$339.50 (positions API authoritative) | +0.0% | $323.82 (ca91a9c8, HWM $359.80) | 4.9% | HOLD |
+
+### Rule Checks
+- WFC: +8.2% from entry — below +15% tighten trigger ($90.14) → no action
+- JPM: +3.4% from entry — below +15% tighten trigger ($377.47) → no action
+- Both stops confirmed active (f49e711e WFC, ca91a9c8 JPM)
+- Daytrades: 0/3 ✓ | Trades this week: 0/7 ✓
+
+### Decision: NO TRADES
+1. CPI October tomorrow (Nov 10 8:30 AM) — primary macro gate for Financials; hot print risk
+2. VIX 25.64 — correction-stress zone; daily implied move ~1.6%
+3. No catalyst-backed setup: ACN (McCaul signal secondary-only) deferred to post-CPI
+4. Deployment 29% below 75-85% target — acknowledged; CPI uncertainty outweighs deployment urgency
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Target | R:R |
+|---|--------|--------|-------|---------|------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $84.85 | +8.2% | $80.622 (10% trail, f49e711e, HWM $89.58) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.619 (52 stop) | $328.23 | $339.50 | +3.4% | $323.82 (10% trail, ca91a9c8, HWM $359.80) | $393.88 | 2.0:1 |
+
+- Trades this week: 0/7
+- Watch: WFC tighten trigger $90.14; JPM Epstein headline escalation; CPI Nov 10 gate
+
+---
+
