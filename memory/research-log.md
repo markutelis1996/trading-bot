@@ -15874,3 +15874,128 @@ Post-election rotation in progress:
 - **Post-CPI (Nov 10)**: If in-line or benign → evaluate ACN (McCaul signal + AI consulting thesis) and energy names. If hot → risk-off, let stops protect.
 - **Watch**: WFC at $90.14 tighten trigger; JPM Epstein headlines escalation
 
+---
+
+## 2026-11-10 - Pre-market Research
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.619 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. GTC stops confirmed active:
+- WFC f49e711e: 148 sh, 10% trail, stop **$80.622**, HWM **$89.58** ✓
+- JPM ca91a9c8: 52 sh, 10% trail, stop **$323.82**, HWM **$359.80** ✓
+
+### Account Snapshot
+- Equity: $105,312.38
+- Cash: $19,632.42
+- Long MV: $85,679.96 (stocks + crypto combined)
+- Regt buying power: $69,990.01
+- Deployed (stocks only): ~29.2% (WFC $12,729 + JPM $17,996 = $30,725 / $105,312)
+- Phase P&L: +$5,312.38 (+5.3%)
+- Daytrades used: 0/3
+- Trades this week (Nov 10 week): 0/7 ✓ (fresh week)
+
+### Live Position Prices (positions API — Nov 9 close)
+| Ticker | Live Price | P&L% (entry) | Stop | Buffer | Tighten @ | Status |
+|--------|-----------|--------------|------|--------|-----------|--------|
+| WFC | $85.65 | +9.3% | $80.622 (f49e711e, HWM $89.58) | 5.9% | $90.14 (+15%) | HOLD — approaching tighten |
+| JPM | $342.00 | +4.2% | $323.82 (ca91a9c8, HWM $359.80) | 5.3% | $377.47 (+15%) | HOLD |
+
+### Market Context (2026-11-10 pre-market)
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | ~$86-88/bbl | Down from $90-91; Trump Iran peace comments drove crude lower Nov 9 |
+| Brent crude | ~$92-95/bbl | Down from $98; oil tailwind slightly weaker |
+| S&P 500 (Nov 9 close) | 7,549.94 (+2.35%) | Major recovery from Dem-sweep selloff (Nov 5 close 7,376) |
+| S&P 500 (Nov 10 early) | ~7,561 (+0.15%) | Slight continued gain |
+| VIX (Nov 9 close) | **19.92 (-22.31%)** | MAJOR: dropped from 25.64; back below correction-stress zone |
+| 10Y yield | ~4.85% | Slight upward drift |
+| Gold | ~$4,118 | Elevated; inflation hedge |
+
+**Key macro shift Nov 9:** Market processed Dem sweep = more regulation but NOT economic collapse; crude oil dropped ~-2.84% on Trump Iran peace overtures (airlines +3%, energy slight pullback). VIX 25.64 → 19.92 = fear regime change.
+
+**Today's releases (8:30 AM ET — CRITICAL GATE):**
+- **CPI October 2026**: Cleveland Fed nowcast (10/30) → headline +0.24% MoM, core +0.21% MoM
+- Context: September was hot (+0.6% MoM, +3.7% YoY). If October in-line (~0.24%) → significant cooldown → BULLISH for Financials/rates
+- Note: BLS cannot publish Oct 2026 YoY due to Oct 2025 government shutdown (no prior-year baseline). Only MoM available today.
+- Benign scenario (Cleveland nowcast): rate-cut path intact → green light to deploy
+- Hot scenario (>0.4% MoM): rate hike fears re-emerge → stops may be tested
+
+**BMO earnings today (Nov 10):**
+- QBTS (D-Wave Quantum): est -$0.06 EPS — not relevant
+- ONON (On Holding): est ~$0.25 EPS — consumer; not relevant to our sectors
+- SE (Sea Ltd): est ~$1.12 EPS — not relevant
+- AMC tonight: CRWV (CoreWeave est $0.16), RGTI (Rigetti -$0.05) — AI cloud; watch for semis signal
+
+**Week ahead:**
+- Wed Nov 11: Veterans Day, bond market closed
+- Thu Nov 12: AMC Cisco (CSCO), Applied Materials (AMAT) — bellwethers
+- Fri Nov 13: October PPI
+
+### Politician Signals (45-day window: Sep 26 – Nov 10; $25K+ threshold)
+| Politician | Ticker | Action | Size | Trade Date | Disclosed | Signal Level |
+|------------|--------|--------|------|------------|-----------|--------------|
+| **McCaul** | **ACN** | BUY | $100K–200K | Aug 25-28 | Oct 16 | **Secondary** — 25 days since disclosure ✓ within window; 1 whitelisted politician = secondary |
+| Khanna | WFC | BUY | $15K-50K | Sep 17 | Oct 9 | ❌ EXPIRED — 54 days since disclosure (outside 45-day window) |
+| Gottheimer | AMAT | BUY | $1K-15K | Oct 27 | Oct 27 | ❌ Below $25K minimum |
+
+- **Pelosi**: Last qualifying buys = Bloom Energy Jul 24+28 (disclosed Aug 21) — 81 days ago, OUTSIDE window. INTC/UBER May 29 — 165 days ago. **NO SIGNAL.**
+- **Tuberville**: mostly sells (434 sells vs 6 buys YTD) — no qualifying buys
+- **Mast**: no qualifying buys found
+
+**Signal summary:** Only McCaul ACN remains active — secondary confirmation only. Needs additional catalyst (AI consulting sector momentum OR strong CPI benign) to qualify for entry.
+
+### Sector Momentum (YTD as of Nov 9, 2026)
+1. **Energy (XLE)**: +41.3% YTD — #1; crude pullback is minor headwind
+2. **Health Care (XLV)**: +23.2% YTD — #2; leapfrogged Tech (defensive rotation post-election)
+3. **Consumer Staples (XLP)**: +19.3% YTD — #3; defensive rotation
+4. **Information Technology**: recovering; estimates raised +10pts even as Oct price fell → "valuation dislocation" (per Ned Davis Research); earnings upgrades among top 3
+5. **Financials**: moderate; largest earnings upgrades (along with Energy and Industrials); Dem sweep adds soft regulation overhang
+6. **Communication Services**: -8.0% YTD — worst sector; avoid
+
+**ACN sector**: Information Technology (not in top-3 momentum sectors). AI consulting specifically strong (record bookings; Anthropic $2B+ deal; OpenAI enterprise program).
+
+### Trade Ideas
+**ACN — Conditional (post-CPI gate)**
+- McCaul $100K-200K buy (Aug 25-28, within 45-day disclosure window) = secondary confirmation
+- ACN thesis: Q4 FY2026 massive beat ($18.7B revenue, net income +40.8%); $22.2B bookings (record 141 deals >$100M each); Anthropic $2B+ AI governance partnership; OpenAI enterprise program; "AI isn't eating consulting's lunch — it's ordering seconds"
+- FY2027 guidance: revenue growth 3-6% (conservative guide but beats the AI-disruption bear case)
+- Technical: 50-day MA crossed above 200-day MA on Oct 19 (long-term bullish); BUT RSI exited overbought Nov 6 (61% chance move lower in near-term)
+- **LIVE QUOTE**: AH bid $240.57 on Nov 9 (ask $0 — thin/one-sided AH market; UNRELIABLE); Nov 6 close $260.50
+- ⚠️ AH bid-only quote ($240.57 bid, $0 ask) is NOT a valid entry price. Must verify live at market open.
+- Potential entry: ~$260 if live opens near Nov 6 close; stop ~$234 (-10% trail); target ~$312 (+20%); R:R 2:1
+- **Catalyst requirement**: CPI benign (≤0.24% MoM) + IT sector stabilization = entry eligible
+- **Action: WAIT for 8:30 AM CPI. If benign → verify live quote at market open. If hot → NO ENTRY.**
+
+**WFC stop tighten alert:**
+- WFC at $85.65 → tighten trigger at $90.14 (+15% from entry $78.38)
+- Current price is $4.49 or +5.2% away from tighten trigger
+- If WFC rallies post-CPI → watch closely for $90.14 breach → tighten trail to 7%
+
+### Rule Checks
+- WFC: +9.3% from entry — below +15% tighten trigger ($90.14) → no action yet
+- JPM: +4.2% from entry — below +15% tighten trigger ($377.47) → no action
+- Both stops confirmed active (f49e711e WFC, ca91a9c8 JPM)
+- No -7% cut alerts (WFC would trigger at $72.89; JPM at $305.25 — both far)
+- Sector cap: Financials (WFC+JPM) ~29.2% ✓ (well below 60% cap)
+- Trades this week: 0/7 ✓
+- ACN would be IT sector: 0% currently → ✓ no sector cap issue (15% × $105,312 = $15,797 max notional)
+
+### Risk Factors
+1. **CPI hot print** (8:30 AM): If >0.4% MoM → rate hike fears → Financials pressure → WFC/JPM stops potentially tested; NO new entries
+2. **WFC at $85.65**: WFC 52-week high $97.76; AH bid was $80.76 (unreliable but monitor at open for any sharp open gap)
+3. **JPM Epstein**: Senate Democrats investigation ongoing — no fundamentals impact but headline risk; watch for escalation
+4. **IT sector RSI overbought exit** on Nov 6 → near-term pullback odds 61% for ACN
+5. **Deployment gap**: 29.2% deployed vs 75-85% target — but CPI gate + ACN price verification required before acting
+
+### Decision
+- **WFC: HOLD** — stop f49e711e active ($80.622); +9.3% unrealized; approaching $90.14 tighten trigger; thesis intact
+- **JPM: HOLD** — stop ca91a9c8 active ($323.82); +4.2% unrealized; Epstein monitor only
+- **PRE-CPI: NO NEW ENTRIES** — 8:30 AM ET gate is mandatory
+- **Post-CPI (benign)**: Evaluate ACN at market open with live quote. Entry ~$260 if confirmed. 15% position = ~$15,797 → ~60 shares (integer: 60 shares).
+- **Post-CPI (hot)**: Let stops protect WFC and JPM. No new entries. Re-evaluate next session.
+
