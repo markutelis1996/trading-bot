@@ -14298,3 +14298,40 @@ CLEAN — no discrepancies.
 
 ---
 
+
+## 2026-11-10 - Midday Scan
+
+**Portfolio:** ~$103,603 equity (est) | **Cash:** $19,632.42 | **Positions:** 2 stocks | **Deployed:** ~29%
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.619 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies.
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Stop | HWM | Status |
+|--------|--------|-------|---------|------|------|-----|--------|
+| WFC | 148.619 (148 stop) | $78.38 | $85.78 | +9.44% | $80.622 (f49e711e, 10% trail) | $89.58 | HOLD |
+| JPM | 52.619 (52 stop) | $328.23 | $342.55 | +4.36% | $323.82 (ca91a9c8, 10% trail) | $359.80 | HOLD |
+
+### Actions
+- **Step 3 (losers):** None — WFC +9.44%, JPM +4.36%; both positive.
+- **Step 4 (tighten):** WFC +15% trigger = $90.14 (current $85.78 — not triggered). JPM +15% trigger = $377.47 (current $342.55 — not triggered). No stop changes.
+- **Step 5 (thesis):** WFC intact — CPI hot (0.4% MoM) causes rate headwind but both financials holding positive intraday (WFC +0.34%, JPM +0.14%); no fundamental thesis break. JPM intact — Epstein monitor, no fundamentals impact.
+- **Step 6 (research):** No sharp unexplained moves. CPI Oct hot (+0.4% MoM headline vs +0.3% est; +0.3% core vs +0.2% est) is known from morning session and already priced in; no fresh catalyst to investigate.
+- **Step 7:** No action taken → no notification sent.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Target | R:R |
+|---|--------|--------|-------|---------|------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $85.78 | +9.44% | $80.622 (10% trail, f49e711e, HWM $89.58) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.619 (52 stop) | $328.23 | $342.55 | +4.36% | $323.82 (10% trail, ca91a9c8, HWM $359.80) | $393.88 | 2.0:1 |
+
+- Trades this week: 0/7
+- Watch: WFC tighten trigger $90.14; JPM Epstein escalation; PPI Fri Nov 13; AMAT/CSCO Thu AMC
+
+---
