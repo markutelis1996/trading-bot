@@ -14382,3 +14382,40 @@ CLEAN — no discrepancies. Both GTC stops active: f49e711e WFC ($80.622, 10% tr
 - Watch: WFC tighten $90.14; JPM Epstein escalation; PPI Nov 13 gate; CSCO/AMAT Thu AMC → possible setups Fri Nov 14
 
 ---
+
+## 2026-11-11 - Midday Scan
+
+**Portfolio:** $104,933.54 equity | **Cash:** $19,632.42 | **Positions:** 2 stocks | **Deployed:** ~29.3% stocks
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.619 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. Both GTC stops active: f49e711e WFC ($80.622, 10% trail, HWM $89.58); ca91a9c8 JPM ($323.82, 10% trail, HWM $359.80).
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Stop | HWM | Status |
+|--------|--------|-------|---------|------|------|-----|--------|
+| WFC | 148.619 (148 stop) | $78.38 | $85.61 | +9.22% | $80.622 (f49e711e, 10% trail) | $89.58 | HOLD |
+| JPM | 52.619 (52 stop) | $328.23 | $343.49 | +4.65% | $323.82 (ca91a9c8, 10% trail) | $359.80 | HOLD |
+
+### Actions
+- **Step 3 (losers):** None — WFC +9.22%, JPM +4.65%; both positive. No cuts.
+- **Step 4 (tighten):** WFC +15% trigger = $90.14 (current $85.61 — $4.53 away, NOT triggered). JPM +15% trigger = $377.46 (current $343.49 — $33.97 away, NOT triggered). No stop changes.
+- **Step 5 (thesis):** WFC intact — financials holding, +0.175% intraday; CPI hot already priced from prior sessions. JPM intact — Epstein monitor, no fundamental change; +0.415% intraday.
+- **Step 6 (research):** No sharp unexplained intraday moves. Veterans Day — bond market closed, reduced liquidity; no new catalyst to investigate.
+- **Step 7:** No action taken → no notification sent.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Target | R:R |
+|---|--------|--------|-------|---------|------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $85.61 | +9.22% | $80.622 (10% trail, f49e711e, HWM $89.58) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.619 (52 stop) | $328.23 | $343.49 | +4.65% | $323.82 (10% trail, ca91a9c8, HWM $359.80) | $393.88 | 2.0:1 |
+
+- Trades this week: 0/7
+- Watch: WFC tighten trigger $90.14 ($4.53 away); JPM Epstein escalation; PPI Nov 13 gate (≤0.3% MoM → ACN entry); CSCO/AMAT Thu AMC → possible setups Fri Nov 14
+
+---
