@@ -14419,3 +14419,17 @@ CLEAN — no discrepancies. Both GTC stops active: f49e711e WFC ($80.622, 10% tr
 - Watch: WFC tighten trigger $90.14 ($4.53 away); JPM Epstein escalation; PPI Nov 13 gate (≤0.3% MoM → ACN entry); CSCO/AMAT Thu AMC → possible setups Fri Nov 14
 
 ---
+
+## 2026-11-11 - EOD Snapshot
+
+### Nov 11 - EOD Snapshot (Day 150, Wednesday)
+**Portfolio:** $104,917.04 | **Cash:** $19,632.42 (18.7%) | **Day P&L:** +$802.33 (+0.77%) | **Phase P&L:** +$94,917.04 (+949.17%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $85.82 | +$0.06 (+0.07%) | +$1,105.72 (+9.49%) | $80.622 (10% trail, f49e711e, HWM $89.58) |
+| JPM | 52.620 (52 stop) | $328.23 | $343.46 | +$1.39 (+0.41%) | +$801.51 (+4.64%) | $323.82 (10% trail, ca91a9c8, HWM $359.80) |
+
+**Notes:** Veterans Day — bond market closed, reduced liquidity; stock market open. Stocks flat-to-up (WFC +0.07%, JPM +0.41%). Crypto sleeve mostly positive (BTC +1.37%, ETH +1.11%, SOL +2.30%, LINK +0.44%) — primary driver of day's +$802 gain. No trades today (0/3 weekly cap). Both GTC stops active and unchanged (f49e711e WFC $80.622, ca91a9c8 JPM $323.82). Stop tighten triggers not reached (WFC +15% = $90.14, JPM +15% = $377.47). Reconciliation clean: WFC 148.619 ✓, JPM 52.619 ✓. Watch: CSCO/AMAT Thu AMC earnings → possible setups Fri Nov 14; PPI Nov 13 (≤0.3% MoM gate required for ACN entry).
+
+---
