@@ -14335,3 +14335,50 @@ CLEAN — no discrepancies.
 - Watch: WFC tighten trigger $90.14; JPM Epstein escalation; PPI Fri Nov 13; AMAT/CSCO Thu AMC
 
 ---
+
+## 2026-11-11 - Market-Open Session
+
+**Portfolio:** $105,018.42 equity | **Cash:** $19,632.42 | **Positions:** 2 stocks | **Deployed:** ~29%
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.619 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. Both GTC stops active: f49e711e WFC ($80.622, 10% trail, HWM $89.58); ca91a9c8 JPM ($323.82, 10% trail, HWM $359.80).
+
+### Step 1b — Price Re-verification
+| Ticker | Pre-market Plan | Live Price | Delta vs Entry | Stop | Buffer | Status |
+|--------|----------------|-----------|----------------|------|--------|--------|
+| WFC | HOLD | $85.74 (ask) | +9.4% | $80.622 (f49e711e, HWM $89.58) | 5.9% | HOLD |
+| JPM | HOLD | $341.84 (positions API; quote spread anomalous $324/$360 — Veterans Day) | +4.1% | $323.82 (ca91a9c8, HWM $359.80) | 5.3% | HOLD |
+| ACN | WAIT — PPI gate Nov 13 | — | — | — | — | SKIP |
+
+### Execution Status
+- Orders placed: 0 (NO TRADES)
+
+### Rule Checks
+- WFC: +9.4% from entry — below +15% tighten trigger ($90.14, $4.40 away) → no action ✓
+- JPM: +4.1% from entry — below +15% tighten trigger ($377.47) → no action ✓
+- CPI Oct hot (+0.4% MoM headline vs est +0.3%) → ACN PPI gate mandatory (Nov 13); no new entries ✓
+- Veterans Day: bond market closed → reduced liquidity; further reason to hold ✓
+- Daytrades: 0/3 ✓ | Trades this week: 0/7 ✓
+
+### Decision: NO TRADES
+1. CPI Oct hot → rate hike fears; PPI gate not yet cleared
+2. ACN: wait for PPI Nov 13 8:30 AM ET (benign ≤0.3% MoM required)
+3. CSCO/AMAT: earnings Thu AMC; evaluate post-earnings setup Fri Nov 14 if strong
+4. WFC/JPM: both stops intact; no -7% cuts, no tighten triggers hit
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Target | R:R |
+|---|--------|--------|-------|---------|------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $85.74 | +9.4% | $80.622 (10% trail, f49e711e, HWM $89.58) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.619 (52 stop) | $328.23 | $341.84 | +4.1% | $323.82 (10% trail, ca91a9c8, HWM $359.80) | $393.88 | 2.0:1 |
+
+- Trades this week: 0/7
+- Watch: WFC tighten $90.14; JPM Epstein escalation; PPI Nov 13 gate; CSCO/AMAT Thu AMC → possible setups Fri Nov 14
+
+---
