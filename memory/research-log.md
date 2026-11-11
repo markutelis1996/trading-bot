@@ -15999,3 +15999,95 @@ CLEAN — no discrepancies. GTC stops confirmed active:
 - **Post-CPI (benign)**: Evaluate ACN at market open with live quote. Entry ~$260 if confirmed. 15% position = ~$15,797 → ~60 shares (integer: 60 shares).
 - **Post-CPI (hot)**: Let stops protect WFC and JPM. No new entries. Re-evaluate next session.
 
+
+
+---
+
+## 2026-11-11 - Pre-Market Research
+
+### Account Snapshot
+- **Equity:** $104,110.01 | **Cash:** $19,632.42 | **Deployed (stocks):** ~29.6% ($30,794)
+- **Day P&L:** -$1,231 vs last_equity (overnight crypto drag; stocks closed green yesterday)
+- **Daytrades used:** 0/3 | **Trades this week:** 0/7
+
+### Reconciliation (Step 0)
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.619 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. Both GTC stops active: f49e711e WFC ($80.622, 10% trail, HWM $89.58); ca91a9c8 JPM ($323.82, 10% trail, HWM $359.80).
+
+### Market Context
+- **WTI:** ~$86.65 | **Brent:** ~$92.05 — sharp pullback from $104+ peak in late October; Iran de-escalation (US-Iran "close to arrangement"), Hormuz traffic recovering, geopolitical risk premium unwinding
+- **S&P 500 futures (ES=F):** ~7,587.75 (+0.58% premarket); 83% chance higher open (Polymarket). Nasdaq 100 futures +1.28% — tech leading
+- **VIX:** ~19.46 (Nov 10 close), down from 28.18 on Nov 5 (election spike); fear gauge declining
+- **Veterans Day (Nov 11):** Bond market CLOSED, stock market OPEN. No US economic data releases today. Daily/weekly Fed statistical releases postponed to Thu Nov 12
+- **CPI Oct 2026 (released yesterday):** Headline +0.4% MoM (est +0.3%) — HOT; Core +0.3% MoM (est +0.2%) — HOT. Rate hike fears re-emerging
+- **Next major gate: PPI Oct — Fri Nov 13, 8:30 AM ET** (threshold for new entries)
+- **Other catalysts this week:** CSCO earnings Thu AMC (Q1 FY2027, est EPS $1.32 +32% YoY, rev $18.1B +21.7% YoY); AMAT earnings Thu AMC (semiconductor equipment, AI capex read). Both are sector reads for IT/semis, NOT trade entries pre-binary
+
+### Existing Positions (AH quotes — unreliable, verify at market open)
+| Ticker | Shares | Entry | AH Bid | P&L% vs Entry | Stop | HWM | Status |
+|--------|--------|-------|--------|---------------|------|-----|--------|
+| WFC | 148.619 (148 stop) | $78.38 | $81.32 (AH, 1-sided) | +3.8% (AH) | $80.622 (f49e711e, 10% trail) | $89.58 | HOLD |
+| JPM | 52.619 (52 stop) | $328.23 | $325.85 (AH, 1-sided) | -0.7% (AH) | $323.82 (ca91a9c8, 10% trail) | $359.80 | HOLD |
+
+⚠ AH quotes are one-sided and unreliable. WFC close Nov 10 was $85.76; both stops are well above -7% cut trigger (WFC cut at $72.89, JPM at $305.25). AH quotes should not be used to infer risk. Verify live at market open.
+
+### Politician Signals (Step 3b)
+| Politician | Ticker | Trade Date | Disclosure Date | Size | Days Since Disclosure | Eligibility |
+|------------|--------|-----------|----------------|------|----------------------|-------------|
+| McCaul | ACN | Aug 25-28, 2026 | Oct 16, 2026 | ~$100K-$200K | 26 days | ✓ Within 45-day window; meets $25K min |
+| Pelosi | BE, INTC | Jul 24-28, 2026 | Aug 21-24, 2026 | $1.5M-$7M+ | 82 days | ✗ Outside 45-day window |
+| Tuberville | (all sells) | Jun 8, 2026 | Jul 16, 2026 | n/a | 118 days | ✗ Outside window; selling only |
+| Khanna | COIN, CHWY, MSFT, etc. | Sep 4-11, 2026 | Oct 9, 2026 | $1K-$15K each | 33 days | ✗ Below $25K min threshold |
+| Gottheimer | (sells only) | Apr 2026 | n/a | n/a | >45 days | ✗ |
+| Mast | No new disclosures in window | — | — | — | — | ✗ |
+
+**Signal summary:** McCaul ACN ONLY — secondary confirmation (1 whitelist politician). No change from prior session. Needs additional catalyst (PPI benign Nov 13 + IT sector confirmation) for entry.
+
+### Sector Momentum (YTD Nov 2026)
+1. **Energy (XLE):** #1 YTD — but oil pulling back sharply (-13.7% month) on Iran de-escalation; headwind increasing
+2. **Health Care (XLV):** #2 — leapfrogged tech Nov 3; defensive rotation post-election (Dem sweep)
+3. **Consumer Staples (XLP):** #3 — defensive rotation
+4. **Information Technology:** Recovering; estimates raised +10pts even as Oct price fell; "valuation dislocation" (Ned Davis Research). Nasdaq +1.28% premarket today
+5. **Financials:** Moderate; biggest earnings upgrades; Dem sweep + JPM Epstein Senate probe = headwind
+6. **Communication Services:** -8% YTD; avoid
+- **10-day MA crossed above 50-day MA for WFC** on Nov 6 (bullish technical signal, 78% historical hit rate per Tickeron)
+
+### Trade Ideas
+**ACN — PENDING (post-PPI gate Nov 13)**
+- McCaul signal: Oct 16 filing, $100K-$200K buy Aug 25-28 — secondary confirmation only
+- ACN thesis unchanged: Q4 FY2026 $18.7B revenue record, +40.8% net income, $22.2B bookings (record 141 deals >$100M), Anthropic $2B+ AI governance deal, OpenAI enterprise program. 50-day MA crossed above 200-day MA Oct 19.
+- ⚠ AH quote (Nov 10 close AH): bid $245.03 / ask $272.97 — extremely wide spread, NOT reliable for entry
+- **MUST fetch live quote at market open before any entry**
+- Rough guidance: if opens ~$267, stop = $240.30 (10% trail), target = $320.40 (+20%), R:R 2.1:1
+- Position: 15% × $104K = $15.6K → 58 shares at ~$267; integer 58
+- **Gate: PPI Oct Fri Nov 13 8:30 AM ET must be benign (≤0.3% MoM) BEFORE entry**
+- Sector cap check: IT currently 0% → adding ACN 15% = 15% ✓ (under 60% cap)
+
+**WFC tighten stop watch:**
+- Entry $78.38 | +15% trigger = $90.14 | Current close $85.76 — $4.38 or +5.1% away
+- Catalyst: financials outperforming on CPI (counterintuitive — rate hike fears help bank NIM); WFC 10-day MA crossed above 50-day MA Nov 6 → bullish technical confirmation
+- Watch: if WFC opens near $86-87 and trends toward $90.14, tighten trail to 7%
+
+**CSCO/AMAT (Thu AMC) — WATCHLIST ONLY, not pre-earnings trade:**
+- CSCO: Dow component, $18.1B estimated revenue (+21.7% YoY); Morgan Stanley downgraded ahead → lowered bar → potential for beat-driven gap. Post-earnings setup possible if strong.
+- AMAT: Semiconductor equipment, AI capex proxy. Post-earnings setup possible if guidance raises.
+- **Do NOT enter before binary earnings event**; evaluate Friday (Nov 14) if results strong
+
+### Risk Factors
+1. **PPI Oct (Nov 13):** If hot → rate hike odds spike further → no new entries; WFC/JPM stops tested
+2. **JPM Epstein Senate probe:** Democrats swept House + Senate; probe scope expanding (Mary Erdoes subpoena threat). No fundamentals impact yet but escalation risk. JPM AH bid $325.85 near stop at $323.82 — only $2 buffer if probe escalates at open.
+3. **Bond market closed today (Veterans Day):** Reduced liquidity in rate instruments; may amplify equity moves without Treasury anchor
+4. **WFC Stochastic Oscillator warning:** Exited overbought zone — 64% historical probability of further decline in next month (Tickeron data). But 10-day/50-day MA crossover is bullish signal. Mixed technicals.
+5. **Oil pullback risk:** Energy sector (#1 YTD) losing momentum as Iran de-escalation accelerates; if geopolitical premium fully unwound, sector rotation out of energy could drag indices
+
+### Decision
+- **WFC: HOLD** — stop f49e711e active ($80.622, HWM $89.58); verify live open price; watch for $90.14 tighten trigger
+- **JPM: HOLD** — stop ca91a9c8 active ($323.82); monitor open carefully given Epstein headline risk and AH bid near stop; no -7% trigger unless opens below $305.25
+- **ACN: WAIT** — PPI gate mandatory (Nov 13 8:30 AM ET). Do not enter pre-PPI.
+- **CSCO/AMAT: WATCHLIST** — post-earnings setup only (Nov 14 if strong reports)
+- **No new entries today** — CPI hot, PPI pending, bond market closed (liquidity noise), portfolio protection first
