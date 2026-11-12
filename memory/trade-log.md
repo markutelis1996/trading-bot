@@ -14484,3 +14484,39 @@ CLEAN — no discrepancies. Both GTC stops active: f49e711e WFC ($80.622, 10% tr
 
 ---
 
+
+## 2026-11-12 - Midday Scan
+
+**Portfolio:** $102,506.59 equity | **Cash:** $19,632.42 | **Positions:** 2 stocks | **Deployed:** ~30.1% stocks
+
+### Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.619 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca91a9c8 JPM ($323.82, HWM $359.80).
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|------|-----|--------|
+| WFC | 148.619 | $78.38 | $86.13 | +9.9% | +0.39% | $80.622 (10% trail, f49e711e) | $89.58 | HOLD |
+| JPM | 52.619 | $328.23 | $344.54 | +5.0% | +0.34% | $323.82 (10% trail, ca91a9c8) | $359.80 | HOLD |
+
+### Actions
+- No cuts (WFC +9.9%, JPM +5.0% — both well above -7% rule)
+- No stop tightening (WFC +15% trigger $90.14 not reached; JPM +15% trigger $377.47 not reached)
+- All trailing stops confirmed active via live orders (f49e711e, ca91a9c8)
+
+### Thesis Check
+- **WFC**: +0.39% intraday, mild financials bid; 10-day MA above 50-day MA (Nov 6 crossover) holding; +15% tighten trigger at $90.14 is $4.01 away — watch afternoon. INTACT
+- **JPM**: +0.34% intraday; Epstein Senate probe headline risk persists but no escalation today; buffer above stop $323.82 is 5.7%. INTACT
+
+### Notes
+- No action taken
+- Watch: WFC $90.14 tighten trigger; PPI Oct gate Fri Nov 13 8:30 AM ET (benign ≤0.3% MoM → ACN entry possible)
+- CSCO/AMAT earnings tonight AMC — evaluate Fri pre-market for post-earnings setup
+
+---
+
