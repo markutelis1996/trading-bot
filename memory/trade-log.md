@@ -14433,3 +14433,54 @@ CLEAN — no discrepancies. Both GTC stops active: f49e711e WFC ($80.622, 10% tr
 **Notes:** Veterans Day — bond market closed, reduced liquidity; stock market open. Stocks flat-to-up (WFC +0.07%, JPM +0.41%). Crypto sleeve mostly positive (BTC +1.37%, ETH +1.11%, SOL +2.30%, LINK +0.44%) — primary driver of day's +$802 gain. No trades today (0/3 weekly cap). Both GTC stops active and unchanged (f49e711e WFC $80.622, ca91a9c8 JPM $323.82). Stop tighten triggers not reached (WFC +15% = $90.14, JPM +15% = $377.47). Reconciliation clean: WFC 148.619 ✓, JPM 52.619 ✓. Watch: CSCO/AMAT Thu AMC earnings → possible setups Fri Nov 14; PPI Nov 13 (≤0.3% MoM gate required for ACN entry).
 
 ---
+
+## 2026-11-12 - Market-Open Session
+
+**Portfolio:** $102,506.59 equity | **Cash:** $19,632.42 | **Positions:** 2 stocks | **Deployed:** ~30.1% stocks
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.619 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. Both GTC stops active: f49e711e WFC ($80.622, 10% trail, HWM $89.58); ca91a9c8 JPM ($323.82, 10% trail, HWM $359.80).
+
+### Step 1b — Price Re-verification
+| Ticker | Log Price | Live Ask | Delta vs Entry | Stop | Buffer | Status |
+|--------|-----------|----------|----------------|------|--------|--------|
+| WFC | $85.82 | $86.05 | +9.8% vs $78.38 | $80.622 (f49e711e, HWM $89.58) | 6.1% | HOLD |
+| JPM | $343.46 | $343.36 | +4.6% vs $328.23 | $323.82 (ca91a9c8, HWM $359.80) | 5.7% | HOLD |
+| ACN | — | — | — | — | — | SKIP — PPI gate not met |
+| CSCO | — | — | — | — | — | SKIP — earnings tonight AMC |
+| AMAT | — | — | — | — | — | SKIP — earnings tonight AMC |
+
+### Execution Status
+- Orders placed: 0 (NO TRADES)
+
+### Rule Checks
+- WFC: +9.8% from entry — below +15% tighten trigger ($90.14, $4.09 away) → no action ✓
+- JPM: +4.6% from entry — below +15% tighten trigger ($377.47) → no action ✓
+- ACN: PPI Oct gate required (Nov 13 8:30 AM ET, benign ≤0.3% MoM); cannot enter pre-gate ✓
+- CSCO: earnings tonight AMC — no pre-binary entry ✓
+- AMAT: earnings tonight AMC (+11% already on Nov 9 — bar raised) — no pre-binary entry ✓
+- Daytrades: 0/3 ✓ | Trades this week: 0/7 ✓
+
+### Decision: NO TRADES
+1. PPI gate not yet cleared → ACN entry blocked until tomorrow Fri Nov 13 8:30 AM ET
+2. CSCO and AMAT both report tonight AMC — no entry before binary earnings events
+3. WFC/JPM both healthy; no -7% cut or +15% tighten triggers reached
+4. Day P&L -$1,534.75 driven entirely by crypto sleeve (BTC -3.2%, ETH -2.8%, SOL -3.0%) — untouchable
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Target | R:R |
+|---|--------|--------|-------|---------|------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $86.05 | +9.8% | $80.622 (10% trail, f49e711e, HWM $89.58) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.619 (52 stop) | $328.23 | $343.36 | +4.6% | $323.82 (10% trail, ca91a9c8, HWM $359.80) | $393.88 | 2.0:1 |
+
+- Trades this week: 0/7
+- Watch: PPI Oct Fri Nov 13 8:30 AM ET (≤0.3% MoM → ACN entry); CSCO/AMAT earnings tonight → evaluate Fri Nov 13 AM if strong reports; WFC tighten trigger $90.14 ($4.09 away)
+
+---
+
