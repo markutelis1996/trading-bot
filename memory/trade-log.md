@@ -14590,3 +14590,40 @@ CLEAN — pre-market reconciliation confirmed. Stops active: f49e711e WFC ($80.6
 
 - Trades this week: 0/7
 - Watch: CSCO midday entry if spread normalizes + NVDA overhang assessed (entry ~$105, stop ~$94.50, target ~$126, R:R 2.1:1); WFC tighten trigger $90.14 ($3.50 away)
+
+## 2026-11-13 - Midday Scan
+
+**Portfolio:** ~$101,935 equity | **Cash:** $19,632.42 | **Positions:** 2 stocks | **Deployed:** ~30.5%
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.620 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca91a9c8 JPM ($323.82, HWM $359.80).
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|------|-----|--------|
+| WFC | 148.619 | $78.38 | $85.39 | +8.9% | -0.4% | $80.622 (10% trail, f49e711e) | $89.58 | HOLD |
+| JPM | 52.619 | $328.23 | $343.54 | +4.7% | +0.2% | $323.82 (10% trail, ca91a9c8) | $359.80 | HOLD |
+
+### Step 3 — Cuts
+- None. WFC +8.9%, JPM +4.7% — both well above -7% rule.
+
+### Step 4 — Stop Tightening
+- WFC: +15% trigger = $90.14 (current $85.39 — $4.75 away). NOT reached. No action.
+- JPM: +15% trigger = $377.47 (current $343.54). NOT reached. No action.
+
+### Step 5 — Thesis Check
+- **WFC**: Mild intraday pullback -0.4%; financials consolidating after Wed strength. 10-day > 50-day MA intact. INTACT.
+- **JPM**: +0.2% intraday; no new Epstein escalation. Buffer above stop 6.3%. INTACT.
+- **CSCO (potential entry deferred from market-open):** Spread normalized (bid $95.00 / ask $95.60). BUT price ~$95.30 vs prior close ~$102 = **-6.6% — sell-the-news despite beat**. AH gains to $105.28 fully reversed. NVDA CEO resignation suppressed AI/tech sector. Entry thesis broken — **SKIP**. Not entering.
+
+### Actions
+- No cuts, no stop tightening, no new entries.
+- CSCO thesis break confirmed intraday: sell-the-news + NVDA leadership vacuum → pass.
+
+---
