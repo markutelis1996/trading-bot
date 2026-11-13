@@ -14520,3 +14520,27 @@ CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca
 
 ---
 
+## 2026-11-13 - Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.620 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca91a9c8 JPM ($323.82, HWM $359.80).
+
+---
+
+### Nov 13 - EOD Snapshot (Day 152, Friday)
+**Portfolio:** $101,188.30 | **Cash:** $19,632.42 (19.4%) | **Day P&L:** -$756.19 (-0.74%) | **Phase P&L:** +$91,188.30 (+911.88%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $85.97 | +$0.21 (+0.24%) | +$1,127.39 (+9.68%) | $80.622 (10% trail, f49e711e, HWM $89.58) |
+| JPM | 52.620 (52 stop) | $328.23 | $344.26 | +$1.44 (+0.42%) | +$843.61 (+4.88%) | $323.82 (10% trail, ca91a9c8, HWM $359.80) |
+
+**Notes:** Day loss of -$756.19 driven entirely by crypto sleeve (BTC -2.1%, ETH -2.9%, SOL -0.02%, LINK +0.2%); both stock positions closed green (WFC +0.24%, JPM +0.42%). No trades today or this week (0/3 cap). Stock deployment 30.5% vs 75-85% target — significant dry powder. WFC tighten trigger $90.14 is $4.17 away; JPM tighten trigger $377.47 well above current $344.26. CSCO/AMAT reported AMC today; PPI Oct released this morning — both feed Monday pre-market decision on ACN and CSCO/AMAT post-earnings setups.
+
+---
+
