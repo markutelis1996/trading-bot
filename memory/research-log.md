@@ -16091,3 +16091,100 @@ CLEAN — no discrepancies. Both GTC stops active: f49e711e WFC ($80.622, 10% tr
 - **ACN: WAIT** — PPI gate mandatory (Nov 13 8:30 AM ET). Do not enter pre-PPI.
 - **CSCO/AMAT: WATCHLIST** — post-earnings setup only (Nov 14 if strong reports)
 - **No new entries today** — CPI hot, PPI pending, bond market closed (liquidity noise), portfolio protection first
+
+---
+
+## 2026-11-13 - Pre-Market Research
+
+### Account Snapshot
+- **Equity:** $101,188.30 | **Cash:** $19,632.42 | **Deployed (stocks):** ~30.6% ($30,891) | **Crypto sleeve:** ~$50,665 (untouchable)
+- **Day P&L:** -$756 vs last_equity $101,944 (overnight crypto drag: BTC -2.6%, ETH -2.9%)
+- **Daytrades used:** 0/3 | **Trades this week:** 0/7
+
+### Reconciliation (Step 0)
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.619 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. Both GTC stops active: f49e711e WFC ($80.622, 10% trail, HWM $89.58); ca91a9c8 JPM ($323.82, 10% trail, HWM $359.80).
+
+### Market Context
+- **WTI:** ~$86-88/bbl | **Brent:** ~$92-96/bbl — continuing decline from Oct 30 peak ($117.64 Brent). Iran de-escalation advancing; Hormuz risk premium unwinding.
+- **S&P 500 futures (Dec 2026):** ~$7,612 (-0.37% premarket, Nov 12 5am data). S&P 500 closed Nov 12 at 7,592 (-0.35%). Nasdaq 100 futures -0.77% — tech heavier.
+- **VIX:** 18.81 (Yahoo Finance, Nov 13 8:18 UTC) — moderate, below 20. Prior close 18.70. Stable.
+- **PPI Oct 2026 (released today 8:30 AM ET):**
+  - MoM: forecast 0.4% (consensus). Investing.com table may show actual = 0.4% (in-line with consensus). Down significantly from Sep's 1.3% shock.
+  - YoY: 6.6% (investing.com shows actual = 6.6% vs prior 6.3% = matches consensus)
+  - **Gate assessment: 0.4% MoM ≥ threshold (0.3%). ACN gate FAILS even if in-line with consensus.**
+- **This is the last CPI/PPI report before the Fed's Dec 9 decision.**
+- **NVIDIA CEO Jensen Huang resigned Nov 11-12, 2026 (MAJOR):**
+  - Board accepted resignation effective immediately (Nov 12 announcement)
+  - Colette Kress (CFO) appointed interim CEO; board searching for permanent replacement
+  - Context: affair with Chinese intelligence-linked executive + affair with subordinate VP
+  - NVDA stock down ~30% from Oct peak before resignation
+  - Creates leadership vacuum at world's most critical AI chip company (90% AI chip market share)
+  - **Macro impact: uncertainty overhang on entire AI/tech/semis sector for weeks to months**
+- **CSCO Q1 FY2027 (reported Nov 12 AMC):** Revenue $18.5B (+24% YoY) vs $18.14B est; EPS $1.40 vs $1.33 → BEAT. Raised FY guide to $74.8–$75.8B. AI infra forecast raised to $9B. AH +3.2% to ~$105.28.
+- **AMAT Q4 FY2026 (reported Nov 12 AMC):** Revenue $10.41B vs $10.30B est; EPS $4.16 vs $4.06 → BEAT. AH +1% to ~$386.55. Modest reaction (bar raised by +11% move on Nov 9).
+
+### Existing Positions (AH quotes — unreliable spreads, verify at open)
+| Ticker | Shares | Entry | Close Nov 12 | Stop | HWM | Status |
+|--------|--------|-------|-------------|------|-----|--------|
+| WFC | 148.619 (148 stop) | $78.38 | $85.76 | $80.622 (f49e711e, 10% trail) | $89.58 | HOLD |
+| JPM | 52.619 (52 stop) | $328.23 | $343.46 | $323.82 (ca91a9c8, 10% trail) | $359.80 | HOLD |
+
+AH Alpaca quotes extremely wide (WFC bid $81.51/ask $90.62; JPM bid $327.75/ask $363.18) — AH illiquid noise, NOT usable. Both stops well above -7% cut trigger (WFC threshold $72.89, JPM $305.25). No concern.
+
+### Politician Signals (Step 3b)
+| Politician | Ticker | Trade Date | Disclosure Date | Size | Days Ago | Eligibility |
+|------------|--------|-----------|----------------|------|----------|-------------|
+| McCaul | ACN | Aug 25-28, 2026 | Oct 16, 2026 | ~$100K-$200K | 28 days | ✓ Within 45-day window; meets $25K min — UNCHANGED from prior session |
+| Pelosi | BE, INTC | Jul 24-28, 2026 | Aug 24, 2026 | $1.5M-$7M+ | 81 days | ✗ Outside 45-day window |
+| Pelosi | REOF XXX LLC | Sep 8, 2026 | Oct 5, 2026 | $500K-$1M | 39 days | ✗ Real estate LLC, not stock |
+| Khanna | NOW, AMZN | May-Jun 2026 | Oct 9, 2026 | <$25K each | 35 days | ✗ Below $25K min threshold |
+| McCaul | AMZN | Aug 20-28, 2026 | Oct 16, 2026 | $1K-$15K each | 28 days | ✗ Below $25K min threshold |
+| Tuberville | (all sells) | — | — | n/a | >45 days | ✗ |
+| Mast | No new disclosures | — | — | — | — | ✗ |
+| Gottheimer | NOW | May-Jun 2026 | — | <$25K | >45 days | ✗ Outside window |
+
+**Signal summary:** McCaul ACN ONLY — secondary confirmation (unchanged). ACN entry requires PPI gate ≤0.3% MoM which FAILS today (0.4%). No actionable politician signal this session.
+
+### Trade Ideas
+**CSCO — WATCHLIST (do not enter yet)**
+- Beat + raised guidance: Rev $18.5B vs $18.14B est; EPS $1.40 vs $1.33; FY guide raised $74.8-75.8B; AI infra $9B
+- Catalyst: AI infrastructure buildout confirmed (Cisco sells networking hardware for AI data centers)
+- Risk: NVDA CEO resignation creates uncertainty overhang on entire AI/tech sector — could suppress CSCO multiple at open
+- **Live Alpaca quote at pre-market: AH bid/ask $96.18/$107.15 — 10%+ spread, entirely unreliable, NOT usable**
+- Action: Wait for market open. If CSCO opens ≤5% above last close (~$102 × 1.05 = $107.1), evaluate entry with live quote. If NVDA-related sector selloff persists, skip.
+- Sector: IT/Communication Services (currently 0% of portfolio — 15% addition = well under 60% cap)
+
+**AMAT — WATCHLIST ONLY**
+- Beat but modest: Rev $10.41B vs $10.30B; EPS $4.16 vs $4.06
+- AH reaction +1% only — bar was raised by Nov 9's +11% move; market already priced beat expectation
+- Lower priority vs CSCO; watch only
+
+**ACN — WAIT (PPI gate fails)**
+- McCaul signal still active (Oct 16, 28 days ago)
+- PPI MoM 0.4% = above ≤0.3% threshold → ACN gate FAILS today
+- Next opportunity: if PCE Oct (Nov 25) is benign, re-evaluate
+
+**WFC/JPM — HOLD**
+- Both stops intact; no -7% triggers; no +15% tighten triggers reached
+- No adverse news for either position (JPM Epstein: no escalation found today)
+- WFC +15% tighten: $90.14 (current $85.76 — $4.38 away; watch if WFC gaps higher today)
+
+### Risk Factors
+1. **NVIDIA CEO Jensen Huang resigned** — Leadership vacuum at world's most critical AI company. Creates uncertainty across AI/tech/semis for weeks. Market hasn't fully priced recovery path. Nasdaq futures -0.77% premarket.
+2. **PPI Oct 0.4% MoM (at consensus)** — Not worse than expected but above benign threshold. Rate hike fears persist. Fed Dec 9 decision unaffected but higher-for-longer narrative reinforced.
+3. **S&P futures -0.37%** — Slightly negative open expected. Tech/NVDA contagion risk.
+4. **Oil declining sharply** — WTI ~$86-88 (from $117 peak Oct 30). Energy sector momentum fading rapidly; could drag YTD sector leaders.
+
+### Decision
+- **WFC: HOLD** — stop f49e711e active ($80.622, HWM $89.58); verify live at open; watch $90.14 tighten trigger
+- **JPM: HOLD** — stop ca91a9c8 active ($323.82); no -7% risk; watch for Epstein headlines
+- **CSCO: WATCHLIST** — earnings beat is real but AH quotes unusable; NVDA overhang may suppress open gap; evaluate 10+ min after open with live quote
+- **ACN: BLOCKED** — PPI gate fails (0.4% MoM > 0.3% threshold)
+- **AMAT: WATCHLIST ONLY** — modest beat, modest AH reaction
+- **No new entries today** — NVDA CEO shock + PPI above threshold + tech sector uncertainty → HOLD
