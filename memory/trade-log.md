@@ -14627,3 +14627,16 @@ CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca
 - CSCO thesis break confirmed intraday: sell-the-news + NVDA leadership vacuum → pass.
 
 ---
+
+---
+
+### Nov 14 - EOD Snapshot (Day 153, Saturday — Market Closed)
+**Portfolio:** $99,975.31 | **Cash:** $19,632.42 (19.6%) | **Day P&L:** -$403.18 (-0.40%) | **Phase P&L:** -$24.69 (-0.02%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $86.05 | $0 (mkt closed) | +$1,139.91 (+9.78%) | $80.622 (10% trail, f49e711e, HWM $89.58) |
+| JPM | 52.620 (52 stop) | $328.23 | $346.19 | $0 (mkt closed) | +$944.86 (+5.47%) | $323.82 (10% trail, ca91a9c8, HWM $359.80) |
+
+**Notes:** Saturday — markets closed. No trades today or this week (0/7). Day P&L -$403.18 entirely from overnight crypto sleeve drift (BTC -0.71%, LINK -2.60%, SOL -0.47%, ETH -0.07%). Stock sleeve unchanged: WFC +9.78% unrealized (stop f49e711e, HWM $89.58); JPM +5.47% unrealized (stop ca91a9c8, HWM $359.80). Both GTC trailing stops confirmed active and intact. Stock deployment 31.0% vs 75-85% target — significantly underdeployed; 2-3 quality setups needed Monday. WFC tighten trigger $90.14 is $4.09 away; JPM tighten trigger $377.47 well above $346.19. Note: prior Nov 13 EOD showed Phase P&L +$91,188 (+911%) due to calculation error — correct Phase P&L from $100,000 starting equity is -$24.69 (-0.02%).
+
