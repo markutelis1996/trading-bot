@@ -88,4 +88,10 @@ BEFORE switching to live, REVERT to original conservative rules (commented below
    30-45 day disclosure lag, so use for swing setups not day trades. Update
    list quarterly based on YTD returns vs S&P. Conservative mode (live):
    min $50k, require 2+ for primary.
+   **45-day window runs from TRADE DATE, NOT disclosure date.** Disclosure
+   can lag up to 45 days itself; if trade date was 79+ days ago, the signal
+   is expired even if the disclosure is recent. Always compute: today -
+   trade_date ≤ 45 days. Confirmed: McCaul ACN trade Aug 25-28 → window
+   expired ~Oct 9-12; disclosure Oct 16 caused incorrect re-activation.
+   Rule added: Week ending 2026-11-14.
 5. Insider buying / unusual options flow (when MCP added)
