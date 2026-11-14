@@ -1815,3 +1815,79 @@ Stock deployed: ~$30,077 / $106,292 = 28.3% | Cash $19,632 (18.5%) | Crypto DCA 
 
 ---
 ---
+
+## Week ending 2026-11-14
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $103,602.92 (Mon Nov 10 open) |
+| Ending portfolio | $99,975.31 (Fri Nov 13 close) |
+| Week return | -$3,627.61 (-3.50%) |
+| S&P 500 week | ~+2.5% (best week since August; oil slump + rate-cut optimism) |
+| Bot vs S&P | -6.0% underperformance |
+| Trades | 0 new entries (W:0 / L:0 closed / open:2 stocks) |
+| Win rate | N/A (no closed trades) |
+| Best trade | WFC +9.79% unrealized (+$1,139.91 open) |
+| Worst trade | N/A (no closed trades; crypto sleeve primary drag) |
+| Profit factor | N/A |
+| Phase P&L | -$24.69 (-0.02%) from $100K start |
+
+### Closed Trades
+None — no trades closed this week.
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close (Nov 13) | Unrealized | Stop | HWM |
+|--------|--------|-------|----------------|------------|------|-----|
+| WFC | 148.619 (148 stop) | $78.38 | $86.05 | +$1,139.91 (+9.79%) | $80.622 (10% trail, f49e711e) | $89.58 |
+| JPM | 52.620 (52 stop) | $328.23 | $346.19 | +$945.17 (+5.47%) | $323.82 (10% trail, ca91a9c8) | $359.80 |
+
+Stock deployed: ~$31,005 / $99,975 = 31.0% | Cash $19,632 (19.6%) | Crypto DCA sleeve ~$49,338 (49.3%) — UNTOUCHABLE
+
+Crypto sleeve (all unrealized losses vs cost basis):
+- BTC: $23,391 MV vs $24,608 cost (-4.9%)
+- ETH: $11,908 MV vs $13,492 cost (-11.7%)
+- SOL: $7,078 MV vs $8,395 cost (-15.7%)
+- LINK: $6,960 MV vs $7,593 cost (-8.3%)
+
+### What Worked
+- CPI hot gate correctly enforced Mon Nov 10: headline +0.4% MoM exceeded benign threshold (≤0.24%); ACN entry skipped — prevented deploying capital into a risk-off day
+- PPI hot gate correctly enforced Fri Nov 13: 0.4% MoM exceeded ≤0.3% threshold; ACN blocked again — consistent macro gate discipline
+- CSCO sell-the-news correctly identified midday Nov 13: EPS beat (+$1.40 vs $1.33 est), guidance raised, AH +3.2% → opened -6.6% sell-the-news; "skip if thesis breaks at open" rule prevented a losing entry
+- WFC continued to build: +9.79% unrealized; stop auto-trailed to $80.622 (HWM $89.58); position intact
+- AMD "do not chase" discipline maintained: price action never recovered enough to revisit; no entry into continued weakness
+
+### What Didn't Work
+- Portfolio -3.50% vs S&P +2.5% = -6.0% underperformance — worst relative performance since the Oct 25-31 gap week
+- 0/7 trades for 3rd consecutive week; 13th+ week with stock deployment critically below 75-85% target (31% deployed)
+- Crypto sleeve dragged ~-$3.6K on the week: BTC -4.9%, ETH -11.7%, SOL -15.7% from cost — portfolio can't outperform when the 49% allocation is in declining assets
+- NVDA CEO Jensen Huang resignation (Nov 11-12) suppressed entire AI/tech sector; CSCO post-earnings gap erased before market open — headline macro event destroyed a valid post-earnings setup in pre-market
+- Phase P&L now -0.02% — below starting capital for the first time; risk of falling meaningfully below $100K if crypto continues to sell off
+- 7th consecutive week without a single realized winning trade; strategy quality completely unmeasurable without closed winners
+
+### Key Lessons
+- **McCaul ACN window has EXPIRED**: Trade date Aug 25-28, 2026; 45-day window closed ~Oct 9-12, 2026. By Nov 13 it has been ~79 days since trade — well outside the window. Research logs were incorrectly flagging this as "28 days / within 45-day window" (citing disclosure date Oct 16 as the clock, not trade date Aug 25). **Rule: 45-day window runs from TRADE DATE, not disclosure date.** This was blocking a stale signal from being removed. Remove ACN from watchlist immediately.
+- **Crypto sleeve now 49% of portfolio — tail wagging the dog**: With crypto at $49K and stocks at $31K, crypto volatility dominates weekly P&L regardless of stock selection quality; +9.79% WFC and +5.47% JPM unable to offset crypto drawdowns; this is structural
+- **CSCO sell-the-news executed the AI/tech overhang thesis perfectly**: NVDA CEO resignation created sector-wide uncertainty overhang; even a strong beat couldn't hold AH gains into a gap-open with that overhang; the "10+ min stabilization" rule designed for exactly this scenario worked as intended
+- **CPI/PPI macro gates have blocked entry for 3+ weeks**: The inflation data has been consistently above benign thresholds; relying on a single macro gate (CPI/PPI benign) leaves no deployment path in a high-inflation environment; need alternative entry criteria for sectors less sensitive to rate hikes (e.g. Energy during commodity supercycles, Healthcare defensive positioning)
+
+### Adjustments for Next Week (Nov 17-21)
+- **Remove McCaul ACN signal**: 45-day window from TRADE date Aug 25 expired ~Oct 9-12; signal is stale. Do not enter ACN based on this signal.
+- **NVDA CEO overhang**: Avoid AI/semiconductor names (NVDA, AMD, AMAT, SMCI) until new CEO announced or interim CFO Colette Kress establishes credibility with market; could be weeks
+- **Deploy 1 position in rate-insensitive sector**: $19.6K cash available; CPI/PPI repeatedly blocking inflation-sensitive names; shift target to: Healthcare (XLV +20.9% YTD, 0% portfolio exposure, defensively positioned for rate volatility) or Energy (XLE YTD leader, WTI stabilizing near $86-88)
+- **WFC tighten trigger watch**: $90.14 (+15% from entry) — was $4.09 away at Nov 13 close; one strong financial day triggers; have tighten plan ready
+- **JPM tighten trigger**: $377.47 (+15%) — $31.28 away; hold
+- **New politician scan**: Refresh 45-day window from trade dates. Check Pelosi, Tuberville, Khanna, Gottheimer, Mast new disclosures filed Oct 29 — Nov 14 period
+- **Q4 blackout check**: Dec 23 start date; pre-blackout avoidance zone starts Dec 16 (Rule 16 extension = 5 sessions before); still 5 weeks away — no current impact
+
+### Overall Grade: D
+- -3.50% vs S&P +2.5% = -6.0% underperformance ✗
+- Phase P&L -$25 (-0.02%) — below starting capital for first time ✗
+- 0 trades, 0 closed wins, 7th consecutive week without realized winning trade ✗
+- Stock deployment 31% — critically below 75-85% target for 13+ weeks ✗
+- CPI/PPI gates correctly enforced (no bad entries in adverse macro) ✓
+- CSCO sell-the-news correctly identified and avoided ✓
+- No rule violations: crypto UNTOUCHED, no options, stops active ✓
+- McCaul ACN window miscalculation identified and corrected ✓
+
+---
