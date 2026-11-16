@@ -14640,3 +14640,67 @@ CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca
 
 **Notes:** Saturday — markets closed. No trades today or this week (0/7). Day P&L -$403.18 entirely from overnight crypto sleeve drift (BTC -0.71%, LINK -2.60%, SOL -0.47%, ETH -0.07%). Stock sleeve unchanged: WFC +9.78% unrealized (stop f49e711e, HWM $89.58); JPM +5.47% unrealized (stop ca91a9c8, HWM $359.80). Both GTC trailing stops confirmed active and intact. Stock deployment 31.0% vs 75-85% target — significantly underdeployed; 2-3 quality setups needed Monday. WFC tighten trigger $90.14 is $4.09 away; JPM tighten trigger $377.47 well above $346.19. Note: prior Nov 13 EOD showed Phase P&L +$91,188 (+911%) due to calculation error — correct Phase P&L from $100,000 starting equity is -$24.69 (-0.02%).
 
+
+## 2026-11-16 - Market-Open Session
+
+**Portfolio:** $97,676.92 equity | **Cash:** $19,632.42 | **Positions:** 2 stocks | **Deployed:** ~31.3% stocks
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.620 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, 10% trail, HWM $89.58); ca91a9c8 JPM ($323.82, 10% trail, HWM $359.80). No stops fired over weekend.
+
+Equity drop $100,378 → $97,676 (-$2,702): entirely crypto sleeve (BTC/ETH/SOL/LINK weekend drift). Stock positions unchanged.
+
+### Step 1b — Price Re-verification (live at 9:31 AM EDT)
+| Ticker | Last Close | Live Price | Delta vs Entry | Tighten Trigger | Status |
+|--------|-----------|------------|----------------|----------------|--------|
+| WFC | $86.05 | ~$86.0 (ask $86.30) | +9.7% vs $78.38 | $90.14 (NOT reached) | HOLD |
+| JPM | $346.19 | ~$345.4 (position price) | +5.2% vs $328.23 | $377.47 (NOT reached) | HOLD |
+
+### Market Context
+- S&P 500 futures: -0.6% | Nasdaq 100 futures: -1.2% | VIX: 20.62 (+6.84%)
+- NVDA: -3%+ premarket; Q3 earnings AMC Tuesday Nov 17 — creates AI/tech sector overhang
+- Anthropic IPO expected this week — additional AI sentiment test
+- No major BMO earnings today from watchlist sectors
+
+### Rule Checks — New Entries
+- **VIX 20.62 > 20**: NEW ENTRY GATE FAILS per weekly review rule ✗
+- **ACN (McCaul)**: REMOVED — 45-day window from TRADE DATE Aug 25 expired ~Oct 9-12; signal stale per weekly review Nov 14 correction ✗
+- **AI/semiconductor (NVDA, AMD, AMAT)**: BLOCKED — NVDA CEO resignation overhang (no new CEO announced); avoid entire sector ✗
+- **Healthcare / Energy**: No BMO catalyst today; no specific setup with documented thesis ✗
+- Daytrades: 0/3 ✓ | Trades this week: 0/7 ✓
+
+### Execution Status
+- Orders placed: 0 (NO TRADES)
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% | Stop | HWM | Status |
+|--------|--------|-------|---------|------|------|-----|--------|
+| WFC | 148.619 (148 stop) | $78.38 | ~$86.0 | +9.7% | $80.622 (f49e711e, 10% trail) | $89.58 | HOLD |
+| JPM | 52.620 (52 stop) | $328.23 | ~$345.4 | +5.2% | $323.82 (ca91a9c8, 10% trail) | $359.80 | HOLD |
+
+### Decision: NO TRADES
+1. VIX 20.62 > 20 — gate closed for new entries
+2. ACN removed (stale politician signal)
+3. No Healthcare/Energy catalyst BMO today
+4. NVDA earnings overhang suppresses tech/AI sector; no AI-adjacent entries
+5. WFC/JPM both HOLD — below tighten triggers, well above -7% rule
+
+### Watch This Week
+- WFC tighten trigger: $90.14 (+15%) — $4.14 away; one strong financial session triggers
+- NVDA AMC Tuesday: will determine AI sector sentiment; affects CSCO/AMAT/AMD positioning
+- Healthcare setup: need earnings catalyst or strong sector momentum entry for XLV deployment
+- Politician scan: refresh for disclosures filed Oct 29 – Nov 14 (Pelosi, Tuberville, Khanna, Gottheimer, Mast)
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Target | R:R |
+|---|--------|--------|-------|---------|------|------|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | ~$86.0 | +9.7% | $80.622 (10% trail, f49e711e, HWM $89.58) | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | ~$345.4 | +5.2% | $323.82 (10% trail, ca91a9c8, HWM $359.80) | $393.88 | 2.0:1 |
+
+- Trades this week: 0/7
