@@ -14704,3 +14704,46 @@ Equity drop $100,378 → $97,676 (-$2,702): entirely crypto sleeve (BTC/ETH/SOL/
 | 2 | JPM | 52.620 (52 stop) | $328.23 | ~$345.4 | +5.2% | $323.82 (10% trail, ca91a9c8, HWM $359.80) | $393.88 | 2.0:1 |
 
 - Trades this week: 0/7
+
+---
+
+## 2026-11-16 - Midday Scan
+
+**Portfolio:** ~$97,677 equity | **Cash:** $19,632.42 | **Positions:** 2 stocks | **Deployed:** ~31%
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.620 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca91a9c8 JPM ($323.82, HWM $359.80).
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|------|-----|--------|
+| WFC | 148.619 | $78.38 | $84.68 | +8.0% | -1.59% | $80.622 (10% trail, f49e711e) | $89.58 | HOLD |
+| JPM | 52.620 | $328.23 | $338.99 | +3.3% | -2.08% | $323.82 (10% trail, ca91a9c8) | $359.80 | HOLD |
+
+### Step 3 — Cuts
+- None. WFC +8.0%, JPM +3.3% — both well above -7% rule.
+
+### Step 4 — Stop Tightening
+- WFC: +15% trigger = $90.14 (current $84.68 — $5.46 away). NOT reached. No action.
+- JPM: +15% trigger = $377.47 (current $338.99). NOT reached. No action.
+
+### Step 5 — Thesis Check
+- **WFC**: -1.59% intraday; broad market weakness (S&P/Nasdaq lower today). No WFC-specific adverse news. Consumer/commercial banking transformation thesis intact. INTACT.
+- **JPM**: -2.08% intraday; same broad sector decline. No JPM-specific adverse catalysts found. Diversified banking thesis intact. INTACT.
+
+### Step 6 — Intraday Research
+- Perplexity unavailable (key empty); Tavily search: no company-specific negative news for WFC or JPM
+- Week of Nov 16–20 events: NVDA Q3 earnings AMC Tue Nov 17; US Oct Retail Sales; FOMC Minutes; Walmart earnings
+- NVDA earnings overhang suppresses AI/tech sector broadly; financials declining with market
+- No thesis-breaking events identified for either position
+
+### Actions
+- No cuts, no stop tightening, no new entries
+- Both positions HOLD with active GTC trailing stops
+
