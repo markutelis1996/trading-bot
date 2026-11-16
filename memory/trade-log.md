@@ -14747,3 +14747,15 @@ CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca
 - No cuts, no stop tightening, no new entries
 - Both positions HOLD with active GTC trailing stops
 
+
+---
+
+### Nov 16 - EOD Snapshot (Day 154, Monday)
+**Portfolio:** $97,346.86 | **Cash:** $19,632.42 (20.2%) | **Day P&L:** -$3,031.63 (-3.02%) | **Phase P&L:** -$2,653.14 (-2.65%)**
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $84.86 | -$1.19 (-1.38%) | +$963.05 (+8.27%) | $80.622 (10% trail, f49e711e, HWM $89.58) |
+| JPM | 52.620 (52 stop) | $328.23 | $338.21 | -$7.98 (-2.30%) | +$525.26 (+3.04%) | $323.82 (10% trail, ca91a9c8, HWM $359.80) |
+
+**Notes:** Broad market selloff on NVDA earnings-eve overhang (Q3 AMC Tue Nov 17) — S&P futures -0.6%, Nasdaq -1.2%, VIX 20.62. VIX gate blocked all new entries. WFC -1.38% and JPM -2.30% intraday; both theses intact, well above -7% cut rule, no stop-tighten triggers reached (WFC +15% at $90.14, JPM +15% at $377.47). Both GTC trailing stops unchanged and active (WFC $80.622, JPM $323.82). Bulk of Day P&L decline attributed to crypto sleeve weekend + today drift (stock sleeve alone: -$596.77). Stock deployment 31.2% vs 75-85% target — VIX gate + no qualifying catalyst kept bot on sidelines. Week 0/7 trades. Tomorrow: NVDA earnings AMC determines AI/tech sector sentiment for rest of week.
