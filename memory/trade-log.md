@@ -14759,3 +14759,86 @@ CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca
 | JPM | 52.620 (52 stop) | $328.23 | $338.21 | -$7.98 (-2.30%) | +$525.26 (+3.04%) | $323.82 (10% trail, ca91a9c8, HWM $359.80) |
 
 **Notes:** Broad market selloff on NVDA earnings-eve overhang (Q3 AMC Tue Nov 17) — S&P futures -0.6%, Nasdaq -1.2%, VIX 20.62. VIX gate blocked all new entries. WFC -1.38% and JPM -2.30% intraday; both theses intact, well above -7% cut rule, no stop-tighten triggers reached (WFC +15% at $90.14, JPM +15% at $377.47). Both GTC trailing stops unchanged and active (WFC $80.622, JPM $323.82). Bulk of Day P&L decline attributed to crypto sleeve weekend + today drift (stock sleeve alone: -$596.77). Stock deployment 31.2% vs 75-85% target — VIX gate + no qualifying catalyst kept bot on sidelines. Week 0/7 trades. Tomorrow: NVDA earnings AMC determines AI/tech sector sentiment for rest of week.
+
+## 2026-11-17 - Market-Open Session
+
+**Portfolio:** $96,024.78 equity | **Cash:** $19,632.42 | **Positions:** 2 stocks | **Deployed:** ~31.1% stocks
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.620 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca91a9c8 JPM ($323.82, HWM $359.80).
+
+### Step 1b — Price Re-verification (live ~15:58 ET)
+| Ticker | Last Close | Live Price | P&L% (entry) | Tighten Trigger | Buffer to Stop | Status |
+|--------|-----------|------------|---------------|----------------|----------------|--------|
+| WFC | $84.86 | $82.54 (ask) | +5.3% vs $78.38 | $90.14 NOT reached | $1.92 (2.3%) ⚠ | HOLD |
+| JPM | $338.21 | $328.91 (positions) | +0.2% vs $328.23 | $377.47 NOT reached | $5.09 (1.6%) | HOLD |
+
+⚠ WFC only $1.92 above trailing stop ($80.622). No action warranted — above -7% rule, stop remains unchanged.
+
+### Rule Checks — New Entries
+- **VIX gate**: VIXY $21.22 → VIX proxy elevated (Nov 16 close 22.91) → new entry gate CLOSED ✗
+- **NVDA AMC tonight**: Binary ±9.7% event; entire AI/tech sector on hold ✗
+- **Politician signals**: All whitelist politicians outside 45-day window ✗
+- **No BMO catalyst** in healthcare or financials ✗
+- **Market timing**: Workflow executed near close (15:58 ET) — market-open window passed
+- Daytrades: 0/3 ✓ | Trades this week: 0/7 ✓
+
+### Execution Status
+- Orders placed: 0 (NO TRADES)
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | HWM | Target | R:R |
+|---|--------|--------|-------|---------|------|------|-----|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $82.54 | +5.3% | $80.622 (10% trail, f49e711e) | $89.58 | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $328.91 | +0.2% | $323.82 (10% trail, ca91a9c8) | $359.80 | $393.88 | 2.0:1 |
+
+- Trades this week: 0/7
+- Watch: NVDA AMC result tonight → determines AI/tech sentiment; WFC stop proximity (buffer 2.3%) — monitor; WFC tighten trigger $90.14 ($7.60 away from today's close)
+
+## 2026-11-17 - Midday Scan
+
+**Portfolio:** ~$96,029 equity | **Cash:** $19,632.42 | **Positions:** 2 stocks | **Deployed:** ~31% (stock), ~79% total incl. crypto DCA
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.620 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca91a9c8 JPM ($323.82, HWM $359.80).
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop | HWM | Status |
+|--------|--------|-------|---------|---------------|----------|------|-----|--------|
+| WFC | 148.619 | $78.38 | $82.49 | +5.24% | -2.77% | $80.622 (10% trail, f49e711e) | $89.58 | HOLD ⚠️ |
+| JPM | 52.620 | $328.23 | $328.96 | +0.22% | -2.74% | $323.82 (10% trail, ca91a9c8) | $359.80 | HOLD |
+
+### Step 3 — Cuts
+- None. WFC +5.24%, JPM +0.22% — both above -7% rule.
+
+### Step 4 — Stop Tightening
+- WFC: +15% trigger = $90.14 (current $82.49 — not reached). No action.
+- JPM: +15% trigger = $377.47 (current $328.96 — not reached). No action.
+
+### Step 5 — Thesis Check
+- **WFC**: -2.77% intraday; S&P 500 ~5.1% below Oct 6 record; Nasdaq in correction (-11.2%). Broad market selloff, not WFC-specific. Consumer/commercial banking transformation thesis intact. **⚠️ Stop $80.622 is only $1.87 (2.3%) below current $82.49 — thin cushion; stop-out possible if selling continues**. Thesis INTACT.
+- **JPM**: -2.74% intraday; same broad market decline. Tavily: "Wells Fargo Sues JPMorgan Over Failed $481M Real Estate Loan" headline — routine commercial litigation, not thesis-breaking; normal course of large-bank operations. Diversified banking thesis INTACT.
+
+### Step 6 — Intraday Research
+- **Market context**: S&P ~5.1% below Oct 6 record; Nasdaq in correction -11.2%. S&P futures -0.6%, Nasdaq -0.5%. 10Y yield dropping (Treasuries gaining = risk-off). No WFC/JPM specific adverse catalysts.
+- **NVDA AMC tonight**: Entire AI/tech sector risk-off ahead of earnings (Jensen Huang gone; interim CEO Colette Kress; est $108.8B rev, EPS $2.47). Binary event — if miss, broad selloff expected including financials.
+- **WFC lawsuit vs JPM**: WFC suing JPM over $481M real estate loan repurchase. Routine interbank litigation. Neither holding materially impacted.
+- VIX likely still elevated (22.91 Nov 16 close); new entry gate remains CLOSED.
+
+### Actions
+- No cuts, no stop tightening, no new entries.
+- Both positions HOLD with active GTC trailing stops.
+- ⚠️ WFC stop proximity note: at $80.622, could be hit if WFC dips another 2.3% intraday. If stopped out, that is acceptable per rules — do NOT cancel stop to avoid exit.
+
