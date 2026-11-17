@@ -16188,3 +16188,94 @@ AH Alpaca quotes extremely wide (WFC bid $81.51/ask $90.62; JPM bid $327.75/ask 
 - **ACN: BLOCKED** — PPI gate fails (0.4% MoM > 0.3% threshold)
 - **AMAT: WATCHLIST ONLY** — modest beat, modest AH reaction
 - **No new entries today** — NVDA CEO shock + PPI above threshold + tech sector uncertainty → HOLD
+
+---
+
+## 2026-11-17 - Pre-market Research
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.620 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca91a9c8 JPM ($323.82, HWM $359.80).
+
+### Account Snapshot
+- Equity: $97,525.61 | Cash: $19,632.42 | Long MV: $77,893.19
+- Stock deployment (WFC+JPM): ~$30,366 / $97,525 = **~31.1%** (target 75-85%)
+- Daytrades: 0/3 | Trades this week: 0/7
+- Buying power (Reg T): $69,630.91
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| S&P 500 Futures | ~7,588-7,614 (+0.74-0.92%) | Bullish premarket |
+| Nasdaq 100 Futures | +0.19-1.45% | Mixed sources |
+| VIX | **22.91** (Nov 16 close) | ABOVE 20; new entry gate CLOSED |
+| Brent crude | ~$91.63 (-0.88% today; -4% per IEA report) | IEA Q4 2026 supply surplus 1.7mbpd — first surplus since US-Iran war |
+| WTI | ~$87.79 | Down from $95+ prior |
+| 10-year yield | ~5.15% | Elevated; Fed hawkish on persistent inflation |
+| Gold | ~$3,890 | Elevated |
+
+**Today's key events:**
+- **DIS BMO (results out)**: EPS $1.51 vs $1.69 est **MISS**; Revenue $25.2B in line. Modest downside; no major sector read-through.
+- **NVDA AMC tonight**: First earnings under interim CEO Colette Kress (Jensen Huang gone). Revenue est $108.8-109B (+91% YoY), EPS $2.47-2.48. Options pricing ±6.7-9.7% move. BINARY RISK EVENT — entire AI/tech sector pivots on this.
+- **FOMC minutes**: Due this week — will clarify Dec cut probability (now lower given persistent inflation).
+- **US Oct Retail Sales**: Due this week.
+
+### Politician Signals (45-day window: Oct 3 – Nov 17, 2026; min $25K buys)
+- **Pelosi**: Last stock trades INTC/BE Jul 24-28, 2026 (disclosed Aug 21). Trade date → today = 116 days. **OUTSIDE window.** Oct 2 disclosure was real estate LLC (not stocks). No new stock signals.
+- **Tuberville**: Last trades Jun 8-9, 2026 (all sells). **OUTSIDE window.**
+- **Khanna**: Last qualifying trades Sep 25-30, 2026 (VZ/NEE/PEP buys $15K-$50K each; TD bank basket $50K-$100K). Trade date Sep 30 → Nov 17 = **48 days. OUTSIDE 45-day window.** ⚠️ All Khanna signals expired.
+- **McCaul**: No qualifying buys found within window.
+- **Gottheimer**: No qualifying buys found within window (last service trades were sells/small).
+- **Mast**: No qualifying buys found within window.
+- **→ NO actionable politician signals today.** All whitelist politicians' last qualifying buys outside 45-day window.
+
+### Sector Momentum (Schwab Oct 30, 2026 — More Favored)
+1. Energy: +43.61% YTD — ⚠️ OIL NOW BEARISH (IEA surplus declared); sector headwind emerging
+2. Healthcare: +21.12% YTD | 6-month +25.4% — STRONGEST ongoing momentum
+3. Consumer Staples: +18.52% YTD | 6-month +6.2%
+4. Financials: +6.08% YTD | 6-month +9.5% — WFC/JPM exposure here
+5. IT: +15.03% YTD but -11.42% last month — NVDA overhang; avoid until tonight's result
+
+### Position Status
+| Ticker | Shares | Entry | Live (AH) | P&L% | Stop | HWM | Status |
+|--------|--------|-------|-----------|------|------|-----|--------|
+| WFC | 148.619 | $78.38 | ~$84.65 | +8.0% | $80.622 (f49e711e, 10% trail) | $89.58 | HOLD |
+| JPM | 52.620 | $328.23 | ~$338.21 | +3.0% | $323.82 (ca91a9c8, 10% trail) | $359.80 | HOLD |
+
+Live prices from Alpaca AH (Nov 16 21:00 UTC): WFC bid $81.44 (thin AH); JPM bid $321.12 (thin AH). Using Yahoo Finance post-market as more reliable: WFC $84.65, JPM $338.21.
+
+- WFC: +15% tighten trigger = $90.14 ($5.49 away). NOT reached.
+- JPM: +15% tighten trigger = $377.47 ($39.26 away). NOT reached.
+- Both GTC trailing stops active and unchanged.
+- No -7% cut risk (WFC +8.0%, JPM +3.0%).
+
+### Thesis Check
+- **WFC**: No adverse news. Consumer/commercial banking thesis intact. RSI neutral (58.4). Morgan Stanley PT $101 (Overweight). INTACT.
+- **JPM**: Filed 10-Q for Q3 2026. No adverse news. Diversified banking thesis intact. Buy consensus, PT $373.48. INTACT.
+
+### Trade Ideas
+No actionable trade ideas today. Rule gates:
+1. **VIX gate CLOSED**: Last confirmed close 22.91 (Nov 16) > 20 threshold → no new entries.
+2. **NVDA binary event tonight**: Even if VIX dips below 20 intraday, NVDA ±9.7% move creates sector-wide volatility tonight. No new positions before this resolves.
+3. **No qualifying politician signals.**
+4. **Healthcare setup**: Strongest sector momentum (+21.12% YTD) but need specific earnings catalyst + VIX confirmation first. Watch for setup post-NVDA.
+5. **Oil bearish now**: IEA supply surplus eliminates energy thesis; Brent down 4% today. Energy sector no longer a primary target.
+
+**Watchlist for tomorrow (after NVDA result known):**
+- **If NVDA beats (stock +6%+)**: AI/tech sentiment restored → consider AMAT (beaten-down AI semi) or CSCO if thesis intact; VIX would likely drop below 20.
+- **Healthcare**: UNH, ELV, or CVS on any pullback if VIX < 20 confirmed tomorrow morning.
+- **WFC tighten trigger**: Watch $90.14 — one strong financial session triggers.
+
+### Risk Factors
+- NVDA miss tonight → AI trade reversal → broad tech selloff → may drag JPM/WFC
+- 10-year yield at 5.15% → pressure on rate-sensitive growth stocks
+- Oil down 4% (IEA surplus) → energy sector rotation out
+- VIX still elevated post-Nov 5 spike (28.18); hasn't sustained below 20
+
+### Decision: **HOLD** — no new entries
+VIX gate + NVDA binary event + no politician signals + no qualifying catalyst = patience today. Wait for NVDA result and VIX confirmation tomorrow morning.
