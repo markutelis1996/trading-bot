@@ -14842,3 +14842,15 @@ CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca
 - Both positions HOLD with active GTC trailing stops.
 - ⚠️ WFC stop proximity note: at $80.622, could be hit if WFC dips another 2.3% intraday. If stopped out, that is acceptable per rules — do NOT cancel stop to avoid exit.
 
+
+---
+
+### Nov 17 - EOD Snapshot (Day 155, Tuesday)
+**Portfolio:** $96,119.71 | **Cash:** $19,632.42 (20.4%) | **Day P&L:** -$956.31 (-0.98%) | **Phase P&L:** -$3,880.29 (-3.88%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $82.70 | -$2.14 (-2.52%) | +$642.03 (+5.51%) | $80.622 (10% trail, f49e711e, HWM $89.58) |
+| JPM | 52.620 (52 stop) | $328.23 | $329.96 | -$8.25 (-2.44%) | +$91.15 (+0.53%) | $323.82 (10% trail, ca91a9c8, HWM $359.80) |
+
+**Notes:** Second consecutive down day — financials sold off -2.5% across the board with S&P in correction territory. NVDA reported AMC tonight (interim CEO Colette Kress, est $108.8B rev); result will determine tomorrow's broad market open. WFC and JPM both declined with the sector; theses intact, no -7% cut triggered, no tighten triggers reached (WFC +15% at $90.14, JPM +15% at $377.47). Both GTC trailing stops unchanged (WFC gap $2.08/2.5%, JPM gap $6.14/1.9%). Crypto DCA sleeve (BTC/ETH/SOL/LINK) reported read-only — down on day, untouchable. Stock deployment still ~31% vs 75-85% target; VIX elevated gate remains closed for new entries. Week 0/3 trades.
