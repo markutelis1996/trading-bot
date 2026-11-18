@@ -14943,3 +14943,26 @@ CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca
 - No cuts, no stop tightening, no new entries.
 - Both positions HOLD with active GTC trailing stops.
 - ⚠️ WARNING: Both stops within <1% of current prices. FOMC minutes at 2PM likely to push financials lower. If stopped out, do NOT re-enter same day — accept the exit and evaluate tomorrow morning.
+
+
+---
+
+## 2026-11-18 - Reconciliation
+| Ticker | Log Qty | Broker Qty | Note | Realized P&L (est) |
+|--------|---------|------------|------|--------------------|
+| WFC | 148.619 | 148.619 | ✓ match | — |
+| JPM | 52.620 | 0.620 | 52-share trailing stop ca91a9c8 fired intraday (~$323.82 fill); 0.620 fractional remains | ~-$229.32 |
+
+JPM exit: 52 × ($323.82 − $328.23) = **−$229.32 est** (stop triggered by FOMC-minutes-driven financials selloff; acceptable outcome per rules)
+
+---
+
+### Nov 18 - EOD Snapshot (Day 156, Wednesday)
+**Portfolio:** $94,783.05 | **Cash:** $36,470.26 (38.5%) | **Day P&L:** −$1,336.66 (−1.39%) | **Phase P&L:** −$5,216.95 (−5.22%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 148.619 (148 stop) | $78.38 | $80.92 | −$1.77 (−2.14%) | +$377.49 (+3.24%) | $80.622 (10% trail, f49e711e, HWM $89.58) ⚠️ |
+| JPM | 0.620 fractional | $328.23 | $323.92 | — | −$2.67 (immaterial) | none (fractional) |
+
+**Notes:** JPM 52-share trailing stop (ca91a9c8) triggered intraday — FOMC October Minutes (2 PM ET) confirmed hawkish tone (2 dissents wanted Oct hike), driving financials sharply lower; JPM hit stop at ~$323.82 for est. −$229.32 realized; 0.620 fractional shares remain (no stop, immaterial ~$200 value). WFC held but barely — stop $80.622 is only $0.30 (0.37%) below $80.92 close; one gap-down open could exit this position tomorrow. No new trades today; 0/3 slots used this week. Stock deployment collapsed to ~12.9% (WFC only) vs 75-85% target. Crypto DCA sleeve (BTC −2.62%, ETH −2.68%, SOL −1.79%, LINK −1.19%) all down — read-only, untouchable. VIX gate remains closed pending < 20 confirmation. Tomorrow: re-evaluate WFC stop proximity; identify new financials/non-tech setups if VIX recedes.
