@@ -14854,3 +14854,48 @@ CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca
 | JPM | 52.620 (52 stop) | $328.23 | $329.96 | -$8.25 (-2.44%) | +$91.15 (+0.53%) | $323.82 (10% trail, ca91a9c8, HWM $359.80) |
 
 **Notes:** Second consecutive down day — financials sold off -2.5% across the board with S&P in correction territory. NVDA reported AMC tonight (interim CEO Colette Kress, est $108.8B rev); result will determine tomorrow's broad market open. WFC and JPM both declined with the sector; theses intact, no -7% cut triggered, no tighten triggers reached (WFC +15% at $90.14, JPM +15% at $377.47). Both GTC trailing stops unchanged (WFC gap $2.08/2.5%, JPM gap $6.14/1.9%). Crypto DCA sleeve (BTC/ETH/SOL/LINK) reported read-only — down on day, untouchable. Stock deployment still ~31% vs 75-85% target; VIX elevated gate remains closed for new entries. Week 0/3 trades.
+
+---
+
+## 2026-11-18 - Market-Open Session
+
+**Portfolio:** $96,089.65 equity | **Cash:** $19,632.42 | **Positions:** 2 stocks | **Deployed:** ~30.7% stocks
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.620 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca91a9c8 JPM ($323.82, HWM $359.80).
+
+### Step 1b — Price Re-verification (live ~9:30 AM ET)
+| Ticker | Research | Live Price | Delta | Stop | Buffer | Status |
+|--------|----------|------------|-------|------|--------|--------|
+| WFC | $82.84 | $82.05 (pos) / $82.14 ask | -0.9% | $80.622 (10% trail) | $1.43 (1.7%) ⚠️ | HOLD |
+| JPM | $330.95 | $328.09 (pos) | -0.9% | $323.82 (10% trail) | $4.27 (1.3%) | HOLD |
+
+Both within 5% of research prices — signals valid.
+
+### VIX Gate — CLOSED
+- VIXY ask $20.37 (live at open) — still above 20 threshold
+- FOMC October Meeting Minutes at 2:00 PM ET → hawkish expected (Dec hike priced, 2 dissents wanted Oct hike) → additional afternoon volatility risk
+- No new entries permitted
+
+### Rule Checks — Existing Positions
+- WFC +4.7% from entry. -7% cut threshold $72.89 (safe). +15% tighten trigger $90.14 (need +$7.95). No action.
+- JPM -0.04% from entry. -7% cut threshold $305.25 (safe). +15% tighten trigger $377.47 (need +$49.35). No action.
+- Daytrades: 0/3 ✓ | Trades this week: 0/7 ✓
+
+### Execution Status
+- Orders placed: 0 (NO TRADES)
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | HWM | Target | R:R |
+|---|--------|--------|-------|---------|------|------|-----|--------|-----|
+| 1 | WFC | 148.619 (148 stop) | $78.38 | $82.05 | +4.7% | $80.622 (10% trail, f49e711e) | $89.58 | $94.06 | 2.0:1 |
+| 2 | JPM | 52.620 (52 stop) | $328.23 | $328.09 | -0.04% | $323.82 (10% trail, ca91a9c8) | $359.80 | $393.88 | 2.0:1 |
+
+- Trades this week: 0/7
+- Watch: FOMC minutes 2 PM ET; WFC stop proximity ($1.43 buffer); Citigroup (C) watchlist pending VIX < 20 confirmation
