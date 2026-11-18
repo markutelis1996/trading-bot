@@ -16279,3 +16279,103 @@ No actionable trade ideas today. Rule gates:
 
 ### Decision: **HOLD** — no new entries
 VIX gate + NVDA binary event + no politician signals + no qualifying catalyst = patience today. Wait for NVDA result and VIX confirmation tomorrow morning.
+
+## 2026-11-18 - Pre-market Research
+
+### Reconciliation
+CLEAN — WFC 148.619 ≈ broker 148.618780 ✓ (fractional rounding); JPM 52.620 ≈ broker 52.619794 ✓. Crypto (BTC/ETH/SOL/LINK) filtered — DCA sleeve, UNTOUCHABLE. GTC stops confirmed active: f49e711e WFC ($80.622, HWM $89.58), ca91a9c8 JPM ($323.82, HWM $359.80). No discrepancies.
+
+### Account Snapshot
+- Equity: $96,859.52 | Cash: $19,632.42 | Long MV: $77,227.10
+- Stock deployment (WFC+JPM): ~31.1% (target 75-85% — well below target)
+- Reg T buying power: $68,990.94
+- Daytrades: 0/3 | Trades this week: 0/7
+
+### Live Quotes (positions data, Nov 17 close / broker snapshot)
+| Ticker | Live Price | P&L% vs Entry | Stop | HWM | Gap to Stop |
+|--------|-----------|----------------|------|-----|-------------|
+| WFC | $82.84 | +5.7% vs $78.38 | $80.622 (f49e711e, 10% trail) | $89.58 | $2.22 (2.7%) ⚠️ |
+| JPM | $330.95 | +0.83% vs $328.23 | $323.82 (ca91a9c8, 10% trail) | $359.80 | $7.13 (2.2%) |
+
+AH quote (Nov 17 21:00 UTC): WFC bid $78.33 (thin AH, anomalously low, do NOT use — below stop level, not reliable premarket discovery); JPM bid $316.35 / ask $349.89 (AH spread 10%+, unusable). Regular session closes used above.
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| S&P 500 Futures | ~7,580-7,614 (+0.74-0.92%) | NVDA beat lifting tech premarket |
+| Nasdaq 100 Futures | +1.45% | NVDA-driven tech bounce |
+| VIX | **25.46** (Nov 17 close, +11.13% from 22.91) | WELL ABOVE 20; **NEW ENTRY GATE CLOSED** |
+| WTI crude | ~$85.50-88.43 | Stable |
+| Brent crude | ~$92.33 (-0.87%) | Down from $95+ earlier this week |
+| 10-year yield | ~5.15% | Elevated; Fed hawkish on persistent inflation |
+| Gold | ~$3,851-3,890 | Elevated |
+
+**Key overnight event: NVDA Q3 FY2027 (reported Nov 17 AMC)**
+- Revenue: $115.8B vs est $108.71B → BEAT +6.5%
+- EPS: $2.70 GAAP ($2.68 non-GAAP) vs est $2.47 → BEAT +9.3%
+- Q/Q: +20% | Y/Y: +103%
+- Q4 FY2027 guidance: $130B ± 3% vs est $125.3B → BEAT
+- Interim CEO Colette Kress: "Vera Rubin is off to an explosive start"
+- NVDA AH reaction: +4.81% to ~$162.94 (from $155.46 regular close)
+- Context: NVDA down 16% YTD; 6 consecutive weekly losses; Huang resigned; China export restrictions
+- Historical caveat: NVDA beat led to next-session stock decline 3 of 4 prior quarters (avg -0.5%)
+
+**Today's economic calendar (ET):**
+- 8:30 AM: Housing Starts (Oct, est 1.3M), Building Permits (Oct, est 1.38M)
+- 10:00 AM: Pending Home Sales MoM (Oct, prior -7.3%)
+- 1:35 PM: Fed Governor Barr speaks
+- **2:00 PM: FOMC October Meeting Minutes** ← KEY RISK — Dec hike now fully priced; 2 dissents (Cook+Hammack) wanted hike in Oct; minutes likely hawkish → afternoon volatility
+- 2:30 PM: Fed NY Williams speaks
+- 4:15 PM: Fed Minneapolis Kashkari speaks
+
+**BMO earnings today:**
+- TGT (Target): Reports Q3 FY2027 → holiday guidance key
+- LOW (Lowe's): Reports Q3, est EPS $2.88 / rev $22.36B
+
+### Politician Signals (45-day window: Oct 4 – Nov 18, 2026; $25K+ buys)
+- **Pelosi**: Last stock BUY = INTC/BE Jul 24-28 (117 days ago). Most recent disclosure Nov 6 = WBD SALE Oct 7. **OUTSIDE window. No signal.**
+- **Khanna (most active)**:
+  - Citigroup (C) BUY: Oct 14, $15K-$50K, disclosed Nov 9 → 35 days → **WITHIN window**; amount straddles $25K minimum
+  - Toronto-Dominion (TD) BUY: Oct 8, $15K-$50K → 41 days → **WITHIN window**
+  - National Bank of Canada (NTIOF) BUY: Oct 12, $15K-$50K → 37 days → **WITHIN window**
+  - JPM BUY: Oct 15, $1K-$15K → 34 days → within window BUT **BELOW $25K minimum** — not qualifying
+  - AXP BUY: Oct 2 → 47 days → **OUTSIDE window**
+  - Pattern: Khanna buying financials broadly (C, TD, Canadian banks, JPM) throughout Oct 2026
+- **McCaul**: Last qualifying buy outside 45-day window. No signal.
+- **Tuberville**: Last trades Jun 8-9 2026 (all sells). No signal.
+- **Gottheimer**: No qualifying buys in window.
+- **Mast**: No qualifying buys found.
+- **→ Actionable signals:**
+  - **Citigroup (C)**: Khanna buy Oct 14 ($15K-$50K, straddles $25K min) → borderline qualifying; 35 days old → WITHIN window. Khanna alone with sector momentum = primary catalyst eligible (LEARNING MODE). BUT: straddles minimum threshold; VIX gate CLOSED regardless. **WATCHLIST only — evaluate when VIX < 20.**
+
+### Sector Momentum
+1. **Healthcare**: +21%+ YTD — still strongest
+2. **Financials**: +6-10% YTD — WFC/JPM exposure; mixed signals with Dec hike concerns
+3. **IT/Semis**: NVDA beat could restore sentiment; but NVDA -16% YTD, sector -11% last month
+4. **Energy**: Oil now bearish (Brent -16% last month from Oct highs); no longer primary target
+
+### Trade Ideas
+**No new trade ideas today.** All entry gates blocked:
+1. **VIX gate CLOSED**: 25.46 (Nov 17 close). Would need -21% single session to reach <20. Even with NVDA-driven rally, VIX likely only drops to ~21-23 range today. Cannot open new positions.
+2. **FOMC minutes at 2 PM**: Hawkish expected (Dec rate hike fully priced); creates afternoon volatility — no new entries even if VIX dipped briefly.
+3. **Citigroup (C) — WATCHLIST**: Khanna financials buy signal (Oct 14, $15K-$50K, within window). Valid swing thesis if VIX < 20: financials sector + politician confirmation. Live quote needed at that time (do NOT use today's stale AH quotes). Check tomorrow morning.
+
+### Position Rule Checks
+- WFC: +5.7% from entry. -7% cut threshold: $72.89 (safe). +15% tighten trigger: $90.14 (current $82.84, $7.30 away). No action. ⚠️ Stop gap only 2.7% — monitor intraday; if WFC opens lower on FOMC hawkishness, stop proximity is live risk.
+- JPM: +0.83% from entry. -7% cut: $305.25 (safe). +15% tighten trigger: $377.47 (current $330.95, $46.52 away). No action.
+- Both GTC trailing stops confirmed active and unchanged.
+- Daytrades: 0/3 ✓ | Week trades: 0/7 ✓
+
+### Risk Factors
+1. **VIX 25.46** — market fear elevated; stops near current levels for WFC
+2. **FOMC minutes 2 PM** — hawkish; Dec hike priced; afternoon volatility risk for financials
+3. **WFC stop proximity** — $82.84 close, stop $80.622 — 2.7% gap; vulnerable if financials sell off on hawkish mins
+4. **NVDA "sell the beat"** — historically NVDA declined after earnings even on beats (3 of 4 prior quarters); could reverse tech bounce by midday
+5. **10Y yield ~5.15%** — elevated; pressure on growth stocks and rate-sensitive sectors
+
+### Decision: **HOLD** — no new entries
+VIX well above gate (25.46), FOMC minutes = additional afternoon risk event, no politician signals clearing all criteria. WFC and JPM hold with active GTC trailing stops. If WFC stop triggers today — acceptable, do NOT cancel stop.
+
+**Tomorrow watchlist (conditions permitting):**
+- If VIX < 20 confirmed at close: assess Citigroup (C) → verify live quote, confirm Khanna signal still within 45-day window, check financials sector momentum vs Dec hike expectations
+- WFC +15% tighten trigger: $90.14 (requires +$7.30 from current level)
