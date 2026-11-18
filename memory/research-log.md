@@ -16379,3 +16379,12 @@ VIX well above gate (25.46), FOMC minutes = additional afternoon risk event, no 
 **Tomorrow watchlist (conditions permitting):**
 - If VIX < 20 confirmed at close: assess Citigroup (C) → verify live quote, confirm Khanna signal still within 45-day window, check financials sector momentum vs Dec hike expectations
 - WFC +15% tighten trigger: $90.14 (requires +$7.30 from current level)
+
+### Afternoon Addendum (Midday Scan)
+- Tavily search for WFC/JPM Nov 18 intraday: no company-specific adverse news
+- Both stocks declining -1.4-1.7% in line with broad financials sector
+- FOMC October Meeting Minutes at 2PM ET = key afternoon risk (hawkish expected; Dec hike priced)
+- **WFC stop gap: $0.65 (0.80%) — stop $80.622 may trigger post-2PM**
+- **JPM stop gap: $1.54 (0.47%) — stop $323.82 extremely vulnerable to FOMC move**
+- Both theses intact; stops are trailing per rules — stop-outs acceptable, do NOT cancel
+- VIX gate CLOSED; no new entries today regardless

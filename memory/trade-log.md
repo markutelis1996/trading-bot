@@ -14899,3 +14899,47 @@ Both within 5% of research prices — signals valid.
 
 - Trades this week: 0/7
 - Watch: FOMC minutes 2 PM ET; WFC stop proximity ($1.43 buffer); Citigroup (C) watchlist pending VIX < 20 confirmation
+
+---
+
+## 2026-11-18 - Midday Scan
+
+**Portfolio:** ~$75,578 long MV | **Cash:** $19,632.42 | **Positions:** 2 stocks | **Deployed:** ~31%
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 148.618780 | ✓ fractional rounding |
+| JPM | 52.620 | 52.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. Stops active: f49e711e WFC ($80.622, HWM $89.58); ca91a9c8 JPM ($323.82, HWM $359.80).
+
+### Position Status
+| Ticker | Shares | Entry | Current | P&L% (entry) | Intraday | Stop | HWM | Gap to Stop | Status |
+|--------|--------|-------|---------|---------------|----------|------|-----|-------------|--------|
+| WFC | 148.619 | $78.38 | $81.275 | +3.69% | -1.71% | $80.622 (10% trail, f49e711e) | $89.58 | $0.65 (0.80%) ⚠️ | HOLD |
+| JPM | 52.620 | $328.23 | $325.36 | -0.87% | -1.39% | $323.82 (10% trail, ca91a9c8) | $359.80 | $1.54 (0.47%) ⚠️⚠️ | HOLD |
+
+### Step 3 — Cuts
+- None. WFC +3.69%, JPM -0.87% — both above -7% rule.
+
+### Step 4 — Stop Tightening
+- WFC: +15% trigger = $90.14 (current $81.275 — not reached). No action.
+- JPM: +15% trigger = $377.47 (current $325.36 — not reached). No action.
+
+### Step 5 — Thesis Check
+- **WFC**: -1.71% intraday; broad financials selloff on FOMC hawkish minutes backdrop (2PM ET). No WFC-specific adverse news found (Tavily search clean). Consumer/commercial banking transformation thesis INTACT. ⚠️ Stop gap 0.80% — stop may trigger naturally on afternoon volatility. If triggered, that is acceptable per rules — do NOT cancel stop.
+- **JPM**: -1.39% intraday; same broad sector decline. No JPM-specific adverse news. Diversified banking thesis INTACT. ⚠️⚠️ Stop gap 0.47% — extremely thin; stop may trigger on first FOMC-driven push lower at 2PM. If triggered, acceptable per rules — do NOT cancel stop.
+
+### Step 6 — Intraday Research
+- Tavily search: no WFC or JPM company-specific adverse catalysts found today
+- **FOMC October Meeting Minutes at 2PM ET** is the dominant risk today — Dec hike fully priced, 2 dissents wanted Oct hike, minutes expected hawkish → financials sector pressure
+- VIX was 25.46 at Nov 17 close; still elevated; new entry gate CLOSED
+- Both positions declining in line with broad financials sector — no thesis-breaking idiosyncratic moves
+- No Perplexity result returned (empty response)
+
+### Actions
+- No cuts, no stop tightening, no new entries.
+- Both positions HOLD with active GTC trailing stops.
+- ⚠️ WARNING: Both stops within <1% of current prices. FOMC minutes at 2PM likely to push financials lower. If stopped out, do NOT re-enter same day — accept the exit and evaluate tomorrow morning.
