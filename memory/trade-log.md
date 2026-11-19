@@ -15001,3 +15001,54 @@ CLEAN — no discrepancies. WFC stop f49e711e active @ $80.622, HWM $89.58.
 
 - Trades this week: 0/3
 - Watch: WFC stop $80.622 — gap 0.34%; stop-out acceptable if triggered. VIX needs to close below 20 before any new entries.
+
+## 2026-11-19 - Reconciliation
+| Ticker | Log Qty | Broker Qty | Note | Realized P&L (est) |
+|--------|---------|------------|------|--------------------|
+| WFC | 148.619 | 0.618780 | 148-share trailing stop f49e711e fired intraday (stop $80.622, 10% trail, HWM $89.58); 0.619 frac remains | ~+$331.82 |
+| JPM | 0.620 frac | 0.619794 frac | ✓ match (fractional rounding) | — |
+
+WFC exit: 148 × ($80.622 − $78.38) = **+$331.82 est** (stop triggered by continued financials selling post-FOMC-minutes backdrop; acceptable outcome per rules)
+
+---
+
+## 2026-11-19 - Midday Scan
+
+**Portfolio:** ~$46,662 est equity | **Cash:** ~$36,470 | **Positions:** 2 fractional dust | **Deployed:** <1% stocks
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 148.619 | 0.618780 | ⚠️ 148-share stop f49e711e fired; 0.619 frac remains |
+| JPM | 0.620 frac | 0.619794 frac | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+WFC 148-share trailing stop (f49e711e) confirmed executed. No open orders remaining.
+
+### Position Status (stocks only)
+| Ticker | Shares | Entry | Current | P&L% | -7% Threshold | Stop | Status |
+|--------|--------|-------|---------|------|---------------|------|--------|
+| WFC | 0.619 frac | $78.38 | $80.99 | +3.33% | $72.89 | none (frac) | HOLD |
+| JPM | 0.620 frac | $328.23 | $320.10 | -2.46% | $305.25 | none (frac) | HOLD |
+
+### Step 3 — Cuts
+- None. WFC +3.33%, JPM -2.46% — both above -7% rule.
+
+### Step 4 — Stop Tightening
+- Both fractional; no stop coverage. No action.
+
+### Step 5 — Thesis Check
+- **WFC**: Macro-driven selloff (hawkish Fed, 10Y 5.15%, 5-day S&P losing streak). Banking transformation thesis intact. 148-share stop exit was correct per rules.
+- **JPM**: -2.46% from entry; broad financials pressure. Diversified banking thesis INTACT.
+
+### Step 6 — Intraday Research
+- WMT Q3 2026 beat (est $0.64 EPS, $187.3B rev) — positive consumer signal but VIX gate closed, no new entries.
+- Heavy Fed speaker schedule (Hammack, Goolsbee, Barkin, Barr, Paulson) — afternoon hawkish tone risk.
+- VIX was 24.56 at Nov 18 close — gate CLOSED. No new entries permitted.
+- No thesis breaks on existing fractional positions.
+
+### Actions
+- WFC 148-share stop exit logged (reconciliation above). Realized +$331.82 est.
+- No new cuts, no stop tightening, no new entries.
+- Stock book effectively flat (2 fractional dust positions, <$300 total MV).
+
