@@ -16388,3 +16388,102 @@ VIX well above gate (25.46), FOMC minutes = additional afternoon risk event, no 
 - **JPM stop gap: $1.54 (0.47%) — stop $323.82 extremely vulnerable to FOMC move**
 - Both theses intact; stops are trailing per rules — stop-outs acceptable, do NOT cancel
 - VIX gate CLOSED; no new entries today regardless
+
+---
+
+## 2026-11-19 - Pre-Market Research
+
+### Account Snapshot (broker as of Nov 18 close)
+- **Equity:** $95,706.29 | **Last equity:** $96,479.44 | **Day P&L:** −$773.15 (−0.80%)
+- **Cash:** $36,470.26 (38.1%) | **Reg T buying power:** $85,209.97
+- **Phase P&L:** −$4,293.71 (−4.29% vs $100,000 start)
+- **Stock deployed:** ~$12,270 (~12.8%) — WFC 148.619 sh + JPM 0.620 fractional
+- **Daytrades:** 0/3 | **Trades this week:** 0/3
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| WFC | 148.619 | 148.619 | ✓ |
+| JPM | 0.620 fractional | 0.620 fractional | ✓ (52-share stop fired Nov 18 as logged) |
+
+CLEAN — no new discrepancies. WFC stop f49e711e active @ $80.622, HWM $89.58. JPM stop ca91a9c8 confirmed executed (absent from orders).
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | ~$88.57 | Down from Oct high ~$107; Hormuz risk fading |
+| Brent crude | ~$95.35 | −15% past month; EIA Q4 2026 est ~$105 |
+| S&P 500 (last settle) | ~7,439 | 5th consecutive losing session; closed below 7,600 support |
+| S&P 500 futures | ~7,392–7,397 | +0.44–0.53% pre-market Nov 18 2:35 AM |
+| Nasdaq 100 | Slight gain | Eked out +0.11% while S&P fell |
+| VIX | **24.56** (Nov 18 close) | Was 25.46 Nov 17; still WELL ABOVE 20 — **GATE CLOSED** |
+| 10Y yield | ~5.15% | Elevated; Dec rate hike fully priced |
+| Gold | ~$3,890 | Down ~3% Thu on rate hike concerns + strong dollar |
+
+**Key overnight/intraday narratives:**
+- NVDA Q3 FY2027 beat (rev $115.8B vs $108.71B, EPS $2.70 vs $2.47, Q4 guide $130B vs $125.3B) but post-earnings rally FIZZLED — shares fell nearly 3% as NVDA flagged tighter scrutiny of financing commitments to AI/data center customers. Market read: AI demand question mark.
+- S&P 500 on 5-day losing streak; closed below 7,600 technical support
+- Anthropic IPO pricing underway, expected to debut on Nasdaq Nov 19 under "ANT"
+- Consumer discretionary bright spot: TJX +10% (holiday forecast beat), TGT +5% (Q3 beat)
+- Energy sector leading losses as oil slumped from Oct highs
+
+### Nov 19 Economic Calendar
+| Time (ET) | Release | Est | Prior |
+|-----------|---------|-----|-------|
+| 8:30 AM | Initial Jobless Claims (Nov 14) | 196K | 200K |
+| 8:30 AM | Philly Fed Manufacturing Index (Nov) | 20.6 | 20.9 |
+| 8:50 AM | Fed Gov. Hammack speech | — | — |
+| 10:00 AM | Leading Indicators (Oct) | 0% | 0% |
+| 12:30 PM | Fed Goolsbee speech | — | — |
+| 2:00 PM | Fed Barkin speech | — | — |
+| 2:15 PM | Fed Barr speech | — | — |
+| 6:30 PM | Fed Paulson speech | — | — |
+
+**Earnings BMO:** WMT (Walmart, est $0.64 EPS / $187.3B rev — MAJOR), BABA, NetEase, PDD
+**Earnings AMC:** INTU, ROST, KEYS
+
+Heavy Fed speaker day — afternoon volatility risk. No FOMC-level binary event; Jobless Claims + Philly Fed are the data points.
+
+### WFC Position Check (live)
+- Entry: $78.38 | Last close: $80.92 | Live ask (AH, illiquid): $86.22 — do NOT use
+- Stop: $80.622 (10% trail, f49e711e) | HWM: $89.58
+- Gap to stop from last close: **$0.298 (0.37%)** ⚠️⚠️ CRITICAL — stop-out highly probable on any red open
+- -7% cut threshold: $72.89 (safe) | +15% tighten trigger: $90.14 (not reached)
+- Unrealized P&L: +3.24% from entry
+- **WFC news:** No adverse company catalysts. Analyst consensus Buy, mean PT $97.15. EPS TTM $7.10, forward P/E 10.21x. Decline macro-driven (hawkish Fed, 10Y 5.15%). Thesis intact. If stop triggers — ACCEPT, do NOT cancel.
+
+### Politician Signals (45-day window Oct 5 – Nov 19; $25K+ buys)
+- **Pelosi:** Latest = WBD SALE Oct 7 (Nov 6 filing). No qualifying buy in window.
+- **Khanna:** Nov 9 disclosures = BNY Mellon, VRT, ACN, HUM buys ($1K–$15K each — BELOW $25K threshold). Prior signal: **Citigroup (C)** buy Oct 14 ($15K–$50K, straddles $25K min, 36d old) — WATCHLIST only; VIX gate closed.
+- **McCaul / Tuberville / Gottheimer / Mast / Green / Crenshaw:** No qualifying buys in window.
+
+### Sector Momentum (YTD 2026)
+| Sector | YTD | 3-Month | Note |
+|--------|-----|---------|------|
+| Energy (XLE) | +42.32% | +13.07% | Hormuz-driven |
+| Materials (XLB) | +15.86% | +3.11% | |
+| Industrials (XLI) | +12.62% | +1.23% | |
+| Healthcare (XLV) | +10.10% | **+14.08%** | Strongest near-term momentum |
+| Consumer Staples (XLP) | +9.59% | +2.71% | WMT beat today |
+| Financials (XLF) | +5.44% | +12.08% | Dec hike headwind |
+| Tech (XLK) | weak | — | NVDA -16% YTD; AI trade unwind |
+| Consumer Disc (XLY) | −3.02% | −3.66% | |
+| Comm Services (XLC) | −5.60% | −3.58% | |
+
+### Trade Ideas
+**No new trade ideas.** VIX gate CLOSED (24.56 — needs <20).
+
+**Watchlist for VIX < 20 (tentative):**
+1. **Citigroup (C):** Khanna Oct 14 buy (borderline $25K, 36d, within window); financials 3-month momentum +12%. Verify live quote. No stop yet.
+2. **Healthcare (XLV exposure):** Strongest 3-month sector; identify specific catalyst when VIX gate opens.
+
+### Risk Factors
+1. **VIX 24.56** — elevated; gate CLOSED; no new entries
+2. **WFC stop proximity 0.37%** — stop-out probable on any morning red; ACCEPT if triggered
+3. **Dec rate hike fully priced** — financials NIM compression headwind
+4. **NVDA AI scrutiny** — flagged financing review for data centers; potential AI capex narrative unwind
+5. **S&P 500 5-day losing streak** — distribution phase; +0.44% futures bounce may fade
+6. **Heavy Fed speaker schedule** — 5 speakers; hawkish tone risk all afternoon
+
+### Decision: **HOLD / ACCEPT STOP**
+VIX gate CLOSED — no new entries. WFC: hold with active stop $80.622; if triggered, that is correct per rules, realized P&L ~+$370 on 148 shares (entry $78.38, stop $80.622). JPM fractional: carry, no action. Tomorrow: if WFC stopped out, reassess deployment vs VIX gate.
