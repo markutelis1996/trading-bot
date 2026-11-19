@@ -15052,3 +15052,26 @@ WFC 148-share trailing stop (f49e711e) confirmed executed. No open orders remain
 - No new cuts, no stop tightening, no new entries.
 - Stock book effectively flat (2 fractional dust positions, <$300 total MV).
 
+
+---
+
+## 2026-11-19 - Reconciliation
+
+| Ticker | Log Qty | Broker Qty | Note | Realized P&L (est) |
+|--------|---------|------------|------|--------------------|
+| WFC | 148.619 | 0.618780 | 148-share trailing stop f49e711e fired intraday (stop $80.622, HWM $89.58); 0.619 fractional remains | +$332 est (148 × [$80.626 fill − $78.38 entry]) |
+| JPM | 0.620 | 0.619794 | ✓ fractional rounding | — |
+
+WFC stop fired during intraday dip below $80.622 — price subsequently recovered to $80.99 close. Cash confirms fill: $36,470 → $48,403 (+$11,933 / 148 sh = $80.626/sh). Acceptable stop-out per rules; do NOT regret. 0.619 fractional WFC remains (no stop, ~$50 value, immaterial).
+
+---
+
+### Nov 19 - EOD Snapshot (Day 157, Thursday)
+**Portfolio:** $94,202.18 | **Cash:** $48,403.01 (51.4%) | **Day P&L:** −$728.44 (−0.77%) | **Phase P&L:** −$5,797.82 (−5.80%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 0.619 fractional | $78.38 | $80.99 | +$0.07 (+0.09%) | +$1.62 (immaterial) | none (fractional) |
+| JPM | 0.620 fractional | $328.23 | $320.10 | −$4.01 (−1.24%) | −$5.00 (immaterial) | none (fractional) |
+
+**Notes:** WFC 148-share trailing stop (f49e711e, $80.622) triggered intraday — price dipped through stop during session before recovering to $80.99 close; +$332 est realized; 0.619 fractional remains immaterial. JPM 0.620 fractional carry unchanged. Effective stock deployment: ~0.26% (both positions immaterial). No new trades today; 0/3 slots used this week. Total long market value $45,799 almost entirely crypto DCA sleeve (BTC $21,436 / ETH $10,891 / SOL $6,789 / LINK $6,434 — all read-only/untouchable). VIX last close 24.56 — entry gate remains CLOSED until confirmed sub-20. Portfolio well below 75-85% stock deployment target but no action permissible while VIX elevated. Tomorrow: check VIX, review financials sector for new setup candidates if volatility recedes.
