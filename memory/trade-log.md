@@ -15113,3 +15113,43 @@ VIX ~27–28 (Nov 19 close 24.56 intraday; Nov 20 premarket ~27-28 per research)
 - Trades this week: 0/3
 - Next trigger: VIX confirmed close below 20 → reassess C (Citigroup, Khanna signal) + healthcare sector names (LLY/UNH/ISRG)
 - Crypto DCA sleeve (BTC/ETH/SOL/LINK): all down intraday; read-only/untouchable
+
+---
+
+## 2026-11-20 - Midday Scan
+
+**Portfolio:** ~$43,367 est equity | **Cash:** $48,403 | **Positions:** 2 fractional dust | **Deployed:** <1% stocks
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 0.619 frac | 0.618780 | ✓ fractional rounding |
+| JPM | 0.620 frac | 0.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. No active GTC stop orders.
+
+### Position Status (stocks only)
+| Ticker | Shares | Entry | Current | P&L% | -7% Threshold | Stop | Status |
+|--------|--------|-------|---------|------|---------------|------|--------|
+| WFC | 0.619 frac | $78.38 | $79.56 | +1.51% | $72.89 | none (frac) | HOLD |
+| JPM | 0.620 frac | $328.23 | $313.71 | −4.41% | $305.25 | none (frac) | HOLD |
+
+### Step 3 — Cuts
+None. WFC +1.51%, JPM −4.41% — both above −7% rule.
+
+### Step 4 — Stop Tightening
+Both fractional; no stop coverage possible. No action.
+
+### Step 5 — Thesis Check
+- **WFC**: Financials under pressure (hawkish Fed, Dec hike priced, 10Y ~5.15%). Banking transformation thesis intact. Fractional dust — no stop, immaterial.
+- **JPM**: −4.41% from entry; broad financials/macro pressure. Diversified banking thesis INTACT. No thesis break.
+
+### Step 6 — Intraday Research
+- VIX gate FIRMLY CLOSED (~27–28). No new entries permissible.
+- No sharp intraday movers on existing positions requiring thesis review.
+- Market continues broad selloff pattern (5th+ losing session, Dec hike narrative dominant).
+
+### Actions
+None. No cuts, no stop tightening, no new entries, no thesis breaks.
+
