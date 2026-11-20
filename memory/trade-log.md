@@ -15075,3 +15075,41 @@ WFC stop fired during intraday dip below $80.622 — price subsequently recovere
 | JPM | 0.620 fractional | $328.23 | $320.10 | −$4.01 (−1.24%) | −$5.00 (immaterial) | none (fractional) |
 
 **Notes:** WFC 148-share trailing stop (f49e711e, $80.622) triggered intraday — price dipped through stop during session before recovering to $80.99 close; +$332 est realized; 0.619 fractional remains immaterial. JPM 0.620 fractional carry unchanged. Effective stock deployment: ~0.26% (both positions immaterial). No new trades today; 0/3 slots used this week. Total long market value $45,799 almost entirely crypto DCA sleeve (BTC $21,436 / ETH $10,891 / SOL $6,789 / LINK $6,434 — all read-only/untouchable). VIX last close 24.56 — entry gate remains CLOSED until confirmed sub-20. Portfolio well below 75-85% stock deployment target but no action permissible while VIX elevated. Tomorrow: check VIX, review financials sector for new setup candidates if volatility recedes.
+
+---
+
+## 2026-11-20 - Market-Open Session
+
+**Portfolio:** $91,952.66 equity | **Cash:** $48,402.75 (52.6%) | **Deployed:** ~0.3% stocks | **Trades this week:** 0/3
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 0.619 frac | 0.618780 | ✓ fractional rounding |
+| JPM | 0.620 frac | 0.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | as expected | UNTOUCHABLE |
+
+CLEAN — no discrepancies. No active GTC stop orders.
+
+### Step 1b — Price Re-verification (live market open)
+| Ticker | Research Price | Live Price | Delta | -7% Floor | Status |
+|--------|----------------|------------|-------|-----------|--------|
+| WFC | $80.89 (Nov 19 close) | $79.80 | −1.4% | $72.89 | HOLD (frac dust) |
+| JPM | $320.10 (Nov 19 close) | $314.44 | −1.8% | $305.25 | HOLD (frac dust, −4.2% from entry) |
+
+### VIX Gate — CLOSED
+VIX ~27–28 (Nov 19 close 24.56 intraday; Nov 20 premarket ~27-28 per research). Gate FIRMLY CLOSED. Needs confirmed daily close below 20. No new entries permissible.
+
+### Execution Status
+- **Orders placed: 0 (NO TRADES)**
+- Reason: VIX gate closed; no actionable setups per research log; both existing positions are fractional dust with no stop coverage possible.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Status |
+|---|--------|--------|-------|---------|------|------|--------|
+| 1 | WFC | 0.619 frac | $78.38 | $79.80 | +1.8% | none (fractional) | HOLD |
+| 2 | JPM | 0.620 frac | $328.23 | $314.44 | −4.2% | none (fractional) | HOLD (above −7% cut) |
+
+- Trades this week: 0/3
+- Next trigger: VIX confirmed close below 20 → reassess C (Citigroup, Khanna signal) + healthcare sector names (LLY/UNH/ISRG)
+- Crypto DCA sleeve (BTC/ETH/SOL/LINK): all down intraday; read-only/untouchable
