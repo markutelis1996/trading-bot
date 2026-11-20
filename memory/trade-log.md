@@ -15153,3 +15153,15 @@ Both fractional; no stop coverage possible. No action.
 ### Actions
 None. No cuts, no stop tightening, no new entries, no thesis breaks.
 
+---
+
+### Nov 20 - EOD Snapshot (Day 158, Friday)
+**Portfolio:** $91,199.12 | **Cash:** $48,402.75 (53.1%) | **Day P&L:** −$3,003.06 (−3.19%) | **Phase P&L:** −$8,800.88 (−8.80%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 0.619 fractional | $78.38 | $78.65 | −$1.96 (−2.43%) | +$0.17 (immaterial) | none (fractional) |
+| JPM | 0.620 fractional | $328.23 | $310.62 | −$9.60 (−2.99%) | −$10.88 (immaterial) | none (fractional) |
+
+**Notes:** Portfolio declined −$3,003.06 (−3.19%) today, almost entirely driven by the crypto DCA sleeve: BTC −6.0% ($20,311 MV), ETH −8.3% ($9,977 MV), SOL −7.7% ($6,258 MV), LINK −6.0% ($6,010 MV) — all untouchable per rules. Stock book is effectively flat (WFC +0.17, JPM −10.88 unrealized; combined MV $241). No trades today; 0/3 slots used this week. VIX gate remains CLOSED (~27-28 intraday Nov 20) — no new stock entries permissible until confirmed daily close below 20. Phase P&L −$8,800.88 (−8.80%). Both stock positions are fractional dust with no stop coverage. Watch VIX next week; potential entries in financials/healthcare if volatility recedes.
+
