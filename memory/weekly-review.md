@@ -1891,3 +1891,83 @@ Crypto sleeve (all unrealized losses vs cost basis):
 - McCaul ACN window miscalculation identified and corrected ✓
 
 ---
+
+## Week ending 2026-11-20
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $99,975.31 (Nov 13 close) |
+| Ending portfolio | $91,700.91 (Nov 20 live, Alpaca API) |
+| Week return | -$8,274.40 (-8.28%) |
+| S&P 500 week | ~-5.0% (Mon-Fri: 7,340.53 → 6,973.09; AI rout + Fed hawkish) |
+| Bot vs S&P | -3.28% underperformance |
+| Trades | 2 closed (W:1 / L:1 / open: 2 fractional dust) |
+| Win rate | 50% (1/2 closed trades) |
+| Best trade | WFC +$331.82 (+2.86%) |
+| Worst trade | JPM -$229.32 (-1.35%) |
+| Net closed P&L | +$102.50 |
+| Profit factor | 1.45 ($331.82 / $229.32) |
+| Phase P&L | -$8,299.09 (-8.30% from $100K start) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L$ | P&L% | Notes |
+|--------|-------|------|------|------|-------|
+| JPM | $328.23 (prior weeks) | $323.82 (Nov 18, stop ca91a9c8) | -$229.32 | -1.35% | 10% trailing stop fired during FOMC-minutes-driven financials selloff; acceptable outcome |
+| WFC | $78.38 (prior weeks) | $80.622 (Nov 19, stop f49e711e) | +$331.82 | +2.86% | 10% trailing stop fired during continued financials selling; price recovered to $80.99 same day; stop was correct per rules |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close (Nov 20) | Unrealized | Stop | HWM |
+|--------|--------|-------|----------------|------------|------|-----|
+| WFC | 0.619 frac | $78.38 | $78.62 | +$0.17 (immaterial) | none (fractional) | — |
+| JPM | 0.620 frac | $328.23 | $311.06 | -$10.60 (immaterial) | none (fractional) | — |
+
+Stock deployed: ~$241 / $91,701 = 0.3% | Cash $48,403 (52.7%) | Crypto DCA sleeve ~$43,057 (46.9%) — UNTOUCHABLE
+
+Crypto sleeve (all unrealized losses vs cost basis):
+- BTC: $20,523 MV vs $24,608 cost (-16.6%)
+- ETH: $10,095 MV vs $13,492 cost (-25.2%)
+- SOL: $6,429 MV vs $8,395 cost (-23.4%)
+- LINK: $6,010 MV vs $7,593 cost (-20.9%)
+
+### What Worked
+- Stop mechanics executed correctly: JPM 52-share stop (ca91a9c8) fired Nov 18 protecting downside before further decline; WFC 148-share stop (f49e711e) fired Nov 19 at +2.86% gain; both exits mechanical, no overrides
+- VIX gate discipline maintained all week (VIX 24-28); 0 new entries despite $48K cash available; correct — prevented deploying into continued AI rout and hawkish Fed selloff
+- First realized winning trade in 7+ weeks: WFC +$331.82; and first net-positive closed trade pair (net +$102.50) in many weeks
+- Profit factor 1.45 on the two closed trades — winners covered losers; correct risk/reward execution
+- No rule violations: crypto UNTOUCHED, no options, no stop moved down, fractional dust holds above -7% cut threshold
+
+### What Didn't Work
+- Portfolio -8.28% vs S&P -5.0% = -3.28% underperformance; worst absolute return week this phase
+- Phase P&L collapsed from -0.02% (Nov 13) to -8.30% — deepest drawdown since start; went from near-flat to -8.30% in one week
+- Crypto sleeve drove the majority of losses: BTC -16.6%, ETH -25.2%, SOL -23.4%, LINK -20.9% from cost — 47% of portfolio in deeply negative DCA sleeve overwhelms any stock selection quality
+- Both WFC (was +9.79% unrealized Nov 13) and JPM (was +5.47%) stopped out at much smaller gains (+2.86% and -1.35%); gave back most unrealized from prior weeks
+- Stock deployment effectively 0% at week end (all fractional dust); 14+ consecutive weeks critically below 75-85% target; strategy performance unmeasurable without stock exposure
+
+### Key Lessons
+- **Crypto sleeve is now the portfolio**: at $43K vs $241 in stocks + $48K cash, the DCA sleeve dominates weekly P&L entirely; stock selection quality is invisible behind crypto volatility — this is structural, not tactical; the agent must deploy stocks aggressively once VIX normalizes or the phase result will be entirely crypto-driven
+- **WFC stop fired at intraday dip, price recovered**: HWM $89.58, stop $80.622 — the trail gap had compressed to <1% due to the FOMC-minutes-driven selloff; price dipped through stop then recovered to $80.99 same session; in elevated VIX environments, consider whether trailing stop should be widened slightly to avoid being whipsawed by intraday spikes
+- **AI rout + hawkish FOMC minutes = no-entry week**: NVDA CEO vacancy (Nov 11), hawkish Oct FOMC minutes (Nov 18), 5-day consecutive S&P losing streak — this was a correctly-identified no-entry environment; the VIX gate existed for exactly this scenario
+- **Thanksgiving week approaching**: Nov 24-26 (3 sessions); thin liquidity, holiday-week positioning — historically low vol after Thanksgiving but not suitable for deploying large positions; should wait for post-holiday confirmation before new entries
+
+### Adjustments for Next Week (Nov 24-26, Thanksgiving short week)
+- **Thanksgiving 3-day week**: Market open Mon-Wed Nov 24-26; Thu-Fri holiday; thin liquidity; hold discipline — do NOT deploy into holiday-week illiquidity
+- **VIX gate**: Only enter new positions if VIX shows confirmed daily close below 20; do not force deployment in Thanksgiving week thin trading
+- **JPM fractional**: $311.06 close, -5.21% from entry; -7% cut trigger at $305.25; watch; MV is $193 (immaterial) but rules apply — if it hits -7%, cut
+- **Post-holiday deployment plan**: Dec 1-5 (first full week of Dec) = primary deployment window if VIX recedes; priority sectors: Healthcare (XLV, 0% exposure), Energy (XLE if WTI stabilizes post-holiday)
+- **AI/semiconductor moratorium**: NVDA, AMD, AMAT, SMCI — do NOT enter until NVDA interim or new CEO establishes credibility; AI overhang persists
+- **Politician scan refresh**: Check Pelosi, Tuberville, Khanna, Gottheimer, Mast new disclosures Nov 15-21 period; compute window from TRADE DATE not disclosure date
+- **Q4 blackout**: Dec 23 start; Rule 16 pre-blackout avoidance zone starts Dec 16; still 3+ weeks away — no current impact
+
+### Overall Grade: D
+- -8.28% vs S&P -5.0% = -3.28% underperformance ✗
+- Phase P&L -8.30% — worst drawdown, deepest below $100K start ✗
+- 0 new entries; both exits were mechanical stop-outs; stops worked as designed ✓
+- VIX gate correctly enforced all week; no bad entries ✓
+- Stock deployment 0.3% at week end — structurally broken for 14+ weeks ✗
+- Net closed trades: +$102.50 (W:1 WFC +2.86%, L:1 JPM -1.35%); first realized winner in 7+ weeks ✓
+- Profit factor 1.45 on closed trades — positive for first time in phase ✓
+- No rule violations: crypto UNTOUCHED, no options, no stop moved down ✓
+- Crypto sleeve in deep drawdown (-16% to -25% from cost); dominates portfolio ✗
+
+---
