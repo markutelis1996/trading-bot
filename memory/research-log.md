@@ -16487,3 +16487,99 @@ Heavy Fed speaker day — afternoon volatility risk. No FOMC-level binary event;
 
 ### Decision: **HOLD / ACCEPT STOP**
 VIX gate CLOSED — no new entries. WFC: hold with active stop $80.622; if triggered, that is correct per rules, realized P&L ~+$370 on 148 shares (entry $78.38, stop $80.622). JPM fractional: carry, no action. Tomorrow: if WFC stopped out, reassess deployment vs VIX gate.
+
+---
+
+## 2026-11-20 - Pre-Market Research
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| WFC | 0.619 frac | 0.618780 | ✓ fractional rounding |
+| JPM | 0.620 frac | 0.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | as expected | UNTOUCHABLE |
+
+CLEAN — no new discrepancies. No active GTC stop orders. WFC 148-share stop confirmed exited Nov 19 (prior reconciliation). Both stock positions immaterial fractional dust only.
+
+### Account Snapshot (live broker)
+- **Equity:** $94,333.39 | **Last equity:** $94,930.62 | **Day P&L:** −$597.23 (−0.63%)
+- **Cash:** $48,403.01 (51.4%) | **Long MV:** $45,930.38 (almost entirely crypto DCA sleeve)
+- **Stock deployed:** ~$248 (<0.3%) — WFC 0.619 frac + JPM 0.620 frac
+- **Phase P&L:** −$5,666.61 (−5.67% vs $100K start)
+- **Daytrades:** 0/3 | **Trades this week:** 0/3
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | ~$88.43/bbl | Bloomberg live; +0.15%; down from Oct high ~$109 |
+| Brent crude | ~$95.35/bbl | Bloomberg live; +0.51% |
+| S&P 500 (Nov 19 close) | ~$7,175.83 | −2.02% Wed close (WSJ); 5th+ consecutive losing session |
+| S&P 500 ES=F futures | ~$7,158.50 | −0.54% (Yahoo Finance, Nov 20 06:54 UTC premarket) |
+| Nasdaq 100 futures | ~27,796 | +2.24% (MarketWatch continuous contract, Nov 19 data) |
+| Dow Jones | <50,000 | Closed below 50K for first time since June |
+| VIX | **~27–28** | WSJ Nov 19 7:40 PM = 28.44; Macrotrends Nov 19 = 27.47. **GATE FIRMLY CLOSED** |
+| 10Y yield | ~5.15% | Elevated; Dec rate hike fully priced |
+| Gold | ~$3,890 | Down ~3% last session on rate hike concerns |
+
+**Key overnight/premarket narratives:**
+- FOMC meeting minutes (released Nov 18/19) = VERY HAWKISH → December rate hike now "certain" per markets → S&P losing streak extended, Dow below 50K
+- NVDA beat (Rev $115.8B vs $108.71B, EPS $2.70 vs $2.47, Q4 guide $130B vs $125.3B) but stock fell ~3% post-earnings — flagged AI financing scrutiny for data center customers; market read: AI demand question mark
+- Anthropic IPO expected today on Nasdaq under "ANT"; AI temperature check; priced ~$70-78/sh; market cap ~$1.2T (down from $2T earlier)
+- Consumer staples rotation: WMT +~5% (Nov 19 beat); TJX +10%; TGT +5% — defensives outperforming
+- Dollar index strong; gold/bonds weak
+
+### Nov 20 Economic Calendar
+| Time (ET) | Release | Note |
+|-----------|---------|------|
+| 10:00 AM | State Employment & Unemployment (Oct) | Low-impact, not a market mover |
+| TBD | **Fed Governor Waller speech** | Key hawkish risk; Dec hike narrative |
+| Nov 25 | GDP Q3 2nd est + PCE Inflation | Next major data point |
+
+No CPI, PPI, or FOMC releases today. No major US BMO earnings (BJ Wholesale, Frontline — not relevant).
+
+### Live Position Checks
+| Ticker | Shares | Entry | Approx Current | P&L% | Stop | Status |
+|--------|--------|-------|----------------|------|------|--------|
+| WFC | 0.619 frac | $78.38 | ~$80.89 (Nov 19 close) | +3.2% | none (fractional) | HOLD |
+| JPM | 0.620 frac | $328.23 | ~$320.00 (Nov 19 close) | -2.5% | none (fractional) | HOLD |
+
+Both immaterial (<$300 total). No stops possible on fractional shares. No action required.
+
+### Politician Signals (45-day window Oct 6 – Nov 20; $25K+ threshold)
+- **Pelosi**: Latest = WBD SALE Oct 7 (filed Nov 6). No qualifying stock BUY in window.
+- **Khanna (Nov 9 disclosures)**: Large filing batch (20 trades). Qualifying buys within window:
+  - **Citigroup (C)**: Oct 14, $15K–$50K (straddles $25K min), 37 days old — WATCHLIST only (VIX gate closed, same as prior log)
+  - **Lowe's (LOW)**: Oct 13, $15K–$50K (qualifies), 38 days old — Consumer Discretionary sector momentum WEAK (-3% YTD); NOT actionable on sector mismatch
+  - Many other Khanna buys ($1K–$15K range) — ALL below $25K threshold, disqualified
+- **McCaul / Tuberville / Gottheimer / Mast / Green / Crenshaw**: No qualifying buys found in window (consistent with prior logs)
+- **→ No actionable new politician signals.** Khanna C (Citigroup) remains WATCHLIST only pending VIX gate.
+
+### Sector Momentum (updated Nov 2026)
+| Sector | YTD | 3-Month | Schwab Rating | Note |
+|--------|-----|---------|---------------|------|
+| Energy (XLE) | +43.6% | +5.78% | More Favored | Crude slightly off Oct highs |
+| Health Care (XLV) | +21.1% | **+11.72%** | More Favored | Strongest near-term momentum |
+| Consumer Staples (XLP) | +18.5% | +9.41% | Neutral | Defensive rotation active |
+| Materials (XLB) | +14.6% | -1.18% | More Favored | Fading 3-month |
+| Info Tech (XLK) | +15.0% | -5.68% | Neutral | Weak 1-month -11.4%; NVDA scrutiny |
+| Financials (XLF) | +6.1% | +0.65% | More Favored | Dec hike headwind |
+| Comm Services (XLC) | -6.9% | -7.59% | Less Favored | Avoid |
+| Consumer Disc (XLY) | +3.1% | +1.03% | Least Favored | Avoid |
+
+### Trade Ideas
+**No new trade ideas.** VIX gate FIRMLY CLOSED (~27–28; needs confirmed close below 20).
+
+**Watchlist for VIX < 20:**
+1. **Citigroup (C)**: Khanna Oct 14 $15K–$50K buy (borderline $25K, 37d, in window); financials 3-month +0.65% only; Dec hike headwind; wait for VIX gate + sector confirmation
+2. **Healthcare (XLV) name TBD**: Strongest 3-month sector (+11.7%); identify specific catalyst when gate opens. Candidates: LLY, UNH, ISRG (Khanna bought $1K–$15K Oct 2 — below threshold, but validates sector interest)
+
+### Risk Factors
+1. **VIX ~27–28** — elevated; distribution phase; gate FIRMLY CLOSED
+2. **Dec rate hike now "certain"** — hawkish FOMC minutes; 10Y ~5.15%; growth/financials headwind
+3. **NVDA AI financing scrutiny** — cracks in AI demand narrative; tech rotation OUT accelerating (XLK -11.4% 1-month)
+4. **S&P 500 on 6th consecutive losing session** — ES=F -0.54% premarket; Dow below 50K
+5. **Fed Waller speech today** — additional hawkish messaging risk
+6. **Anthropic IPO (ANT)** — if debut disappoints = further AI sentiment hit; if strong = temporary tech relief
+
+### Decision: **HOLD**
+VIX gate CLOSED — no new entries. Both stock positions are fractional dust; no action required. Next trigger: VIX confirmed daily close below 20 → reassess C (Citigroup) and healthcare sector names. Deployment: 0.3% stocks vs 75-85% target — full dry powder waiting for gate to open.
