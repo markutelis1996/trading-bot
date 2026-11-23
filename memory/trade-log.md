@@ -15202,4 +15202,43 @@ VIX 35.89 (Nov 20 close). Gate requires confirmed daily close below 20. No new e
 
 - Trades this week: 0/3
 - Next trigger: VIX confirmed close below 20 → reassess C (Citigroup, Khanna signal) + healthcare candidates (LLY, UNH, ISRG)
+
+---
+
+## 2026-11-23 - Midday Scan
+
+**Portfolio:** ~$46,834 est long MV | **Cash:** $48,402.75 | **Positions:** 2 fractional dust | **Deployed:** <1% stocks
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 0.619 frac | 0.618780 | ✓ fractional rounding |
+| JPM | 0.620 frac | 0.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered (all contain "/") | UNTOUCHABLE |
+
+CLEAN — no discrepancies. No active GTC stop orders.
+
+### Position Status (stocks only)
+| Ticker | Shares | Entry | Current | P&L% | Intraday | -7% Floor | Stop | Status |
+|--------|--------|-------|---------|------|----------|-----------|------|--------|
+| WFC | 0.619 frac | $78.38 | $80.39 | +2.56% | +2.25% | $72.89 | none (frac) | HOLD |
+| JPM | 0.620 frac | $328.17 | $318.69 | −2.89% | +2.63% | $305.25 | none (frac) | HOLD |
+
+### Step 3 — Cuts
+None. WFC +2.56%, JPM −2.89% — both above −7% rule. JPM well above $305.25 floor.
+
+### Step 4 — Stop Tightening
+Both fractional dust; no stop coverage possible. No action.
+
+### Step 5 — Thesis Check
+- **WFC**: +2.56%; financials recovering intraday (+2.25%). Banking transformation thesis intact. HOLD.
+- **JPM**: −2.89% from entry; broad market up +2.63% intraday; above −7% cut floor. Diversified banking thesis INTACT. No thesis break.
+
+### Step 6 — Intraday Research
+- No sharp intraday moves on existing positions requiring further research.
+- Both positions rallying with broad market; no adverse news on WFC or JPM intraday.
+- VIX gate: last confirmed close 35.89 (Nov 20). No new entries permissible until VIX confirmed daily close below 20.
+
+### Actions
+None. No cuts, no stop tightening, no new entries, no thesis breaks.
 - Key watch: Wed Nov 25 GDP Q3 2nd est + Core PCE (Oct) — if Core PCE ≤ 0.2% MoM → Dec hike odds may fall → potential VIX relief
