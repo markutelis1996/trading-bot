@@ -16583,3 +16583,101 @@ Both immaterial (<$300 total). No stops possible on fractional shares. No action
 
 ### Decision: **HOLD**
 VIX gate CLOSED — no new entries. Both stock positions are fractional dust; no action required. Next trigger: VIX confirmed daily close below 20 → reassess C (Citigroup) and healthcare sector names. Deployment: 0.3% stocks vs 75-85% target — full dry powder waiting for gate to open.
+
+---
+
+## 2026-11-23 - Pre-market Research
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| WFC | 0.619 frac | 0.618780 | ✓ fractional rounding |
+| JPM | 0.620 frac | 0.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | as expected | UNTOUCHABLE |
+
+CLEAN — no discrepancies. No open GTC stop orders. Both stock positions are immaterial fractional dust.
+
+### Account Snapshot (live broker)
+- **Equity:** $93,954.37 | **Last equity:** $91,199.12 (Nov 20 EOD) | **Weekend change:** +$2,755 (crypto DCA sleeve recovery)
+- **Cash:** $48,402.75 (51.5%) | **Long MV:** $45,551.62 (almost entirely crypto DCA sleeve)
+- **Stock deployed:** ~$245 (<0.3%) — WFC 0.619 frac ($49) + JPM 0.620 frac ($196)
+- **Phase P&L:** −$6,045.63 (−6.05% vs $100K start; improved from −8.80% Nov 20 on crypto recovery)
+- **Daytrades:** 0/3 | **Trades this week:** 0/3
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | ~$83.98/bbl | WSJ Nov 20 settlement; down from Oct high ~$109 |
+| Brent crude | ~$92.59/bbl | Nov 23 continuous contract (WSJ) |
+| S&P 500 ES Dec 26 | ~7,084 | Yahoo Finance Nov 23 06:06 UTC (Sunday night); closed Nov 20 at $6,966.75 (−3.2%) |
+| VIX | **35.89** | Macrotrends Nov 20 close (+26.2% on day from 28.44). **GATE VERY FIRMLY CLOSED** |
+| 10Y yield | ~5.05% | Near recent highs; Dec hike ~90% priced |
+| Gold | ~$3,500 | Down ~$390 from $3,890 Nov 20; 14-month low; risk-off liquidation |
+
+**Key overnight/weekend narratives (since Nov 20):**
+- **NVDA SEC + multi-agency investigation**: SEC (accounting), FBI (Chinese intelligence), California AG (misleading shareholders), Congressional (national security/Mega Speed export control), shareholder lawsuit — announced Friday Nov 20. Triggered broad chip/tech selloff.
+- **Anthropic (ANT) IPO crash**: Listed Thursday Nov 19 at ~$70-78/sh; fell −10% Friday Nov 20. AI demand narrative crack.
+- **Red Friday Nov 20**: Nasdaq −5%+, Dow −8%, small caps −7.5% per reported data. S&P 500 down 6th consecutive session, −5% from prior Friday's close. VIX spiked to 35.89.
+- **Thanksgiving week thin liquidity**: Increased volatility risk; Nov 26 market closed, Nov 27 early close.
+
+### Nov 23 Economic Calendar
+| Time (ET) | Release | Impact | Note |
+|-----------|---------|--------|------|
+| 9:45 AM | Flash Manufacturing PMI (Nov) | Low | Prior 56.0 |
+| 9:45 AM | Flash Services PMI (Nov) | Low | Prior 57.9 |
+| 4:00 PM | Fed NY President Williams speech | Medium | Hawkish risk — Dec hike narrative |
+| **Wed Nov 25** | **GDP Q3 2nd est + Core PCE (Oct)** | **🔴 HIGH** | GDP est 3.6%; Core PCE +0.3% MoM est; Fed's preferred inflation gauge; market-moving |
+| **Thu Nov 26** | **Thanksgiving** | — | Markets closed |
+| Fri Nov 27 | Early close (1 PM ET) | — | Thin liquidity |
+
+**Earnings calendar this week:**
+- Mon AMC: HPE, ZM, SYM
+- Tue BMO: ADI, MDT, DLTR, DKS, BBY — Medtronic (healthcare read)
+- Tue AMC: DELL, ADSK, WDAY, HPQ, NTNX
+- Wed BMO: DE (Deere — industrial read)
+
+### Live Position Checks (last regular-session closes; market closed pre-open)
+| Ticker | Shares | Entry | Last Close (Nov 20) | P&L% | Stop | -7% Floor | Status |
+|--------|--------|-------|---------------------|------|------|-----------|--------|
+| WFC | 0.619 frac | $78.38 | $78.65 | +0.3% | none (frac) | $72.89 | HOLD |
+| JPM | 0.620 frac | $328.23 | $310.62 | −5.4% | none (frac) | $305.25 | HOLD — approaching -7% floor |
+
+⚠️ JPM dust at −5.4% from entry. -7% cut floor: $305.25. If JPM opens ≤ $305.25, mandatory cut per rules (even though fractional dust, rule applies — no exemption per strategy rule 5: "small MV does not waive the cut trigger"). Watch at open.
+
+### Politician Signals (45-day window Oct 9 – Nov 23; $25K+ threshold)
+- **Pelosi**: Last qualifying BUY = BE Jul 24-28 (now 118-day old, well outside 45-day window). Oct 7 WBD SALE — no qualifying buys in current window.
+- **Khanna**: C (Citigroup) Oct 14 $15K–$50K (straddles $25K min), 40 days old, within window — WATCHLIST pending VIX gate.
+- **McCaul**: Last traded Aug 31 — outside 45-day window.
+- **Tuberville / Gottheimer / Mast**: No qualifying single-stock buys found in window.
+- **→ No actionable new politician signals.** Khanna C remains watchlist only.
+
+### Sector Momentum (from Nov 20 research; unchanged)
+| Sector | YTD | 3-Month | Note |
+|--------|-----|---------|------|
+| Energy (XLE) | +43.6% | +5.78% | More Favored |
+| Health Care (XLV) | +21.1% | +11.72% | More Favored — strongest 3-month |
+| Consumer Staples (XLP) | +18.5% | +9.41% | Defensive rotation |
+| Info Tech (XLK) | +15.0% | −11.4% (1-mo) | NVDA investigation amplifies selloff |
+| Financials (XLF) | +6.1% | +0.65% | Dec hike headwind |
+
+### Trade Ideas
+**NONE** — VIX gate VERY FIRMLY CLOSED at 35.89.
+
+**Watchlist for VIX < 20 (do NOT enter until gate opens):**
+1. **Citigroup (C)**: Khanna Oct 14 buy, borderline $25K, 40d, within window; financials 3M weak (+0.65%); Dec hike headwind; need VIX < 20 + sector confirmation + live quote
+2. **Healthcare (XLV) name**: Strongest 3-month sector; candidates LLY, UNH, ISRG; identify specific setup when gate opens
+3. **No crypto ideas** — all crypto managed by DCA sleeve; UNTOUCHABLE
+
+### Risk Factors
+1. **VIX 35.89** — panic territory; worst week since April 2025 tariff crash; distribution phase; no entries permissible
+2. **NVDA multi-agency investigation** — AI demand narrative at risk; XLK under severe pressure; could drag other tech positions
+3. **Dec rate hike ~90%** — 10Y ~5.05%; growth/financials headwind persists
+4. **Wed Nov 25 GDP + PCE** — major binary event; hot core PCE = further selloff; cold PCE = potential relief rally
+5. **Thanksgiving-week thin liquidity** — amplified price swings; not ideal for new entries even if VIX dips
+6. **JPM dust −5.4%** — approaching −7% cut floor ($305.25); monitor at open; mandatory cut if breached
+
+### Decision: **HOLD**
+VIX gate firmly closed at 35.89 — no new entries permissible. Watch JPM dust at open: cut if ≤ $305.25 per mandatory rule.
+Next gate trigger: VIX confirmed daily close below 20 → reassess C (Citigroup) + healthcare candidates.
+Key watch this week: Wed Nov 25 GDP/PCE print — if Core PCE comes in ≤ 0.2% MoM → Dec hike odds may fall → potential VIX relief.
+
