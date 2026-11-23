@@ -15165,3 +15165,41 @@ None. No cuts, no stop tightening, no new entries, no thesis breaks.
 
 **Notes:** Portfolio declined −$3,003.06 (−3.19%) today, almost entirely driven by the crypto DCA sleeve: BTC −6.0% ($20,311 MV), ETH −8.3% ($9,977 MV), SOL −7.7% ($6,258 MV), LINK −6.0% ($6,010 MV) — all untouchable per rules. Stock book is effectively flat (WFC +0.17, JPM −10.88 unrealized; combined MV $241). No trades today; 0/3 slots used this week. VIX gate remains CLOSED (~27-28 intraday Nov 20) — no new stock entries permissible until confirmed daily close below 20. Phase P&L −$8,800.88 (−8.80%). Both stock positions are fractional dust with no stop coverage. Watch VIX next week; potential entries in financials/healthcare if volatility recedes.
 
+
+---
+
+## 2026-11-23 - Market-Open Session
+
+**Portfolio:** $96,243.53 equity | **Cash:** $48,402.75 (50.3%) | **Deployed:** ~0.3% stocks | **Trades this week:** 0/3
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 0.619 frac | 0.618780 | ✓ fractional rounding |
+| JPM | 0.620 frac | 0.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | as expected | UNTOUCHABLE |
+
+CLEAN — no discrepancies. No active GTC stop orders.
+
+### Step 1b — Live Price Re-verification
+| Ticker | Last Close (Nov 20) | Live Ask | Live Bid | Mid | P&L% (entry) | -7% Floor | Status |
+|--------|---------------------|----------|----------|-----|---------------|-----------|--------|
+| JPM | $310.62 | $334.82 | $311.48 | ~$323 | −1.6% | $305.25 | HOLD — well above cut floor |
+| WFC | $78.65 | $82.08 | $80.51 | ~$81.30 | +3.7% | $72.89 | HOLD |
+
+### VIX Gate — VERY FIRMLY CLOSED
+VIX 35.89 (Nov 20 close). Gate requires confirmed daily close below 20. No new entries permissible.
+
+### Execution Status
+- **Orders placed: 0 (NO TRADES)**
+- Reason: VIX gate closed; no actionable setups per research log; both existing positions are fractional dust above -7% cut floor
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Status |
+|---|--------|--------|-------|---------|------|------|--------|
+| 1 | WFC | 0.619 frac | $78.38 | ~$81.30 | +3.7% | none (fractional) | HOLD |
+| 2 | JPM | 0.620 frac | $328.23 | ~$323 | −1.6% | none (fractional) | HOLD (above −7% floor $305.25) |
+
+- Trades this week: 0/3
+- Next trigger: VIX confirmed close below 20 → reassess C (Citigroup, Khanna signal) + healthcare candidates (LLY, UNH, ISRG)
+- Key watch: Wed Nov 25 GDP Q3 2nd est + Core PCE (Oct) — if Core PCE ≤ 0.2% MoM → Dec hike odds may fall → potential VIX relief
