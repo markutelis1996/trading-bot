@@ -15242,3 +15242,15 @@ Both fractional dust; no stop coverage possible. No action.
 ### Actions
 None. No cuts, no stop tightening, no new entries, no thesis breaks.
 - Key watch: Wed Nov 25 GDP Q3 2nd est + Core PCE (Oct) — if Core PCE ≤ 0.2% MoM → Dec hike odds may fall → potential VIX relief
+
+---
+
+### Nov 23 - EOD Snapshot (Day 159, Monday)
+**Portfolio:** $93,997.06 | **Cash:** $48,402.75 (51.5%) | **Day P&L:** +$2,399.15 (+2.62%) | **Phase P&L:** −$6,002.94 (−6.00%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 0.619 fractional | $78.38 | $79.31 | +$0.69 (+0.88%) | +$0.58 (immaterial) | none (fractional) |
+| JPM | 0.620 fractional | $328.17 | $316.66 | +$6.13 (+1.97%) | −$7.13 (immaterial) | none (fractional) |
+
+**Notes:** Portfolio gained +$2,399.15 (+2.62%) today, entirely driven by crypto DCA sleeve recovery: BTC +1.11% (MV $21,322), ETH +1.60% (MV $10,750), SOL +3.55% (MV $6,791), LINK +2.64% (MV $6,484). Stock book immaterial — WFC and JPM both fractional dust, no stop coverage possible. Reconciliation clean; no discrepancies. No trades today; 0/3 slots used this week. VIX gate CLOSED (last confirmed close 35.89 on Nov 20) — no new entries permissible until confirmed daily close below 20. Total stock MV: ~$245; crypto MV: ~$45,347. Phase P&L −$6,002.94 (−6.00%). Key watch: Wed Nov 25 GDP Q3 2nd est + Core PCE (Oct) — if Core PCE ≤ 0.2% MoM → Dec hike odds may fall → potential VIX relief catalyst for new stock entries.
