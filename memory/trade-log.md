@@ -15255,6 +15255,44 @@ None. No cuts, no stop tightening, no new entries, no thesis breaks.
 
 **Notes:** Portfolio gained +$2,399.15 (+2.62%) today, entirely driven by crypto DCA sleeve recovery: BTC +1.11% (MV $21,322), ETH +1.60% (MV $10,750), SOL +3.55% (MV $6,791), LINK +2.64% (MV $6,484). Stock book immaterial — WFC and JPM both fractional dust, no stop coverage possible. Reconciliation clean; no discrepancies. No trades today; 0/3 slots used this week. VIX gate CLOSED (last confirmed close 35.89 on Nov 20) — no new entries permissible until confirmed daily close below 20. Total stock MV: ~$245; crypto MV: ~$45,347. Phase P&L −$6,002.94 (−6.00%). Key watch: Wed Nov 25 GDP Q3 2nd est + Core PCE (Oct) — if Core PCE ≤ 0.2% MoM → Dec hike odds may fall → potential VIX relief catalyst for new stock entries.
 
+## 2026-11-24 - Midday Scan
+
+**Portfolio:** ~$92,700 est | **Cash:** $48,402.75 | **Positions:** 2 fractional dust | **Deployed:** <1% stocks
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 0.619 frac | 0.618780 | ✓ fractional rounding |
+| JPM | 0.620 frac | 0.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered (all contain "/") | UNTOUCHABLE |
+
+CLEAN — no discrepancies. No active GTC stop orders.
+
+### Position Status (stocks only)
+| Ticker | Shares | Entry | Current | P&L% | Intraday | -7% Floor | Stop | Status |
+|--------|--------|-------|---------|------|----------|-----------|------|--------|
+| WFC | 0.619 frac | $78.38 | $81.31 | +3.73% | +1.63% | $72.89 | none (frac) | HOLD |
+| JPM | 0.619 frac | $328.17 | $317.99 | −3.10% | +0.42% | $305.25 | none (frac) | HOLD |
+
+### Step 3 — Cuts
+None. WFC +3.73%, JPM −3.10% — both above −7% rule. JPM well above $305.25 floor.
+
+### Step 4 — Stop Tightening
+Both fractional dust; no stop coverage possible. No action.
+
+### Step 5 — Thesis Check
+- **WFC**: +3.73%; financials rebounding slightly (+1.63% intraday). Banking thesis intact. HOLD.
+- **JPM**: −3.10% from entry; recovering intraday (+0.42%). Above −7% floor $305.25. Thesis intact. HOLD.
+
+### Step 6 — Intraday Research
+Thin pre-holiday session (Thanksgiving tomorrow, early close Friday). No sharp unexplained moves on either position. VIX 26.62 (last confirmed Nov 23 close) — gate CLOSED, no new entries permissible. All intraday action consistent with broad market mild recovery (+0.46% S&P futures premarket) from Nov 20 selloff.
+
+### Actions
+None. No cuts, no stop changes, no new entries.
+- Key watch: **Wed Nov 25 GDP Q3 2nd est + Core PCE** — if Core PCE ≤ 0.2% MoM → Dec hike odds may fall → potential VIX relief
+
+---
+
 ## 2026-11-24 - Market-Open Session
 
 **Portfolio:** $92,736.16 equity | **Cash:** $48,402.75 (52.2%) | **Deployed:** <1% stocks | **Trades this week:** 0/3
