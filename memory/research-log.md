@@ -16681,3 +16681,98 @@ VIX gate firmly closed at 35.89 — no new entries permissible. Watch JPM dust a
 Next gate trigger: VIX confirmed daily close below 20 → reassess C (Citigroup) + healthcare candidates.
 Key watch this week: Wed Nov 25 GDP/PCE print — if Core PCE comes in ≤ 0.2% MoM → Dec hike odds may fall → potential VIX relief.
 
+## 2026-11-24 - Pre-market Research
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| WFC | 0.619 frac | 0.618780 | ✓ fractional rounding |
+| JPM | 0.620 frac | 0.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | as expected | UNTOUCHABLE |
+
+CLEAN — no discrepancies. No open GTC stop orders.
+
+### Account Snapshot (live broker)
+- **Equity:** $93,577.37 | **Last equity:** $91,597.91 (Nov 20 close)
+- **Cash:** $48,402.75 (51.7%) | **Long MV:** $45,174.62 (almost entirely crypto DCA sleeve)
+- **Stock deployed:** ~$246 (<0.3%) — WFC 0.619 frac ($49) + JPM 0.620 frac ($197)
+- **Phase P&L:** −$6,422.63 (−6.42% vs $100K start)
+- **Daytrades:** 0/3 | **Trades this week:** 0/3
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | ~$80/bbl | -4% from prior session; 3-month low; Hormuz at record flow, Libya resumed |
+| Brent crude | ~$89/bbl | -3.5% (Nov 24 AM); -21.5% over past month; 3rd consecutive weekly decline |
+| S&P 500 ES | ~7,374 (+0.46% premarket) | Mild risk-on; recovery from Nov 20 selloff |
+| VIX | **26.62** (Nov 23 close, down from 35.89 Nov 20) | Recovering but **GATE STILL CLOSED** (needs confirmed close < 20) |
+| 10Y yield | ~5.05% | Near recent highs; Dec rate hike ~97% priced (CME FedWatch) |
+| Gold | ~$3,500 | Risk-off liquidation continuing |
+
+**Today's economic releases (Nov 24):**
+- 10:00 AM ET: Conference Board Consumer Confidence (Nov est 92.1 vs prior 91.7)
+- 9:00 AM ET: Case-Shiller Home Price Index (Sep)
+- No major releases; thin pre-holiday session
+
+**Tomorrow Nov 25 — MAJOR BINARY DAY (8:30 AM ET):**
+- **GDP Q3 2nd est**: consensus 3.5-3.6% (advance was 3.4%); above-consensus strengthens hike odds
+- **Core PCE Oct**: est 0.3% MoM / 3.2% YoY (prev 3.1%). Cleveland Fed nowcast: 0.3% MoM, 3.2% YoY
+- **Durable Goods Orders Oct**, **Weekly Jobless Claims** (est 200K vs 203K prior), **New Home Sales**
+- **Fed Beige Book** at 2:00 PM — tone will read hawkish vs dovish
+- Thu Nov 26: Thanksgiving — MARKET CLOSED
+- Fri Nov 27: Early close 1:00 PM ET — thin liquidity
+
+**Key macro context:**
+- NVDA multi-agency investigation (SEC accounting, FBI, CA AG, Congressional) announced Nov 20 → triggered AI narrative selloff; still unresolved
+- Dec rate hike now ~97% priced per CME FedWatch
+- Oil -21.5% past month: Hormuz at record supply levels, Libya resumed, IEA warns oversupply; energy thesis weakening
+- Thanksgiving-week thin liquidity amplifies moves
+
+### Live Position Checks
+| Ticker | Shares | Entry | Last Close (Nov 23) | P&L% | Stop | -7% Floor | Status |
+|--------|--------|-------|---------------------|------|------|-----------|--------|
+| WFC | 0.619 frac | $78.38 | ~$79.31 | +1.2% | none (frac) | $72.89 | HOLD |
+| JPM | 0.620 frac | $328.17 | ~$316.66 | −3.5% | none (frac) | $305.25 | HOLD — above −7% floor |
+
+JPM recovered from −5.4% (Nov 20 close) to −3.5% (Nov 23 close). Floor $305.25 not breached. No action required.
+
+### Politician Signals (45-day window Oct 10 – Nov 24, $25K+ threshold)
+| Politician | Last Qualifying Buy | Trade Date | Days Ago | Signal Level |
+|------------|---------------------|------------|----------|--------------|
+| **Pelosi** | INTC $500K–1M + $250K–500K | Jul 24, 2026 | 123 days | EXPIRED (>45 days) |
+| **Pelosi** | WBD SALE $50K–100K | Oct 7, 2026 | 48 days | SALE — not actionable |
+| **McCaul** | RDDT SALE $15K–50K | Aug 7, 2026 | 109 days | EXPIRED |
+| **Khanna** | C (Citigroup) $15K–50K | Oct 14, 2026 | 41 days | WATCHLIST — borderline $25K, in window (pending VIX gate) |
+| **Tuberville / Gottheimer / Mast** | Nothing qualifying | — | — | — |
+
+**→ No actionable new politician signals.** Khanna C (Oct 14) remains watchlist-only: VIX gate still closed + financials 3-month only +0.65% + Dec hike headwind. Pelosi INTC Jul 24 fully expired.
+
+### Sector Momentum (unchanged from Nov 23)
+| Sector | YTD | 3-Month | Note |
+|--------|-----|---------|------|
+| Energy (XLE) | +43.6% | +5.78% | Fading — oil -21.5% past month |
+| Health Care (XLV) | +21.1% | +11.72% | Strongest near-term |
+| Consumer Staples (XLP) | +18.5% | +9.41% | Defensive rotation |
+| Info Tech (XLK) | +15.0% | −11.4% (1-mo) | NVDA investigation amplifying selloff |
+| Financials (XLF) | +6.1% | +0.65% | Dec hike headwind |
+
+### Trade Ideas
+**NONE.** VIX gate firmly closed at 26.62. Required level: confirmed daily close < 20.
+
+**Watchlist for VIX < 20 (do NOT enter until gate opens AND PCE is known):**
+1. **Citigroup (C)**: Khanna Oct 14 buy, borderline $25K, 41d in window; financials 3M weak; Dec hike headwind; need VIX < 20 + sector confirmation + live quote
+2. **Healthcare (XLV) name**: Strongest 3-month sector; candidates LLY, UNH, ISRG; identify specific setup when gate opens
+
+### Risk Factors
+1. **VIX 26.62** — recovering from 35.89 but still elevated; gate closed
+2. **Dec rate hike ~97% priced** — hawkish; 10Y ~5.05%; growth/financials headwind
+3. **Nov 25 GDP/PCE binary** — hot Core PCE (>0.3% MoM) → further selloff + Dec hike locked in; cold PCE → relief rally + potential gate open
+4. **Thanksgiving-week thin liquidity** — amplified price swings; not ideal for new entries even if gate opens
+5. **NVDA multi-agency investigation** — AI demand narrative at risk; XLK under severe pressure
+6. **Oil -21.5% past month** — energy sector tailwind reversing; XLE momentum fading
+
+### Decision: **HOLD**
+VIX gate closed at 26.62 — no new entries. Both stock positions are fractional dust above −7% floors. No action required.
+Next gate trigger: VIX confirmed daily close below 20.
+Key watch: **Wed Nov 25 Core PCE** — if ≤ 0.2% MoM → Dec hike odds may fall → VIX relief potential. If hot (≥ 0.4%) → extend hold through year-end, Dec 25-31 blackout (Rule 16) only 4 weeks away.
+
