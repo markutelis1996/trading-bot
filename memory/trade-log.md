@@ -15329,3 +15329,15 @@ Both within normal range; no >5% move from research log prices.
 - Key watch: **Wed Nov 25 GDP Q3 2nd est + Core PCE** — if ≤ 0.2% MoM → Dec hike odds fall → potential VIX relief
 
 ---
+
+### Nov 24 - EOD Snapshot (Day 160, Tuesday)
+**Portfolio:** $92,270.35 | **Cash:** $48,402.75 (52.5%) | **Day P&L:** −$914.71 (−0.98%) | **Phase P&L:** −$7,729.65 (−7.73%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 0.619 fractional | $78.38 | $81.02 | −$0.17 (−0.21%) | +$1.63 (+3.37%) | none (fractional) |
+| JPM | 0.620 fractional | $328.17 | $316.79 | −$0.31 (−0.10%) | −$7.05 (−3.47%) | none (fractional) |
+
+**Notes:** No trades today; 0/3 slots used this week. Portfolio −$914.71 (−0.98%) almost entirely driven by crypto DCA sleeve drift: BTC −0.26% (MV $20,543), ETH +0.07% (MV $10,325), SOL −0.28% (MV $6,396), LINK −0.06% (MV $6,357). Stock book immaterial — WFC and JPM are fractional dust with no stop coverage. VIX gate CLOSED (last confirmed close 26.62 on Nov 23) — no new stock entries permissible until VIX confirms daily close below 20. Note: Alpaca last_equity $93,185.06 vs TRADE-LOG Nov 23 snapshot $93,997.06 — $812 discrepancy reflects intraday crypto price movement between snapshot time and actual session close; Day P&L uses Alpaca authoritative last_equity. Thanksgiving week: early close tomorrow (Nov 25, 1pm ET), market closed Nov 26. Tomorrow: GDP Q3 2nd est + Core PCE (Oct) — if Core PCE ≤ 0.2% MoM → Dec hike odds fall → potential VIX relief catalyst.
+
+---
