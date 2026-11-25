@@ -15341,3 +15341,41 @@ Both within normal range; no >5% move from research log prices.
 **Notes:** No trades today; 0/3 slots used this week. Portfolio −$914.71 (−0.98%) almost entirely driven by crypto DCA sleeve drift: BTC −0.26% (MV $20,543), ETH +0.07% (MV $10,325), SOL −0.28% (MV $6,396), LINK −0.06% (MV $6,357). Stock book immaterial — WFC and JPM are fractional dust with no stop coverage. VIX gate CLOSED (last confirmed close 26.62 on Nov 23) — no new stock entries permissible until VIX confirms daily close below 20. Note: Alpaca last_equity $93,185.06 vs TRADE-LOG Nov 23 snapshot $93,997.06 — $812 discrepancy reflects intraday crypto price movement between snapshot time and actual session close; Day P&L uses Alpaca authoritative last_equity. Thanksgiving week: early close tomorrow (Nov 25, 1pm ET), market closed Nov 26. Tomorrow: GDP Q3 2nd est + Core PCE (Oct) — if Core PCE ≤ 0.2% MoM → Dec hike odds fall → potential VIX relief catalyst.
 
 ---
+
+## 2026-11-25 - Market-Open Session
+
+**Portfolio:** $91,576.91 equity | **Cash:** $48,402.75 (52.9%) | **Deployed:** <1% stocks | **Trades this week:** 0/7
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 0.619 frac | 0.618780 | ✓ fractional rounding |
+| JPM | 0.620 frac | 0.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered (all contain "/") | UNTOUCHABLE |
+
+CLEAN — no discrepancies. No overnight stops triggered.
+
+### Step 1b — Live Price Re-verification
+| Ticker | Research | Live (position API) | Delta | -7% Floor | Buffer | Status |
+|--------|----------|---------------------|-------|-----------|--------|--------|
+| WFC | $81.02 | $79.64 | −1.7% | $72.89 | $6.75 (+8.5%) | HOLD |
+| JPM | $316.79 | $310.055 | −2.1% | $305.25 | $4.81 (+1.55%) | HOLD ⚠️ THIN |
+
+Note: JPM bid/ask very wide ($300/$327.55) — Thanksgiving-week thin liquidity. Position API last price $310.055 used as reference. Neither position breached −7% floor.
+
+### Execution Status
+- **Orders placed: 0 (NO TRADES)**
+- Reason: VIX gate closed (26.36 Nov 24 close; needs confirmed daily close <20); no actionable setups from research log; Thanksgiving eve early close 1pm ET — thin liquidity amplifies risk
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Status |
+|---|--------|--------|-------|---------|------|------|--------|
+| 1 | WFC | 0.619 frac | $78.38 | $79.64 | +1.6% | none (fractional) | HOLD |
+| 2 | JPM | 0.620 frac | $328.17 | $310.055 | −5.5% | none (fractional) | HOLD ⚠️ (1.55% above −7% floor $305.25) |
+
+- Trades this week: 0/7
+- Phase P&L: ~−$8,423 (−8.42% vs $100K start)
+- Next gate trigger: VIX confirmed close below 20 → energy (XOM/COP) + healthcare (LLY/UNH/ISRG)
+- ⚠️ JPM: cut if price ≤ $305.25. Monitor rest of session (early close 1pm ET).
+- Market CLOSED tomorrow (Thanksgiving). Friday Nov 27 early close 1pm ET.
+
