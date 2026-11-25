@@ -16776,3 +16776,106 @@ VIX gate closed at 26.62 — no new entries. Both stock positions are fractional
 Next gate trigger: VIX confirmed daily close below 20.
 Key watch: **Wed Nov 25 Core PCE** — if ≤ 0.2% MoM → Dec hike odds may fall → VIX relief potential. If hot (≥ 0.4%) → extend hold through year-end, Dec 25-31 blackout (Rule 16) only 4 weeks away.
 
+## 2026-11-25 - Pre-market Research
+
+### Reconciliation (STEP 0)
+| Ticker | Log Qty | Broker Qty | Status |
+|--------|---------|------------|--------|
+| WFC | 0.619 frac | 0.618780 | ✓ fractional rounding |
+| JPM | 0.620 frac | 0.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | as expected | UNTOUCHABLE |
+
+CLEAN — no discrepancies. No overnight stops triggered. No open GTC orders.
+
+### Account Snapshot (live broker)
+- **Equity:** $92,270.35 | **Last equity:** $93,185.06 (Nov 24 close) | **Day change:** −$914.71 (crypto movement)
+- **Cash:** $48,402.75 (52.4%) | **Long MV:** $43,867.60 (almost entirely crypto DCA sleeve)
+- **Stock deployed:** ~$246 (<0.3%) — WFC 0.619 frac ($50) + JPM 0.620 frac ($196)
+- **Phase P&L:** −$7,729.65 (−7.73% vs $100K start)
+- **Daytrades:** 0/3 | **Trades this week:** 0/3
+
+### Live Position Checks (broker data 2026-11-24 close)
+| Ticker | Shares | Entry | Broker Price | P&L% | -7% Floor | Stop | Status |
+|--------|--------|-------|--------------|------|-----------|------|--------|
+| WFC | 0.619 frac | $78.38 | $81.02 | +3.4% | $72.89 | none (frac) | HOLD |
+| JPM | 0.620 frac | $328.17 | $316.79 | −3.5% | $305.25 | none (frac) | HOLD — buffer only 3.6% to floor ⚠️ |
+
+⚠️ JPM buffer thin: $316.79 → $305.25 floor = $11.54 (3.6%). If PCE hot and financials drop 4%+, JPM could test −7% cut floor at market open today. MONITOR AT OPEN.
+
+### Market Context
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | $81.54/bbl (−0.62%) | 4th tanker hit near Hormuz (Iran escalating) |
+| Brent crude | $90.97/bbl (−0.5%) | Goldman Sachs raised Dec Brent target to $105 from $90 |
+| S&P 500 ES Dec 26 | 7,156.00 (−0.85% premarket) | Ahead of GDP/PCE data 8:30 AM ET |
+| Nasdaq 100 (NQ) | −2.62% Dec futures | NVDA −8% Nov 24; Anthropic IPO −9% below $83 |
+| VIX | **26.36** (Nov 24 close) | Down from 26.62 (Nov 23) but **GATE STILL CLOSED** (needs confirmed close <20) |
+| 10Y yield | ~5.05% | Near recent highs; Dec hike ~97% priced |
+| Gold | ~$3,890 | Risk-off bid |
+
+**TODAY'S KEY DATA — 8:30 AM ET (all simultaneous, Thanksgiving-week binary):**
+- **GDP Q3 2nd est**: advance was 3.4%; consensus 3.5–3.6% (slight upward revision expected)
+- **Core PCE Oct** (THE GATING PRINT): est 0.3% MoM (Cleveland Fed nowcast 0.27%, U.S. Bank 0.30%). Sep was 0.3% MoM, 3.1% YoY
+  - ≤ 0.2% MoM → Dec hike odds fall → VIX relief possible → reassess gate
+  - 0.3% MoM (in-line) → no change; Dec hike locked; gate stays closed
+  - ≥ 0.4% MoM → disaster; VIX could spike; JPM tests -7% floor; extend hold through Dec blackout
+- **Durable Goods Orders Oct**, **Jobless Claims** (est 200K), **New Home Sales**
+- **Fed Beige Book** at 2:00 PM ET
+
+**Key macro context:**
+- NVDA: Jensen Huang reinstated as CEO → +31% Mon Nov 23; then −8% Tue Nov 24. SEC investigation (accounting), FBI investigation (Chinese spy link), Congressional oversight, Board independent investigation (Wachtell Lipton). NOT a buy signal. AI demand thesis intact but governance risk elevated.
+- Anthropic PBC IPO: fell −9% below $83 IPO price (Nov 24) — AI sector confidence shaky
+- Strait of Hormuz: 4th tanker hit by mine (Iran attacks escalating); Iran plans to tighten control. Bullish oil supply premium intact
+- Thanksgiving tomorrow (Nov 26) — Market CLOSED. Friday Nov 27 early close 1 PM ET
+- Dec 25–31 blackout (Rule 16) ≈ 4 weeks away. Rule 16 extension: no new entries from ~Dec 12
+
+**Earnings BMO today:**
+- **DE (Deere & Company)** — most market-moving. Industrials/ag. VIX gate closed regardless; note for watchlist only
+
+### Politician Signals (45-day window Oct 11 – Nov 25, $25K+ threshold)
+| Politician | Last Qualifying Buy | Trade Date | Days Old | Signal Level |
+|------------|---------------------|------------|----------|--------------|
+| **Pelosi** | BE $1M–5M + INTC $500K–1M | Jul 24–28, 2026 | 124 days | EXPIRED (>45 days) |
+| **Pelosi** | WBD SALE | Oct 7, 2026 | 49 days | SALE — not actionable |
+| **McCaul** | Last disclosed: Aug 31, 2026 (all late filings). Last qualifying buy in window: none | — | >45 days | EXPIRED |
+| **Khanna** | COO BUY $1K–$15K | Oct 30, 2026 | 26 days | In window but BELOW $25K minimum |
+| **Khanna** | GOOGL BUY $1K–$15K | Oct 28, 2026 | 28 days | In window but BELOW $25K minimum |
+| **Khanna** | LITE BUY $1K–$15K | Oct 28, 2026 | 28 days | In window but BELOW $25K minimum |
+| **Khanna** | C (Citigroup) $15K–50K | Oct 14, 2026 | 42 days | Watchlist — in window but below $25K minimum |
+| **Gottheimer** | AMAT BUY $1K–$15K | Oct 26, 2026 | 30 days | In window but BELOW $25K minimum |
+| **Gottheimer** | NVDA BUY $1K–$15K | Oct 23–26, 2026 | 30–32 days | In window but BELOW $25K minimum; NVDA under investigation |
+| **Tuberville / Mast** | Nothing qualifying | — | — | — |
+
+**→ NO actionable politician signals.** All recent buys from whitelist politicians are below the $25K minimum threshold. Khanna C (Citigroup) Oct 14 remains watchlist-only: in window (42d) but below $25K min + VIX gate closed + financials weakest sector.
+
+### Sector Momentum (updated Nov 2026)
+| Sector | YTD | 3M / Oct | Note |
+|--------|-----|----------|------|
+| Energy (XLE) | +39.3% (thru Sep 30) | Oct +14.1% | Goldman $105 Brent Dec target; Hormuz escalating |
+| Health Care (XLV) | +21.1% | Oct +8.8% | Strongest near-term momentum |
+| Consumer Staples (XLP) | +18.5% | Oct +11.6% | Defensive rotation in selloff |
+| Info Tech (XLK) | +33.8% (thru Sep 30) | Oct −6.6% | NVDA investigation; Anthropic IPO weakness |
+| Financials (XLF) | −1.3% (thru Sep 30) | — | Dec hike headwind; weakest sector |
+
+### Trade Ideas
+**NONE.** VIX gate closed at 26.36 — needs confirmed daily close <20 before any new entries.
+
+**Watchlist for VIX < 20 (do NOT enter until gate opens AND PCE is known AND not within Dec 12 blackout pre-window):**
+1. **Energy name (XOM or COP)**: Goldman $105 Brent Dec target; Hormuz supply premium; Oct sector leader +14.1%; need VIX <20 + live quote + stop calculation
+2. **Citigroup (C)**: Khanna Oct 14 buy, 42 days (in window); $15K–$50K (below $25K min — treat as secondary); financials weak; Dec hike headwind; not viable without sector confirmation
+3. **Healthcare candidate (LLY, UNH, or ISRG)**: Strongest 3M sector; identify specific catalyst + setup when gate opens
+
+### Risk Factors
+1. **PCE hot (≥ 0.4% MoM)**: JPM could breach −7% floor at open; VIX spikes; extend hold indefinitely
+2. **VIX 26.36** — gate closed; needs sustained move below 20
+3. **Dec rate hike 97% priced** — financials/growth headwind
+4. **JPM buffer thin** — only 3.6% above −7% floor; PCE print is a live threat to this position today
+5. **NVDA investigation** — SEC + FBI + Congressional; AI sector narrative at risk; XLK under pressure
+6. **Thanksgiving-week liquidity** — thin sessions; amplified moves
+7. **Dec 12 pre-blackout window** (Rule 16 extension) — only ~12 trading days left to enter new positions before year-end blackout zone starts
+
+### Decision: **HOLD**
+VIX gate closed at 26.36. No actionable politician signals above $25K minimum. No new stock entries today.
+Watch Core PCE at 8:30 AM ET: if ≤ 0.2% MoM → Dec hike odds fall → assess VIX close EOD for gate status.
+⚠️ Monitor JPM at open: cut if price ≤ $305.25 (−7% from $328.17 entry).
+
