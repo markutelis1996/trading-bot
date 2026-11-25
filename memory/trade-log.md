@@ -15379,3 +15379,54 @@ Note: JPM bid/ask very wide ($300/$327.55) — Thanksgiving-week thin liquidity.
 - ⚠️ JPM: cut if price ≤ $305.25. Monitor rest of session (early close 1pm ET).
 - Market CLOSED tomorrow (Thanksgiving). Friday Nov 27 early close 1pm ET.
 
+
+---
+
+## 2026-11-25 - Midday Scan
+
+**Portfolio:** ~$44,728 est long MV | **Cash:** $48,402.75 | **Positions:** 2 fractional dust | **Deployed:** <1% stocks
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 0.619 frac | 0.618780 | ✓ fractional rounding |
+| JPM | 0.620 frac | 0.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered (all contain "/") | UNTOUCHABLE |
+
+CLEAN — no discrepancies. No active GTC stop orders.
+
+### Position Status (stocks only — live quotes 1:01 PM ET, post-close Thanksgiving early session)
+| Ticker | Shares | Entry | Current | P&L% | Intraday vs open | -7% Floor | Buffer | Stop | Status |
+|--------|--------|-------|---------|------|-------------------|-----------|--------|------|--------|
+| WFC | 0.619 frac | $78.38 | $80.81 | +3.10% | +1.46% vs $79.64 open | $72.89 | $7.92 (+9.8%) | none (frac) | HOLD |
+| JPM | 0.620 frac | $328.17 | $316.01 | −3.71% | +1.92% vs $310.055 open | $305.25 | $10.76 (+3.4%) | none (frac) | HOLD |
+
+### Step 3 — Cuts
+None. WFC +3.10%, JPM −3.71% — both above −7% rule. JPM buffer improved from 1.55% at open to 3.4% (price recovered from morning low near $310 to $316).
+
+### Step 4 — Stop Tightening
+Both fractional dust; no stop coverage possible. No action.
+
+### Step 5 — Thesis Check
+- **WFC**: +3.10%; financials rebounding throughout session (+1.46% intraday from open). Banking transformation thesis intact. HOLD.
+- **JPM**: −3.71% from entry; recovered +1.92% intraday from open — JPM buffer expanded, no longer dangerously thin. Diversified banking thesis intact. HOLD.
+
+### Step 6 — Intraday Research
+- Perplexity unavailable (key unset in runtime env). No sharp unexplained moves on either position.
+- Both positions rallying intraday consistent with broad market Thanksgiving-eve recovery pattern.
+- GDP Q3 2nd est + Core PCE Oct released 8:30 AM ET — exact prints not confirmed (no Perplexity); market reaction (financials up intraday) suggests no disaster print (Core PCE hot ≥0.4% would have caused financials selloff, not recovery).
+- VIX gate: 26.36 (Nov 24 close) — CLOSED. No new entries.
+- Market CLOSED early 1pm ET for Thanksgiving eve. This scan effectively at close.
+
+### Actions
+None. No cuts, no stop tightening, no new entries, no thesis breaks.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Close | P&L% | Stop | Status |
+|---|--------|--------|-------|-------|------|------|--------|
+| 1 | WFC | 0.619 frac | $78.38 | ~$80.81 | +3.10% | none (frac) | HOLD |
+| 2 | JPM | 0.620 frac | $328.17 | ~$316.01 | −3.71% | none (frac) | HOLD |
+
+- Trades this week: 0/7
+- Market CLOSED Thu Nov 26 (Thanksgiving). Friday Nov 27 early close 1pm ET.
+- Next gate trigger: VIX confirmed close below 20 → energy (XOM/COP) + healthcare (LLY/UNH/ISRG)
