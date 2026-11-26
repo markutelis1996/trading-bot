@@ -15444,3 +15444,30 @@ None. No cuts, no stop tightening, no new entries, no thesis breaks.
 **Crypto DCA sleeve (read-only):** BTC MV $21,145 (+0.14% today), ETH MV $10,580 (−0.41%), SOL MV $6,643 (+0.06%), LINK MV $6,642 (flat).
 
 **Notes:** Thanksgiving — US market closed all day. Day P&L +$1,320.71 reflects Nov 25 half-day close vs Nov 24 last_equity ($92,338.84), driven entirely by crypto DCA sleeve drift. Stock book immaterial — WFC (+3.26%) and JPM (−3.47%) are fractional dust with no stop coverage. VIX gate remains CLOSED (last confirmed close 26.36 Nov 23); no new stock entries permissible until VIX confirms daily close below 20. Trades this week: 0/3. Tomorrow (Nov 27) is an early close at 1pm ET — thin liquidity; monitor JPM (−3.47% unrealized, −7% floor $305.25 at $316.74 = well buffered). Next actionable trigger: VIX <20 → energy/healthcare entries.
+
+## 2026-11-26 - Midday Scan (Thanksgiving — Market CLOSED)
+
+**Portfolio:** $93,747.52 est | **Cash:** $48,402.75 | **Stocks:** 2 fractional dust | **Market:** CLOSED
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 0.619 frac | 0.618780 | ✓ fractional rounding |
+| JPM | 0.620 frac | 0.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK "/") | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. Prices unchanged (market closed): WFC $80.94, JPM $316.74.
+
+### Position Status
+| Ticker | Shares | Entry | Broker Price | P&L% | -7% Floor | Buffer | Status |
+|--------|--------|-------|--------------|------|-----------|--------|--------|
+| WFC | 0.619 frac | $78.38 | $80.94 | +3.26% | $72.89 | +$8.05 (+10.2%) | HOLD |
+| JPM | 0.620 frac | $328.17 | $316.74 | −3.47% | $305.25 | +$11.49 (+3.6%) | HOLD |
+
+### Actions
+None. Market closed all day. No cuts (both above −7%), no stop tightening (neither at +15%), no thesis breaks, no intraday moves.
+
+- VIX gate: 28.29 (last close) — CLOSED. No new entries.
+- Next trading day: Nov 27 (early close 1pm ET, thin liquidity).
+- Monitor JPM: bearish technicals (10d MA < 50d MA, MACD negative); cut if ≤ $305.25.
+
