@@ -15471,3 +15471,15 @@ None. Market closed all day. No cuts (both above −7%), no stop tightening (nei
 - Next trading day: Nov 27 (early close 1pm ET, thin liquidity).
 - Monitor JPM: bearish technicals (10d MA < 50d MA, MACD negative); cut if ≤ $305.25.
 
+---
+
+### Nov 27 - EOD Snapshot (Day 163, Friday — Black Friday, early close 1pm ET)
+**Portfolio:** $93,779.42 | **Cash:** $48,402.75 (51.6%) | **Day P&L:** +$96.02 (+0.10%) | **Phase P&L:** −$6,220.58 (−6.22%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 0.619 frac | $78.38 | $80.94 | $0 (early close) | +$1.58 (+3.26%) | none (fractional) |
+| JPM | 0.620 frac | $328.17 | $316.74 | $0 (early close) | −$7.08 (−3.47%) | none (fractional) |
+
+**Notes:** Black Friday early close — no meaningful stock price movement. Portfolio +$96 (+0.10%) driven by crypto DCA sleeve: LINK +1.8% (MV $6,762), SOL +0.8% (MV $6,690), BTC −0.1% (MV $21,090), ETH −0.3% (MV $10,589). Stock book immaterial — WFC and JPM are fractional dust with no stop coverage. WFC +3.26% unrealized; JPM −3.47% unrealized but above −7% cut floor $305.25 (buffer +$11.49, +3.6%). No trades today; 0 trades this week. VIX gate CLOSED (last confirmed close 26.36) — no new stock entries permissible until VIX confirms daily close below 20. Next week: watch VIX for break below 20 → reassess C (Khanna Oct 14, 41d) + energy (XOM/COP) + healthcare (LLY/UNH/ISRG).
+
