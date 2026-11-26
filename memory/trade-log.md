@@ -15430,3 +15430,17 @@ None. No cuts, no stop tightening, no new entries, no thesis breaks.
 - Trades this week: 0/7
 - Market CLOSED Thu Nov 26 (Thanksgiving). Friday Nov 27 early close 1pm ET.
 - Next gate trigger: VIX confirmed close below 20 → energy (XOM/COP) + healthcare (LLY/UNH/ISRG)
+
+---
+
+### Nov 26 - EOD Snapshot (Day 162, Thursday — Thanksgiving, market closed)
+**Portfolio:** $93,659.55 | **Cash:** $48,402.75 (51.7%) | **Day P&L:** +$1,320.71 (+1.43%) | **Phase P&L:** −$6,340.45 (−6.34%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| WFC | 0.619 frac | $78.38 | $80.94 | $0 (market closed) | +$1.58 (+3.26%) | none (fractional) |
+| JPM | 0.620 frac | $328.17 | $316.74 | $0 (market closed) | −$7.08 (−3.47%) | none (fractional) |
+
+**Crypto DCA sleeve (read-only):** BTC MV $21,145 (+0.14% today), ETH MV $10,580 (−0.41%), SOL MV $6,643 (+0.06%), LINK MV $6,642 (flat).
+
+**Notes:** Thanksgiving — US market closed all day. Day P&L +$1,320.71 reflects Nov 25 half-day close vs Nov 24 last_equity ($92,338.84), driven entirely by crypto DCA sleeve drift. Stock book immaterial — WFC (+3.26%) and JPM (−3.47%) are fractional dust with no stop coverage. VIX gate remains CLOSED (last confirmed close 26.36 Nov 23); no new stock entries permissible until VIX confirms daily close below 20. Trades this week: 0/3. Tomorrow (Nov 27) is an early close at 1pm ET — thin liquidity; monitor JPM (−3.47% unrealized, −7% floor $305.25 at $316.74 = well buffered). Next actionable trigger: VIX <20 → energy/healthcare entries.
