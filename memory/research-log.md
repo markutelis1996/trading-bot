@@ -16879,3 +16879,103 @@ VIX gate closed at 26.36. No actionable politician signals above $25K minimum. N
 Watch Core PCE at 8:30 AM ET: if ≤ 0.2% MoM → Dec hike odds fall → assess VIX close EOD for gate status.
 ⚠️ Monitor JPM at open: cut if price ≤ $305.25 (−7% from $328.17 entry).
 
+---
+
+## 2026-11-26 - Pre-market Research (Thanksgiving — Market CLOSED)
+
+### Reconciliation (Step 0)
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 0.619 frac | 0.618780 | ✓ fractional rounding |
+| JPM | 0.620 frac | 0.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK) | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies.
+
+### Account Snapshot
+- Portfolio equity: $93,747.52 (↑$1,408.68 from Nov 24 last_equity $92,338.84; driven by crypto drift)
+- Cash: $48,402.75 (51.6%)
+- Long MV: $45,344.77 (stock dust ~$247 + crypto ~$45,097)
+- Open orders: NONE
+- Day trades used: 0/3
+
+### Market Context (Nov 25 close → Nov 26 Thanksgiving)
+| Indicator | Level | Note |
+|-----------|-------|------|
+| WTI crude | $82.14/bbl (+0.54%) | Strait of Hormuz flows at record levels; Trump refrained from further Iran strikes; trilateral US/China/Russia agreed to boost supply |
+| Brent crude | $91.89/bbl (+0.92%) | Down from recent highs; OPEC+ meeting Nov 29 — key energy catalyst next week |
+| S&P 500 (Nov 25 close) | 7,182.78 (−0.25%) | YTD +4.38% — correction territory; all three indexes 10%+ below record highs |
+| Nasdaq (Nov 25 close) | 23,585.80 (−0.62%) | NVDA governance risk weighing on tech |
+| Dow (Nov 25 close) | 50,182.95 (+0.33%) | Defensive rotation |
+| ES Dec 26 futures (Nov 26) | ~7,197-7,248 | Thin holiday liquidity; essentially flat from Nov 25 close |
+| VIX | **28.29** (Nov 25 close, +7.32% from 26.36) | Intraday high 34.95 on Nov 25 — GATE FIRMLY CLOSED (needs <20) |
+| 10Y yield | ~5.05% | Near recent highs; Dec rate hike priced |
+| Gold | ~$3,890 | Risk-off bid |
+
+**Nov 25 economic data (released):**
+- **Core PCE Oct**: **3.3% YoY** vs 3.2% est (ABOVE) — MoM +0.3% (in-line). 7th consecutive month above 3.0%. December rate hike NOW LOCKED.
+- **GDP Q3 2nd est**: **4.3%** vs 3.6% est vs 3.4% prior — massive upward surprise
+- **Jobless Claims**: 189K vs 200K est — labor market very tight
+- Strong GDP + hot inflation = stagflation risk + confirms Dec hike (97% priced). Fed rate range currently 3.75%–4.00%. Next FOMC: Dec 16–17.
+
+**Next trading day — Nov 27 (early close 1pm ET, thin liquidity):**
+- 8:30 AM: Goods Trade Balance Advance (Oct), est −$131B, prior −$135.1B
+- 8:30 AM: Wholesale Inventories (Oct), Retail Inventories (Oct)
+- Low-impact data; thin liquidity; not a catalyst day
+
+**Key macro:**
+- NVDA: Jensen Huang reinstated as CEO Nov 23 (+31%); then −8% Nov 24. Active SEC + FBI + Congressional investigations. AI demand thesis intact but governance risk elevated; XLK under pressure.
+- OPEC+ meeting Nov 29 — energy catalyst; Goldman $105 Brent Dec target
+- Dec 12 pre-blackout window (Rule 16 extension) ≈ 10 trading days away (Nov 27, Dec 1-11)
+
+### Position Check (live Alpaca quotes — last Nov 25 close, market closed Nov 26)
+| Ticker | Shares | Entry | Last Price | P&L% | -7% Floor | Buffer | Stop |
+|--------|--------|-------|-----------|------|-----------|--------|------|
+| WFC | 0.619 frac | $78.38 | $80.94 | +3.26% | $72.89 | $8.05 (+10.2%) | none (frac) |
+| JPM | 0.620 frac | $328.17 | $316.74 | −3.47% | $305.25 | $11.49 (+3.6%) ⚠️ | none (frac) |
+
+**JPM technical risk:** 10-day MA crossed below 50-day MA on Nov 18; MACD turned negative Nov 17; RSI in oversold zone. Bearish trend — Dec rate hike is a direct headwind for financials. Buffer thin at 3.6%. CUT if ≤ $305.25 on next trading session.
+
+### Politician Signals (45-day window Oct 12 – Nov 26, $25K+ threshold)
+| Politician | Last Qualifying Buy | Trade Date | Days Old | Signal Level |
+|------------|---------------------|------------|----------|--------------|
+| Pelosi | WBD SALE | Oct 7 | 50 days | SALE — not actionable; no new qualifying buys |
+| McCaul | Last active Aug 2026 | — | >45 days | EXPIRED |
+| Khanna | Multiple small buys Oct 23-30 (GOOGL, COO, LITE) | Oct 23-30 | 27-34 days | In window but ALL below $25K minimum |
+| Gottheimer | AMAT/NVDA buys Oct 23-26 | Oct 23-26 | 31-34 days | In window but ALL below $25K minimum |
+| Tuberville / Mast | Nothing qualifying | — | — | — |
+
+**→ NO actionable politician signals.** No whitelist politicians with $25K+ qualifying buys in window.
+
+### Sector Momentum (updated Nov 2026)
+| Sector | 6M | 12M | Note |
+|--------|-----|-----|------|
+| Energy (XLE) | +24.1% | +62.6% | Schwab "More Favored"; OPEC+ Nov 29; Hormuz premium |
+| Health Care (XLV) | +25.4% | +24.9% | Schwab "More Favored"; strongest near-term |
+| Consumer Staples (XLP) | +6.2% | +14.8% | Defensive rotation in correction |
+| Financials (XLF) | +9.5% | +7.0% | Schwab "More Favored" but Dec rate hike headwind |
+| Info Tech (XLK) | +12.6% | +19.7% | Underperforming recently −11.86% 3M; NVDA risk |
+| Comm Services | −8.1% | +2.6% | Schwab "Less Favored"; worst sector |
+
+### Trade Ideas
+**NONE.** VIX gate closed at 28.29 (intraday 34.95 on Nov 25). No new stock entries permissible until VIX confirms daily close below 20.
+
+**Watchlist for VIX <20 + sector confirmation (do NOT enter until gate opens AND not within Dec 12 pre-blackout window):**
+1. **Energy name (XOM or COP)**: OPEC+ Nov 29 catalyst; Goldman $105 Brent; +24.1% 6M momentum; need VIX <20 + live quote — only 10 trading days before pre-blackout starts
+2. **Healthcare (LLY, UNH, or ISRG)**: Strongest 3M sector; identify specific catalyst + setup when gate opens
+3. **WFC add** (not new ticker but position expand): BofA Buy reiterated PT $100 (current $80.94); new COO (JPM exec Allison Beer) = positive transformation signal; +3.26% unrealized; Dec hike headwind limits upside near-term
+
+### Risk Factors
+1. **VIX 28.29 / intraday 34.95** — sharp spike on Core PCE beat; gate not just closed but widening away from 20
+2. **Core PCE 3.3% YoY** — Dec rate hike locked; financials (JPM/WFC) direct headwind
+3. **JPM buffer thin** — 3.6% above −7% floor; Dec rate hike + bearish technicals threaten floor breach
+4. **Dec 12 pre-blackout in 10 trading days** — very limited window to add new positions even if VIX opens
+5. **Nov 27 thin liquidity** — early close 1pm ET; amplified moves on low volume; avoid chasing
+6. **S&P 500 in correction** — YTD +4.38% only; broad market fragile
+
+### Decision: **HOLD**
+Market closed today (Thanksgiving). VIX gate firmly closed at 28.29 — spiked further on Core PCE hot print.
+No new stock entries. No politician signals. No stops to manage (fractional dust).
+⚠️ Monitor JPM on Nov 27 open: cut if ≤ $305.25. Thin liquidity — do not trade for trading's sake.
+Next gate trigger: VIX confirmed daily close <20 → energy (XOM/COP) or healthcare entry before Dec 12 pre-blackout.
+
