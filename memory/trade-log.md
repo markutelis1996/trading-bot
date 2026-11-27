@@ -15524,3 +15524,50 @@ CLEAN — no discrepancies. No overnight stops triggered.
 - Phase P&L: ~−$6,525 (−6.52% vs $100K start)
 - Next gate trigger: VIX confirmed daily close below 20 → energy (XOM/COP) or healthcare (LLY/UNH/ISRG) before Dec 12 pre-blackout
 - ⚠️ Only ~8-10 trading days left before Dec 12 pre-blackout window (Rule 16 extension)
+
+## 2026-11-27 - Midday Scan (Black Friday — Early Close 1pm ET)
+
+**Portfolio:** $93,779 est | **Cash:** $48,402.75 | **Stocks:** 2 fractional dust | **Market:** CLOSED (early 1pm ET)
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 0.619 frac | 0.618780 | ✓ fractional rounding |
+| JPM | 0.620 frac | 0.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK "/") | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. No active GTC stop orders.
+
+### Position Status (stocks only)
+| Ticker | Shares | Entry | Current | P&L% | -7% Floor | Buffer | Stop | Status |
+|--------|--------|-------|---------|------|-----------|--------|------|--------|
+| WFC | 0.619 frac | $78.38 | $82.37 | +5.09% | $72.89 | +$9.48 (+11.5%) | none (frac) | HOLD |
+| JPM | 0.620 frac | $328.17 | $323.36 | −1.47% | $305.25 | +$18.11 (+5.6%) | none (frac) | HOLD |
+
+### Step 3 — Cuts
+None. WFC +5.09%, JPM −1.47% — both well above −7% rule.
+
+### Step 4 — Stop Tightening
+Both fractional dust; no stop coverage possible. No action.
+
+### Step 5 — Thesis Check
+- **WFC**: +5.09% unrealized; banking transformation thesis intact. HOLD.
+- **JPM**: −1.47% unrealized; well above −7% cut floor $305.25 (buffer +$18.11). HOLD.
+
+### Step 6 — Research
+No sharp unexplained moves. Black Friday thin liquidity session already concluded. VIX gate CLOSED (~26.80 Nov 27 close, needs <20). No new entries permissible.
+
+### Actions
+None. No cuts, no stop tightening, no new entries.
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Status |
+|---|--------|--------|-------|---------|------|------|--------|
+| 1 | WFC | 0.619 frac | $78.38 | $82.37 | +5.09% | none (fractional) | HOLD |
+| 2 | JPM | 0.620 frac | $328.17 | $323.36 | −1.47% | none (fractional) | HOLD |
+
+- Trades this week: 0/7
+- VIX gate CLOSED — next gate trigger: confirmed daily close below 20 → energy (XOM/COP) or healthcare (LLY/UNH/ISRG)
+- ⚠️ ~8-10 trading days left before Dec 12 pre-blackout window
+
+---
