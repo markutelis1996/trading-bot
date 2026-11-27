@@ -15483,3 +15483,44 @@ None. Market closed all day. No cuts (both above −7%), no stop tightening (nei
 
 **Notes:** Black Friday early close — no meaningful stock price movement. Portfolio +$96 (+0.10%) driven by crypto DCA sleeve: LINK +1.8% (MV $6,762), SOL +0.8% (MV $6,690), BTC −0.1% (MV $21,090), ETH −0.3% (MV $10,589). Stock book immaterial — WFC and JPM are fractional dust with no stop coverage. WFC +3.26% unrealized; JPM −3.47% unrealized but above −7% cut floor $305.25 (buffer +$11.49, +3.6%). No trades today; 0 trades this week. VIX gate CLOSED (last confirmed close 26.36) — no new stock entries permissible until VIX confirms daily close below 20. Next week: watch VIX for break below 20 → reassess C (Khanna Oct 14, 41d) + energy (XOM/COP) + healthcare (LLY/UNH/ISRG).
 
+
+---
+
+## 2026-11-27 - Market-Open Session (Black Friday — Early Close 1pm ET)
+
+**Portfolio:** $93,475.08 equity | **Cash:** $48,402.75 (51.8%) | **Deployed:** <1% stocks | **Trades this week:** 0/7
+
+### Step 0 — Reconciliation
+| Ticker | Log Qty | Broker Qty | Match |
+|--------|---------|------------|-------|
+| WFC | 0.619 frac | 0.618780 | ✓ fractional rounding |
+| JPM | 0.620 frac | 0.619794 | ✓ fractional rounding |
+| Crypto (BTC/ETH/SOL/LINK "/") | DCA sleeve | filtered | UNTOUCHABLE |
+
+CLEAN — no discrepancies. No overnight stops triggered.
+
+### Step 1b — Live Price Re-verification
+| Ticker | Last Close | Live Price | Delta | -7% Floor | Buffer | Status |
+|--------|-----------|------------|-------|-----------|--------|--------|
+| WFC | $80.94 | $82.52 | +1.95% | $72.89 | +$9.63 (+11.7%) | HOLD ✓ |
+| JPM | $316.74 | $324.44 | +2.43% | $305.25 | +$19.19 (+5.9%) | HOLD ✓ |
+
+### Step 3 — VIX Gate Check
+- VIX Nov 27 close: ~26.80 (down ~5.3% from 28.29 on Nov 25; intraday high was 34.95 Nov 25)
+- Gate: **CLOSED** — needs confirmed daily close below 20 (currently ~26.80)
+- Black Friday thin liquidity session (early close 1pm ET) already ended when this ran
+
+### Execution Status
+- **Orders placed: 0 (NO TRADES)**
+- Reasons: (1) VIX gate CLOSED at ~26.80; (2) early close session ended; (3) no actionable setups in research log; (4) thin Black Friday liquidity; (5) Dec rate hike locked (Core PCE 3.3% YoY)
+
+### Open Positions
+| # | Ticker | Shares | Entry | Current | P&L% | Stop | Status |
+|---|--------|--------|-------|---------|------|------|--------|
+| 1 | WFC | 0.619 frac | $78.38 | $82.52 | +5.28% | none (fractional) | HOLD |
+| 2 | JPM | 0.620 frac | $328.17 | $324.44 | −1.14% | none (fractional) | HOLD |
+
+- Trades this week: 0/7
+- Phase P&L: ~−$6,525 (−6.52% vs $100K start)
+- Next gate trigger: VIX confirmed daily close below 20 → energy (XOM/COP) or healthcare (LLY/UNH/ISRG) before Dec 12 pre-blackout
+- ⚠️ Only ~8-10 trading days left before Dec 12 pre-blackout window (Rule 16 extension)
