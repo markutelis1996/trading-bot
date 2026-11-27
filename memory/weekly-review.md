@@ -1971,3 +1971,80 @@ Crypto sleeve (all unrealized losses vs cost basis):
 - Crypto sleeve in deep drawdown (-16% to -25% from cost); dominates portfolio ✗
 
 ---
+
+## Week ending 2026-11-27
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $91,700.91 (Nov 20 close) |
+| Ending portfolio | $93,322.76 (Nov 27, Alpaca API) |
+| Week return | +$1,621.85 (+1.77%) |
+| S&P 500 week | +5.65% (SPY $689.81 → $728.78; Thanksgiving recovery) |
+| Bot vs S&P | −3.88% underperformance |
+| Trades | 0 (W:0 / L:0 / open:2 fractional dust) |
+| Win rate | N/A (no closed trades) |
+| Best trade | WFC +5.15% unrealized |
+| Worst trade | JPM −1.06% unrealized |
+| Profit factor | N/A |
+| Phase P&L | −$6,677.24 (−6.68% from $100K start) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+|--------|-------|------|-----|-------|
+| — | — | — | — | No trades closed this week |
+
+### Open Positions at Week End
+| Ticker | Shares | Entry | Close (Nov 27) | Unrealized | Stop | HWM |
+|--------|--------|-------|----------------|------------|------|-----|
+| WFC | 0.619 frac | $78.38 | $82.42 | +$2.50 (+5.15%) | none (fractional) | — |
+| JPM | 0.620 frac | $328.17 | $324.70 | −$2.15 (−1.06%) | none (fractional) | — |
+
+Stock deployed: ~$252 / $93,323 = 0.3% | Cash $48,403 (51.8%) | Crypto DCA sleeve ~$44,668 (47.9%) — UNTOUCHABLE
+
+Crypto sleeve (all unrealized losses vs cost basis):
+- BTC: $20,825 MV vs $24,608 cost (−15.4%)
+- ETH: $10,395 MV vs $13,492 cost (−23.0%)
+- SOL: $6,717 MV vs $8,395 cost (−20.0%)
+- LINK: $6,731 MV vs $7,593 cost (−11.4%)
+
+### What Worked
+- VIX gate discipline maintained throughout (VIX 26.36→28.29→26.80): 0 new entries; Core PCE 3.3% YoY + GDP Q3 4.3% confirmed Dec 16–17 FOMC hike — entering new positions into this macro environment would have been wrong
+- Holiday-week thin-liquidity discipline: no forced trading on Thanksgiving eve (Nov 25 1pm close), Thanksgiving (Nov 26 closed), or Black Friday (Nov 27 1pm close)
+- Both stock positions held above −7% cut thresholds all week: WFC expanded from +3.1% → +5.15%; JPM recovered from −3.5% → −1.06%, buffer to cut floor widened from 3.6% to 6.0%
+- Reconciliation clean all 4 sessions: broker state matched trade log exactly every run
+- Crypto sleeve drove most of the week's portfolio gain: Mon Nov 23 crypto recovery +$2,399 offset subsequent drift
+
+### What Didn't Work
+- S&P 500 +5.65% week (Thanksgiving recovery rally) vs bot +1.77% = −3.88% underperformance; market staged holiday melt-up while bot sat idle in fractional dust + cash
+- Stock deployment structurally broken: 0.3% stock sleeve (MV $252) for 15+ consecutive weeks; impossible to generate alpha with de minimis stock exposure
+- Portfolio 51.8% cash ($48,403) earns nothing; 47.9% crypto DCA sleeve in deep drawdown (avg −17.5% from cost); result is dominated by crypto volatility not stock selection
+- Phase P&L −6.68% from $100K — deepening further; Dec 12 pre-blackout (Rule 16 extension) only 8–10 trading days away, sharply narrowing recovery window
+- VIX gate (threshold 20) prevented capturing the full Thanksgiving recovery: VIX 26-28 is structurally elevated by Dec FOMC hike expectations; gate may remain closed until post-FOMC
+
+### Key Lessons
+- **Holiday melt-up + VIX gate conflict**: Thanksgiving weeks historically produce positive drift; VIX was elevated (26–28) not from fear but from FOMC uncertainty — the gate correctly blocked entries but also blocked the best week since the Nov 20 rout
+- **JPM technical bear case did not resolve into cut**: bearish 10d < 50d MA crossover + MACD negative did NOT produce a −7% cut; buffer actually expanded from 3.6% → 6.0% intraday; technicals were correct directionally but not to cut severity
+- **Dec 12 pre-blackout proximity is now a primary constraint**: only 8–10 trading sessions remain before Rule 16 extension blocks new entries; if VIX doesn't break below 20 this week (Dec 1–5), Q4 may produce zero additional entries
+- **Crypto sleeve continues to dominate P&L**: at $44.7K vs $252 stocks + $48.4K cash, any crypto move of 1% = $447 portfolio impact; a full stock slot ($14K at 15%) gain/loss = $1.4K max; crypto has 3× the per-unit impact of a full stock position at this deployment level
+
+### Adjustments for Next Week (Dec 1–5)
+- **Primary trigger**: VIX confirmed daily close below 20 → energy (XOM or COP: OPEC+ Nov 29 met, Goldman $105 Brent Dec target) + healthcare (LLY or ISRG: strongest 3M sector momentum)
+- **OPEC+ outcome**: meeting was Nov 29 (weekend) — confirm production decision Mon Dec 1 pre-market; if production cut extended or deepened → energy entry thesis strengthened
+- **Dec 12 pre-blackout hard stop**: no new entries from Dec 12 onward (Rule 16 extension); if VIX doesn't open by ~Dec 5, all entry attempts are suspended until Jan 2027
+- **WFC**: hold; +5.15% unrealized; BofA Buy PT $100 (current $82.42); banking transformation thesis intact; Dec FOMC hike is a headwind but position is small (fractional dust, MV $51)
+- **JPM**: hold; −1.06% unrealized; buffer $19.45 to cut floor; if Dec FOMC hike is hawkish, monitor for $305 test; MV $201 is immaterial but −7% rule applies
+- **Do NOT lower VIX gate threshold**: stay at 20; Thanksgiving-week underperformance is acceptable cost for avoiding entries into elevated FOMC uncertainty
+
+### Overall Grade: C
+- +1.77% vs S&P +5.65% = −3.88% underperformance ✗
+- 0 new trades; stock deployment 0.3% — structurally broken ✗
+- Phase P&L −6.68%; deepening from −8.30% start of week (crypto recovered) ↔
+- VIX gate discipline correct — no bad entries into volatile Thanksgiving week ✓
+- Holiday-week hold discipline correct ✓
+- Crypto sleeve partial recovery drove +$1,621 portfolio gain ✓
+- Positive: WFC +5.15% and JPM buffer expanded — stock picks are directionally sound ✓
+- Negative: cannot measure stock alpha with 0.3% stock exposure ✗
+- Q4 endgame risk: only 8–10 trading sessions left before year-end blackout zone ✗
+
+---
